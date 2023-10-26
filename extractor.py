@@ -56,7 +56,8 @@ def extract_links_sequence(file_path):
 
 def get_pptx_file():
     script_directory = os.path.dirname(os.path.abspath(__file__))
-    path = Path(script_directory).parent / 'pptx'
+    #expect hsu-pptx to be in the same directory as this script
+    path = Path(script_directory).parent / 'hsu-pptx'
 
     # Use glob to filter and sort .pptx files
     file_list = sorted(glob.glob(os.path.join(path, '*.pptx')))
