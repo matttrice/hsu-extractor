@@ -28,9 +28,9 @@ def extract_links_sequence(file_path):
                     text = ''
                     for paragraph in text_frame.paragraphs:
                         for run in paragraph.runs:
-                            text += run.text
+                            text += run.text.strip()
 
-                # Extract hyperlinks (if any)
+                    # Extract hyperlinks (if any)
                     hyperlinks = []
                     for paragraph in text_frame.paragraphs:
                         for run in paragraph.runs:
@@ -38,11 +38,12 @@ def extract_links_sequence(file_path):
                                 for hyperlink in run.hyperlink._hlinkClick:
                                     hyperlinks.append(hyperlink.address)
 
-                # Generate HTML/Markdown for the text box
-                    content.append(f"<div v-click='{sequence}' class='text-xs group/ii'>{text}")
-                    for i, hyperlink in enumerate(hyperlinks):
-                        content.append(f"<a href='{hyperlink}' v-click='{sequence + i + 1}'></a>")
-                    content.append("</div>")
+                    if text:
+                        # Generate HTML/Markdown for the text box
+                        content.append(f"<div v-click='{sequence}' class='text-xs group/ii'>{text}")
+                        for i, hyperlink in enumerate(hyperlinks):
+                            content.append(f"<a href='{hyperlink}' v-click='{sequence + i + 1}'></a>")
+                        content.append("</div>")
 
                 # Increment the sequence
                     sequence += len(hyperlinks) + 1
@@ -52,7 +53,7 @@ def extract_links_sequence(file_path):
 
     # Convert the content list to a single string
         html_output = '\n'.join(content)
-        return html_output
+    return html_output
 
 def get_pptx_file():
     script_directory = os.path.dirname(os.path.abspath(__file__))
