@@ -19,6 +19,7 @@ def extract_links_sequence(file_path):
 
 # Iterate through slides in the presentation
     for slide in prs.slides:
+        #sequence = slide.timeline.main_sequence
         for shape in slide.shapes:
         # Check if the shape is a text box
             if shape.has_text_frame:
@@ -29,7 +30,8 @@ def extract_links_sequence(file_path):
                     for paragraph in text_frame.paragraphs:
                         for run in paragraph.runs:
                             text += run.text.strip()
-
+                        if run.text:
+                            pass
                     # Extract hyperlinks (if any)
                     hyperlinks = []
                     for paragraph in text_frame.paragraphs:
@@ -40,7 +42,7 @@ def extract_links_sequence(file_path):
 
                     if text:
                         # Generate HTML/Markdown for the text box
-                        content.append(f"<div v-click='{sequence}' class='text-xs group/ii'>{text}")
+                        content.append(f"<div v-click='{sequence}'>{text}")
                         for i, hyperlink in enumerate(hyperlinks):
                             content.append(f"<a href='{hyperlink}' v-click='{sequence + i + 1}'></a>")
                         content.append("</div>")
@@ -57,9 +59,15 @@ def extract_links_sequence(file_path):
 
 def get_pptx_file():
     script_directory = os.path.dirname(os.path.abspath(__file__))
-    #expect hsu-pptx to be in the same directory as this script
+   
+    #expect hsu-pptx or pptx folder to be in the same directory as this script
     path = Path(script_directory).parent / 'hsu-pptx'
-
+    if not path.is_dir():
+        path = Path(script_directory).parent / 'pptx'    
+    if not path.is_dir():
+        print(f"Error. Files not found in: {Path(script_directory).parent}\n" 
+              f"Add a folder named 'pptx' to the same directory as this script and add .pptx files to it.")
+        exit()
     # Use glob to filter and sort .pptx files
     file_list = sorted(glob.glob(os.path.join(path, '*.pptx')))
 
@@ -72,13 +80,13 @@ def get_pptx_file():
    # Ask the user to select a file
     while True:
         try:
-            selection = int(input("Enter the number of the file you want to select (0 to exit): "))
+            selection = int(input("Enter the number of the file you want to extract text from (0 to exit): "))
             
             # Check if the selection is valid
             if 0 <= selection <= len(file_list):
                 if selection == 0:
                     print("Exiting...")
-                    break
+                    exit()
                 else:
                     selected_file = file_list[selection - 1]
                     print(f"Selected: {selected_file}")
