@@ -27,8 +27,7 @@ def extract_links_sequence(file_path):
                     for paragraph in text_frame.paragraphs:
                         for run in paragraph.runs:
                             text += run.text.strip()
-                        if run.text:
-                            pass
+                            
                     # Extract hyperlinks (if any)
                     hyperlinks = []
                     for paragraph in text_frame.paragraphs:
