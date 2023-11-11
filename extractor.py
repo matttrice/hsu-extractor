@@ -3,9 +3,6 @@ import glob
 from pathlib import Path
 from pptx import Presentation
 
-import os
-
-
 def extract_links_sequence(file_path):
 
     prs = Presentation(file_path)
