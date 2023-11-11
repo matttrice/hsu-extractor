@@ -14,7 +14,8 @@ Parses a directory of powerpoint files and extracts the text to html divs with t
 
 ## Usage
 
-Add a folder named `pptx` in the same directory as `extractr.py` and add the powerpoint files to be parsed in that folder. Then run the script.
+Add a directory named `pptx` at the same level, next to this repo. Add powerpoint files to be parsed by the extractor in that folder. Then run the script.
+You will be presented with the list of pptx files in the directory. Select the file you want to parse and the script will output the html to the console.
 
 ```bash
 python extractr.py
