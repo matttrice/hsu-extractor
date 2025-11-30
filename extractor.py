@@ -1,57 +1,260 @@
 import os
 import glob
+import json
+import zipfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from pptx import Presentation
+from pptx.util import Inches, Pt, Emu
 
-def extract_links_sequence(file_path):
+# XML namespaces used in PPTX files
+NAMESPACES = {
+    'a': 'http://schemas.openxmlformats.org/drawingml/2006/main',
+    'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
+    'p': 'http://schemas.openxmlformats.org/presentationml/2006/main',
+}
 
-    prs = Presentation(file_path)
+def get_text_from_shape_xml(shape_elem):
+    """Extract all text from a shape XML element."""
+    texts = []
+    for t in shape_elem.findall('.//a:t', NAMESPACES):
+        if t.text:
+            texts.append(t.text)
+    return ''.join(texts).strip()
 
-# Initialize variables to keep track of sequence and slide number
-    sequence = 1
-    slide_number = 1
+def get_hyperlink_from_shape_xml(shape_elem):
+    """Extract hyperlink action from shape XML element."""
+    # Check for hlinkClick on the shape itself (cNvPr)
+    cNvPr = shape_elem.find('.//p:cNvPr', NAMESPACES)
+    if cNvPr is not None:
+        hlinkClick = cNvPr.find('a:hlinkClick', NAMESPACES)
+        if hlinkClick is not None:
+            action = hlinkClick.get('action', '')
+            if 'customshow' in action.lower():
+                # Extract custom show ID
+                import re
+                match = re.search(r'id=(\d+)', action)
+                if match:
+                    return {'type': 'customshow', 'id': int(match.group(1))}
+            elif action:
+                return {'type': 'action', 'action': action}
+    
+    # Check for hyperlinks in text runs
+    for hlinkClick in shape_elem.findall('.//a:hlinkClick', NAMESPACES):
+        action = hlinkClick.get('action', '')
+        if 'customshow' in action.lower():
+            import re
+            match = re.search(r'id=(\d+)', action)
+            if match:
+                return {'type': 'customshow', 'id': int(match.group(1))}
+        elif action:
+            return {'type': 'action', 'action': action}
+    
+    return None
 
-# Initialize an empty list to store the HTML/Markdown content
-    content = []
+def parse_animation_sequence(slide_xml_content):
+    """Parse animation sequence from slide XML and return ordered list of shape IDs."""
+    root = ET.fromstring(slide_xml_content)
+    animation_order = []
+    
+    # Find all spTgt (shape targets) in the timing section
+    for spTgt in root.findall('.//p:spTgt', NAMESPACES):
+        spid = spTgt.get('spid')
+        if spid and spid not in animation_order:
+            animation_order.append(spid)
+    
+    return animation_order
 
-# Iterate through slides in the presentation
-    for slide in prs.slides:
-        #sequence = slide.timeline.main_sequence
-        for shape in slide.shapes:
-        # Check if the shape is a text box
-            if shape.has_text_frame:
-                text_frame = shape.text_frame
-                if text_frame.paragraphs:
-                # Extract text from the text box
-                    text = ''
-                    for paragraph in text_frame.paragraphs:
-                        for run in paragraph.runs:
-                            text += run.text.strip()
+def parse_shapes_from_slide(slide_xml_content):
+    """Parse all shapes from slide XML and return dict keyed by shape ID."""
+    root = ET.fromstring(slide_xml_content)
+    shapes = {}
+    
+    # Find all sp (shape) elements
+    for sp in root.findall('.//p:sp', NAMESPACES):
+        nvSpPr = sp.find('p:nvSpPr', NAMESPACES)
+        if nvSpPr is not None:
+            cNvPr = nvSpPr.find('p:cNvPr', NAMESPACES)
+            if cNvPr is not None:
+                shape_id = cNvPr.get('id')
+                shape_name = cNvPr.get('name', '')
+                text = get_text_from_shape_xml(sp)
+                hyperlink = get_hyperlink_from_shape_xml(sp)
+                
+                if shape_id:
+                    shapes[shape_id] = {
+                        'id': shape_id,
+                        'name': shape_name,
+                        'text': text,
+                        'hyperlink': hyperlink
+                    }
+    
+    return shapes
+
+def parse_custom_shows(pptx_path):
+    """Parse custom shows from presentation.xml."""
+    custom_shows = {}
+    
+    with zipfile.ZipFile(pptx_path, 'r') as zf:
+        try:
+            pres_xml = zf.read('ppt/presentation.xml').decode('utf-8')
+            root = ET.fromstring(pres_xml)
+            
+            # Get slide ID to rId mapping
+            slide_map = {}
+            for sldId in root.findall('.//p:sldId', NAMESPACES):
+                slide_id = sldId.get('id')
+                r_id = sldId.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
+                if slide_id and r_id:
+                    slide_map[r_id] = slide_id
+            
+            # Parse relationships to map rId to slide file
+            rels_xml = zf.read('ppt/_rels/presentation.xml.rels').decode('utf-8')
+            rels_root = ET.fromstring(rels_xml)
+            rid_to_slide = {}
+            for rel in rels_root.findall('.//{http://schemas.openxmlformats.org/package/2006/relationships}Relationship'):
+                r_id = rel.get('Id')
+                target = rel.get('Target')
+                if target and 'slide' in target.lower() and not 'layout' in target.lower() and not 'master' in target.lower():
+                    rid_to_slide[r_id] = target
+            
+            # Parse custom shows
+            for custShow in root.findall('.//p:custShow', NAMESPACES):
+                show_name = custShow.get('name', '')
+                show_id = custShow.get('id')
+                
+                if show_id:
+                    slides_content = []
+                    for sld in custShow.findall('.//p:sld', NAMESPACES):
+                        r_id = sld.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
+                        if r_id and r_id in rid_to_slide:
+                            slide_file = rid_to_slide[r_id]
+                            # Read the slide content
+                            try:
+                                slide_path = f'ppt/{slide_file}' if not slide_file.startswith('slides/') else f'ppt/{slide_file}'
+                                if slide_file.startswith('slides/'):
+                                    slide_path = f'ppt/{slide_file}'
+                                slide_xml = zf.read(slide_path).decode('utf-8')
+                                shapes = parse_shapes_from_slide(slide_xml)
+                                # Get all text from shapes with content
+                                slide_texts = []
+                                for shape in shapes.values():
+                                    if shape['text']:
+                                        slide_texts.append(shape['text'])
+                                slides_content.append({
+                                    'slide_file': slide_file,
+                                    'texts': slide_texts
+                                })
+                            except Exception as e:
+                                slides_content.append({
+                                    'slide_file': slide_file,
+                                    'error': str(e)
+                                })
+                    
+                    custom_shows[int(show_id)] = {
+                        'name': show_name,
+                        'id': int(show_id),
+                        'slides': slides_content
+                    }
+        except Exception as e:
+            print(f"Error parsing custom shows: {e}")
+    
+    return custom_shows
+
+def save_presentation_structure(prs, file_path):
+    """Save a simplified representation focusing on animation order and hyperlinks."""
+    
+    custom_shows = parse_custom_shows(file_path)
+    
+    presentation_data = {
+        "file_path": str(file_path),
+        "file_name": Path(file_path).name,
+        "total_slides": len(prs.slides),
+        "custom_shows": custom_shows,
+        "slides": []
+    }
+    
+    with zipfile.ZipFile(file_path, 'r') as zf:
+        for slide_num, slide in enumerate(prs.slides, 1):
+            slide_file = f'ppt/slides/slide{slide_num}.xml'
+            
+            try:
+                slide_xml = zf.read(slide_file).decode('utf-8')
+                
+                # Get animation order
+                animation_order = parse_animation_sequence(slide_xml)
+                
+                # Get all shapes
+                shapes = parse_shapes_from_slide(slide_xml)
+                
+                # Build ordered animation list
+                animation_sequence = []
+                sequence_num = 1
+                
+                for shape_id in animation_order:
+                    if shape_id in shapes:
+                        shape = shapes[shape_id]
+                        if shape['text']:  # Only include shapes with text
+                            entry = {
+                                'sequence': sequence_num,
+                                'text': shape['text'],
+                                'shape_name': shape['name']
+                            }
                             
-                    # Extract hyperlinks (if any)
-                    hyperlinks = []
-                    for paragraph in text_frame.paragraphs:
-                        for run in paragraph.runs:
-                            if run.hyperlink._hlinkClick:
-                                for hyperlink in run.hyperlink._hlinkClick:
-                                    hyperlinks.append(hyperlink.address)
+                            # Add hyperlink info if present
+                            if shape['hyperlink']:
+                                entry['hyperlink'] = shape['hyperlink']
+                                # If it's a custom show, include the linked content
+                                if shape['hyperlink']['type'] == 'customshow':
+                                    cs_id = shape['hyperlink']['id']
+                                    if cs_id in custom_shows:
+                                        entry['linked_content'] = custom_shows[cs_id]
+                            
+                            animation_sequence.append(entry)
+                            sequence_num += 1
+                
+                # Also get shapes that might not be animated (static content)
+                static_shapes = []
+                animated_ids = set(animation_order)
+                for shape_id, shape in shapes.items():
+                    if shape_id not in animated_ids and shape['text']:
+                        static_entry = {
+                            'text': shape['text'],
+                            'shape_name': shape['name'],
+                            'static': True
+                        }
+                        if shape['hyperlink']:
+                            static_entry['hyperlink'] = shape['hyperlink']
+                            if shape['hyperlink']['type'] == 'customshow':
+                                cs_id = shape['hyperlink']['id']
+                                if cs_id in custom_shows:
+                                    static_entry['linked_content'] = custom_shows[cs_id]
+                        static_shapes.append(static_entry)
+                
+                slide_info = {
+                    'slide_number': slide_num,
+                    'animation_sequence': animation_sequence,
+                }
+                
+                if static_shapes:
+                    slide_info['static_content'] = static_shapes
+                
+                presentation_data['slides'].append(slide_info)
+                
+            except Exception as e:
+                presentation_data['slides'].append({
+                    'slide_number': slide_num,
+                    'error': str(e)
+                })
+    
+    # Save to JSON file
+    output_path = Path(file_path).with_suffix('.json')
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(presentation_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Presentation structure saved to: {output_path}")
+    return output_path
 
-                    if text:
-                        # Generate HTML/Markdown for the text box
-                        content.append(f"<div v-click='{sequence}'>{text}")
-                        for i, hyperlink in enumerate(hyperlinks):
-                            content.append(f"<a href='{hyperlink}' v-click='{sequence + i + 1}'></a>")
-                        content.append("</div>")
-
-                # Increment the sequence
-                    sequence += len(hyperlinks) + 1
-
-    # Increment slide number
-        slide_number += 1
-
-    # Convert the content list to a single string
-        html_output = '\n'.join(content)
-    return html_output
 
 def get_pptx_file():
     script_directory = os.path.dirname(os.path.abspath(__file__))
@@ -96,9 +299,11 @@ def get_pptx_file():
 def main():
     ## data = read_pptx_list()
     file_name = get_pptx_file()
-    modified_data = extract_links_sequence(file_name)
-    print(modified_data)
-
+    
+    # Load the presentation
+    prs = Presentation(file_name)
+    
+    save_presentation_structure(prs, file_name)
 
 if __name__ == "__main__":
     main()
