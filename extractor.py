@@ -589,8 +589,20 @@ def get_pptx_file():
             print("Invalid input. Please enter a valid number.")
 
 def main():
-    ## data = read_pptx_list()
-    file_name = get_pptx_file()
+    import sys
+    
+    # Accept file path as command-line argument, or fall back to interactive selection
+    if len(sys.argv) > 1:
+        file_name = sys.argv[1]
+        if not os.path.exists(file_name):
+            print(f"Error: File not found: {file_name}")
+            exit(1)
+        if not file_name.endswith('.pptx'):
+            print(f"Error: File must be a .pptx file: {file_name}")
+            exit(1)
+        print(f"Processing: {file_name}")
+    else:
+        file_name = get_pptx_file()
     
     # Load the presentation
     prs = Presentation(file_name)
