@@ -142,7 +142,8 @@ def extract_font_style(shape):
                     if font.name:
                         font_data['font_name'] = font.name
                     if font.size:
-                        font_data['font_size'] = round(font.size.pt, 1)
+                        # Convert points to CSS pixels (96 DPI / 72 DPI = 1.333)
+                        font_data['font_size'] = round(font.size.pt * (96 / 72), 1)
                     if font.bold:
                         font_data['bold'] = font.bold
                     if font.italic:
@@ -466,62 +467,61 @@ def save_presentation_structure(prs, file_path):
                 for shape_id in animation_order:
                     if shape_id in shapes:
                         shape = shapes[shape_id]
-                        if shape['text']:  # Only include shapes with text
-                            entry = {
-                                'sequence': sequence_num,
-                                'text': shape['text'],
-                                'shape_name': shape['name']
-                            }
-                            
-                            # Add visual data if available
-                            if shape_id in pptx_shapes_by_id:
-                                pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
-                                visual = extract_shape_visual_data(pptx_shape, z_idx)
-                                if visual:
-                                    for key, value in visual.items():
-                                        entry[key] = value
-                            
-                            # Add hyperlink info if present
-                            if shape['hyperlink']:
-                                entry['hyperlink'] = shape['hyperlink']
-                                # If it's a custom show, include the linked content
-                                if shape['hyperlink']['type'] == 'customshow':
-                                    cs_id = shape['hyperlink']['id']
-                                    if cs_id in custom_shows:
-                                        entry['linked_content'] = custom_shows[cs_id]
-                            
-                            animation_sequence.append(entry)
-                            sequence_num += 1
+                        # Include all animated shapes (text or not - could be rectangles, decorative shapes)
+                        entry = {
+                            'sequence': sequence_num,
+                            'text': shape['text'] if shape['text'] else '',
+                            'shape_name': shape['name']
+                        }
+                        
+                        # Add visual data if available
+                        if shape_id in pptx_shapes_by_id:
+                            pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
+                            visual = extract_shape_visual_data(pptx_shape, z_idx)
+                            if visual:
+                                for key, value in visual.items():
+                                    entry[key] = value
+                        
+                        # Add hyperlink info if present
+                        if shape['hyperlink']:
+                            entry['hyperlink'] = shape['hyperlink']
+                            # If it's a custom show, include the linked content
+                            if shape['hyperlink']['type'] == 'customshow':
+                                cs_id = shape['hyperlink']['id']
+                                if cs_id in custom_shows:
+                                    entry['linked_content'] = custom_shows[cs_id]
+                        
+                        animation_sequence.append(entry)
+                        sequence_num += 1
                 
                 # Also get shapes that might not be animated (static content)
                 static_shapes = []
                 animated_ids = set(animation_order)
                 for shape_id, shape in shapes.items():
                     if shape_id not in animated_ids:
-                        # Include connectors even without text
-                        has_content = shape['text'] or shape.get('is_connector')
-                        if has_content:
-                            static_entry = {
-                                'text': shape['text'],
-                                'shape_name': shape['name'],
-                                'static': True
-                            }
-                            
-                            # Add visual data if available
-                            if shape_id in pptx_shapes_by_id:
-                                pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
-                                visual = extract_shape_visual_data(pptx_shape, z_idx)
-                                if visual:
-                                    for key, value in visual.items():
-                                        static_entry[key] = value
-                            
-                            if shape['hyperlink']:
-                                static_entry['hyperlink'] = shape['hyperlink']
-                                if shape['hyperlink']['type'] == 'customshow':
-                                    cs_id = shape['hyperlink']['id']
-                                    if cs_id in custom_shows:
-                                        static_entry['linked_content'] = custom_shows[cs_id]
-                            static_shapes.append(static_entry)
+                        # Include all shapes - text, connectors, or decorative rectangles
+                        # Skip if it's truly empty (no text, no visual importance)
+                        static_entry = {
+                            'text': shape['text'] if shape['text'] else '',
+                            'shape_name': shape['name'],
+                            'static': True
+                        }
+                        
+                        # Add visual data if available
+                        if shape_id in pptx_shapes_by_id:
+                            pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
+                            visual = extract_shape_visual_data(pptx_shape, z_idx)
+                            if visual:
+                                for key, value in visual.items():
+                                    static_entry[key] = value
+                        
+                        if shape['hyperlink']:
+                            static_entry['hyperlink'] = shape['hyperlink']
+                            if shape['hyperlink']['type'] == 'customshow':
+                                cs_id = shape['hyperlink']['id']
+                                if cs_id in custom_shows:
+                                    static_entry['linked_content'] = custom_shows[cs_id]
+                        static_shapes.append(static_entry)
                 
                 slide_info = {
                     'slide_number': slide_num,
