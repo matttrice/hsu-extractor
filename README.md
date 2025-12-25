@@ -1,7 +1,13 @@
-## Powerpoint Text Extractor
+## PowerPoint Extractor
 
-Parses a directory of PowerPoint files and extracts:
-2. **JSON structure** - Complete presentation structure with animation sequences and hyperlinks (including custom shows)
+Parses PowerPoint files and extracts complete presentation data including:
+
+- **Animation sequences** - Ordered list of elements as they appear during presentation
+- **Layout data** - Exact positions, dimensions, and styling (font, color, borders)
+- **Custom shows** - Hyperlinked drill content with full slide data
+- **Static content** - Non-animated elements that appear immediately
+
+Font sizes are automatically converted from PowerPoint points to CSS pixels (× 1.333).
 
 ## Install
     
@@ -22,6 +28,12 @@ Add a directory named `pptx` (or `hsu-pptx`) at the same level, next to this rep
 python extractor.py
 ```
 
-You will be presented with the list of pptx files in the directory. Select the file you want to parse and the script will:
-1. Generate a `.json` file with the same name as the PowerPoint file
-2. Output the HTML to the console
+You will be presented with the list of pptx files in the directory. Select the file you want to parse and the script will generate a `.json` file in the `extracted/` folder.
+
+```
+hsu-extractor/
+├── extractor.py
+├── extracted/           ← JSON output files go here
+│   ├── 09-The_Promises.json
+│   └── ...
+```

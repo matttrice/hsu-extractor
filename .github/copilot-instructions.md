@@ -66,6 +66,8 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "sequence": 1,
     "text": "Genesis 12:1-3",
     "shape_name": "Text Box 5",
+    "layout": { "x": 59.9, "y": 9.0, "width": 259.2, "height": 36.0 },
+    "font": { "font_size": 25.2, "bold": true, "color": "#0000CC" },
     "hyperlink": {
       "type": "customshow",
       "id": 2
@@ -79,7 +81,9 @@ The `animation_sequence` array lists text elements in the order they appear duri
   {
     "sequence": 2,
     "text": "Great Nation",
-    "shape_name": "Text Box 12"
+    "shape_name": "Text Box 12",
+    "layout": { "x": 112.8, "y": 115.5, "width": 180.0, "height": 28.9 },
+    "font": { "font_size": 21.6, "bold": true }
   }
 ]
 ```
@@ -87,6 +91,18 @@ The `animation_sequence` array lists text elements in the order they appear duri
 - **sequence**: The order number (1, 2, 3...) for when this element appears
 - **text**: The text content of the element
 - **shape_name**: Original PowerPoint shape name (for reference)
+- **layout**: Position and dimensions in pixels (960×540 canvas):
+  - **x**, **y**: Top-left position
+  - **width**, **height**: Dimensions
+  - **rotation**: Optional rotation in degrees
+- **font**: Typography settings:
+  - **font_size**: Size in CSS pixels (PowerPoint points × 1.333)
+  - **font_name**: Font family name
+  - **bold**, **italic**: Boolean flags
+  - **color**: Hex color (e.g., `"#0000CC"`)
+  - **alignment**: `"left"`, `"center"`, or `"right"`
+- **fill**: Background color (hex)
+- **line**: Border styling: `{ color, width }`
 - **hyperlink** (optional): If the element is clickable:
   - **type**: `"customshow"` for links to custom shows
   - **id**: The custom show ID to display
@@ -101,6 +117,8 @@ Elements that appear immediately (not animated) are listed in `static_content`:
   {
     "text": "The Promises",
     "shape_name": "Rectangle 63",
+    "layout": { "x": 0, "y": 0, "width": 960, "height": 50 },
+    "font": { "font_size": 36, "bold": true, "alignment": "center" },
     "static": true
   }
 ]

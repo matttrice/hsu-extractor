@@ -1,0 +1,2002 @@
+{
+  "file_path": "/Users/badger/projects/hsu-pptx/04-Life.pptx",
+  "file_name": "04-Life.pptx",
+  "total_slides": 27,
+  "custom_shows": {
+    "0": {
+      "name": "Genesis1.11",
+      "id": 0,
+      "slides": [
+        {
+          "slide_file": "slides/slide6.xml",
+          "texts": [
+            "Genesis 1:11-12",
+            "Then God said, “Let the land produce vegetation: seed-bearing plants and trees on the land that bear fruit with seed in it, according to their various kinds.” And it was so. [12] The land produced vegetation: plants bearing seed according to their kinds and trees bearing fruit with seed in it according to their kinds. And God saw that it was good.",
+            "NIV"
+          ]
+        }
+      ]
+    },
+    "1": {
+      "name": "Genesis1.20",
+      "id": 1,
+      "slides": [
+        {
+          "slide_file": "slides/slide7.xml",
+          "texts": [
+            "Genesis 1:20-25",
+            "And God said, “Let the water teem with living creatures, and let birds fly above the earth across the vault of the sky.” [21] So God created the great creatures of the sea and every living thing with which the water teems and that moves about in it, according to their kinds, and every winged bird according to its kind. And God saw that it was good. [22] God blessed them and said, “Be fruitful and increase in number and fill the water in the seas, and let the birds increase on the earth.” [23] And there was evening, and there was morning—the fifth day. [24] And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so. [25] God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good.",
+            "NIV"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "name": "Genesis1.26",
+      "id": 2,
+      "slides": [
+        {
+          "slide_file": "slides/slide8.xml",
+          "texts": [
+            "Genesis 1:26-27",
+            "Then God said, \"Let Us make man in Our image, according to Our likeness; and let them rule over the fish of the sea and over the birds of the sky and over the cattle and over all the earth, and over every creeping thing that creeps on the earth.\" \t\t[27] God created man in His own image, \tin the image of God He created him; \tmale and female He created them.",
+            "NASB95"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "name": "Genesis3.19",
+      "id": 3,
+      "slides": [
+        {
+          "slide_file": "slides/slide9.xml",
+          "texts": [
+            "Genesis 3:19",
+            "By the sweat of your face You will eat bread, Till you return to the ground, Because from it you were taken; For you are dust, And to dust you shall return.",
+            "NASB95"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "name": "Leviticus17.11",
+      "id": 4,
+      "slides": [
+        {
+          "slide_file": "slides/slide10.xml",
+          "texts": [
+            "Leviticus 17:11",
+            "For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your souls; for it is the blood by reason of the life that makes atonement.",
+            "NASB95"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "name": "James2.26",
+      "id": 5,
+      "slides": [
+        {
+          "slide_file": "slides/slide22.xml",
+          "texts": [
+            "James 2:26",
+            "For just as the body without the spirit is dead, so also faith without works is dead.",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "name": "Ecclesiastes3.19",
+      "id": 6,
+      "slides": [
+        {
+          "slide_file": "slides/slide12.xml",
+          "texts": [
+            "Ecclesiastes 3:19-21",
+            "Surely the fate of human beings is like that of the animals; the same fate awaits them both: As one dies, so dies the other. All have the same breath*; humans have no advantage over animals. Everything is meaningless. [20] All go to the same place; all come from dust, and to dust all return. [21] Who knows if the human spirit rises upward and if the spirit of the animal goes down into the earth?”",
+            "NASB2020",
+            "*NIV (or spirit)"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "name": "1Thessalonians5.23",
+      "id": 7,
+      "slides": [
+        {
+          "slide_file": "slides/slide20.xml",
+          "texts": [
+            "1 Thessalonians 5:23",
+            "Now may the God of peace Himself sanctify you entirely; and may your spirit and soul and body be kept complete, without blame at the coming of our Lord Jesus Christ.",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "name": "Ecclesiaastes12.7",
+      "id": 8,
+      "slides": [
+        {
+          "slide_file": "slides/slide13.xml",
+          "texts": [
+            "Ecclesiastes 3:20 All go to the same place; all come from dust, and to dust all return.",
+            "Ecclesiastes 12:7",
+            "Remember him—before the silver cord is severed, and the golden bowl is broken; before the pitcher is shattered at the spring, and the wheel broken at the well, [7] and the dust returns to the ground it came from, and the spirit returns to God who gave it.",
+            "NASB2020",
+            "NIV"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "name": "Ezekiel18.4",
+      "id": 9,
+      "slides": [
+        {
+          "slide_file": "slides/slide14.xml",
+          "texts": [
+            "Ezekiel 18:4",
+            "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "name": "Hebrews9.27",
+      "id": 10,
+      "slides": [
+        {
+          "slide_file": "slides/slide21.xml",
+          "texts": [
+            "Hebrews 9:27",
+            "And just as it is destined for people to die once, and after this comes judgment,Hebrews 9:27And inasmuch as it is appointed for men to die once and after this comes judgment,",
+            "NASB2020",
+            "NASB95"
+          ]
+        }
+      ]
+    },
+    "11": {
+      "name": "Matthew16.26",
+      "id": 11,
+      "slides": [
+        {
+          "slide_file": "slides/slide15.xml",
+          "texts": [
+            "Matthew 16:26",
+            "For what good will it do a person if he gains the whole world, but forfeits his soul? Or what will a person give in exchange for his soul?",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "12": {
+      "name": "Luke11.24",
+      "id": 12,
+      "slides": [
+        {
+          "slide_file": "slides/slide16.xml",
+          "texts": [
+            "“When the unclean spirit comes out of a person, it passes through waterless places seeking rest, and not finding any, it then says, ‘I will return to my house from which I came.’ [25] And when it comes, it finds it swept and put in order. [26] Then it goes and brings along seven other spirits more evil than itself, and they come in and live there; and the last condition of that person becomes worse than the first.”",
+            "Luke 11:24-26",
+            "You are a house of spirits; kept alive by a spirit (in your blood) and tutored by spirits (in your mind)",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "13": {
+      "name": "Jude1.10",
+      "id": 13,
+      "slides": [
+        {
+          "slide_file": "slides/slide23.xml",
+          "texts": [
+            "But these men revile the things which they do not understand; and the things which they know by instinct, like unreasoning animals, by these things they are destroyed.",
+            "Jude 1:10",
+            "NASB95"
+          ]
+        }
+      ]
+    },
+    "14": {
+      "name": "2Peter2.12",
+      "id": 14,
+      "slides": [
+        {
+          "slide_file": "slides/slide17.xml",
+          "texts": [
+            "But these, like unreasoning animals, born as creatures of instinct to be captured and killed, using abusive speech where they have no knowledge, will in the destruction of those creatures also be destroyed,",
+            "2 Peter 2:12",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "15": {
+      "name": "Proverbs16.32",
+      "id": 15,
+      "slides": [
+        {
+          "slide_file": "slides/slide11.xml",
+          "texts": [
+            "One who is slow to anger is better than the mighty, And one who rules his spirit, than one who captures a city.",
+            "Proverbs 16:32",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "16": {
+      "name": "GreekHebrewSoulSpirit",
+      "id": 16,
+      "slides": [
+        {
+          "slide_file": "slides/slide24.xml",
+          "texts": [
+            "Dividing Soul & Spirit",
+            "The Greek and Hebrew terms for soul and spirit are often used interchangeably in physical contexts only.",
+            "In scripture the word psyche (soul) is used invariably in the context of eternal life. The words that refer to spirit are never mentioned in the context of everlasting life.",
+            "Wind, Breath, Life",
+            "Emotions, Love, Desires",
+            "Cognition, Mind,Moral Character",
+            "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul) Greek",
+            "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul)  Greek",
+            "Meah (spirit) HebrewNephesh (soul) HebrewPsyche (soul) GreekPneuma (soul) Greek",
+            "Context:  Angels, Demons,\t         Evil spirits.Greek: pneuma (spirit)",
+            "Context: Spirit of God.Hebrew: ruach (spirit)Greek: pneuma (spirit)",
+            "Biblical examples of Psyche (Soul)"
+          ]
+        },
+        {
+          "slide_file": "slides/slide25.xml",
+          "texts": [
+            "SOUL (Psyche, Gk.)",
+            "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
+            "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
+            "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
+            "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
+            "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
+            "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
+            "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+            "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+            "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
+            "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
+            "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
+            "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;"
+          ]
+        },
+        {
+          "slide_file": "slides/slide26.xml",
+          "texts": [
+            "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
+            "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
+            "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
+            "Vine’s Dictionary",
+            "SOUL (Psyche, Gk.)",
+            "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
+            "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
+            "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
+            "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
+            "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+            "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+            "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
+            "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
+            "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;",
+            "Psyche: The New Testament uses may be analyzed approximately as follows:The language of Hebrews 4:12 suggests the extreme difficulty of distinguishing between the soul and the spirit, alike in their nature and in their activities. Generally speaking the spirit is the higher, the soul the lower element.",
+            "Hebrews 4:12: For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart."
+          ]
+        }
+      ]
+    },
+    "17": {
+      "name": "1Corinthians5.5",
+      "id": 17,
+      "slides": [
+        {
+          "slide_file": "slides/slide18.xml",
+          "texts": [
+            "I have decided to deliver such a one to Satan for the destruction of his flesh, so that his spirit may be saved in the day of the Lord Jesus.",
+            "1 Corinthians 5:5",
+            "John 4:24",
+            "God is spirit, and his worshipers must worship in spirit and in truth.\"",
+            "Is God only a spirit?"
+          ]
+        }
+      ]
+    },
+    "18": {
+      "name": "1Corinthians6.15",
+      "id": 18,
+      "slides": [
+        {
+          "slide_file": "slides/slide19.xml",
+          "texts": [
+            "Do you not know that your bodies are members of Christ? Shall I then take away the members of Christ and make them members of a prostitute? May it never be! 16 Or do you not know that the one who joins himself to a prostitute is one body with her? For He says, \"THE TWO SHALL BECOME ONE FLESH.\"17 But the one who joins himself to the Lord is one spirit with Him.",
+            "1 Corinthians 6:15-17",
+            "NASB2020"
+          ]
+        }
+      ]
+    },
+    "19": {
+      "name": "Hebrews4.12",
+      "id": 19,
+      "slides": [
+        {
+          "slide_file": "slides/slide3.xml",
+          "texts": [
+            "For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
+            "Hebrews 4:12",
+            "NIV"
+          ]
+        }
+      ]
+    },
+    "20": {
+      "name": "HouseForSpirits",
+      "id": 20,
+      "slides": [
+        {
+          "slide_file": "slides/slide27.xml",
+          "texts": [
+            "House for Spirits",
+            "Mark 5:2-8 When Jesus got out of the boat, a man with an impure spirit came from the tombs to meet him. [3] This man lived in the tombs, and no one could bind him anymore, not even with a chain. [4] For he had often been chained hand and foot, but he tore the chains apart and broke the irons on his feet. No one was strong enough to subdue him. [5] Night and day among the tombs and in the hills he would cry out and cut himself with stones. [6] When he saw Jesus from a distance, he ran and fell on his knees in front of him. [7] He shouted at the top of his voice, “What do you want with me, Jesus, Son of the Most High God? In God’s name don’t torture me!” [8] For Jesus had said to him, “Come out of this man, you impure spirit!”",
+            "Acts 16:16-18Once when we were going to the place of prayer, we were met by a female slave who had a spirit by which she predicted the future. She earned a great deal of money for her owners by fortune-telling. [17] She followed Paul and the rest of us, shouting, “These men are servants of the Most High God, who are telling you the way to be saved.” [18] She kept this up for many days. Finally Paul became so annoyed that he turned around and said to the spirit, “In the name of Jesus Christ I command you to come out of her!” At that moment the spirit left her.",
+            "NIV"
+          ]
+        }
+      ]
+    }
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "How many “kinds” of life did God create?",
+          "shape_name": "Text Box 5"
+        },
+        {
+          "sequence": 2,
+          "text": "Genesis 1:11-12",
+          "shape_name": "Text Box 22",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 0
+          },
+          "linked_content": {
+            "name": "Genesis1.11",
+            "id": 0,
+            "slides": [
+              {
+                "slide_file": "slides/slide6.xml",
+                "texts": [
+                  "Genesis 1:11-12",
+                  "Then God said, “Let the land produce vegetation: seed-bearing plants and trees on the land that bear fruit with seed in it, according to their various kinds.” And it was so. [12] The land produced vegetation: plants bearing seed according to their kinds and trees bearing fruit with seed in it according to their kinds. And God saw that it was good.",
+                  "NIV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 3,
+          "text": "Plants",
+          "shape_name": "TextBox 1"
+        },
+        {
+          "sequence": 4,
+          "text": "Genesis 1:20-25",
+          "shape_name": "Text Box 23",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 1
+          },
+          "linked_content": {
+            "name": "Genesis1.20",
+            "id": 1,
+            "slides": [
+              {
+                "slide_file": "slides/slide7.xml",
+                "texts": [
+                  "Genesis 1:20-25",
+                  "And God said, “Let the water teem with living creatures, and let birds fly above the earth across the vault of the sky.” [21] So God created the great creatures of the sea and every living thing with which the water teems and that moves about in it, according to their kinds, and every winged bird according to its kind. And God saw that it was good. [22] God blessed them and said, “Be fruitful and increase in number and fill the water in the seas, and let the birds increase on the earth.” [23] And there was evening, and there was morning—the fifth day. [24] And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so. [25] God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good.",
+                  "NIV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 5,
+          "text": "Animals",
+          "shape_name": "Text Box 20"
+        },
+        {
+          "sequence": 6,
+          "text": "Genesis 1:26-27",
+          "shape_name": "Text Box 24",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 2
+          },
+          "linked_content": {
+            "name": "Genesis1.26",
+            "id": 2,
+            "slides": [
+              {
+                "slide_file": "slides/slide8.xml",
+                "texts": [
+                  "Genesis 1:26-27",
+                  "Then God said, \"Let Us make man in Our image, according to Our likeness; and let them rule over the fish of the sea and over the birds of the sky and over the cattle and over all the earth, and over every creeping thing that creeps on the earth.\" \t\t[27] God created man in His own image, \tin the image of God He created him; \tmale and female He created them.",
+                  "NASB95"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 7,
+          "text": "Man",
+          "shape_name": "Text Box 21"
+        },
+        {
+          "sequence": 8,
+          "text": "Things in common or different?",
+          "shape_name": "Text Box 27"
+        },
+        {
+          "sequence": 9,
+          "text": "Body",
+          "shape_name": "Text Box 34"
+        },
+        {
+          "sequence": 10,
+          "text": "Body",
+          "shape_name": "Text Box 35"
+        },
+        {
+          "sequence": 11,
+          "text": "Body",
+          "shape_name": "Text Box 36"
+        },
+        {
+          "sequence": 12,
+          "text": "Body = Visible",
+          "shape_name": "Text Box 29"
+        },
+        {
+          "sequence": 13,
+          "text": "Ecclesiastes 3:19-21",
+          "shape_name": "Text Box 39",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 6
+          },
+          "linked_content": {
+            "name": "Ecclesiastes3.19",
+            "id": 6,
+            "slides": [
+              {
+                "slide_file": "slides/slide12.xml",
+                "texts": [
+                  "Ecclesiastes 3:19-21",
+                  "Surely the fate of human beings is like that of the animals; the same fate awaits them both: As one dies, so dies the other. All have the same breath*; humans have no advantage over animals. Everything is meaningless. [20] All go to the same place; all come from dust, and to dust all return. [21] Who knows if the human spirit rises upward and if the spirit of the animal goes down into the earth?”",
+                  "NASB2020",
+                  "*NIV (or spirit)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 14,
+          "text": "Spirit",
+          "shape_name": "Text Box 40"
+        },
+        {
+          "sequence": 15,
+          "text": "Spirit",
+          "shape_name": "Rectangle 41"
+        },
+        {
+          "sequence": 16,
+          "text": "Spirit = Invisible",
+          "shape_name": "Text Box 85"
+        },
+        {
+          "sequence": 17,
+          "text": "James 2:26",
+          "shape_name": "Text Box 42",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 5
+          },
+          "linked_content": {
+            "name": "James2.26",
+            "id": 5,
+            "slides": [
+              {
+                "slide_file": "slides/slide22.xml",
+                "texts": [
+                  "James 2:26",
+                  "For just as the body without the spirit is dead, so also faith without works is dead.",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 18,
+          "text": "Life = Spirit",
+          "shape_name": "Text Box 43"
+        },
+        {
+          "sequence": 19,
+          "text": "Leviticus 17:11",
+          "shape_name": "Text Box 44",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 4
+          },
+          "linked_content": {
+            "name": "Leviticus17.11",
+            "id": 4,
+            "slides": [
+              {
+                "slide_file": "slides/slide10.xml",
+                "texts": [
+                  "Leviticus 17:11",
+                  "For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your souls; for it is the blood by reason of the life that makes atonement.",
+                  "NASB95"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 20,
+          "text": "Blood = Life",
+          "shape_name": "Text Box 45"
+        },
+        {
+          "sequence": 21,
+          "text": "Blood = Spirit",
+          "shape_name": "Text Box 46"
+        },
+        {
+          "sequence": 22,
+          "text": "Do plant’s have blood?",
+          "shape_name": "TextBox 3"
+        },
+        {
+          "sequence": 23,
+          "text": "Breath",
+          "shape_name": "Text Box 48"
+        },
+        {
+          "sequence": 24,
+          "text": "O2",
+          "shape_name": "Text Box 49"
+        },
+        {
+          "sequence": 25,
+          "text": "Lungs",
+          "shape_name": "Text Box 50"
+        },
+        {
+          "sequence": 26,
+          "text": "Heart",
+          "shape_name": "Text Box 51"
+        },
+        {
+          "sequence": 27,
+          "text": "Blood",
+          "shape_name": "Text Box 52"
+        },
+        {
+          "sequence": 28,
+          "text": "Body",
+          "shape_name": "Text Box 53"
+        },
+        {
+          "sequence": 29,
+          "text": "Life",
+          "shape_name": "Text Box 54"
+        },
+        {
+          "sequence": 30,
+          "text": "CO2",
+          "shape_name": "Text Box 71"
+        },
+        {
+          "sequence": 31,
+          "text": "O2",
+          "shape_name": "Text Box 75"
+        },
+        {
+          "sequence": 32,
+          "text": "1Thess. 5:23",
+          "shape_name": "Text Box 80",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 7
+          },
+          "linked_content": {
+            "name": "1Thessalonians5.23",
+            "id": 7,
+            "slides": [
+              {
+                "slide_file": "slides/slide20.xml",
+                "texts": [
+                  "1 Thessalonians 5:23",
+                  "Now may the God of peace Himself sanctify you entirely; and may your spirit and soul and body be kept complete, without blame at the coming of our Lord Jesus Christ.",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 33,
+          "text": "Soul",
+          "shape_name": "Text Box 81"
+        },
+        {
+          "sequence": 34,
+          "text": "LEAST COMPLEX",
+          "shape_name": "Text Box 93"
+        },
+        {
+          "sequence": 35,
+          "text": "MORE COMPLEX",
+          "shape_name": "Text Box 94"
+        },
+        {
+          "sequence": 36,
+          "text": "MOST COMPLEX",
+          "shape_name": "Text Box 95"
+        },
+        {
+          "sequence": 37,
+          "text": "God is Progressive",
+          "shape_name": "Text Box 96"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "Life",
+          "shape_name": "Rectangle 109",
+          "static": true
+        },
+        {
+          "text": "Plants",
+          "shape_name": "Text Box 18",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "Body",
+          "shape_name": "Text Box 13"
+        },
+        {
+          "sequence": 2,
+          "text": "Spirit",
+          "shape_name": "Text Box 14"
+        },
+        {
+          "sequence": 3,
+          "text": "Soul",
+          "shape_name": "Text Box 15"
+        },
+        {
+          "sequence": 4,
+          "text": "ORIGINS",
+          "shape_name": "Text Box 16"
+        },
+        {
+          "sequence": 5,
+          "text": "DESTINATIONS",
+          "shape_name": "Text Box 18"
+        },
+        {
+          "sequence": 6,
+          "text": "Genesis 3:19",
+          "shape_name": "Text Box 19",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 3
+          },
+          "linked_content": {
+            "name": "Genesis3.19",
+            "id": 3,
+            "slides": [
+              {
+                "slide_file": "slides/slide9.xml",
+                "texts": [
+                  "Genesis 3:19",
+                  "By the sweat of your face You will eat bread, Till you return to the ground, Because from it you were taken; For you are dust, And to dust you shall return.",
+                  "NASB95"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 7,
+          "text": "Earth",
+          "shape_name": "Text Box 22"
+        },
+        {
+          "sequence": 8,
+          "text": "Earth",
+          "shape_name": "Text Box 23"
+        },
+        {
+          "sequence": 9,
+          "text": "Ecclesiastes 12:7",
+          "shape_name": "Text Box 20",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 8
+          },
+          "linked_content": {
+            "name": "Ecclesiaastes12.7",
+            "id": 8,
+            "slides": [
+              {
+                "slide_file": "slides/slide13.xml",
+                "texts": [
+                  "Ecclesiastes 3:20 All go to the same place; all come from dust, and to dust all return.",
+                  "Ecclesiastes 12:7",
+                  "Remember him—before the silver cord is severed, and the golden bowl is broken; before the pitcher is shattered at the spring, and the wheel broken at the well, [7] and the dust returns to the ground it came from, and the spirit returns to God who gave it.",
+                  "NASB2020",
+                  "NIV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 10,
+          "text": "God",
+          "shape_name": "Text Box 24"
+        },
+        {
+          "sequence": 11,
+          "text": "God",
+          "shape_name": "Text Box 25"
+        },
+        {
+          "sequence": 12,
+          "text": "Ezekiel 18:4",
+          "shape_name": "Text Box 28",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 9
+          },
+          "linked_content": {
+            "name": "Ezekiel18.4",
+            "id": 9,
+            "slides": [
+              {
+                "slide_file": "slides/slide14.xml",
+                "texts": [
+                  "Ezekiel 18:4",
+                  "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 13,
+          "text": "God",
+          "shape_name": "Text Box 26"
+        },
+        {
+          "sequence": 14,
+          "text": "Hebrews 9:27",
+          "shape_name": "Text Box 21",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 10
+          },
+          "linked_content": {
+            "name": "Hebrews9.27",
+            "id": 10,
+            "slides": [
+              {
+                "slide_file": "slides/slide21.xml",
+                "texts": [
+                  "Hebrews 9:27",
+                  "And just as it is destined for people to die once, and after this comes judgment,Hebrews 9:27And inasmuch as it is appointed for men to die once and after this comes judgment,",
+                  "NASB2020",
+                  "NASB95"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 15,
+          "text": "Judgment",
+          "shape_name": "Text Box 27"
+        },
+        {
+          "sequence": 16,
+          "text": "Matthew 16:26",
+          "shape_name": "Text Box 46",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 11
+          },
+          "linked_content": {
+            "name": "Matthew16.26",
+            "id": 11,
+            "slides": [
+              {
+                "slide_file": "slides/slide15.xml",
+                "texts": [
+                  "Matthew 16:26",
+                  "For what good will it do a person if he gains the whole world, but forfeits his soul? Or what will a person give in exchange for his soul?",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 17,
+          "text": "Rank of Importance?",
+          "shape_name": "Text Box 34"
+        },
+        {
+          "sequence": 18,
+          "text": "#1",
+          "shape_name": "Text Box 36"
+        },
+        {
+          "sequence": 19,
+          "text": "Soul",
+          "shape_name": "Text Box 37"
+        },
+        {
+          "sequence": 20,
+          "text": "#2",
+          "shape_name": "Text Box 38"
+        },
+        {
+          "sequence": 21,
+          "text": "Spirit",
+          "shape_name": "Text Box 39"
+        },
+        {
+          "sequence": 22,
+          "text": "#3",
+          "shape_name": "Text Box 40"
+        },
+        {
+          "sequence": 23,
+          "text": "Body",
+          "shape_name": "Text Box 45"
+        },
+        {
+          "sequence": 24,
+          "text": "Dominant",
+          "shape_name": "Text Box 47"
+        },
+        {
+          "sequence": 25,
+          "text": "Submissive",
+          "shape_name": "Text Box 56"
+        },
+        {
+          "sequence": 26,
+          "text": "Submissive",
+          "shape_name": "Text Box 76"
+        },
+        {
+          "sequence": 27,
+          "text": "Luke 11:24-26",
+          "shape_name": "Text Box 59",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 12
+          },
+          "linked_content": {
+            "name": "Luke11.24",
+            "id": 12,
+            "slides": [
+              {
+                "slide_file": "slides/slide16.xml",
+                "texts": [
+                  "“When the unclean spirit comes out of a person, it passes through waterless places seeking rest, and not finding any, it then says, ‘I will return to my house from which I came.’ [25] And when it comes, it finds it swept and put in order. [26] Then it goes and brings along seven other spirits more evil than itself, and they come in and live there; and the last condition of that person becomes worse than the first.”",
+                  "Luke 11:24-26",
+                  "You are a house of spirits; kept alive by a spirit (in your blood) and tutored by spirits (in your mind)",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 28,
+          "text": "HouseSpiritsPerson(“the man”)",
+          "shape_name": "Text Box 60",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 20
+          },
+          "linked_content": {
+            "name": "HouseForSpirits",
+            "id": 20,
+            "slides": [
+              {
+                "slide_file": "slides/slide27.xml",
+                "texts": [
+                  "House for Spirits",
+                  "Mark 5:2-8 When Jesus got out of the boat, a man with an impure spirit came from the tombs to meet him. [3] This man lived in the tombs, and no one could bind him anymore, not even with a chain. [4] For he had often been chained hand and foot, but he tore the chains apart and broke the irons on his feet. No one was strong enough to subdue him. [5] Night and day among the tombs and in the hills he would cry out and cut himself with stones. [6] When he saw Jesus from a distance, he ran and fell on his knees in front of him. [7] He shouted at the top of his voice, “What do you want with me, Jesus, Son of the Most High God? In God’s name don’t torture me!” [8] For Jesus had said to him, “Come out of this man, you impure spirit!”",
+                  "Acts 16:16-18Once when we were going to the place of prayer, we were met by a female slave who had a spirit by which she predicted the future. She earned a great deal of money for her owners by fortune-telling. [17] She followed Paul and the rest of us, shouting, “These men are servants of the Most High God, who are telling you the way to be saved.” [18] She kept this up for many days. Finally Paul became so annoyed that he turned around and said to the spirit, “In the name of Jesus Christ I command you to come out of her!” At that moment the spirit left her.",
+                  "NIV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 29,
+          "text": "Choice is a characteristic of the Soul. What are the other characteristics ofthe Soul, Spirit, and Body?",
+          "shape_name": "Text Box 66"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "Mankind",
+          "shape_name": "Rectangle 78",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "Hebrews 4:12",
+          "shape_name": "Rectangle 6",
+          "static": true
+        },
+        {
+          "text": "NIV",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "Soul",
+          "shape_name": "Text Box 16"
+        },
+        {
+          "sequence": 2,
+          "text": "Think, Reason, ChooseJudge, Plan,  Create, Progress,Logic, Rational.",
+          "shape_name": "Text Box 19"
+        },
+        {
+          "sequence": 3,
+          "text": "Spirit",
+          "shape_name": "Text Box 17"
+        },
+        {
+          "sequence": 4,
+          "text": "Jude 1:10",
+          "shape_name": "Text Box 20",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 13
+          },
+          "linked_content": {
+            "name": "Jude1.10",
+            "id": 13,
+            "slides": [
+              {
+                "slide_file": "slides/slide23.xml",
+                "texts": [
+                  "But these men revile the things which they do not understand; and the things which they know by instinct, like unreasoning animals, by these things they are destroyed.",
+                  "Jude 1:10",
+                  "NASB95"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 5,
+          "text": "2 Peter 2:12",
+          "shape_name": "Text Box 21",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 14
+          },
+          "linked_content": {
+            "name": "2Peter2.12",
+            "id": 14,
+            "slides": [
+              {
+                "slide_file": "slides/slide17.xml",
+                "texts": [
+                  "But these, like unreasoning animals, born as creatures of instinct to be captured and killed, using abusive speech where they have no knowledge, will in the destruction of those creatures also be destroyed,",
+                  "2 Peter 2:12",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 6,
+          "text": "Unreason, Instinct, basic emotions",
+          "shape_name": "Text Box 22"
+        },
+        {
+          "sequence": 7,
+          "text": "Deer, Cats, Humans…",
+          "shape_name": "Text Box 25"
+        },
+        {
+          "sequence": 8,
+          "text": "*also life to body",
+          "shape_name": "Text Box 22"
+        },
+        {
+          "sequence": 9,
+          "text": "Sympathetic“fight or flight”",
+          "shape_name": "Text Box 26"
+        },
+        {
+          "sequence": 10,
+          "text": "Parasympathetic“rest & digest”",
+          "shape_name": "Text Box 27"
+        },
+        {
+          "sequence": 11,
+          "text": "Proverbs 16:32",
+          "shape_name": "Text Box 29",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 15
+          },
+          "linked_content": {
+            "name": "Proverbs16.32",
+            "id": 15,
+            "slides": [
+              {
+                "slide_file": "slides/slide11.xml",
+                "texts": [
+                  "One who is slow to anger is better than the mighty, And one who rules his spirit, than one who captures a city.",
+                  "Proverbs 16:32",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 12,
+          "text": "Body",
+          "shape_name": "Text Box 18"
+        },
+        {
+          "sequence": 13,
+          "text": "Structure, boundary,house, governs, restricts",
+          "shape_name": "Text Box 30"
+        },
+        {
+          "sequence": 14,
+          "text": "Greek & HebrewDefinitions",
+          "shape_name": "Text Box 33",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 16
+          },
+          "linked_content": {
+            "name": "GreekHebrewSoulSpirit",
+            "id": 16,
+            "slides": [
+              {
+                "slide_file": "slides/slide24.xml",
+                "texts": [
+                  "Dividing Soul & Spirit",
+                  "The Greek and Hebrew terms for soul and spirit are often used interchangeably in physical contexts only.",
+                  "In scripture the word psyche (soul) is used invariably in the context of eternal life. The words that refer to spirit are never mentioned in the context of everlasting life.",
+                  "Wind, Breath, Life",
+                  "Emotions, Love, Desires",
+                  "Cognition, Mind,Moral Character",
+                  "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul) Greek",
+                  "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul)  Greek",
+                  "Meah (spirit) HebrewNephesh (soul) HebrewPsyche (soul) GreekPneuma (soul) Greek",
+                  "Context:  Angels, Demons,\t         Evil spirits.Greek: pneuma (spirit)",
+                  "Context: Spirit of God.Hebrew: ruach (spirit)Greek: pneuma (spirit)",
+                  "Biblical examples of Psyche (Soul)"
+                ]
+              },
+              {
+                "slide_file": "slides/slide25.xml",
+                "texts": [
+                  "SOUL (Psyche, Gk.)",
+                  "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
+                  "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
+                  "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
+                  "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
+                  "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
+                  "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
+                  "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+                  "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+                  "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
+                  "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
+                  "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
+                  "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;"
+                ]
+              },
+              {
+                "slide_file": "slides/slide26.xml",
+                "texts": [
+                  "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
+                  "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
+                  "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
+                  "Vine’s Dictionary",
+                  "SOUL (Psyche, Gk.)",
+                  "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
+                  "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
+                  "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
+                  "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
+                  "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+                  "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+                  "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
+                  "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
+                  "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;",
+                  "Psyche: The New Testament uses may be analyzed approximately as follows:The language of Hebrews 4:12 suggests the extreme difficulty of distinguishing between the soul and the spirit, alike in their nature and in their activities. Generally speaking the spirit is the higher, the soul the lower element.",
+                  "Hebrews 4:12: For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 15,
+          "text": "1Corinthians 5:5 “spirit may be saved”John 4:24“God is spirit”",
+          "shape_name": "Text Box 35",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 17
+          },
+          "linked_content": {
+            "name": "1Corinthians5.5",
+            "id": 17,
+            "slides": [
+              {
+                "slide_file": "slides/slide18.xml",
+                "texts": [
+                  "I have decided to deliver such a one to Satan for the destruction of his flesh, so that his spirit may be saved in the day of the Lord Jesus.",
+                  "1 Corinthians 5:5",
+                  "John 4:24",
+                  "God is spirit, and his worshipers must worship in spirit and in truth.\"",
+                  "Is God only a spirit?"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 16,
+          "text": "Invisible part.1.Ingredient of animal and human life.2.Collective invisible nature of life.",
+          "shape_name": "AutoShape 72"
+        },
+        {
+          "sequence": 17,
+          "text": "God",
+          "shape_name": "Text Box 41"
+        },
+        {
+          "sequence": 18,
+          "text": "Father",
+          "shape_name": "Text Box 43"
+        },
+        {
+          "sequence": 19,
+          "text": "Creator, Designer, Planner, progressive, dominant",
+          "shape_name": "Text Box 46"
+        },
+        {
+          "sequence": 20,
+          "text": "Son",
+          "shape_name": "Text Box 44"
+        },
+        {
+          "sequence": 21,
+          "text": "Word governs the Church which is the body of Christ – rules,regulations, restrictions",
+          "shape_name": "Text Box 47"
+        },
+        {
+          "sequence": 22,
+          "text": "Holy Spirit",
+          "shape_name": "Text Box 45"
+        },
+        {
+          "sequence": 23,
+          "text": "Implementation of His will - life to the body of Christ. Defies logic.",
+          "shape_name": "Text Box 49",
+          "hyperlink": {
+            "type": "customshow",
+            "id": 18
+          },
+          "linked_content": {
+            "name": "1Corinthians6.15",
+            "id": 18,
+            "slides": [
+              {
+                "slide_file": "slides/slide19.xml",
+                "texts": [
+                  "Do you not know that your bodies are members of Christ? Shall I then take away the members of Christ and make them members of a prostitute? May it never be! 16 Or do you not know that the one who joins himself to a prostitute is one body with her? For He says, \"THE TWO SHALL BECOME ONE FLESH.\"17 But the one who joins himself to the Lord is one spirit with Him.",
+                  "1 Corinthians 6:15-17",
+                  "NASB2020"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "sequence": 24,
+          "text": "FreudIdEgoSuperego",
+          "shape_name": "Text Box 53"
+        },
+        {
+          "sequence": 25,
+          "text": "3 parts identified by many",
+          "shape_name": "TextBox 2"
+        },
+        {
+          "sequence": 26,
+          "text": "HarrisParentAdultChild",
+          "shape_name": "Text Box 54"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "(Made in the image of God)",
+          "shape_name": "Text Box 40",
+          "static": true
+        },
+        {
+          "text": "Hebrews 4:12",
+          "shape_name": "Text Box 24",
+          "static": true,
+          "hyperlink": {
+            "type": "customshow",
+            "id": 19
+          },
+          "linked_content": {
+            "name": "Hebrews4.12",
+            "id": 19,
+            "slides": [
+              {
+                "slide_file": "slides/slide3.xml",
+                "texts": [
+                  "For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
+                  "Hebrews 4:12",
+                  "NIV"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "text": "Man",
+          "shape_name": "Rectangle 75",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 5,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "End of lesson",
+          "shape_name": "Rectangle 7",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Genesis 1:11-12",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "Then God said, “Let the land produce vegetation: seed-bearing plants and trees on the land that bear fruit with seed in it, according to their various kinds.” And it was so. [12] The land produced vegetation: plants bearing seed according to their kinds and trees bearing fruit with seed in it according to their kinds. And God saw that it was good.",
+          "shape_name": "Rectangle 5",
+          "static": true
+        },
+        {
+          "text": "NIV",
+          "shape_name": "TextBox 2",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 7,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Genesis 1:20-25",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "And God said, “Let the water teem with living creatures, and let birds fly above the earth across the vault of the sky.” [21] So God created the great creatures of the sea and every living thing with which the water teems and that moves about in it, according to their kinds, and every winged bird according to its kind. And God saw that it was good. [22] God blessed them and said, “Be fruitful and increase in number and fill the water in the seas, and let the birds increase on the earth.” [23] And there was evening, and there was morning—the fifth day. [24] And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so. [25] God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good.",
+          "shape_name": "Rectangle 5",
+          "static": true
+        },
+        {
+          "text": "NIV",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 8,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Genesis 1:26-27",
+          "shape_name": "Rectangle 2",
+          "static": true
+        },
+        {
+          "text": "Then God said, \"Let Us make man in Our image, according to Our likeness; and let them rule over the fish of the sea and over the birds of the sky and over the cattle and over all the earth, and over every creeping thing that creeps on the earth.\" \t\t[27] God created man in His own image, \tin the image of God He created him; \tmale and female He created them.",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB95",
+          "shape_name": "TextBox 2",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 9,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Genesis 3:19",
+          "shape_name": "Rectangle 25",
+          "static": true
+        },
+        {
+          "text": "By the sweat of your face You will eat bread, Till you return to the ground, Because from it you were taken; For you are dust, And to dust you shall return.",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB95",
+          "shape_name": "TextBox 2",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 10,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Leviticus 17:11",
+          "shape_name": "Rectangle 2",
+          "static": true
+        },
+        {
+          "text": "For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your souls; for it is the blood by reason of the life that makes atonement.",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB95",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 11,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "One who is slow to anger is better than the mighty, And one who rules his spirit, than one who captures a city.",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "Proverbs 16:32",
+          "shape_name": "Rectangle 6",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 12,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Ecclesiastes 3:19-21",
+          "shape_name": "Rectangle 2",
+          "static": true
+        },
+        {
+          "text": "Surely the fate of human beings is like that of the animals; the same fate awaits them both: As one dies, so dies the other. All have the same breath*; humans have no advantage over animals. Everything is meaningless. [20] All go to the same place; all come from dust, and to dust all return. [21] Who knows if the human spirit rises upward and if the spirit of the animal goes down into the earth?”",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        },
+        {
+          "text": "*NIV (or spirit)",
+          "shape_name": "TextBox 2",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 13,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Ecclesiastes 3:20 All go to the same place; all come from dust, and to dust all return.",
+          "shape_name": "TextBox 2",
+          "static": true
+        },
+        {
+          "text": "Ecclesiastes 12:7",
+          "shape_name": "Rectangle 22",
+          "static": true
+        },
+        {
+          "text": "Remember him—before the silver cord is severed, and the golden bowl is broken; before the pitcher is shattered at the spring, and the wheel broken at the well, [7] and the dust returns to the ground it came from, and the spirit returns to God who gave it.",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        },
+        {
+          "text": "NIV",
+          "shape_name": "TextBox 3",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 14,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Ezekiel 18:4",
+          "shape_name": "Rectangle 21",
+          "static": true
+        },
+        {
+          "text": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 15,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Matthew 16:26",
+          "shape_name": "Rectangle 35",
+          "static": true
+        },
+        {
+          "text": "For what good will it do a person if he gains the whole world, but forfeits his soul? Or what will a person give in exchange for his soul?",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 16,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "You are a house of spirits; kept alive by a spirit (in your blood) and tutored by spirits (in your mind)",
+          "shape_name": "TextBox 1"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "“When the unclean spirit comes out of a person, it passes through waterless places seeking rest, and not finding any, it then says, ‘I will return to my house from which I came.’ [25] And when it comes, it finds it swept and put in order. [26] Then it goes and brings along seven other spirits more evil than itself, and they come in and live there; and the last condition of that person becomes worse than the first.”",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "Luke 11:24-26",
+          "shape_name": "Rectangle 6",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 2",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 17,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "But these, like unreasoning animals, born as creatures of instinct to be captured and killed, using abusive speech where they have no knowledge, will in the destruction of those creatures also be destroyed,",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "2 Peter 2:12",
+          "shape_name": "Rectangle 6",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 18,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "John 4:24",
+          "shape_name": "Rectangle 7"
+        },
+        {
+          "sequence": 2,
+          "text": "God is spirit, and his worshipers must worship in spirit and in truth.\"",
+          "shape_name": "Rectangle 8"
+        },
+        {
+          "sequence": 3,
+          "text": "Is God only a spirit?",
+          "shape_name": "Rectangle 10"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "I have decided to deliver such a one to Satan for the destruction of his flesh, so that his spirit may be saved in the day of the Lord Jesus.",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "1 Corinthians 5:5",
+          "shape_name": "Rectangle 6",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 19,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Do you not know that your bodies are members of Christ? Shall I then take away the members of Christ and make them members of a prostitute? May it never be! 16 Or do you not know that the one who joins himself to a prostitute is one body with her? For He says, \"THE TWO SHALL BECOME ONE FLESH.\"17 But the one who joins himself to the Lord is one spirit with Him.",
+          "shape_name": "Rectangle 2",
+          "static": true
+        },
+        {
+          "text": "1 Corinthians 6:15-17",
+          "shape_name": "Rectangle 3",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 20,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "1 Thessalonians 5:23",
+          "shape_name": "Rectangle 2",
+          "static": true
+        },
+        {
+          "text": "Now may the God of peace Himself sanctify you entirely; and may your spirit and soul and body be kept complete, without blame at the coming of our Lord Jesus Christ.",
+          "shape_name": "TextBox 2",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 3",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 21,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Hebrews 9:27",
+          "shape_name": "Rectangle 12",
+          "static": true
+        },
+        {
+          "text": "And just as it is destined for people to die once, and after this comes judgment,Hebrews 9:27And inasmuch as it is appointed for men to die once and after this comes judgment,",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 3",
+          "static": true
+        },
+        {
+          "text": "NASB95",
+          "shape_name": "TextBox 4",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 22,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "James 2:26",
+          "shape_name": "Rectangle 2",
+          "static": true
+        },
+        {
+          "text": "For just as the body without the spirit is dead, so also faith without works is dead.",
+          "shape_name": "TextBox 2",
+          "static": true
+        },
+        {
+          "text": "NASB2020",
+          "shape_name": "TextBox 3",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 23,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "But these men revile the things which they do not understand; and the things which they know by instinct, like unreasoning animals, by these things they are destroyed.",
+          "shape_name": "Rectangle 4",
+          "static": true
+        },
+        {
+          "text": "Jude 1:10",
+          "shape_name": "Rectangle 6",
+          "static": true
+        },
+        {
+          "text": "NASB95",
+          "shape_name": "TextBox 1",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 24,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "Wind, Breath, Life",
+          "shape_name": "Rectangle 16"
+        },
+        {
+          "sequence": 2,
+          "text": "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul)  Greek",
+          "shape_name": "Rectangle 20"
+        },
+        {
+          "sequence": 3,
+          "text": "Emotions, Love, Desires",
+          "shape_name": "Rectangle 17"
+        },
+        {
+          "sequence": 4,
+          "text": "Meah (spirit) HebrewNephesh (soul) HebrewPsyche (soul) GreekPneuma (soul) Greek",
+          "shape_name": "Rectangle 21"
+        },
+        {
+          "sequence": 5,
+          "text": "Cognition, Mind,Moral Character",
+          "shape_name": "Rectangle 18"
+        },
+        {
+          "sequence": 6,
+          "text": "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul) Greek",
+          "shape_name": "Rectangle 19"
+        },
+        {
+          "sequence": 7,
+          "text": "The Greek and Hebrew terms for soul and spirit are often used interchangeably in physical contexts only.",
+          "shape_name": "Rectangle 12"
+        },
+        {
+          "sequence": 8,
+          "text": "Context:  Angels, Demons,\t         Evil spirits.Greek: pneuma (spirit)",
+          "shape_name": "Text Box 22"
+        },
+        {
+          "sequence": 9,
+          "text": "Context: Spirit of God.Hebrew: ruach (spirit)Greek: pneuma (spirit)",
+          "shape_name": "Text Box 23"
+        },
+        {
+          "sequence": 10,
+          "text": "In scripture the word psyche (soul) is used invariably in the context of eternal life. The words that refer to spirit are never mentioned in the context of everlasting life.",
+          "shape_name": "Rectangle 13"
+        },
+        {
+          "sequence": 11,
+          "text": "Biblical examples of Psyche (Soul)",
+          "shape_name": "Rectangle 25"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "Dividing Soul & Spirit",
+          "shape_name": "Rectangle 27",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 25,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "text": "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
+          "shape_name": "Rectangle 6"
+        },
+        {
+          "sequence": 2,
+          "text": "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
+          "shape_name": "Rectangle 7"
+        },
+        {
+          "sequence": 3,
+          "text": "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
+          "shape_name": "Rectangle 8"
+        },
+        {
+          "sequence": 4,
+          "text": "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
+          "shape_name": "Rectangle 9"
+        },
+        {
+          "sequence": 5,
+          "text": "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
+          "shape_name": "Rectangle 10"
+        },
+        {
+          "sequence": 6,
+          "text": "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
+          "shape_name": "Rectangle 11"
+        },
+        {
+          "sequence": 7,
+          "text": "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+          "shape_name": "Rectangle 12"
+        },
+        {
+          "sequence": 8,
+          "text": "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+          "shape_name": "Rectangle 13"
+        },
+        {
+          "sequence": 9,
+          "text": "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
+          "shape_name": "Rectangle 14"
+        },
+        {
+          "sequence": 10,
+          "text": "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
+          "shape_name": "Rectangle 15"
+        },
+        {
+          "sequence": 11,
+          "text": "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
+          "shape_name": "Rectangle 16"
+        },
+        {
+          "sequence": 12,
+          "text": "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;",
+          "shape_name": "Rectangle 17"
+        }
+      ],
+      "static_content": [
+        {
+          "text": "SOUL (Psyche, Gk.)",
+          "shape_name": "Rectangle 19",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 26,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
+          "shape_name": "Rectangle 8",
+          "static": true
+        },
+        {
+          "text": "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
+          "shape_name": "Rectangle 7",
+          "static": true
+        },
+        {
+          "text": "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
+          "shape_name": "Rectangle 15",
+          "static": true
+        },
+        {
+          "text": "Vine’s Dictionary",
+          "shape_name": "Title 1",
+          "static": true
+        },
+        {
+          "text": "SOUL (Psyche, Gk.)",
+          "shape_name": "TextBox 6",
+          "static": true
+        },
+        {
+          "text": "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
+          "shape_name": "Rectangle 6",
+          "static": true
+        },
+        {
+          "text": "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
+          "shape_name": "Rectangle 9",
+          "static": true
+        },
+        {
+          "text": "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
+          "shape_name": "Rectangle 10",
+          "static": true
+        },
+        {
+          "text": "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
+          "shape_name": "Rectangle 11",
+          "static": true
+        },
+        {
+          "text": "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+          "shape_name": "Rectangle 12",
+          "static": true
+        },
+        {
+          "text": "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+          "shape_name": "Rectangle 13",
+          "static": true
+        },
+        {
+          "text": "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
+          "shape_name": "Rectangle 14",
+          "static": true
+        },
+        {
+          "text": "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
+          "shape_name": "Rectangle 16",
+          "static": true
+        },
+        {
+          "text": "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;",
+          "shape_name": "Rectangle 17",
+          "static": true
+        },
+        {
+          "text": "Psyche: The New Testament uses may be analyzed approximately as follows:The language of Hebrews 4:12 suggests the extreme difficulty of distinguishing between the soul and the spirit, alike in their nature and in their activities. Generally speaking the spirit is the higher, the soul the lower element.",
+          "shape_name": "Text Box 18",
+          "static": true
+        },
+        {
+          "text": "Hebrews 4:12: For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
+          "shape_name": "TextBox 4",
+          "static": true
+        }
+      ]
+    },
+    {
+      "slide_number": 27,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "text": "House for Spirits",
+          "shape_name": "Title 1",
+          "static": true
+        },
+        {
+          "text": "Mark 5:2-8 When Jesus got out of the boat, a man with an impure spirit came from the tombs to meet him. [3] This man lived in the tombs, and no one could bind him anymore, not even with a chain. [4] For he had often been chained hand and foot, but he tore the chains apart and broke the irons on his feet. No one was strong enough to subdue him. [5] Night and day among the tombs and in the hills he would cry out and cut himself with stones. [6] When he saw Jesus from a distance, he ran and fell on his knees in front of him. [7] He shouted at the top of his voice, “What do you want with me, Jesus, Son of the Most High God? In God’s name don’t torture me!” [8] For Jesus had said to him, “Come out of this man, you impure spirit!”",
+          "shape_name": "TextBox 3",
+          "static": true
+        },
+        {
+          "text": "Acts 16:16-18Once when we were going to the place of prayer, we were met by a female slave who had a spirit by which she predicted the future. She earned a great deal of money for her owners by fortune-telling. [17] She followed Paul and the rest of us, shouting, “These men are servants of the Most High God, who are telling you the way to be saved.” [18] She kept this up for many days. Finally Paul became so annoyed that he turned around and said to the spirit, “In the name of Jesus Christ I command you to come out of her!” At that moment the spirit left her.",
+          "shape_name": "TextBox 5",
+          "static": true
+        },
+        {
+          "text": "NIV",
+          "shape_name": "TextBox 7",
+          "static": true
+        }
+      ]
+    }
+  ]
+}

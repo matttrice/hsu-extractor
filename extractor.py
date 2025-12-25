@@ -539,8 +539,14 @@ def save_presentation_structure(prs, file_path):
                     'error': str(e)
                 })
     
-    # Save to JSON file
-    output_path = Path(file_path).with_suffix('.json')
+    # Save to JSON file in extracted/ folder
+    script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
+    extracted_dir = script_dir / 'extracted'
+    extracted_dir.mkdir(exist_ok=True)
+    
+    output_filename = Path(file_path).stem + '.json'
+    output_path = extracted_dir / output_filename
+    
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(presentation_data, f, indent=2, ensure_ascii=False)
     
