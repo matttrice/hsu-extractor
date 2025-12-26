@@ -296,17 +296,109 @@ def get_hyperlink_from_shape_xml(shape_elem):
     return None
 
 def parse_animation_sequence(slide_xml_content):
-    """Parse animation sequence from slide XML and return ordered list of shape IDs."""
+    """Parse animation sequence from slide XML and return ordered list of animation entries.
+    
+    Each entry contains:
+    - shape_id: The shape's ID
+    - timing: 'click' (On Click), 'with' (With Previous), or 'after' (After Previous)
+    - delay: Delay in milliseconds (for 'after' timing)
+    
+    The animation structure in PowerPoint XML is:
+    - p:timing > p:tnLst > p:par > p:cTn[nodeType="tmRoot"]
+    - Inside that: p:seq > p:cTn[nodeType="mainSeq"] > p:childTnLst
+    - Each click group: p:par > p:cTn[nodeType="clickPar"]
+    - Inside clickPar: p:par > p:cTn[nodeType="withGroup"] or p:cTn[nodeType="afterGroup"]
+    - Individual animations: p:cTn[nodeType="clickEffect"|"withEffect"|"afterEffect"]
+    - Shape target: p:spTgt spid="..."
+    """
     root = ET.fromstring(slide_xml_content)
-    animation_order = []
+    animation_entries = []
+    seen_shapes = set()
     
-    # Find all spTgt (shape targets) in the timing section
-    for spTgt in root.findall('.//p:spTgt', NAMESPACES):
-        spid = spTgt.get('spid')
-        if spid and spid not in animation_order:
-            animation_order.append(spid)
+    # Find the main sequence
+    main_seq = root.find('.//p:cTn[@nodeType="mainSeq"]', NAMESPACES)
+    if main_seq is None:
+        # Fallback: return empty list if no animations
+        return []
     
-    return animation_order
+    # Get the childTnLst which contains click groups
+    child_list = main_seq.find('p:childTnLst', NAMESPACES)
+    if child_list is None:
+        return []
+    
+    # Iterate through click groups (each p:par with clickPar)
+    for click_group in child_list.findall('p:par', NAMESPACES):
+        # Process all animations within this click group
+        _process_animation_group(click_group, animation_entries, seen_shapes, 0)
+    
+    return animation_entries
+
+
+def _process_animation_group(group_elem, entries, seen_shapes, parent_delay):
+    """Recursively process animation groups to extract shape timing info.
+    
+    Args:
+        group_elem: The p:par element to process
+        entries: List to append animation entries to
+        seen_shapes: Set of already-seen shape IDs (to avoid duplicates)
+        parent_delay: Accumulated delay from parent afterGroup elements (in ms)
+    """
+    cTn = group_elem.find('p:cTn', NAMESPACES)
+    if cTn is None:
+        return
+    
+    node_type = cTn.get('nodeType', '')
+    
+    # Get delay from this element's stCondLst if present
+    local_delay = 0
+    stCondLst = cTn.find('p:stCondLst', NAMESPACES)
+    if stCondLst is not None:
+        cond = stCondLst.find('p:cond', NAMESPACES)
+        if cond is not None:
+            delay_str = cond.get('delay', '')
+            if delay_str and delay_str != 'indefinite':
+                try:
+                    local_delay = int(delay_str)
+                except ValueError:
+                    pass
+    
+    # Determine timing type from nodeType
+    timing = None
+    if node_type == 'clickEffect':
+        timing = 'click'
+    elif node_type == 'withEffect':
+        timing = 'with'
+    elif node_type == 'afterEffect':
+        timing = 'after'
+    
+    # If this is an animation effect, find the target shape
+    if timing is not None:
+        # Look for spTgt inside this element
+        for spTgt in cTn.findall('.//p:spTgt', NAMESPACES):
+            spid = spTgt.get('spid')
+            if spid and spid not in seen_shapes:
+                seen_shapes.add(spid)
+                entry = {
+                    'shape_id': spid,
+                    'timing': timing
+                }
+                # Add delay for afterEffect (parent_delay from afterGroup + any local delay)
+                total_delay = parent_delay + local_delay
+                if timing == 'after' or total_delay > 0:
+                    entry['delay'] = total_delay
+                entries.append(entry)
+                break  # One shape per animation effect
+    
+    # For afterGroup, accumulate the delay for child animations
+    accumulated_delay = parent_delay
+    if node_type == 'afterGroup':
+        accumulated_delay = parent_delay + local_delay
+    
+    # Recursively process child elements
+    child_list = cTn.find('p:childTnLst', NAMESPACES)
+    if child_list is not None:
+        for child_par in child_list.findall('p:par', NAMESPACES):
+            _process_animation_group(child_par, entries, seen_shapes, accumulated_delay)
 
 def parse_shapes_from_slide(slide_xml_content):
     """Parse all shapes from slide XML and return dict keyed by shape ID."""
@@ -454,8 +546,8 @@ def save_presentation_structure(prs, file_path):
             try:
                 slide_xml = zf.read(slide_file).decode('utf-8')
                 
-                # Get animation order
-                animation_order = parse_animation_sequence(slide_xml)
+                # Get animation entries with timing info
+                animation_entries = parse_animation_sequence(slide_xml)
                 
                 # Get all shapes
                 shapes = parse_shapes_from_slide(slide_xml)
@@ -464,7 +556,8 @@ def save_presentation_structure(prs, file_path):
                 animation_sequence = []
                 sequence_num = 1
                 
-                for shape_id in animation_order:
+                for anim_entry in animation_entries:
+                    shape_id = anim_entry['shape_id']
                     if shape_id in shapes:
                         shape = shapes[shape_id]
                         # Include all animated shapes (text or not - could be rectangles, decorative shapes)
@@ -473,6 +566,11 @@ def save_presentation_structure(prs, file_path):
                             'text': shape['text'] if shape['text'] else '',
                             'shape_name': shape['name']
                         }
+                        
+                        # Add timing info (click, with, after)
+                        entry['timing'] = anim_entry['timing']
+                        if 'delay' in anim_entry and anim_entry['delay'] > 0:
+                            entry['delay'] = anim_entry['delay']
                         
                         # Add visual data if available
                         if shape_id in pptx_shapes_by_id:
@@ -496,7 +594,7 @@ def save_presentation_structure(prs, file_path):
                 
                 # Also get shapes that might not be animated (static content)
                 static_shapes = []
-                animated_ids = set(animation_order)
+                animated_ids = set(e['shape_id'] for e in animation_entries)
                 for shape_id, shape in shapes.items():
                     if shape_id not in animated_ids:
                         # Include all shapes - text, connectors, or decorative rectangles

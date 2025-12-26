@@ -66,6 +66,7 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "sequence": 1,
     "text": "Genesis 12:1-3",
     "shape_name": "Text Box 5",
+    "timing": "click",
     "layout": { "x": 59.9, "y": 9.0, "width": 259.2, "height": 36.0 },
     "font": { "font_size": 25.2, "bold": true, "color": "#0000CC" },
     "hyperlink": {
@@ -82,7 +83,17 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "sequence": 2,
     "text": "Great Nation",
     "shape_name": "Text Box 12",
+    "timing": "with",
     "layout": { "x": 112.8, "y": 115.5, "width": 180.0, "height": 28.9 },
+    "font": { "font_size": 21.6, "bold": true }
+  },
+  {
+    "sequence": 3,
+    "text": "Land of Canaan",
+    "shape_name": "Text Box 13",
+    "timing": "after",
+    "delay": 500,
+    "layout": { "x": 112.8, "y": 145.5, "width": 180.0, "height": 28.9 },
     "font": { "font_size": 21.6, "bold": true }
   }
 ]
@@ -91,6 +102,11 @@ The `animation_sequence` array lists text elements in the order they appear duri
 - **sequence**: The order number (1, 2, 3...) for when this element appears
 - **text**: The text content of the element
 - **shape_name**: Original PowerPoint shape name (for reference)
+- **timing**: Animation timing type:
+  - `"click"`: On Click - requires a new click to appear (new step)
+  - `"with"`: With Previous - appears simultaneously with the previous element (same step)
+  - `"after"`: After Previous - appears after the previous element's animation finishes (same step but delayed)
+- **delay**: Delay in milliseconds (only present for `"after"` timing, e.g., `500` = 500ms delay)
 - **layout**: Position and dimensions in pixels (960×540 canvas):
   - **x**, **y**: Top-left position
   - **width**, **height**: Dimensions
@@ -131,11 +147,34 @@ Elements that appear immediately (not animated) are listed in `static_content`:
 To recreate the PowerPoint experience in a web format:
 
 1. **Initial State**: Display `static_content` elements immediately
-2. **Animation**: On each click/advance, reveal the next item in `animation_sequence` by sequence number
+2. **Animation with Timing**:
+   - `timing: "click"` - Wait for user click, then show element (new step number)
+   - `timing: "with"` - Show simultaneously with the previous click element (same step number)
+   - `timing: "after"` - Show after `delay` milliseconds following the previous element (decimal step, e.g., step 1.1 for 500ms delay)
 3. **Hyperlinks**: When an element has a `hyperlink` with `type: "customshow"`:
    - Display the `linked_content.slides`
-   - After viewing, return to the main slide on final click afer all conent is visible.
+   - After viewing, return to the main slide on final click after all content is visible.
 4. **Navigation**: After all animation_sequence items are revealed, advance to the next slide
+
+### Converting Timing to MBS Step Values
+
+For MBS (SvelteKit presentation system), convert timing to step values:
+
+| JSON timing | JSON delay | MBS step |
+|-------------|-----------|----------|
+| `"click"` | - | New integer (`step={1}`, `step={2}`, etc.) |
+| `"with"` | - | Same integer as previous click (`step={2}` if previous was `step={2}`) |
+| `"after"` | 500 | Previous step + 0.1 (`step={2.1}`) |
+| `"after"` | 1000 | Previous step + 0.2 (`step={2.2}`) |
+
+**Example conversion:**
+```json
+// JSON output:
+{ "sequence": 1, "timing": "click", ... }   // → step={1}
+{ "sequence": 2, "timing": "with", ... }    // → step={1}
+{ "sequence": 3, "timing": "after", "delay": 500 }  // → step={1.1}
+{ "sequence": 4, "timing": "click", ... }   // → step={2}
+```
 
 ### Example Flow (Slide 1 of "The Promises")
 
@@ -143,5 +182,5 @@ To recreate the PowerPoint experience in a web format:
 2. Click → Show "Genesis 12:1-3" (clickable link to custom show, displays scripture, returns to previous position at end of sub-show)
 3. Click → Show "Great Nation"
 4. Click → Show "Land of Canaan"
-5. ... continue through sequence6. 
-5. After all 35 items revealed, next click advances to slide 2
+5. ... continue through sequence
+6. After all 35 items revealed, next click advances to slide 2
