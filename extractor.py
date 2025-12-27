@@ -129,10 +129,30 @@ def extract_font_style(shape):
         
         font_data = {}
         
-        # Get alignment from first paragraph
+        # Get vertical alignment from text frame's vertical_anchor property
+        try:
+            from pptx.enum.text import MSO_ANCHOR
+            v_anchor = tf.vertical_anchor
+            if v_anchor == MSO_ANCHOR.TOP:
+                font_data['v_align'] = 'top'
+            elif v_anchor == MSO_ANCHOR.MIDDLE:
+                font_data['v_align'] = 'middle'
+            elif v_anchor == MSO_ANCHOR.BOTTOM:
+                font_data['v_align'] = 'bottom'
+        except:
+            pass
+        
+        # Get horizontal alignment from first paragraph
         para = tf.paragraphs[0]
         if para.alignment:
-            font_data['alignment'] = str(para.alignment).replace('TEXT_ALIGN.', '').lower()
+            from pptx.enum.text import PP_ALIGN
+            align_map = {
+                PP_ALIGN.LEFT: 'left',
+                PP_ALIGN.CENTER: 'center',
+                PP_ALIGN.RIGHT: 'right',
+            }
+            if para.alignment in align_map:
+                font_data['align'] = align_map[para.alignment]
         
         # Get font properties from first run with text
         for para in tf.paragraphs:
