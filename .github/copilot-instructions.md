@@ -119,6 +119,11 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **alignment**: `"left"`, `"center"`, or `"right"`
 - **fill**: Background color (hex)
 - **line**: Border styling: `{ color, width }`
+- **arc_path** (optional): For freeform arc shapes (e.g., "Arc 192"), contains path data:
+  - **from**: Start point `{ x, y }` in slide coordinates
+  - **to**: End point `{ x, y }` in slide coordinates
+  - **curve**: Vertical offset for arc (negative = curves up, positive = curves down)
+  - **flip**: Boolean indicating horizontal flip
 - **hyperlink** (optional): If the element is clickable:
   - **type**: `"customshow"` for links to custom shows
   - **id**: The custom show ID to display
@@ -174,6 +179,47 @@ For MBS (SvelteKit presentation system), convert timing to step values:
 { "sequence": 2, "timing": "with", ... }    // → step={1}
 { "sequence": 3, "timing": "after", "delay": 500 }  // → step={1.1}
 { "sequence": 4, "timing": "click", ... }   // → step={2}
+```
+
+### Converting Arc Shapes to MBS
+
+Freeform arc shapes (like "Arc 192") have an `arc_path` field with `from`, `to`, and `curve` values. These map directly to the MBS `Arc` component.
+
+**Important:** The extracted coordinates are in PowerPoint's slide dimensions (e.g., 1536×864). MBS uses a 960×540 canvas. Scale the coordinates by the ratio: `960 / slide_width` (typically 0.625).
+
+**JSON arc_path example:**
+```json
+{
+  "shape_name": "Arc 192",
+  "shape_type": "freeform",
+  "arc_path": {
+    "from": { "x": 582.7, "y": 611.4 },
+    "to": { "x": 387.0, "y": 610.7 },
+    "curve": -53.8,
+    "flip": true
+  },
+  "line": { "width": 8.0, "color": "#0000FF" }
+}
+```
+
+**MBS Svelte conversion (with scale factor 0.625):**
+```svelte
+<Fragment step={48} animate="draw">
+  <Arc
+    from={{ x: 582.7 * 0.625, y: 611.4 * 0.625 }}
+    to={{ x: 387.0 * 0.625, y: 610.7 * 0.625 }}
+    curve={-53.8 * 0.625}
+    stroke={{ width: 8 * 0.625, color: '#0000FF' }}
+    arrow
+  />
+</Fragment>
+```
+
+Or with pre-calculated values:
+```svelte
+<Fragment step={48} animate="draw">
+  <Arc from={{ x: 364, y: 382 }} to={{ x: 242, y: 382 }} curve={-34} stroke={{ width: 5, color: '#0000FF' }} arrow />
+</Fragment>
 ```
 
 ### Example Flow (Slide 1 of "The Promises")

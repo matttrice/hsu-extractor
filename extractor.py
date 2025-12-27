@@ -222,7 +222,159 @@ def extract_connector_path(shape):
         pass
     return None
 
-def extract_shape_visual_data(shape, z_index):
+def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout):
+    """Extract arc path data for a freeform shape from slide XML.
+    
+    Returns arc parameters:
+    - from: start point in canvas coordinates
+    - to: end point in canvas coordinates
+    - curve: vertical offset for quadratic bezier (negative = up, positive = down)
+    - flip: whether the arc is horizontally flipped
+    """
+    try:
+        root = ET.fromstring(slide_xml_content)
+        
+        # Find the shape with matching ID
+        for sp in root.findall('.//p:sp', NAMESPACES):
+            cNvPr = sp.find('.//p:cNvPr', NAMESPACES)
+            if cNvPr is not None and cNvPr.get('id') == str(shape_id):
+                # Check if it's a freeform with custom geometry
+                spPr = sp.find('p:spPr', NAMESPACES)
+                if spPr is None:
+                    continue
+                
+                custGeom = spPr.find('a:custGeom', NAMESPACES)
+                if custGeom is None:
+                    continue
+                
+                # Get transform info
+                xfrm = spPr.find('a:xfrm', NAMESPACES)
+                flipH = xfrm.get('flipH') == '1' if xfrm is not None else False
+                flipV = xfrm.get('flipV') == '1' if xfrm is not None else False
+                
+                # Find the first path (the stroke path, not fill path)
+                pathLst = custGeom.find('a:pathLst', NAMESPACES)
+                if pathLst is None:
+                    continue
+                
+                # Get the path that has fill="none" (stroke path)
+                stroke_path = None
+                for path in pathLst.findall('a:path', NAMESPACES):
+                    if path.get('fill') == 'none':
+                        stroke_path = path
+                        break
+                
+                if stroke_path is None:
+                    # Fall back to first path
+                    stroke_path = pathLst.find('a:path', NAMESPACES)
+                
+                if stroke_path is None:
+                    continue
+                
+                # Get path dimensions for coordinate scaling
+                path_w = int(stroke_path.get('w', '21600'))
+                path_h = int(stroke_path.get('h', '21600'))
+                
+                # Extract all points from the path
+                points = []
+                
+                # moveTo is the start point
+                moveTo = stroke_path.find('a:moveTo', NAMESPACES)
+                if moveTo is not None:
+                    pt = moveTo.find('a:pt', NAMESPACES)
+                    if pt is not None:
+                        points.append({
+                            'type': 'move',
+                            'x': int(pt.get('x', '0')),
+                            'y': int(pt.get('y', '0'))
+                        })
+                
+                # cubicBezTo contains control and end points
+                for bezier in stroke_path.findall('a:cubicBezTo', NAMESPACES):
+                    pts = bezier.findall('a:pt', NAMESPACES)
+                    if len(pts) >= 3:
+                        # First two are control points, third is end point
+                        points.append({
+                            'type': 'cubic',
+                            'cp1_x': int(pts[0].get('x', '0')),
+                            'cp1_y': int(pts[0].get('y', '0')),
+                            'cp2_x': int(pts[1].get('x', '0')),
+                            'cp2_y': int(pts[1].get('y', '0')),
+                            'x': int(pts[2].get('x', '0')),
+                            'y': int(pts[2].get('y', '0'))
+                        })
+                
+                if len(points) < 2:
+                    continue
+                
+                # Get shape layout for coordinate conversion
+                layout_x = shape_layout.get('x', 0)
+                layout_y = shape_layout.get('y', 0)
+                layout_w = shape_layout.get('width', 100)
+                layout_h = shape_layout.get('height', 50)
+                
+                # Scale path coordinates to canvas coordinates
+                def scale_x(px):
+                    scaled = (px / path_w) * layout_w
+                    if flipH:
+                        scaled = layout_w - scaled
+                    return round(layout_x + scaled, 1)
+                
+                def scale_y(py):
+                    scaled = (py / path_h) * layout_h
+                    if flipV:
+                        scaled = layout_h - scaled
+                    return round(layout_y + scaled, 1)
+                
+                # Get start and end points
+                start_point = points[0]
+                from_x = scale_x(start_point.get('x', 0))
+                from_y = scale_y(start_point.get('y', 0))
+                
+                # Find the last endpoint
+                end_point = None
+                for p in reversed(points):
+                    if p['type'] == 'cubic':
+                        end_point = p
+                        break
+                
+                if end_point is None:
+                    continue
+                
+                to_x = scale_x(end_point.get('x', 0))
+                to_y = scale_y(end_point.get('y', 0))
+                
+                # Calculate curve amount based on control points
+                # For a typical arc, we want the midpoint's vertical offset
+                # Estimate from the layout height and whether it curves up or down
+                mid_y = (from_y + to_y) / 2
+                
+                # Check if the control points curve up or down
+                # A typical arc has control points either above or below the endpoints
+                curve_direction = -1  # default: curve up
+                if len(points) > 1 and points[1]['type'] == 'cubic':
+                    cp1_y = scale_y(points[1].get('cp1_y', 0))
+                    # If control point is below the endpoints, curve is down
+                    if cp1_y > mid_y:
+                        curve_direction = 1
+                
+                # Curve amount is approximately the height of the arc
+                curve_amount = layout_h * curve_direction * 0.8
+                
+                return {
+                    'from': {'x': from_x, 'y': from_y},
+                    'to': {'x': to_x, 'y': to_y},
+                    'curve': round(curve_amount, 1),
+                    'flip': flipH
+                }
+                
+    except Exception as e:
+        # Silently fail for shapes without arc data
+        pass
+    
+    return None
+
+def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=None):
     """Extract all visual data for a shape."""
     visual_data = {
         'z_index': z_index,
@@ -254,6 +406,12 @@ def extract_shape_visual_data(shape, z_index):
         path = extract_connector_path(shape)
         if path:
             visual_data['path'] = path
+    
+    # Arc path (for freeform arcs)
+    if visual_data['shape_type'] == 'freeform' and slide_xml_content and shape_id and layout:
+        arc_path = extract_arc_path_from_xml(slide_xml_content, shape_id, layout)
+        if arc_path:
+            visual_data['arc_path'] = arc_path
     
     return visual_data
 
@@ -575,7 +733,7 @@ def save_presentation_structure(prs, file_path):
                         # Add visual data if available
                         if shape_id in pptx_shapes_by_id:
                             pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
-                            visual = extract_shape_visual_data(pptx_shape, z_idx)
+                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id)
                             if visual:
                                 for key, value in visual.items():
                                     entry[key] = value
@@ -608,7 +766,7 @@ def save_presentation_structure(prs, file_path):
                         # Add visual data if available
                         if shape_id in pptx_shapes_by_id:
                             pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
-                            visual = extract_shape_visual_data(pptx_shape, z_idx)
+                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id)
                             if visual:
                                 for key, value in visual.items():
                                     static_entry[key] = value
