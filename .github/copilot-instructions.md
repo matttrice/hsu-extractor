@@ -118,7 +118,18 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **color**: Hex color (e.g., `"#0000CC"`)
   - **alignment**: `"left"`, `"center"`, or `"right"`
 - **fill**: Background color (hex)
-- **line**: Border styling: `{ color, width }`
+- **line**: Border/stroke styling:
+  - **width**: Stroke width in pixels
+  - **color**: Hex color (e.g., `"#0000FF"`)
+  - **theme_color**: Theme color reference (e.g., `"TEXT_1 (13)"`)
+  - **dash**: Dash pattern type (`"dash"`, `"sysDash"`, `"dot"`, `"lgDash"`, etc.)
+- **arrow_ends** (optional): For lines with arrowheads:
+  - **headEnd**: Arrow type at start (`"triangle"`, `"stealth"`, `"diamond"`, `"oval"`, `"arrow"`)
+  - **tailEnd**: Arrow type at end (same values)
+- **line_endpoints** (optional): For line/connector shapes, pre-calculated endpoints accounting for rotation:
+  - **from**: Start point `{ x, y }` in slide coordinates  
+  - **to**: End point `{ x, y }` in slide coordinates
+  - Use these values directly instead of calculating from layout + rotation
 - **arc_path** (optional): For freeform arc shapes (e.g., "Arc 192"), contains path data:
   - **from**: Start point `{ x, y }` in slide coordinates
   - **to**: End point `{ x, y }` in slide coordinates
@@ -221,6 +232,87 @@ Or with pre-calculated values:
   <Arc from={{ x: 364, y: 382 }} to={{ x: 242, y: 382 }} curve={-34} stroke={{ width: 5, color: '#0000FF' }} arrow />
 </Fragment>
 ```
+
+### Converting Lines with Arrows and Dashes
+
+When the JSON has an `arrow_ends` property with `headEnd` or `tailEnd`, use the MBS `Arrow` component instead of `Line`:
+
+**JSON with arrow_ends:**
+```json
+{
+  "shape_name": "Line 74",
+  "layout": { "x": 753.6, "y": -30.4, "width": 1.0, "height": 893.8, "rotation": 90.0 },
+  "line": { "width": 15.0, "theme_color": "TEXT_1 (13)" },
+  "arrow_ends": { "tailEnd": "triangle" },
+  "line_endpoints": { "from": { "x": 306.7, "y": 456.5 }, "to": { "x": 1200.5, "y": 456.5 } }
+}
+```
+
+**MBS conversion (use Arrow component with line_endpoints):**
+```svelte
+<Fragment step={6} animate="wipe">
+  <Arrow from={{ x: 0, y: 285 }} to={{ x: 960, y: 285 }} stroke={{ width: 9.4, color: '#000000' }} zIndex={30} />
+</Fragment>
+```
+
+### Understanding Line Rotation
+
+PowerPoint stores lines as rotated rectangles. The `line_endpoints` field provides pre-calculated `from` and `to` coordinates that account for rotation:
+
+- **rotation: 0°** → Vertical line (top to bottom)
+- **rotation: 90°** → Horizontal line (left to right)  
+- **rotation: 270°** → Horizontal line (right to left)
+- **Other angles** → Diagonal line
+
+**Always use `line_endpoints.from` and `line_endpoints.to`** instead of trying to interpret `layout.x/y` directly. The layout values represent the bounding box before rotation, not the actual line position.
+
+**JSON with rotation (before line_endpoints was added):**
+```json
+{
+  "shape_name": "Line 72",
+  "layout": { "x": 936.2, "y": 62.2, "width": 2.0, "height": 404.3, "rotation": 270.0 },
+  "line": { "width": 6.0, "dash": "sysDash" }
+}
+```
+
+This is actually a **horizontal** dashed line (rotation 270° turns vertical→horizontal). With the new `line_endpoints` field:
+```json
+{
+  "line_endpoints": { "from": { "x": 735.1, "y": 264.4 }, "to": { "x": 1139.4, "y": 264.4 } }
+}
+```
+
+**MBS conversion (apply scale 0.625):**
+```svelte
+<Fragment step={16.1} animate="draw">
+  <Line from={{ x: 459.4, y: 165.2 }} to={{ x: 712.1, y: 165.2 }} stroke={{ width: 3.8, dash: '10,5' }} />
+</Fragment>
+```
+
+For dashed lines, add the `dash` property to the stroke:
+
+**JSON with dash:**
+```json
+{
+  "shape_name": "Line 126",
+  "line": { "width": 7.7, "color": "#0000FF", "dash": "sysDash" }
+}
+```
+
+**MBS conversion:**
+```svelte
+<Fragment>
+  <Line from={{ x: 0, y: 260 }} to={{ x: 960, y: 260 }} stroke={{ width: 4.8, color: '#0000FF', dash: '10,5' }} zIndex={3} />
+</Fragment>
+```
+
+**Dash pattern mapping:**
+| JSON dash | MBS stroke.dash |
+|-----------|-----------------|
+| `"sysDash"` | `"10,5"` |
+| `"dash"` | `"8,4"` |
+| `"dot"` | `"2,2"` |
+| `"lgDash"` | `"16,6"` |
 
 ### Example Flow (Slide 1 of "The Promises")
 

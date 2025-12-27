@@ -1,6 +1,7 @@
 import os
 import glob
 import json
+import math
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -47,6 +48,58 @@ def extract_shape_layout(shape):
         }
     except Exception as e:
         return None
+
+def calculate_line_endpoints(layout):
+    """Calculate actual line endpoints from layout with rotation.
+    
+    PowerPoint stores lines as rectangles with rotation. The line runs from
+    top-center to bottom-center of the unrotated rectangle, then the whole
+    thing is rotated around the center.
+    
+    For lines:
+    - rotation 0: vertical line (top to bottom)
+    - rotation 90 or 270: horizontal line (left to right or right to left)
+    - other angles: diagonal line
+    
+    Returns dict with 'from' and 'to' points {x, y} or None if not applicable.
+    """
+    if not layout:
+        return None
+    
+    x = layout.get('x', 0)
+    y = layout.get('y', 0)
+    w = layout.get('width', 0)
+    h = layout.get('height', 0)
+    rotation = layout.get('rotation', 0)
+    
+    # Center of the shape
+    cx = x + w / 2
+    cy = y + h / 2
+    
+    # Original endpoints (before rotation) - line from top-center to bottom-center
+    # The "height" is the line length in its unrotated state
+    p1_x, p1_y = cx, y           # top-center
+    p2_x, p2_y = cx, y + h       # bottom-center
+    
+    # Rotate around center
+    rad = math.radians(rotation)
+    cos_r = math.cos(rad)
+    sin_r = math.sin(rad)
+    
+    def rotate_point(px, py):
+        dx = px - cx
+        dy = py - cy
+        rx = cx + dx * cos_r - dy * sin_r
+        ry = cy + dx * sin_r + dy * cos_r
+        return round(rx, 1), round(ry, 1)
+    
+    from_pt = rotate_point(p1_x, p1_y)
+    to_pt = rotate_point(p2_x, p2_y)
+    
+    return {
+        'from': {'x': from_pt[0], 'y': from_pt[1]},
+        'to': {'x': to_pt[0], 'y': to_pt[1]}
+    }
 
 def extract_fill_style(shape):
     """Extract fill color from a shape."""
@@ -111,11 +164,84 @@ def extract_line_style(shape):
         except:
             pass
         
+        # Get dash style from line.dash_style
+        try:
+            dash_style = line.dash_style
+            if dash_style is not None:
+                from pptx.enum.dml import MSO_LINE_DASH_STYLE
+                dash_map = {
+                    MSO_LINE_DASH_STYLE.SOLID: None,  # Don't include for solid
+                    MSO_LINE_DASH_STYLE.DASH: 'dash',
+                    MSO_LINE_DASH_STYLE.DASH_DOT: 'dashDot',
+                    MSO_LINE_DASH_STYLE.DASH_DOT_DOT: 'dashDotDot',
+                    MSO_LINE_DASH_STYLE.LONG_DASH: 'lgDash',
+                    MSO_LINE_DASH_STYLE.LONG_DASH_DOT: 'lgDashDot',
+                    MSO_LINE_DASH_STYLE.ROUND_DOT: 'dot',
+                    MSO_LINE_DASH_STYLE.SQUARE_DOT: 'sysDash',  # sysDash maps to SQUARE_DOT in python-pptx
+                }
+                dash_str = dash_map.get(dash_style)
+                if dash_str:
+                    line_data['dash'] = dash_str
+        except:
+            pass
+        
         if line_data:
             return line_data
     except:
         pass
     return None
+
+
+def extract_arrow_ends_from_xml(slide_xml_content, shape_id):
+    """Extract arrow head/tail end types from slide XML.
+    
+    Returns dict with 'headEnd' and 'tailEnd' if present.
+    Values are: 'none', 'triangle', 'stealth', 'diamond', 'oval', 'arrow'
+    """
+    try:
+        root = ET.fromstring(slide_xml_content)
+        
+        # Find the shape with matching ID (check both sp and cxnSp elements)
+        for sp in root.findall('.//p:sp', NAMESPACES):
+            cNvPr = sp.find('.//p:cNvPr', NAMESPACES)
+            if cNvPr is not None and cNvPr.get('id') == str(shape_id):
+                spPr = sp.find('p:spPr', NAMESPACES)
+                if spPr is not None:
+                    return _extract_line_ends(spPr)
+        
+        # Also check connector shapes
+        for cxnSp in root.findall('.//p:cxnSp', NAMESPACES):
+            cNvPr = cxnSp.find('.//p:cNvPr', NAMESPACES)
+            if cNvPr is not None and cNvPr.get('id') == str(shape_id):
+                spPr = cxnSp.find('p:spPr', NAMESPACES)
+                if spPr is not None:
+                    return _extract_line_ends(spPr)
+    except:
+        pass
+    return None
+
+
+def _extract_line_ends(spPr):
+    """Extract headEnd and tailEnd from a spPr element."""
+    ln = spPr.find('a:ln', NAMESPACES)
+    if ln is None:
+        return None
+    
+    result = {}
+    
+    headEnd = ln.find('a:headEnd', NAMESPACES)
+    if headEnd is not None:
+        head_type = headEnd.get('type', 'none')
+        if head_type and head_type != 'none':
+            result['headEnd'] = head_type
+    
+    tailEnd = ln.find('a:tailEnd', NAMESPACES)
+    if tailEnd is not None:
+        tail_type = tailEnd.get('type', 'none')
+        if tail_type and tail_type != 'none':
+            result['tailEnd'] = tail_type
+    
+    return result if result else None
 
 def extract_font_style(shape):
     """Extract font properties from the first text run in a shape."""
@@ -422,10 +548,30 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
         visual_data['font'] = font
     
     # Connector path (for lines/arrows)
-    if visual_data['shape_type'] in ('connector', 'line'):
+    # Check shape_type OR shape.name containing "Line" (some lines are auto_shape type)
+    is_line_shape = visual_data['shape_type'] in ('connector', 'line')
+    try:
+        if hasattr(shape, 'name') and shape.name and 'line' in shape.name.lower():
+            is_line_shape = True
+    except:
+        pass
+    
+    if is_line_shape:
         path = extract_connector_path(shape)
         if path:
             visual_data['path'] = path
+        
+        # Calculate actual line endpoints from layout + rotation
+        if layout:
+            line_endpoints = calculate_line_endpoints(layout)
+            if line_endpoints:
+                visual_data['line_endpoints'] = line_endpoints
+    
+    # Arrow head/tail ends from XML (for lines that are actually arrows)
+    if slide_xml_content and shape_id:
+        arrow_ends = extract_arrow_ends_from_xml(slide_xml_content, shape_id)
+        if arrow_ends:
+            visual_data['arrow_ends'] = arrow_ends
     
     # Arc path (for freeform arcs)
     if visual_data['shape_type'] == 'freeform' and slide_xml_content and shape_id and layout:
