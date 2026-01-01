@@ -18,6 +18,10 @@ NAMESPACES = {
     'p': 'http://schemas.openxmlformats.org/presentationml/2006/main',
 }
 
+# Target canvas dimensions for MBS (960×540 pixels, 16:9 aspect ratio)
+TARGET_CANVAS_WIDTH = 960
+TARGET_CANVAS_HEIGHT = 540
+
 # EMU to pixels conversion (96 DPI standard)
 EMU_PER_PIXEL = 9525
 
@@ -26,6 +30,24 @@ def emu_to_px(emu):
     if emu is None:
         return None
     return round(emu / EMU_PER_PIXEL, 1)
+
+def scale_to_target(value, source_width, target_width=TARGET_CANVAS_WIDTH):
+    """Scale a coordinate value from source slide dimensions to target canvas dimensions.
+    
+    Args:
+        value: The coordinate value to scale (can be None)
+        source_width: The width of the source PowerPoint slide in pixels
+        target_width: The target canvas width (default: 960)
+    
+    Returns:
+        Scaled value rounded to 1 decimal place, or None if value is None
+    """
+    if value is None:
+        return None
+    if source_width == target_width:
+        return round(value, 1)
+    scale_factor = target_width / source_width
+    return round(value * scale_factor, 1)
 
 def rgb_to_hex(rgb_color):
     """Convert RGBColor to hex string."""
@@ -36,20 +58,41 @@ def rgb_to_hex(rgb_color):
     except:
         return None
 
-def extract_shape_layout(shape):
-    """Extract position, size, and rotation from a shape."""
+def extract_shape_layout(shape, slide_width=None):
+    """Extract position, size, and rotation from a shape.
+    
+    Args:
+        shape: The pptx shape object
+        slide_width: Source slide width in pixels for auto-scaling (optional)
+    
+    Returns:
+        Layout dict with coordinates scaled to target canvas (960×540)
+    """
     try:
+        # Extract raw coordinates in source dimensions
+        x = emu_to_px(shape.left)
+        y = emu_to_px(shape.top)
+        width = emu_to_px(shape.width)
+        height = emu_to_px(shape.height)
+        
+        # Auto-scale to target canvas if slide_width provided
+        if slide_width is not None:
+            x = scale_to_target(x, slide_width)
+            y = scale_to_target(y, slide_width)  # Use same scale for y
+            width = scale_to_target(width, slide_width)
+            height = scale_to_target(height, slide_width)
+        
         return {
-            'x': emu_to_px(shape.left),
-            'y': emu_to_px(shape.top),
-            'width': emu_to_px(shape.width),
-            'height': emu_to_px(shape.height),
+            'x': x,
+            'y': y,
+            'width': width,
+            'height': height,
             'rotation': shape.rotation if shape.rotation else 0
         }
     except Exception as e:
         return None
 
-def calculate_line_endpoints(layout):
+def calculate_line_endpoints(layout, slide_width=None):
     """Calculate actual line endpoints from layout with rotation.
     
     PowerPoint stores lines as rectangles with rotation. The line runs from
@@ -60,6 +103,10 @@ def calculate_line_endpoints(layout):
     - rotation 0: vertical line (top to bottom)
     - rotation 90 or 270: horizontal line (left to right or right to left)
     - other angles: diagonal line
+    
+    Args:
+        layout: Layout dict with x, y, width, height, rotation (already scaled if slide_width was used)
+        slide_width: Not used here - layout is already scaled by extract_shape_layout
     
     Returns dict with 'from' and 'to' points {x, y} or None if not applicable.
     """
@@ -368,12 +415,18 @@ def extract_connector_path(shape):
         pass
     return None
 
-def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout):
+def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout, slide_width=None):
     """Extract arc path data for a freeform shape from slide XML.
     
+    Args:
+        slide_xml_content: The slide XML content
+        shape_id: The shape ID to extract
+        shape_layout: The shape layout (already scaled if slide_width was used)
+        slide_width: Not used here - shape_layout is already scaled
+    
     Returns arc parameters:
-    - from: start point in canvas coordinates
-    - to: end point in canvas coordinates
+    - from: start point in canvas coordinates (scaled)
+    - to: end point in canvas coordinates (scaled)
     - curve: vertical offset for quadratic bezier (negative = up, positive = down)
     - flip: whether the arc is horizontally flipped
     """
@@ -520,15 +573,23 @@ def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout):
     
     return None
 
-def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=None):
-    """Extract all visual data for a shape."""
+def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=None, slide_width=None):
+    """Extract all visual data for a shape.
+    
+    Args:
+        shape: The pptx shape object
+        z_index: The z-index of the shape
+        slide_xml_content: Optional slide XML for extracting arrow/arc data
+        shape_id: Optional shape ID for XML lookups
+        slide_width: Source slide width for auto-scaling coordinates
+    """
     visual_data = {
         'z_index': z_index,
         'shape_type': get_shape_type_name(shape)
     }
     
-    # Layout (position, size, rotation)
-    layout = extract_shape_layout(shape)
+    # Layout (position, size, rotation) - auto-scaled to target canvas
+    layout = extract_shape_layout(shape, slide_width)
     if layout:
         visual_data['layout'] = layout
     
@@ -562,6 +623,7 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
             visual_data['path'] = path
         
         # Calculate actual line endpoints from layout + rotation
+        # Note: layout is already scaled, so no need to pass slide_width
         if layout:
             line_endpoints = calculate_line_endpoints(layout)
             if line_endpoints:
@@ -574,6 +636,7 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
             visual_data['arrow_ends'] = arrow_ends
     
     # Arc path (for freeform arcs)
+    # Note: layout is already scaled, so no need to pass slide_width
     if visual_data['shape_type'] == 'freeform' and slide_xml_content and shape_id and layout:
         arc_path = extract_arc_path_from_xml(slide_xml_content, shape_id, layout)
         if arc_path:
@@ -847,12 +910,22 @@ def save_presentation_structure(prs, file_path):
     slide_width = emu_to_px(prs.slide_width)
     slide_height = emu_to_px(prs.slide_height)
     
+    # Calculate scale factor for coordinate conversion
+    scale_factor = TARGET_CANVAS_WIDTH / slide_width if slide_width else 1.0
+    
     presentation_data = {
         "file_path": str(file_path),
         "file_name": Path(file_path).name,
         "total_slides": len(prs.slides),
-        "slide_width": slide_width,
-        "slide_height": slide_height,
+        "source_dimensions": {
+            "width": slide_width,
+            "height": slide_height
+        },
+        "target_canvas": {
+            "width": TARGET_CANVAS_WIDTH,
+            "height": TARGET_CANVAS_HEIGHT
+        },
+        "scale_factor": round(scale_factor, 3),
         "custom_shows": custom_shows,
         "slides": []
     }
@@ -896,10 +969,10 @@ def save_presentation_structure(prs, file_path):
                         if 'delay' in anim_entry and anim_entry['delay'] > 0:
                             entry['delay'] = anim_entry['delay']
                         
-                        # Add visual data if available
+                        # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
                             pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
-                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id)
+                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
                             if visual:
                                 for key, value in visual.items():
                                     entry[key] = value
@@ -929,10 +1002,10 @@ def save_presentation_structure(prs, file_path):
                             'static': True
                         }
                         
-                        # Add visual data if available
+                        # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
                             pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
-                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id)
+                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
                             if visual:
                                 for key, value in visual.items():
                                     static_entry[key] = value

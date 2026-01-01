@@ -9,10 +9,21 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
   "file_path": "/path/to/presentation.pptx",
   "file_name": "presentation.pptx",
   "total_slides": 17,
+  "source_dimensions": {
+    "width": 1536.0,
+    "height": 864.0
+  },
+  "target_canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "scale_factor": 0.625,
   "custom_shows": { ... },
   "slides": [ ... ]
 }
 ```
+
+**Coordinate Scaling**: All layout coordinates (x, y, width, height) are automatically scaled from the source PowerPoint dimensions to a 960×540 pixel canvas. The `scale_factor` shows the conversion ratio applied.
 
 ### Custom Shows
 
@@ -192,44 +203,45 @@ For MBS (SvelteKit presentation system), convert timing to step values:
 { "sequence": 4, "timing": "click", ... }   // → step={2}
 ```
 
+### Coordinate Scaling (PowerPoint → MBS)
+
+The extractor automatically scales all coordinates from PowerPoint's slide dimensions to MBS's **960×540 canvas**. Coordinates in the JSON are already pre-calculated to final pixel values rounded to 1 decimal place.
+
+**No manual scaling needed** - use JSON coordinates directly in Svelte components:
+
+```svelte
+<!-- JSON: "x": 81.1, "y": 12.0, "width": 229.1, "height": 56.4 -->
+<Fragment layout={{ x: 81.1, y: 12, width: 229.1, height: 56.4 }}>
+```
+
+The JSON includes metadata showing the conversion applied:
+- `source_dimensions`: Original PowerPoint slide size (e.g., 1536×864)
+- `target_canvas`: MBS canvas size (always 960×540)
+- `scale_factor`: Conversion ratio (e.g., 0.625 for 1536→960)
+
 ### Converting Arc Shapes to MBS
 
 Freeform arc shapes (like "Arc 192") have an `arc_path` field with `from`, `to`, and `curve` values. These map directly to the MBS `Arc` component.
 
-**Important:** The extracted coordinates are in PowerPoint's slide dimensions (e.g., 1536×864). MBS uses a 960×540 canvas. Scale the coordinates by the ratio: `960 / slide_width` (typically 0.625).
-
-**JSON arc_path example:**
+**JSON arc_path example (coordinates already scaled to 960×540):**
 ```json
 {
   "shape_name": "Arc 192",
   "shape_type": "freeform",
   "arc_path": {
-    "from": { "x": 582.7, "y": 611.4 },
-    "to": { "x": 387.0, "y": 610.7 },
-    "curve": -53.8,
+    "from": { "x": 364.2, "y": 382.1 },
+    "to": { "x": 241.9, "y": 381.7 },
+    "curve": -33.6,
     "flip": true
   },
-  "line": { "width": 8.0, "color": "#0000FF" }
+  "line": { "width": 5.0, "color": "#0000FF" }
 }
 ```
 
-**MBS Svelte conversion (with scale factor 0.625):**
+**MBS Svelte conversion (use coordinates directly):**
 ```svelte
 <Fragment step={48} animate="draw">
-  <Arc
-    from={{ x: 582.7 * 0.625, y: 611.4 * 0.625 }}
-    to={{ x: 387.0 * 0.625, y: 610.7 * 0.625 }}
-    curve={-53.8 * 0.625}
-    stroke={{ width: 8 * 0.625, color: '#0000FF' }}
-    arrow
-  />
-</Fragment>
-```
-
-Or with pre-calculated values:
-```svelte
-<Fragment step={48} animate="draw">
-  <Arc from={{ x: 364, y: 382 }} to={{ x: 242, y: 382 }} curve={-34} stroke={{ width: 5, color: '#0000FF' }} arrow />
+  <Arc from={{ x: 364.2, y: 382.1 }} to={{ x: 241.9, y: 381.7 }} curve={-33.6} stroke={{ width: 5, color: '#0000FF' }} arrow />
 </Fragment>
 ```
 
@@ -237,21 +249,21 @@ Or with pre-calculated values:
 
 When the JSON has an `arrow_ends` property with `headEnd` or `tailEnd`, use the MBS `Arrow` component instead of `Line`:
 
-**JSON with arrow_ends:**
+**JSON with arrow_ends (coordinates already scaled to 960×540):**
 ```json
 {
   "shape_name": "Line 74",
-  "layout": { "x": 753.6, "y": -30.4, "width": 1.0, "height": 893.8, "rotation": 90.0 },
-  "line": { "width": 15.0, "theme_color": "TEXT_1 (13)" },
+  "layout": { "x": 191.5, "y": 285.0, "width": 0.6, "height": 558.6, "rotation": 90.0 },
+  "line": { "width": 9.4, "theme_color": "TEXT_1 (13)" },
   "arrow_ends": { "tailEnd": "triangle" },
-  "line_endpoints": { "from": { "x": 306.7, "y": 456.5 }, "to": { "x": 1200.5, "y": 456.5 } }
+  "line_endpoints": { "from": { "x": 0, "y": 285.3 }, "to": { "x": 750.3, "y": 285.3 } }
 }
 ```
 
-**MBS conversion (use Arrow component with line_endpoints):**
+**MBS conversion (use coordinates directly):**
 ```svelte
 <Fragment step={6} animate="wipe">
-  <Arrow from={{ x: 0, y: 285 }} to={{ x: 960, y: 285 }} stroke={{ width: 9.4, color: '#000000' }} zIndex={30} />
+  <Arrow from={{ x: 0, y: 285.3 }} to={{ x: 750.3, y: 285.3 }} stroke={{ width: 9.4, color: '#000000' }} zIndex={30} />
 </Fragment>
 ```
 
@@ -266,26 +278,20 @@ PowerPoint stores lines as rotated rectangles. The `line_endpoints` field provid
 
 **Always use `line_endpoints.from` and `line_endpoints.to`** instead of trying to interpret `layout.x/y` directly. The layout values represent the bounding box before rotation, not the actual line position.
 
-**JSON with rotation (before line_endpoints was added):**
+**JSON with rotation (coordinates already scaled to 960×540):**
 ```json
 {
   "shape_name": "Line 72",
-  "layout": { "x": 936.2, "y": 62.2, "width": 2.0, "height": 404.3, "rotation": 270.0 },
-  "line": { "width": 6.0, "dash": "sysDash" }
+  "layout": { "x": 585.1, "y": 38.9, "width": 1.3, "height": 252.7, "rotation": 270.0 },
+  "line": { "width": 3.8, "dash": "sysDash" },
+  "line_endpoints": { "from": { "x": 459.4, "y": 165.3 }, "to": { "x": 712.1, "y": 165.3 } }
 }
 ```
 
-This is actually a **horizontal** dashed line (rotation 270° turns vertical→horizontal). With the new `line_endpoints` field:
-```json
-{
-  "line_endpoints": { "from": { "x": 735.1, "y": 264.4 }, "to": { "x": 1139.4, "y": 264.4 } }
-}
-```
-
-**MBS conversion (apply scale 0.625):**
+**MBS conversion (use coordinates directly):**
 ```svelte
 <Fragment step={16.1} animate="draw">
-  <Line from={{ x: 459.4, y: 165.2 }} to={{ x: 712.1, y: 165.2 }} stroke={{ width: 3.8, dash: '10,5' }} />
+  <Line from={{ x: 459.4, y: 165.3 }} to={{ x: 712.1, y: 165.3 }} stroke={{ width: 3.8, dash: '10,5' }} />
 </Fragment>
 ```
 

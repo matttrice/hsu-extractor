@@ -2,6 +2,15 @@
   "file_path": "/Users/badger/projects/hsu-pptx/04-Life.pptx",
   "file_name": "04-Life.pptx",
   "total_slides": 27,
+  "source_dimensions": {
+    "width": 1536.0,
+    "height": 864.0
+  },
+  "target_canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "scale_factor": 0.625,
   "custom_shows": {
     "0": {
       "name": "Genesis1.11",
@@ -361,12 +370,38 @@
         {
           "sequence": 1,
           "text": "How many “kinds” of life did God create?",
-          "shape_name": "Text Box 5"
+          "shape_name": "Text Box 5",
+          "timing": "click",
+          "z_index": 12,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 81.1,
+            "y": 12.0,
+            "width": 229.1,
+            "height": 56.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "sequence": 2,
           "text": "Genesis 1:11-12",
           "shape_name": "Text Box 22",
+          "timing": "click",
+          "z_index": 15,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 107.8,
+            "y": 100.1,
+            "width": 219.5,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 0
@@ -388,13 +423,107 @@
         },
         {
           "sequence": 3,
-          "text": "Plants",
-          "shape_name": "TextBox 1"
+          "text": "",
+          "shape_name": "Rectangle 55",
+          "timing": "with",
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 85.8,
+            "y": 100.3,
+            "width": 260.8,
+            "height": 206.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          }
         },
         {
           "sequence": 4,
+          "text": "",
+          "shape_name": "Line 25",
+          "timing": "with",
+          "z_index": 18,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 86.6,
+            "y": 100.1,
+            "width": 790.9,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 5.3,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 482.0,
+              "y": 100.1
+            },
+            "to": {
+              "x": 482.0,
+              "y": 100.1
+            }
+          }
+        },
+        {
+          "sequence": 5,
+          "text": "Plants",
+          "shape_name": "TextBox 1",
+          "timing": "click",
+          "z_index": 40,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 132.5,
+            "y": 134.1,
+            "width": 148.5,
+            "height": 60.6,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 72.0
+          }
+        },
+        {
+          "sequence": 6,
+          "text": "",
+          "shape_name": "Rectangle 59",
+          "timing": "click",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 345.5,
+            "y": 100.3,
+            "width": 279.5,
+            "height": 206.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          }
+        },
+        {
+          "sequence": 7,
           "text": "Genesis 1:20-25",
           "shape_name": "Text Box 23",
+          "timing": "with",
+          "z_index": 16,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 370.9,
+            "y": 100.8,
+            "width": 220.9,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 1
@@ -415,14 +544,58 @@
           }
         },
         {
-          "sequence": 5,
+          "sequence": 8,
           "text": "Animals",
-          "shape_name": "Text Box 20"
+          "shape_name": "Text Box 20",
+          "timing": "click",
+          "z_index": 13,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 379.7,
+            "y": 133.6,
+            "width": 189.4,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 70.7,
+            "theme_color": "TEXT_2 (15)"
+          }
         },
         {
-          "sequence": 6,
+          "sequence": 9,
+          "text": "",
+          "shape_name": "Rectangle 60",
+          "timing": "click",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 620.0,
+            "y": 100.3,
+            "width": 257.1,
+            "height": 206.4,
+            "rotation": 0
+          },
+          "fill": "#969696"
+        },
+        {
+          "sequence": 10,
           "text": "Genesis 1:26-27",
           "shape_name": "Text Box 24",
+          "timing": "with",
+          "z_index": 17,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 612.0,
+            "y": 101.4,
+            "width": 220.9,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 2
@@ -443,39 +616,142 @@
           }
         },
         {
-          "sequence": 7,
-          "text": "Man",
-          "shape_name": "Text Box 21"
-        },
-        {
-          "sequence": 8,
-          "text": "Things in common or different?",
-          "shape_name": "Text Box 27"
-        },
-        {
-          "sequence": 9,
-          "text": "Body",
-          "shape_name": "Text Box 34"
-        },
-        {
-          "sequence": 10,
-          "text": "Body",
-          "shape_name": "Text Box 35"
-        },
-        {
           "sequence": 11,
-          "text": "Body",
-          "shape_name": "Text Box 36"
+          "text": "Man",
+          "shape_name": "Text Box 21",
+          "timing": "click",
+          "z_index": 14,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 671.1,
+            "y": 133.6,
+            "width": 105.1,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 70.7,
+            "theme_color": "TEXT_2 (15)"
+          }
         },
         {
           "sequence": 12,
-          "text": "Body = Visible",
-          "shape_name": "Text Box 29"
+          "text": "Things in common or different?",
+          "shape_name": "Text Box 27",
+          "timing": "click",
+          "z_index": 48,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 576.2,
+            "y": 35.6,
+            "width": 259.2,
+            "height": 29.2,
+            "rotation": 0
+          }
         },
         {
           "sequence": 13,
+          "text": "Body",
+          "shape_name": "Text Box 34",
+          "timing": "click",
+          "z_index": 19,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 143.0,
+            "y": 176.9,
+            "width": 127.4,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 70.7
+          }
+        },
+        {
+          "sequence": 14,
+          "text": "Body",
+          "shape_name": "Text Box 35",
+          "timing": "click",
+          "z_index": 20,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 410.8,
+            "y": 184.2,
+            "width": 127.4,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 70.7
+          }
+        },
+        {
+          "sequence": 15,
+          "text": "Body",
+          "shape_name": "Text Box 36",
+          "timing": "click",
+          "z_index": 21,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 666.6,
+            "y": 182.9,
+            "width": 127.4,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 70.7
+          }
+        },
+        {
+          "sequence": 16,
+          "text": "Body = Visible",
+          "shape_name": "Text Box 29",
+          "timing": "click",
+          "z_index": 45,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 85.8,
+            "y": 98.3,
+            "width": 790.8,
+            "height": 47.8,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "TEXT_1 (13)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_size": 58.7,
+            "theme_color": "BACKGROUND_2 (16)"
+          }
+        },
+        {
+          "sequence": 17,
           "text": "Ecclesiastes 3:19-21",
           "shape_name": "Text Box 39",
+          "timing": "click",
+          "z_index": 37,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 354.1,
+            "y": 338.3,
+            "width": 245.2,
+            "height": 36.2,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 37.3
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 6
@@ -497,24 +773,158 @@
           }
         },
         {
-          "sequence": 14,
-          "text": "Spirit",
-          "shape_name": "Text Box 40"
+          "sequence": 18,
+          "text": "",
+          "shape_name": "Rectangle 107",
+          "timing": "click",
+          "z_index": 9,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 345.5,
+            "y": 256.1,
+            "width": 280.3,
+            "height": 117.2,
+            "rotation": 0
+          },
+          "fill": "#3BCCFD",
+          "font": {
+            "v_align": "middle"
+          }
         },
         {
-          "sequence": 15,
-          "text": "Spirit",
-          "shape_name": "Rectangle 41"
+          "sequence": 19,
+          "text": "",
+          "shape_name": "Line 84",
+          "timing": "with",
+          "z_index": 51,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 340.0,
+            "y": 252.6,
+            "width": 538.2,
+            "height": 0.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 12.0,
+            "color": "#0000FF",
+            "dash": "dash"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 609.1,
+              "y": 252.6
+            },
+            "to": {
+              "x": 609.1,
+              "y": 252.8
+            }
+          }
         },
         {
-          "sequence": 16,
+          "sequence": 20,
+          "text": "Spirit",
+          "shape_name": "Text Box 40",
+          "timing": "with",
+          "z_index": 55,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 396.4,
+            "y": 282.9,
+            "width": 144.9,
+            "height": 68.6,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 80.0,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 21,
+          "text": "",
+          "shape_name": "Rectangle 107",
+          "timing": "click",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 625.8,
+            "y": 256.1,
+            "width": 252.4,
+            "height": 117.2,
+            "rotation": 0
+          },
+          "fill": "#3BCCFD",
+          "font": {
+            "v_align": "middle"
+          }
+        },
+        {
+          "sequence": 22,
+          "text": "Spirit",
+          "shape_name": "Rectangle 41",
+          "timing": "with",
+          "z_index": 54,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 659.7,
+            "y": 281.8,
+            "width": 144.9,
+            "height": 68.6,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 80.0,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 23,
           "text": "Spirit = Invisible",
-          "shape_name": "Text Box 85"
+          "shape_name": "Text Box 85",
+          "timing": "click",
+          "z_index": 46,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 340.4,
+            "y": 256.3,
+            "width": 537.7,
+            "height": 35.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_5 (9)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_size": 53.3,
+            "theme_color": "BACKGROUND_2 (16)"
+          }
         },
         {
-          "sequence": 17,
+          "sequence": 24,
           "text": "James 2:26",
           "shape_name": "Text Box 42",
+          "timing": "click",
+          "z_index": 41,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 400.8,
+            "y": 373.6,
+            "width": 152.1,
+            "height": 38.2,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 5
@@ -535,14 +945,42 @@
           }
         },
         {
-          "sequence": 18,
+          "sequence": 25,
           "text": "Life = Spirit",
-          "shape_name": "Text Box 43"
+          "shape_name": "Text Box 43",
+          "timing": "click",
+          "z_index": 42,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 403.5,
+            "y": 399.2,
+            "width": 154.1,
+            "height": 38.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 42.7,
+            "color": "#0000FF"
+          }
         },
         {
-          "sequence": 19,
+          "sequence": 26,
           "text": "Leviticus 17:11",
           "shape_name": "Text Box 44",
+          "timing": "click",
+          "z_index": 43,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 376.9,
+            "y": 441.4,
+            "width": 214.0,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 4
@@ -563,69 +1001,560 @@
           }
         },
         {
-          "sequence": 20,
-          "text": "Blood = Life",
-          "shape_name": "Text Box 45"
-        },
-        {
-          "sequence": 21,
-          "text": "Blood = Spirit",
-          "shape_name": "Text Box 46"
-        },
-        {
-          "sequence": 22,
-          "text": "Do plant’s have blood?",
-          "shape_name": "TextBox 3"
-        },
-        {
-          "sequence": 23,
-          "text": "Breath",
-          "shape_name": "Text Box 48"
-        },
-        {
-          "sequence": 24,
-          "text": "O2",
-          "shape_name": "Text Box 49"
-        },
-        {
-          "sequence": 25,
-          "text": "Lungs",
-          "shape_name": "Text Box 50"
-        },
-        {
-          "sequence": 26,
-          "text": "Heart",
-          "shape_name": "Text Box 51"
-        },
-        {
           "sequence": 27,
-          "text": "Blood",
-          "shape_name": "Text Box 52"
+          "text": "Blood = Life",
+          "shape_name": "Text Box 45",
+          "timing": "click",
+          "z_index": 44,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 401.8,
+            "y": 468.8,
+            "width": 161.1,
+            "height": 38.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 42.7,
+            "color": "#FF0000"
+          }
         },
         {
           "sequence": 28,
-          "text": "Body",
-          "shape_name": "Text Box 53"
+          "text": "Blood = Spirit",
+          "shape_name": "Text Box 46",
+          "timing": "click",
+          "z_index": 22,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 595.8,
+            "y": 452.4,
+            "width": 283.4,
+            "height": 56.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "font_size": 64.0,
+            "color": "#FF0000"
+          }
         },
         {
           "sequence": 29,
-          "text": "Life",
-          "shape_name": "Text Box 54"
+          "text": "Do plant’s have blood?",
+          "shape_name": "TextBox 3",
+          "timing": "click",
+          "z_index": 56,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 647.0,
+            "y": 506.9,
+            "width": 203.6,
+            "height": 26.2,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 26.7
+          }
         },
         {
           "sequence": 30,
-          "text": "CO2",
-          "shape_name": "Text Box 71"
+          "text": "Breath",
+          "shape_name": "Text Box 48",
+          "timing": "click",
+          "z_index": 52,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 207.2,
+            "y": 311.8,
+            "width": 111.6,
+            "height": 35.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 53.3
+          }
         },
         {
           "sequence": 31,
-          "text": "O2",
-          "shape_name": "Text Box 75"
+          "text": "",
+          "shape_name": "Arc 103",
+          "timing": "click",
+          "z_index": 10,
+          "shape_type": "freeform",
+          "layout": {
+            "x": 222.3,
+            "y": 332.6,
+            "width": 117.5,
+            "height": 171.1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 11.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "font": {
+            "v_align": "middle"
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          },
+          "arc_path": {
+            "from": {
+              "x": 294.8,
+              "y": 332.6
+            },
+            "to": {
+              "x": 222.3,
+              "y": 503.1
+            },
+            "curve": -136.9,
+            "flip": false
+          }
         },
         {
           "sequence": 32,
+          "text": "O2",
+          "shape_name": "Text Box 49",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 23,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 298.7,
+            "y": 376.9,
+            "width": 47.5,
+            "height": 35.5,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 33,
+          "text": "Lungs",
+          "shape_name": "Text Box 50",
+          "timing": "after",
+          "delay": 1000,
+          "z_index": 24,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 238.2,
+            "y": 432.5,
+            "width": 108.6,
+            "height": 31.7,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 34,
+          "text": "Heart",
+          "shape_name": "Text Box 51",
+          "timing": "after",
+          "delay": 1500,
+          "z_index": 25,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 162.0,
+            "y": 463.6,
+            "width": 94.2,
+            "height": 28.9,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 35,
+          "text": "",
+          "shape_name": "Heart 58",
+          "timing": "with",
+          "delay": 1500,
+          "z_index": 39,
+          "shape_type": "heart (21)",
+          "layout": {
+            "x": 168.6,
+            "y": 379.9,
+            "width": 86.7,
+            "height": 82.6,
+            "rotation": 0
+          },
+          "fill": "#FF0000",
+          "line": {
+            "width": 1.0,
+            "theme_color": "TEXT_1 (13)"
+          }
+        },
+        {
+          "sequence": 36,
+          "text": "",
+          "shape_name": "Arc 104",
+          "timing": "click",
+          "z_index": 11,
+          "shape_type": "freeform",
+          "layout": {
+            "x": 77.3,
+            "y": 330.8,
+            "width": 117.7,
+            "height": 173.4,
+            "rotation": 0
+          },
+          "line": {
+            "width": 11.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "font": {
+            "v_align": "middle"
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          },
+          "arc_path": {
+            "from": {
+              "x": 195.0,
+              "y": 503.5
+            },
+            "to": {
+              "x": 131.3,
+              "y": 330.8
+            },
+            "curve": 138.7,
+            "flip": false
+          }
+        },
+        {
+          "sequence": 37,
+          "text": "Blood",
+          "shape_name": "Text Box 52",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 26,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 64.3,
+            "y": 431.1,
+            "width": 111.6,
+            "height": 28.9,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 38,
+          "text": "Body",
+          "shape_name": "Text Box 53",
+          "timing": "after",
+          "delay": 1000,
+          "z_index": 27,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 67.9,
+            "y": 364.8,
+            "width": 94.7,
+            "height": 30.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 39,
+          "text": "Life",
+          "shape_name": "Text Box 54",
+          "timing": "after",
+          "delay": 1500,
+          "z_index": 28,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 123.9,
+            "y": 316.1,
+            "width": 77.0,
+            "height": 32.8,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 40,
+          "text": "",
+          "shape_name": "Line 68",
+          "timing": "click",
+          "z_index": 49,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 307.5,
+            "y": 315.0,
+            "width": 98.3,
+            "height": 19.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 10.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 356.6,
+              "y": 315.0
+            },
+            "to": {
+              "x": 356.6,
+              "y": 334.2
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 41,
+          "text": "",
+          "shape_name": "Line 106",
+          "timing": "with",
+          "z_index": 50,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 315.5,
+            "y": 332.4,
+            "width": 356.2,
+            "height": 6.4,
+            "rotation": 0
+          },
+          "line": {
+            "width": 10.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 493.6,
+              "y": 332.4
+            },
+            "to": {
+              "x": 493.6,
+              "y": 338.8
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 42,
+          "text": "",
+          "shape_name": "Arc 70",
+          "timing": "click",
+          "z_index": 29,
+          "shape_type": "freeform",
+          "layout": {
+            "x": 104.1,
+            "y": 257.1,
+            "width": 82.4,
+            "height": 58.0,
+            "rotation": 7.77545
+          },
+          "line": {
+            "width": 11.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "font": {
+            "v_align": "middle"
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          },
+          "arc_path": {
+            "from": {
+              "x": 157.8,
+              "y": 315.1
+            },
+            "to": {
+              "x": 104.1,
+              "y": 257.1
+            },
+            "curve": 46.4,
+            "flip": true
+          }
+        },
+        {
+          "sequence": 43,
+          "text": "CO2",
+          "shape_name": "Text Box 71",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 30,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 91.6,
+            "y": 210.4,
+            "width": 74.2,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 44,
+          "text": "",
+          "shape_name": "Arc 74",
+          "timing": "after",
+          "delay": 1000,
+          "z_index": 47,
+          "shape_type": "freeform",
+          "layout": {
+            "x": 107.3,
+            "y": 118.2,
+            "width": 198.2,
+            "height": 102.5,
+            "rotation": 2.9674833333333335
+          },
+          "line": {
+            "width": 11.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "font": {
+            "v_align": "middle"
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          },
+          "arc_path": {
+            "from": {
+              "x": 111.0,
+              "y": 220.7
+            },
+            "to": {
+              "x": 303.3,
+              "y": 215.5
+            },
+            "curve": -82.0,
+            "flip": false
+          }
+        },
+        {
+          "sequence": 45,
+          "text": "O2",
+          "shape_name": "Text Box 75",
+          "timing": "after",
+          "delay": 1500,
+          "z_index": 31,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 268.9,
+            "y": 208.6,
+            "width": 51.7,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 53.3
+          }
+        },
+        {
+          "sequence": 46,
+          "text": "",
+          "shape_name": "Arc 101",
+          "timing": "after",
+          "delay": 2000,
+          "z_index": 53,
+          "shape_type": "freeform",
+          "layout": {
+            "x": 231.3,
+            "y": 245.6,
+            "width": 53.9,
+            "height": 67.6,
+            "rotation": 28.234233333333332
+          },
+          "line": {
+            "width": 11.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "font": {
+            "v_align": "middle"
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          },
+          "arc_path": {
+            "from": {
+              "x": 280.7,
+              "y": 245.6
+            },
+            "to": {
+              "x": 278.8,
+              "y": 313.2
+            },
+            "curve": -54.1,
+            "flip": false
+          }
+        },
+        {
+          "sequence": 47,
           "text": "1Thess. 5:23",
           "shape_name": "Text Box 80",
+          "timing": "click",
+          "z_index": 33,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 647.0,
+            "y": 347.2,
+            "width": 157.4,
+            "height": 28.9,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 37.3
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 7
@@ -646,41 +1575,202 @@
           }
         },
         {
-          "sequence": 33,
+          "sequence": 48,
+          "text": "",
+          "shape_name": "Rectangle 107",
+          "timing": "click",
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 625.8,
+            "y": 364.8,
+            "width": 252.4,
+            "height": 80.3,
+            "rotation": 0
+          },
+          "fill": "#3BCCFD",
+          "font": {
+            "v_align": "middle"
+          }
+        },
+        {
+          "sequence": 49,
           "text": "Soul",
-          "shape_name": "Text Box 81"
+          "shape_name": "Text Box 81",
+          "timing": "with",
+          "z_index": 34,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 661.4,
+            "y": 367.2,
+            "width": 125.3,
+            "height": 68.6,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 96.0,
+            "color": "#0000FF"
+          }
         },
         {
-          "sequence": 34,
+          "sequence": 50,
           "text": "LEAST COMPLEX",
-          "shape_name": "Text Box 93"
+          "shape_name": "Text Box 93",
+          "timing": "click",
+          "z_index": 0,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 110.8,
+            "y": 64.8,
+            "width": 201.9,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "font_size": 34.7
+          }
         },
         {
-          "sequence": 35,
+          "sequence": 51,
           "text": "MORE COMPLEX",
-          "shape_name": "Text Box 94"
+          "shape_name": "Text Box 94",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 376.8,
+            "y": 64.8,
+            "width": 195.8,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "font_size": 34.7
+          }
         },
         {
-          "sequence": 36,
+          "sequence": 52,
           "text": "MOST COMPLEX",
-          "shape_name": "Text Box 95"
+          "shape_name": "Text Box 95",
+          "timing": "after",
+          "delay": 1000,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 639.2,
+            "y": 64.8,
+            "width": 193.4,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "font_size": 34.7
+          }
         },
         {
-          "sequence": 37,
+          "sequence": 53,
           "text": "God is Progressive",
-          "shape_name": "Text Box 96"
+          "shape_name": "Text Box 96",
+          "timing": "click",
+          "z_index": 35,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 557.0,
+            "y": 2.1,
+            "width": 299.7,
+            "height": 45.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "font_size": 49.3
+          }
         }
       ],
       "static_content": [
         {
           "text": "Life",
           "shape_name": "Rectangle 109",
-          "static": true
+          "static": true,
+          "z_index": 8,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 385.2,
+            "y": 10.5,
+            "width": 189.6,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 84.0,
+            "theme_color": "TEXT_1 (13)"
+          }
+        },
+        {
+          "text": "",
+          "shape_name": "Text Box 79",
+          "static": true,
+          "z_index": 32,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 606.6,
+            "y": 321.4,
+            "width": 17.0,
+            "height": 24.2,
+            "rotation": 0
+          }
+        },
+        {
+          "text": "",
+          "shape_name": "Rectangle 105",
+          "static": true,
+          "z_index": 36,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 83.2,
+            "y": 347.3,
+            "width": 15.9,
+            "height": 29.2,
+            "rotation": 0
+          }
         },
         {
           "text": "Plants",
           "shape_name": "Text Box 18",
-          "static": true
+          "static": true,
+          "z_index": 38,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 126.4,
+            "y": 122.4,
+            "width": 149.8,
+            "height": 61.5,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 70.7
+          }
         }
       ]
     },
@@ -689,33 +1779,234 @@
       "animation_sequence": [
         {
           "sequence": 1,
-          "text": "Body",
-          "shape_name": "Text Box 13"
+          "text": "",
+          "shape_name": "Line 6",
+          "timing": "click",
+          "z_index": 5,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 81.1,
+            "y": 66.7,
+            "width": 797.9,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 6.7,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 480.0,
+              "y": 66.7
+            },
+            "to": {
+              "x": 480.0,
+              "y": 66.7
+            }
+          }
         },
         {
           "sequence": 2,
-          "text": "Spirit",
-          "shape_name": "Text Box 14"
+          "text": "Body",
+          "shape_name": "Text Box 13",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 6,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 153.6,
+            "y": 60.2,
+            "width": 127.4,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 80.0
+          }
         },
         {
           "sequence": 3,
-          "text": "Soul",
-          "shape_name": "Text Box 15"
+          "text": "Spirit",
+          "shape_name": "Text Box 14",
+          "timing": "after",
+          "delay": 1000,
+          "z_index": 7,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 413.9,
+            "y": 60.2,
+            "width": 130.3,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 80.0,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 4,
-          "text": "ORIGINS",
-          "shape_name": "Text Box 16"
+          "text": "Soul",
+          "shape_name": "Text Box 15",
+          "timing": "after",
+          "delay": 1500,
+          "z_index": 8,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 683.2,
+            "y": 60.2,
+            "width": 112.5,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 80.0,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 5,
-          "text": "DESTINATIONS",
-          "shape_name": "Text Box 18"
+          "text": "ORIGINS",
+          "shape_name": "Text Box 16",
+          "timing": "click",
+          "z_index": 33,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 79.3,
+            "y": 205.8,
+            "width": 183.8,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 42.7
+          }
         },
         {
           "sequence": 6,
+          "text": "",
+          "shape_name": "Line 17",
+          "timing": "after",
+          "z_index": 40,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 89.9,
+            "y": 238.6,
+            "width": 787.3,
+            "height": 0.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 11.3,
+            "theme_color": "TEXT_1 (13)",
+            "dash": "sysDash"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 483.5,
+              "y": 238.6
+            },
+            "to": {
+              "x": 483.5,
+              "y": 238.8
+            }
+          }
+        },
+        {
+          "sequence": 7,
+          "text": "",
+          "shape_name": "Rectangle 70",
+          "timing": "with",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 81.1,
+            "y": 68.2,
+            "width": 258.9,
+            "height": 283.3,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center"
+          }
+        },
+        {
+          "sequence": 8,
+          "text": "",
+          "shape_name": "Rectangle 69",
+          "timing": "with",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 340.0,
+            "y": 68.3,
+            "width": 538.9,
+            "height": 281.9,
+            "rotation": 0
+          },
+          "fill": "#3BCCFD",
+          "line": {
+            "width": 1.0
+          },
+          "font": {
+            "v_align": "middle"
+          }
+        },
+        {
+          "sequence": 9,
+          "text": "DESTINATIONS",
+          "shape_name": "Text Box 18",
+          "timing": "with",
+          "z_index": 43,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 78.8,
+            "y": 311.4,
+            "width": 184.9,
+            "height": 41.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 42.7
+          }
+        },
+        {
+          "sequence": 10,
           "text": "Genesis 3:19",
           "shape_name": "Text Box 19",
+          "timing": "click",
+          "z_index": 9,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 126.2,
+            "y": 114.4,
+            "width": 182.1,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 3
@@ -736,19 +2027,93 @@
           }
         },
         {
-          "sequence": 7,
+          "sequence": 11,
           "text": "Earth",
-          "shape_name": "Text Box 22"
+          "shape_name": "Text Box 22",
+          "timing": "click",
+          "z_index": 12,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 148.6,
+            "y": 156.1,
+            "width": 137.4,
+            "height": 42.2,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 80.0
+          }
         },
         {
-          "sequence": 8,
-          "text": "Earth",
-          "shape_name": "Text Box 23"
+          "sequence": 12,
+          "text": "",
+          "shape_name": "Line 73",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 41,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 217.3,
+            "y": 211.8,
+            "width": 0.0,
+            "height": 60.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 13.3,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 217.3,
+              "y": 211.8
+            },
+            "to": {
+              "x": 217.3,
+              "y": 271.8
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
         },
         {
-          "sequence": 9,
+          "sequence": 13,
+          "text": "Earth",
+          "shape_name": "Text Box 23",
+          "timing": "click",
+          "z_index": 13,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 152.4,
+            "y": 253.1,
+            "width": 129.9,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 80.0
+          }
+        },
+        {
+          "sequence": 14,
           "text": "Ecclesiastes 12:7",
           "shape_name": "Text Box 20",
+          "timing": "click",
+          "z_index": 10,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 359.6,
+            "y": 114.4,
+            "width": 238.9,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 8
@@ -771,19 +2136,97 @@
           }
         },
         {
-          "sequence": 10,
+          "sequence": 15,
           "text": "God",
-          "shape_name": "Text Box 24"
+          "shape_name": "Text Box 24",
+          "timing": "click",
+          "z_index": 14,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 423.6,
+            "y": 156.2,
+            "width": 111.1,
+            "height": 42.1,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_size": 80.0,
+            "theme_color": "ACCENT_5 (9)"
+          }
         },
         {
-          "sequence": 11,
-          "text": "God",
-          "shape_name": "Text Box 25"
+          "sequence": 16,
+          "text": "",
+          "shape_name": "Line 74",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 44,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 476.1,
+            "y": 211.8,
+            "width": 0.0,
+            "height": 60.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 13.3,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 476.1,
+              "y": 211.8
+            },
+            "to": {
+              "x": 476.1,
+              "y": 271.8
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
         },
         {
-          "sequence": 12,
+          "sequence": 17,
+          "text": "God",
+          "shape_name": "Text Box 25",
+          "timing": "click",
+          "z_index": 15,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 426.6,
+            "y": 253.1,
+            "width": 105.1,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 80.0,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 18,
           "text": "Ezekiel 18:4",
           "shape_name": "Text Box 28",
+          "timing": "click",
+          "z_index": 18,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 670.1,
+            "y": 114.4,
+            "width": 168.6,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 9
@@ -804,14 +2247,78 @@
           }
         },
         {
-          "sequence": 13,
+          "sequence": 19,
           "text": "God",
-          "shape_name": "Text Box 26"
+          "shape_name": "Text Box 26",
+          "timing": "click",
+          "z_index": 16,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 681.4,
+            "y": 156.2,
+            "width": 111.1,
+            "height": 42.1,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_size": 80.0,
+            "theme_color": "ACCENT_5 (9)"
+          }
         },
         {
-          "sequence": 14,
+          "sequence": 20,
+          "text": "",
+          "shape_name": "Line 75",
+          "timing": "click",
+          "z_index": 42,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 730.9,
+            "y": 211.8,
+            "width": 0.0,
+            "height": 60.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 13.3,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 730.9,
+              "y": 211.8
+            },
+            "to": {
+              "x": 730.9,
+              "y": 271.8
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 21,
           "text": "Hebrews 9:27",
           "shape_name": "Text Box 21",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 11,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 658.4,
+            "y": 311.2,
+            "width": 189.6,
+            "height": 40.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7,
+            "color": "#000000"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 10
@@ -833,14 +2340,43 @@
           }
         },
         {
-          "sequence": 15,
+          "sequence": 22,
           "text": "Judgment",
-          "shape_name": "Text Box 27"
+          "shape_name": "Text Box 27",
+          "timing": "click",
+          "z_index": 17,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 622.9,
+            "y": 253.1,
+            "width": 229.7,
+            "height": 61.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 72.0,
+            "color": "#0000FF"
+          }
         },
         {
-          "sequence": 16,
+          "sequence": 23,
           "text": "Matthew 16:26",
           "shape_name": "Text Box 46",
+          "timing": "click",
+          "z_index": 25,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 58.3,
+            "y": 437.6,
+            "width": 256.4,
+            "height": 48.2,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 49.3
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 11
@@ -861,59 +2397,311 @@
           }
         },
         {
-          "sequence": 17,
-          "text": "Rank of Importance?",
-          "shape_name": "Text Box 34"
-        },
-        {
-          "sequence": 18,
-          "text": "#1",
-          "shape_name": "Text Box 36"
-        },
-        {
-          "sequence": 19,
-          "text": "Soul",
-          "shape_name": "Text Box 37"
-        },
-        {
-          "sequence": 20,
-          "text": "#2",
-          "shape_name": "Text Box 38"
-        },
-        {
-          "sequence": 21,
-          "text": "Spirit",
-          "shape_name": "Text Box 39"
-        },
-        {
-          "sequence": 22,
-          "text": "#3",
-          "shape_name": "Text Box 40"
-        },
-        {
-          "sequence": 23,
-          "text": "Body",
-          "shape_name": "Text Box 45"
-        },
-        {
           "sequence": 24,
-          "text": "Dominant",
-          "shape_name": "Text Box 47"
+          "text": "Rank of Importance?",
+          "shape_name": "Text Box 34",
+          "timing": "click",
+          "z_index": 32,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 78.3,
+            "y": 355.8,
+            "width": 205.0,
+            "height": 85.0,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "font_size": 49.3,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 25,
-          "text": "Submissive",
-          "shape_name": "Text Box 56"
+          "text": "#1",
+          "shape_name": "Text Box 36",
+          "timing": "click",
+          "z_index": 19,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 447.0,
+            "y": 363.2,
+            "width": 50.5,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
         },
         {
           "sequence": 26,
-          "text": "Submissive",
-          "shape_name": "Text Box 76"
+          "text": "Soul",
+          "shape_name": "Text Box 37",
+          "timing": "click",
+          "z_index": 20,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 504.4,
+            "y": 363.2,
+            "width": 83.3,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
         },
         {
           "sequence": 27,
+          "text": "#2",
+          "shape_name": "Text Box 38",
+          "timing": "click",
+          "z_index": 21,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 450.3,
+            "y": 399.8,
+            "width": 50.5,
+            "height": 45.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 28,
+          "text": "Spirit",
+          "shape_name": "Text Box 39",
+          "timing": "click",
+          "z_index": 22,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 504.4,
+            "y": 399.9,
+            "width": 95.4,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 29,
+          "text": "#3",
+          "shape_name": "Text Box 40",
+          "timing": "click",
+          "z_index": 23,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 450.3,
+            "y": 435.6,
+            "width": 50.5,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 30,
+          "text": "Body",
+          "shape_name": "Text Box 45",
+          "timing": "click",
+          "z_index": 24,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 504.4,
+            "y": 435.6,
+            "width": 94.2,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 31,
+          "text": "Dominant",
+          "shape_name": "Text Box 47",
+          "timing": "click",
+          "z_index": 31,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 678.6,
+            "y": 373.9,
+            "width": 210.6,
+            "height": 38.6,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 32,
+          "text": "",
+          "shape_name": "Line 48",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 26,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 594.7,
+            "y": 397.1,
+            "width": 90.9,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 8.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 640.2,
+              "y": 397.1
+            },
+            "to": {
+              "x": 640.2,
+              "y": 397.1
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 33,
+          "text": "Submissive",
+          "shape_name": "Text Box 56",
+          "timing": "click",
+          "z_index": 30,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 678.6,
+            "y": 399.9,
+            "width": 188.9,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 34,
+          "text": "",
+          "shape_name": "Line 57",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 27,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 606.4,
+            "y": 426.7,
+            "width": 77.0,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 8.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 644.9,
+              "y": 426.7
+            },
+            "to": {
+              "x": 644.9,
+              "y": 426.7
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 35,
+          "text": "Submissive",
+          "shape_name": "Text Box 76",
+          "timing": "click",
+          "z_index": 29,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 678.6,
+            "y": 435.6,
+            "width": 188.9,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
+        },
+        {
+          "sequence": 36,
+          "text": "",
+          "shape_name": "Line 77",
+          "timing": "after",
+          "delay": 500,
+          "z_index": 2,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 606.4,
+            "y": 465.8,
+            "width": 77.0,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 8.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 644.9,
+              "y": 465.8
+            },
+            "to": {
+              "x": 644.9,
+              "y": 465.8
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 37,
           "text": "Luke 11:24-26",
           "shape_name": "Text Box 59",
+          "timing": "click",
+          "z_index": 34,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 452.1,
+            "y": 485.1,
+            "width": 220.2,
+            "height": 45.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 49.3,
+            "color": "#000000"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 12
@@ -935,9 +2723,30 @@
           }
         },
         {
-          "sequence": 28,
+          "sequence": 38,
           "text": "HouseSpiritsPerson(“the man”)",
           "shape_name": "Text Box 60",
+          "timing": "click",
+          "z_index": 36,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 301.9,
+            "y": 355.8,
+            "width": 143.2,
+            "height": 173.3,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "font_size": 58.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 20
@@ -959,16 +2768,191 @@
           }
         },
         {
-          "sequence": 29,
+          "sequence": 39,
+          "text": "",
+          "shape_name": "Line 61",
+          "timing": "click",
+          "z_index": 37,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 425.0,
+            "y": 389.2,
+            "width": 85.0,
+            "height": 75.8,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.3,
+            "color": "#FF0000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 467.5,
+              "y": 389.2
+            },
+            "to": {
+              "x": 467.5,
+              "y": 465.0
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 40,
+          "text": "",
+          "shape_name": "Line 62",
+          "timing": "click",
+          "z_index": 38,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 427.5,
+            "y": 430.0,
+            "width": 85.8,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.3,
+            "color": "#FF0000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 470.4,
+              "y": 430.0
+            },
+            "to": {
+              "x": 470.4,
+              "y": 430.0
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 41,
+          "text": "",
+          "shape_name": "Line 63",
+          "timing": "click",
+          "z_index": 39,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 438.6,
+            "y": 392.5,
+            "width": 73.1,
+            "height": 80.8,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.3,
+            "color": "#FF0000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 475.2,
+              "y": 392.5
+            },
+            "to": {
+              "x": 475.2,
+              "y": 473.3
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 42,
+          "text": "",
+          "shape_name": "Line 64",
+          "timing": "click",
+          "z_index": 35,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 541.2,
+            "y": 309.0,
+            "width": 86.2,
+            "height": 68.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 13.3,
+            "color": "#FF0000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 584.3,
+              "y": 309.0
+            },
+            "to": {
+              "x": 584.3,
+              "y": 377.2
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 43,
           "text": "Choice is a characteristic of the Soul. What are the other characteristics ofthe Soul, Spirit, and Body?",
-          "shape_name": "Text Box 66"
+          "shape_name": "Text Box 66",
+          "timing": "click",
+          "z_index": 28,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 610.9,
+            "y": 0.8,
+            "width": 277.4,
+            "height": 60.8,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_size": 24.0
+          }
         }
       ],
       "static_content": [
         {
           "text": "Mankind",
           "shape_name": "Rectangle 78",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 325.5,
+            "y": 8.9,
+            "width": 303.3,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 94.7,
+            "theme_color": "TEXT_1 (13)"
+          }
+        },
+        {
+          "text": "",
+          "shape_name": "Text Box 4",
+          "static": true,
+          "z_index": 4,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 461.6,
+            "y": -11.4,
+            "width": 15.9,
+            "height": 79.6,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center"
+          }
         }
       ]
     },
@@ -979,17 +2963,57 @@
         {
           "text": "For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 113.4,
+            "y": 121.2,
+            "width": 742.0,
+            "height": 194.8,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 49.3
+          }
         },
         {
           "text": "Hebrews 4:12",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 112.2,
+            "y": 52.2,
+            "width": 373.8,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_size": 70.7,
+            "theme_color": "TEXT_1 (13)"
+          }
         },
         {
           "text": "NIV",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 840.4,
+            "y": 442.8,
+            "width": 49.9,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -999,22 +3023,83 @@
         {
           "sequence": 1,
           "text": "Soul",
-          "shape_name": "Text Box 16"
+          "shape_name": "Text Box 16",
+          "timing": "click",
+          "z_index": 9,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 140.5,
+            "y": 62.7,
+            "width": 129.5,
+            "height": 62.9,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_size": 72.0,
+            "theme_color": "ACCENT_5 (9)"
+          }
         },
         {
           "sequence": 2,
           "text": "Think, Reason, ChooseJudge, Plan,  Create, Progress,Logic, Rational.",
-          "shape_name": "Text Box 19"
+          "shape_name": "Text Box 19",
+          "timing": "click",
+          "z_index": 12,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 87.0,
+            "y": 109.0,
+            "width": 384.7,
+            "height": 90.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 37.3
+          }
         },
         {
           "sequence": 3,
           "text": "Spirit",
-          "shape_name": "Text Box 17"
+          "shape_name": "Text Box 17",
+          "timing": "click",
+          "z_index": 10,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 131.4,
+            "y": 188.6,
+            "width": 148.4,
+            "height": 62.7,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_size": 72.0,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 4,
           "text": "Jude 1:10",
           "shape_name": "Text Box 20",
+          "timing": "click",
+          "z_index": 13,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 85.2,
+            "y": 247.2,
+            "width": 133.9,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 34.7,
+            "color": "#0000FF"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 13
@@ -1038,6 +3123,20 @@
           "sequence": 5,
           "text": "2 Peter 2:12",
           "shape_name": "Text Box 21",
+          "timing": "click",
+          "z_index": 14,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 206.6,
+            "y": 247.2,
+            "width": 132.7,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 34.7,
+            "color": "#0000FF"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 14
@@ -1060,32 +3159,111 @@
         {
           "sequence": 6,
           "text": "Unreason, Instinct, basic emotions",
-          "shape_name": "Text Box 22"
+          "shape_name": "Text Box 22",
+          "timing": "click",
+          "z_index": 6,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 90.4,
+            "y": 274.1,
+            "width": 349.9,
+            "height": 32.7,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 37.3
+          }
         },
         {
           "sequence": 7,
           "text": "Deer, Cats, Humans…",
-          "shape_name": "Text Box 25"
+          "shape_name": "Text Box 25",
+          "timing": "click",
+          "z_index": 15,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 93.6,
+            "y": 301.9,
+            "width": 169.6,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7
+          }
         },
         {
           "sequence": 8,
           "text": "*also life to body",
-          "shape_name": "Text Box 22"
+          "shape_name": "Text Box 22",
+          "timing": "click",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 253.8,
+            "y": 302.8,
+            "width": 128.2,
+            "height": 25.9,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7
+          }
         },
         {
           "sequence": 9,
           "text": "Sympathetic“fight or flight”",
-          "shape_name": "Text Box 26"
+          "shape_name": "Text Box 26",
+          "timing": "click",
+          "z_index": 16,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 246.9,
+            "y": 334.6,
+            "width": 136.1,
+            "height": 54.6,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "sequence": 10,
           "text": "Parasympathetic“rest & digest”",
-          "shape_name": "Text Box 27"
+          "shape_name": "Text Box 27",
+          "timing": "with",
+          "z_index": 17,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 87.5,
+            "y": 333.2,
+            "width": 163.7,
+            "height": 54.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "sequence": 11,
           "text": "Proverbs 16:32",
           "shape_name": "Text Box 29",
+          "timing": "click",
+          "z_index": 7,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 384.1,
+            "y": 299.2,
+            "width": 172.8,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 34.7,
+            "color": "#0000FF"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 15
@@ -1108,17 +3286,68 @@
         {
           "sequence": 12,
           "text": "Body",
-          "shape_name": "Text Box 18"
+          "shape_name": "Text Box 18",
+          "timing": "click",
+          "z_index": 11,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 138.3,
+            "y": 391.6,
+            "width": 146.3,
+            "height": 62.9,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_size": 72.0
+          }
         },
         {
           "sequence": 13,
           "text": "Structure, boundary,house, governs, restricts",
-          "shape_name": "Text Box 30"
+          "shape_name": "Text Box 30",
+          "timing": "click",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 96.6,
+            "y": 443.1,
+            "width": 264.1,
+            "height": 83.9,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 37.3
+          }
         },
         {
           "sequence": 14,
           "text": "Greek & HebrewDefinitions",
           "shape_name": "Text Box 33",
+          "timing": "click",
+          "z_index": 18,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 289.8,
+            "y": 187.5,
+            "width": 187.9,
+            "height": 64.2,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "align": "center",
+            "font_size": 37.3
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 16
@@ -1190,6 +3419,20 @@
           "sequence": 15,
           "text": "1Corinthians 5:5 “spirit may be saved”John 4:24“God is spirit”",
           "shape_name": "Text Box 35",
+          "timing": "click",
+          "z_index": 5,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 358.4,
+            "y": 391.4,
+            "width": 267.6,
+            "height": 118.5,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 17
@@ -1213,43 +3456,224 @@
         },
         {
           "sequence": 16,
-          "text": "Invisible part.1.Ingredient of animal and human life.2.Collective invisible nature of life.",
-          "shape_name": "AutoShape 72"
+          "text": "",
+          "shape_name": "Line 34",
+          "timing": "click",
+          "z_index": 4,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 60.0,
+            "y": 394.1,
+            "width": 552.0,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 10.3,
+            "theme_color": "TEXT_1 (13)",
+            "dash": "lgDash"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 336.0,
+              "y": 394.1
+            },
+            "to": {
+              "x": 336.0,
+              "y": 394.1
+            }
+          }
         },
         {
           "sequence": 17,
-          "text": "God",
-          "shape_name": "Text Box 41"
+          "text": "",
+          "shape_name": "Rectangle 69",
+          "timing": "with",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 81.1,
+            "y": 394.0,
+            "width": 286.4,
+            "height": 138.0,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          },
+          "font": {
+            "v_align": "middle"
+          }
         },
         {
           "sequence": 18,
-          "text": "Father",
-          "shape_name": "Text Box 43"
+          "text": "Invisible part.1.Ingredient of animal and human life.2.Collective invisible nature of life.",
+          "shape_name": "AutoShape 72",
+          "timing": "after",
+          "z_index": 8,
+          "shape_type": "cloud_callout (108)",
+          "layout": {
+            "x": 362.0,
+            "y": 269.4,
+            "width": 271.6,
+            "height": 108.1,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 1.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_size": 48.0
+          }
         },
         {
           "sequence": 19,
-          "text": "Creator, Designer, Planner, progressive, dominant",
-          "shape_name": "Text Box 46"
+          "text": "God",
+          "shape_name": "Text Box 41",
+          "timing": "click",
+          "z_index": 20,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 705.1,
+            "y": 0.0,
+            "width": 119.6,
+            "height": 53.6,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 84.0,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 20,
-          "text": "Son",
-          "shape_name": "Text Box 44"
+          "text": "Father",
+          "shape_name": "Text Box 43",
+          "timing": "click",
+          "z_index": 33,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 657.1,
+            "y": 62.8,
+            "width": 215.6,
+            "height": 62.7,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "align": "center",
+            "font_size": 72.0,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 21,
-          "text": "Word governs the Church which is the body of Christ – rules,regulations, restrictions",
-          "shape_name": "Text Box 47"
+          "text": "Creator, Designer, Planner, progressive, dominant",
+          "shape_name": "Text Box 46",
+          "timing": "click",
+          "z_index": 21,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 634.6,
+            "y": 109.0,
+            "width": 222.3,
+            "height": 86.7,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 37.3,
+            "color": "#0000FF"
+          }
         },
         {
           "sequence": 22,
-          "text": "Holy Spirit",
-          "shape_name": "Text Box 45"
+          "text": "Son",
+          "shape_name": "Text Box 44",
+          "timing": "click",
+          "z_index": 35,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 706.9,
+            "y": 198.3,
+            "width": 116.1,
+            "height": 62.7,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_size": 72.0,
+            "color": "#000000"
+          }
         },
         {
           "sequence": 23,
+          "text": "Word governs the Church which is the body of Christ – rules,regulations, restrictions",
+          "shape_name": "Text Box 47",
+          "timing": "click",
+          "z_index": 22,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 634.6,
+            "y": 246.1,
+            "width": 252.6,
+            "height": 123.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 37.3,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 24,
+          "text": "Holy Spirit",
+          "shape_name": "Text Box 45",
+          "timing": "click",
+          "z_index": 34,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 631.6,
+            "y": 366.4,
+            "width": 266.8,
+            "height": 62.7,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_size": 72.0,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 25,
           "text": "Implementation of His will - life to the body of Christ. Defies logic.",
           "shape_name": "Text Box 49",
+          "timing": "click",
+          "z_index": 23,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 634.6,
+            "y": 420.0,
+            "width": 255.2,
+            "height": 107.5,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 37.3,
+            "color": "#0000FF"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 18
@@ -1270,31 +3694,422 @@
           }
         },
         {
-          "sequence": 24,
-          "text": "FreudIdEgoSuperego",
-          "shape_name": "Text Box 53"
-        },
-        {
-          "sequence": 25,
-          "text": "3 parts identified by many",
-          "shape_name": "TextBox 2"
-        },
-        {
           "sequence": 26,
+          "text": "",
+          "shape_name": "Line 50",
+          "timing": "click",
+          "z_index": 24,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 246.2,
+            "y": 92.2,
+            "width": 415.2,
+            "height": 8.1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 453.8,
+              "y": 92.2
+            },
+            "to": {
+              "x": 453.8,
+              "y": 100.3
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 27,
+          "text": "",
+          "shape_name": "Line 51",
+          "timing": "click",
+          "z_index": 25,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 263.0,
+            "y": 233.1,
+            "width": 452.4,
+            "height": 202.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 489.2,
+              "y": 233.1
+            },
+            "to": {
+              "x": 489.2,
+              "y": 435.3
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 28,
+          "text": "",
+          "shape_name": "Line 52",
+          "timing": "click",
+          "z_index": 26,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 257.7,
+            "y": 226.9,
+            "width": 376.7,
+            "height": 167.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 446.0,
+              "y": 226.9
+            },
+            "to": {
+              "x": 446.0,
+              "y": 394.1
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 29,
+          "text": "FreudIdEgoSuperego",
+          "shape_name": "Text Box 53",
+          "timing": "click",
+          "z_index": 27,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 498.1,
+            "y": 92.4,
+            "width": 127.1,
+            "height": 128.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3,
+            "theme_color": "TEXT_2 (15)"
+          },
+          "font": {
+            "align": "center",
+            "font_size": 37.3
+          }
+        },
+        {
+          "sequence": 30,
+          "text": "3 parts identified by many",
+          "shape_name": "TextBox 2",
+          "timing": "with",
+          "z_index": 41,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 389.8,
+            "y": 59.4,
+            "width": 220.8,
+            "height": 26.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7
+          }
+        },
+        {
+          "sequence": 31,
+          "text": "",
+          "shape_name": "Line 55",
+          "timing": "click",
+          "z_index": 29,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 258.6,
+            "y": 167.8,
+            "width": 282.3,
+            "height": 45.9,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 399.8,
+              "y": 167.8
+            },
+            "to": {
+              "x": 399.8,
+              "y": 213.7
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 32,
+          "text": "",
+          "shape_name": "Line 56",
+          "timing": "click",
+          "z_index": 30,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 261.6,
+            "y": 138.5,
+            "width": 290.6,
+            "height": 292.8,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 406.9,
+              "y": 138.5
+            },
+            "to": {
+              "x": 406.9,
+              "y": 431.3
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 33,
+          "text": "",
+          "shape_name": "Line 58",
+          "timing": "click",
+          "z_index": 36,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 244.4,
+            "y": 95.8,
+            "width": 263.8,
+            "height": 96.8,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 376.3,
+              "y": 95.8
+            },
+            "to": {
+              "x": 376.3,
+              "y": 192.6
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 34,
           "text": "HarrisParentAdultChild",
-          "shape_name": "Text Box 54"
+          "shape_name": "Text Box 54",
+          "timing": "click",
+          "z_index": 28,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 498.1,
+            "y": 224.2,
+            "width": 126.1,
+            "height": 123.8,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3,
+            "theme_color": "TEXT_2 (15)"
+          },
+          "font": {
+            "align": "center",
+            "font_size": 37.3
+          }
+        },
+        {
+          "sequence": 35,
+          "text": "",
+          "shape_name": "Line 59",
+          "timing": "click",
+          "z_index": 31,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 265.7,
+            "y": 272.6,
+            "width": 256.1,
+            "height": 158.3,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "BACKGROUND_1 (14)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 393.8,
+              "y": 272.6
+            },
+            "to": {
+              "x": 393.8,
+              "y": 430.9
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 36,
+          "text": "",
+          "shape_name": "Line 60",
+          "timing": "click",
+          "z_index": 37,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 245.3,
+            "y": 102.8,
+            "width": 284.3,
+            "height": 192.2,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "BACKGROUND_1 (14)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 387.5,
+              "y": 102.8
+            },
+            "to": {
+              "x": 387.5,
+              "y": 295.0
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        },
+        {
+          "sequence": 37,
+          "text": "",
+          "shape_name": "Line 61",
+          "timing": "click",
+          "z_index": 32,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 258.6,
+            "y": 219.0,
+            "width": 272.2,
+            "height": 107.6,
+            "rotation": 0
+          },
+          "line": {
+            "width": 9.0,
+            "theme_color": "BACKGROUND_1 (14)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 394.7,
+              "y": 219.0
+            },
+            "to": {
+              "x": 394.7,
+              "y": 326.6
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
         }
       ],
       "static_content": [
         {
+          "text": "",
+          "shape_name": "Rectangle 71",
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 60.0,
+            "y": 0.0,
+            "width": 554.1,
+            "height": 540.0,
+            "rotation": 0
+          },
+          "fill": "#3BCCFD",
+          "font": {
+            "v_align": "middle"
+          }
+        },
+        {
           "text": "(Made in the image of God)",
           "shape_name": "Text Box 40",
-          "static": true
+          "static": true,
+          "z_index": 19,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 73.6,
+            "y": 50.0,
+            "width": 271.4,
+            "height": 33.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0,
+            "italic": true
+          }
         },
         {
           "text": "Hebrews 4:12",
           "shape_name": "Text Box 24",
           "static": true,
+          "z_index": 39,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 355.2,
+            "y": 5.7,
+            "width": 254.6,
+            "height": 48.5,
+            "rotation": 0
+          },
+          "fill": "#FFFFFF",
+          "font": {
+            "v_align": "middle",
+            "font_size": 56.0,
+            "theme_color": "TEXT_2 (15)"
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 19
@@ -1317,7 +4132,22 @@
         {
           "text": "Man",
           "shape_name": "Rectangle 75",
-          "static": true
+          "static": true,
+          "z_index": 40,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 132.9,
+            "y": 7.8,
+            "width": 141.4,
+            "height": 44.8,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "Arial",
+            "font_size": 84.0,
+            "color": "#000000"
+          }
         }
       ]
     },
@@ -1326,9 +4156,40 @@
       "animation_sequence": [],
       "static_content": [
         {
+          "text": "",
+          "shape_name": "Text Box 5",
+          "static": true,
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 104.9,
+            "y": 60.0,
+            "width": 15.9,
+            "height": 125.1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1.0
+          }
+        },
+        {
           "text": "End of lesson",
           "shape_name": "Rectangle 7",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 144.6,
+            "y": 75.8,
+            "width": 306.6,
+            "height": 64.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 70.7,
+            "theme_color": "BACKGROUND_1 (14)"
+          }
         }
       ]
     },
@@ -1339,17 +4200,56 @@
         {
           "text": "Genesis 1:11-12",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 97.8,
+            "y": 36.4,
+            "width": 420.0,
+            "height": 50.5,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_size": 72.0
+          }
         },
         {
           "text": "Then God said, “Let the land produce vegetation: seed-bearing plants and trees on the land that bear fruit with seed in it, according to their various kinds.” And it was so. [12] The land produced vegetation: plants bearing seed according to their kinds and trees bearing fruit with seed in it according to their kinds. And God saw that it was good.",
           "shape_name": "Rectangle 5",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 67.6,
+            "y": 94.1,
+            "width": 772.9,
+            "height": 356.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 48.0
+          }
         },
         {
           "text": "NIV",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 840.4,
+            "y": 442.8,
+            "width": 49.9,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1360,17 +4260,58 @@
         {
           "text": "Genesis 1:20-25",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 88.7,
+            "y": 35.8,
+            "width": 383.5,
+            "height": 51.2,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_size": 72.0
+          }
         },
         {
           "text": "And God said, “Let the water teem with living creatures, and let birds fly above the earth across the vault of the sky.” [21] So God created the great creatures of the sea and every living thing with which the water teems and that moves about in it, according to their kinds, and every winged bird according to its kind. And God saw that it was good. [22] God blessed them and said, “Be fruitful and increase in number and fill the water in the seas, and let the birds increase on the earth.” [23] And there was evening, and there was morning—the fifth day. [24] And God said, “Let the land produce living creatures according to their kinds: the livestock, the creatures that move along the ground, and the wild animals, each according to its kind.” And it was so. [25] God made the wild animals according to their kinds, the livestock according to their kinds, and all the creatures that move along the ground according to their kinds. And God saw that it was good.",
           "shape_name": "Rectangle 5",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 56.5,
+            "y": 77.9,
+            "width": 831.1,
+            "height": 408.6,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "Arial",
+            "font_size": 37.3
+          }
         },
         {
           "text": "NIV",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 818.2,
+            "y": 465.3,
+            "width": 49.9,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1381,17 +4322,57 @@
         {
           "text": "Genesis 1:26-27",
           "shape_name": "Rectangle 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 86.4,
+            "y": 13.0,
+            "width": 513.6,
+            "height": 57.6,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0
+          }
         },
         {
           "text": "Then God said, \"Let Us make man in Our image, according to Our likeness; and let them rule over the fish of the sea and over the birds of the sky and over the cattle and over all the earth, and over every creeping thing that creeps on the earth.\" \t\t[27] God created man in His own image, \tin the image of God He created him; \tmale and female He created them.",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 52.2,
+            "y": 73.2,
+            "width": 832.2,
+            "height": 366.8,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 48.0
+          }
         },
         {
           "text": "NASB95",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 797.0,
+            "y": 400.1,
+            "width": 130.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1402,17 +4383,57 @@
         {
           "text": "Genesis 3:19",
           "shape_name": "Rectangle 25",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 104.1,
+            "y": 32.6,
+            "width": 375.9,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0,
+            "color": "#000000"
+          }
         },
         {
           "text": "By the sweat of your face You will eat bread, Till you return to the ground, Because from it you were taken; For you are dust, And to dust you shall return.",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 108.0,
+            "y": 92.9,
+            "width": 779.6,
+            "height": 221.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 48.0
+          }
         },
         {
           "text": "NASB95",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1423,17 +4444,57 @@
         {
           "text": "Leviticus 17:11",
           "shape_name": "Rectangle 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 120.4,
+            "y": 57.6,
+            "width": 756.1,
+            "height": 55.9,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0
+          }
         },
         {
           "text": "For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your souls; for it is the blood by reason of the life that makes atonement.",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 56.6,
+            "y": 115.2,
+            "width": 795.2,
+            "height": 346.9,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 48.0
+          }
         },
         {
           "text": "NASB95",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1444,17 +4505,59 @@
         {
           "text": "One who is slow to anger is better than the mighty, And one who rules his spirit, than one who captures a city.",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 88.0,
+            "y": 138.3,
+            "width": 783.9,
+            "height": 141.2,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "+mn-lt",
+            "font_size": 58.7
+          }
         },
         {
           "text": "Proverbs 16:32",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 126.2,
+            "y": 72.1,
+            "width": 756.1,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 70.7,
+            "theme_color": "TEXT_1 (13)"
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1465,22 +4568,74 @@
         {
           "text": "Ecclesiastes 3:19-21",
           "shape_name": "Rectangle 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 120.7,
+            "y": 46.4,
+            "width": 561.5,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0
+          }
         },
         {
           "text": "Surely the fate of human beings is like that of the animals; the same fate awaits them both: As one dies, so dies the other. All have the same breath*; humans have no advantage over animals. Everything is meaningless. [20] All go to the same place; all come from dust, and to dust all return. [21] Who knows if the human spirit rises upward and if the spirit of the animal goes down into the earth?”",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 92.2,
+            "y": 103.8,
+            "width": 743.9,
+            "height": 345.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 48.0
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         },
         {
           "text": "*NIV (or spirit)",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 751.9,
+            "y": 461.9,
+            "width": 139.0,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1491,27 +4646,94 @@
         {
           "text": "Ecclesiastes 3:20 All go to the same place; all come from dust, and to dust all return.",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 99.6,
+            "y": 306.4,
+            "width": 787.9,
+            "height": 115.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7,
+            "color": "#000000"
+          }
         },
         {
           "text": "Ecclesiastes 12:7",
           "shape_name": "Rectangle 22",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 95.1,
+            "y": 41.1,
+            "width": 458.9,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0,
+            "color": "#000000"
+          }
         },
         {
           "text": "Remember him—before the silver cord is severed, and the golden bowl is broken; before the pitcher is shattered at the spring, and the wheel broken at the well, [7] and the dust returns to the ground it came from, and the spirit returns to God who gave it.",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 99.6,
+            "y": 90.5,
+            "width": 773.1,
+            "height": 189.8,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 48.0,
+            "theme_color": "TEXT_2 (15)"
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 793.2,
+            "y": 405.3,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         },
         {
           "text": "NIV",
           "shape_name": "TextBox 3",
-          "static": true
+          "static": true,
+          "z_index": 4,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 793.2,
+            "y": 247.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1522,17 +4744,58 @@
         {
           "text": "Ezekiel 18:4",
           "shape_name": "Rectangle 21",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 90.9,
+            "y": 39.7,
+            "width": 371.2,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0,
+            "color": "#000000"
+          }
         },
         {
           "text": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 90.9,
+            "y": 94.3,
+            "width": 707.6,
+            "height": 120.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 49.3,
+            "theme_color": "TEXT_2 (15)"
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1543,17 +4806,57 @@
         {
           "text": "Matthew 16:26",
           "shape_name": "Rectangle 35",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 99.8,
+            "y": 40.6,
+            "width": 375.4,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 70.7,
+            "color": "#000000"
+          }
         },
         {
           "text": "For what good will it do a person if he gains the whole world, but forfeits his soul? Or what will a person give in exchange for his soul?",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 99.8,
+            "y": 94.6,
+            "width": 708.2,
+            "height": 120.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 49.3
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1563,24 +4866,78 @@
         {
           "sequence": 1,
           "text": "You are a house of spirits; kept alive by a spirit (in your blood) and tutored by spirits (in your mind)",
-          "shape_name": "TextBox 1"
+          "shape_name": "TextBox 1",
+          "timing": "click",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 128.4,
+            "y": 420.8,
+            "width": 716.8,
+            "height": 70.7,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 42.7
+          }
         }
       ],
       "static_content": [
         {
           "text": "“When the unclean spirit comes out of a person, it passes through waterless places seeking rest, and not finding any, it then says, ‘I will return to my house from which I came.’ [25] And when it comes, it finds it swept and put in order. [26] Then it goes and brings along seven other spirits more evil than itself, and they come in and live there; and the last condition of that person becomes worse than the first.”",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 116.1,
+            "y": 98.1,
+            "width": 757.3,
+            "height": 298.8,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 48.0
+          }
         },
         {
           "text": "Luke 11:24-26",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 116.1,
+            "y": 46.1,
+            "width": 440.6,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 70.7,
+            "theme_color": "TEXT_1 (13)"
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1591,17 +4948,58 @@
         {
           "text": "But these, like unreasoning animals, born as creatures of instinct to be captured and killed, using abusive speech where they have no knowledge, will in the destruction of those creatures also be destroyed,",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 114.4,
+            "y": 88.3,
+            "width": 747.3,
+            "height": 230.1,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "+mn-lt",
+            "font_size": 58.7
+          }
         },
         {
           "text": "2 Peter 2:12",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 116.5,
+            "y": 37.2,
+            "width": 330.6,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_size": 72.0,
+            "theme_color": "TEXT_1 (13)"
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 431.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1611,29 +5009,100 @@
         {
           "sequence": 1,
           "text": "John 4:24",
-          "shape_name": "Rectangle 7"
+          "shape_name": "Rectangle 7",
+          "timing": "click",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 96.6,
+            "y": 261.3,
+            "width": 756.1,
+            "height": 57.2,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 72.0
+          }
         },
         {
           "sequence": 2,
           "text": "God is spirit, and his worshipers must worship in spirit and in truth.\"",
-          "shape_name": "Rectangle 8"
+          "shape_name": "Rectangle 8",
+          "timing": "with",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 96.6,
+            "y": 311.8,
+            "width": 686.1,
+            "height": 96.8,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "+mn-lt",
+            "font_size": 58.7
+          }
         },
         {
           "sequence": 3,
           "text": "Is God only a spirit?",
-          "shape_name": "Rectangle 10"
+          "shape_name": "Rectangle 10",
+          "timing": "click",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 263.0,
+            "y": 437.5,
+            "width": 382.4,
+            "height": 52.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
         }
       ],
       "static_content": [
         {
           "text": "I have decided to deliver such a one to Satan for the destruction of his flesh, so that his spirit may be saved in the day of the Lord Jesus.",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 96.6,
+            "y": 91.0,
+            "width": 795.8,
+            "height": 141.2,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "+mn-lt",
+            "font_size": 58.7
+          }
         },
         {
           "text": "1 Corinthians 5:5",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 96.6,
+            "y": 43.0,
+            "width": 422.5,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0,
+            "theme_color": "TEXT_1 (13)"
+          }
         }
       ]
     },
@@ -1644,17 +5113,58 @@
         {
           "text": "Do you not know that your bodies are members of Christ? Shall I then take away the members of Christ and make them members of a prostitute? May it never be! 16 Or do you not know that the one who joins himself to a prostitute is one body with her? For He says, \"THE TWO SHALL BECOME ONE FLESH.\"17 But the one who joins himself to the Lord is one spirit with Him.",
           "shape_name": "Rectangle 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 74.1,
+            "y": 66.6,
+            "width": 801.7,
+            "height": 391.7,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "+mn-lt",
+            "font_size": 53.3
+          }
         },
         {
           "text": "1 Corinthians 6:15-17",
           "shape_name": "Rectangle 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 74.1,
+            "y": 24.8,
+            "width": 472.6,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 72.0
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 474.6,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1665,17 +5175,56 @@
         {
           "text": "1 Thessalonians 5:23",
           "shape_name": "Rectangle 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 70.3,
+            "y": 24.8,
+            "width": 453.3,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 62.7
+          }
         },
         {
           "text": "Now may the God of peace Himself sanctify you entirely; and may your spirit and soul and body be kept complete, without blame at the coming of our Lord Jesus Christ.",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 70.3,
+            "y": 80.6,
+            "width": 836.1,
+            "height": 183.8,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 3",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 753.2,
+            "y": 474.6,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1686,22 +5235,76 @@
         {
           "text": "Hebrews 9:27",
           "shape_name": "Rectangle 12",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 90.3,
+            "y": 37.6,
+            "width": 363.6,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 70.7,
+            "color": "#000000"
+          }
         },
         {
           "text": "And just as it is destined for people to die once, and after this comes judgment,Hebrews 9:27And inasmuch as it is appointed for men to die once and after this comes judgment,",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 120.4,
+            "y": 87.0,
+            "width": 695.3,
+            "height": 274.6,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 56.0
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 3",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 663.9,
+            "y": 187.9,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         },
         {
           "text": "NASB95",
           "shape_name": "TextBox 4",
-          "static": true
+          "static": true,
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 663.9,
+            "y": 360.7,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1712,17 +5315,57 @@
         {
           "text": "James 2:26",
           "shape_name": "Rectangle 2",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 125.1,
+            "y": 62.4,
+            "width": 359.2,
+            "height": 50.0,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 70.7
+          }
         },
         {
           "text": "For just as the body without the spirit is dead, so also faith without works is dead.",
           "shape_name": "TextBox 2",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 125.1,
+            "y": 119.4,
+            "width": 678.4,
+            "height": 139.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
         },
         {
           "text": "NASB2020",
           "shape_name": "TextBox 3",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 669.1,
+            "y": 435.6,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1733,17 +5376,59 @@
         {
           "text": "But these men revile the things which they do not understand; and the things which they know by instinct, like unreasoning animals, by these things they are destroyed.",
           "shape_name": "Rectangle 4",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 99.1,
+            "y": 83.5,
+            "width": 735.8,
+            "height": 185.7,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "+mn-lt",
+            "font_size": 58.7
+          }
         },
         {
           "text": "Jude 1:10",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 99.1,
+            "y": 31.2,
+            "width": 246.9,
+            "height": 52.2,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_size": 72.0,
+            "theme_color": "TEXT_1 (13)"
+          }
         },
         {
           "text": "NASB95",
           "shape_name": "TextBox 1",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 709.9,
+            "y": 360.7,
+            "width": 134.4,
+            "height": 30.3,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_name": "+mn-lt",
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1753,64 +5438,358 @@
         {
           "sequence": 1,
           "text": "Wind, Breath, Life",
-          "shape_name": "Rectangle 16"
+          "shape_name": "Rectangle 16",
+          "timing": "click",
+          "z_index": 8,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 109.9,
+            "y": 52.9,
+            "width": 203.0,
+            "height": 72.5,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          }
         },
         {
           "sequence": 2,
           "text": "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul)  Greek",
-          "shape_name": "Rectangle 20"
+          "shape_name": "Rectangle 20",
+          "timing": "click",
+          "z_index": 12,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 84.1,
+            "y": 132.9,
+            "width": 240.8,
+            "height": 94.5,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "sequence": 3,
           "text": "Emotions, Love, Desires",
-          "shape_name": "Rectangle 17"
+          "shape_name": "Rectangle 17",
+          "timing": "click",
+          "z_index": 9,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 347.0,
+            "y": 52.9,
+            "width": 224.1,
+            "height": 72.5,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          }
         },
         {
           "sequence": 4,
           "text": "Meah (spirit) HebrewNephesh (soul) HebrewPsyche (soul) GreekPneuma (soul) Greek",
-          "shape_name": "Rectangle 21"
+          "shape_name": "Rectangle 21",
+          "timing": "click",
+          "z_index": 13,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 343.0,
+            "y": 132.9,
+            "width": 240.9,
+            "height": 95.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "sequence": 5,
-          "text": "Cognition, Mind,Moral Character",
-          "shape_name": "Rectangle 18"
+          "text": "",
+          "shape_name": "Line 6",
+          "timing": "with",
+          "z_index": 2,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 287.4,
+            "y": 83.0,
+            "width": 81.6,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 8.7,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 328.2,
+              "y": 83.0
+            },
+            "to": {
+              "x": 328.2,
+              "y": 83.0
+            }
+          },
+          "arrow_ends": {
+            "headEnd": "triangle",
+            "tailEnd": "triangle"
+          }
         },
         {
           "sequence": 6,
-          "text": "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul) Greek",
-          "shape_name": "Rectangle 19"
+          "text": "Cognition, Mind,Moral Character",
+          "shape_name": "Rectangle 18",
+          "timing": "click",
+          "z_index": 10,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 603.6,
+            "y": 52.9,
+            "width": 265.9,
+            "height": 72.5,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          }
         },
         {
           "sequence": 7,
-          "text": "The Greek and Hebrew terms for soul and spirit are often used interchangeably in physical contexts only.",
-          "shape_name": "Rectangle 12"
+          "text": "Ruwach (spirit) HebrewNephesh (soul) HebrewPneuma (spirit) GreekPsyche (soul) Greek",
+          "shape_name": "Rectangle 19",
+          "timing": "click",
+          "z_index": 11,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 615.3,
+            "y": 132.9,
+            "width": 241.1,
+            "height": 99.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "sequence": 8,
-          "text": "Context:  Angels, Demons,\t         Evil spirits.Greek: pneuma (spirit)",
-          "shape_name": "Text Box 22"
+          "text": "",
+          "shape_name": "Line 7",
+          "timing": "with",
+          "z_index": 3,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 544.9,
+            "y": 80.0,
+            "width": 81.6,
+            "height": 0.0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 8.7,
+            "theme_color": "ACCENT_5 (9)"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 585.7,
+              "y": 80.0
+            },
+            "to": {
+              "x": 585.7,
+              "y": 80.0
+            }
+          },
+          "arrow_ends": {
+            "headEnd": "triangle",
+            "tailEnd": "triangle"
+          }
         },
         {
           "sequence": 9,
-          "text": "Context: Spirit of God.Hebrew: ruach (spirit)Greek: pneuma (spirit)",
-          "shape_name": "Text Box 23"
+          "text": "The Greek and Hebrew terms for soul and spirit are often used interchangeably in physical contexts only.",
+          "shape_name": "Rectangle 12",
+          "timing": "click",
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 98.6,
+            "y": 244.4,
+            "width": 766.4,
+            "height": 72.6,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 42.7
+          }
         },
         {
           "sequence": 10,
-          "text": "In scripture the word psyche (soul) is used invariably in the context of eternal life. The words that refer to spirit are never mentioned in the context of everlasting life.",
-          "shape_name": "Rectangle 13"
+          "text": "Context:  Angels, Demons,\t         Evil spirits.Greek: pneuma (spirit)",
+          "shape_name": "Text Box 22",
+          "timing": "click",
+          "z_index": 14,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 158.0,
+            "y": 312.7,
+            "width": 273.2,
+            "height": 80.8,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_6 (10)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 4.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 32.0,
+            "italic": true
+          }
         },
         {
           "sequence": 11,
+          "text": "Context: Spirit of God.Hebrew: ruach (spirit)Greek: pneuma (spirit)",
+          "shape_name": "Text Box 23",
+          "timing": "click",
+          "z_index": 15,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 536.1,
+            "y": 312.7,
+            "width": 236.9,
+            "height": 80.7,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_6 (10)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 4.0,
+            "theme_color": "TEXT_1 (13)"
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 32.0,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 12,
+          "text": "In scripture the word psyche (soul) is used invariably in the context of eternal life. The words that refer to spirit are never mentioned in the context of everlasting life.",
+          "shape_name": "Rectangle 13",
+          "timing": "click",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 96.4,
+            "y": 393.4,
+            "width": 783.1,
+            "height": 104.9,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 42.7
+          }
+        },
+        {
+          "sequence": 13,
           "text": "Biblical examples of Psyche (Soul)",
-          "shape_name": "Rectangle 25"
+          "shape_name": "Rectangle 25",
+          "timing": "click",
+          "z_index": 16,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 498.7,
+            "y": 497.6,
+            "width": 400.4,
+            "height": 34.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 34.7
+          }
         }
       ],
       "static_content": [
         {
           "text": "Dividing Soul & Spirit",
           "shape_name": "Rectangle 27",
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 102.7,
+            "y": 6.4,
+            "width": 756.1,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 70.7,
+            "italic": true,
+            "theme_color": "TEXT_1 (13)"
+          }
+        },
+        {
+          "text": "",
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 60.0,
+            "y": 243.6,
+            "width": 840.0,
+            "height": 29.2,
+            "rotation": 0
+          }
+        },
+        {
+          "text": "",
+          "shape_name": "Rectangle 9",
           "static": true
+        },
+        {
+          "text": "",
+          "shape_name": "Line 10",
+          "static": true
+        },
+        {
+          "text": "",
+          "shape_name": "Line 11",
+          "static": true
+        },
+        {
+          "text": "",
+          "shape_name": "Rectangle 14",
+          "static": true,
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 256.1,
+            "y": 23.9,
+            "width": 420.0,
+            "height": 45.4,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center"
+          }
         }
       ]
     },
@@ -1820,69 +5799,238 @@
         {
           "sequence": 1,
           "text": "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
-          "shape_name": "Rectangle 6"
+          "shape_name": "Rectangle 6",
+          "timing": "click",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 44.4,
+            "width": 810.0,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 2,
           "text": "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
-          "shape_name": "Rectangle 7"
+          "shape_name": "Rectangle 7",
+          "timing": "click",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 69.2,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 3,
           "text": "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
-          "shape_name": "Rectangle 8"
+          "shape_name": "Rectangle 8",
+          "timing": "click",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 112.3,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 4,
           "text": "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
-          "shape_name": "Rectangle 9"
+          "shape_name": "Rectangle 9",
+          "timing": "click",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 155.3,
+            "width": 774.7,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 5,
           "text": "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
-          "shape_name": "Rectangle 10"
+          "shape_name": "Rectangle 10",
+          "timing": "click",
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 180.2,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 6,
           "text": "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
-          "shape_name": "Rectangle 11"
+          "shape_name": "Rectangle 11",
+          "timing": "click",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 223.2,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 7,
           "text": "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
-          "shape_name": "Rectangle 12"
+          "shape_name": "Rectangle 12",
+          "timing": "click",
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 266.3,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 8,
           "text": "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
-          "shape_name": "Rectangle 13"
+          "shape_name": "Rectangle 13",
+          "timing": "click",
+          "z_index": 8,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 309.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 9,
           "text": "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
-          "shape_name": "Rectangle 14"
+          "shape_name": "Rectangle 14",
+          "timing": "click",
+          "z_index": 9,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 352.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 10,
           "text": "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
-          "shape_name": "Rectangle 15"
+          "shape_name": "Rectangle 15",
+          "timing": "click",
+          "z_index": 10,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 395.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 11,
           "text": "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
-          "shape_name": "Rectangle 16"
+          "shape_name": "Rectangle 16",
+          "timing": "click",
+          "z_index": 11,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 438.5,
+            "width": 541.0,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "sequence": 12,
           "text": "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;",
-          "shape_name": "Rectangle 17"
+          "shape_name": "Rectangle 17",
+          "timing": "click",
+          "z_index": 12,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 463.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         }
       ],
       "static_content": [
         {
           "text": "SOUL (Psyche, Gk.)",
           "shape_name": "Rectangle 19",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 102.0,
+            "y": 0.0,
+            "width": 756.1,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "theme_color": "TEXT_1 (13)"
+          }
         }
       ]
     },
@@ -1893,82 +6041,292 @@
         {
           "text": "Matthew 10:28    \"And do not fear those who kill the body, but are unable to kill the soul; but rather fear Him who is able to destroy both soul and body in hell.",
           "shape_name": "Rectangle 8",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 112.3,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Matthew 16:26    \"For what will a man be profited, if he gains the whole world, and forfeits his soul? Or what will a man give in exchange for his soul?",
           "shape_name": "Rectangle 7",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 69.2,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "James 5:20    let him know that he who turns a sinner from the error of his way will save his soul from death, and will cover a multitude of sins.",
           "shape_name": "Rectangle 15",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 395.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Vine’s Dictionary",
           "shape_name": "Title 1",
-          "static": true
+          "static": true,
+          "z_index": 3,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 176.4,
+            "y": 93.2,
+            "width": 641.8,
+            "height": 44.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          },
+          "font": {
+            "font_size": 58.7
+          }
         },
         {
           "text": "SOUL (Psyche, Gk.)",
           "shape_name": "TextBox 6",
-          "static": true
+          "static": true,
+          "z_index": 4,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 155.4,
+            "y": -1.4,
+            "width": 649.2,
+            "height": 48.5,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 56.0
+          }
         },
         {
           "text": "1Peter 1:9  obtaining as the outcome of your faith the salvation of your souls.",
           "shape_name": "Rectangle 6",
-          "static": true
+          "static": true,
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 44.4,
+            "width": 810.0,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Acts 2:27    Because Thou wilt not abandon my soul to Hades, Nor ALLOW Thy Holy One to UNDERGO DECAY.",
           "shape_name": "Rectangle 9",
-          "static": true
+          "static": true,
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 155.3,
+            "width": 774.7,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Acts 2:41    So  then, those who had received his word were baptized; and there were added that day about three thousand souls.",
           "shape_name": "Rectangle 10",
-          "static": true
+          "static": true,
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 180.2,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Hebrews 4:12    For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart",
           "shape_name": "Rectangle 11",
-          "static": true
+          "static": true,
+          "z_index": 8,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 223.2,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Hebrews 10:39    But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
           "shape_name": "Rectangle 12",
-          "static": true
+          "static": true,
+          "z_index": 9,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 266.3,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Hebrews 13:17    Obey your leaders, and submit to them; for they keep watch over your soul s, as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
           "shape_name": "Rectangle 13",
-          "static": true
+          "static": true,
+          "z_index": 10,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 309.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "James 1:21    Therefore putting aside all filthiness and all that remains of wickedness, in humility receive the word implanted, which is able to save your soul.",
           "shape_name": "Rectangle 14",
-          "static": true
+          "static": true,
+          "z_index": 11,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 352.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "1Peter 1:9    obtaining as the outcome of your faith the salvation of your souls.",
           "shape_name": "Rectangle 16",
-          "static": true
+          "static": true,
+          "z_index": 12,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 438.5,
+            "width": 541.0,
+            "height": 26.1,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Romans 6:9    And when He broke the fifth seal, I saw underneath the altar the souls of those who had been slain because of the word of God, and because of the testimony which they had maintained;",
           "shape_name": "Rectangle 17",
-          "static": true
+          "static": true,
+          "z_index": 13,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 95.0,
+            "y": 463.4,
+            "width": 810.0,
+            "height": 44.3,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 24.0
+          }
         },
         {
           "text": "Psyche: The New Testament uses may be analyzed approximately as follows:The language of Hebrews 4:12 suggests the extreme difficulty of distinguishing between the soul and the spirit, alike in their nature and in their activities. Generally speaking the spirit is the higher, the soul the lower element.",
           "shape_name": "Text Box 18",
-          "static": true
+          "static": true,
+          "z_index": 14,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 176.4,
+            "y": 135.6,
+            "width": 641.8,
+            "height": 404.4,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "ACCENT_2 (6)",
+            "brightness": 0
+          },
+          "line": {
+            "width": 1.3
+          },
+          "font": {
+            "font_name": "Abbess",
+            "font_size": 48.0,
+            "italic": true
+          }
         },
         {
           "text": "Hebrews 4:12: For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
           "shape_name": "TextBox 4",
-          "static": true
+          "static": true,
+          "z_index": 15,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 226.8,
+            "y": 410.8,
+            "width": 541.0,
+            "height": 103.0,
+            "rotation": 0
+          },
+          "fill": {
+            "theme": "BACKGROUND_1 (14)",
+            "brightness": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         }
       ]
     },
@@ -1979,22 +6337,67 @@
         {
           "text": "House for Spirits",
           "shape_name": "Title 1",
-          "static": true
+          "static": true,
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 102.8,
+            "y": 8.9,
+            "width": 756.0,
+            "height": 44.4,
+            "rotation": 0
+          }
         },
         {
           "text": "Mark 5:2-8 When Jesus got out of the boat, a man with an impure spirit came from the tombs to meet him. [3] This man lived in the tombs, and no one could bind him anymore, not even with a chain. [4] For he had often been chained hand and foot, but he tore the chains apart and broke the irons on his feet. No one was strong enough to subdue him. [5] Night and day among the tombs and in the hills he would cry out and cut himself with stones. [6] When he saw Jesus from a distance, he ran and fell on his knees in front of him. [7] He shouted at the top of his voice, “What do you want with me, Jesus, Son of the Most High God? In God’s name don’t torture me!” [8] For Jesus had said to him, “Come out of this man, you impure spirit!”",
           "shape_name": "TextBox 3",
-          "static": true
+          "static": true,
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 52.3,
+            "y": 43.5,
+            "width": 855.3,
+            "height": 224.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "text": "Acts 16:16-18Once when we were going to the place of prayer, we were met by a female slave who had a spirit by which she predicted the future. She earned a great deal of money for her owners by fortune-telling. [17] She followed Paul and the rest of us, shouting, “These men are servants of the Most High God, who are telling you the way to be saved.” [18] She kept this up for many days. Finally Paul became so annoyed that he turned around and said to the spirit, “In the name of Jesus Christ I command you to come out of her!” At that moment the spirit left her.",
           "shape_name": "TextBox 5",
-          "static": true
+          "static": true,
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 52.3,
+            "y": 284.8,
+            "width": 855.3,
+            "height": 175.7,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 32.0
+          }
         },
         {
           "text": "NIV",
           "shape_name": "TextBox 7",
-          "static": true
+          "static": true,
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 823.8,
+            "y": 489.8,
+            "width": 49.7,
+            "height": 26.2,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7
+          }
         }
       ]
     }

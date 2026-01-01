@@ -7,7 +7,10 @@ Parses PowerPoint files and extracts complete presentation data including:
 - **Custom shows** - Hyperlinked drill content with full slide data
 - **Static content** - Non-animated elements that appear immediately
 
-Font sizes are automatically converted from PowerPoint points to CSS pixels (× 1.333).
+**Automatic Conversions:**
+- **Coordinates**: All layout coordinates (x, y, width, height) are automatically scaled from the source PowerPoint dimensions to a 960×540 pixel canvas (16:9 aspect ratio). No manual scaling needed.
+- **Font sizes**: Automatically converted from PowerPoint points to CSS pixels (× 1.333).
+- **Metadata**: The JSON includes `source_dimensions`, `target_canvas`, and `scale_factor` for reference.
 
 ## Install
     
