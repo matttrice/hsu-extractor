@@ -2,6 +2,7 @@ import os
 import glob
 import json
 import math
+import sys
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -57,6 +58,194 @@ def rgb_to_hex(rgb_color):
         return f"#{rgb_color}"
     except:
         return None
+
+def enumerate_shapes_recursive(shapes, z_index_start=0, parent_group_id=None):
+    """Recursively enumerate all shapes including those inside groups.
+    
+    Args:
+        shapes: Collection of shapes to enumerate (from slide.shapes or group.shapes)
+        z_index_start: Starting z-index for enumeration
+        parent_group_id: Parent group's shape ID if applicable
+    
+    Yields:
+        Tuple of (z_index, shape, group_id) for each shape found
+    """
+    z_idx = z_index_start
+    for shape in shapes:
+        if shape.shape_type == MSO_SHAPE_TYPE.GROUP:
+            # This is a group - recursively enumerate its children
+            group_id = str(shape.shape_id)
+            yield from enumerate_shapes_recursive(shape.shapes, z_idx, group_id)
+            # Count group members for z-index offset
+            z_idx += len(list(shape.shapes))
+        else:
+            # Regular shape
+            yield (z_idx, shape, parent_group_id)
+            z_idx += 1
+
+def extract_layout_from_xml(shape_elem, slide_width=None):
+    """Extract layout from shape XML element.
+    
+    Args:
+        shape_elem: XML element (p:sp or p:cxnSp)
+        slide_width: Source slide width for auto-scaling
+    
+    Returns:
+        Layout dict with coordinates scaled to target canvas
+    """
+    try:
+        spPr = shape_elem.find('p:spPr', NAMESPACES)
+        if spPr is None:
+            return None
+        
+        xfrm = spPr.find('a:xfrm', NAMESPACES)
+        if xfrm is None:
+            return None
+        
+        # Get offset (position)
+        off = xfrm.find('a:off', NAMESPACES)
+        # Get extents (size)
+        ext = xfrm.find('a:ext', NAMESPACES)
+        
+        if off is None or ext is None:
+            return None
+        
+        # Extract EMU values and convert to pixels
+        x = emu_to_px(int(off.get('x', 0)))
+        y = emu_to_px(int(off.get('y', 0)))
+        width = emu_to_px(int(ext.get('cx', 0)))
+        height = emu_to_px(int(ext.get('cy', 0)))
+        rotation = int(xfrm.get('rot', 0)) / 60000  # Convert from 1/60000 degrees
+        
+        # Scale to target canvas
+        if slide_width is not None:
+            x = scale_to_target(x, slide_width)
+            y = scale_to_target(y, slide_width)
+            width = scale_to_target(width, slide_width)
+            height = scale_to_target(height, slide_width)
+        
+        return {
+            'x': x,
+            'y': y,
+            'width': width,
+            'height': height,
+            'rotation': rotation
+        }
+    except:
+        return None
+
+def extract_font_from_xml(shape_elem):
+    """Extract font properties from shape XML element.
+    
+    Args:
+        shape_elem: XML element (p:sp)
+    
+    Returns:
+        Font dict with properties
+    """
+    try:
+        txBody = shape_elem.find('.//p:txBody', NAMESPACES)
+        if txBody is None:
+            return None
+        
+        font_data = {}
+        
+        # Get bodyPr for vertical alignment
+        bodyPr = txBody.find('a:bodyPr', NAMESPACES)
+        if bodyPr is not None:
+            anchor = bodyPr.get('anchor')
+            if anchor == 't':
+                font_data['v_align'] = 'top'
+            elif anchor == 'ctr':
+                font_data['v_align'] = 'middle'
+            elif anchor == 'b':
+                font_data['v_align'] = 'bottom'
+        
+        # Get first paragraph for alignment
+        para = txBody.find('a:p', NAMESPACES)
+        if para is not None:
+            pPr = para.find('a:pPr', NAMESPACES)
+            if pPr is not None:
+                algn = pPr.get('algn')
+                if algn == 'l':
+                    font_data['align'] = 'left'
+                elif algn == 'ctr':
+                    font_data['align'] = 'center'
+                elif algn == 'r':
+                    font_data['align'] = 'right'
+            
+            # Get first run for font properties
+            r = para.find('.//a:r', NAMESPACES)
+            if r is not None:
+                rPr = r.find('a:rPr', NAMESPACES)
+                if rPr is not None:
+                    # Font size (in 1/100 points, convert to CSS pixels)
+                    sz = rPr.get('sz')
+                    if sz:
+                        points = int(sz) / 100
+                        font_data['font_size'] = round(points * 1.333, 1)
+                    
+                    # Bold
+                    if rPr.get('b') == '1':
+                        font_data['bold'] = True
+                    
+                    # Italic
+                    if rPr.get('i') == '1':
+                        font_data['italic'] = True
+                    
+                    # Font name
+                    latin = rPr.find('a:latin', NAMESPACES)
+                    if latin is not None:
+                        typeface = latin.get('typeface')
+                        if typeface:
+                            font_data['font_name'] = typeface
+                    
+                    # Color
+                    solidFill = rPr.find('a:solidFill', NAMESPACES)
+                    if solidFill is not None:
+                        srgbClr = solidFill.find('a:srgbClr', NAMESPACES)
+                        if srgbClr is not None:
+                            val = srgbClr.get('val')
+                            if val:
+                                font_data['color'] = f"#{val}"
+        
+        return font_data if font_data else None
+    except:
+        return None
+
+def extract_visual_data_from_xml(shape_elem, z_index, slide_width=None):
+    """Extract visual data from shape XML element.
+    
+    Args:
+        shape_elem: XML element (p:sp or p:cxnSp)
+        z_index: The z-index for this shape
+        slide_width: Source slide width for auto-scaling
+    
+    Returns:
+        Visual data dict
+    """
+    visual_data = {'z_index': z_index}
+    
+    # Determine shape type from XML
+    if shape_elem.tag.endswith('sp'):
+        visual_data['shape_type'] = 'text_box'
+    elif shape_elem.tag.endswith('cxnSp'):
+        visual_data['shape_type'] = 'connector'
+    
+    # Extract layout
+    layout = extract_layout_from_xml(shape_elem, slide_width)
+    if layout:
+        visual_data['layout'] = layout
+    
+    # Extract font
+    font = extract_font_from_xml(shape_elem)
+    if font:
+        visual_data['font'] = font
+    
+    # TODO: Could also extract fill and line from XML if needed
+    # For now, these are less critical for grouped text shapes
+    
+    return visual_data
 
 def extract_shape_layout(shape, slide_width=None):
     """Extract position, size, and rotation from a shape.
@@ -682,11 +871,46 @@ def get_hyperlink_from_shape_xml(shape_elem):
     
     return None
 
+def get_group_child_ids(slide_xml_content, group_id):
+    """Get all child shape IDs from a group shape.
+    
+    Args:
+        slide_xml_content: The slide XML content
+        group_id: The group shape ID
+    
+    Returns:
+        List of child shape IDs, or None if not a group
+    """
+    try:
+        root = ET.fromstring(slide_xml_content)
+        
+        # Find the group shape with matching ID
+        for grpSp in root.findall('.//p:grpSp', NAMESPACES):
+            cNvPr = grpSp.find('.//p:cNvPr', NAMESPACES)
+            if cNvPr is not None and cNvPr.get('id') == str(group_id):
+                # Found the group - get all child shape IDs
+                child_ids = []
+                # Get direct child shapes (sp elements)
+                for sp in grpSp.findall('./p:sp', NAMESPACES):
+                    child_cNvPr = sp.find('.//p:cNvPr', NAMESPACES)
+                    if child_cNvPr is not None:
+                        child_ids.append(child_cNvPr.get('id'))
+                # Also get child connectors (cxnSp elements)
+                for cxnSp in grpSp.findall('./p:cxnSp', NAMESPACES):
+                    child_cNvPr = cxnSp.find('.//p:cNvPr', NAMESPACES)
+                    if child_cNvPr is not None:
+                        child_ids.append(child_cNvPr.get('id'))
+                return child_ids if child_ids else None
+    except:
+        pass
+    return None
+
 def parse_animation_sequence(slide_xml_content):
     """Parse animation sequence from slide XML and return ordered list of animation entries.
     
     Each entry contains:
-    - shape_id: The shape's ID
+    - shape_id: The shape's ID (or list of IDs if it's a group)
+    - is_group: Boolean indicating if this is a group animation
     - timing: 'click' (On Click), 'with' (With Previous), or 'after' (After Previous)
     - delay: Delay in milliseconds (for 'after' timing)
     
@@ -935,10 +1159,10 @@ def save_presentation_structure(prs, file_path):
         for slide_num, slide in enumerate(prs.slides, 1):
             slide_file = f'ppt/slides/slide{slide_num}.xml'
             
-            # Build shape ID to pptx shape mapping for this slide
+            # Build shape ID to pptx shape mapping for this slide (including grouped shapes)
             pptx_shapes_by_id = {}
-            for z_idx, shape in enumerate(slide.shapes):
-                pptx_shapes_by_id[str(shape.shape_id)] = (shape, z_idx)
+            for z_idx, shape, group_id in enumerate_shapes_recursive(slide.shapes):
+                pptx_shapes_by_id[str(shape.shape_id)] = (shape, z_idx, group_id)
             
             try:
                 slide_xml = zf.read(slide_file).decode('utf-8')
@@ -955,7 +1179,48 @@ def save_presentation_structure(prs, file_path):
                 
                 for anim_entry in animation_entries:
                     shape_id = anim_entry['shape_id']
-                    if shape_id in shapes:
+                    
+                    # Check if this shape_id is a group
+                    child_ids = get_group_child_ids(slide_xml, shape_id)
+                    
+                    if child_ids:
+                        # This is a group - add all child shapes with the same sequence/timing
+                        for child_id in child_ids:
+                            if child_id in shapes:
+                                shape = shapes[child_id]
+                                entry = {
+                                    'sequence': sequence_num,
+                                    'text': shape['text'] if shape['text'] else '',
+                                    'shape_name': shape['name']
+                                }
+                                
+                                # Add timing info (all children get same timing)
+                                entry['timing'] = anim_entry['timing']
+                                if 'delay' in anim_entry and anim_entry['delay'] > 0:
+                                    entry['delay'] = anim_entry['delay']
+                                
+                                # Add visual data if available (with auto-scaling)
+                                if child_id in pptx_shapes_by_id:
+                                    pptx_shape, z_idx, group_id = pptx_shapes_by_id[child_id]
+                                    visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width)
+                                    if visual:
+                                        for key, value in visual.items():
+                                            entry[key] = value
+                                    # Mark that this is part of an animated group
+                                    entry['group_id'] = shape_id
+                                
+                                # Add hyperlink info if present
+                                if shape['hyperlink']:
+                                    entry['hyperlink'] = shape['hyperlink']
+                                    if shape['hyperlink']['type'] == 'customshow':
+                                        cs_id = shape['hyperlink']['id']
+                                        if cs_id in custom_shows:
+                                            entry['linked_content'] = custom_shows[cs_id]
+                                
+                                animation_sequence.append(entry)
+                        sequence_num += 1
+                    elif shape_id in shapes:
+                        # Regular individual shape
                         shape = shapes[shape_id]
                         # Include all animated shapes (text or not - could be rectangles, decorative shapes)
                         entry = {
@@ -971,11 +1236,14 @@ def save_presentation_structure(prs, file_path):
                         
                         # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
-                            pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
+                            pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
                             visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
                             if visual:
                                 for key, value in visual.items():
                                     entry[key] = value
+                            # Add group_id for debugging if shape is in a group
+                            if group_id:
+                                entry['group_id'] = group_id
                         
                         # Add hyperlink info if present
                         if shape['hyperlink']:
@@ -990,8 +1258,15 @@ def save_presentation_structure(prs, file_path):
                         sequence_num += 1
                 
                 # Also get shapes that might not be animated (static content)
+                # Build a set of ALL animated shape IDs (including those in animated groups)
                 static_shapes = []
                 animated_ids = set(e['shape_id'] for e in animation_entries)
+                # Also add child IDs from animated groups
+                for anim_entry in animation_entries:
+                    child_ids = get_group_child_ids(slide_xml, anim_entry['shape_id'])
+                    if child_ids:
+                        animated_ids.update(child_ids)
+                
                 for shape_id, shape in shapes.items():
                     if shape_id not in animated_ids:
                         # Include all shapes - text, connectors, or decorative rectangles
@@ -1004,11 +1279,42 @@ def save_presentation_structure(prs, file_path):
                         
                         # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
-                            pptx_shape, z_idx = pptx_shapes_by_id[shape_id]
+                            pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
                             visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
                             if visual:
                                 for key, value in visual.items():
                                     static_entry[key] = value
+                            # Add group_id for debugging if shape is in a group
+                            if group_id:
+                                static_entry['group_id'] = group_id
+                        else:
+                            # Fallback: Extract visual data from XML for shapes not in pptx enumeration
+                            # (e.g., shapes in groups that python-pptx doesn't expose)
+                            try:
+                                root = ET.fromstring(slide_xml)
+                                # Find shape element by ID
+                                for sp in root.findall('.//p:sp', NAMESPACES):
+                                    cNvPr = sp.find('.//p:cNvPr', NAMESPACES)
+                                    if cNvPr is not None and cNvPr.get('id') == shape_id:
+                                        # Extract visual data from XML
+                                        visual = extract_visual_data_from_xml(sp, 0, slide_width)
+                                        if visual:
+                                            for key, value in visual.items():
+                                                static_entry[key] = value
+                                        # Check if shape is in a group by looking for parent grpSp
+                                        parent = sp
+                                        for _ in range(5):  # Check up to 5 levels
+                                            parent = parent.find('..')
+                                            if parent is None:
+                                                break
+                                            if parent.tag.endswith('grpSp'):
+                                                grp_cNvPr = parent.find('.//p:cNvPr', NAMESPACES)
+                                                if grp_cNvPr is not None:
+                                                    static_entry['group_id'] = grp_cNvPr.get('id')
+                                                break
+                                        break
+                            except:
+                                pass
                         
                         if shape['hyperlink']:
                             static_entry['hyperlink'] = shape['hyperlink']
