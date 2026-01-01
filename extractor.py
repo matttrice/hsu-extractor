@@ -180,6 +180,7 @@ def extract_font_from_xml(shape_elem):
                 rPr = r.find('a:rPr', NAMESPACES)
                 if rPr is not None:
                     # Font size (in 1/100 points, convert to CSS pixels)
+                    # Formula: (sz/100) * (96/72) = sz/100 * 1.333...
                     sz = rPr.get('sz')
                     if sz:
                         points = int(sz) / 100
@@ -199,6 +200,9 @@ def extract_font_from_xml(shape_elem):
                         typeface = latin.get('typeface')
                         if typeface:
                             font_data['font_name'] = typeface
+                            # Check if font name includes "Bold" and set bold property
+                            if 'bold' in typeface.lower():
+                                font_data['bold'] = True
                     
                     # Color
                     solidFill = rPr.find('a:solidFill', NAMESPACES)
@@ -504,6 +508,15 @@ def extract_font_style(shape):
         except:
             pass
         
+        # Get text wrapping property from text frame
+        try:
+            # word_wrap is a boolean property on the text_frame
+            # True = text wraps, False = text doesn't wrap
+            if hasattr(tf, 'word_wrap') and tf.word_wrap:
+                font_data['wrap'] = True
+        except:
+            pass
+        
         # Get horizontal alignment from first paragraph
         para = tf.paragraphs[0]
         if para.alignment:
@@ -517,15 +530,22 @@ def extract_font_style(shape):
                 font_data['align'] = align_map[para.alignment]
         
         # Get font properties from first run with text
+        found_font_size = False
         for para in tf.paragraphs:
             for run in para.runs:
                 if run.text.strip():
                     font = run.font
                     if font.name:
                         font_data['font_name'] = font.name
+                        # Check if font name includes "Bold" and set bold property
+                        if 'bold' in font.name.lower():
+                            font_data['bold'] = True
                     if font.size:
-                        # Convert points to CSS pixels (96 DPI / 72 DPI = 1.333)
+                        # font.size.pt is in PowerPoint points (1/72 inch)
+                        # CSS pixels are at 96 DPI, so conversion is: points × (96/72) = points × 1.333...
+                        # This is the standard DPI conversion formula and is correct.
                         font_data['font_size'] = round(font.size.pt * (96 / 72), 1)
+                        found_font_size = True
                     if font.bold:
                         font_data['bold'] = font.bold
                     if font.italic:
