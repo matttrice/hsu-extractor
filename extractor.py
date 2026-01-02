@@ -26,6 +26,83 @@ TARGET_CANVAS_HEIGHT = 540
 # EMU to pixels conversion (96 DPI standard)
 EMU_PER_PIXEL = 9525
 
+def extract_theme_colors_from_pptx(pptx_path):
+    """Extract theme color scheme from PowerPoint file.
+    
+    Returns dict mapping MSO_THEME_COLOR string representations to hex colors.
+    Example: "TEXT_1 (13)" -> "#000000"
+    """
+    theme_colors = {}
+    
+    try:
+        with zipfile.ZipFile(pptx_path, 'r') as zip_ref:
+            # Read theme XML
+            theme_xml = zip_ref.read('ppt/theme/theme1.xml')
+            root = ET.fromstring(theme_xml)
+            
+            # Find color scheme
+            clr_scheme = root.find('.//a:clrScheme', NAMESPACES)
+            if clr_scheme is None:
+                return {}
+            
+            # Map theme element names to MSO_THEME_COLOR enum indices
+            # Based on Office Open XML spec and python-pptx MSO_THEME_COLOR enum
+            color_mapping = [
+                ('dk1', 'TEXT_1', 13),           # Dark 1 (main text)
+                ('lt1', 'BACKGROUND_1', 14),     # Light 1 (main background)
+                ('dk2', 'TEXT_2', 15),           # Dark 2 (secondary text)
+                ('lt2', 'BACKGROUND_2', 16),     # Light 2 (secondary background)
+                ('accent1', 'ACCENT_1', 5),      # Accent 1
+                ('accent2', 'ACCENT_2', 6),      # Accent 2
+                ('accent3', 'ACCENT_3', 7),      # Accent 3
+                ('accent4', 'ACCENT_4', 8),      # Accent 4
+                ('accent5', 'ACCENT_5', 9),      # Accent 5
+                ('accent6', 'ACCENT_6', 10),     # Accent 6
+                ('hlink', 'HYPERLINK', 11),      # Hyperlink
+                ('folHlink', 'FOLLOWED_HYPERLINK', 12),  # Followed Hyperlink
+            ]
+            
+            for elem_name, mso_name, mso_index in color_mapping:
+                color_elem = clr_scheme.find(f'a:{elem_name}', NAMESPACES)
+                if color_elem is not None:
+                    # Try RGB color first
+                    srgb = color_elem.find('.//a:srgbClr', NAMESPACES)
+                    if srgb is not None:
+                        hex_val = '#' + srgb.get('val', '').upper()
+                        # Store with format that matches python-pptx output: "NAME (index)"
+                        theme_colors[f"{mso_name} ({mso_index})"] = hex_val
+                    else:
+                        # Try system color
+                        sys_clr = color_elem.find('.//a:sysClr', NAMESPACES)
+                        if sys_clr is not None:
+                            last_clr = sys_clr.get('lastClr')
+                            if last_clr:
+                                hex_val = '#' + last_clr.upper()
+                                theme_colors[f"{mso_name} ({mso_index})"] = hex_val
+    
+    except Exception as e:
+        print(f"Warning: Could not extract theme colors: {e}")
+    
+    return theme_colors
+
+def resolve_theme_color(theme_color_str, theme_map, context=""):
+    """Resolve a theme color string to hex value.
+    
+    Args:
+        theme_color_str: Theme color string like "TEXT_1 (13)"
+        theme_map: Dictionary mapping theme colors to hex values
+        context: Context for warning message (e.g., "fill", "line", "font")
+    
+    Returns:
+        Hex color string, or "#000000" if not found
+    """
+    if theme_color_str in theme_map:
+        return theme_map[theme_color_str]
+    
+    # Theme color not in map - warn and default to black
+    print(f"Warning: Unknown theme color '{theme_color_str}' in {context}. Using #000000 (black).")
+    return "#000000"
+
 def emu_to_px(emu):
     """Convert EMU to pixels at 96 DPI."""
     if emu is None:
@@ -390,8 +467,13 @@ def calculate_line_endpoints(layout, slide_width=None):
         'to': {'x': to_pt[0], 'y': to_pt[1]}
     }
 
-def extract_fill_style(shape):
-    """Extract fill color from a shape."""
+def extract_fill_style(shape, theme_colors=None):
+    """Extract fill color from a shape.
+    
+    Args:
+        shape: The pptx shape object
+        theme_colors: Optional dict mapping theme color strings to hex values
+    """
     try:
         if not hasattr(shape, 'fill'):
             return None
@@ -414,7 +496,19 @@ def extract_fill_style(shape):
                 try:
                     theme = fore_color.theme_color
                     brightness = fore_color.brightness
-                    return {'theme': str(theme), 'brightness': brightness}
+                    theme_str = str(theme)
+                    
+                    # Resolve theme color to hex
+                    if theme_colors and theme_str in theme_colors:
+                        hex_color = theme_colors[theme_str]
+                        # Return resolved hex (omitting brightness as requested)
+                        return hex_color
+                    elif theme_colors:
+                        # Theme color not in map - warn and use black
+                        return resolve_theme_color(theme_str, theme_colors, "fill")
+                    else:
+                        # Fallback: return theme reference if no theme map provided
+                        return {'theme': theme_str, 'brightness': brightness}
                 except:
                     pass
         except:
@@ -423,8 +517,13 @@ def extract_fill_style(shape):
         pass
     return None
 
-def extract_line_style(shape):
-    """Extract line/stroke properties from a shape."""
+def extract_line_style(shape, theme_colors=None):
+    """Extract line/stroke properties from a shape.
+    
+    Args:
+        shape: The pptx shape object
+        theme_colors: Optional dict mapping theme color strings to hex values
+    """
     try:
         if not hasattr(shape, 'line'):
             return None
@@ -447,7 +546,17 @@ def extract_line_style(shape):
                 except:
                     try:
                         theme = color.theme_color
-                        line_data['theme_color'] = str(theme)
+                        theme_str = str(theme)
+                        
+                        # Resolve theme color to hex if theme_colors provided
+                        if theme_colors and theme_str in theme_colors:
+                            line_data['color'] = theme_colors[theme_str]
+                        elif theme_colors:
+                            # Theme color not found - warn and use black
+                            line_data['color'] = resolve_theme_color(theme_str, theme_colors, "line")
+                        else:
+                            # No theme_colors provided - include theme_color reference
+                            line_data['theme_color'] = theme_str
                     except:
                         pass
         except:
@@ -532,12 +641,13 @@ def _extract_line_ends(spPr):
     
     return result if result else None
 
-def extract_font_style(shape, slide_width=None):
+def extract_font_style(shape, slide_width=None, theme_colors=None):
     """Extract font properties from the first text run in a shape.
     
     Args:
         shape: The pptx shape object
         slide_width: Source slide width for auto-scaling font sizes (optional)
+        theme_colors: Optional dict mapping theme color strings to hex values
     """
     try:
         if not shape.has_text_frame:
@@ -666,7 +776,16 @@ def extract_font_style(shape, slide_width=None):
                             except:
                                 try:
                                     theme = fc.theme_color
-                                    font_data['theme_color'] = str(theme)
+                                    theme_str = str(theme)
+                                    
+                                    # Resolve theme color to hex
+                                    if theme_colors and theme_str in theme_colors:
+                                        font_data['color'] = theme_colors[theme_str]
+                                    elif theme_colors:
+                                        font_data['color'] = resolve_theme_color(theme_str, theme_colors, "font")
+                                    else:
+                                        # No theme_colors provided - include theme_color reference
+                                        font_data['theme_color'] = theme_str
                                 except:
                                     pass
                     except:
@@ -886,7 +1005,7 @@ def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout, slide_w
     
     return None
 
-def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=None, slide_width=None):
+def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=None, slide_width=None, theme_colors=None):
     """Extract all visual data for a shape.
     
     Args:
@@ -895,6 +1014,7 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
         slide_xml_content: Optional slide XML for extracting arrow/arc data
         shape_id: Optional shape ID for XML lookups
         slide_width: Source slide width for auto-scaling coordinates
+        theme_colors: Optional dict mapping theme color strings to hex values
     """
     visual_data = {
         'z_index': z_index,
@@ -907,17 +1027,17 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
         visual_data['layout'] = layout
     
     # Fill color
-    fill = extract_fill_style(shape)
+    fill = extract_fill_style(shape, theme_colors)
     if fill:
         visual_data['fill'] = fill
     
     # Line/stroke
-    line = extract_line_style(shape)
+    line = extract_line_style(shape, theme_colors)
     if line:
         visual_data['line'] = line
     
     # Font properties
-    font = extract_font_style(shape, slide_width)
+    font = extract_font_style(shape, slide_width, theme_colors)
     if font:
         visual_data['font'] = font
     
@@ -1179,12 +1299,13 @@ def parse_shapes_from_slide(slide_xml_content):
     
     return shapes
 
-def parse_custom_shows(pptx_path, prs):
+def parse_custom_shows(pptx_path, prs, theme_colors=None):
     """Parse custom shows from presentation.xml with full slide data.
     
     Args:
         pptx_path: Path to the PPTX file
         prs: The Presentation object (for slide dimensions and shape access)
+        theme_colors: Optional dict mapping theme color strings to hex values
     
     Returns:
         Dict of custom shows with full animation_sequence and static_content
@@ -1314,7 +1435,11 @@ def parse_custom_shows(pptx_path, prs):
                                             # Add visual data
                                             if shape_id in pptx_shapes_by_id:
                                                 pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
-                                                visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
+                                                try:
+                                                    visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
+                                                except Exception as e:
+                                                    print(f"ERROR: Failed to extract visual data for shape {shape_id}: {e}")
+                                                    visual = None
                                                 if visual:
                                                     for key, value in visual.items():
                                                         entry[key] = value
@@ -1346,7 +1471,7 @@ def parse_custom_shows(pptx_path, prs):
                                             # Add visual data
                                             if shape_id in pptx_shapes_by_id:
                                                 pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
-                                                visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
+                                                visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
                                                 if visual:
                                                     for key, value in visual.items():
                                                         static_entry[key] = value
@@ -1406,7 +1531,13 @@ def parse_custom_shows(pptx_path, prs):
 def save_presentation_structure(prs, file_path):
     """Save a simplified representation focusing on animation order and hyperlinks."""
     
-    custom_shows = parse_custom_shows(file_path, prs)
+    # Extract theme colors from the PowerPoint file
+    theme_colors = extract_theme_colors_from_pptx(file_path)
+    
+    if theme_colors:
+        print(f"Extracted {len(theme_colors)} theme colors from presentation")
+    
+    custom_shows = parse_custom_shows(file_path, prs, theme_colors)
     
     # Calculate slide dimensions in pixels (from EMU)
     slide_width = emu_to_px(prs.slide_width)
@@ -1480,7 +1611,7 @@ def save_presentation_structure(prs, file_path):
                                 # Add visual data if available (with auto-scaling)
                                 if child_id in pptx_shapes_by_id:
                                     pptx_shape, z_idx, group_id = pptx_shapes_by_id[child_id]
-                                    visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width)
+                                    visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width, theme_colors)
                                     if visual:
                                         for key, value in visual.items():
                                             entry[key] = value
@@ -1515,7 +1646,7 @@ def save_presentation_structure(prs, file_path):
                         # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
                             pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
-                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
+                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
                             if visual:
                                 for key, value in visual.items():
                                     entry[key] = value
@@ -1558,7 +1689,7 @@ def save_presentation_structure(prs, file_path):
                         # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
                             pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
-                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width)
+                            visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
                             if visual:
                                 for key, value in visual.items():
                                     static_entry[key] = value
