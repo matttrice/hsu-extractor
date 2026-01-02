@@ -161,7 +161,7 @@ def extract_font_from_xml(shape_elem):
             elif anchor == 'b':
                 font_data['v_align'] = 'bottom'
         
-        # Get first paragraph for alignment
+        # Get first paragraph for alignment and default properties
         para = txBody.find('a:p', NAMESPACES)
         if para is not None:
             pPr = para.find('a:pPr', NAMESPACES)
@@ -173,8 +173,45 @@ def extract_font_from_xml(shape_elem):
                     font_data['align'] = 'center'
                 elif algn == 'r':
                     font_data['align'] = 'right'
+                
+                # Check default run properties (defRPr) for inherited formatting
+                defRPr = pPr.find('a:defRPr', NAMESPACES)
+                if defRPr is not None:
+                    # Font size from defRPr
+                    sz = defRPr.get('sz')
+                    if sz:
+                        points = int(sz) / 100
+                        font_size = round(points * 1.333, 1)
+                        font_data['font_size'] = font_size
+                    
+                    # Bold from defRPr
+                    if defRPr.get('b') == '1':
+                        font_data['bold'] = True
+                    
+                    # Italic from defRPr
+                    if defRPr.get('i') == '1':
+                        font_data['italic'] = True
+                    
+                    # Font name from defRPr
+                    latin = defRPr.find('a:latin', NAMESPACES)
+                    if latin is not None:
+                        typeface = latin.get('typeface')
+                        if typeface:
+                            font_data['font_name'] = typeface
+                            # Check if font name includes "Bold" and set bold property
+                            if 'bold' in typeface.lower():
+                                font_data['bold'] = True
+                    
+                    # Color from defRPr
+                    solidFill = defRPr.find('a:solidFill', NAMESPACES)
+                    if solidFill is not None:
+                        srgbClr = solidFill.find('a:srgbClr', NAMESPACES)
+                        if srgbClr is not None:
+                            val = srgbClr.get('val')
+                            if val:
+                                font_data['color'] = f"#{val}"
             
-            # Get first run for font properties
+            # Get first run for font properties (overrides defRPr)
             r = para.find('.//a:r', NAMESPACES)
             if r is not None:
                 rPr = r.find('a:rPr', NAMESPACES)
@@ -192,13 +229,19 @@ def extract_font_from_xml(shape_elem):
                         # (They'll be manually scaled if needed in Svelte)
                         font_data['font_size'] = font_size
                     
-                    # Bold
-                    if rPr.get('b') == '1':
+                    # Bold (explicit False overrides defRPr, True overrides, None inherits)
+                    b_attr = rPr.get('b')
+                    if b_attr == '1':
                         font_data['bold'] = True
+                    elif b_attr == '0':
+                        font_data['bold'] = False
                     
                     # Italic
-                    if rPr.get('i') == '1':
+                    i_attr = rPr.get('i')
+                    if i_attr == '1':
                         font_data['italic'] = True
+                    elif i_attr == '0':
+                        font_data['italic'] = False
                     
                     # Font name
                     latin = rPr.find('a:latin', NAMESPACES)
@@ -540,6 +583,36 @@ def extract_font_style(shape, slide_width=None):
             if para.alignment in align_map:
                 font_data['align'] = align_map[para.alignment]
         
+        # Check paragraph-level default font properties (inherited from theme/master)
+        # This captures bold/italic that apply to the entire paragraph
+        has_default_bold = False
+        has_default_italic = False
+        try:
+            # Access the underlying XML to check defRPr (default run properties)
+            para_xml = para._element
+            pPr = para_xml.find('.//{http://schemas.openxmlformats.org/drawingml/2006/main}pPr')
+            if pPr is not None:
+                defRPr = pPr.find('.//{http://schemas.openxmlformats.org/drawingml/2006/main}defRPr')
+                if defRPr is not None:
+                    if defRPr.get('b') == '1':
+                        has_default_bold = True
+                        font_data['bold'] = True
+                    if defRPr.get('i') == '1':
+                        has_default_italic = True
+                        font_data['italic'] = True
+        except:
+            pass
+        
+        # Check if this is a title placeholder (which is typically bold by theme)
+        is_title_placeholder = False
+        try:
+            if shape.is_placeholder:
+                from pptx.enum.shapes import PP_PLACEHOLDER
+                if shape.placeholder_format.type == PP_PLACEHOLDER.TITLE:
+                    is_title_placeholder = True
+        except:
+            pass
+        
         # Get font properties from first run with text
         found_font_size = False
         for para in tf.paragraphs:
@@ -562,10 +635,25 @@ def extract_font_style(shape, slide_width=None):
                             scale_factor = TARGET_CANVAS_WIDTH / slide_width
                             font_data['font_size'] = round(font_data['font_size'] * scale_factor, 1)
                         found_font_size = True
-                    if font.bold:
-                        font_data['bold'] = font.bold
-                    if font.italic:
-                        font_data['italic'] = font.italic
+                    # Bold - explicitly check for True (overrides default), False (overrides default), or None (uses default/theme)
+                    if font.bold is True:
+                        font_data['bold'] = True
+                    elif font.bold is False:
+                        # Explicitly not bold - overrides any default
+                        if 'bold' in font_data:
+                            del font_data['bold']
+                    elif font.bold is None and is_title_placeholder and 'bold' not in font_data:
+                        # Title placeholders are typically bold by theme
+                        font_data['bold'] = True
+                    # If font.bold is None and we already have default bold, keep it
+                    
+                    # Italic - same logic
+                    if font.italic is True:
+                        font_data['italic'] = True
+                    elif font.italic is False:
+                        # Explicitly not italic - overrides any default
+                        if 'italic' in font_data:
+                            del font_data['italic']
                     
                     # Get font color
                     try:
