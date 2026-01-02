@@ -184,7 +184,13 @@ def extract_font_from_xml(shape_elem):
                     sz = rPr.get('sz')
                     if sz:
                         points = int(sz) / 100
-                        font_data['font_size'] = round(points * 1.333, 1)
+                        font_size = round(points * 1.333, 1)
+                        # Apply canvas scale factor (same as coordinate scaling)
+                        # This ensures fonts are proportional to the scaled canvas
+                        # Note: This requires slide_width context which XML extraction doesn't have
+                        # For now, fonts from XML extraction won't be pre-scaled
+                        # (They'll be manually scaled if needed in Svelte)
+                        font_data['font_size'] = font_size
                     
                     # Bold
                     if rPr.get('b') == '1':
@@ -483,8 +489,13 @@ def _extract_line_ends(spPr):
     
     return result if result else None
 
-def extract_font_style(shape):
-    """Extract font properties from the first text run in a shape."""
+def extract_font_style(shape, slide_width=None):
+    """Extract font properties from the first text run in a shape.
+    
+    Args:
+        shape: The pptx shape object
+        slide_width: Source slide width for auto-scaling font sizes (optional)
+    """
     try:
         if not shape.has_text_frame:
             return None
@@ -545,6 +556,11 @@ def extract_font_style(shape):
                         # CSS pixels are at 96 DPI, so conversion is: points × (96/72) = points × 1.333...
                         # This is the standard DPI conversion formula and is correct.
                         font_data['font_size'] = round(font.size.pt * (96 / 72), 1)
+                        # Apply canvas scale factor (same as coordinate scaling)
+                        # This ensures fonts are proportional to the scaled canvas
+                        if slide_width is not None:
+                            scale_factor = TARGET_CANVAS_WIDTH / slide_width
+                            font_data['font_size'] = round(font_data['font_size'] * scale_factor, 1)
                         found_font_size = True
                     if font.bold:
                         font_data['bold'] = font.bold
@@ -813,7 +829,7 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
         visual_data['line'] = line
     
     # Font properties
-    font = extract_font_style(shape)
+    font = extract_font_style(shape, slide_width)
     if font:
         visual_data['font'] = font
     

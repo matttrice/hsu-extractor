@@ -123,11 +123,13 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **width**, **height**: Dimensions
   - **rotation**: Optional rotation in degrees
 - **font**: Typography settings:
-  - **font_size**: Size in CSS pixels (PowerPoint points × 1.333)
+  - **font_size**: Size in CSS pixels (PowerPoint points × 1.333). May be omitted if the text uses PowerPoint theme defaults.
   - **font_name**: Font family name
   - **bold**, **italic**: Boolean flags
   - **color**: Hex color (e.g., `"#0000CC"`)
-  - **alignment**: `"left"`, `"center"`, or `"right"`
+  - **align**: `"left"`, `"center"`, or `"right"` (horizontal alignment)
+  - **v_align**: `"top"`, `"middle"`, or `"bottom"` (vertical alignment, from PowerPoint's anchor property)
+  - **wrap**: Boolean flag indicating if text wraps within the shape bounds (defaults to false if omitted)
 - **fill**: Background color (hex)
 - **line**: Border/stroke styling:
   - **width**: Stroke width in pixels
