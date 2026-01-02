@@ -27,7 +27,9 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
 
 ### Custom Shows
 
-Custom shows are named collections of slides that can be linked from the main presentation. They function as "pop-up" content - when a user clicks a hyperlinked element, the custom show slides are displayed, then the user returns to the main slide.
+Custom shows are named collections of slides that can be linked from the main presentation. When a user clicks a hyperlinked element, the custom show slides are displayed, then the user returns to the main slide.
+
+**Structure**: Custom show slides have the **same structure as regular slides**, including `animation_sequence` and `static_content` with full visual data (layout, font, fill, line, etc.).
 
 ```json
 "custom_shows": {
@@ -37,9 +39,24 @@ Custom shows are named collections of slides that can be linked from the main pr
     "slides": [
       {
         "slide_file": "slides/slide7.xml",
-        "texts": [
-          "1 Now the LORD said to Abram...",
-          "Genesis 12:1-3"
+        "animation_sequence": [
+          {
+            "sequence": 1,
+            "text": "1 Now the LORD said to Abram...",
+            "shape_name": "Text Box 3",
+            "timing": "click",
+            "layout": { "x": 50, "y": 80, "width": 860, "height": 400 },
+            "font": { "font_size": 20, "wrap": true }
+          }
+        ],
+        "static_content": [
+          {
+            "text": "Genesis 12:1-3",
+            "shape_name": "Title 1",
+            "static": true,
+            "layout": { "x": 50, "y": 20, "width": 860, "height": 40 },
+            "font": { "font_size": 28, "bold": true }
+          }
         ]
       }
     ]
@@ -51,7 +68,10 @@ Custom shows are named collections of slides that can be linked from the main pr
 - **name**: Display name of the custom show
 - **slides**: Array of slides in the custom show, each containing:
   - **slide_file**: Original slide file reference
-  - **texts**: All text content from that slide
+  - **animation_sequence**: Ordered list of animated elements (same structure as regular slides)
+  - **static_content**: Non-animated elements that appear immediately (same structure as regular slides)
+  
+**Note**: Simple scripture reference drills typically have only `static_content` with text. Complex drills with animations (like "Flesh" in Sin_Death) have full `animation_sequence` with visual data.
 
 ### Slides
 
