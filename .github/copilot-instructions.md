@@ -131,7 +131,7 @@ The `animation_sequence` array lists text elements in the order they appear duri
 ```
 
 - **sequence**: The order number (1, 2, 3...) for when this element appears
-- **text**: The text content of the element
+- **text**: The text content of the element (only present if shape has text content)
 - **shape_name**: Original PowerPoint shape name (for reference)
 - **timing**: Animation timing type:
   - `"click"`: On Click - requires a new click to appear (new step)
@@ -142,7 +142,7 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **x**, **y**: Top-left position
   - **width**, **height**: Dimensions
   - **rotation**: Optional rotation in degrees
-- **font**: Typography settings:
+- **font**: Typography settings (only present if shape has text content):
   - **font_size**: Size in CSS pixels (PowerPoint points × 1.333). May be omitted if the text uses PowerPoint theme defaults.
   - **font_name**: Font family name
   - **bold**, **italic**: Boolean flags
@@ -171,7 +171,7 @@ The `animation_sequence` array lists text elements in the order they appear duri
 - **hyperlink** (optional): If the element is clickable:
   - **type**: `"customshow"` for links to custom shows
   - **id**: The custom show ID to display
-- **linked_content** (optional): When `hyperlink.type` is `"customshow"`, this contains the full content of the linked custom show, including all slide texts
+- **linked_content** (optional): When `hyperlink.type` is `"customshow"`, this contains the full content of the linked custom show, including all slide texts which will translate to a drillTo in MBS svelte.
 
 ### Static Content
 

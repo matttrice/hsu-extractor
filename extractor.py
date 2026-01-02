@@ -1397,10 +1397,12 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                                     shape = shapes[child_id]
                                                     entry = {
                                                         'sequence': sequence_num,
-                                                        'text': shape['text'] if shape['text'] else '',
                                                         'shape_name': shape['name'],
                                                         'timing': anim_entry['timing']
                                                     }
+                                                    has_text = bool(shape['text'])
+                                                    if has_text:
+                                                        entry['text'] = shape['text']
                                                     
                                                     if 'delay' in anim_entry and anim_entry['delay'] > 0:
                                                         entry['delay'] = anim_entry['delay']
@@ -1411,6 +1413,9 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                                         visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width)
                                                         if visual:
                                                             for key, value in visual.items():
+                                                                # Skip font for shapes without text
+                                                                if key == 'font' and not has_text:
+                                                                    continue
                                                                 entry[key] = value
                                                         entry['group_id'] = shape_id
                                                     
@@ -1424,10 +1429,12 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                             shape = shapes[shape_id]
                                             entry = {
                                                 'sequence': sequence_num,
-                                                'text': shape['text'] if shape['text'] else '',
                                                 'shape_name': shape['name'],
                                                 'timing': anim_entry['timing']
                                             }
+                                            has_text = bool(shape['text'])
+                                            if has_text:
+                                                entry['text'] = shape['text']
                                             
                                             if 'delay' in anim_entry and anim_entry['delay'] > 0:
                                                 entry['delay'] = anim_entry['delay']
@@ -1442,6 +1449,9 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                                     visual = None
                                                 if visual:
                                                     for key, value in visual.items():
+                                                        # Skip font for shapes without text
+                                                        if key == 'font' and not has_text:
+                                                            continue
                                                         entry[key] = value
                                                 if group_id:
                                                     entry['group_id'] = group_id
@@ -1463,10 +1473,12 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                     for shape_id, shape in shapes.items():
                                         if shape_id not in animated_ids:
                                             static_entry = {
-                                                'text': shape['text'] if shape['text'] else '',
                                                 'shape_name': shape['name'],
                                                 'static': True
                                             }
+                                            has_text = bool(shape['text'])
+                                            if has_text:
+                                                static_entry['text'] = shape['text']
                                             
                                             # Add visual data
                                             if shape_id in pptx_shapes_by_id:
@@ -1474,6 +1486,9 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                                 visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
                                                 if visual:
                                                     for key, value in visual.items():
+                                                        # Skip font for shapes without text
+                                                        if key == 'font' and not has_text:
+                                                            continue
                                                         static_entry[key] = value
                                                 if group_id:
                                                     static_entry['group_id'] = group_id
@@ -1487,6 +1502,9 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                                                             visual = extract_visual_data_from_xml(sp, 0, slide_width)
                                                             if visual:
                                                                 for key, value in visual.items():
+                                                                    # Skip font for shapes without text
+                                                                    if key == 'font' and not has_text:
+                                                                        continue
                                                                     static_entry[key] = value
                                                             break
                                                 except:
@@ -1599,9 +1617,11 @@ def save_presentation_structure(prs, file_path):
                                 shape = shapes[child_id]
                                 entry = {
                                     'sequence': sequence_num,
-                                    'text': shape['text'] if shape['text'] else '',
                                     'shape_name': shape['name']
                                 }
+                                has_text = bool(shape['text'])
+                                if has_text:
+                                    entry['text'] = shape['text']
                                 
                                 # Add timing info (all children get same timing)
                                 entry['timing'] = anim_entry['timing']
@@ -1614,6 +1634,9 @@ def save_presentation_structure(prs, file_path):
                                     visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width, theme_colors)
                                     if visual:
                                         for key, value in visual.items():
+                                            # Skip font for shapes without text
+                                            if key == 'font' and not has_text:
+                                                continue
                                             entry[key] = value
                                     # Mark that this is part of an animated group
                                     entry['group_id'] = shape_id
@@ -1634,9 +1657,11 @@ def save_presentation_structure(prs, file_path):
                         # Include all animated shapes (text or not - could be rectangles, decorative shapes)
                         entry = {
                             'sequence': sequence_num,
-                            'text': shape['text'] if shape['text'] else '',
                             'shape_name': shape['name']
                         }
+                        has_text = bool(shape['text'])
+                        if has_text:
+                            entry['text'] = shape['text']
                         
                         # Add timing info (click, with, after)
                         entry['timing'] = anim_entry['timing']
@@ -1649,6 +1674,9 @@ def save_presentation_structure(prs, file_path):
                             visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
                             if visual:
                                 for key, value in visual.items():
+                                    # Skip font for shapes without text
+                                    if key == 'font' and not has_text:
+                                        continue
                                     entry[key] = value
                             # Add group_id for debugging if shape is in a group
                             if group_id:
@@ -1681,10 +1709,12 @@ def save_presentation_structure(prs, file_path):
                         # Include all shapes - text, connectors, or decorative rectangles
                         # Skip if it's truly empty (no text, no visual importance)
                         static_entry = {
-                            'text': shape['text'] if shape['text'] else '',
                             'shape_name': shape['name'],
                             'static': True
                         }
+                        has_text = bool(shape['text'])
+                        if has_text:
+                            static_entry['text'] = shape['text']
                         
                         # Add visual data if available (with auto-scaling)
                         if shape_id in pptx_shapes_by_id:
@@ -1692,6 +1722,9 @@ def save_presentation_structure(prs, file_path):
                             visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
                             if visual:
                                 for key, value in visual.items():
+                                    # Skip font for shapes without text
+                                    if key == 'font' and not has_text:
+                                        continue
                                     static_entry[key] = value
                             # Add group_id for debugging if shape is in a group
                             if group_id:
@@ -1709,6 +1742,9 @@ def save_presentation_structure(prs, file_path):
                                         visual = extract_visual_data_from_xml(sp, 0, slide_width)
                                         if visual:
                                             for key, value in visual.items():
+                                                # Skip font for shapes without text
+                                                if key == 'font' and not has_text:
+                                                    continue
                                                 static_entry[key] = value
                                         # Check if shape is in a group by looking for parent grpSp
                                         parent = sp
