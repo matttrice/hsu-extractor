@@ -18,12 +18,15 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
     "height": 540
   },
   "scale_factor": 0.625,
+  "images_folder": "08-The_Ark",
   "custom_shows": { ... },
   "slides": [ ... ]
 }
 ```
 
 **Coordinate Scaling**: All layout coordinates (x, y, width, height) are automatically scaled from the source PowerPoint dimensions to a 960×540 pixel canvas. The `scale_factor` shows the conversion ratio applied.
+
+**Images**: Images are extracted and moved to a folder with the same name as the JSON file (e.g., `../../mbs/static/export/08-The_Ark/`). The `images_folder` field indicates the folder name.
 
 ### Custom Shows
 
@@ -186,6 +189,48 @@ Elements that appear immediately (not animated) are listed in `static_content`:
     "static": true
   }
 ]
+```
+
+### Picture Elements
+
+Pictures (images) have `shape_type: "picture"` and include an `image` field referencing the extracted file:
+
+```json
+{
+  "sequence": 1,
+  "shape_name": "Picture 1",
+  "shape_type": "picture",
+  "image": "image1.jpg",
+  "timing": "with",
+  "description": "ark2.jpg",
+  "layout": {
+    "x": 60,
+    "y": 133,
+    "width": 840,
+    "height": 273,
+    "rotation": 0.0
+  }
+}
+```
+
+- **shape_type**: Always `"picture"` for images
+- **image**: Filename in the `images_folder` (e.g., `"image1.jpg"`)
+- **description**: Original filename if available (from PowerPoint's "descr" attribute)
+- **layout**: Position and dimensions scaled to 960×540 canvas
+- **line** (optional): Border styling if the image has a border
+- **timing** or **static**: Same as other elements - can be animated or static
+
+**Static picture example:**
+```json
+{
+  "shape_name": "Picture 28",
+  "shape_type": "picture",
+  "image": "image5.jpeg",
+  "static": true,
+  "description": "Underwater",
+  "layout": { "x": 0, "y": 318, "width": 960, "height": 222, "rotation": 0.0 },
+  "line": { "width": 1 }
+}
 ```
 
 ---
@@ -407,6 +452,56 @@ Note: Convert layout bounds to center coordinates:
 - `fill`: Fill color
 - `stroke`: Border styling `{ width?, color?, dash? }`
 - `zIndex`: Stacking order
+
+### Converting Images to MBS
+
+Pictures (images) use Fragment's `layout` prop for positioning with a simple `<img>` tag inside:
+
+**JSON picture:**
+```json
+{
+  "shape_name": "Picture 1",
+  "shape_type": "picture",
+  "image": "image1.jpg",
+  "timing": "with",
+  "description": "ark2.jpg",
+  "layout": { "x": 60, "y": 133, "width": 840, "height": 273, "rotation": 0.0 },
+  "line": { "width": 1 }
+}
+```
+
+**MBS conversion:**
+```svelte
+<Fragment
+  step={1}
+  layout={{ x: 60, y: 133, width: 840, height: 273 }}
+  line={{ width: 1 }}
+  animate="fade"
+>
+  <img src="/images/ark/image1.jpg" alt="ark2.jpg" class="slide-image" />
+</Fragment>
+```
+
+**Static picture (no step):**
+```svelte
+<Fragment
+  layout={{ x: 0, y: 318, width: 960, height: 222 }}
+  line={{ width: 1 }}
+>
+  <img src="/images/ark/image5.jpeg" alt="Underwater" class="slide-image" />
+</Fragment>
+```
+
+**Image conversion steps:**
+1. Find image in `mbs/static/images/{presentation}/`
+2. Use Fragment's `layout` prop with the JSON coordinates
+3. Use `description` field for the `alt` attribute (falls back to image filename)
+4. Add `class="slide-image"` for proper sizing within Fragment
+5. For borders, use Fragment's `line` prop
+
+**CSS classes available:**
+- `slide-image`: Fills container, crops overflow (`object-fit: cover`)
+- `slide-image-contain`: Fits within container, preserves aspect ratio (`object-fit: contain`)
 
 ### Example Flow (Slide 1 of "The Promises")
 

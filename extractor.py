@@ -2,6 +2,7 @@ import os
 import glob
 import json
 import math
+import shutil
 import sys
 import zipfile
 import xml.etree.ElementTree as ET
@@ -1004,6 +1005,193 @@ def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout, slide_w
     
     return None
 
+
+def extract_images_from_pptx(pptx_path, output_folder):
+    """Extract all images from a PPTX file to a folder.
+    
+    Args:
+        pptx_path: Path to the PPTX file
+        output_folder: Path to the output folder for images
+    
+    Returns:
+        Dict mapping image paths (e.g., 'media/image1.jpg') to saved filenames
+    """
+    image_map = {}
+    
+    # Create output folder if it doesn't exist
+    Path(output_folder).mkdir(parents=True, exist_ok=True)
+    
+    with zipfile.ZipFile(pptx_path, 'r') as zf:
+        # Find all image files in the media folder
+        for file_info in zf.infolist():
+            if file_info.filename.startswith('ppt/media/'):
+                # Extract filename
+                image_filename = os.path.basename(file_info.filename)
+                output_path = os.path.join(output_folder, image_filename)
+                
+                # Extract image
+                with zf.open(file_info.filename) as src:
+                    with open(output_path, 'wb') as dst:
+                        dst.write(src.read())
+                
+                # Map the media path to filename (e.g., '../media/image1.jpg' -> 'image1.jpg')
+                media_path = file_info.filename.replace('ppt/', '')
+                image_map[media_path] = image_filename
+                print(f"Extracted image: {image_filename}")
+    
+    return image_map
+
+
+def parse_slide_relationships(pptx_path, slide_num):
+    """Parse relationship file for a slide to map rId to image paths.
+    
+    Args:
+        pptx_path: Path to the PPTX file
+        slide_num: Slide number (1-indexed)
+    
+    Returns:
+        Dict mapping rId to image filename (e.g., 'rId3' -> 'image1.jpg')
+    """
+    rid_to_image = {}
+    rels_file = f'ppt/slides/_rels/slide{slide_num}.xml.rels'
+    
+    with zipfile.ZipFile(pptx_path, 'r') as zf:
+        try:
+            rels_xml = zf.read(rels_file).decode('utf-8')
+            root = ET.fromstring(rels_xml)
+            
+            # Namespace for relationships
+            rels_ns = '{http://schemas.openxmlformats.org/package/2006/relationships}'
+            
+            for rel in root.findall(f'{rels_ns}Relationship'):
+                rel_type = rel.get('Type', '')
+                if 'image' in rel_type:
+                    rid = rel.get('Id')
+                    target = rel.get('Target', '')
+                    # Target is like '../media/image1.jpg'
+                    image_filename = os.path.basename(target)
+                    if rid:
+                        rid_to_image[rid] = image_filename
+        except KeyError:
+            pass  # No relationships file for this slide
+    
+    return rid_to_image
+
+
+def parse_pictures_from_slide(slide_xml_content, rid_to_image, slide_width=None):
+    """Parse all picture elements from slide XML.
+    
+    Args:
+        slide_xml_content: The slide XML content
+        rid_to_image: Dict mapping rId to image filenames
+        slide_width: Source slide width for auto-scaling
+    
+    Returns:
+        Dict mapping shape ID to picture data
+    """
+    root = ET.fromstring(slide_xml_content)
+    pictures = {}
+    
+    # Find all p:pic elements
+    for pic in root.findall('.//p:pic', NAMESPACES):
+        # Get shape ID and name from nvPicPr
+        nvPicPr = pic.find('p:nvPicPr', NAMESPACES)
+        if nvPicPr is None:
+            continue
+        
+        cNvPr = nvPicPr.find('p:cNvPr', NAMESPACES)
+        if cNvPr is None:
+            continue
+        
+        shape_id = cNvPr.get('id')
+        shape_name = cNvPr.get('name', '')
+        description = cNvPr.get('descr', '')  # Original filename often stored here
+        
+        if not shape_id:
+            continue
+        
+        # Get image reference from blipFill
+        blipFill = pic.find('p:blipFill', NAMESPACES)
+        if blipFill is None:
+            continue
+        
+        blip = blipFill.find('a:blip', NAMESPACES)
+        if blip is None:
+            continue
+        
+        # Get the relationship ID (r:embed attribute)
+        embed_rid = blip.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}embed')
+        if not embed_rid:
+            continue
+        
+        # Look up the image filename
+        image_filename = rid_to_image.get(embed_rid)
+        if not image_filename:
+            continue
+        
+        # Get layout from spPr
+        spPr = pic.find('p:spPr', NAMESPACES)
+        layout = None
+        line_style = None
+        
+        if spPr is not None:
+            xfrm = spPr.find('a:xfrm', NAMESPACES)
+            if xfrm is not None:
+                off = xfrm.find('a:off', NAMESPACES)
+                ext = xfrm.find('a:ext', NAMESPACES)
+                
+                if off is not None and ext is not None:
+                    x = emu_to_px(int(off.get('x', 0)))
+                    y = emu_to_px(int(off.get('y', 0)))
+                    width = emu_to_px(int(ext.get('cx', 0)))
+                    height = emu_to_px(int(ext.get('cy', 0)))
+                    rotation = int(xfrm.get('rot', 0)) / 60000
+                    
+                    # Scale to target canvas
+                    if slide_width is not None:
+                        x = scale_to_target(x, slide_width)
+                        y = scale_to_target(y, slide_width)
+                        width = scale_to_target(width, slide_width)
+                        height = scale_to_target(height, slide_width)
+                    
+                    layout = {
+                        'x': x,
+                        'y': y,
+                        'width': width,
+                        'height': height,
+                        'rotation': rotation
+                    }
+            
+            # Check for line/border style
+            ln = spPr.find('a:ln', NAMESPACES)
+            if ln is not None:
+                line_style = {}
+                width_attr = ln.get('w')
+                if width_attr:
+                    line_style['width'] = emu_to_px(int(width_attr))
+                
+                solidFill = ln.find('a:solidFill', NAMESPACES)
+                if solidFill is not None:
+                    srgbClr = solidFill.find('a:srgbClr', NAMESPACES)
+                    if srgbClr is not None:
+                        line_style['color'] = f"#{srgbClr.get('val', '000000')}"
+                    else:
+                        schemeClr = solidFill.find('a:schemeClr', NAMESPACES)
+                        if schemeClr is not None:
+                            line_style['theme_color'] = schemeClr.get('val')
+        
+        pictures[shape_id] = {
+            'id': shape_id,
+            'name': shape_name,
+            'image': image_filename,
+            'description': description,
+            'layout': layout,
+            'line': line_style if line_style else None
+        }
+    
+    return pictures
+
+
 def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=None, slide_width=None, theme_colors=None):
     """Extract all visual data for a shape.
     
@@ -1563,6 +1751,17 @@ def save_presentation_structure(prs, file_path):
     # Calculate scale factor for coordinate conversion
     scale_factor = TARGET_CANVAS_WIDTH / slide_width if slide_width else 1.0
     
+    # Create output folder for images (same name as JSON file)
+    script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
+    extracted_dir = script_dir / 'extracted'
+    extracted_dir.mkdir(exist_ok=True)
+    
+    output_stem = Path(file_path).stem
+    images_folder = extracted_dir / output_stem
+    
+    # Extract all images from PPTX to the images folder
+    image_map = extract_images_from_pptx(file_path, images_folder)
+    
     presentation_data = {
         "file_path": str(file_path),
         "file_name": Path(file_path).name,
@@ -1576,6 +1775,7 @@ def save_presentation_structure(prs, file_path):
             "height": TARGET_CANVAS_HEIGHT
         },
         "scale_factor": round(scale_factor, 3),
+        "images_folder": output_stem,
         "custom_shows": custom_shows,
         "slides": []
     }
@@ -1598,6 +1798,10 @@ def save_presentation_structure(prs, file_path):
                 
                 # Get all shapes
                 shapes = parse_shapes_from_slide(slide_xml)
+                
+                # Get all pictures from this slide
+                rid_to_image = parse_slide_relationships(file_path, slide_num)
+                pictures = parse_pictures_from_slide(slide_xml, rid_to_image, slide_width)
                 
                 # Build ordered animation list
                 animation_sequence = []
@@ -1692,6 +1896,27 @@ def save_presentation_structure(prs, file_path):
                         
                         animation_sequence.append(entry)
                         sequence_num += 1
+                    elif shape_id in pictures:
+                        # Animated picture
+                        pic = pictures[shape_id]
+                        entry = {
+                            'sequence': sequence_num,
+                            'shape_name': pic['name'],
+                            'shape_type': 'picture',
+                            'image': pic['image'],
+                            'timing': anim_entry['timing']
+                        }
+                        if pic.get('description'):
+                            entry['description'] = pic['description']
+                        if 'delay' in anim_entry and anim_entry['delay'] > 0:
+                            entry['delay'] = anim_entry['delay']
+                        if pic.get('layout'):
+                            entry['layout'] = pic['layout']
+                        if pic.get('line'):
+                            entry['line'] = pic['line']
+                        
+                        animation_sequence.append(entry)
+                        sequence_num += 1
                 
                 # Also get shapes that might not be animated (static content)
                 # Build a set of ALL animated shape IDs (including those in animated groups)
@@ -1766,6 +1991,23 @@ def save_presentation_structure(prs, file_path):
                                 cs_id = shape['hyperlink']['id']
                                 if cs_id in custom_shows:
                                     static_entry['linked_content'] = custom_shows[cs_id]
+                        static_shapes.append(static_entry)
+                
+                # Add static pictures (non-animated)
+                for pic_id, pic in pictures.items():
+                    if pic_id not in animated_ids:
+                        static_entry = {
+                            'shape_name': pic['name'],
+                            'shape_type': 'picture',
+                            'image': pic['image'],
+                            'static': True
+                        }
+                        if pic.get('description'):
+                            static_entry['description'] = pic['description']
+                        if pic.get('layout'):
+                            static_entry['layout'] = pic['layout']
+                        if pic.get('line'):
+                            static_entry['line'] = pic['line']
                         static_shapes.append(static_entry)
                 
                 slide_info = {

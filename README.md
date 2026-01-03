@@ -6,6 +6,7 @@ Parses PowerPoint files and extracts complete presentation data including:
 - **Layout data** - Exact positions, dimensions, and styling (font, color, borders)
 - **Custom shows** - Hyperlinked drill content with full slide data
 - **Static content** - Non-animated elements that appear immediately
+- **Images** - Automatically extracted to a folder with the same name as the JSON
 
 **Automatic Conversions:**
 - **Coordinates**: All layout coordinates (x, y, width, height) are automatically scaled from the source PowerPoint dimensions to a 960×540 pixel canvas (16:9 aspect ratio). No manual scaling needed.
@@ -38,13 +39,17 @@ hsu-extractor/
 ├── extractor.py
 ├── extracted/           ← JSON output files go here
 │   ├── 09-The_Promises.json
+│   ├── 08-The_Ark.json
+│   ├── 08-The_Ark/      ← Images extracted from the PPTX
+│   │   ├── image1.jpg
+│   │   ├── image2.png
+│   │   └── ...
 │   └── ...
 ```
 
 ## Prompt for Reproduction to MBS
 Steps to reproduce Power Point to Svelte [MBS](https://github.com/matttrice/mbs). When running the prompt you should see it reference copilot-instructions from both the mbs repo and hsu-extractor.
 
-1. Export PPTX PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). Add to context.
-2. Run `extractor.py` for pptx to json, add to context. 
-3. Prompt: 
-    - Use the new exported pptx "<json-file>" to create a new presentation route "<url-name>". The ReferenceOverlays are exported to "<location>". Add a new link to the main navigation, create all slides, animmations and drill refererences and adhere to current standards.   
+1. Run PowerPoint Export of PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
+2. Run `extractor.py` for pptx to json, add to context and move images to static/export folder if they exist.
+3. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md)  
