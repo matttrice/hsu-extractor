@@ -375,6 +375,39 @@ Rectangle shapes (background columns, boxes) use the `Rect` component:
 - `radius`: Corner radius for rounded rectangles
 - `zIndex`: Stacking order
 
+### Converting Ellipses to MBS
+
+Ellipse shapes use the `Ellipse` component (self-positioning like Arrow/Arc/Rect):
+
+**JSON ellipse:**
+```json
+{
+  "shape_name": "Oval 12",
+  "layout": { "x": 100, "y": 150, "width": 200, "height": 100 },
+  "fill": "#FFD700"
+}
+```
+
+**MBS conversion:**
+```svelte
+<Fragment step={3} animate="fade">
+  <Ellipse cx={200} cy={200} rx={100} ry={50} fill="#FFD700" zIndex={5} />
+</Fragment>
+```
+
+Note: Convert layout bounds to center coordinates:
+- `cx` = x + width/2
+- `cy` = y + height/2
+- `rx` = width/2
+- `ry` = height/2
+
+**Ellipse component props:**
+- `cx`, `cy`: Center position on canvas (960×540)
+- `rx`, `ry`: Horizontal and vertical radii
+- `fill`: Fill color
+- `stroke`: Border styling `{ width?, color?, dash? }`
+- `zIndex`: Stacking order
+
 ### Example Flow (Slide 1 of "The Promises")
 
 1. Show static: "The Promises" (title)
