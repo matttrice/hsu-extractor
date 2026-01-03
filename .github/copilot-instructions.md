@@ -10,8 +10,8 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
   "file_name": "presentation.pptx",
   "total_slides": 17,
   "source_dimensions": {
-    "width": 1536.0,
-    "height": 864.0
+    "width": 1536,
+    "height": 864
   },
   "target_canvas": {
     "width": 960,
@@ -98,8 +98,8 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "text": "Genesis 12:1-3",
     "shape_name": "Text Box 5",
     "timing": "click",
-    "layout": { "x": 59.9, "y": 9.0, "width": 259.2, "height": 36.0 },
-    "font": { "font_size": 25.2, "bold": true, "color": "#0000CC" },
+    "layout": { "x": 60, "y": 9, "width": 259, "height": 36 },
+    "font": { "font_size": 25, "bold": true, "color": "#0000CC" },
     "hyperlink": {
       "type": "customshow",
       "id": 2
@@ -115,8 +115,8 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "text": "Great Nation",
     "shape_name": "Text Box 12",
     "timing": "with",
-    "layout": { "x": 112.8, "y": 115.5, "width": 180.0, "height": 28.9 },
-    "font": { "font_size": 21.6, "bold": true }
+    "layout": { "x": 113, "y": 116, "width": 180, "height": 29 },
+    "font": { "font_size": 22, "bold": true }
   },
   {
     "sequence": 3,
@@ -124,8 +124,8 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "shape_name": "Text Box 13",
     "timing": "after",
     "delay": 500,
-    "layout": { "x": 112.8, "y": 145.5, "width": 180.0, "height": 28.9 },
-    "font": { "font_size": 21.6, "bold": true }
+    "layout": { "x": 113, "y": 146, "width": 180, "height": 29 },
+    "font": { "font_size": 22, "bold": true }
   }
 ]
 ```
@@ -166,8 +166,7 @@ The `animation_sequence` array lists text elements in the order they appear duri
 - **arc_path** (optional): For freeform arc shapes (e.g., "Arc 192"), contains path data:
   - **from**: Start point `{ x, y }` in slide coordinates
   - **to**: End point `{ x, y }` in slide coordinates
-  - **curve**: Vertical offset for arc (negative = curves up, positive = curves down)
-  - **flip**: Boolean indicating horizontal flip
+  - **curve**: Perpendicular offset from midpoint (negative = curve left/up, positive = curve right/down)
 - **hyperlink** (optional): If the element is clickable:
   - **type**: `"customshow"` for links to custom shows
   - **id**: The custom show ID to display
@@ -200,10 +199,11 @@ To recreate the PowerPoint experience in a web format:
    - `timing: "click"` - Wait for user click, then show element (new step number)
    - `timing: "with"` - Show simultaneously with the previous click element (same step number)
    - `timing: "after"` - Show after `delay` milliseconds following the previous element (decimal step, e.g., step 1.1 for 500ms delay)
-3. **Hyperlinks**: When an element has a `hyperlink` with `type: "customshow"`:
+3. **Hyperlinks (Drills)**: When an element has a `hyperlink` with `type: "customshow"`:
    - Display the `linked_content.slides`
-   - After viewing, return to the main slide on final click after all content is visible.
-4. **Navigation**: After all animation_sequence items are revealed, advance to the next slide
+   - After viewing all content, return to the **origin slide** (not intermediate drills)
+   - Multi-level drill chains (e.g., hebrews-3-14 → hebrews-4-1) all return directly to origin like a custom_show   
+5. **Navigation**: After all animation_sequence items are revealed, advance to the next slide
 
 ### Converting Timing to MBS Step Values
 
@@ -227,13 +227,13 @@ For MBS (SvelteKit presentation system), convert timing to step values:
 
 ### Coordinate Scaling (PowerPoint → MBS)
 
-The extractor automatically scales all coordinates from PowerPoint's slide dimensions to MBS's **960×540 canvas**. Coordinates in the JSON are already pre-calculated to final pixel values rounded to 1 decimal place.
+The extractor automatically scales all coordinates from PowerPoint's slide dimensions to MBS's **960×540 canvas**. Coordinates in the JSON are already pre-calculated to final pixel values rounded to whole numbers.
 
 **No manual scaling needed** - use JSON coordinates directly in Svelte components:
 
 ```svelte
-<!-- JSON: "x": 81.1, "y": 12.0, "width": 229.1, "height": 56.4 -->
-<Fragment layout={{ x: 81.1, y: 12, width: 229.1, height: 56.4 }}>
+<!-- JSON: "x": 81, "y": 12, "width": 229, "height": 56 -->
+<Fragment layout={{ x: 81, y: 12, width: 229, height: 56 }}>
 ```
 
 The JSON includes metadata showing the conversion applied:
@@ -245,49 +245,87 @@ The JSON includes metadata showing the conversion applied:
 
 Freeform arc shapes (like "Arc 192") have an `arc_path` field with `from`, `to`, and `curve` values. These map directly to the MBS `Arc` component.
 
-**JSON arc_path example (coordinates already scaled to 960×540):**
+The `curve` value is the perpendicular offset from the midpoint of the line between `from` and `to`:
+- **Negative curve** = arc curves "left" relative to the from→to direction (typically upward for left-to-right arcs)
+- **Positive curve** = arc curves "right" relative to the from→to direction (typically downward for left-to-right arcs)
+
+**JSON arc_path example:**
 ```json
 {
   "shape_name": "Arc 192",
   "shape_type": "freeform",
   "arc_path": {
-    "from": { "x": 364.2, "y": 382.1 },
-    "to": { "x": 241.9, "y": 381.7 },
-    "curve": -33.6,
-    "flip": true
+    "from": { "x": 364, "y": 382 },
+    "to": { "x": 242, "y": 382 },
+    "curve": -34
   },
-  "line": { "width": 5.0, "color": "#0000FF" }
+  "line": { "width": 5, "color": "#0000FF" }
 }
 ```
 
-**MBS Svelte conversion (use coordinates directly):**
+**MBS Svelte conversion:**
 ```svelte
 <Fragment step={48} animate="draw">
-  <Arc from={{ x: 364.2, y: 382.1 }} to={{ x: 241.9, y: 381.7 }} curve={-33.6} stroke={{ width: 5, color: '#0000FF' }} arrow />
+  <Arc from={{ x: 364, y: 382 }} to={{ x: 242, y: 382 }} curve={-34} stroke={{ width: 5, color: '#0000FF' }} arrow />
 </Fragment>
 ```
 
-### Converting Lines with Arrows and Dashes
+### Converting Lines with Arrows
 
 When the JSON has an `arrow_ends` property with `headEnd` or `tailEnd`, use the MBS `Arrow` component instead of `Line`:
 
-**JSON with arrow_ends (coordinates already scaled to 960×540):**
+**JSON with arrow_ends:**
 ```json
 {
   "shape_name": "Line 74",
-  "layout": { "x": 191.5, "y": 285.0, "width": 0.6, "height": 558.6, "rotation": 90.0 },
-  "line": { "width": 9.4, "theme_color": "TEXT_1 (13)" },
+  "layout": { "x": 192, "y": 285, "width": 1, "height": 559, "rotation": 90 },
+  "line": { "width": 9 },
   "arrow_ends": { "tailEnd": "triangle" },
-  "line_endpoints": { "from": { "x": 0, "y": 285.3 }, "to": { "x": 750.3, "y": 285.3 } }
+  "line_endpoints": { "from": { "x": 0, "y": 285 }, "to": { "x": 750, "y": 285 } }
 }
 ```
 
-**MBS conversion (use coordinates directly):**
+**MBS conversion:**
 ```svelte
 <Fragment step={6} animate="wipe">
-  <Arrow from={{ x: 0, y: 285.3 }} to={{ x: 750.3, y: 285.3 }} stroke={{ width: 9.4, color: '#000000' }} zIndex={30} />
+  <Arrow from={{ x: 0, y: 285 }} to={{ x: 750, y: 285 }} stroke={{ width: 9 }} zIndex={30} />
 </Fragment>
 ```
+
+**Arrow component props:**
+- `from`, `to`: Point-to-point mode with `{ x, y }` coordinates
+- `fromBox`, `toBox`: Box-to-box mode with `{ x, y, width, height }` for curved arrows between rectangles
+- `bow`: Curvature amount (0 = straight, 0.1-0.5 = curved)
+- `flip`: Reverse curve direction
+- `headSize`: Arrow head size multiplier (default: 3, use 0 for no head)
+- `startMarker`, `endMarker`: Optional circle markers `{ radius, fill? }`
+
+### Converting Lines (No Arrowhead)
+
+Use `Line` for connectors without arrowheads:
+
+**JSON line:**
+```json
+{
+  "shape_name": "Line 72",
+  "layout": { "x": 585, "y": 39, "width": 1, "height": 253, "rotation": 270 },
+  "line": { "width": 4, "dash": "sysDash" },
+  "line_endpoints": { "from": { "x": 459, "y": 165 }, "to": { "x": 712, "y": 165 } }
+}
+```
+
+**MBS conversion:**
+```svelte
+<Fragment step={16.1} animate="draw">
+  <Line from={{ x: 459, y: 165 }} to={{ x: 712, y: 165 }} stroke={{ width: 4, dash: '10,5' }} />
+</Fragment>
+```
+
+**Line component props:**
+- `from`, `to`: Start and end points with `{ x, y }` coordinates
+- `stroke`: Stroke styling `{ width?, color?, dash? }`
+- `startMarker`, `endMarker`: Optional circle markers `{ radius, fill? }`
+- `zIndex`: Stacking order
 
 ### Understanding Line Rotation
 
@@ -300,47 +338,42 @@ PowerPoint stores lines as rotated rectangles. The `line_endpoints` field provid
 
 **Always use `line_endpoints.from` and `line_endpoints.to`** instead of trying to interpret `layout.x/y` directly. The layout values represent the bounding box before rotation, not the actual line position.
 
-**JSON with rotation (coordinates already scaled to 960×540):**
-```json
-{
-  "shape_name": "Line 72",
-  "layout": { "x": 585.1, "y": 38.9, "width": 1.3, "height": 252.7, "rotation": 270.0 },
-  "line": { "width": 3.8, "dash": "sysDash" },
-  "line_endpoints": { "from": { "x": 459.4, "y": 165.3 }, "to": { "x": 712.1, "y": 165.3 } }
-}
-```
+### Dash Pattern Mapping
 
-**MBS conversion (use coordinates directly):**
-```svelte
-<Fragment step={16.1} animate="draw">
-  <Line from={{ x: 459.4, y: 165.3 }} to={{ x: 712.1, y: 165.3 }} stroke={{ width: 3.8, dash: '10,5' }} />
-</Fragment>
-```
-
-For dashed lines, add the `dash` property to the stroke:
-
-**JSON with dash:**
-```json
-{
-  "shape_name": "Line 126",
-  "line": { "width": 7.7, "color": "#0000FF", "dash": "sysDash" }
-}
-```
-
-**MBS conversion:**
-```svelte
-<Fragment>
-  <Line from={{ x: 0, y: 260 }} to={{ x: 960, y: 260 }} stroke={{ width: 4.8, color: '#0000FF', dash: '10,5' }} zIndex={3} />
-</Fragment>
-```
-
-**Dash pattern mapping:**
 | JSON dash | MBS stroke.dash |
 |-----------|-----------------|
 | `"sysDash"` | `"10,5"` |
 | `"dash"` | `"8,4"` |
 | `"dot"` | `"2,2"` |
 | `"lgDash"` | `"16,6"` |
+
+### Converting Rectangles to MBS
+
+Rectangle shapes (background columns, boxes) use the `Rect` component:
+
+**JSON rectangle:**
+```json
+{
+  "shape_name": "Rectangle 68",
+  "layout": { "x": 75, "y": 48, "width": 275, "height": 464 },
+  "fill": "#B3B3B3"
+}
+```
+
+**MBS conversion:**
+```svelte
+<Fragment step={5} animate="wipe-down">
+  <Rect x={75} y={48} width={275} height={464} fill="var(--color-level1)" zIndex={5} />
+</Fragment>
+```
+
+**Rect component props:**
+- `x`, `y`: Position on canvas (960×540)
+- `width`, `height`: Dimensions
+- `fill`: Background color
+- `stroke`: Border styling `{ width?, color?, dash? }`
+- `radius`: Corner radius for rounded rectangles
+- `zIndex`: Stacking order
 
 ### Example Flow (Slide 1 of "The Promises")
 

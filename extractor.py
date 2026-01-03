@@ -107,7 +107,7 @@ def emu_to_px(emu):
     """Convert EMU to pixels at 96 DPI."""
     if emu is None:
         return None
-    return round(emu / EMU_PER_PIXEL, 1)
+    return round(emu / EMU_PER_PIXEL)
 
 def scale_to_target(value, source_width, target_width=TARGET_CANVAS_WIDTH):
     """Scale a coordinate value from source slide dimensions to target canvas dimensions.
@@ -118,14 +118,14 @@ def scale_to_target(value, source_width, target_width=TARGET_CANVAS_WIDTH):
         target_width: The target canvas width (default: 960)
     
     Returns:
-        Scaled value rounded to 1 decimal place, or None if value is None
+        Scaled value rounded to whole number, or None if value is None
     """
     if value is None:
         return None
     if source_width == target_width:
-        return round(value, 1)
+        return round(value)
     scale_factor = target_width / source_width
-    return round(value * scale_factor, 1)
+    return round(value * scale_factor)
 
 def rgb_to_hex(rgb_color):
     """Convert RGBColor to hex string."""
@@ -457,7 +457,7 @@ def calculate_line_endpoints(layout, slide_width=None):
         dy = py - cy
         rx = cx + dx * cos_r - dy * sin_r
         ry = cy + dx * sin_r + dy * cos_r
-        return round(rx, 1), round(ry, 1)
+        return round(rx), round(ry)
     
     from_pt = rotate_point(p1_x, p1_y)
     to_pt = rotate_point(p2_x, p2_y)
@@ -949,13 +949,13 @@ def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout, slide_w
                     scaled = (px / path_w) * layout_w
                     if flipH:
                         scaled = layout_w - scaled
-                    return round(layout_x + scaled, 1)
+                    return round(layout_x + scaled)
                 
                 def scale_y(py):
                     scaled = (py / path_h) * layout_h
                     if flipV:
                         scaled = layout_h - scaled
-                    return round(layout_y + scaled, 1)
+                    return round(layout_y + scaled)
                 
                 # Get start and end points
                 start_point = points[0]
@@ -995,8 +995,7 @@ def extract_arc_path_from_xml(slide_xml_content, shape_id, shape_layout, slide_w
                 return {
                     'from': {'x': from_x, 'y': from_y},
                     'to': {'x': to_x, 'y': to_y},
-                    'curve': round(curve_amount, 1),
-                    'flip': flipH
+                    'curve': round(curve_amount)
                 }
                 
     except Exception as e:
