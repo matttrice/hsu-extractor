@@ -555,11 +555,10 @@ def extract_line_style(shape, theme_colors=None):
                         elif theme_colors:
                             # Theme color not found - warn and use black
                             line_data['color'] = resolve_theme_color(theme_str, theme_colors, "line")
-                        else:
-                            # No theme_colors provided - include theme_color reference
-                            line_data['theme_color'] = theme_str
                     except:
                         pass
+            if not line_data.get('color'):
+                return None
         except:
             pass
         
@@ -1078,13 +1077,14 @@ def parse_slide_relationships(pptx_path, slide_num):
     return rid_to_image
 
 
-def parse_pictures_from_slide(slide_xml_content, rid_to_image, slide_width=None):
+def parse_pictures_from_slide(slide_xml_content, rid_to_image, slide_width=None, shape_z_indices=None):
     """Parse all picture elements from slide XML.
     
     Args:
         slide_xml_content: The slide XML content
         rid_to_image: Dict mapping rId to image filenames
         slide_width: Source slide width for auto-scaling
+        shape_z_indices: Optional dict mapping shape ID to z_index
     
     Returns:
         Dict mapping shape ID to picture data
@@ -1180,11 +1180,15 @@ def parse_pictures_from_slide(slide_xml_content, rid_to_image, slide_width=None)
                         if schemeClr is not None:
                             line_style['theme_color'] = schemeClr.get('val')
         
+        # Get z_index from shape_z_indices if provided
+        z_index = shape_z_indices.get(shape_id) if shape_z_indices else None
+        
         pictures[shape_id] = {
             'id': shape_id,
             'name': shape_name,
             'image': image_filename,
             'description': description,
+            'z_index': z_index,
             'layout': layout,
             'line': line_style if line_style else None
         }
@@ -1495,9 +1499,10 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
         theme_colors: Optional dict mapping theme color strings to hex values
     
     Returns:
-        Dict of custom shows with full animation_sequence and static_content
+        Tuple of (custom_shows dict, set of slide numbers used by custom shows)
     """
     custom_shows = {}
+    custom_show_slide_nums = set()  # Track which slide numbers are used by custom shows
     
     # Calculate slide dimensions for auto-scaling
     slide_width = emu_to_px(prs.slide_width)
@@ -1544,6 +1549,10 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
                         if r_id and r_id in rid_to_slide:
                             slide_file = rid_to_slide[r_id]
                             slide_num = rid_to_slide_num.get(r_id)
+                            
+                            # Track this slide number as used by a custom show
+                            if slide_num:
+                                custom_show_slide_nums.add(slide_num)
                             
                             # Process this slide with full detail (same as regular slides)
                             try:
@@ -1731,7 +1740,7 @@ def parse_custom_shows(pptx_path, prs, theme_colors=None):
         except Exception as e:
             print(f"Error parsing custom shows: {e}")
     
-    return custom_shows
+    return custom_shows, custom_show_slide_nums
 
 def save_presentation_structure(prs, file_path):
     """Save a simplified representation focusing on animation order and hyperlinks."""
@@ -1742,7 +1751,7 @@ def save_presentation_structure(prs, file_path):
     if theme_colors:
         print(f"Extracted {len(theme_colors)} theme colors from presentation")
     
-    custom_shows = parse_custom_shows(file_path, prs, theme_colors)
+    custom_shows, custom_show_slide_nums = parse_custom_shows(file_path, prs, theme_colors)
     
     # Calculate slide dimensions in pixels (from EMU)
     slide_width = emu_to_px(prs.slide_width)
@@ -1762,10 +1771,13 @@ def save_presentation_structure(prs, file_path):
     # Extract all images from PPTX to the images folder
     image_map = extract_images_from_pptx(file_path, images_folder)
     
+    # Calculate main presentation slide count (excluding custom show slides)
+    main_slide_count = len(prs.slides) - len(custom_show_slide_nums)
+    
     presentation_data = {
         "file_path": str(file_path),
         "file_name": Path(file_path).name,
-        "total_slides": len(prs.slides),
+        "total_slides": main_slide_count,
         "source_dimensions": {
             "width": slide_width,
             "height": slide_height
@@ -1783,12 +1795,19 @@ def save_presentation_structure(prs, file_path):
     # Build a mapping of shape ID to pptx shape object for visual data
     with zipfile.ZipFile(file_path, 'r') as zf:
         for slide_num, slide in enumerate(prs.slides, 1):
+            # Skip slides that are only used in custom shows (not part of main presentation)
+            if slide_num in custom_show_slide_nums:
+                continue
+                
             slide_file = f'ppt/slides/slide{slide_num}.xml'
             
             # Build shape ID to pptx shape mapping for this slide (including grouped shapes)
             pptx_shapes_by_id = {}
             for z_idx, shape, group_id in enumerate_shapes_recursive(slide.shapes):
                 pptx_shapes_by_id[str(shape.shape_id)] = (shape, z_idx, group_id)
+            
+            # Build z_index mapping for all shapes (including pictures)
+            shape_z_indices = {shape_id: data[1] for shape_id, data in pptx_shapes_by_id.items()}
             
             try:
                 slide_xml = zf.read(slide_file).decode('utf-8')
@@ -1801,7 +1820,7 @@ def save_presentation_structure(prs, file_path):
                 
                 # Get all pictures from this slide
                 rid_to_image = parse_slide_relationships(file_path, slide_num)
-                pictures = parse_pictures_from_slide(slide_xml, rid_to_image, slide_width)
+                pictures = parse_pictures_from_slide(slide_xml, rid_to_image, slide_width, shape_z_indices)
                 
                 # Build ordered animation list
                 animation_sequence = []
@@ -1910,6 +1929,8 @@ def save_presentation_structure(prs, file_path):
                             entry['description'] = pic['description']
                         if 'delay' in anim_entry and anim_entry['delay'] > 0:
                             entry['delay'] = anim_entry['delay']
+                        if pic.get('z_index') is not None:
+                            entry['z_index'] = pic['z_index']
                         if pic.get('layout'):
                             entry['layout'] = pic['layout']
                         if pic.get('line'):
@@ -2004,6 +2025,8 @@ def save_presentation_structure(prs, file_path):
                         }
                         if pic.get('description'):
                             static_entry['description'] = pic['description']
+                        if pic.get('z_index') is not None:
+                            static_entry['z_index'] = pic['z_index']
                         if pic.get('layout'):
                             static_entry['layout'] = pic['layout']
                         if pic.get('line'):
