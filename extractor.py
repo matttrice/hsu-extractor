@@ -1609,7 +1609,7 @@ def parse_custom_shows(pptx_path):
     return custom_shows, custom_show_slide_nums
 
 
-def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_path):
+def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_path, custom_shows=None):
     """Process a single linked slide (from custom show or hlinksldjump) and return its content.
     
     Args:
@@ -1619,6 +1619,7 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
         slide_width: Slide width in pixels
         theme_colors: Theme color map
         file_path: Path to the PPTX file (for image extraction)
+        custom_shows: Dict of custom shows for name lookup
     
     Returns:
         Dict with slide_number, animation_sequence, and optionally static_content
@@ -1695,6 +1696,10 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
                             if r_id and r_id in rid_to_target_slide:
                                 hyperlink['slide_number'] = rid_to_target_slide[r_id]
                                 del hyperlink['r_id']
+                        elif hyperlink['type'] == 'customshow' and custom_shows:
+                            show_id = hyperlink.get('id')
+                            if show_id is not None and show_id in custom_shows:
+                                hyperlink['name'] = custom_shows[show_id]['name']
                         entry['hyperlink'] = hyperlink
                     
                     animation_sequence.append(entry)
@@ -1733,6 +1738,10 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
                     if r_id and r_id in rid_to_target_slide:
                         hyperlink['slide_number'] = rid_to_target_slide[r_id]
                         del hyperlink['r_id']
+                elif hyperlink['type'] == 'customshow' and custom_shows:
+                    show_id = hyperlink.get('id')
+                    if show_id is not None and show_id in custom_shows:
+                        hyperlink['name'] = custom_shows[show_id]['name']
                 entry['hyperlink'] = hyperlink
             
             animation_sequence.append(entry)
@@ -1797,6 +1806,10 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
                     if r_id and r_id in rid_to_target_slide:
                         hyperlink['slide_number'] = rid_to_target_slide[r_id]
                         del hyperlink['r_id']
+                elif hyperlink['type'] == 'customshow' and custom_shows:
+                    show_id = hyperlink.get('id')
+                    if show_id is not None and show_id in custom_shows:
+                        hyperlink['name'] = custom_shows[show_id]['name']
                 static_entry['hyperlink'] = hyperlink
             static_shapes.append(static_entry)
     
@@ -1879,7 +1892,7 @@ def save_presentation_structure(prs, file_path):
     with zipfile.ZipFile(file_path, 'r') as zf:
         for linked_slide_num in sorted(custom_show_slide_nums):
             try:
-                slide_content = process_linked_slide(linked_slide_num, prs, zf, slide_width, theme_colors, file_path)
+                slide_content = process_linked_slide(linked_slide_num, prs, zf, slide_width, theme_colors, file_path, custom_shows)
                 linked_slides[linked_slide_num] = slide_content
             except Exception as e:
                 print(f"Warning: Could not process linked slide {linked_slide_num}: {e}")
@@ -2009,6 +2022,10 @@ def save_presentation_structure(prs, file_path):
                                         if r_id and r_id in rid_to_target_slide:
                                             hyperlink['slide_number'] = rid_to_target_slide[r_id]
                                             del hyperlink['r_id']
+                                    elif hyperlink['type'] == 'customshow':
+                                        show_id = hyperlink.get('id')
+                                        if show_id is not None and show_id in custom_shows:
+                                            hyperlink['name'] = custom_shows[show_id]['name']
                                     entry['hyperlink'] = hyperlink
                                 
                                 animation_sequence.append(entry)
@@ -2053,6 +2070,10 @@ def save_presentation_structure(prs, file_path):
                                 if r_id and r_id in rid_to_target_slide:
                                     hyperlink['slide_number'] = rid_to_target_slide[r_id]
                                     del hyperlink['r_id']
+                            elif hyperlink['type'] == 'customshow':
+                                show_id = hyperlink.get('id')
+                                if show_id is not None and show_id in custom_shows:
+                                    hyperlink['name'] = custom_shows[show_id]['name']
                             entry['hyperlink'] = hyperlink
                         
                         animation_sequence.append(entry)
@@ -2156,6 +2177,10 @@ def save_presentation_structure(prs, file_path):
                                 if r_id and r_id in rid_to_target_slide:
                                     hyperlink['slide_number'] = rid_to_target_slide[r_id]
                                     del hyperlink['r_id']
+                            elif hyperlink['type'] == 'customshow':
+                                show_id = hyperlink.get('id')
+                                if show_id is not None and show_id in custom_shows:
+                                    hyperlink['name'] = custom_shows[show_id]['name']
                             static_entry['hyperlink'] = hyperlink
                         static_shapes.append(static_entry)
                 

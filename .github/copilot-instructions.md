@@ -59,7 +59,7 @@ Custom shows are named collections of slides that can be linked from the main pr
 
 ### Linked Slides
 
-All slides that are linked to (from custom shows OR hlinksldjump hyperlinks) are stored in `linked_slides`. This is a unified collection - both custom show slides and individual slide jump targets are here.
+All slides that are linked to (from custom shows OR hlinksldjump hyperlinks) are stored in `linked_slides`. This is a unified collection - both custom show slides and individual slide jump targets are here. All custom show slides referenced in `custom_shows` are included in `linked_slides` but not all linked slides are part of a custom show.
 
 ```json
 "linked_slides": {
