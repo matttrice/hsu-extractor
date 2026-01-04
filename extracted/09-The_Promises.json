@@ -1,212 +1,1603 @@
 {
   "file_path": "/Users/badger/projects/hsu-pptx/09-The_Promises.pptx",
   "file_name": "09-The_Promises.pptx",
-  "total_slides": 17,
+  "total_slides": 3,
+  "total_custom_shows": 13,
+  "total_linked_slides": 14,
   "source_dimensions": {
-    "width": 960.0,
-    "height": 540.0
+    "width": 960,
+    "height": 540
   },
   "target_canvas": {
     "width": 960,
     "height": 540
   },
   "scale_factor": 1.0,
+  "images_folder": "09-The_Promises",
   "custom_shows": {
     "0": {
       "name": "1Cor5.40",
       "id": 0,
-      "slides": [
-        {
-          "slide_file": "slides/slide5.xml",
-          "texts": [
-            "1 Corinthians 15:40-45",
-            "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven."
-          ]
-        }
+      "slide_numbers": [
+        5
       ]
     },
     "1": {
       "name": "Gal4.21",
       "id": 1,
-      "slides": [
-        {
-          "slide_file": "slides/slide6.xml",
-          "texts": [
-            "21 Tell me, you who desire to be under law, do you not hear the law? 22 For it is written that Abraham had two sons, one by a slave and one by a free woman. 23 But the son of the slave was born according to the flesh, the son of the free woman through promise. 24 Now this is an allegory: these women are two covenants. One is from Mount Sinai, bearing children for slavery; she is Hagar. 25 Now Hagar is Mount Sinai in Arabia; she corresponds to the present Jerusalem, for she is in slavery with her children. 26 But the Jerusalem above is free, and she is our mother. 27 For it is written, \"Rejoice, O barren one who does not bear; break forth and shout, you who are not in travail; for the children of the desolate one are many more than the children of her that is married.\" 28 Now we, brethren, like Isaac, are children of promise. 29 But as at that time he who was born according to the flesh persecuted him who was born according to the Spirit, so it is now. 30 But what does the scripture say? \"Cast out the slave and her son; for the son of the slave shall not inherit with the son of the free woman.\" 31 So, brethren, we are not children of the slave but of the free woman.",
-            "Galatians 4:21-31"
-          ]
-        }
+      "slide_numbers": [
+        6
       ]
     },
     "2": {
       "name": "Gen12.1",
       "id": 2,
-      "slides": [
-        {
-          "slide_file": "slides/slide7.xml",
-          "texts": [
-            "1 Now the LORD said to Abram, \"Go from your country and your kindred and your father's house to the land that I will show you. 2 And I will make of you a great nation, and I will bless you, and make your name great, so that you will be a blessing. 3 I will bless those who bless you, and him who curses you I will curse; and by you all the families of the earth shall bless themselves.\"",
-            "Genesis 12:1-3"
-          ]
-        }
+      "slide_numbers": [
+        7
       ]
     },
     "3": {
       "name": "Deut6.7",
       "id": 3,
-      "slides": [
-        {
-          "slide_file": "slides/slide8.xml",
-          "texts": [
-            "\"For you are a people holy to the LORD your God; the LORD your God has chosen you to be a people for his own possession, out of all the peoples that are on the face of the earth. 7 It was not because you were more in number than any other people that the LORD set his love upon you and chose you, for you were the fewest of all peoples; 8 but it is because the LORD loves you, and is keeping the oath which he swore to your fathers, that the LORD has brought you out with a mighty hand, and redeemed you from the house of bondage, from the hand of Pharaoh king of Egypt.",
-            "Deuteronomy 6:7-8"
-          ]
-        }
+      "slide_numbers": [
+        8
       ]
     },
     "4": {
       "name": "1Pet2.9",
       "id": 4,
-      "slides": [
-        {
-          "slide_file": "slides/slide9.xml",
-          "texts": [
-            "9 But you are a chosen race, a royal priesthood, a holy nation, God's own people, that you may declare the wonderful deeds of him who called you out of darkness into his marvelous light.",
-            "1Peter 2:9"
-          ]
-        }
+      "slide_numbers": [
+        9
       ]
     },
     "5": {
       "name": "Luke1.30",
       "id": 5,
-      "slides": [
-        {
-          "slide_file": "slides/slide10.xml",
-          "texts": [
-            "30 And the angel said to her, \"Do not be afraid, Mary, for you have found favor with God. 31 And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. 32 He will be great, and will be called the Son of the Most High; and the Lord God will give to him the throne of his father David, 33 and he will reign over the house of Jacob forever; and of his kingdom there will be no end.\"",
-            "Luke 1:30-33"
-          ]
-        }
+      "slide_numbers": [
+        10
       ]
     },
     "6": {
       "name": "Gen13.14",
       "id": 6,
-      "slides": [
-        {
-          "slide_file": "slides/slide11.xml",
-          "texts": [
-            "14 The LORD said to Abram, after Lot had separated from him, \"Lift up your eyes, and look from the place where you are, northward and southward and eastward and westward; 15 for all the land which you see I will give to you and to your descendants forever.",
-            "Genesis 13:14-15",
-            "What kinds of things are forever?"
-          ]
-        }
+      "slide_numbers": [
+        11
       ]
     },
     "7": {
       "name": "Heb11.8",
       "id": 7,
-      "slides": [
-        {
-          "slide_file": "slides/slide12.xml",
-          "texts": [
-            "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.",
-            "Hebrews 11:8-16",
-            "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city."
-          ]
-        }
+      "slide_numbers": [
+        12
       ]
     },
     "8": {
       "name": "Gal3.16",
       "id": 8,
-      "slides": [
-        {
-          "slide_file": "slides/slide15.xml",
-          "texts": [
-            "16 Now the promises were made to Abraham and to his offspring. It does not say, \"And to offsprings,\" referring to many; but, referring to one, \"And to your offspring,\" which is Christ. 17 This is what I mean: the law, which came four hundred and thirty years afterward, does not annul a covenant previously ratified by God, so as to make the promise void. 18 For if the inheritance is by the law, it is no longer by promise; but God gave it to Abraham by a promise. 19 Why then the law? It was added because of transgressions, till the offspring should come to whom the promise had been made; and it was ordained by angels through an intermediary. 20 Now an intermediary implies more than one; but God is one. 21 Is the law then against the promises of God? Certainly not; for if a law had been given which could make alive, then righteousness would indeed be by the law. 22 But the scripture consigned all things to sin, that what was promised to faith in Jesus Christ might be given to those who believe. 23 Now before faith came, we were confined under the law, kept under restraint until faith should be revealed. 24 So that the law was our custodian until Christ came, that we might be justified by faith. 25 But now that faith has come, we are no longer under a custodian; 26 for in Christ Jesus you are all sons of God, through faith. 27 For as many of you as were baptized into Christ have put on Christ. 28 There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus. 29 And if you are Christ's, then you are Abraham's offspring, heirs according to promise.",
-            "Galatians 3:16-29"
-          ]
-        }
+      "slide_numbers": [
+        15
       ]
     },
     "9": {
       "name": "Heb12.22",
       "id": 9,
-      "slides": [
-        {
-          "slide_file": "slides/slide16.xml",
-          "texts": [
-            "22 But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, 23 and to the assembly of the first-born who are enrolled in heaven, and to a judge who is God of all, and to the spirits of just men made perfect, 24 and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks more graciously than the blood of Abel.",
-            "Hebrews 12:22-24"
-          ]
-        }
+      "slide_numbers": [
+        16
       ]
     },
     "10": {
       "name": "Rom8.2",
       "id": 10,
-      "slides": [
-        {
-          "slide_file": "slides/slide17.xml",
-          "texts": [
-            "2 For the law of the Spirit of life in Christ Jesus has set me free from the law of sin and death. 3 For God has done what the law, weakened by the flesh, could not do: sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh,",
-            "Romans 8:2-3"
-          ]
-        }
+      "slide_numbers": [
+        17
       ]
     },
     "11": {
       "name": "Heb3.11.Heb4.11",
       "id": 11,
-      "slides": [
-        {
-          "slide_file": "slides/slide13.xml",
-          "texts": [
-            "Hebrews 3:14-19",
-            "Psalm 95:7-8“Today, if you will hear His voice,8 Do not harden your hearts as at Meribah,As on the day of Massah in the wilderness,9 “When your fathers put Me to the test,They tested Me, though they had seen My work. 10 For forty years I was disgusted with that generation, And said they are a people who err in their heart, And they do not know My ways.",
-            "Exodus 17:1-3, 7They camped at Rephidim, but there was no water for the people to drink. 2 So they quarreled with Moses and said, “Give us water to drink.”Moses replied, “Why do you quarrel with me? Why do you put the Lord to the test?” 3 But the people were thirsty for water there, and they grumbled against Moses. They said, “Why did you bring us up out of Egypt to make us and our children and livestock die of thirst?”7 And he called the place Massah and Meribah because the Israelites quarreled and because they tested the Lord saying, “Is the Lord among us or not?” (vs 7 for context)",
-            "14 We have come to share in Christ, if indeed we hold our original conviction firmly to the very end. 15 As has just been said:“Today, if you hear his voice, do not harden your hearts as you did in the rebellion.”16 Who were they who heard and rebelled? Were they not all those Moses led out of Egypt? 17 And with whom was he angry for forty years? Was it not with those who sinned, whose bodies perished in the wilderness? 18 And to whom did God swear that they would never enter his rest if not to those who disobeyed? 19 So we see that they were not able to enter, because of their unbelief."
-          ]
-        },
-        {
-          "slide_file": "slides/slide14.xml",
-          "texts": [
-            "Therefore, since the promise of entering his rest still stands, let us be careful that none of you be found to have fallen short of it. 2 For we also have had the good news proclaimed to us, just as they did; but the message they heard was of no value to them, because they did not share the faith of those who obeyed. 3 Now we who have believed enter that rest, just as God has said,“So I declared on oath in my anger,    ‘They shall never enter my rest.’”And yet his works have been finished since the creation of the world. 4 For somewhere he has spoken about the seventh day in these words: “On the seventh day God rested from all his works.” 5 And again in the passage above he says, “They shall never enter my rest.”6 Therefore since it still remains for some to enter that rest, and since those who formerly had the good news proclaimed to them did not go in because of their disobedience, 7 God again set a certain day, calling it “Today.” This he did when a long time later he spoke through David, as in the passage already quoted:“Today, if you hear his voice,    do not harden your hearts.”8 For if Joshua had given them rest, God would not have spoken later about another day. 9 There remains, then, a Sabbath-rest for the people of God; 10 for anyone who enters God’s rest also rests from their works, just as God did from his. 11 Let us, therefore, make every effort to enter that rest, so that no one will perish by following their example of disobedience.",
-            "Hebrews 4:1-11"
-          ]
-        }
+      "slide_numbers": [
+        13,
+        14
       ]
     },
     "12": {
       "name": "TwoChoices",
       "id": 12,
-      "slides": [
+      "slide_numbers": [
+        4
+      ]
+    }
+  },
+  "linked_slides": {
+    "4": {
+      "slide_number": 4,
+      "animation_sequence": [
         {
-          "slide_file": "slides/slide4.xml",
-          "texts": [
-            "PHYSICAL",
-            "Perishable",
-            "Imperishable",
-            "Dishonor",
-            "Glory",
-            "Weakness",
-            "Power",
-            "Physical Body",
-            "Spiritual Body",
-            "1st Adam - Earth",
-            "2nd Adam - Heaven",
-            "or",
-            "Shadow & Copy",
-            "True & Real",
-            "1 Corinthians 15:40-45",
-            "Invisible",
-            "Visible",
-            "Eternal",
-            "Temporary",
-            "SPIRITUAL"
-          ]
+          "sequence": 1,
+          "shape_name": "Rectangle 146",
+          "timing": "click",
+          "text": "Invisible",
+          "z_index": 15,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 156,
+            "y": 342,
+            "width": 259,
+            "height": 36,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 43.2,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 146",
+          "timing": "with",
+          "text": "Eternal",
+          "z_index": 17,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 156,
+            "y": 386,
+            "width": 259,
+            "height": 36,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 38.4,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Rectangle 146",
+          "timing": "click",
+          "text": "Visible",
+          "z_index": 16,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 337,
+            "width": 259,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 43.2,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "Rectangle 146",
+          "timing": "with",
+          "text": "Temporary",
+          "z_index": 18,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 388,
+            "width": 259,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 38.4,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 5,
+          "shape_name": "TextBox 37",
+          "timing": "click",
+          "text": "True & Real",
+          "z_index": 13,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 156,
+            "y": 415,
+            "width": 259,
+            "height": 57,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 43.2,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 6,
+          "shape_name": "TextBox 35",
+          "timing": "click",
+          "text": "Shadow & Copy",
+          "z_index": 12,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 471,
+            "y": 418,
+            "width": 378,
+            "height": 53,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 43.2,
+            "bold": true
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Text Box 108",
+          "static": true,
+          "text": "PHYSICAL",
+          "z_index": 0,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 551,
+            "y": 105,
+            "width": 257,
+            "height": 48,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 43.2,
+            "bold": true,
+            "color": "#000000"
+          },
+          "hyperlink": {
+            "type": "action",
+            "action": "ppaction://noaction"
+          }
+        },
+        {
+          "shape_name": "Rectangle 141",
+          "static": true,
+          "text": "Perishable",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 155,
+            "width": 259,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 142",
+          "static": true,
+          "text": "Imperishable",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 156,
+            "y": 154,
+            "width": 259,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "shape_name": "Rectangle 143",
+          "static": true,
+          "text": "Dishonor",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 185,
+            "width": 259,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 144",
+          "static": true,
+          "text": "Glory",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 156,
+            "y": 184,
+            "width": 259,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "shape_name": "Rectangle 145",
+          "static": true,
+          "text": "Weakness",
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 215,
+            "width": 259,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 146",
+          "static": true,
+          "text": "Power",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 156,
+            "y": 214,
+            "width": 259,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "shape_name": "Rectangle 147",
+          "static": true,
+          "text": "Physical Body",
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 245,
+            "width": 259,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 148",
+          "static": true,
+          "text": "Spiritual Body",
+          "z_index": 8,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 156,
+            "y": 248,
+            "width": 259,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "shape_name": "Rectangle 149",
+          "static": true,
+          "text": "1st Adam - Earth",
+          "z_index": 9,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 550,
+            "y": 288,
+            "width": 259,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 150",
+          "static": true,
+          "text": "2nd Adam - Heaven",
+          "z_index": 10,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 117,
+            "y": 292,
+            "width": 354,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_size": 33.6,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "shape_name": "Text Box 110",
+          "static": true,
+          "text": "or",
+          "z_index": 11,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 468,
+            "y": 112,
+            "width": 37,
+            "height": 41,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 33.6,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Title 40",
+          "static": true,
+          "text": "1 Corinthians 15:40-45",
+          "z_index": 14,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 207,
+            "y": 13,
+            "width": 521,
+            "height": 85,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Arial",
+            "font_size": 42.7,
+            "bold": true,
+            "color": "#000000"
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 0,
+            "name": "1Cor5.40"
+          }
+        },
+        {
+          "shape_name": "TextBox 1",
+          "static": true,
+          "text": "SPIRITUAL",
+          "z_index": 19,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 161,
+            "y": 99,
+            "width": 249,
+            "height": 62,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 43.2,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        }
+      ]
+    },
+    "5": {
+      "slide_number": 5,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "1 Corinthians 15:40-45",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 106,
+            "y": 14,
+            "width": 706,
+            "height": 54,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "top",
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 185,
+            "y": 138,
+            "width": 252,
+            "height": 30,
+            "rotation": 0
+          }
+        },
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 88,
+            "y": 80,
+            "width": 774,
+            "height": 359,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_size": 28.8
+          }
+        }
+      ]
+    },
+    "6": {
+      "slide_number": 6,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "21 Tell me, you who desire to be under law, do you not hear the law? 22 For it is written that Abraham had two sons, one by a slave and one by a free woman. 23 But the son of the slave was born according to the flesh, the son of the free woman through promise. 24 Now this is an allegory: these women are two covenants. One is from Mount Sinai, bearing children for slavery; she is Hagar. 25 Now Hagar is Mount Sinai in Arabia; she corresponds to the present Jerusalem, for she is in slavery with her children. 26 But the Jerusalem above is free, and she is our mother. 27 For it is written, \"Rejoice, O barren one who does not bear; break forth and shout, you who are not in travail; for the children of the desolate one are many more than the children of her that is married.\" 28 Now we, brethren, like Isaac, are children of promise. 29 But as at that time he who was born according to the flesh persecuted him who was born according to the Spirit, so it is now. 30 But what does the scripture say? \"Cast out the slave and her son; for the son of the slave shall not inherit with the son of the free woman.\" 31 So, brethren, we are not children of the slave but of the free woman.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 69,
+            "y": 49,
+            "width": 833,
+            "height": 475,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 24.0,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Galatians 4:21-31",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 78,
+            "y": 7,
+            "width": 432,
+            "height": 48,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "7": {
+      "slide_number": 7,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "1 Now the LORD said to Abram, \"Go from your country and your kindred and your father's house to the land that I will show you. 2 And I will make of you a great nation, and I will bless you, and make your name great, so that you will be a blessing. 3 I will bless those who bless you, and him who curses you I will curse; and by you all the families of the earth shall bless themselves.\"",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 77,
+            "y": 84,
+            "width": 813,
+            "height": 335,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "Genesis 12:1-3",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 81,
+            "y": 30,
+            "width": 410,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "8": {
+      "slide_number": 8,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "\"For you are a people holy to the LORD your God; the LORD your God has chosen you to be a people for his own possession, out of all the peoples that are on the face of the earth. 7 It was not because you were more in number than any other people that the LORD set his love upon you and chose you, for you were the fewest of all peoples; 8 but it is because the LORD loves you, and is keeping the oath which he swore to your fathers, that the LORD has brought you out with a mighty hand, and redeemed you from the house of bondage, from the hand of Pharaoh king of Egypt.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 77,
+            "y": 76,
+            "width": 799,
+            "height": 359,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 28.8
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Deuteronomy 6:7-8",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 62,
+            "y": 24,
+            "width": 396,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "9": {
+      "slide_number": 9,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "9 But you are a chosen race, a royal priesthood, a holy nation, God's own people, that you may declare the wonderful deeds of him who called you out of darkness into his marvelous light.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 91,
+            "y": 134,
+            "width": 792,
+            "height": 173,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "1Peter 2:9",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 81,
+            "y": 73,
+            "width": 302,
+            "height": 50,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "10": {
+      "slide_number": 10,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "30 And the angel said to her, \"Do not be afraid, Mary, for you have found favor with God. 31 And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. 32 He will be great, and will be called the Son of the Most High; and the Lord God will give to him the throne of his father David, 33 and he will reign over the house of Jacob forever; and of his kingdom there will be no end.\"",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 91,
+            "y": 93,
+            "width": 751,
+            "height": 289,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 28.8,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Luke 1:30-33",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 88,
+            "y": 24,
+            "width": 317,
+            "height": 74,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "11": {
+      "slide_number": 11,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 1",
+          "timing": "click",
+          "text": "What kinds of things are forever?",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 251,
+            "y": 384,
+            "width": 432,
+            "height": 79,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 33.6,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Straight Connector 3",
+          "timing": "with",
+          "z_index": 3,
+          "shape_type": "connector",
+          "layout": {
+            "x": 562,
+            "y": 369,
+            "width": 113,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 6,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 562,
+              "y": 369
+            },
+            "end": {
+              "x": 675,
+              "y": 369
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 618,
+              "y": 369
+            },
+            "to": {
+              "x": 618,
+              "y": 369
+            }
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "14 The LORD said to Abram, after Lot had separated from him, \"Lift up your eyes, and look from the place where you are, northward and southward and eastward and westward; 15 for all the land which you see I will give to you and to your descendants forever.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 115,
+            "y": 123,
+            "width": 706,
+            "height": 254,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Genesis 13:14-15",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 48,
+            "y": 72,
+            "width": 432,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "12": {
+      "slide_number": 12,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 2",
+          "timing": "click",
+          "text": "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 78,
+            "y": 59,
+            "width": 806,
+            "height": 428,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 21.6,
+            "bold": true
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 78,
+            "y": 59,
+            "width": 806,
+            "height": 428,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 21.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Hebrews 11:8-16",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 41,
+            "y": 6,
+            "width": 396,
+            "height": 60,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "13": {
+      "slide_number": 13,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Straight Connector 40",
+          "timing": "click",
+          "z_index": 9,
+          "shape_type": "connector",
+          "layout": {
+            "x": 43,
+            "y": 296,
+            "width": 874,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 1,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 43,
+              "y": 296
+            },
+            "end": {
+              "x": 917,
+              "y": 296
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 480,
+              "y": 296
+            },
+            "to": {
+              "x": 480,
+              "y": 296
+            }
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "TextBox 4",
+          "timing": "with",
+          "text": "Psalm 95:7-8“Today, if you will hear His voice,8 Do not harden your hearts as at Meribah,As on the day of Massah in the wilderness,9 “When your fathers put Me to the test,They tested Me, though they had seen My work. 10 For forty years I was disgusted with that generation, And said they are a people who err in their heart, And they do not know My ways.",
+          "z_index": 10,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 32,
+            "y": 315,
+            "width": 360,
+            "height": 207,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "left",
+            "font_name": "+mn-lt",
+            "font_size": 18.7,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Straight Connector 17",
+          "timing": "after",
+          "z_index": 2,
+          "shape_type": "connector",
+          "layout": {
+            "x": 87,
+            "y": 164,
+            "width": 253,
+            "height": 0,
+            "rotation": 0
+          },
+          "path": {
+            "start": {
+              "x": 87,
+              "y": 164
+            },
+            "end": {
+              "x": 340,
+              "y": 164
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 214,
+              "y": 164
+            },
+            "to": {
+              "x": 214,
+              "y": 164
+            }
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "Straight Connector 5",
+          "timing": "with",
+          "z_index": 1,
+          "shape_type": "connector",
+          "layout": {
+            "x": 87,
+            "y": 138,
+            "width": 520,
+            "height": 0,
+            "rotation": 0
+          },
+          "path": {
+            "start": {
+              "x": 87,
+              "y": 138
+            },
+            "end": {
+              "x": 607,
+              "y": 138
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 347,
+              "y": 138
+            },
+            "to": {
+              "x": 347,
+              "y": 138
+            }
+          }
+        },
+        {
+          "sequence": 5,
+          "shape_name": "Straight Connector 24",
+          "timing": "after",
+          "z_index": 4,
+          "shape_type": "connector",
+          "layout": {
+            "x": 52,
+            "y": 380,
+            "width": 284,
+            "height": 0,
+            "rotation": 0
+          },
+          "path": {
+            "start": {
+              "x": 52,
+              "y": 380
+            },
+            "end": {
+              "x": 336,
+              "y": 380
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 194,
+              "y": 380
+            },
+            "to": {
+              "x": 194,
+              "y": 380
+            }
+          }
+        },
+        {
+          "sequence": 6,
+          "shape_name": "Straight Connector 20",
+          "timing": "with",
+          "z_index": 3,
+          "shape_type": "connector",
+          "layout": {
+            "x": 52,
+            "y": 360,
+            "width": 219,
+            "height": 0,
+            "rotation": 0
+          },
+          "path": {
+            "start": {
+              "x": 52,
+              "y": 360
+            },
+            "end": {
+              "x": 271,
+              "y": 360
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 162,
+              "y": 360
+            },
+            "to": {
+              "x": 162,
+              "y": 360
+            }
+          }
+        },
+        {
+          "sequence": 7,
+          "shape_name": "TextBox 6",
+          "timing": "click",
+          "text": "Exodus 17:1-3, 7They camped at Rephidim, but there was no water for the people to drink. 2 So they quarreled with Moses and said, “Give us water to drink.”Moses replied, “Why do you quarrel with me? Why do you put the Lord to the test?” 3 But the people were thirsty for water there, and they grumbled against Moses. They said, “Why did you bring us up out of Egypt to make us and our children and livestock die of thirst?”7 And he called the place Massah and Meribah because the Israelites quarreled and because they tested the Lord saying, “Is the Lord among us or not?” (vs 7 for context)",
+          "z_index": 11,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 400,
+            "y": 300,
+            "width": 539,
+            "height": 239,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "left",
+            "font_name": "+mn-lt",
+            "font_size": 18.7,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 8,
+          "shape_name": "Straight Connector 29",
+          "timing": "with",
+          "z_index": 7,
+          "shape_type": "connector",
+          "layout": {
+            "x": 43,
+            "y": 437,
+            "width": 316,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 2,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 43,
+              "y": 437
+            },
+            "end": {
+              "x": 359,
+              "y": 437
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 201,
+              "y": 437
+            },
+            "to": {
+              "x": 201,
+              "y": 437
+            }
+          }
+        },
+        {
+          "sequence": 9,
+          "shape_name": "Straight Connector 25",
+          "timing": "with",
+          "z_index": 5,
+          "shape_type": "connector",
+          "layout": {
+            "x": 413,
+            "y": 421,
+            "width": 141,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 2,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 413,
+              "y": 421
+            },
+            "end": {
+              "x": 554,
+              "y": 421
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 484,
+              "y": 421
+            },
+            "to": {
+              "x": 484,
+              "y": 421
+            }
+          }
+        },
+        {
+          "sequence": 10,
+          "shape_name": "Straight Connector 27",
+          "timing": "with",
+          "z_index": 6,
+          "shape_type": "connector",
+          "layout": {
+            "x": 736,
+            "y": 401,
+            "width": 110,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 2,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 736,
+              "y": 401
+            },
+            "end": {
+              "x": 846,
+              "y": 401
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 791,
+              "y": 401
+            },
+            "to": {
+              "x": 791,
+              "y": 401
+            }
+          }
+        },
+        {
+          "sequence": 11,
+          "shape_name": "Straight Connector 36",
+          "timing": "with",
+          "z_index": 8,
+          "shape_type": "connector",
+          "layout": {
+            "x": 43,
+            "y": 456,
+            "width": 40,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 2,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 43,
+              "y": 456
+            },
+            "end": {
+              "x": 83,
+              "y": 456
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 63,
+              "y": 456
+            },
+            "to": {
+              "x": 63,
+              "y": 456
+            }
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Hebrews 3:14-19",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 25,
+            "y": 13,
+            "width": 382,
+            "height": 50,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "14 We have come to share in Christ, if indeed we hold our original conviction firmly to the very end. 15 As has just been said:“Today, if you hear his voice, do not harden your hearts as you did in the rebellion.”16 Who were they who heard and rebelled? Were they not all those Moses led out of Egypt? 17 And with whom was he angry for forty years? Was it not with those who sinned, whose bodies perished in the wilderness? 18 And to whom did God swear that they would never enter his rest if not to those who disobeyed? 19 So we see that they were not able to enter, because of their unbelief.",
+          "z_index": 12,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 25,
+            "y": 57,
+            "width": 904,
+            "height": 242,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "+mn-lt",
+            "font_size": 21.3,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "14": {
+      "slide_number": 14,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "Therefore, since the promise of entering his rest still stands, let us be careful that none of you be found to have fallen short of it. 2 For we also have had the good news proclaimed to us, just as they did; but the message they heard was of no value to them, because they did not share the faith of those who obeyed. 3 Now we who have believed enter that rest, just as God has said,“So I declared on oath in my anger,    ‘They shall never enter my rest.’”And yet his works have been finished since the creation of the world. 4 For somewhere he has spoken about the seventh day in these words: “On the seventh day God rested from all his works.” 5 And again in the passage above he says, “They shall never enter my rest.”6 Therefore since it still remains for some to enter that rest, and since those who formerly had the good news proclaimed to them did not go in because of their disobedience, 7 God again set a certain day, calling it “Today.” This he did when a long time later he spoke through David, as in the passage already quoted:“Today, if you hear his voice,    do not harden your hearts.”8 For if Joshua had given them rest, God would not have spoken later about another day. 9 There remains, then, a Sabbath-rest for the people of God; 10 for anyone who enters God’s rest also rests from their works, just as God did from his. 11 Let us, therefore, make every effort to enter that rest, so that no one will perish by following their example of disobedience.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 31,
+            "y": 57,
+            "width": 865,
+            "height": 439,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "+mn-lt",
+            "font_size": 18.7,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Hebrews 4:1-11",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 25,
+            "y": 13,
+            "width": 382,
+            "height": 50,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "15": {
+      "slide_number": 15,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "16 Now the promises were made to Abraham and to his offspring. It does not say, \"And to offsprings,\" referring to many; but, referring to one, \"And to your offspring,\" which is Christ. 17 This is what I mean: the law, which came four hundred and thirty years afterward, does not annul a covenant previously ratified by God, so as to make the promise void. 18 For if the inheritance is by the law, it is no longer by promise; but God gave it to Abraham by a promise. 19 Why then the law? It was added because of transgressions, till the offspring should come to whom the promise had been made; and it was ordained by angels through an intermediary. 20 Now an intermediary implies more than one; but God is one. 21 Is the law then against the promises of God? Certainly not; for if a law had been given which could make alive, then righteousness would indeed be by the law. 22 But the scripture consigned all things to sin, that what was promised to faith in Jesus Christ might be given to those who believe. 23 Now before faith came, we were confined under the law, kept under restraint until faith should be revealed. 24 So that the law was our custodian until Christ came, that we might be justified by faith. 25 But now that faith has come, we are no longer under a custodian; 26 for in Christ Jesus you are all sons of God, through faith. 27 For as many of you as were baptized into Christ have put on Christ. 28 There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus. 29 And if you are Christ's, then you are Abraham's offspring, heirs according to promise.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 74,
+            "y": 56,
+            "width": 804,
+            "height": 452,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 19.2,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Galatians 3:16-29",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 72,
+            "y": 18,
+            "width": 454,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "16": {
+      "slide_number": 16,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "22 But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, 23 and to the assembly of the first-born who are enrolled in heaven, and to a judge who is God of all, and to the spirits of just men made perfect, 24 and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks more graciously than the blood of Abel.",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 101,
+            "y": 83,
+            "width": 734,
+            "height": 376,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.6
+          }
+        },
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "Hebrews 12:22-24",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 86,
+            "y": 33,
+            "width": 454,
+            "height": 38,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "17": {
+      "slide_number": 17,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "2 For the law of the Spirit of life in Christ Jesus has set me free from the law of sin and death. 3 For God has done what the law, weakened by the flesh, could not do: sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh,",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 121,
+            "y": 123,
+            "width": 706,
+            "height": 254,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.6
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Romans 8:2-3",
+          "z_index": 1,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 84,
+            "y": 51,
+            "width": 353,
+            "height": 68,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
         }
       ]
     }
@@ -217,16 +1608,16 @@
       "animation_sequence": [
         {
           "sequence": 1,
-          "text": "Genesis 12:1-3",
           "shape_name": "Text Box 5",
+          "text": "Genesis 12:1-3",
           "timing": "click",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
-            "x": 59.9,
-            "y": 9.0,
-            "width": 259.2,
-            "height": 36.0,
+            "x": 60,
+            "y": 9,
+            "width": 259,
+            "height": 36,
             "rotation": 0
           },
           "font": {
@@ -236,85 +1627,65 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 2
-          },
-          "linked_content": {
-            "name": "Gen12.1",
             "id": 2,
-            "slides": [
-              {
-                "slide_file": "slides/slide7.xml",
-                "texts": [
-                  "1 Now the LORD said to Abram, \"Go from your country and your kindred and your father's house to the land that I will show you. 2 And I will make of you a great nation, and I will bless you, and make your name great, so that you will be a blessing. 3 I will bless those who bless you, and him who curses you I will curse; and by you all the families of the earth shall bless themselves.\"",
-                  "Genesis 12:1-3"
-                ]
-              }
-            ]
+            "name": "Gen12.1"
           }
         },
         {
           "sequence": 2,
-          "text": "",
           "shape_name": "Rectangle 59",
           "timing": "click",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 75.6,
-            "y": 48.0,
-            "width": 274.8,
-            "height": 464.4,
+            "x": 76,
+            "y": 48,
+            "width": 275,
+            "height": 464,
             "rotation": 0
           },
-          "fill": "#B3B3B3",
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#B3B3B3"
         },
         {
           "sequence": 3,
-          "text": "",
           "shape_name": "Line 62",
           "timing": "with",
           "z_index": 26,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 74.7,
-            "y": 46.7,
-            "width": 802.3,
-            "height": 1.3,
+            "x": 75,
+            "y": 47,
+            "width": 802,
+            "height": 1,
             "rotation": 0
           },
           "line": {
-            "width": 2.7,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 3,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 475.8,
-              "y": 46.7
+              "x": 476,
+              "y": 47
             },
             "to": {
-              "x": 475.8,
-              "y": 48.0
+              "x": 476,
+              "y": 48
             }
           }
         },
         {
           "sequence": 4,
-          "text": "Great Nation",
           "shape_name": "Text Box 12",
+          "text": "Great Nation",
           "timing": "with",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
-            "x": 112.8,
-            "y": 115.5,
-            "width": 180.0,
-            "height": 28.9,
+            "x": 113,
+            "y": 116,
+            "width": 180,
+            "height": 29,
             "rotation": 0
           },
           "font": {
@@ -325,16 +1696,16 @@
         },
         {
           "sequence": 5,
-          "text": "Land of Canaan",
           "shape_name": "Text Box 13",
+          "text": "Land of Canaan",
           "timing": "with",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
-            "x": 112.8,
-            "y": 226.7,
-            "width": 194.4,
-            "height": 30.0,
+            "x": 113,
+            "y": 227,
+            "width": 194,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -345,16 +1716,16 @@
         },
         {
           "sequence": 6,
-          "text": "Families Blessed",
           "shape_name": "Text Box 14",
+          "text": "Families Blessed",
           "timing": "with",
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
-            "x": 112.8,
-            "y": 369.3,
-            "width": 208.8,
-            "height": 28.9,
+            "x": 113,
+            "y": 369,
+            "width": 209,
+            "height": 29,
             "rotation": 0
           },
           "font": {
@@ -365,16 +1736,16 @@
         },
         {
           "sequence": 7,
-          "text": "Deuteronomy 7:6-8",
           "shape_name": "Text Box 15",
+          "text": "Deuteronomy 7:6-8",
           "timing": "click",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
-            "x": 105.6,
-            "y": 145.5,
-            "width": 223.2,
-            "height": 34.9,
+            "x": 106,
+            "y": 146,
+            "width": 223,
+            "height": 35,
             "rotation": 0
           },
           "font": {
@@ -384,40 +1755,28 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 3
-          },
-          "linked_content": {
-            "name": "Deut6.7",
             "id": 3,
-            "slides": [
-              {
-                "slide_file": "slides/slide8.xml",
-                "texts": [
-                  "\"For you are a people holy to the LORD your God; the LORD your God has chosen you to be a people for his own possession, out of all the peoples that are on the face of the earth. 7 It was not because you were more in number than any other people that the LORD set his love upon you and chose you, for you were the fewest of all peoples; 8 but it is because the LORD loves you, and is keeping the oath which he swore to your fathers, that the LORD has brought you out with a mighty hand, and redeemed you from the house of bondage, from the hand of Pharaoh king of Egypt.",
-                  "Deuteronomy 6:7-8"
-                ]
-              }
-            ]
+            "name": "Deut6.7"
           }
         },
         {
           "sequence": 8,
-          "text": "Israel",
           "shape_name": "Text Box 16",
+          "text": "Israel",
           "timing": "click",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
-            "x": 156.0,
-            "y": 175.4,
-            "width": 122.4,
-            "height": 43.9,
+            "x": 156,
+            "y": 175,
+            "width": 122,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#FFFFFF",
           "line": {
-            "width": 1.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -427,16 +1786,16 @@
         },
         {
           "sequence": 9,
-          "text": "Genesis 13:14-15",
           "shape_name": "Text Box 25",
+          "text": "Genesis 13:14-15",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
           "layout": {
-            "x": 105.6,
-            "y": 249.3,
-            "width": 204.6,
-            "height": 36.0,
+            "x": 106,
+            "y": 249,
+            "width": 205,
+            "height": 36,
             "rotation": 0
           },
           "font": {
@@ -446,35 +1805,22 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 6
-          },
-          "linked_content": {
-            "name": "Gen13.14",
             "id": 6,
-            "slides": [
-              {
-                "slide_file": "slides/slide11.xml",
-                "texts": [
-                  "14 The LORD said to Abram, after Lot had separated from him, \"Lift up your eyes, and look from the place where you are, northward and southward and eastward and westward; 15 for all the land which you see I will give to you and to your descendants forever.",
-                  "Genesis 13:14-15",
-                  "What kinds of things are forever?"
-                ]
-              }
-            ]
+            "name": "Gen13.14"
           }
         },
         {
           "sequence": 10,
-          "text": "What kinds of things are forever?",
           "shape_name": "Text Box 21",
+          "text": "What kinds of things are forever?",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
-            "x": 354.7,
-            "y": 59.3,
-            "width": 252.0,
-            "height": 48.6,
+            "x": 355,
+            "y": 59,
+            "width": 252,
+            "height": 49,
             "rotation": 0
           },
           "font": {
@@ -483,52 +1829,22 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 12
-          },
-          "linked_content": {
-            "name": "TwoChoices",
             "id": 12,
-            "slides": [
-              {
-                "slide_file": "slides/slide4.xml",
-                "texts": [
-                  "PHYSICAL",
-                  "Perishable",
-                  "Imperishable",
-                  "Dishonor",
-                  "Glory",
-                  "Weakness",
-                  "Power",
-                  "Physical Body",
-                  "Spiritual Body",
-                  "1st Adam - Earth",
-                  "2nd Adam - Heaven",
-                  "or",
-                  "Shadow & Copy",
-                  "True & Real",
-                  "1 Corinthians 15:40-45",
-                  "Invisible",
-                  "Visible",
-                  "Eternal",
-                  "Temporary",
-                  "SPIRITUAL"
-                ]
-              }
-            ]
+            "name": "TwoChoices"
           }
         },
         {
           "sequence": 11,
-          "text": "Spiritual",
           "shape_name": "Text Box 23",
+          "text": "Spiritual",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
           "layout": {
-            "x": 607.8,
-            "y": 54.0,
-            "width": 268.2,
-            "height": 50.5,
+            "x": 608,
+            "y": 54,
+            "width": 268,
+            "height": 50,
             "rotation": 0
           },
           "font": {
@@ -540,35 +1856,31 @@
         },
         {
           "sequence": 12,
-          "text": "",
           "shape_name": "Rectangle 60",
           "timing": "with",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 609.9,
-            "y": 48.0,
-            "width": 266.1,
-            "height": 464.4,
+            "x": 610,
+            "y": 48,
+            "width": 266,
+            "height": 464,
             "rotation": 0
           },
-          "fill": "#33CCFF",
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#33CCFF"
         },
         {
           "sequence": 13,
-          "text": "Physical",
           "shape_name": "Text Box 24",
+          "text": "Physical",
           "timing": "click",
           "z_index": 16,
           "shape_type": "text_box",
           "layout": {
-            "x": 91.2,
-            "y": 54.0,
-            "width": 252.0,
-            "height": 50.5,
+            "x": 91,
+            "y": 54,
+            "width": 252,
+            "height": 50,
             "rotation": 0
           },
           "font": {
@@ -579,16 +1891,16 @@
         },
         {
           "sequence": 14,
-          "text": "1Peter 2:9",
           "shape_name": "Text Box 17",
+          "text": "1Peter 2:9",
           "timing": "click",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
-            "x": 681.6,
-            "y": 148.0,
-            "width": 122.4,
-            "height": 30.0,
+            "x": 682,
+            "y": 148,
+            "width": 122,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -598,51 +1910,35 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 4
-          },
-          "linked_content": {
-            "name": "1Pet2.9",
             "id": 4,
-            "slides": [
-              {
-                "slide_file": "slides/slide9.xml",
-                "texts": [
-                  "9 But you are a chosen race, a royal priesthood, a holy nation, God's own people, that you may declare the wonderful deeds of him who called you out of darkness into his marvelous light.",
-                  "1Peter 2:9"
-                ]
-              }
-            ]
+            "name": "1Pet2.9"
           }
         },
         {
           "sequence": 15,
-          "text": "",
           "shape_name": "Line 70",
           "timing": "click",
           "z_index": 34,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 307.2,
-            "y": 197.4,
-            "width": 358.5,
-            "height": 0.0,
+            "x": 307,
+            "y": 197,
+            "width": 358,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 6.7,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 7,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 486.4,
-              "y": 197.4
+              "x": 486,
+              "y": 197
             },
             "to": {
-              "x": 486.4,
-              "y": 197.4
+              "x": 486,
+              "y": 197
             }
           },
           "arrow_ends": {
@@ -651,22 +1947,22 @@
         },
         {
           "sequence": 16,
-          "text": "Church",
           "shape_name": "Text Box 19",
+          "text": "Church",
           "timing": "after",
           "z_index": 12,
           "shape_type": "text_box",
           "layout": {
-            "x": 679.8,
-            "y": 175.4,
-            "width": 138.6,
-            "height": 43.9,
+            "x": 680,
+            "y": 175,
+            "width": 139,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#FFFFFF",
           "line": {
-            "width": 1.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -677,16 +1973,16 @@
         },
         {
           "sequence": 17,
-          "text": "Chosen race, royal priesthood, holy nation",
           "shape_name": "TextBox 2",
+          "text": "Chosen race, royal priesthood, holy nation",
           "timing": "with",
           "z_index": 48,
           "shape_type": "text_box",
           "layout": {
-            "x": 629.4,
-            "y": 104.8,
-            "width": 235.8,
-            "height": 50.4,
+            "x": 629,
+            "y": 105,
+            "width": 236,
+            "height": 50,
             "rotation": 0
           },
           "font": {
@@ -695,22 +1991,22 @@
         },
         {
           "sequence": 18,
-          "text": "Canaan",
           "shape_name": "Text Box 26",
+          "text": "Canaan",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
-            "x": 146.0,
-            "y": 280.3,
-            "width": 142.4,
-            "height": 43.9,
+            "x": 146,
+            "y": 280,
+            "width": 142,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#FFFFFF",
           "line": {
-            "width": 1.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -720,16 +2016,16 @@
         },
         {
           "sequence": 19,
-          "text": "Is physical Israel a great nation today?In possession of Canaan forever?",
           "shape_name": "TextBox 3",
+          "text": "Is physical Israel a great nation today?In possession of Canaan forever?",
           "timing": "with",
           "z_index": 49,
           "shape_type": "text_box",
           "layout": {
-            "x": 64.6,
-            "y": 319.7,
-            "width": 308.2,
-            "height": 50.4,
+            "x": 65,
+            "y": 320,
+            "width": 308,
+            "height": 50,
             "rotation": 0
           },
           "font": {
@@ -738,16 +2034,16 @@
         },
         {
           "sequence": 20,
-          "text": "Hebrews 11:8-16",
           "shape_name": "Text Box 27",
+          "text": "Hebrews 11:8-16",
           "timing": "click",
           "z_index": 19,
           "shape_type": "text_box",
           "layout": {
-            "x": 652.8,
-            "y": 249.9,
-            "width": 201.6,
-            "height": 34.9,
+            "x": 653,
+            "y": 250,
+            "width": 202,
+            "height": 35,
             "rotation": 0
           },
           "font": {
@@ -757,52 +2053,35 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 7
-          },
-          "linked_content": {
-            "name": "Heb11.8",
             "id": 7,
-            "slides": [
-              {
-                "slide_file": "slides/slide12.xml",
-                "texts": [
-                  "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.",
-                  "Hebrews 11:8-16",
-                  "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city."
-                ]
-              }
-            ]
+            "name": "Heb11.8"
           }
         },
         {
           "sequence": 21,
-          "text": "",
           "shape_name": "Line 71",
           "timing": "click",
           "z_index": 35,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 307.2,
-            "y": 302.3,
-            "width": 367.2,
-            "height": 0.0,
+            "x": 307,
+            "y": 302,
+            "width": 367,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 6.7,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 7,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 490.8,
-              "y": 302.3
+              "x": 490,
+              "y": 302
             },
             "to": {
-              "x": 490.8,
-              "y": 302.3
+              "x": 490,
+              "y": 302
             }
           },
           "arrow_ends": {
@@ -811,22 +2090,22 @@
         },
         {
           "sequence": 22,
-          "text": "Heaven",
           "shape_name": "Text Box 28",
+          "text": "Heaven",
           "timing": "after",
           "z_index": 20,
           "shape_type": "text_box",
           "layout": {
-            "x": 681.6,
-            "y": 280.3,
-            "width": 140.6,
-            "height": 43.9,
+            "x": 682,
+            "y": 280,
+            "width": 141,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#FFFFFF",
           "line": {
-            "width": 1.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -837,16 +2116,16 @@
         },
         {
           "sequence": 23,
-          "text": "What if this point is missed?Hebrews 3:11 - 4:11",
           "shape_name": "Text Box 29",
+          "text": "What if this point is missed?Hebrews 3:11 - 4:11",
           "timing": "click",
           "z_index": 37,
           "shape_type": "text_box",
           "layout": {
-            "x": 364.8,
-            "y": 142.2,
-            "width": 230.4,
-            "height": 60.3,
+            "x": 365,
+            "y": 142,
+            "width": 230,
+            "height": 60,
             "rotation": 0
           },
           "font": {
@@ -855,49 +2134,25 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 11
-          },
-          "linked_content": {
-            "name": "Heb3.11.Heb4.11",
             "id": 11,
-            "slides": [
-              {
-                "slide_file": "slides/slide13.xml",
-                "texts": [
-                  "Hebrews 3:14-19",
-                  "Psalm 95:7-8“Today, if you will hear His voice,8 Do not harden your hearts as at Meribah,As on the day of Massah in the wilderness,9 “When your fathers put Me to the test,They tested Me, though they had seen My work. 10 For forty years I was disgusted with that generation, And said they are a people who err in their heart, And they do not know My ways.",
-                  "Exodus 17:1-3, 7They camped at Rephidim, but there was no water for the people to drink. 2 So they quarreled with Moses and said, “Give us water to drink.”Moses replied, “Why do you quarrel with me? Why do you put the Lord to the test?” 3 But the people were thirsty for water there, and they grumbled against Moses. They said, “Why did you bring us up out of Egypt to make us and our children and livestock die of thirst?”7 And he called the place Massah and Meribah because the Israelites quarreled and because they tested the Lord saying, “Is the Lord among us or not?” (vs 7 for context)",
-                  "14 We have come to share in Christ, if indeed we hold our original conviction firmly to the very end. 15 As has just been said:“Today, if you hear his voice, do not harden your hearts as you did in the rebellion.”16 Who were they who heard and rebelled? Were they not all those Moses led out of Egypt? 17 And with whom was he angry for forty years? Was it not with those who sinned, whose bodies perished in the wilderness? 18 And to whom did God swear that they would never enter his rest if not to those who disobeyed? 19 So we see that they were not able to enter, because of their unbelief."
-                ]
-              },
-              {
-                "slide_file": "slides/slide14.xml",
-                "texts": [
-                  "Therefore, since the promise of entering his rest still stands, let us be careful that none of you be found to have fallen short of it. 2 For we also have had the good news proclaimed to us, just as they did; but the message they heard was of no value to them, because they did not share the faith of those who obeyed. 3 Now we who have believed enter that rest, just as God has said,“So I declared on oath in my anger,    ‘They shall never enter my rest.’”And yet his works have been finished since the creation of the world. 4 For somewhere he has spoken about the seventh day in these words: “On the seventh day God rested from all his works.” 5 And again in the passage above he says, “They shall never enter my rest.”6 Therefore since it still remains for some to enter that rest, and since those who formerly had the good news proclaimed to them did not go in because of their disobedience, 7 God again set a certain day, calling it “Today.” This he did when a long time later he spoke through David, as in the passage already quoted:“Today, if you hear his voice,    do not harden your hearts.”8 For if Joshua had given them rest, God would not have spoken later about another day. 9 There remains, then, a Sabbath-rest for the people of God; 10 for anyone who enters God’s rest also rests from their works, just as God did from his. 11 Let us, therefore, make every effort to enter that rest, so that no one will perish by following their example of disobedience.",
-                  "Hebrews 4:1-11"
-                ]
-              }
-            ]
+            "name": "Heb3.11.Heb4.11"
           }
         },
         {
           "sequence": 24,
-          "text": "Joshua…Savior…Israel…Canaan",
           "shape_name": "Text Box 57",
+          "text": "Joshua…Savior…Israel…Canaan",
           "timing": "click",
           "z_index": 36,
           "shape_type": "text_box",
           "layout": {
-            "x": 380.7,
-            "y": 237.3,
-            "width": 210.6,
-            "height": 68.5,
+            "x": 381,
+            "y": 237,
+            "width": 211,
+            "height": 68,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
             "font_size": 24.0,
@@ -906,22 +2161,19 @@
         },
         {
           "sequence": 25,
-          "text": "Jesus…Savior…Church…Heaven",
           "shape_name": "Text Box 58",
+          "text": "Jesus…Savior…Church…Heaven",
           "timing": "click",
           "z_index": 51,
           "shape_type": "text_box",
           "layout": {
-            "x": 381.9,
-            "y": 302.3,
-            "width": 209.4,
-            "height": 66.0,
+            "x": 382,
+            "y": 302,
+            "width": 209,
+            "height": 66,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
             "font_size": 24.0,
@@ -931,16 +2183,16 @@
         },
         {
           "sequence": 26,
-          "text": "Luke 1:30-33",
           "shape_name": "Text Box 20",
+          "text": "Luke 1:30-33",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
-            "x": 674.4,
-            "y": 366.0,
-            "width": 158.4,
-            "height": 30.0,
+            "x": 674,
+            "y": 366,
+            "width": 158,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -950,40 +2202,28 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 5
-          },
-          "linked_content": {
-            "name": "Luke1.30",
             "id": 5,
-            "slides": [
-              {
-                "slide_file": "slides/slide10.xml",
-                "texts": [
-                  "30 And the angel said to her, \"Do not be afraid, Mary, for you have found favor with God. 31 And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. 32 He will be great, and will be called the Son of the Most High; and the Lord God will give to him the throne of his father David, 33 and he will reign over the house of Jacob forever; and of his kingdom there will be no end.\"",
-                  "Luke 1:30-33"
-                ]
-              }
-            ]
+            "name": "Luke1.30"
           }
         },
         {
           "sequence": 27,
-          "text": "Christ",
           "shape_name": "Text Box 42",
+          "text": "Christ",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
           "layout": {
-            "x": 681.6,
-            "y": 400.1,
-            "width": 144.0,
-            "height": 43.9,
+            "x": 682,
+            "y": 400,
+            "width": 144,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#FFFFFF",
           "line": {
-            "width": 1.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -994,16 +2234,16 @@
         },
         {
           "sequence": 28,
-          "text": "Galatians 3:16-29",
           "shape_name": "Text Box 31",
+          "text": "Galatians 3:16-29",
           "timing": "click",
           "z_index": 21,
           "shape_type": "text_box",
           "layout": {
-            "x": 105.6,
-            "y": 396.0,
-            "width": 205.2,
-            "height": 30.0,
+            "x": 106,
+            "y": 396,
+            "width": 205,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -1013,40 +2253,28 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 8
-          },
-          "linked_content": {
-            "name": "Gal3.16",
             "id": 8,
-            "slides": [
-              {
-                "slide_file": "slides/slide15.xml",
-                "texts": [
-                  "16 Now the promises were made to Abraham and to his offspring. It does not say, \"And to offsprings,\" referring to many; but, referring to one, \"And to your offspring,\" which is Christ. 17 This is what I mean: the law, which came four hundred and thirty years afterward, does not annul a covenant previously ratified by God, so as to make the promise void. 18 For if the inheritance is by the law, it is no longer by promise; but God gave it to Abraham by a promise. 19 Why then the law? It was added because of transgressions, till the offspring should come to whom the promise had been made; and it was ordained by angels through an intermediary. 20 Now an intermediary implies more than one; but God is one. 21 Is the law then against the promises of God? Certainly not; for if a law had been given which could make alive, then righteousness would indeed be by the law. 22 But the scripture consigned all things to sin, that what was promised to faith in Jesus Christ might be given to those who believe. 23 Now before faith came, we were confined under the law, kept under restraint until faith should be revealed. 24 So that the law was our custodian until Christ came, that we might be justified by faith. 25 But now that faith has come, we are no longer under a custodian; 26 for in Christ Jesus you are all sons of God, through faith. 27 For as many of you as were baptized into Christ have put on Christ. 28 There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus. 29 And if you are Christ's, then you are Abraham's offspring, heirs according to promise.",
-                  "Galatians 3:16-29"
-                ]
-              }
-            ]
+            "name": "Gal3.16"
           }
         },
         {
           "sequence": 29,
-          "text": "Abraham",
           "shape_name": "Text Box 33",
+          "text": "Abraham",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
           "layout": {
-            "x": 137.1,
-            "y": 428.4,
-            "width": 160.2,
-            "height": 44.1,
+            "x": 137,
+            "y": 428,
+            "width": 160,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#FFFFFF",
           "line": {
-            "width": 1.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1056,33 +2284,29 @@
         },
         {
           "sequence": 30,
-          "text": "",
           "shape_name": "Line 47",
           "timing": "click",
           "z_index": 24,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 271.2,
-            "y": 433.3,
-            "width": 56.5,
-            "height": 4.7,
+            "x": 271,
+            "y": 433,
+            "width": 56,
+            "height": 5,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 299.4,
-              "y": 433.3
+              "x": 299,
+              "y": 433
             },
             "to": {
-              "x": 299.4,
-              "y": 438.0
+              "x": 299,
+              "y": 438
             }
           },
           "arrow_ends": {
@@ -1091,25 +2315,22 @@
         },
         {
           "sequence": 31,
-          "text": "Isaac",
           "shape_name": "Text Box 35",
+          "text": "Isaac",
           "timing": "after",
           "z_index": 45,
           "shape_type": "text_box",
           "layout": {
-            "x": 328.8,
-            "y": 421.5,
-            "width": 64.2,
-            "height": 27.2,
+            "x": 329,
+            "y": 422,
+            "width": 64,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1119,33 +2340,29 @@
         },
         {
           "sequence": 32,
-          "text": "",
           "shape_name": "Line 51",
           "timing": "click",
           "z_index": 44,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 379.2,
-            "y": 399.3,
-            "width": 22.9,
-            "height": 26.7,
+            "x": 379,
+            "y": 399,
+            "width": 23,
+            "height": 27,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 390.6,
-              "y": 399.3
+              "x": 390,
+              "y": 399
             },
             "to": {
-              "x": 390.6,
-              "y": 426.0
+              "x": 390,
+              "y": 426
             }
           },
           "arrow_ends": {
@@ -1154,25 +2371,22 @@
         },
         {
           "sequence": 33,
-          "text": "Esau",
           "shape_name": "Text Box 36",
+          "text": "Esau",
           "timing": "after",
           "z_index": 27,
           "shape_type": "text_box",
           "layout": {
-            "x": 392.1,
-            "y": 375.3,
-            "width": 62.1,
-            "height": 27.2,
+            "x": 392,
+            "y": 375,
+            "width": 62,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1182,33 +2396,29 @@
         },
         {
           "sequence": 34,
-          "text": "",
           "shape_name": "Line 52",
           "timing": "after",
           "z_index": 25,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 386.4,
-            "y": 438.0,
-            "width": 36.0,
-            "height": 0.0,
+            "x": 386,
+            "y": 438,
+            "width": 36,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 404.4,
-              "y": 438.0
+              "x": 404,
+              "y": 438
             },
             "to": {
-              "x": 404.4,
-              "y": 438.0
+              "x": 404,
+              "y": 438
             }
           },
           "arrow_ends": {
@@ -1217,25 +2427,22 @@
         },
         {
           "sequence": 35,
-          "text": "Jacob",
           "shape_name": "Text Box 37",
+          "text": "Jacob",
           "timing": "after",
           "z_index": 47,
           "shape_type": "text_box",
           "layout": {
-            "x": 422.4,
-            "y": 421.5,
-            "width": 69.6,
-            "height": 27.2,
+            "x": 422,
+            "y": 422,
+            "width": 70,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1245,33 +2452,29 @@
         },
         {
           "sequence": 36,
-          "text": "",
           "shape_name": "Line 53",
           "timing": "click",
           "z_index": 46,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 486.6,
-            "y": 438.0,
-            "width": 50.2,
-            "height": 0.0,
+            "x": 487,
+            "y": 438,
+            "width": 50,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 511.7,
-              "y": 438.0
+              "x": 512,
+              "y": 438
             },
             "to": {
-              "x": 511.7,
-              "y": 438.0
+              "x": 512,
+              "y": 438
             }
           },
           "arrow_ends": {
@@ -1280,25 +2483,22 @@
         },
         {
           "sequence": 37,
-          "text": "12 Sons(Tribes)",
           "shape_name": "Text Box 38",
+          "text": "12 Sons(Tribes)",
           "timing": "after",
           "z_index": 31,
           "shape_type": "text_box",
           "layout": {
-            "x": 531.4,
-            "y": 422.3,
-            "width": 88.8,
-            "height": 46.5,
+            "x": 531,
+            "y": 422,
+            "width": 89,
+            "height": 47,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1307,25 +2507,22 @@
         },
         {
           "sequence": 38,
-          "text": "Judah",
           "shape_name": "Text Box 40",
+          "text": "Judah",
           "timing": "after",
           "z_index": 29,
           "shape_type": "text_box",
           "layout": {
-            "x": 547.0,
-            "y": 398.8,
-            "width": 81.9,
-            "height": 27.2,
+            "x": 547,
+            "y": 399,
+            "width": 82,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1334,25 +2531,22 @@
         },
         {
           "sequence": 39,
-          "text": "David",
           "shape_name": "Text Box 41",
+          "text": "David",
           "timing": "after",
           "z_index": 28,
           "shape_type": "text_box",
           "layout": {
-            "x": 564.2,
-            "y": 371.6,
-            "width": 75.2,
-            "height": 27.2,
+            "x": 564,
+            "y": 372,
+            "width": 75,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1361,33 +2555,29 @@
         },
         {
           "sequence": 40,
-          "text": "",
           "shape_name": "Line 55",
           "timing": "after",
           "z_index": 3,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 638.4,
-            "y": 387.0,
-            "width": 39.5,
-            "height": 20.2,
+            "x": 638,
+            "y": 387,
+            "width": 40,
+            "height": 20,
             "rotation": 0
           },
           "line": {
-            "width": 6.7,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 7,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 658.1,
-              "y": 387.0
+              "x": 658,
+              "y": 387
             },
             "to": {
-              "x": 658.1,
-              "y": 407.2
+              "x": 658,
+              "y": 407
             }
           },
           "arrow_ends": {
@@ -1396,51 +2586,48 @@
         },
         {
           "sequence": 41,
-          "text": "“if you are Christ's, then you are Abraham's offspring, ”",
           "shape_name": "TextBox 1",
+          "text": "“if you are Christ's, then you are Abraham's offspring, ”",
           "timing": "click",
           "z_index": 50,
           "shape_type": "text_box",
           "layout": {
-            "x": 621.3,
-            "y": 449.1,
-            "width": 239.2,
-            "height": 50.4,
+            "x": 621,
+            "y": 449,
+            "width": 239,
+            "height": 50,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "font_size": 16.8
           }
         },
         {
           "sequence": 42,
-          "text": "",
           "shape_name": "Line 46",
           "timing": "click",
           "z_index": 23,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 164.5,
-            "y": 472.5,
-            "width": 36.0,
-            "height": 15.2,
+            "x": 165,
+            "y": 472,
+            "width": 36,
+            "height": 15,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 182.5,
-              "y": 472.5
+              "x": 183,
+              "y": 472
             },
             "to": {
-              "x": 182.5,
-              "y": 487.7
+              "x": 183,
+              "y": 487
             }
           },
           "arrow_ends": {
@@ -1449,25 +2636,22 @@
         },
         {
           "sequence": 43,
-          "text": "Ishmael",
           "shape_name": "Text Box 34",
+          "text": "Ishmael",
           "timing": "after",
           "z_index": 41,
           "shape_type": "text_box",
           "layout": {
-            "x": 201.4,
-            "y": 478.1,
-            "width": 85.5,
-            "height": 27.2,
+            "x": 201,
+            "y": 478,
+            "width": 86,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1477,33 +2661,29 @@
         },
         {
           "sequence": 44,
-          "text": "",
           "shape_name": "Line 48",
           "timing": "click",
           "z_index": 40,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 279.8,
-            "y": 493.6,
-            "width": 35.0,
-            "height": 0.0,
+            "x": 280,
+            "y": 494,
+            "width": 35,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 297.3,
-              "y": 493.6
+              "x": 298,
+              "y": 494
             },
             "to": {
-              "x": 297.3,
-              "y": 493.6
+              "x": 298,
+              "y": 494
             }
           },
           "arrow_ends": {
@@ -1512,25 +2692,22 @@
         },
         {
           "sequence": 45,
-          "text": "Arabic  Nations",
           "shape_name": "Text Box 43",
+          "text": "Arabic  Nations",
           "timing": "after",
           "z_index": 39,
           "shape_type": "text_box",
           "layout": {
-            "x": 307.2,
-            "y": 480.0,
-            "width": 147.5,
-            "height": 27.2,
+            "x": 307,
+            "y": 480,
+            "width": 148,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1539,33 +2716,29 @@
         },
         {
           "sequence": 46,
-          "text": "",
           "shape_name": "Line 49",
           "timing": "after",
           "z_index": 0,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 438.9,
-            "y": 493.6,
-            "width": 43.2,
-            "height": 0.0,
+            "x": 439,
+            "y": 494,
+            "width": 43,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 460.5,
-              "y": 493.6
+              "x": 460,
+              "y": 494
             },
             "to": {
-              "x": 460.5,
-              "y": 493.6
+              "x": 460,
+              "y": 494
             }
           },
           "arrow_ends": {
@@ -1574,25 +2747,22 @@
         },
         {
           "sequence": 47,
-          "text": "Mohammed",
           "shape_name": "Text Box 44",
+          "text": "Mohammed",
           "timing": "after",
           "z_index": 42,
           "shape_type": "text_box",
           "layout": {
-            "x": 481.1,
-            "y": 480.0,
-            "width": 119.7,
-            "height": 27.2,
+            "x": 481,
+            "y": 480,
+            "width": 120,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1602,33 +2772,29 @@
         },
         {
           "sequence": 48,
-          "text": "",
           "shape_name": "Line 50",
           "timing": "after",
           "z_index": 38,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 521.7,
-            "y": 503.9,
-            "width": 50.3,
-            "height": 15.4,
+            "x": 522,
+            "y": 504,
+            "width": 50,
+            "height": 15,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "width": 4,
+            "color": "#000000"
           },
           "line_endpoints": {
             "from": {
-              "x": 546.9,
-              "y": 503.9
+              "x": 547,
+              "y": 504
             },
             "to": {
-              "x": 546.9,
-              "y": 519.3
+              "x": 547,
+              "y": 519
             }
           },
           "arrow_ends": {
@@ -1637,25 +2803,22 @@
         },
         {
           "sequence": 49,
-          "text": "Islam",
           "shape_name": "Text Box 45",
+          "text": "Islam",
           "timing": "after",
           "z_index": 43,
           "shape_type": "text_box",
           "layout": {
-            "x": 572.9,
-            "y": 502.4,
-            "width": 75.9,
-            "height": 27.2,
+            "x": 573,
+            "y": 502,
+            "width": 76,
+            "height": 27,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "v_align": "middle",
@@ -1665,58 +2828,50 @@
       ],
       "static_content": [
         {
-          "text": "",
           "shape_name": "Text Box 4",
           "static": true,
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 480.0,
-            "y": 0.0,
-            "width": 17.4,
-            "height": 50.5,
+            "x": 480,
+            "y": 0,
+            "width": 17,
+            "height": 50,
             "rotation": 0
-          },
-          "font": {
-            "v_align": "middle"
           }
         },
         {
-          "text": "The Promises",
           "shape_name": "Rectangle 63",
           "static": true,
+          "text": "The Promises",
           "z_index": 32,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 321.6,
-            "y": 3.1,
-            "width": 316.8,
-            "height": 42.0,
+            "x": 322,
+            "y": 3,
+            "width": 317,
+            "height": 42,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
             "font_size": 43.2,
-            "theme_color": "TEXT_1 (13)"
+            "bold": true,
+            "color": "#000000"
           }
         },
         {
-          "text": "",
           "shape_name": "Rectangle 68",
           "static": true,
           "z_index": 33,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 390.6,
-            "y": 187.4,
-            "width": 17.4,
-            "height": 26.5,
+            "x": 391,
+            "y": 187,
+            "width": 17,
+            "height": 26,
             "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left"
           }
         }
       ]
@@ -1726,16 +2881,16 @@
       "animation_sequence": [
         {
           "sequence": 1,
-          "text": "Galatians 4:21-31",
           "shape_name": "Text Box 4",
+          "text": "Galatians 4:21-31",
           "timing": "with",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 60.5,
-            "y": -1.4,
-            "width": 336.4,
-            "height": 55.3,
+            "x": 60,
+            "y": -1,
+            "width": 336,
+            "height": 55,
             "rotation": 0
           },
           "font": {
@@ -1744,98 +2899,79 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 1
-          },
-          "linked_content": {
-            "name": "Gal4.21",
             "id": 1,
-            "slides": [
-              {
-                "slide_file": "slides/slide6.xml",
-                "texts": [
-                  "21 Tell me, you who desire to be under law, do you not hear the law? 22 For it is written that Abraham had two sons, one by a slave and one by a free woman. 23 But the son of the slave was born according to the flesh, the son of the free woman through promise. 24 Now this is an allegory: these women are two covenants. One is from Mount Sinai, bearing children for slavery; she is Hagar. 25 Now Hagar is Mount Sinai in Arabia; she corresponds to the present Jerusalem, for she is in slavery with her children. 26 But the Jerusalem above is free, and she is our mother. 27 For it is written, \"Rejoice, O barren one who does not bear; break forth and shout, you who are not in travail; for the children of the desolate one are many more than the children of her that is married.\" 28 Now we, brethren, like Isaac, are children of promise. 29 But as at that time he who was born according to the flesh persecuted him who was born according to the Spirit, so it is now. 30 But what does the scripture say? \"Cast out the slave and her son; for the son of the slave shall not inherit with the son of the free woman.\" 31 So, brethren, we are not children of the slave but of the free woman.",
-                  "Galatians 4:21-31"
-                ]
-              }
-            ]
+            "name": "Gal4.21"
           }
         },
         {
           "sequence": 2,
-          "text": "",
           "shape_name": "Rectangle 35",
           "timing": "click",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 92.3,
-            "y": 52.7,
-            "width": 345.6,
-            "height": 468.0,
+            "x": 92,
+            "y": 53,
+            "width": 346,
+            "height": 468,
             "rotation": 0
           },
-          "fill": "#B3B3B3",
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#B3B3B3"
         },
         {
           "sequence": 3,
-          "text": "",
           "shape_name": "Rectangle 34",
           "timing": "with",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 516.0,
-            "y": 52.7,
-            "width": 338.4,
-            "height": 468.0,
+            "x": 516,
+            "y": 53,
+            "width": 338,
+            "height": 468,
             "rotation": 0
           },
-          "fill": "#33CCFF",
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#33CCFF"
         },
         {
           "sequence": 4,
-          "text": "Abraham",
           "shape_name": "Rectangle 33",
+          "text": "Abraham",
           "timing": "after",
           "delay": 500,
           "z_index": 22,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 379.2,
-            "y": 100.7,
-            "width": 208.8,
-            "height": 54.0,
+            "x": 379,
+            "y": 101,
+            "width": 209,
+            "height": 54,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "line": {
-            "width": 2.3,
+            "width": 2,
             "color": "#000000"
           },
           "font": {
             "font_name": "Arial",
             "font_size": 43.2,
-            "theme_color": "TEXT_1 (13)"
+            "bold": true,
+            "color": "#000000"
           }
         },
         {
           "sequence": 5,
-          "text": "Ishmael",
           "shape_name": "Text Box 7",
+          "text": "Ishmael",
           "timing": "click",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
-            "x": 180.9,
-            "y": 107.5,
-            "width": 170.2,
-            "height": 61.1,
+            "x": 181,
+            "y": 108,
+            "width": 170,
+            "height": 61,
             "rotation": 0
           },
           "font": {
@@ -1845,16 +2981,16 @@
         },
         {
           "sequence": 6,
-          "text": "Isaac",
           "shape_name": "Text Box 6",
+          "text": "Isaac",
           "timing": "click",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 624.9,
-            "y": 108.7,
-            "width": 121.7,
-            "height": 61.1,
+            "x": 625,
+            "y": 109,
+            "width": 122,
+            "height": 61,
             "rotation": 0
           },
           "font": {
@@ -1865,36 +3001,36 @@
         },
         {
           "sequence": 7,
-          "text": "Physical",
           "shape_name": "Text Box 31",
+          "text": "Physical",
           "timing": "click",
           "z_index": 16,
           "shape_type": "text_box",
           "layout": {
-            "x": 167.9,
-            "y": 44.7,
-            "width": 194.5,
-            "height": 61.1,
+            "x": 168,
+            "y": 45,
+            "width": 194,
+            "height": 61,
             "rotation": 0
           },
           "font": {
             "font_size": 43.2,
             "bold": true,
-            "theme_color": "FOLLOWED_HYPERLINK (12)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 8,
-          "text": "Spiritual",
           "shape_name": "Text Box 32",
+          "text": "Spiritual",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
           "layout": {
-            "x": 589.2,
-            "y": 45.9,
-            "width": 192.0,
-            "height": 61.1,
+            "x": 589,
+            "y": 46,
+            "width": 192,
+            "height": 61,
             "rotation": 0
           },
           "font": {
@@ -1905,54 +3041,46 @@
         },
         {
           "sequence": 9,
-          "text": "",
           "shape_name": "AutoShape 45",
           "timing": "click",
           "z_index": 21,
           "shape_type": "freeform",
           "layout": {
-            "x": 335.5,
-            "y": 154.7,
-            "width": 122.4,
-            "height": 36.0,
+            "x": 335,
+            "y": 155,
+            "width": 122,
+            "height": 36,
             "rotation": 0
           },
-          "fill": {
-            "theme": "TEXT_1 (13)",
-            "brightness": 0
-          },
+          "fill": "#000000",
           "line": {
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "color": "#000000"
           },
           "arc_path": {
             "from": {
-              "x": 335.5,
-              "y": 180.6
+              "x": 335,
+              "y": 181
             },
             "to": {
-              "x": 387.5,
-              "y": 177.8
+              "x": 387,
+              "y": 178
             },
-            "curve": 28.8,
-            "flip": true
+            "curve": 29
           }
         },
         {
           "sequence": 10,
-          "text": "Hagar",
           "shape_name": "Text Box 11",
+          "text": "Hagar",
           "timing": "after",
           "delay": 500,
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
-            "x": 195.3,
-            "y": 154.3,
-            "width": 141.1,
-            "height": 61.1,
+            "x": 195,
+            "y": 154,
+            "width": 141,
+            "height": 61,
             "rotation": 0
           },
           "font": {
@@ -1963,17 +3091,17 @@
         },
         {
           "sequence": 11,
-          "text": "covenant",
           "shape_name": "Text Box 39",
+          "text": "covenant",
           "timing": "after",
           "delay": 1000,
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
-            "x": 178.5,
-            "y": 196.7,
-            "width": 174.8,
-            "height": 55.3,
+            "x": 179,
+            "y": 197,
+            "width": 175,
+            "height": 55,
             "rotation": 0
           },
           "font": {
@@ -1983,54 +3111,46 @@
         },
         {
           "sequence": 12,
-          "text": "",
           "shape_name": "AutoShape 44",
           "timing": "click",
           "z_index": 20,
           "shape_type": "freeform",
           "layout": {
-            "x": 496.3,
-            "y": 154.7,
-            "width": 122.4,
-            "height": 36.0,
+            "x": 496,
+            "y": 155,
+            "width": 122,
+            "height": 36,
             "rotation": 0
           },
-          "fill": {
-            "theme": "TEXT_1 (13)",
-            "brightness": 0
-          },
+          "fill": "#000000",
           "line": {
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "color": "#000000"
           },
           "arc_path": {
             "from": {
-              "x": 618.7,
-              "y": 180.6
+              "x": 618,
+              "y": 181
             },
             "to": {
-              "x": 566.7,
-              "y": 177.8
+              "x": 566,
+              "y": 178
             },
-            "curve": 28.8,
-            "flip": false
+            "curve": 29
           }
         },
         {
           "sequence": 13,
-          "text": "Sarah",
           "shape_name": "Text Box 8",
+          "text": "Sarah",
           "timing": "after",
           "delay": 500,
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 616.5,
-            "y": 158.2,
-            "width": 138.7,
-            "height": 61.1,
+            "x": 617,
+            "y": 158,
+            "width": 139,
+            "height": 61,
             "rotation": 0
           },
           "font": {
@@ -2042,17 +3162,17 @@
         },
         {
           "sequence": 14,
-          "text": "covenant",
           "shape_name": "Text Box 40",
+          "text": "covenant",
           "timing": "after",
           "delay": 1000,
           "z_index": 19,
           "shape_type": "text_box",
           "layout": {
-            "x": 598.5,
-            "y": 196.7,
-            "width": 174.8,
-            "height": 55.3,
+            "x": 599,
+            "y": 197,
+            "width": 175,
+            "height": 55,
             "rotation": 0
           },
           "font": {
@@ -2063,42 +3183,35 @@
         },
         {
           "sequence": 15,
-          "text": "",
           "shape_name": "AutoShape 49",
           "timing": "click",
           "z_index": 23,
           "shape_type": "arrow",
           "layout": {
-            "x": 240.0,
-            "y": 244.3,
-            "width": 50.4,
-            "height": 48.0,
+            "x": 240,
+            "y": 244,
+            "width": 50,
+            "height": 48,
             "rotation": 0
           },
-          "fill": {
-            "theme": "TEXT_1 (13)",
-            "brightness": 0
-          },
+          "fill": "#000000",
           "line": {
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "color": "#000000"
           }
         },
         {
           "sequence": 16,
-          "text": "Mt. Sinai",
           "shape_name": "Text Box 12",
+          "text": "Mt. Sinai",
           "timing": "after",
           "delay": 500,
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
-            "x": 177.5,
-            "y": 282.2,
-            "width": 176.9,
-            "height": 55.3,
+            "x": 177,
+            "y": 282,
+            "width": 177,
+            "height": 55,
             "rotation": 0
           },
           "font": {
@@ -2109,16 +3222,16 @@
         },
         {
           "sequence": 17,
-          "text": "Mosaical Law",
           "shape_name": "Text Box 13",
+          "text": "Mosaical Law",
           "timing": "click",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
-            "x": 132.8,
-            "y": 314.2,
-            "width": 276.9,
-            "height": 55.3,
+            "x": 133,
+            "y": 314,
+            "width": 277,
+            "height": 55,
             "rotation": 0
           },
           "font": {
@@ -2129,16 +3242,16 @@
         },
         {
           "sequence": 18,
-          "text": "Present Jerusalem",
           "shape_name": "Text Box 14",
+          "text": "Present Jerusalem",
           "timing": "click",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
-            "x": 116.4,
-            "y": 360.0,
-            "width": 302.1,
-            "height": 49.4,
+            "x": 116,
+            "y": 360,
+            "width": 302,
+            "height": 49,
             "rotation": 0
           },
           "font": {
@@ -2148,16 +3261,16 @@
         },
         {
           "sequence": 19,
-          "text": "Bondage to sin",
           "shape_name": "Text Box 15",
+          "text": "Bondage to sin",
           "timing": "click",
           "z_index": 12,
           "shape_type": "text_box",
           "layout": {
-            "x": 144.3,
-            "y": 394.7,
-            "width": 252.0,
-            "height": 49.4,
+            "x": 144,
+            "y": 395,
+            "width": 252,
+            "height": 49,
             "rotation": 0
           },
           "font": {
@@ -2167,16 +3280,16 @@
         },
         {
           "sequence": 20,
-          "text": "Slaves to the LAW",
           "shape_name": "Text Box 16",
+          "text": "Slaves to the LAW",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
-            "x": 118.2,
-            "y": 438.0,
-            "width": 296.1,
-            "height": 49.4,
+            "x": 118,
+            "y": 438,
+            "width": 296,
+            "height": 49,
             "rotation": 0
           },
           "font": {
@@ -2186,16 +3299,16 @@
         },
         {
           "sequence": 21,
-          "text": "Romans 8:2-3",
           "shape_name": "Text Box 17",
+          "text": "Romans 8:2-3",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
-            "x": 166.1,
-            "y": 471.5,
-            "width": 208.2,
-            "height": 43.6,
+            "x": 166,
+            "y": 472,
+            "width": 208,
+            "height": 44,
             "rotation": 0
           },
           "font": {
@@ -2205,60 +3318,41 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 10
-          },
-          "linked_content": {
-            "name": "Rom8.2",
             "id": 10,
-            "slides": [
-              {
-                "slide_file": "slides/slide17.xml",
-                "texts": [
-                  "2 For the law of the Spirit of life in Christ Jesus has set me free from the law of sin and death. 3 For God has done what the law, weakened by the flesh, could not do: sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh,",
-                  "Romans 8:2-3"
-                ]
-              }
-            ]
+            "name": "Rom8.2"
           }
         },
         {
           "sequence": 22,
-          "text": "",
           "shape_name": "AutoShape 50",
           "timing": "click",
           "z_index": 24,
           "shape_type": "arrow",
           "layout": {
-            "x": 660.0,
-            "y": 244.3,
-            "width": 50.4,
-            "height": 48.0,
+            "x": 660,
+            "y": 244,
+            "width": 50,
+            "height": 48,
             "rotation": 0
           },
-          "fill": {
-            "theme": "TEXT_1 (13)",
-            "brightness": 0
-          },
+          "fill": "#000000",
           "line": {
-            "theme_color": "TEXT_1 (13)"
-          },
-          "font": {
-            "v_align": "middle"
+            "color": "#000000"
           }
         },
         {
           "sequence": 23,
-          "text": "“Jerusalem above is free”",
           "shape_name": "Text Box 9",
+          "text": "“Jerusalem above is free”",
           "timing": "after",
           "delay": 500,
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
-            "x": 543.4,
-            "y": 278.5,
-            "width": 283.4,
-            "height": 97.9,
+            "x": 543,
+            "y": 279,
+            "width": 283,
+            "height": 98,
             "rotation": 0
           },
           "font": {
@@ -2268,16 +3362,16 @@
         },
         {
           "sequence": 24,
-          "text": "Hebrews 12:22-24",
           "shape_name": "Text Box 10",
+          "text": "Hebrews 12:22-24",
           "timing": "click",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
-            "x": 551.0,
-            "y": 383.0,
-            "width": 284.7,
-            "height": 49.4,
+            "x": 551,
+            "y": 383,
+            "width": 285,
+            "height": 49,
             "rotation": 0
           },
           "font": {
@@ -2287,43 +3381,28 @@
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 9
-          },
-          "linked_content": {
-            "name": "Heb12.22",
             "id": 9,
-            "slides": [
-              {
-                "slide_file": "slides/slide16.xml",
-                "texts": [
-                  "22 But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, 23 and to the assembly of the first-born who are enrolled in heaven, and to a judge who is God of all, and to the spirits of just men made perfect, 24 and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks more graciously than the blood of Abel.",
-                  "Hebrews 12:22-24"
-                ]
-              }
-            ]
+            "name": "Heb12.22"
           }
         },
         {
           "sequence": 25,
-          "text": "Physical Jews/Following Mosaical Law does not give salvation.",
           "shape_name": "Text Box 28",
+          "text": "Physical Jews/Following Mosaical Law does not give salvation.",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
           "layout": {
-            "x": 85.4,
-            "y": 374.8,
-            "width": 362.9,
-            "height": 64.8,
+            "x": 85,
+            "y": 375,
+            "width": 363,
+            "height": 65,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "font_size": 21.6,
@@ -2332,25 +3411,22 @@
         },
         {
           "sequence": 26,
-          "text": "Spiritual Jews/Following Christ’s Law gives salvation.",
           "shape_name": "Text Box 29",
+          "text": "Spiritual Jews/Following Christ’s Law gives salvation.",
           "timing": "click",
           "z_index": 25,
           "shape_type": "text_box",
           "layout": {
-            "x": 503.3,
-            "y": 446.3,
-            "width": 362.9,
-            "height": 64.8,
+            "x": 503,
+            "y": 446,
+            "width": 363,
+            "height": 65,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "font_size": 24.0,
@@ -2365,1587 +3441,36 @@
       "animation_sequence": [],
       "static_content": [
         {
-          "text": "",
           "shape_name": "Text Box 4",
           "static": true,
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
-            "x": 467.3,
-            "y": 205.1,
-            "width": 19.4,
-            "height": 137.7,
+            "x": 467,
+            "y": 205,
+            "width": 19,
+            "height": 138,
             "rotation": 0
           }
         },
         {
-          "text": "End of lesson",
           "shape_name": "Rectangle 5",
           "static": true,
+          "text": "End of lesson",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 48.0,
-            "y": 24.0,
-            "width": 396.0,
-            "height": 44.4,
+            "x": 48,
+            "y": 24,
+            "width": 396,
+            "height": 44,
             "rotation": 0
           },
           "fill": "#DDDDDD",
           "font": {
             "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 4,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "Invisible",
-          "shape_name": "Rectangle 146",
-          "timing": "click",
-          "z_index": 15,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 156.0,
-            "y": 342.2,
-            "width": 259.2,
-            "height": 36.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 43.2,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "sequence": 2,
-          "text": "Eternal",
-          "shape_name": "Rectangle 146",
-          "timing": "with",
-          "z_index": 17,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 156.0,
-            "y": 385.8,
-            "width": 259.2,
-            "height": 36.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 38.4,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "sequence": 3,
-          "text": "Visible",
-          "shape_name": "Rectangle 146",
-          "timing": "click",
-          "z_index": 16,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 337.3,
-            "width": 259.2,
-            "height": 45.9,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 43.2,
-            "bold": true
-          }
-        },
-        {
-          "sequence": 4,
-          "text": "Temporary",
-          "shape_name": "Rectangle 146",
-          "timing": "with",
-          "z_index": 18,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 388.1,
-            "width": 259.2,
-            "height": 31.2,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 38.4,
-            "bold": true
-          }
-        },
-        {
-          "sequence": 5,
-          "text": "True & Real",
-          "shape_name": "TextBox 37",
-          "timing": "click",
-          "z_index": 13,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 156.0,
-            "y": 414.9,
-            "width": 259.2,
-            "height": 57.1,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 43.2,
-            "bold": true,
-            "theme_color": "ACCENT_5 (9)"
-          }
-        },
-        {
-          "sequence": 6,
-          "text": "Shadow & Copy",
-          "shape_name": "TextBox 35",
-          "timing": "click",
-          "z_index": 12,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 471.0,
-            "y": 418.1,
-            "width": 378.0,
-            "height": 52.6,
-            "rotation": 0
-          },
-          "font": {
-            "font_size": 43.2,
-            "bold": true
-          }
-        }
-      ],
-      "static_content": [
-        {
-          "text": "PHYSICAL",
-          "shape_name": "Text Box 108",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 550.7,
-            "y": 105.2,
-            "width": 256.5,
-            "height": 47.9,
-            "rotation": 0
-          },
-          "font": {
-            "font_size": 43.2,
-            "bold": true,
-            "theme_color": "TEXT_2 (15)"
-          },
-          "hyperlink": {
-            "type": "action",
-            "action": "ppaction://noaction"
-          }
-        },
-        {
-          "text": "Perishable",
-          "shape_name": "Rectangle 141",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 154.6,
-            "width": 259.2,
-            "height": 46.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Imperishable",
-          "shape_name": "Rectangle 142",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 156.0,
-            "y": 153.8,
-            "width": 259.2,
-            "height": 38.5,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "text": "Dishonor",
-          "shape_name": "Rectangle 143",
-          "static": true,
-          "z_index": 3,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 184.6,
-            "width": 259.2,
-            "height": 46.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Glory",
-          "shape_name": "Rectangle 144",
-          "static": true,
-          "z_index": 4,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 156.0,
-            "y": 183.8,
-            "width": 259.2,
-            "height": 38.5,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "text": "Weakness",
-          "shape_name": "Rectangle 145",
-          "static": true,
-          "z_index": 5,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 214.6,
-            "width": 259.2,
-            "height": 46.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Power",
-          "shape_name": "Rectangle 146",
-          "static": true,
-          "z_index": 6,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 156.0,
-            "y": 213.8,
-            "width": 259.2,
-            "height": 38.5,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "text": "Physical Body",
-          "shape_name": "Rectangle 147",
-          "static": true,
-          "z_index": 7,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 244.7,
-            "width": 259.2,
-            "height": 46.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Spiritual Body",
-          "shape_name": "Rectangle 148",
-          "static": true,
-          "z_index": 8,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 156.0,
-            "y": 248.4,
-            "width": 259.2,
-            "height": 38.5,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "text": "1st Adam - Earth",
-          "shape_name": "Rectangle 149",
-          "static": true,
-          "z_index": 9,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 550.3,
-            "y": 287.8,
-            "width": 259.2,
-            "height": 46.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "2nd Adam - Heaven",
-          "shape_name": "Rectangle 150",
-          "static": true,
-          "z_index": 10,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 116.7,
-            "y": 291.6,
-            "width": 354.3,
-            "height": 38.5,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "font_size": 33.6,
-            "bold": true,
-            "color": "#0000FF"
-          }
-        },
-        {
-          "text": "or",
-          "shape_name": "Text Box 110",
-          "static": true,
-          "z_index": 11,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 467.8,
-            "y": 112.2,
-            "width": 37.0,
-            "height": 40.9,
-            "rotation": 0
-          },
-          "font": {
-            "font_size": 33.6,
-            "theme_color": "TEXT_2 (15)"
-          }
-        },
-        {
-          "text": "1 Corinthians 15:40-45",
-          "shape_name": "Title 40",
-          "static": true,
-          "z_index": 14,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 207.1,
-            "y": 13.1,
-            "width": 521.3,
-            "height": 84.5,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 42.7,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "hyperlink": {
-            "type": "customshow",
-            "id": 0
-          },
-          "linked_content": {
-            "name": "1Cor5.40",
-            "id": 0,
-            "slides": [
-              {
-                "slide_file": "slides/slide5.xml",
-                "texts": [
-                  "1 Corinthians 15:40-45",
-                  "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "text": "SPIRITUAL",
-          "shape_name": "TextBox 1",
-          "static": true,
-          "z_index": 19,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 160.9,
-            "y": 98.6,
-            "width": 249.4,
-            "height": 62.0,
-            "rotation": 0
-          },
-          "font": {
-            "font_size": 43.2,
-            "bold": true,
-            "theme_color": "ACCENT_5 (9)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 5,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "1 Corinthians 15:40-45",
-          "shape_name": "Title 1",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 105.6,
-            "y": 14.5,
-            "width": 705.6,
-            "height": 54.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "top",
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        },
-        {
-          "text": "",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 184.8,
-            "y": 138.0,
-            "width": 252.0,
-            "height": 30.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left"
-          }
-        },
-        {
-          "text": "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-          "shape_name": "Rectangle 3",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 88.0,
-            "y": 80.4,
-            "width": 773.6,
-            "height": 358.7,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_size": 28.8
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 6,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "21 Tell me, you who desire to be under law, do you not hear the law? 22 For it is written that Abraham had two sons, one by a slave and one by a free woman. 23 But the son of the slave was born according to the flesh, the son of the free woman through promise. 24 Now this is an allegory: these women are two covenants. One is from Mount Sinai, bearing children for slavery; she is Hagar. 25 Now Hagar is Mount Sinai in Arabia; she corresponds to the present Jerusalem, for she is in slavery with her children. 26 But the Jerusalem above is free, and she is our mother. 27 For it is written, \"Rejoice, O barren one who does not bear; break forth and shout, you who are not in travail; for the children of the desolate one are many more than the children of her that is married.\" 28 Now we, brethren, like Isaac, are children of promise. 29 But as at that time he who was born according to the flesh persecuted him who was born according to the Spirit, so it is now. 30 But what does the scripture say? \"Cast out the slave and her son; for the son of the slave shall not inherit with the son of the free woman.\" 31 So, brethren, we are not children of the slave but of the free woman.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 69.0,
-            "y": 49.4,
-            "width": 833.3,
-            "height": 475.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 24.0,
-            "bold": true
-          }
-        },
-        {
-          "text": "Galatians 4:21-31",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 78.0,
-            "y": 7.3,
-            "width": 432.0,
-            "height": 48.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 7,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "1 Now the LORD said to Abram, \"Go from your country and your kindred and your father's house to the land that I will show you. 2 And I will make of you a great nation, and I will bless you, and make your name great, so that you will be a blessing. 3 I will bless those who bless you, and him who curses you I will curse; and by you all the families of the earth shall bless themselves.\"",
-          "shape_name": "Rectangle 3",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 76.8,
-            "y": 84.2,
-            "width": 813.1,
-            "height": 335.4,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Genesis 12:1-3",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 81.3,
-            "y": 29.8,
-            "width": 410.4,
-            "height": 44.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 8,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "\"For you are a people holy to the LORD your God; the LORD your God has chosen you to be a people for his own possession, out of all the peoples that are on the face of the earth. 7 It was not because you were more in number than any other people that the LORD set his love upon you and chose you, for you were the fewest of all peoples; 8 but it is because the LORD loves you, and is keeping the oath which he swore to your fathers, that the LORD has brought you out with a mighty hand, and redeemed you from the house of bondage, from the hand of Pharaoh king of Egypt.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 76.8,
-            "y": 76.3,
-            "width": 799.2,
-            "height": 358.7,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 28.8
-          }
-        },
-        {
-          "text": "Deuteronomy 6:7-8",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 62.3,
-            "y": 24.2,
-            "width": 396.0,
-            "height": 44.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 9,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "9 But you are a chosen race, a royal priesthood, a holy nation, God's own people, that you may declare the wonderful deeds of him who called you out of darkness into his marvelous light.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 91.2,
-            "y": 134.0,
-            "width": 792.0,
-            "height": 172.5,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "1Peter 2:9",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 81.5,
-            "y": 72.7,
-            "width": 302.4,
-            "height": 50.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 10,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "30 And the angel said to her, \"Do not be afraid, Mary, for you have found favor with God. 31 And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. 32 He will be great, and will be called the Son of the Most High; and the Lord God will give to him the throne of his father David, 33 and he will reign over the house of Jacob forever; and of his kingdom there will be no end.\"",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 91.2,
-            "y": 92.6,
-            "width": 750.7,
-            "height": 288.9,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 28.8,
-            "bold": true
-          }
-        },
-        {
-          "text": "Luke 1:30-33",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 88.4,
-            "y": 23.8,
-            "width": 316.8,
-            "height": 74.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 11,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "What kinds of things are forever?",
-          "shape_name": "Rectangle 1",
-          "timing": "click",
-          "z_index": 2,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 251.3,
-            "y": 383.8,
-            "width": 432.0,
-            "height": 78.9,
-            "rotation": 0
-          },
-          "font": {
-            "font_size": 33.6,
-            "bold": true,
-            "theme_color": "ACCENT_5 (9)"
-          }
-        },
-        {
-          "sequence": 2,
-          "text": "",
-          "shape_name": "Straight Connector 3",
-          "timing": "with",
-          "z_index": 3,
-          "shape_type": "connector",
-          "layout": {
-            "x": 562.1,
-            "y": 369.0,
-            "width": 112.7,
-            "height": 0.5,
-            "rotation": 0
-          },
-          "line": {
-            "width": 6.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "path": {
-            "start": {
-              "x": 562.1,
-              "y": 369.0
-            },
-            "end": {
-              "x": 674.8000000000001,
-              "y": 369.5
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 618.5,
-              "y": 369.0
-            },
-            "to": {
-              "x": 618.5,
-              "y": 369.5
-            }
-          }
-        }
-      ],
-      "static_content": [
-        {
-          "text": "14 The LORD said to Abram, after Lot had separated from him, \"Lift up your eyes, and look from the place where you are, northward and southward and eastward and westward; 15 for all the land which you see I will give to you and to your descendants forever.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 114.5,
-            "y": 123.1,
-            "width": 705.6,
-            "height": 254.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Genesis 13:14-15",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 48.0,
-            "y": 72.0,
-            "width": 432.0,
-            "height": 44.4,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 12,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.",
-          "shape_name": "Rectangle 2",
-          "timing": "click",
-          "z_index": 2,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 78.0,
-            "y": 58.9,
-            "width": 806.4,
-            "height": 428.5,
-            "rotation": 0
-          },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 21.6,
-            "bold": true
-          }
-        }
-      ],
-      "static_content": [
-        {
-          "text": "8 By faith Abraham obeyed when he was called to go out to a place which he was to receive as an inheritance; and he went out, not knowing where he was to go. 9 By faith he sojourned in the land of promise, as in a foreign land, living in tents with Isaac and Jacob, heirs with him of the same promise. 10 For he looked forward to the city which has foundations, whose builder and maker is God. 11 By faith Sarah herself received power to conceive, even when she was past the age, since she considered him faithful who had promised. 12 Therefore from one man, and him as good as dead, were born descendants as many as the stars of heaven and as the innumerable grains of sand by the seashore. 13 These all died in faith, not having received what was promised, but having seen it and greeted it from afar, and having acknowledged that they were strangers and exiles on the earth. 14 For people who speak thus make it clear that they are seeking a homeland. 15 If they had been thinking of that land from which they had gone out, they would have had opportunity to return. 16 But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God, for he has prepared for them a city.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 78.0,
-            "y": 58.9,
-            "width": 806.4,
-            "height": 428.5,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 21.6,
-            "bold": true
-          }
-        },
-        {
-          "text": "Hebrews 11:8-16",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 40.8,
-            "y": 6.0,
-            "width": 396.0,
-            "height": 60.0,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 13,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "",
-          "shape_name": "Straight Connector 40",
-          "timing": "click",
-          "z_index": 9,
-          "shape_type": "connector",
-          "layout": {
-            "x": 43.2,
-            "y": 296.4,
-            "width": 873.6,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
-          },
-          "path": {
-            "start": {
-              "x": 43.2,
-              "y": 296.4
-            },
-            "end": {
-              "x": 916.8000000000001,
-              "y": 296.4
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 480.0,
-              "y": 296.4
-            },
-            "to": {
-              "x": 480.0,
-              "y": 296.4
-            }
-          }
-        },
-        {
-          "sequence": 2,
-          "text": "Psalm 95:7-8“Today, if you will hear His voice,8 Do not harden your hearts as at Meribah,As on the day of Massah in the wilderness,9 “When your fathers put Me to the test,They tested Me, though they had seen My work. 10 For forty years I was disgusted with that generation, And said they are a people who err in their heart, And they do not know My ways.",
-          "shape_name": "TextBox 4",
-          "timing": "with",
-          "z_index": 10,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 32.5,
-            "y": 315.0,
-            "width": 360.4,
-            "height": 206.8,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "+mn-lt",
-            "font_size": 18.7,
             "bold": true,
             "color": "#000000"
-          }
-        },
-        {
-          "sequence": 3,
-          "text": "",
-          "shape_name": "Straight Connector 17",
-          "timing": "after",
-          "z_index": 2,
-          "shape_type": "connector",
-          "layout": {
-            "x": 86.9,
-            "y": 164.5,
-            "width": 253.1,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0
-          },
-          "path": {
-            "start": {
-              "x": 86.9,
-              "y": 164.5
-            },
-            "end": {
-              "x": 340.0,
-              "y": 164.5
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 213.4,
-              "y": 164.5
-            },
-            "to": {
-              "x": 213.4,
-              "y": 164.5
-            }
-          }
-        },
-        {
-          "sequence": 4,
-          "text": "",
-          "shape_name": "Straight Connector 5",
-          "timing": "with",
-          "z_index": 1,
-          "shape_type": "connector",
-          "layout": {
-            "x": 86.9,
-            "y": 137.9,
-            "width": 520.3,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0
-          },
-          "path": {
-            "start": {
-              "x": 86.9,
-              "y": 137.9
-            },
-            "end": {
-              "x": 607.1999999999999,
-              "y": 137.9
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 347.0,
-              "y": 137.9
-            },
-            "to": {
-              "x": 347.0,
-              "y": 137.9
-            }
-          }
-        },
-        {
-          "sequence": 5,
-          "text": "",
-          "shape_name": "Straight Connector 24",
-          "timing": "after",
-          "z_index": 4,
-          "shape_type": "connector",
-          "layout": {
-            "x": 51.8,
-            "y": 379.5,
-            "width": 283.8,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0
-          },
-          "path": {
-            "start": {
-              "x": 51.8,
-              "y": 379.5
-            },
-            "end": {
-              "x": 335.6,
-              "y": 379.5
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 193.7,
-              "y": 379.5
-            },
-            "to": {
-              "x": 193.7,
-              "y": 379.5
-            }
-          }
-        },
-        {
-          "sequence": 6,
-          "text": "",
-          "shape_name": "Straight Connector 20",
-          "timing": "with",
-          "z_index": 3,
-          "shape_type": "connector",
-          "layout": {
-            "x": 51.8,
-            "y": 359.9,
-            "width": 219.2,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0
-          },
-          "path": {
-            "start": {
-              "x": 51.8,
-              "y": 359.9
-            },
-            "end": {
-              "x": 271.0,
-              "y": 359.9
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 161.4,
-              "y": 359.9
-            },
-            "to": {
-              "x": 161.4,
-              "y": 359.9
-            }
-          }
-        },
-        {
-          "sequence": 7,
-          "text": "Exodus 17:1-3, 7They camped at Rephidim, but there was no water for the people to drink. 2 So they quarreled with Moses and said, “Give us water to drink.”Moses replied, “Why do you quarrel with me? Why do you put the Lord to the test?” 3 But the people were thirsty for water there, and they grumbled against Moses. They said, “Why did you bring us up out of Egypt to make us and our children and livestock die of thirst?”7 And he called the place Massah and Meribah because the Israelites quarreled and because they tested the Lord saying, “Is the Lord among us or not?” (vs 7 for context)",
-          "shape_name": "TextBox 6",
-          "timing": "click",
-          "z_index": 11,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 400.4,
-            "y": 300.4,
-            "width": 539.4,
-            "height": 239.1,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "+mn-lt",
-            "font_size": 18.7,
-            "bold": true,
-            "color": "#000000"
-          }
-        },
-        {
-          "sequence": 8,
-          "text": "",
-          "shape_name": "Straight Connector 29",
-          "timing": "with",
-          "z_index": 7,
-          "shape_type": "connector",
-          "layout": {
-            "x": 43.1,
-            "y": 436.6,
-            "width": 316.1,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0,
-            "theme_color": "ACCENT_5 (9)"
-          },
-          "path": {
-            "start": {
-              "x": 43.1,
-              "y": 436.6
-            },
-            "end": {
-              "x": 359.20000000000005,
-              "y": 436.6
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 201.2,
-              "y": 436.6
-            },
-            "to": {
-              "x": 201.2,
-              "y": 436.6
-            }
-          }
-        },
-        {
-          "sequence": 9,
-          "text": "",
-          "shape_name": "Straight Connector 25",
-          "timing": "with",
-          "z_index": 5,
-          "shape_type": "connector",
-          "layout": {
-            "x": 412.7,
-            "y": 421.2,
-            "width": 140.9,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0,
-            "theme_color": "ACCENT_5 (9)"
-          },
-          "path": {
-            "start": {
-              "x": 412.7,
-              "y": 421.2
-            },
-            "end": {
-              "x": 553.6,
-              "y": 421.2
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 483.1,
-              "y": 421.2
-            },
-            "to": {
-              "x": 483.1,
-              "y": 421.2
-            }
-          }
-        },
-        {
-          "sequence": 10,
-          "text": "",
-          "shape_name": "Straight Connector 27",
-          "timing": "with",
-          "z_index": 6,
-          "shape_type": "connector",
-          "layout": {
-            "x": 735.8,
-            "y": 401.1,
-            "width": 109.9,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0,
-            "theme_color": "ACCENT_5 (9)"
-          },
-          "path": {
-            "start": {
-              "x": 735.8,
-              "y": 401.1
-            },
-            "end": {
-              "x": 845.6999999999999,
-              "y": 401.1
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 790.8,
-              "y": 401.1
-            },
-            "to": {
-              "x": 790.8,
-              "y": 401.1
-            }
-          }
-        },
-        {
-          "sequence": 11,
-          "text": "",
-          "shape_name": "Straight Connector 36",
-          "timing": "with",
-          "z_index": 8,
-          "shape_type": "connector",
-          "layout": {
-            "x": 43.1,
-            "y": 456.3,
-            "width": 39.9,
-            "height": 0.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 2.0,
-            "theme_color": "ACCENT_5 (9)"
-          },
-          "path": {
-            "start": {
-              "x": 43.1,
-              "y": 456.3
-            },
-            "end": {
-              "x": 83.0,
-              "y": 456.3
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 63.0,
-              "y": 456.3
-            },
-            "to": {
-              "x": 63.0,
-              "y": 456.3
-            }
-          }
-        }
-      ],
-      "static_content": [
-        {
-          "text": "Hebrews 3:14-19",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 24.9,
-            "y": 13.0,
-            "width": 381.6,
-            "height": 50.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        },
-        {
-          "text": "14 We have come to share in Christ, if indeed we hold our original conviction firmly to the very end. 15 As has just been said:“Today, if you hear his voice, do not harden your hearts as you did in the rebellion.”16 Who were they who heard and rebelled? Were they not all those Moses led out of Egypt? 17 And with whom was he angry for forty years? Was it not with those who sinned, whose bodies perished in the wilderness? 18 And to whom did God swear that they would never enter his rest if not to those who disobeyed? 19 So we see that they were not able to enter, because of their unbelief.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 12,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 24.9,
-            "y": 57.2,
-            "width": 903.7,
-            "height": 242.3,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "+mn-lt",
-            "font_size": 21.3,
-            "bold": true,
-            "color": "#000000"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 14,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "Therefore, since the promise of entering his rest still stands, let us be careful that none of you be found to have fallen short of it. 2 For we also have had the good news proclaimed to us, just as they did; but the message they heard was of no value to them, because they did not share the faith of those who obeyed. 3 Now we who have believed enter that rest, just as God has said,“So I declared on oath in my anger,    ‘They shall never enter my rest.’”And yet his works have been finished since the creation of the world. 4 For somewhere he has spoken about the seventh day in these words: “On the seventh day God rested from all his works.” 5 And again in the passage above he says, “They shall never enter my rest.”6 Therefore since it still remains for some to enter that rest, and since those who formerly had the good news proclaimed to them did not go in because of their disobedience, 7 God again set a certain day, calling it “Today.” This he did when a long time later he spoke through David, as in the passage already quoted:“Today, if you hear his voice,    do not harden your hearts.”8 For if Joshua had given them rest, God would not have spoken later about another day. 9 There remains, then, a Sabbath-rest for the people of God; 10 for anyone who enters God’s rest also rests from their works, just as God did from his. 11 Let us, therefore, make every effort to enter that rest, so that no one will perish by following their example of disobedience.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 31.4,
-            "y": 56.7,
-            "width": 864.7,
-            "height": 439.4,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "+mn-lt",
-            "font_size": 18.7,
-            "color": "#000000"
-          }
-        },
-        {
-          "text": "Hebrews 4:1-11",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 24.9,
-            "y": 13.0,
-            "width": 381.6,
-            "height": 50.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 15,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "16 Now the promises were made to Abraham and to his offspring. It does not say, \"And to offsprings,\" referring to many; but, referring to one, \"And to your offspring,\" which is Christ. 17 This is what I mean: the law, which came four hundred and thirty years afterward, does not annul a covenant previously ratified by God, so as to make the promise void. 18 For if the inheritance is by the law, it is no longer by promise; but God gave it to Abraham by a promise. 19 Why then the law? It was added because of transgressions, till the offspring should come to whom the promise had been made; and it was ordained by angels through an intermediary. 20 Now an intermediary implies more than one; but God is one. 21 Is the law then against the promises of God? Certainly not; for if a law had been given which could make alive, then righteousness would indeed be by the law. 22 But the scripture consigned all things to sin, that what was promised to faith in Jesus Christ might be given to those who believe. 23 Now before faith came, we were confined under the law, kept under restraint until faith should be revealed. 24 So that the law was our custodian until Christ came, that we might be justified by faith. 25 But now that faith has come, we are no longer under a custodian; 26 for in Christ Jesus you are all sons of God, through faith. 27 For as many of you as were baptized into Christ have put on Christ. 28 There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus. 29 And if you are Christ's, then you are Abraham's offspring, heirs according to promise.",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 73.9,
-            "y": 55.7,
-            "width": 803.7,
-            "height": 451.7,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 19.2,
-            "color": "#000000"
-          }
-        },
-        {
-          "text": "Galatians 3:16-29",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 72.2,
-            "y": 17.7,
-            "width": 453.6,
-            "height": 38.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 16,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "22 But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to innumerable angels in festal gathering, 23 and to the assembly of the first-born who are enrolled in heaven, and to a judge who is God of all, and to the spirits of just men made perfect, 24 and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks more graciously than the blood of Abel.",
-          "shape_name": "Rectangle 3",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 101.0,
-            "y": 82.7,
-            "width": 734.0,
-            "height": 376.1,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 33.6
-          }
-        },
-        {
-          "text": "Hebrews 12:22-24",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 86.1,
-            "y": 33.2,
-            "width": 453.6,
-            "height": 38.4,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 17,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "2 For the law of the Spirit of life in Christ Jesus has set me free from the law of sin and death. 3 For God has done what the law, weakened by the flesh, could not do: sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh,",
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 121.2,
-            "y": 123.2,
-            "width": 705.6,
-            "height": 254.0,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 33.6
-          }
-        },
-        {
-          "text": "Romans 8:2-3",
-          "shape_name": "Rectangle 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 84.0,
-            "y": 51.2,
-            "width": 352.8,
-            "height": 68.4,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "theme_color": "TEXT_1 (13)"
           }
         }
       ]

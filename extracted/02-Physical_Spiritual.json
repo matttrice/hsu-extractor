@@ -1,109 +1,637 @@
 {
   "file_path": "/Users/badger/projects/hsu-pptx/02-Physical_Spiritual.pptx",
   "file_name": "02-Physical_Spiritual.pptx",
-  "total_slides": 10,
-  "slide_width": 1536.0,
-  "slide_height": 864.0,
+  "total_slides": 3,
+  "total_custom_shows": 7,
+  "total_linked_slides": 7,
+  "source_dimensions": {
+    "width": 1536,
+    "height": 864
+  },
+  "target_canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "scale_factor": 0.625,
+  "images_folder": "02-Physical_Spiritual",
   "custom_shows": {
     "0": {
       "name": "Genesis1.1",
       "id": 0,
-      "slides": [
-        {
-          "slide_file": "slides/slide4.xml",
-          "texts": [
-            "3 Then God said, \"Let there be light\"; and there was light.",
-            "Genesis 1:1-3 1:1-3",
-            "1 In the beginning God created the heavens and the earth.",
-            "(Energy & Matter)",
-            "2 The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.",
-            "(Problem?)",
-            "(Solution)"
-          ]
-        }
+      "slide_numbers": [
+        4
       ]
     },
     "1": {
       "name": "Romans1.20",
       "id": 1,
-      "slides": [
-        {
-          "slide_file": "slides/slide5.xml",
-          "texts": [
-            "Romans 1:20",
-            "20For since the creation of the world God's invisible qualities--his eternal power and divine nature--have been clearly seen, being understood from what has been made, so that men are without excuse.",
-            "How can invisible qualities be clearly seen?"
-          ]
-        }
+      "slide_numbers": [
+        5
       ]
     },
     "2": {
       "name": "1Corinthians15.40",
       "id": 2,
-      "slides": [
-        {
-          "slide_file": "slides/slide6.xml",
-          "texts": [
-            "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-            "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-            "1 Corinthians 15:40-45"
-          ]
-        }
+      "slide_numbers": [
+        6
       ]
     },
     "3": {
       "name": "2Corinthians4.18",
       "id": 3,
-      "slides": [
-        {
-          "slide_file": "slides/slide7.xml",
-          "texts": [
-            "2 Corinthians 4:17",
-            "For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,18 while we look not at the things which are seen, but at the things which are not seen; for the things which are seen are temporal, but the things which are not seen are eternal.",
-            "NASB95"
-          ]
-        }
+      "slide_numbers": [
+        7
       ]
     },
     "4": {
       "name": "Colossians1.15",
       "id": 4,
-      "slides": [
-        {
-          "slide_file": "slides/slide8.xml",
-          "texts": [
-            "Colossians 1:15-16",
-            "He is the image of the invisible God, the firstborn of all creation.  16For by Him all things were created, both in the heavens and on earth, visible and invisible, whether thrones or dominions or rulers or authorities--all things have been created through Him and for Him.",
-            "NASB95"
-          ]
-        }
+      "slide_numbers": [
+        8
       ]
     },
     "5": {
       "name": "Hebrews11.1",
       "id": 5,
-      "slides": [
-        {
-          "slide_file": "slides/slide9.xml",
-          "texts": [
-            "Hebrews 11:1-3",
-            "Now faith is the substance of things hoped for, the evidence of things not seen.  2For by it the elders obtained a good testimony.  3By faith we understand that the worlds were framed by the word of God, so that the things which are seen were not made of things which are visible.",
-            "(NKJV)"
-          ]
-        }
+      "slide_numbers": [
+        9
       ]
     },
     "6": {
       "name": "Hebrews9.22",
       "id": 6,
-      "slides": [
+      "slide_numbers": [
+        10
+      ]
+    }
+  },
+  "linked_slides": {
+    "4": {
+      "slide_number": 4,
+      "animation_sequence": [
         {
-          "slide_file": "slides/slide10.xml",
-          "texts": [
-            "Hebrews 9:22-24",
-            "In fact, the law requires that nearly everything be cleansed with blood, and without the shedding of blood there is no forgiveness. 23 It was necessary, then, for the copies of the heavenly things to be purified with these sacrifices, but the heavenly things themselves with better sacrifices than these. 24 For Christ did not enter a sanctuary made with human hands that was only a copy of the true one; he entered heaven itself, now to appear for us in God’s presence.",
-            "(NIV)"
-          ]
+          "sequence": 1,
+          "shape_name": "Rectangle 9",
+          "timing": "click",
+          "text": "1 In the beginning God created the heavens and the earth.",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 33,
+            "y": 104,
+            "width": 886,
+            "height": 42,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.3
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 10",
+          "timing": "click",
+          "text": "(Energy & Matter)",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 609,
+            "y": 61,
+            "width": 250,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "right",
+            "font_name": "+mj-lt",
+            "font_size": 26.7,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Rectangle 13",
+          "timing": "click",
+          "text": "2 The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.",
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 63,
+            "y": 183,
+            "width": 819,
+            "height": 129,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.3
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "Rectangle 10",
+          "timing": "click",
+          "text": "(Problem?)",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 609,
+            "y": 156,
+            "width": 250,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "right",
+            "font_name": "+mj-lt",
+            "font_size": 26.7,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 5,
+          "shape_name": "Rectangle 8",
+          "timing": "click",
+          "text": "3 Then God said, \"Let there be light\"; and there was light.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 63,
+            "y": 321,
+            "width": 779,
+            "height": 89,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.3
+          }
+        },
+        {
+          "sequence": 6,
+          "shape_name": "Rectangle 3",
+          "timing": "with",
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 347,
+            "y": 410,
+            "width": 391,
+            "height": 9,
+            "rotation": 0
+          },
+          "fill": "#0000FF"
+        },
+        {
+          "sequence": 7,
+          "shape_name": "Rectangle 10",
+          "timing": "after",
+          "text": "(Solution)",
+          "delay": 1000,
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 609,
+            "y": 322,
+            "width": 250,
+            "height": 46,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "right",
+            "font_name": "+mj-lt",
+            "font_size": 26.7,
+            "italic": true
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "Genesis 1:1-3 1:1-3",
+          "z_index": 2,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 82,
+            "y": 16,
+            "width": 756,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.3,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "5": {
+      "slide_number": 5,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 1",
+          "timing": "click",
+          "text": "How can invisible qualities be clearly seen?",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 170,
+            "y": 382,
+            "width": 650,
+            "height": 42,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 30.0,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "Romans 1:20",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 114,
+            "y": 73,
+            "width": 318,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 44.2,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "TextBox 3",
+          "static": true,
+          "text": "20For since the creation of the world God's invisible qualities--his eternal power and divine nature--have been clearly seen, being understood from what has been made, so that men are without excuse.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 111,
+            "y": 120,
+            "width": 768,
+            "height": 262,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 35.0
+          }
+        }
+      ]
+    },
+    "6": {
+      "slide_number": 6,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 3",
+          "timing": "click",
+          "text": "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 103,
+            "y": 68,
+            "width": 775,
+            "height": 494,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 30.8,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "TextBox 3",
+          "timing": "with",
+          "text": "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
+          "z_index": 0,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 103,
+            "y": 68,
+            "width": 775,
+            "height": 494,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 30.8
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "1 Corinthians 15:40-45",
+          "z_index": 2,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 101,
+            "y": 26,
+            "width": 756,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 44.2,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "7": {
+      "slide_number": 7,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "2 Corinthians 4:17",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 126,
+            "y": 61,
+            "width": 756,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 48.3,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "TextBox 3",
+          "static": true,
+          "text": "For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,18 while we look not at the things which are seen, but at the things which are not seen; for the things which are seen are temporal, but the things which are not seen are eternal.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 78,
+            "y": 104,
+            "width": 774,
+            "height": 291,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.3
+          }
+        },
+        {
+          "shape_name": "TextBox 1",
+          "static": true,
+          "text": "NASB95",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 805,
+            "y": 424,
+            "width": 77,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 16.7
+          }
+        }
+      ]
+    },
+    "8": {
+      "slide_number": 8,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 7",
+          "static": true,
+          "text": "Colossians 1:15-16",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 99,
+            "y": 53,
+            "width": 462,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 44.2,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "TextBox 4",
+          "static": true,
+          "text": "He is the image of the invisible God, the firstborn of all creation.  16For by Him all things were created, both in the heavens and on earth, visible and invisible, whether thrones or dominions or rulers or authorities--all things have been created through Him and for Him.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 101,
+            "y": 93,
+            "width": 771,
+            "height": 262,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 35.0
+          }
+        },
+        {
+          "shape_name": "TextBox 1",
+          "static": true,
+          "text": "NASB95",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 805,
+            "y": 424,
+            "width": 77,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 16.7
+          }
+        }
+      ]
+    },
+    "9": {
+      "slide_number": 9,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "Hebrews 11:1-3",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 109,
+            "y": 39,
+            "width": 388,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 44.2,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "TextBox 3",
+          "static": true,
+          "text": "Now faith is the substance of things hoped for, the evidence of things not seen.  2For by it the elders obtained a good testimony.  3By faith we understand that the worlds were framed by the word of God, so that the things which are seen were not made of things which are visible.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 110,
+            "y": 83,
+            "width": 743,
+            "height": 348,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 35.0
+          }
+        },
+        {
+          "shape_name": "TextBox 2",
+          "static": true,
+          "text": "(NKJV)",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 777,
+            "y": 446,
+            "width": 153,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Arial",
+            "font_size": 16.7
+          }
+        }
+      ]
+    },
+    "10": {
+      "slide_number": 10,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "text": "Hebrews 9:22-24",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 83,
+            "y": 39,
+            "width": 388,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 45.0,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "TextBox 3",
+          "static": true,
+          "text": "In fact, the law requires that nearly everything be cleansed with blood, and without the shedding of blood there is no forgiveness. 23 It was necessary, then, for the copies of the heavenly things to be purified with these sacrifices, but the heavenly things themselves with better sacrifices than these. 24 For Christ did not enter a sanctuary made with human hands that was only a copy of the true one; he entered heaven itself, now to appear for us in God’s presence.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 83,
+            "y": 83,
+            "width": 770,
+            "height": 412,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "left",
+            "font_name": "Arial",
+            "font_size": 33.3
+          }
+        },
+        {
+          "shape_name": "TextBox 2",
+          "static": true,
+          "text": "(NIV)",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 777,
+            "y": 446,
+            "width": 153,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Arial",
+            "font_size": 26.7
+          }
         }
       ]
     }
@@ -114,58 +642,58 @@
       "animation_sequence": [
         {
           "sequence": 1,
-          "text": "In the beginning Godcreated the HEAVENSand the EARTH...",
           "shape_name": "Rectangle 135",
+          "text": "In the beginning Godcreated the HEAVENSand the EARTH...",
           "timing": "click",
           "z_index": 48,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 32.4,
-            "y": 39.4,
-            "width": 265.8,
-            "height": 112.0,
+            "x": 20,
+            "y": 24,
+            "width": 166,
+            "height": 70,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "left",
             "font_name": "Arial",
-            "font_size": 24.0
+            "font_size": 15.0
           }
         },
         {
           "sequence": 2,
-          "text": "InternalInterpretation",
           "shape_name": "Text Box 121",
+          "text": "InternalInterpretation",
           "timing": "click",
           "z_index": 45,
           "shape_type": "text_box",
           "layout": {
-            "x": 64.0,
-            "y": 152.6,
-            "width": 202.7,
-            "height": 81.3,
+            "x": 40,
+            "y": 96,
+            "width": 127,
+            "height": 51,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 28.0,
+            "font_size": 17.5,
             "color": "#000000"
           }
         },
         {
           "sequence": 3,
-          "text": "Heavens",
           "shape_name": "Text Box 7",
+          "text": "Heavens",
           "timing": "click",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
-            "x": 383.2,
-            "y": 11.0,
-            "width": 347.3,
-            "height": 65.3,
+            "x": 239,
+            "y": 7,
+            "width": 217,
+            "height": 41,
             "rotation": 0
           },
           "font": {
@@ -177,113 +705,123 @@
         },
         {
           "sequence": 4,
-          "text": "",
           "shape_name": "Rectangle 157",
           "timing": "with",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 308.3,
-            "y": 0.0,
-            "width": 460.8,
-            "height": 864.0,
+            "x": 192,
+            "y": 0,
+            "width": 288,
+            "height": 540,
             "rotation": 0
           },
-          "fill": "#3BCCFD",
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#3BCCFD"
         },
         {
           "sequence": 5,
-          "text": "",
           "shape_name": "Line 11",
           "timing": "with",
           "z_index": 12,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 307.8,
-            "y": 86.2,
-            "width": 892.8,
-            "height": 0.0,
+            "x": 192,
+            "y": 54,
+            "width": 558,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.7,
-            "theme_color": "TEXT_1 (13)"
+            "width": 5,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 471,
+              "y": 54
+            },
+            "to": {
+              "x": 471,
+              "y": 54
+            }
           }
         },
         {
           "sequence": 6,
-          "text": "",
           "shape_name": "Line 10",
           "timing": "with",
           "z_index": 3,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 768.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 864.0,
+            "x": 480,
+            "y": 0,
+            "width": 0,
+            "height": 540,
             "rotation": 0
           },
           "line": {
-            "width": 4.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 4,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 480,
+              "y": 0
+            },
+            "to": {
+              "x": 480,
+              "y": 540
+            }
           }
         },
         {
           "sequence": 7,
-          "text": "Earth",
           "shape_name": "Text Box 9",
+          "text": "Earth",
           "timing": "with",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
-            "x": 833.3,
-            "y": 12.0,
-            "width": 257.7,
-            "height": 65.3,
+            "x": 521,
+            "y": 8,
+            "width": 161,
+            "height": 41,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 8,
-          "text": "",
           "shape_name": "Rectangle 156",
           "timing": "with",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 768.0,
-            "y": 0.0,
-            "width": 432.0,
-            "height": 864.0,
+            "x": 480,
+            "y": 0,
+            "width": 270,
+            "height": 540,
             "rotation": 0
           },
-          "fill": "#969696",
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#969696"
         },
         {
           "sequence": 9,
-          "text": "Colossians 1:15-16",
           "shape_name": "Text Box 12",
+          "text": "Colossians 1:15-16",
           "timing": "click",
           "z_index": 62,
           "shape_type": "text_box",
           "layout": {
-            "x": 1110.1,
-            "y": 101.3,
-            "width": 395.5,
-            "height": 57.7,
+            "x": 694,
+            "y": 63,
+            "width": 248,
+            "height": 36,
             "rotation": 0
           },
           "fill": "#969696",
@@ -291,103 +829,91 @@
             "v_align": "middle",
             "align": "left",
             "font_name": "Arial",
-            "font_size": 37.3,
+            "font_size": 23.3,
             "bold": true
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 4
-          },
-          "linked_content": {
-            "name": "Colossians1.15",
             "id": 4,
-            "slides": [
-              {
-                "slide_file": "slides/slide8.xml",
-                "texts": [
-                  "Colossians 1:15-16",
-                  "He is the image of the invisible God, the firstborn of all creation.  16For by Him all things were created, both in the heavens and on earth, visible and invisible, whether thrones or dominions or rulers or authorities--all things have been created through Him and for Him.",
-                  "NASB95"
-                ]
-              }
-            ]
+            "name": "Colossians1.15"
           }
         },
         {
           "sequence": 10,
-          "text": "All things…",
           "shape_name": "TextBox 2",
+          "text": "All things…",
           "timing": "with",
           "z_index": 74,
           "shape_type": "text_box",
           "layout": {
-            "x": 1238.1,
-            "y": 68.0,
-            "width": 220.5,
-            "height": 40.7,
+            "x": 774,
+            "y": 42,
+            "width": 138,
+            "height": 26,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "left",
             "font_name": "Arial",
-            "font_size": 32.0,
+            "font_size": 20.0,
             "italic": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 11,
-          "text": "Visible",
           "shape_name": "Text Box 15",
+          "text": "Visible",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
-            "x": 800.7,
-            "y": 88.0,
-            "width": 313.7,
-            "height": 57.7,
+            "x": 501,
+            "y": 55,
+            "width": 196,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 64.0
+            "font_size": 40.0
           }
         },
         {
           "sequence": 12,
-          "text": "Invisible",
           "shape_name": "Text Box 16",
+          "text": "Invisible",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
-            "x": 384.7,
-            "y": 88.0,
-            "width": 336.0,
-            "height": 57.7,
+            "x": 241,
+            "y": 55,
+            "width": 210,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 64.0,
+            "font_size": 40.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 13,
-          "text": "2 Corinthians 4:17",
           "shape_name": "Text Box 17",
+          "text": "2 Corinthians 4:17",
           "timing": "click",
           "z_index": 63,
           "shape_type": "text_box",
           "layout": {
-            "x": 1110.1,
-            "y": 154.3,
-            "width": 395.5,
-            "height": 65.0,
+            "x": 694,
+            "y": 96,
+            "width": 248,
+            "height": 41,
             "rotation": 0
           },
           "fill": "#969696",
@@ -395,1436 +921,1389 @@
             "v_align": "middle",
             "align": "left",
             "font_name": "Arial",
-            "font_size": 37.3,
+            "font_size": 23.3,
             "bold": true
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 3
-          },
-          "linked_content": {
-            "name": "2Corinthians4.18",
             "id": 3,
-            "slides": [
-              {
-                "slide_file": "slides/slide7.xml",
-                "texts": [
-                  "2 Corinthians 4:17",
-                  "For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,18 while we look not at the things which are seen, but at the things which are not seen; for the things which are seen are temporal, but the things which are not seen are eternal.",
-                  "NASB95"
-                ]
-              }
-            ]
+            "name": "2Corinthians4.18"
           }
         },
         {
           "sequence": 14,
-          "text": "Seen",
           "shape_name": "Text Box 20",
+          "text": "Seen",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
           "layout": {
-            "x": 832.7,
-            "y": 149.7,
-            "width": 257.5,
-            "height": 57.5,
+            "x": 521,
+            "y": 94,
+            "width": 161,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 64.0
+            "font_size": 40.0
           }
         },
         {
           "sequence": 15,
-          "text": "Temporal",
           "shape_name": "Text Box 22",
+          "text": "Temporal",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
           "layout": {
-            "x": 796.7,
-            "y": 207.7,
-            "width": 329.5,
-            "height": 67.2,
+            "x": 498,
+            "y": 130,
+            "width": 206,
+            "height": 42,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 64.0
+            "font_size": 40.0
           }
         },
         {
           "sequence": 16,
-          "text": "Unseen",
           "shape_name": "Text Box 21",
+          "text": "Unseen",
           "timing": "click",
           "z_index": 16,
           "shape_type": "text_box",
           "layout": {
-            "x": 423.8,
-            "y": 149.7,
-            "width": 257.7,
-            "height": 57.5,
+            "x": 265,
+            "y": 94,
+            "width": 161,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 64.0,
+            "font_size": 40.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 17,
-          "text": "Eternal",
           "shape_name": "Text Box 23",
+          "text": "Eternal",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
-            "x": 425.2,
-            "y": 210.3,
-            "width": 254.8,
-            "height": 61.7,
+            "x": 266,
+            "y": 131,
+            "width": 159,
+            "height": 39,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 64.0,
+            "font_size": 40.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 18,
-          "text": "Hebrews 11:1",
           "shape_name": "Text Box 62",
+          "text": "Hebrews 11:1",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
           "layout": {
-            "x": 1113.0,
-            "y": 214.7,
-            "width": 392.2,
-            "height": 56.2,
+            "x": 696,
+            "y": 134,
+            "width": 245,
+            "height": 35,
             "rotation": 0
           },
-          "fill": {
-            "theme": "ACCENT_2 (6)",
-            "brightness": 0
-          },
+          "fill": "#969696",
           "font": {
             "align": "left",
             "font_name": "Arial",
-            "font_size": 37.3,
+            "font_size": 23.3,
             "bold": true
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 5
-          },
-          "linked_content": {
-            "name": "Hebrews11.1",
             "id": 5,
-            "slides": [
-              {
-                "slide_file": "slides/slide9.xml",
-                "texts": [
-                  "Hebrews 11:1-3",
-                  "Now faith is the substance of things hoped for, the evidence of things not seen.  2For by it the elders obtained a good testimony.  3By faith we understand that the worlds were framed by the word of God, so that the things which are seen were not made of things which are visible.",
-                  "(NKJV)"
-                ]
-              }
-            ]
+            "name": "Hebrews11.1"
           }
         },
         {
           "sequence": 19,
-          "text": "Evidence…",
           "shape_name": "TextBox 3",
+          "text": "Evidence…",
           "timing": "with",
           "z_index": 73,
           "shape_type": "text_box",
           "layout": {
-            "x": 1231.5,
-            "y": 276.6,
-            "width": 206.8,
-            "height": 40.7,
+            "x": 769,
+            "y": 173,
+            "width": 129,
+            "height": 26,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "left",
             "font_name": "Arial",
-            "font_size": 32.0,
+            "font_size": 20.0,
             "italic": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 20,
-          "text": "Romans 1:20",
           "shape_name": "Text Box 129",
+          "text": "Romans 1:20",
           "timing": "click",
           "z_index": 47,
           "shape_type": "text_box",
           "layout": {
-            "x": 53.3,
-            "y": 246.8,
-            "width": 224.0,
-            "height": 49.2,
+            "x": 33,
+            "y": 154,
+            "width": 140,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "align": "left",
             "font_name": "Arial",
-            "font_size": 32.0,
+            "font_size": 20.0,
             "bold": true
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 1
-          },
-          "linked_content": {
-            "name": "Romans1.20",
             "id": 1,
-            "slides": [
-              {
-                "slide_file": "slides/slide5.xml",
-                "texts": [
-                  "Romans 1:20",
-                  "20For since the creation of the world God's invisible qualities--his eternal power and divine nature--have been clearly seen, being understood from what has been made, so that men are without excuse.",
-                  "How can invisible qualities be clearly seen?"
-                ]
-              }
-            ]
+            "name": "Romans1.20"
           }
         },
         {
           "sequence": 21,
-          "text": "What evidence forinvisible qualities—clearly seen?",
           "shape_name": "Text Box 57",
+          "text": "What evidence forinvisible qualities—clearly seen?",
           "timing": "click",
           "z_index": 20,
           "shape_type": "text_box",
           "layout": {
-            "x": 49.8,
-            "y": 286.7,
-            "width": 247.0,
-            "height": 94.3,
+            "x": 31,
+            "y": 179,
+            "width": 154,
+            "height": 59,
             "rotation": 0
           },
           "font": {
             "align": "left",
             "font_name": "Arial",
-            "font_size": 28.0
+            "font_size": 17.5
           }
         },
         {
           "sequence": 22,
-          "text": "Is it safe to puta paper clip in alight socket?",
           "shape_name": "Text Box 58",
+          "text": "Is it safe to puta paper clip in alight socket?",
           "timing": "click",
           "z_index": 21,
           "shape_type": "text_box",
           "layout": {
-            "x": 1225.6,
-            "y": 322.8,
-            "width": 208.3,
-            "height": 96.7,
+            "x": 766,
+            "y": 202,
+            "width": 130,
+            "height": 61,
             "rotation": 0
           },
           "font": {
             "align": "left",
             "font_name": "Arial",
-            "font_size": 24.0
+            "font_size": 15.0
           }
         },
         {
           "sequence": 23,
-          "text": "Fan spins",
           "shape_name": "Text Box 64",
+          "text": "Fan spins",
           "timing": "click",
           "z_index": 24,
           "shape_type": "text_box",
           "layout": {
-            "x": 849.0,
-            "y": 422.3,
-            "width": 246.3,
-            "height": 50.0,
+            "x": 531,
+            "y": 264,
+            "width": 154,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 40.0
+            "font_size": 25.0
           }
         },
         {
           "sequence": 24,
-          "text": "",
           "shape_name": "Line 71",
           "timing": "click",
           "z_index": 8,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 724.7,
-            "y": 456.6,
-            "width": 150.8,
-            "height": 0.1,
+            "x": 453,
+            "y": 286,
+            "width": 94,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 4,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 500,
+              "y": 286
+            },
+            "to": {
+              "x": 500,
+              "y": 286
+            }
           }
         },
         {
           "sequence": 25,
-          "text": "Force of Electricity",
           "shape_name": "Text Box 67",
+          "text": "Force of Electricity",
           "timing": "with",
           "z_index": 27,
           "shape_type": "text_box",
           "layout": {
-            "x": 366.0,
-            "y": 416.0,
-            "width": 377.5,
-            "height": 50.0,
+            "x": 229,
+            "y": 260,
+            "width": 236,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 40.0,
+            "font_size": 25.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 26,
-          "text": "Trees sway",
           "shape_name": "Text Box 63",
+          "text": "Trees sway",
           "timing": "click",
           "z_index": 23,
           "shape_type": "text_box",
           "layout": {
-            "x": 857.8,
-            "y": 380.2,
-            "width": 228.5,
-            "height": 50.0,
+            "x": 536,
+            "y": 238,
+            "width": 142,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 40.0
+            "font_size": 25.0
           }
         },
         {
           "sequence": 27,
-          "text": "",
           "shape_name": "Line 70",
           "timing": "click",
           "z_index": 7,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 694.0,
-            "y": 413.4,
-            "width": 163.8,
-            "height": 0.0,
+            "x": 434,
+            "y": 258,
+            "width": 102,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 4,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 485,
+              "y": 258
+            },
+            "to": {
+              "x": 485,
+              "y": 258
+            }
           }
         },
         {
           "sequence": 28,
-          "text": "Force of Wind",
           "shape_name": "Text Box 66",
+          "text": "Force of Wind",
           "timing": "with",
           "z_index": 26,
           "shape_type": "text_box",
           "layout": {
-            "x": 409.2,
-            "y": 375.7,
-            "width": 291.2,
-            "height": 50.0,
+            "x": 256,
+            "y": 235,
+            "width": 182,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 40.0,
+            "font_size": 25.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 29,
-          "text": "Things fall",
           "shape_name": "Text Box 65",
+          "text": "Things fall",
           "timing": "click",
           "z_index": 25,
           "shape_type": "text_box",
           "layout": {
-            "x": 865.5,
-            "y": 334.0,
-            "width": 213.0,
-            "height": 50.0,
+            "x": 541,
+            "y": 209,
+            "width": 133,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 40.0
+            "font_size": 25.0
           }
         },
         {
           "sequence": 30,
-          "text": "",
           "shape_name": "Line 73",
           "timing": "click",
           "z_index": 9,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 707.3,
-            "y": 365.2,
-            "width": 150.7,
-            "height": 0.1,
+            "x": 442,
+            "y": 228,
+            "width": 94,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 4.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 4,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 489,
+              "y": 228
+            },
+            "to": {
+              "x": 489,
+              "y": 228
+            }
           }
         },
         {
           "sequence": 31,
-          "text": "Force of Gravity",
           "shape_name": "Text Box 69",
+          "text": "Force of Gravity",
           "timing": "with",
           "z_index": 28,
           "shape_type": "text_box",
           "layout": {
-            "x": 394.8,
-            "y": 329.7,
-            "width": 319.7,
-            "height": 50.0,
+            "x": 247,
+            "y": 206,
+            "width": 200,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 40.0,
+            "font_size": 25.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 32,
-          "text": "Causes",
           "shape_name": "Text Box 75",
+          "text": "Causes",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
           "layout": {
-            "x": 459.5,
-            "y": 283.2,
-            "width": 218.8,
-            "height": 57.7,
+            "x": 288,
+            "y": 177,
+            "width": 137,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 56.0,
+            "font_size": 35.0,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 33,
-          "text": "",
           "shape_name": "Rectangle 158",
           "timing": "with",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 318.8,
-            "y": 284.8,
-            "width": 448.0,
-            "height": 190.3,
+            "x": 199,
+            "y": 178,
+            "width": 280,
+            "height": 119,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_2 (16)",
-            "brightness": -0.25
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#FFFFFF"
         },
         {
           "sequence": 34,
-          "text": "Effects",
           "shape_name": "Text Box 74",
+          "text": "Effects",
           "timing": "click",
           "z_index": 29,
           "shape_type": "text_box",
           "layout": {
-            "x": 856.5,
-            "y": 283.2,
-            "width": 231.2,
-            "height": 57.7,
+            "x": 536,
+            "y": 177,
+            "width": 144,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 56.0,
+            "font_size": 35.0,
             "bold": true
           }
         },
         {
           "sequence": 35,
-          "text": "",
           "shape_name": "Rectangle 159",
           "timing": "with",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 765.2,
-            "y": 284.8,
-            "width": 418.3,
-            "height": 190.3,
+            "x": 478,
+            "y": 178,
+            "width": 261,
+            "height": 119,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_2 (16)",
-            "brightness": -0.25
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#FFFFFF"
         },
         {
           "sequence": 36,
-          "text": "",
           "shape_name": "Line 90",
           "timing": "click",
           "z_index": 34,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 1160.0,
-            "y": 401.9,
-            "width": 113.2,
-            "height": 65.1,
+            "x": 725,
+            "y": 251,
+            "width": 71,
+            "height": 41,
             "rotation": 0
           },
           "line": {
-            "width": 7.7,
-            "theme_color": "HYPERLINK (11)"
+            "width": 8,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 760,
+              "y": 251
+            },
+            "to": {
+              "x": 760,
+              "y": 292
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
           }
         },
         {
           "sequence": 37,
-          "text": "What is effected?",
           "shape_name": "Text Box 88",
+          "text": "What is effected?",
           "timing": "with",
           "z_index": 33,
           "shape_type": "text_box",
           "layout": {
-            "x": 1217.1,
-            "y": 438.2,
-            "width": 221.2,
-            "height": 121.2,
+            "x": 761,
+            "y": 274,
+            "width": 138,
+            "height": 76,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 38,
-          "text": "Matter",
           "shape_name": "Text Box 92",
+          "text": "Matter",
           "timing": "click",
           "z_index": 64,
           "shape_type": "text_box",
           "layout": {
-            "x": 853.8,
-            "y": 482.8,
-            "width": 257.7,
-            "height": 64.0,
+            "x": 534,
+            "y": 302,
+            "width": 161,
+            "height": 40,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 70.7,
+            "font_size": 44.2,
             "bold": true
           }
         },
         {
           "sequence": 39,
-          "text": "",
           "shape_name": "Rectangle 78",
           "timing": "with",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 769.8,
-            "y": 472.7,
-            "width": 413.7,
-            "height": 204.3,
+            "x": 481,
+            "y": 296,
+            "width": 259,
+            "height": 128,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#F4F4F4"
         },
         {
           "sequence": 40,
-          "text": "",
           "shape_name": "Line 86",
           "timing": "click",
           "z_index": 32,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 245.3,
-            "y": 403.2,
-            "width": 107.5,
-            "height": 40.5,
+            "x": 153,
+            "y": 252,
+            "width": 68,
+            "height": 25,
             "rotation": 0
           },
           "line": {
-            "width": 7.7,
-            "theme_color": "HYPERLINK (11)"
+            "width": 8,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 187,
+              "y": 252
+            },
+            "to": {
+              "x": 187,
+              "y": 277
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
           }
         },
         {
           "sequence": 41,
-          "text": "Forms ofwhat?",
           "shape_name": "Text Box 84",
+          "text": "Forms ofwhat?",
           "timing": "with",
           "z_index": 31,
           "shape_type": "text_box",
           "layout": {
-            "x": 114.0,
-            "y": 393.0,
-            "width": 154.8,
-            "height": 73.2,
+            "x": 71,
+            "y": 246,
+            "width": 97,
+            "height": 46,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 42,
-          "text": "Energy",
           "shape_name": "Text Box 93",
+          "text": "Energy",
           "timing": "click",
           "z_index": 65,
           "shape_type": "text_box",
           "layout": {
-            "x": 404.0,
-            "y": 471.1,
-            "width": 283.7,
-            "height": 86.3,
+            "x": 252,
+            "y": 294,
+            "width": 178,
+            "height": 54,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 70.7,
+            "font_size": 44.2,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 43,
-          "text": "",
           "shape_name": "Rectangle 77",
           "timing": "with",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 318.8,
-            "y": 471.8,
-            "width": 453.7,
-            "height": 205.5,
+            "x": 199,
+            "y": 295,
+            "width": 284,
+            "height": 128,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#F4F4F4"
         },
         {
           "sequence": 44,
-          "text": "First Law of ThermodynamicsStates the total energy of an isolated system is constant; energy can be transformed from one form to another but can be neither created nor destroyed.",
           "shape_name": "Text Box 104",
+          "text": "First Law of ThermodynamicsStates the total energy of an isolated system is constant; energy can be transformed from one form to another but can be neither created nor destroyed.",
           "timing": "click",
           "z_index": 39,
           "shape_type": "text_box",
           "layout": {
-            "x": 17.4,
-            "y": 479.0,
-            "width": 295.7,
-            "height": 139.0,
+            "x": 11,
+            "y": 299,
+            "width": 185,
+            "height": 87,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "left",
             "font_name": "Arial",
-            "font_size": 18.7,
+            "font_size": 11.7,
             "bold": true,
             "color": "#000000"
           }
         },
         {
           "sequence": 45,
-          "text": "Einstein",
           "shape_name": "Text Box 122",
+          "text": "Einstein",
           "timing": "click",
           "z_index": 46,
           "shape_type": "text_box",
           "layout": {
-            "x": 686.5,
-            "y": 492.8,
-            "width": 163.0,
-            "height": 48.0,
+            "x": 429,
+            "y": 308,
+            "width": 102,
+            "height": 30,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
+            "width": 1,
             "color": "#000000"
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 46,
-          "text": "=",
           "shape_name": "Text Box 161",
+          "text": "=",
           "timing": "click",
           "z_index": 61,
           "shape_type": "text_box",
           "layout": {
-            "x": 679.0,
-            "y": 487.1,
-            "width": 181.0,
-            "height": 66.3,
+            "x": 424,
+            "y": 304,
+            "width": 113,
+            "height": 41,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 77.3,
+            "font_size": 48.3,
             "bold": true
           }
         },
         {
           "sequence": 47,
-          "text": "E",
           "shape_name": "Text Box 96",
+          "text": "E",
           "timing": "click",
           "z_index": 68,
           "shape_type": "text_box",
           "layout": {
-            "x": 695.9,
-            "y": 546.6,
-            "width": 67.0,
-            "height": 73.0,
+            "x": 435,
+            "y": 342,
+            "width": 42,
+            "height": 46,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 80.0,
+            "font_size": 50.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 48,
-          "text": "=",
           "shape_name": "Text Box 98",
+          "text": "=",
           "timing": "with",
           "z_index": 70,
           "shape_type": "text_box",
           "layout": {
-            "x": 746.2,
-            "y": 547.4,
-            "width": 46.7,
-            "height": 73.0,
+            "x": 466,
+            "y": 342,
+            "width": 29,
+            "height": 46,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 62.7
+            "font_size": 39.2
           }
         },
         {
           "sequence": 49,
-          "text": "m",
           "shape_name": "Text Box 97",
+          "text": "m",
           "timing": "with",
           "z_index": 69,
           "shape_type": "text_box",
           "layout": {
-            "x": 783.3,
-            "y": 542.1,
-            "width": 76.8,
-            "height": 73.0,
+            "x": 489,
+            "y": 339,
+            "width": 48,
+            "height": 46,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 80.0,
+            "font_size": 50.0,
             "color": "#000000"
           }
         },
         {
           "sequence": 50,
-          "text": "What’s missing?",
           "shape_name": "Text Box 99",
+          "text": "What’s missing?",
           "timing": "click",
           "z_index": 35,
           "shape_type": "text_box",
           "layout": {
-            "x": 58.3,
-            "y": 654.9,
-            "width": 214.0,
-            "height": 47.7,
+            "x": 36,
+            "y": 409,
+            "width": 134,
+            "height": 30,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 26.7,
+            "font_size": 16.7,
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 51,
-          "text": "Genesis 1:1-3",
           "shape_name": "Text Box 101",
+          "text": "Genesis 1:1-3",
           "timing": "click",
           "z_index": 36,
           "shape_type": "text_box",
           "layout": {
-            "x": 37.1,
-            "y": 700.0,
-            "width": 256.3,
-            "height": 49.3,
+            "x": 23,
+            "y": 438,
+            "width": 160,
+            "height": 31,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
-          "line": {
-            "width": 1.0
-          },
+          "fill": "#F4F4F4",
           "font": {
             "font_name": "Arial",
-            "font_size": 32.0,
+            "font_size": 20.0,
             "bold": true
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 0
-          },
-          "linked_content": {
-            "name": "Genesis1.1",
             "id": 0,
-            "slides": [
-              {
-                "slide_file": "slides/slide4.xml",
-                "texts": [
-                  "3 Then God said, \"Let there be light\"; and there was light.",
-                  "Genesis 1:1-3 1:1-3",
-                  "1 In the beginning God created the heavens and the earth.",
-                  "(Energy & Matter)",
-                  "2 The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.",
-                  "(Problem?)",
-                  "(Solution)"
-                ]
-              }
-            ]
+            "name": "Genesis1.1"
           }
         },
         {
           "sequence": 52,
-          "text": "What gives matter stability?",
           "shape_name": "Text Box 102",
+          "text": "What gives matter stability?",
           "timing": "click",
           "z_index": 37,
           "shape_type": "text_box",
           "layout": {
-            "x": 1216.6,
-            "y": 585.2,
-            "width": 235.3,
-            "height": 76.8,
+            "x": 761,
+            "y": 366,
+            "width": 147,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 28.0,
-            "theme_color": "TEXT_2 (15)"
+            "font_size": 17.5,
+            "color": "#000000"
           }
         },
         {
           "sequence": 53,
-          "text": "",
           "shape_name": "Line 103",
           "timing": "with",
           "z_index": 38,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 932.9,
-            "y": 577.6,
-            "width": 273.1,
-            "height": 29.2,
+            "x": 583,
+            "y": 361,
+            "width": 171,
+            "height": 18,
             "rotation": 0
           },
           "line": {
-            "width": 7.7,
-            "theme_color": "HYPERLINK (11)"
+            "width": 8,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 668,
+              "y": 361
+            },
+            "to": {
+              "x": 668,
+              "y": 379
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
           }
         },
         {
           "sequence": 54,
-          "text": "c2",
           "shape_name": "Text Box 100",
+          "text": "c2",
           "timing": "click",
           "z_index": 71,
           "shape_type": "text_box",
           "layout": {
-            "x": 840.9,
-            "y": 541.4,
-            "width": 100.8,
-            "height": 73.0,
+            "x": 526,
+            "y": 338,
+            "width": 63,
+            "height": 46,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 80.0,
+            "font_size": 50.0,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 55,
-          "text": "Creation Equation",
           "shape_name": "Rectangle 73",
+          "text": "Creation Equation",
           "timing": "click",
           "z_index": 67,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 366.1,
-            "y": 557.3,
-            "width": 327.9,
-            "height": 58.0,
+            "x": 229,
+            "y": 348,
+            "width": 205,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 37.3,
+            "font_size": 23.3,
             "italic": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 56,
-          "text": "",
           "shape_name": "Line 86",
           "timing": "with",
           "z_index": 72,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 269.6,
-            "y": 597.2,
-            "width": 104.2,
-            "height": 118.5,
+            "x": 169,
+            "y": 373,
+            "width": 65,
+            "height": 74,
             "rotation": 0
           },
           "line": {
-            "width": 7.7,
-            "theme_color": "HYPERLINK (11)"
+            "width": 8,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 202,
+              "y": 373
+            },
+            "to": {
+              "x": 202,
+              "y": 447
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
           }
         },
         {
           "sequence": 57,
-          "text": "1Corinthians 15:40-45",
           "shape_name": "Text Box 106",
+          "text": "1Corinthians 15:40-45",
           "timing": "click",
           "z_index": 40,
           "shape_type": "text_box",
           "layout": {
-            "x": 53.3,
-            "y": 752.7,
-            "width": 224.0,
-            "height": 86.3,
+            "x": 33,
+            "y": 471,
+            "width": 140,
+            "height": 54,
             "rotation": 0
           },
-          "fill": {
-            "theme": "BACKGROUND_1 (14)",
-            "brightness": 0
-          },
+          "fill": "#F4F4F4",
           "line": {
-            "width": 1.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 1,
+            "color": "#000000"
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 32.0,
+            "font_size": 20.0,
             "bold": true,
-            "theme_color": "HYPERLINK (11)"
+            "color": "#000000"
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 2
-          },
-          "linked_content": {
-            "name": "1Corinthians15.40",
             "id": 2,
-            "slides": [
-              {
-                "slide_file": "slides/slide6.xml",
-                "texts": [
-                  "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-                  "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-                  "1 Corinthians 15:40-45"
-                ]
-              }
-            ]
+            "name": "1Corinthians15.40"
           }
         },
         {
           "sequence": 58,
-          "text": "perishable",
           "shape_name": "Rectangle 141",
+          "text": "perishable",
           "timing": "click",
           "z_index": 49,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 864.8,
-            "y": 672.0,
-            "width": 176.3,
-            "height": 42.3,
+            "x": 541,
+            "y": 420,
+            "width": 110,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 59,
-          "text": "dishonor",
           "shape_name": "Rectangle 143",
+          "text": "dishonor",
           "timing": "after",
           "delay": 500,
           "z_index": 51,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 875.5,
-            "y": 707.0,
-            "width": 155.0,
-            "height": 42.3,
+            "x": 548,
+            "y": 442,
+            "width": 97,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 60,
-          "text": "weakness",
           "shape_name": "Rectangle 145",
+          "text": "weakness",
           "timing": "after",
           "delay": 1000,
           "z_index": 53,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 868.8,
-            "y": 742.0,
-            "width": 168.2,
-            "height": 42.3,
+            "x": 543,
+            "y": 464,
+            "width": 105,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 61,
-          "text": "physical body",
           "shape_name": "Rectangle 147",
+          "text": "physical body",
           "timing": "after",
           "delay": 1500,
           "z_index": 55,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 835.8,
-            "y": 777.0,
-            "width": 234.5,
-            "height": 42.3,
+            "x": 522,
+            "y": 486,
+            "width": 146,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 62,
-          "text": "1st Adam",
           "shape_name": "Rectangle 149",
+          "text": "1st Adam",
           "timing": "after",
           "delay": 2000,
           "z_index": 57,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 812.8,
-            "y": 812.0,
-            "width": 161.5,
-            "height": 42.3,
+            "x": 508,
+            "y": 508,
+            "width": 101,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 63,
-          "text": "- Earth",
           "shape_name": "Rectangle 151",
+          "text": "- Earth",
           "timing": "after",
           "delay": 2500,
           "z_index": 59,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 982.5,
-            "y": 812.0,
-            "width": 121.5,
-            "height": 42.3,
+            "x": 614,
+            "y": 508,
+            "width": 76,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true
           }
         },
         {
           "sequence": 64,
-          "text": "imperishable",
           "shape_name": "Rectangle 142",
+          "text": "imperishable",
           "timing": "click",
           "z_index": 50,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 426.3,
-            "y": 672.0,
-            "width": 211.5,
-            "height": 42.3,
+            "x": 266,
+            "y": 420,
+            "width": 132,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 65,
-          "text": "glory",
           "shape_name": "Rectangle 144",
+          "text": "glory",
           "timing": "after",
           "delay": 500,
           "z_index": 52,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 482.2,
-            "y": 707.0,
-            "width": 100.2,
-            "height": 42.3,
+            "x": 301,
+            "y": 442,
+            "width": 62,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 66,
-          "text": "power",
           "shape_name": "Rectangle 146",
+          "text": "power",
           "timing": "after",
           "delay": 1000,
           "z_index": 54,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 474.7,
-            "y": 742.0,
-            "width": 115.0,
-            "height": 42.3,
+            "x": 297,
+            "y": 464,
+            "width": 72,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 67,
-          "text": "spiritual body",
           "shape_name": "Rectangle 148",
+          "text": "spiritual body",
           "timing": "after",
           "delay": 1500,
           "z_index": 56,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 420.8,
-            "y": 777.0,
-            "width": 222.8,
-            "height": 42.3,
+            "x": 263,
+            "y": 486,
+            "width": 139,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 68,
-          "text": "2nd Adam",
           "shape_name": "Rectangle 150",
+          "text": "2nd Adam",
           "timing": "after",
           "delay": 2000,
           "z_index": 58,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 387.2,
-            "y": 812.0,
-            "width": 171.5,
-            "height": 42.3,
+            "x": 242,
+            "y": 508,
+            "width": 107,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 69,
-          "text": "- Heaven",
           "shape_name": "Rectangle 152",
+          "text": "- Heaven",
           "timing": "after",
           "delay": 2500,
           "z_index": 60,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 566.3,
-            "y": 812.0,
-            "width": 151.7,
-            "height": 42.3,
+            "x": 354,
+            "y": 508,
+            "width": 95,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 34.7,
+            "font_size": 21.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 70,
-          "text": "SPIRITUAL",
           "shape_name": "Text Box 107",
+          "text": "SPIRITUAL",
           "timing": "click",
           "z_index": 41,
           "shape_type": "text_box",
           "layout": {
-            "x": 376.0,
-            "y": 618.0,
-            "width": 348.7,
-            "height": 57.5,
+            "x": 235,
+            "y": 386,
+            "width": 218,
+            "height": 36,
             "rotation": 0
-          },
-          "line": {
-            "width": 1.0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 62.7,
+            "font_size": 39.2,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 71,
-          "text": "PHYSICAL",
           "shape_name": "Text Box 108",
+          "text": "PHYSICAL",
           "timing": "click",
           "z_index": 42,
           "shape_type": "text_box",
           "layout": {
-            "x": 801.2,
-            "y": 610.8,
-            "width": 336.5,
-            "height": 71.8,
+            "x": 501,
+            "y": 382,
+            "width": 210,
+            "height": 45,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 62.7,
+            "font_size": 39.2,
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 72,
-          "text": "=",
           "shape_name": "Text Box 110",
+          "text": "=",
           "timing": "click",
           "z_index": 43,
           "shape_type": "text_box",
           "layout": {
-            "x": 740.7,
-            "y": 623.7,
-            "width": 57.7,
-            "height": 46.2,
+            "x": 463,
+            "y": 390,
+            "width": 36,
+            "height": 29,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial",
-            "font_size": 62.7,
+            "font_size": 39.2,
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         },
         {
           "sequence": 73,
-          "text": "Spiritual & Physical:Equal, but in differentforms, same as energy& matter",
           "shape_name": "Text Box 111",
+          "text": "Spiritual & Physical:Equal, but in differentforms, same as energy& matter",
           "timing": "click",
           "z_index": 44,
           "shape_type": "text_box",
           "layout": {
-            "x": 1144.9,
-            "y": 690.5,
-            "width": 313.7,
-            "height": 153.7,
+            "x": 716,
+            "y": 431,
+            "width": 196,
+            "height": 96,
             "rotation": 0
           },
           "fill": "#969696",
           "font": {
             "align": "left",
             "font_name": "Arial",
-            "font_size": 28.0,
+            "font_size": 17.5,
             "bold": true,
-            "theme_color": "TEXT_2 (15)"
+            "color": "#000000"
           }
         }
       ],
       "static_content": [
         {
-          "text": "",
           "shape_name": "Text Box 54",
           "static": true,
           "z_index": 19,
           "shape_type": "text_box",
           "layout": {
-            "x": 138.5,
-            "y": 388.8,
-            "width": 27.0,
-            "height": 34.5,
+            "x": 87,
+            "y": 243,
+            "width": 17,
+            "height": 21,
             "rotation": 0
           }
         },
         {
-          "text": "Genesis 1:1",
           "shape_name": "Title 72",
           "static": true,
+          "text": "Genesis 1:1",
           "z_index": 66,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 20.9,
-            "y": 3.6,
-            "width": 258.7,
-            "height": 59.5,
+            "x": 13,
+            "y": 2,
+            "width": 162,
+            "height": 38,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 38.7
+            "font_size": 24.2,
+            "bold": true
           }
         }
       ]
@@ -1834,339 +2313,313 @@
       "animation_sequence": [
         {
           "sequence": 1,
-          "text": "",
           "shape_name": "Rectangle 156",
           "timing": "click",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 314.3,
-            "y": 0.0,
-            "width": 421.3,
-            "height": 865.9,
+            "x": 196,
+            "y": 0,
+            "width": 263,
+            "height": 541,
             "rotation": 0
           },
-          "fill": {
-            "theme": "ACCENT_6 (10)",
-            "brightness": 0
-          },
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#33CCFF"
         },
         {
           "sequence": 2,
-          "text": "SPIRITUAL",
           "shape_name": "Rectangle 34",
+          "text": "SPIRITUAL",
           "timing": "with",
           "z_index": 9,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 356.9,
-            "y": 11.2,
-            "width": 368.9,
-            "height": 83.8,
+            "x": 223,
+            "y": 7,
+            "width": 231,
+            "height": 52,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 58.7,
+            "font_size": 36.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 3,
-          "text": "",
           "shape_name": "Rectangle 157",
           "timing": "after",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 736.0,
-            "y": 0.0,
-            "width": 433.1,
-            "height": 864.0,
+            "x": 460,
+            "y": 0,
+            "width": 271,
+            "height": 540,
             "rotation": 0
           },
-          "fill": {
-            "theme": "ACCENT_2 (6)",
-            "brightness": 0
-          },
-          "font": {
-            "v_align": "middle"
-          }
+          "fill": "#969696"
         },
         {
           "sequence": 4,
-          "text": "PHYSICAL",
           "shape_name": "Rectangle 33",
+          "text": "PHYSICAL",
           "timing": "with",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 744.5,
-            "y": 11.2,
-            "width": 381.6,
-            "height": 83.8,
+            "x": 465,
+            "y": 7,
+            "width": 239,
+            "height": 52,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 58.7,
+            "font_size": 36.7,
             "bold": true
           }
         },
         {
           "sequence": 5,
-          "text": "TemporaryVisible",
           "shape_name": "Title 4",
+          "text": "TemporaryVisible",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
           "layout": {
-            "x": 312.7,
-            "y": 80.9,
-            "width": 421.7,
-            "height": 122.3,
+            "x": 196,
+            "y": 51,
+            "width": 264,
+            "height": 76,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "+mn-lt",
-            "font_size": 53.3
+            "font_size": 33.3
           }
         },
         {
           "sequence": 6,
-          "text": "EternalUnseen",
           "shape_name": "Title 4",
+          "text": "EternalUnseen",
           "timing": "click",
           "z_index": 27,
           "shape_type": "text_box",
           "layout": {
-            "x": 740.0,
-            "y": 71.9,
-            "width": 355.0,
-            "height": 141.3,
+            "x": 462,
+            "y": 45,
+            "width": 222,
+            "height": 88,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "+mn-lt",
-            "font_size": 53.3,
+            "font_size": 33.3,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 7,
-          "text": "Copy / Shadow = True / Substance",
           "shape_name": "TextBox 77",
+          "text": "Copy / Shadow = True / Substance",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
-            "x": 342.4,
-            "y": 202.9,
-            "width": 825.0,
-            "height": 76.7,
+            "x": 214,
+            "y": 127,
+            "width": 516,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 48.0,
+            "font_size": 30.0,
             "bold": true
           }
         },
         {
           "sequence": 8,
-          "text": "Hebrews 9:22-24",
           "shape_name": "TextBox 1",
+          "text": "Hebrews 9:22-24",
           "timing": "click",
-          "z_index": 32,
+          "z_index": 33,
           "shape_type": "text_box",
           "layout": {
-            "x": 23.3,
-            "y": 214.0,
-            "width": 328.9,
-            "height": 54.9,
+            "x": 14,
+            "y": 134,
+            "width": 206,
+            "height": 34,
             "rotation": 0
           },
-          "fill": {
-            "theme": "ACCENT_1 (5)",
-            "brightness": 0
-          },
+          "fill": "#33CCFF",
           "font": {
+            "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 37.3,
+            "font_size": 23.3,
             "bold": true
           },
           "hyperlink": {
             "type": "customshow",
-            "id": 6
-          },
-          "linked_content": {
-            "name": "Hebrews9.22",
             "id": 6,
-            "slides": [
-              {
-                "slide_file": "slides/slide10.xml",
-                "texts": [
-                  "Hebrews 9:22-24",
-                  "In fact, the law requires that nearly everything be cleansed with blood, and without the shedding of blood there is no forgiveness. 23 It was necessary, then, for the copies of the heavenly things to be purified with these sacrifices, but the heavenly things themselves with better sacrifices than these. 24 For Christ did not enter a sanctuary made with human hands that was only a copy of the true one; he entered heaven itself, now to appear for us in God’s presence.",
-                  "(NIV)"
-                ]
-              }
-            ]
+            "name": "Hebrews9.22"
           }
         },
         {
           "sequence": 9,
-          "text": "ISRAEL",
           "shape_name": "Rectangle 35",
+          "text": "ISRAEL",
           "timing": "click",
           "z_index": 10,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 394.9,
-            "y": 319.7,
-            "width": 257.2,
-            "height": 88.7,
+            "x": 247,
+            "y": 200,
+            "width": 161,
+            "height": 56,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 62.7,
+            "font_size": 39.2,
             "bold": true
           }
         },
         {
           "sequence": 10,
-          "text": "=",
           "shape_name": "TextBox 74",
+          "text": "=",
           "timing": "with",
           "z_index": 20,
           "shape_type": "text_box",
           "layout": {
-            "x": 683.5,
-            "y": 331.2,
-            "width": 101.7,
-            "height": 76.7,
+            "x": 428,
+            "y": 207,
+            "width": 64,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 53.3,
+            "font_size": 33.3,
             "bold": true
           }
         },
         {
           "sequence": 11,
-          "text": "CHURCH",
           "shape_name": "Rectangle 18",
+          "text": "CHURCH",
           "timing": "with",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 798.8,
-            "y": 325.7,
-            "width": 299.7,
-            "height": 88.7,
+            "x": 499,
+            "y": 204,
+            "width": 188,
+            "height": 56,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 62.7,
+            "font_size": 39.2,
             "bold": true
           }
         },
         {
           "sequence": 12,
-          "text": "Old Testament = New Testament",
           "shape_name": "Title 4",
+          "text": "Old Testament = New Testament",
           "timing": "click",
           "z_index": 19,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 268.2,
-            "y": 428.3,
-            "width": 941.4,
-            "height": 71.1,
+            "x": 168,
+            "y": 268,
+            "width": 588,
+            "height": 44,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 53.3
+            "font_size": 33.3,
+            "bold": true
           }
         },
         {
           "sequence": 13,
-          "text": "ImperishablePowerfulGlorified",
           "shape_name": "TextBox 76",
+          "text": "ImperishablePowerfulGlorified",
           "timing": "click",
           "z_index": 23,
           "shape_type": "text_box",
           "layout": {
-            "x": 822.6,
-            "y": 506.4,
-            "width": 251.9,
-            "height": 188.8,
+            "x": 514,
+            "y": 316,
+            "width": 158,
+            "height": 118,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 42.7,
+            "font_size": 26.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
           "sequence": 14,
-          "text": "PerishableWeaknessDishonor",
           "shape_name": "TextBox 10",
+          "text": "PerishableWeaknessDishonor",
           "timing": "with",
           "z_index": 22,
           "shape_type": "text_box",
           "layout": {
-            "x": 419.5,
-            "y": 508.9,
-            "width": 208.0,
-            "height": 183.8,
+            "x": 262,
+            "y": 318,
+            "width": 130,
+            "height": 115,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 42.7,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
           "sequence": 15,
-          "text": "Glory #1",
           "shape_name": "Rectangle 37",
+          "text": "Glory #1",
           "timing": "click",
           "z_index": 15,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 418.8,
-            "y": 279.7,
-            "width": 209.3,
-            "height": 46.7,
+            "x": 262,
+            "y": 175,
+            "width": 131,
+            "height": 29,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 42.7,
+            "font_size": 26.7,
             "bold": true,
             "italic": true,
             "color": "#0000FF"
@@ -2174,23 +2627,23 @@
         },
         {
           "sequence": 16,
-          "text": "Glory #2",
           "shape_name": "Rectangle 38",
+          "text": "Glory #2",
           "timing": "click",
           "z_index": 11,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 844.1,
-            "y": 288.7,
-            "width": 209.0,
-            "height": 46.7,
+            "x": 528,
+            "y": 181,
+            "width": 131,
+            "height": 29,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 42.7,
+            "font_size": 26.7,
             "bold": true,
             "italic": true,
             "color": "#0000FF"
@@ -2198,23 +2651,23 @@
         },
         {
           "sequence": 17,
-          "text": "Glory #3",
           "shape_name": "Text Box 17",
+          "text": "Glory #3",
           "timing": "click",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
-            "x": 1193.2,
-            "y": 205.7,
-            "width": 209.0,
-            "height": 46.7,
+            "x": 746,
+            "y": 129,
+            "width": 131,
+            "height": 29,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 42.7,
+            "font_size": 26.7,
             "bold": true,
             "italic": true,
             "color": "#0000FF"
@@ -2222,22 +2675,22 @@
         },
         {
           "sequence": 18,
-          "text": "HEAVEN",
           "shape_name": "Text Box 19",
+          "text": "HEAVEN",
           "timing": "with",
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
-            "x": 1169.3,
-            "y": 240.0,
-            "width": 284.5,
-            "height": 88.7,
+            "x": 731,
+            "y": 150,
+            "width": 178,
+            "height": 56,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 62.7,
+            "font_size": 39.2,
             "bold": true,
             "color": "#0000FF"
           }
@@ -2245,276 +2698,366 @@
       ],
       "static_content": [
         {
-          "text": "ALPHA",
           "shape_name": "Rectangle 20",
           "static": true,
+          "text": "ALPHA",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 148.0,
-            "y": 418.3,
-            "width": 131.2,
-            "height": 42.5,
+            "x": 92,
+            "y": 261,
+            "width": 82,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 28.0,
+            "font_size": 17.5,
             "bold": true
           }
         },
         {
-          "text": "",
           "shape_name": "Line 126",
           "static": true,
           "z_index": 3,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 96.0,
-            "y": 414.3,
-            "width": 1344.0,
-            "height": 2.0,
+            "x": 60,
+            "y": 259,
+            "width": 840,
+            "height": 1,
             "rotation": 0
           },
           "line": {
-            "width": 7.3,
-            "color": "#0000FF"
+            "width": 7,
+            "color": "#0000FF",
+            "dash": "sysDash"
           },
-          "font": {
-            "v_align": "middle"
+          "line_endpoints": {
+            "from": {
+              "x": 480,
+              "y": 259
+            },
+            "to": {
+              "x": 480,
+              "y": 260
+            }
           }
         },
         {
-          "text": "OMEGA",
           "shape_name": "Rectangle 21",
           "static": true,
+          "text": "OMEGA",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 1225.5,
-            "y": 418.3,
-            "width": 141.0,
-            "height": 42.5,
+            "x": 766,
+            "y": 261,
+            "width": 88,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 28.0,
+            "font_size": 17.5,
             "bold": true
           }
         },
         {
-          "text": "ETERNAL",
           "shape_name": "Rectangle 32",
           "static": true,
+          "text": "ETERNAL",
           "z_index": 7,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 1217.3,
-            "y": 329.1,
-            "width": 206.3,
-            "height": 43.5,
+            "x": 761,
+            "y": 206,
+            "width": 129,
+            "height": 28,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 42.7,
+            "font_size": 26.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
-          "text": "",
           "shape_name": "Line 74",
           "static": true,
           "z_index": 12,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 738.3,
-            "y": -30.4,
-            "width": 1.0,
-            "height": 893.8,
+            "x": 461,
+            "y": -19,
+            "width": 1,
+            "height": 559,
             "rotation": 90.0
           },
           "line": {
-            "width": 15.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 15,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 741,
+              "y": 260
+            },
+            "to": {
+              "x": 182,
+              "y": 260
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
           }
         },
         {
-          "text": "",
           "shape_name": "Line 66",
           "static": true,
           "z_index": 13,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 473.1,
-            "y": 258.8,
-            "width": 0.7,
-            "height": 313.2,
+            "x": 296,
+            "y": 162,
+            "width": 1,
+            "height": 196,
             "rotation": 90.0
           },
           "line": {
-            "width": 13.3,
-            "theme_color": "TEXT_1 (13)"
+            "width": 13,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 394,
+              "y": 260
+            },
+            "to": {
+              "x": 198,
+              "y": 260
+            }
           }
         },
         {
-          "text": "",
           "shape_name": "Line 159",
           "static": true,
           "z_index": 16,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 1033.8,
-            "y": 636.8,
-            "width": 63.9,
-            "height": 278.3,
+            "x": 646,
+            "y": 398,
+            "width": 40,
+            "height": 174,
             "rotation": 0
           },
           "line": {
-            "width": 8.0,
-            "theme_color": "TEXT_1 (13)"
+            "width": 8,
+            "color": "#000000"
           },
-          "font": {
-            "v_align": "middle"
+          "line_endpoints": {
+            "from": {
+              "x": 666,
+              "y": 398
+            },
+            "to": {
+              "x": 666,
+              "y": 572
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
           }
         },
         {
-          "text": "",
           "shape_name": "TextBox 6",
           "static": true,
           "z_index": 17,
           "shape_type": "text_box",
           "layout": {
-            "x": 119.3,
-            "y": 150.0,
-            "width": 19.4,
-            "height": 42.0,
+            "x": 74,
+            "y": 94,
+            "width": 12,
+            "height": 26,
             "rotation": 0
           }
         },
         {
-          "text": "=",
           "shape_name": "TextBox 75",
           "static": true,
+          "text": "=",
           "z_index": 21,
           "shape_type": "text_box",
           "layout": {
-            "x": 659.3,
-            "y": 21.4,
-            "width": 153.3,
-            "height": 76.7,
+            "x": 412,
+            "y": 13,
+            "width": 96,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 53.3,
+            "font_size": 33.3,
             "bold": true
           }
         },
         {
-          "text": "Eternity",
           "shape_name": "Rectangle 130",
           "static": true,
+          "text": "Eternity",
           "z_index": 24,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 94.8,
-            "y": 483.8,
-            "width": 227.3,
-            "height": 77.3,
+            "x": 59,
+            "y": 302,
+            "width": 142,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 53.3,
+            "font_size": 33.3,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
-          "text": "Eternity",
           "shape_name": "Rectangle 131",
           "static": true,
+          "text": "Eternity",
           "z_index": 25,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 1182.2,
-            "y": 483.8,
-            "width": 227.5,
-            "height": 77.3,
+            "x": 739,
+            "y": 302,
+            "width": 142,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 53.3,
+            "font_size": 33.3,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
-          "text": "",
           "shape_name": "Line 75",
-          "static": true
-        },
-        {
-          "text": "Beginning",
-          "shape_name": "Rectangle 79",
-          "static": true
-        },
-        {
-          "text": "",
-          "shape_name": "Line 76",
           "static": true,
-          "z_index": 29,
+          "z_index": 28,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 1198.7,
-            "y": 360.8,
-            "width": 0.0,
-            "height": 96.2,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
             "rotation": 0
           },
           "line": {
-            "width": 10.7,
-            "theme_color": "TEXT_1 (13)"
-          }
+            "width": 11,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 0,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "arrow_ends": {
+            "headEnd": "oval",
+            "tailEnd": "oval"
+          },
+          "group_id": "32"
         },
         {
-          "text": "End",
-          "shape_name": "Rectangle 80",
+          "shape_name": "Rectangle 79",
           "static": true,
-          "z_index": 30,
+          "text": "Beginning",
+          "z_index": 29,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 1261.1,
-            "y": 364.6,
-            "width": 89.7,
-            "height": 48.5,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 32.0,
+            "font_size": 20.0,
+            "bold": true
+          },
+          "group_id": "32"
+        },
+        {
+          "shape_name": "Line 76",
+          "static": true,
+          "z_index": 30,
+          "shape_type": "auto_shape",
+          "layout": {
+            "x": 749,
+            "y": 226,
+            "width": 0,
+            "height": 60,
+            "rotation": 0
+          },
+          "line": {
+            "width": 11,
+            "color": "#000000"
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 749,
+              "y": 226
+            },
+            "to": {
+              "x": 749,
+              "y": 286
+            }
+          },
+          "arrow_ends": {
+            "headEnd": "oval",
+            "tailEnd": "oval"
+          }
+        },
+        {
+          "shape_name": "Rectangle 80",
+          "static": true,
+          "text": "End",
+          "z_index": 31,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 788,
+            "y": 228,
+            "width": 56,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 20.0,
             "bold": true
           }
         },
         {
-          "text": "",
           "shape_name": "TextBox 3",
           "static": true,
-          "z_index": 31,
+          "z_index": 32,
           "shape_type": "text_box",
           "layout": {
-            "x": 1217.9,
-            "y": 682.2,
-            "width": 19.4,
-            "height": 42.0,
+            "x": 761,
+            "y": 426,
+            "width": 12,
+            "height": 26,
             "rotation": 0
           }
         }
@@ -2525,598 +3068,38 @@
       "animation_sequence": [],
       "static_content": [
         {
-          "text": "End of lesson",
           "shape_name": "Title 6",
           "static": true,
+          "text": "End of lesson",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 662.3,
-            "y": 200.2,
-            "width": 777.7,
-            "height": 137.3,
+            "x": 414,
+            "y": 125,
+            "width": 486,
+            "height": 86,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 70.7,
-            "theme_color": "BACKGROUND_1 (14)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 4,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "1 In the beginning God created the heavens and the earth.",
-          "shape_name": "Rectangle 9",
-          "timing": "click",
-          "z_index": 3,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 53.3,
-            "y": 166.8,
-            "width": 1417.1,
-            "height": 66.6,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 53.3
-          }
-        },
-        {
-          "sequence": 2,
-          "text": "(Energy & Matter)",
-          "shape_name": "Rectangle 10",
-          "timing": "click",
-          "z_index": 4,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 975.1,
-            "y": 98.0,
-            "width": 399.7,
-            "height": 73.8,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "right",
-            "font_name": "+mj-lt",
-            "font_size": 42.7,
-            "italic": true
-          }
-        },
-        {
-          "sequence": 3,
-          "text": "2 The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.",
-          "shape_name": "Rectangle 13",
-          "timing": "click",
-          "z_index": 5,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 100.7,
-            "y": 292.7,
-            "width": 1310.0,
-            "height": 206.6,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 53.3
-          }
-        },
-        {
-          "sequence": 4,
-          "text": "(Problem?)",
-          "shape_name": "Rectangle 10",
-          "timing": "click",
-          "z_index": 6,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 975.1,
-            "y": 248.6,
-            "width": 399.7,
-            "height": 73.8,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "right",
-            "font_name": "+mj-lt",
-            "font_size": 42.7,
-            "italic": true
-          }
-        },
-        {
-          "sequence": 5,
-          "text": "3 Then God said, \"Let there be light\"; and there was light.",
-          "shape_name": "Rectangle 8",
-          "timing": "click",
-          "z_index": 1,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 100.7,
-            "y": 513.7,
-            "width": 1247.0,
-            "height": 142.0,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 53.3
-          }
-        },
-        {
-          "sequence": 6,
-          "text": "",
-          "shape_name": "Rectangle 3",
-          "timing": "with",
-          "z_index": 0,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 554.8,
-            "y": 655.7,
-            "width": 625.0,
-            "height": 14.4,
-            "rotation": 0
-          },
-          "fill": {
-            "theme": "ACCENT_5 (9)",
-            "brightness": 0
-          },
-          "line": {
-            "width": 1.7
-          },
-          "font": {
-            "v_align": "top",
-            "align": "left"
-          }
-        },
-        {
-          "sequence": 7,
-          "text": "(Solution)",
-          "shape_name": "Rectangle 10",
-          "timing": "after",
-          "delay": 1000,
-          "z_index": 7,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 975.1,
-            "y": 516.4,
-            "width": 399.7,
-            "height": 73.8,
-            "rotation": 0
-          },
-          "line": {
-            "width": 1.0
-          },
-          "font": {
-            "v_align": "middle",
-            "align": "right",
-            "font_name": "+mj-lt",
-            "font_size": 42.7,
-            "italic": true
-          }
-        }
-      ],
-      "static_content": [
-        {
-          "text": "Genesis 1:1-3 1:1-3",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 131.3,
-            "y": 24.6,
-            "width": 1209.7,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 53.3,
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 5,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "How can invisible qualities be clearly seen?",
-          "shape_name": "TextBox 1",
-          "timing": "click",
-          "z_index": 2,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 272.3,
-            "y": 610.6,
-            "width": 1039.9,
-            "height": 67.9,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "+mn-lt",
-            "font_size": 48.0,
+            "font_size": 44.2,
             "bold": true,
-            "theme_color": "ACCENT_5 (9)"
+            "color": "#F4F4F4"
           }
-        }
-      ],
-      "static_content": [
+        },
         {
-          "text": "Romans 1:20",
-          "shape_name": "Rectangle 5",
+          "shape_name": "Picture 7",
+          "shape_type": "picture",
+          "image": "image1.jpeg",
           "static": true,
+          "description": "blue_earth_1600x1200.jpg",
           "z_index": 0,
-          "shape_type": "placeholder (14)",
           "layout": {
-            "x": 181.8,
-            "y": 117.3,
-            "width": 509.0,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 70.7,
-            "theme_color": "TEXT_1 (13)"
-          }
-        },
-        {
-          "text": "20For since the creation of the world God's invisible qualities--his eternal power and divine nature--have been clearly seen, being understood from what has been made, so that men are without excuse.",
-          "shape_name": "TextBox 3",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 178.2,
-            "y": 192.0,
-            "width": 1228.2,
-            "height": 419.8,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 56.0
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 6,
-      "animation_sequence": [
-        {
-          "sequence": 1,
-          "text": "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-          "shape_name": "TextBox 3",
-          "timing": "click",
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 165.0,
-            "y": 108.8,
-            "width": 1239.5,
-            "height": 789.9,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 49.3,
-            "color": "#000000"
-          }
-        },
-        {
-          "sequence": 2,
-          "text": "So it is with the resurrection of the dead. What is sown is perishable, what is raised is imperishable.  It is sown in dishonor, it is raised in glory. It is sown in weakness, it is raised in power.  It is sown a physical body, it is raised a spiritual body. If there is a physical body, there is also a spiritual body.  Thus it is written, \"The first man, Adam, became a living being\"; the last Adam became a life-giving spirit.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the earth, a man of dust; the second man is from heaven.",
-          "shape_name": "TextBox 3",
-          "timing": "with",
-          "z_index": 0,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 165.0,
-            "y": 108.8,
-            "width": 1239.5,
-            "height": 789.9,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 49.3
-          }
-        }
-      ],
-      "static_content": [
-        {
-          "text": "1 Corinthians 15:40-45",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 161.8,
-            "y": 40.7,
-            "width": 1209.5,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 70.7,
-            "theme_color": "TEXT_1 (13)"
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 7,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "2 Corinthians 4:17",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 201.7,
-            "y": 98.2,
-            "width": 1209.7,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 77.3,
-            "theme_color": "TEXT_1 (13)"
-          }
-        },
-        {
-          "text": "For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,18 while we look not at the things which are seen, but at the things which are not seen; for the things which are seen are temporal, but the things which are not seen are eternal.",
-          "shape_name": "TextBox 3",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 124.0,
-            "y": 166.3,
-            "width": 1238.8,
-            "height": 465.1,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 53.3
-          }
-        },
-        {
-          "text": "NASB95",
-          "shape_name": "TextBox 1",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 1288.4,
-            "y": 678.6,
-            "width": 122.9,
-            "height": 42.0,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "+mn-lt",
-            "font_size": 26.7
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 8,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "Colossians 1:15-16",
-          "shape_name": "Rectangle 7",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 158.5,
-            "y": 85.3,
-            "width": 739.5,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 70.7
-          }
-        },
-        {
-          "text": "He is the image of the invisible God, the firstborn of all creation.  16For by Him all things were created, both in the heavens and on earth, visible and invisible, whether thrones or dominions or rulers or authorities--all things have been created through Him and for Him.",
-          "shape_name": "TextBox 4",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 161.3,
-            "y": 148.8,
-            "width": 1234.3,
-            "height": 419.8,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 56.0
-          }
-        },
-        {
-          "text": "NASB95",
-          "shape_name": "TextBox 1",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 1288.4,
-            "y": 678.6,
-            "width": 122.9,
-            "height": 42.0,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "+mn-lt",
-            "font_size": 26.7
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 9,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "Hebrews 11:1-3",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 174.3,
-            "y": 63.0,
-            "width": 620.0,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 70.7,
-            "theme_color": "TEXT_1 (13)"
-          }
-        },
-        {
-          "text": "Now faith is the substance of things hoped for, the evidence of things not seen.  2For by it the elders obtained a good testimony.  3By faith we understand that the worlds were framed by the word of God, so that the things which are seen were not made of things which are visible.",
-          "shape_name": "TextBox 3",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 176.3,
-            "y": 133.3,
-            "width": 1189.0,
-            "height": 555.6,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 56.0
-          }
-        },
-        {
-          "text": "(NKJV)",
-          "shape_name": "TextBox 2",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 1242.7,
-            "y": 713.7,
-            "width": 245.3,
-            "height": 42.0,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 26.7
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 10,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "text": "Hebrews 9:22-24",
-          "shape_name": "Rectangle 5",
-          "static": true,
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 133.1,
-            "y": 63.0,
-            "width": 620.0,
-            "height": 71.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 72.0
-          }
-        },
-        {
-          "text": "In fact, the law requires that nearly everything be cleansed with blood, and without the shedding of blood there is no forgiveness. 23 It was necessary, then, for the copies of the heavenly things to be purified with these sacrifices, but the heavenly things themselves with better sacrifices than these. 24 For Christ did not enter a sanctuary made with human hands that was only a copy of the true one; he entered heaven itself, now to appear for us in God’s presence.",
-          "shape_name": "TextBox 3",
-          "static": true,
-          "z_index": 1,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 133.1,
-            "y": 133.3,
-            "width": 1232.2,
-            "height": 659.0,
-            "rotation": 0
-          },
-          "font": {
-            "align": "left",
-            "font_name": "Arial",
-            "font_size": 53.3
-          }
-        },
-        {
-          "text": "(NIV)",
-          "shape_name": "TextBox 2",
-          "static": true,
-          "z_index": 2,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 1242.7,
-            "y": 713.7,
-            "width": 245.3,
-            "height": 62.7,
-            "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 42.7
+            "x": -7,
+            "y": 0,
+            "width": 967,
+            "height": 540,
+            "rotation": 0.0
           }
         }
       ]

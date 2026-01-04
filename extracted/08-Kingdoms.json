@@ -1,0 +1,4725 @@
+{
+  "file_path": "/Users/badger/projects/hsu-pptx/08-Kingdoms.pptx",
+  "file_name": "08-Kingdoms.pptx",
+  "total_slides": 2,
+  "total_custom_shows": 17,
+  "total_linked_slides": 19,
+  "source_dimensions": {
+    "width": 1344,
+    "height": 864
+  },
+  "target_canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "scale_factor": 0.714,
+  "images_folder": "08-Kingdoms",
+  "custom_shows": {
+    "0": {
+      "name": "Genesis1.31",
+      "id": 0,
+      "slide_numbers": [
+        21
+      ]
+    },
+    "1": {
+      "name": "2Samuel12.21-23",
+      "id": 1,
+      "slide_numbers": [
+        18
+      ]
+    },
+    "2": {
+      "name": "Genesis3.6-8",
+      "id": 2,
+      "slide_numbers": [
+        20
+      ]
+    },
+    "3": {
+      "name": "Romans3.23",
+      "id": 3,
+      "slide_numbers": [
+        17
+      ]
+    },
+    "4": {
+      "name": "2Corinthians4.4",
+      "id": 4,
+      "slide_numbers": [
+        16
+      ]
+    },
+    "5": {
+      "name": "Ephesians5.3-7",
+      "id": 5,
+      "slide_numbers": [
+        15
+      ]
+    },
+    "6": {
+      "name": "2Peter2.1-4",
+      "id": 6,
+      "slide_numbers": [
+        14
+      ]
+    },
+    "7": {
+      "name": "1Corinthians15.1-4",
+      "id": 7,
+      "slide_numbers": [
+        13
+      ]
+    },
+    "8": {
+      "name": "Romans6.1-11",
+      "id": 8,
+      "slide_numbers": [
+        11,
+        12,
+        19
+      ]
+    },
+    "9": {
+      "name": "Colossians1.13-14",
+      "id": 9,
+      "slide_numbers": [
+        10
+      ]
+    },
+    "10": {
+      "name": "2Corinthians6.14-15",
+      "id": 10,
+      "slide_numbers": [
+        9
+      ]
+    },
+    "11": {
+      "name": "John6.53",
+      "id": 11,
+      "slide_numbers": [
+        8
+      ]
+    },
+    "12": {
+      "name": "2Peter3.1-10.17",
+      "id": 12,
+      "slide_numbers": [
+        7
+      ]
+    },
+    "13": {
+      "name": "2Peter2.20-21",
+      "id": 13,
+      "slide_numbers": [
+        6
+      ]
+    },
+    "14": {
+      "name": "1Corinthians15.22-25",
+      "id": 14,
+      "slide_numbers": [
+        5
+      ]
+    },
+    "15": {
+      "name": "Revelation21.3-4",
+      "id": 15,
+      "slide_numbers": [
+        4
+      ]
+    },
+    "16": {
+      "name": "1Peter3.18-22",
+      "id": 16,
+      "slide_numbers": [
+        3
+      ]
+    }
+  },
+  "linked_slides": {
+    "3": {
+      "slide_number": 3,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 5",
+          "timing": "click",
+          "text": "The water is an appeal to God for a good conscience – through the resurrection of Jesus Christ.",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 124,
+            "y": 485,
+            "width": 711,
+            "height": 62,
+            "rotation": 0
+          },
+          "fill": "#000000",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "bold": true,
+            "color": "#F4F4F4"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "TextBox 4",
+          "timing": "with",
+          "text": "Safely through the water = Baptism = Saves you = Resurrection of Jesus",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 66,
+            "y": 417,
+            "width": 846,
+            "height": 34,
+            "rotation": 0
+          },
+          "fill": "#0000FF",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "bold": true,
+            "color": "#F4F4F4"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "1 Peter 3:18-22",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 31,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "For Christ also died for sins once for all, the just for the unjust, so that He might bring us to God, having been put to death in the flesh, but made alive in the spirit; 19 in which also He went and made proclamation to the spirits now in prison, 20 who once were disobedient, when the patience of God kept waiting in the days of Noah, during the construction of the ark, in which a few, that is, eight persons, were brought safely through the water. 21 Corresponding to that, baptism now saves you—not the removal of dirt from the flesh, but an appeal to God for a good conscience—through the resurrection of Jesus Christ, 22 who is at the right hand of God, having gone into heaven, after angels and authorities and powers had been subjected to Him.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 82,
+            "width": 874,
+            "height": 284,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "4": {
+      "slide_number": 4,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Revelation 21:3-4",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "3 And I heard a loud voice from the throne, saying, “Behold, the tabernacle of God is among men, and He will dwell among them, and they shall be His people, and God Himself will be among them, 4 and He will wipe away every tear from their eyes; and there will no longer be any death; there will no longer be any mourning, or crying, or pain; the first things have passed away.”",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 60,
+            "width": 864,
+            "height": 146,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "bold": true
+          }
+        }
+      ]
+    },
+    "5": {
+      "slide_number": 5,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "1 Corinthians 15:22-25",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "For as in Adam all die, so in Christ all will be made alive. 23 But each in turn: Christ, the firstfruits; then, when he comes, those who belong to him. 24 Then the end will come, when he hands over the kingdom to God the Father after he has destroyed all dominion, authority and power. 25 For he must reign until he has put all his enemies under his feet.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 47,
+            "y": 53,
+            "width": 873,
+            "height": 146,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "2 Peter 1:10-11Therefore, my brothers and sisters, make every effort to confirm your calling and election. For if you do these things, you will never stumble, 11 and you will receive a rich welcome into the eternal kingdom of our Lord and Savior Jesus Christ.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 222,
+            "width": 897,
+            "height": 127,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "6": {
+      "slide_number": 6,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "2 Peter 3:17Therefore, dear friends, since you have been forewarned, be on your guard so that you may not be carried away by the error of the lawless and fall from your secure position.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 252,
+            "width": 836,
+            "height": 127,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "TextBox 5",
+          "timing": "with",
+          "text": "ref: 2 Peter 3",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 844,
+            "y": 571,
+            "width": 91,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 12,
+            "name": "2Peter3.1-10.17"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "TextBox 6",
+          "timing": "click",
+          "text": "Fallen servants enter the hopeless state. No more choices.",
+          "z_index": 4,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 103,
+            "y": 414,
+            "width": 766,
+            "height": 39,
+            "rotation": 0
+          },
+          "fill": "#FD8017",
+          "font": {
+            "align": "center",
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "2 Peter 2:20-21",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 15,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "If they have escaped the corruption of the world by knowing our Lord and Savior Jesus Christ and are again entangled in it and are overcome, they are worse off at the end than they were at the beginning. 21 It would have been better for them not to have known the way of righteousness, than to have known it and then to turn their backs on the sacred command that was passed on to them.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 60,
+            "width": 852,
+            "height": 146,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "7": {
+      "slide_number": 7,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "2 Peter 3:1-10, 17",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "Dear friends, this is now my second letter to you. I have written both of them as reminders to stimulate you to wholesome thinking. 2 I want you to recall the words spoken in the past by the holy prophets and the command given by our Lord and Savior through your apostles.3 Above all, you must understand that in the last days scoffers will come, scoffing and following their own evil desires. 4 They will say, “Where is this ‘coming’ he promised? Ever since our ancestors died, everything goes on as it has since the beginning of creation.” 5 But they deliberately forget that long ago by God’s word the heavens came into being and the earth was formed out of water and by water. 6 By these waters also the world of that time was deluged and destroyed. 7 By the same word the present heavens and earth are reserved for fire, being kept for the day of judgment and destruction of the ungodly.8 But do not forget this one thing, dear friends: With the Lord a day is like a thousand years, and a thousand years are like a day. 9 The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.10 But the day of the Lord will come like a thief. The heavens will disappear with a roar; the elements will be destroyed by fire, and the earth and everything done in it will be laid bare.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 54,
+            "width": 871,
+            "height": 298,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Helvetica Neue",
+            "font_size": 17.1,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "17 Therefore, dear friends, since you have been forewarned, be on your guard so that you may not be carried away by the error of the lawless and fall from your secure position.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 67,
+            "y": 416,
+            "width": 861,
+            "height": 90,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Arial",
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "8": {
+      "slide_number": 8,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "Luke 13:6-96 And He began telling this parable: “A man had a fig tree which had been planted in his vineyard; and he came looking for fruit on it and did not find any.7 And he said to the vineyard-keeper, ‘Behold, for three years I have come looking for fruit on this fig tree without finding any. Cut it down! Why does it even use up the ground?’ 8 And he answered and said to him, ‘Let it alone, sir, for this year too, until I dig around it and put in fertilizer; 9 and if it bears fruit next year, fine; but if not, cut it down.’”",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 34,
+            "y": 111,
+            "width": 869,
+            "height": 210,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 4",
+          "timing": "click",
+          "text": "Matthew 25:26-30“But his master answered and said to him, ‘You wicked, lazy slave, you knew that I reap where I did not sow and gather where I scattered no seed. 27 Then you ought to have put my money in the bank, and on my arrival I would have received my money back with interest. 28 Therefore take away the talent from him, and give it to the one who has the ten talents.’ 29 “For to everyone who has, more shall be given, and he will have an abundance; but from the one who does not have, even what he does have shall be taken away. 30 Throw out the worthless slave into the outer darkness; in that place there will be weeping and gnashing of teeth.",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 34,
+            "y": 326,
+            "width": 895,
+            "height": 266,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Helvetica Neue",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "John 6:53",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 34,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "So Jesus said to them, “Truly, truly, I say to you, unless you eat the flesh of the Son of Man and drink His blood, you have no life in yourselves.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 34,
+            "y": 47,
+            "width": 824,
+            "height": 62,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Helvetica Neue",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "9": {
+      "slide_number": 9,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 4",
+          "timing": "click",
+          "text": "What is a Christian’s mission in this kingdom?",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 182,
+            "y": 165,
+            "width": 610,
+            "height": 39,
+            "rotation": 0
+          },
+          "fill": "#33CCFF",
+          "font": {
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "Mark 16:15-1615 And He said to them, “Go into all the world and preach the gospel to all creation. 16 He who has believed and has been baptized shall be saved; but he who has disbelieved shall be condemned.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 44,
+            "y": 239,
+            "width": 882,
+            "height": 127,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Helvetica Neue",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "2 Corinthians 6:14-15",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 24,
+            "width": 356,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "Do not be bound together with unbelievers; for what partnership have righteousness and lawlessness, or what fellowship has light with darkness?15 Or what harmony has Christ with Belial, or what has a believer in common with an unbeliever?",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 59,
+            "width": 877,
+            "height": 90,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Helvetica Neue",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "10": {
+      "slide_number": 10,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "1 Peter 2:9-11But you are a chosen race, a royal priesthood, a holy nation, a people for God’s own possession, so that you may proclaim the excellencies of Him who has called you out of darkness into His marvelous light; 10 for you once were not a people, but now you are the people of God; you had not received mercy, but now you have received mercy.11 Beloved, I urge you as aliens and strangers to abstain from fleshly lusts which wage war against the soul.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 125,
+            "width": 876,
+            "height": 210,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 4",
+          "timing": "click",
+          "text": "Galatians 3:26-29For you are all sons of God through faith in Christ Jesus. 27 For all of you who were baptized into Christ have clothed yourselves with Christ.28 There is neither Jew nor Greek, there is neither slave nor free man, there is neither male nor female; for you are all one in Christ Jesus. 29 And if you belong to Christ, then you are Abraham’s descendants, heirs according to promise.",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 352,
+            "width": 876,
+            "height": 182,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "TextBox 5",
+          "timing": "click",
+          "text": "Descendants of Abraham, Born of God, subjects of the King, Strangers in the World",
+          "z_index": 4,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 0,
+            "y": 553,
+            "width": 960,
+            "height": 34,
+            "rotation": 0
+          },
+          "fill": "#0000FF",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "bold": true,
+            "color": "#F4F4F4"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Colossians 1:13-14",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 46,
+            "y": 14,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "For He rescued us from the domain of darkness, and transferred us to the kingdom of His beloved Son, 14 in whom we have redemption, the forgiveness of sins.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 50,
+            "width": 876,
+            "height": 62,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "11": {
+      "slide_number": 11,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 7",
+          "timing": "click",
+          "text": "How does one die with Christ?",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 266,
+            "y": 344,
+            "width": 349,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Straight Connector 9",
+          "timing": "with",
+          "z_index": 4,
+          "shape_type": "connector",
+          "layout": {
+            "x": 258,
+            "y": 253,
+            "width": 125,
+            "height": 101,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 361,
+              "y": 354
+            },
+            "end": {
+              "x": 536,
+              "y": 496
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 320,
+              "y": 253
+            },
+            "to": {
+              "x": 320,
+              "y": 354
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "arrow"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Straight Connector 10",
+          "timing": "click",
+          "z_index": 5,
+          "shape_type": "connector",
+          "layout": {
+            "x": 219,
+            "y": 154,
+            "width": 184,
+            "height": 198,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 306,
+              "y": 215
+            },
+            "end": {
+              "x": 563,
+              "y": 492
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 311,
+              "y": 154
+            },
+            "to": {
+              "x": 311,
+              "y": 352
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "arrow"
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "Rectangle 6",
+          "timing": "click",
+          "text": "Ephesians 2:1-5And you were dead in your trespasses and sins, 2 in which you formerly walked according to the course of this world, according to the prince of the power of the air, of the spirit that is now working in the sons of disobedience.3 Among them we too all formerly lived in the lusts of our flesh, indulging the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest. 4 But God, being rich in mercy, because of His great love with which He loved us, 5 even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved),",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 366,
+            "width": 871,
+            "height": 217,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 5,
+          "shape_name": "TextBox 12",
+          "timing": "click",
+          "text": "Dead in sins;  Saved by grace;  Alive with Christ – how?",
+          "z_index": 6,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 274,
+            "y": 576,
+            "width": 629,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 6,
+          "shape_name": "Straight Connector 8",
+          "timing": "with",
+          "z_index": 9,
+          "shape_type": "connector",
+          "layout": {
+            "x": 700,
+            "y": 552,
+            "width": 133,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 980,
+              "y": 773
+            },
+            "end": {
+              "x": 1166,
+              "y": 773
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 766,
+              "y": 552
+            },
+            "to": {
+              "x": 766,
+              "y": 552
+            }
+          }
+        },
+        {
+          "sequence": 7,
+          "shape_name": "Straight Connector 16",
+          "timing": "after",
+          "z_index": 10,
+          "shape_type": "connector",
+          "layout": {
+            "x": 140,
+            "y": 579,
+            "width": 92,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 196,
+              "y": 810
+            },
+            "end": {
+              "x": 325,
+              "y": 810
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 186,
+              "y": 579
+            },
+            "to": {
+              "x": 186,
+              "y": 579
+            }
+          }
+        },
+        {
+          "sequence": 8,
+          "shape_name": "Straight Connector 4",
+          "timing": "after",
+          "z_index": 8,
+          "shape_type": "connector",
+          "layout": {
+            "x": 251,
+            "y": 579,
+            "width": 284,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 351,
+              "y": 810
+            },
+            "end": {
+              "x": 748,
+              "y": 810
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 393,
+              "y": 579
+            },
+            "to": {
+              "x": 393,
+              "y": 579
+            }
+          }
+        },
+        {
+          "sequence": 9,
+          "shape_name": "Straight Connector 13",
+          "timing": "click",
+          "z_index": 7,
+          "shape_type": "connector",
+          "layout": {
+            "x": 635,
+            "y": 256,
+            "width": 19,
+            "height": 326,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 889,
+              "y": 359
+            },
+            "end": {
+              "x": 916,
+              "y": 816
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 644,
+              "y": 256
+            },
+            "to": {
+              "x": 644,
+              "y": 582
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "arrow"
+          }
+        },
+        {
+          "sequence": 10,
+          "shape_name": "Straight Connector 20",
+          "timing": "after",
+          "z_index": 12,
+          "shape_type": "connector",
+          "layout": {
+            "x": 519,
+            "y": 252,
+            "width": 233,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 726,
+              "y": 353
+            },
+            "end": {
+              "x": 1052,
+              "y": 353
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 636,
+              "y": 252
+            },
+            "to": {
+              "x": 636,
+              "y": 252
+            }
+          }
+        },
+        {
+          "sequence": 11,
+          "shape_name": "Straight Connector 18",
+          "timing": "with",
+          "z_index": 11,
+          "shape_type": "connector",
+          "layout": {
+            "x": 502,
+            "y": 177,
+            "width": 212,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 703,
+              "y": 248
+            },
+            "end": {
+              "x": 1000,
+              "y": 248
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 608,
+              "y": 177
+            },
+            "to": {
+              "x": 608,
+              "y": 177
+            }
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Romans 6:1-11",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "What shall we say then? Are we to continue in sin so that grace may increase? 2 May it never be! How shall we who died to sin still live in it? 3 Or do you not know that all of us who have been baptized into Christ Jesus have been baptized into His death? 4 Therefore we have been buried with Him through baptism into death, so that as Christ was raised from the dead through the glory of the Father, so we too might walk in newness of life. 5 For if we have become united with Him in the likeness of His death, certainly we shall also be in the likeness of His resurrection,8 Now if we have died with Christ, we believe that we shall also live with Him,9 knowing that Christ, having been raised from the dead, is never to die again; death no longer is master over Him. 10 For the death that He died, He died to sin once for all; but the life that He lives, He lives to God. 11 Even so consider yourselves to be dead to sin, but alive to God in Christ Jesus.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 48,
+            "width": 885,
+            "height": 311,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 20.9,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "12": {
+      "slide_number": 12,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "Colossians 3:1-4Therefore if you have been raised up with Christ, keep seeking the things above, where Christ is, seated at the right hand of God. 2 Set your mind on the things above, not on the things that are on earth. 3 For you have died and your life is hidden with Christ in God. 4 When Christ, who is our life, is revealed, then you also will be revealed with Him in glory.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 46,
+            "y": 328,
+            "width": 883,
+            "height": 178,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Helvetica Neue",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "TextBox 5",
+          "timing": "click",
+          "text": "When did this happen?",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 366,
+            "y": 526,
+            "width": 274,
+            "height": 34,
+            "rotation": 0
+          },
+          "fill": "#0000FF",
+          "font": {
+            "bold": true,
+            "color": "#F4F4F4"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Straight Arrow Connector 7",
+          "timing": "with",
+          "z_index": 4,
+          "shape_type": "connector",
+          "layout": {
+            "x": 503,
+            "y": 444,
+            "width": 0,
+            "height": 83,
+            "rotation": 0
+          },
+          "line": {
+            "width": 8,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 704,
+              "y": 621
+            },
+            "end": {
+              "x": 704,
+              "y": 737
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 503,
+              "y": 444
+            },
+            "to": {
+              "x": 503,
+              "y": 527
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "triangle"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Colossians 2:8-14",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 46,
+            "y": 16,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "See to it that no one takes you captive through philosophy and empty deception, according to the tradition of men, according to the elementary principles of the world, rather than according to Christ. 9 For in Him all the fullness of Deity dwells in bodily form, 10 and in Him you have been made complete, and He is the head over all rule and authority; 11 and in Him you were also circumcised with a circumcision made without hands, in the removal of the body of the flesh by the circumcision of Christ; 12 having been buried with Him in baptism, in which you were also raised up with Him through faith in the working of God, who raised Him from the dead. 13 When you were dead in your transgressions and the uncircumcision of your flesh, He made you alive together with Him, having forgiven us all our transgressions, 14 having canceled out the certificate of debt consisting of decrees against us, which was hostile to us",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 51,
+            "width": 892,
+            "height": 261,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 20.9,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "13": {
+      "slide_number": 13,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "1 Corinthians 15:1-4",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 44,
+            "y": 16,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 7",
+          "static": true,
+          "text": "Now I make known to you, brethren, the gospel which I preached to you, which also you received, in which also you stand, 2 by which also you are saved, if you hold fast the word which I preached to you, unless you believed in vain.3 For I delivered to you as of first importance what I also received, that Christ died for our sins according to the Scriptures, 4 and that He was buried, and that He was raised on the third day according to the Scriptures,",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 52,
+            "y": 54,
+            "width": 878,
+            "height": 146,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 19.1,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 8",
+          "static": true,
+          "text": "Hebrews 11:66 And without faith it is impossible to please Him, for he who comes to God must believe that He is and that He is a rewarder of those who seek Him.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 52,
+            "y": 213,
+            "width": 878,
+            "height": 86,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 9",
+          "static": true,
+          "text": "Acts 17:3030 Therefore having overlooked the times of ignorance, God is now declaring to men that all people everywhere should repent,",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 52,
+            "y": 313,
+            "width": 886,
+            "height": 86,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 10",
+          "static": true,
+          "text": "Romans 10:1717 So faith comes from hearing, and hearing by the word of Christ.",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 44,
+            "y": 417,
+            "width": 818,
+            "height": 62,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 11",
+          "static": true,
+          "text": "Acts 2:3838 Peter said to them, “Repent, and each of you be baptized in the name of Jesus Christ for the forgiveness of your sins; and you will receive the gift of the Holy Spirit.",
+          "z_index": 5,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 494,
+            "width": 907,
+            "height": 86,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "14": {
+      "slide_number": 14,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 4",
+          "timing": "click",
+          "text": "Those facing destruction include all who are exploited / deceived by false words and those who teach it.",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 155,
+            "y": 354,
+            "width": 681,
+            "height": 71,
+            "rotation": 0
+          },
+          "fill": "#FD8017",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 26.6
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "2 Peter 2:1-4",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "But false prophets also arose among the people, just as there will also be false teachers among you, who will secretly introduce destructive heresies, even denying the Master who bought them, bringing swift destruction upon themselves. 2 Many will follow their sensuality, and because of them the way of the truth will be maligned; 3 and in their greed they will exploit you with false words; their judgment from long ago is not idle, and their destruction is not asleep.4 For if God did not spare angels when they sinned, but cast them into hell and committed them to pits of darkness, reserved for judgment;",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 60,
+            "width": 876,
+            "height": 229,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true
+          }
+        }
+      ]
+    },
+    "15": {
+      "slide_number": 15,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "2 Thessalonians 2:9-12 The coming of the lawless one will be in accordance with how Satan works. He will use all sorts of displays of power through signs and wonders that serve the lie, 10 and all the ways that wickedness deceives those who are perishing. They perish because they refused to love the truth and so be saved. 11 For this reason God sends them a powerful delusion so that they will believe the lie12 and so that all will be condemned who have not believed the truth but have delighted in wickedness.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 226,
+            "width": 893,
+            "height": 210,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "TextBox 4",
+          "timing": "click",
+          "text": "The context of “wickedness” is doctrinal deception: empty words of salvation, “refusal to love the truth”",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 19,
+            "y": 434,
+            "width": 906,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 19.1,
+            "italic": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "TextBox 6",
+          "timing": "click",
+          "text": "Matthew 7:13“Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. 14 For the gate is narrow and the way is constricted that leads to life, and there are few who find it.",
+          "z_index": 4,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 49,
+            "y": 465,
+            "width": 893,
+            "height": 127,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Ephesians 5:3-7",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for God’s holy people. 4 Nor should there be obscenity, foolish talk or coarse joking, which are out of place, but rather thanksgiving. 5 For of this you can be sure: No immoral, impure or greedy person—such a person is an idolater—has any inheritance in the kingdom of Christ and of God. 6 Let no one deceive you with empty words, for because of such things God’s wrath comes on those who are disobedient. 7 Therefore do not be partners with them. 8 For you were once darkness, but now you are light in the Lord.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 57,
+            "width": 876,
+            "height": 169,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1
+          }
+        }
+      ]
+    },
+    "16": {
+      "slide_number": 16,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 4",
+          "timing": "click",
+          "text": "2 Corinthians 4:3-4 NASB95And even if our gospel is veiled, it is veiled to those who are perishing, 4 in whose case the god of this world has blinded the minds of the unbelieving so that they might not see the light of the gospel of the glory of Christ, who is the image of God.",
+          "z_index": 3,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 49,
+            "y": 154,
+            "width": 889,
+            "height": 127,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "Matthew 4:8-9Again, the devil took Him to a very high mountain and showed Him all the kingdoms of the world and their glory; 9 and he said to Him, “All these things I will give You, if You fall down and worship me.”",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 295,
+            "width": 864,
+            "height": 127,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "2 Corinthians 4:3-4 NIV",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 9,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "And even if our gospel is veiled, it is veiled to those who are perishing. 4 The god of this age has blinded the minds of unbelievers, so that they cannot see the light of the gospel that displays the glory of Christ, who is the image of God.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 53,
+            "width": 874,
+            "height": 90,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "17": {
+      "slide_number": 17,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Romans 3:23",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 48,
+            "y": 19,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "…There is no distinction; 23 for all have sinned and fall short of the glory of God,",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 64,
+            "width": 847,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 3",
+          "static": true,
+          "text": "Isaiah 59:2 But your iniquities have made a separation between you and your God, And your sins have hidden His face from you so that He does not hear.",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 122,
+            "width": 821,
+            "height": 99,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 4",
+          "static": true,
+          "text": "Romans 6:23For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 54,
+            "y": 261,
+            "width": 779,
+            "height": 94,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "18": {
+      "slide_number": 18,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "2 Samuel 12:21-23",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 49,
+            "y": 22,
+            "width": 864,
+            "height": 51,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 30.5,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "Then his servants said to him, “What is this thing that you have done? While the child was alive, you fasted and wept; but when the child died, you arose and ate food.” 22 He said, “While the child was still alive, I fasted and wept; for I said, ‘Who knows, the Lord may be gracious to me, that the child may live.’ 23 But now he has died; why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 49,
+            "y": 72,
+            "width": 885,
+            "height": 173,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "19": {
+      "slide_number": 19,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 3",
+          "timing": "click",
+          "text": "Having died with Christ means you physically remain in the world but your invisible part is alive.",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 134,
+            "y": 329,
+            "width": 701,
+            "height": 71,
+            "rotation": 0
+          },
+          "fill": "#33CCFF",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 26.6
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Romans 8:10-11",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 48,
+            "y": 31,
+            "width": 864,
+            "height": 45,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "TextBox 2",
+          "static": true,
+          "text": "But if Christ is in you, your body is dead because of sin, yet your spiritis alive because of righteousness. 11 And if the Spirit of him who raised Jesus from the dead is living in you, he who raised Christ from the dead will also give life to your mortal bodies through his Spirit,who lives in you.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 48,
+            "y": 69,
+            "width": 871,
+            "height": 169,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 26.6
+          }
+        }
+      ]
+    },
+    "20": {
+      "slide_number": 20,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 3",
+          "timing": "click",
+          "text": "“The Fall” – The origin of conscience – Adam & Eve created innocent",
+          "z_index": 2,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 95,
+            "y": 239,
+            "width": 771,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "bold": true
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 4",
+          "timing": "click",
+          "text": "Matthew 18:2-3He called a little child to him, and placed the child among them. 3 And he said: “Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven.",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 48,
+            "y": 290,
+            "width": 886,
+            "height": 122,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Rectangle 5",
+          "timing": "click",
+          "text": "Matthew 19:14 Jesus said, “Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.”",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 48,
+            "y": 429,
+            "width": 881,
+            "height": 94,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "TextBox 6",
+          "timing": "click",
+          "text": "Why use children to illustrate the Kingdom of Heaven?",
+          "z_index": 5,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 127,
+            "y": 541,
+            "width": 722,
+            "height": 39,
+            "rotation": 0
+          },
+          "fill": "#0000FF",
+          "font": {
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#F4F4F4"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Genesis 3:6-8",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 41,
+            "y": 9,
+            "width": 208,
+            "height": 45,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it. 7 Then the eyes of both of them were opened, and they realized they were naked; so they sewed fig leaves together and made coverings for themselves.8 Then the man and his wife heard the sound of the Lord God as he was walking in the garden in the cool of the day, and they hid from the Lord God among the trees of the garden.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 41,
+            "y": 46,
+            "width": 909,
+            "height": 185,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 20.9,
+            "color": "#000000"
+          }
+        }
+      ]
+    },
+    "21": {
+      "slide_number": 21,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "Rectangle 3",
+          "timing": "click",
+          "text": "Job 38:32-33Can you bring forth the constellations in their seasons or lead out the Bear with its cubs?33 Do you know the laws of the heavens? Can you set up God’s dominion over the earth?",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 35,
+            "y": 117,
+            "width": 925,
+            "height": 94,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 4",
+          "timing": "click",
+          "text": "1 Chronicles 29:10-11David praised the Lord in the presence of the whole assembly, saying,“Praise be to you, Lord,    the God of our father Israel,    from everlasting to everlasting.11 Yours, Lord, is the greatness and the power    and the glory and the majesty and the splendor,    for everything in heaven and earth is yours.Yours, Lord, is the kingdom;    you are exalted as head over all.",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 35,
+            "y": 229,
+            "width": 520,
+            "height": 344,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "Rectangle 5",
+          "timing": "click",
+          "text": "Psalm 47:2Clap your hands, all you nations;    shout to God with cries of joy.2 For the Lord Most High is awesome,    the great King over all the earth.",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 546,
+            "y": 220,
+            "width": 414,
+            "height": 150,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "TextBox 6",
+          "timing": "click",
+          "text": "God created everything in nature and He governs it all",
+          "z_index": 5,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 531,
+            "y": 406,
+            "width": 418,
+            "height": 71,
+            "rotation": 0
+          },
+          "fill": "#0000FF",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#FFFFFF"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "Genesis 1:31",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 35,
+            "y": 9,
+            "width": 191,
+            "height": 45,
+            "rotation": 0
+          },
+          "font": {
+            "align": "left",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "TextBox 2",
+          "static": true,
+          "text": "God saw all that he had made, and it was very good. And there was evening, and there was morning—the sixth day.",
+          "z_index": 1,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 35,
+            "y": 47,
+            "width": 905,
+            "height": 62,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true
+          }
+        }
+      ]
+    }
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "animation_sequence": [
+        {
+          "sequence": 1,
+          "shape_name": "TextBox 3",
+          "text": "Genesis 1:31,Job 38:32-331 Chron. 29:10-11Psalms 47:2",
+          "timing": "click",
+          "z_index": 52,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 329,
+            "y": 24,
+            "width": 141,
+            "height": 71,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 0,
+            "name": "Genesis1.31"
+          }
+        },
+        {
+          "sequence": 2,
+          "shape_name": "Rectangle 26",
+          "text": "of Nature",
+          "timing": "click",
+          "z_index": 68,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 180,
+            "y": 31,
+            "width": 167,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 3,
+          "shape_name": "TextBox 66",
+          "text": "King:",
+          "timing": "click",
+          "z_index": 17,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 44,
+            "y": 74,
+            "width": 58,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 4,
+          "shape_name": "TextBox 67",
+          "text": "Occupants:",
+          "timing": "with",
+          "z_index": 18,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 42,
+            "y": 99,
+            "width": 112,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 5,
+          "shape_name": "TextBox 68",
+          "text": "Law:",
+          "timing": "with",
+          "z_index": 19,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 42,
+            "y": 124,
+            "width": 59,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 6,
+          "shape_name": "TextBox 115",
+          "text": "God",
+          "timing": "click",
+          "z_index": 27,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 92,
+            "y": 74,
+            "width": 74,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 7,
+          "shape_name": "TextBox 21",
+          "text": "?",
+          "timing": "click",
+          "z_index": 75,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 139,
+            "y": 100,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 8,
+          "shape_name": "TextBox 2",
+          "text": "Genesis 3:6-8Matthew 18:2-3Matthew 19:14",
+          "timing": "click",
+          "z_index": 54,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 367,
+            "y": 123,
+            "width": 106,
+            "height": 56,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 2,
+            "name": "Genesis3.6-8"
+          }
+        },
+        {
+          "sequence": 9,
+          "shape_name": "TextBox 117",
+          "text": "Innocent",
+          "timing": "click",
+          "z_index": 29,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 144,
+            "y": 98,
+            "width": 128,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 10,
+          "shape_name": "TextBox 12",
+          "text": "Lacking moral categories – no law against sin – Pre-fallen Adam & Eve, children, etc.",
+          "timing": "click",
+          "z_index": 47,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 249,
+            "y": 93,
+            "width": 232,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "font_size": 11.4,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 11,
+          "shape_name": "TextBox 97",
+          "text": "?",
+          "timing": "click",
+          "z_index": 76,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 84,
+            "y": 124,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 12,
+          "shape_name": "TextBox 118",
+          "text": "Natural, Innocence",
+          "timing": "click",
+          "z_index": 30,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 87,
+            "y": 123,
+            "width": 231,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 13,
+          "shape_name": "TextBox 98",
+          "text": "State of SafetyRelationship maintained with God through innocence",
+          "timing": "click",
+          "z_index": 77,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 73,
+            "y": 154,
+            "width": 178,
+            "height": 65,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 14,
+          "shape_name": "TextBox 29",
+          "text": "Options?",
+          "timing": "click",
+          "z_index": 101,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 391,
+            "y": 244,
+            "width": 176,
+            "height": 65,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 8,
+            "color": "#000000"
+          },
+          "font": {
+            "v_align": "middle",
+            "wrap": true,
+            "align": "center",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 15,
+          "shape_name": "TextBox 63",
+          "text": "Kingdom",
+          "timing": "click",
+          "z_index": 90,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 604,
+            "y": 29,
+            "width": 147,
+            "height": 44,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 16,
+          "shape_name": "Straight Connector 25",
+          "timing": "with",
+          "z_index": 14,
+          "shape_type": "connector",
+          "layout": {
+            "x": 481,
+            "y": 174,
+            "width": 0,
+            "height": 59,
+            "rotation": 0
+          },
+          "line": {
+            "width": 23,
+            "color": "#F4F4F4"
+          },
+          "path": {
+            "start": {
+              "x": 673,
+              "y": 243
+            },
+            "end": {
+              "x": 673,
+              "y": 326
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 481,
+              "y": 174
+            },
+            "to": {
+              "x": 481,
+              "y": 233
+            }
+          }
+        },
+        {
+          "sequence": 17,
+          "shape_name": "Rectangle 6",
+          "timing": "with",
+          "z_index": 8,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 483,
+            "y": 22,
+            "width": 446,
+            "height": 249,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 13,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 18,
+          "shape_name": "TextBox 108",
+          "text": "Eternal",
+          "timing": "with",
+          "z_index": 79,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 491,
+            "y": 28,
+            "width": 131,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 19,
+          "shape_name": "Rectangle 130",
+          "timing": "with",
+          "z_index": 4,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 354,
+            "y": 0,
+            "width": 606,
+            "height": 270,
+            "rotation": 0
+          },
+          "fill": "#33CCFF"
+        },
+        {
+          "sequence": 20,
+          "shape_name": "Down Arrow 114",
+          "text": "Death",
+          "timing": "click",
+          "z_index": 97,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 449,
+            "y": 107,
+            "width": 67,
+            "height": 196,
+            "rotation": 270.0
+          },
+          "fill": "#000000",
+          "font": {
+            "v_align": "middle",
+            "font_name": "Arial Black",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "sequence": 21,
+          "shape_name": "TextBox 4",
+          "text": "2 Samuel 12:21-23",
+          "timing": "with",
+          "z_index": 55,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 493,
+            "y": 235,
+            "width": 127,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 1,
+            "name": "2Samuel12.21-23"
+          }
+        },
+        {
+          "sequence": 22,
+          "shape_name": "TextBox 72",
+          "text": "King:",
+          "timing": "click",
+          "z_index": 21,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 494,
+            "y": 74,
+            "width": 59,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 23,
+          "shape_name": "TextBox 73",
+          "text": "Occupants:",
+          "timing": "with",
+          "z_index": 22,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 493,
+            "y": 99,
+            "width": 116,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 24,
+          "shape_name": "TextBox 74",
+          "text": "Law:",
+          "timing": "with",
+          "z_index": 23,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 493,
+            "y": 124,
+            "width": 56,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 25,
+          "shape_name": "TextBox 116",
+          "text": "God",
+          "timing": "click",
+          "z_index": 28,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 543,
+            "y": 70,
+            "width": 68,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 26,
+          "shape_name": "TextBox 119",
+          "text": "Innocent",
+          "timing": "click",
+          "z_index": 31,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 596,
+            "y": 94,
+            "width": 131,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 27,
+          "shape_name": "TextBox 82",
+          "text": "God",
+          "timing": "click",
+          "z_index": 46,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 542,
+            "y": 119,
+            "width": 70,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 28,
+          "shape_name": "TextBox 120",
+          "text": "Age of Accountability = Morality",
+          "timing": "click",
+          "z_index": 50,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 133,
+            "y": 243,
+            "width": 339,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 15.2,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 29,
+          "shape_name": "Straight Connector 113",
+          "timing": "with",
+          "z_index": 98,
+          "shape_type": "connector",
+          "layout": {
+            "x": 41,
+            "y": 242,
+            "width": 429,
+            "height": 1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 7,
+            "color": "#FD8017",
+            "dash": "sysDash"
+          },
+          "path": {
+            "start": {
+              "x": 58,
+              "y": 339
+            },
+            "end": {
+              "x": 659,
+              "y": 340
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 256,
+              "y": 242
+            },
+            "to": {
+              "x": 256,
+              "y": 243
+            }
+          }
+        },
+        {
+          "sequence": 30,
+          "shape_name": "Straight Connector 18",
+          "timing": "with",
+          "z_index": 13,
+          "shape_type": "connector",
+          "layout": {
+            "x": 65,
+            "y": 269,
+            "width": 324,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 20,
+            "color": "#F4F4F4"
+          },
+          "path": {
+            "start": {
+              "x": 91,
+              "y": 377
+            },
+            "end": {
+              "x": 545,
+              "y": 377
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 227,
+              "y": 269
+            },
+            "to": {
+              "x": 227,
+              "y": 269
+            }
+          }
+        },
+        {
+          "sequence": 31,
+          "shape_name": "Rectangle 132",
+          "timing": "with",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 0,
+            "y": 234,
+            "width": 960,
+            "height": 384,
+            "rotation": 0
+          },
+          "fill": "#FD8017"
+        },
+        {
+          "sequence": 32,
+          "shape_name": "TextBox 9",
+          "text": "Romans 3:23 Isaiah 59:2, Romans 6:23",
+          "timing": "click",
+          "z_index": 56,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 120,
+            "y": 221,
+            "width": 329,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 3,
+            "name": "Romans3.23"
+          }
+        },
+        {
+          "sequence": 33,
+          "shape_name": "Down Arrow 107",
+          "text": "Death",
+          "timing": "click",
+          "z_index": 100,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 61,
+            "y": 190,
+            "width": 69,
+            "height": 120,
+            "rotation": 318.08116666666666
+          },
+          "fill": "#FD8017",
+          "line": {
+            "width": 3,
+            "color": "#000000"
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "Arial Black",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 34,
+          "shape_name": "TextBox 65",
+          "text": "Kingdom",
+          "timing": "after",
+          "z_index": 106,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 286,
+            "width": 145,
+            "height": 41,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 28.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 35,
+          "shape_name": "TextBox 112",
+          "text": "of the World",
+          "timing": "with",
+          "z_index": 92,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 179,
+            "y": 285,
+            "width": 208,
+            "height": 41,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 28.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 36,
+          "shape_name": "Rectangle 7",
+          "timing": "with",
+          "z_index": 7,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 34,
+            "y": 270,
+            "width": 446,
+            "height": 266,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 13,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 37,
+          "shape_name": "TextBox 69",
+          "text": "King:",
+          "timing": "with",
+          "z_index": 93,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 320,
+            "width": 54,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 38,
+          "shape_name": "TextBox 70",
+          "text": "Occupants:",
+          "timing": "with",
+          "z_index": 94,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 343,
+            "width": 111,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 39,
+          "shape_name": "TextBox 71",
+          "text": "Law:",
+          "timing": "with",
+          "z_index": 20,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 368,
+            "width": 55,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 40,
+          "shape_name": "TextBox 10",
+          "text": "2 Corinthians 4:3-4Matthew 4:8-9",
+          "timing": "after",
+          "z_index": 57,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 347,
+            "y": 276,
+            "width": 127,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 4,
+            "name": "2Corinthians4.4"
+          }
+        },
+        {
+          "sequence": 41,
+          "shape_name": "TextBox 125",
+          "text": "?",
+          "timing": "with",
+          "z_index": 96,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 96,
+            "y": 322,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 42,
+          "shape_name": "TextBox 121",
+          "text": "Satan",
+          "timing": "click",
+          "z_index": 95,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 102,
+            "y": 323,
+            "width": 86,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "bold": true
+          }
+        },
+        {
+          "sequence": 43,
+          "shape_name": "TextBox 83",
+          "text": "State of Danger",
+          "timing": "with",
+          "z_index": 41,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 406,
+            "width": 189,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "bold": true,
+            "color": "#FD8017"
+          }
+        },
+        {
+          "sequence": 44,
+          "shape_name": "TextBox 87",
+          "text": "Separated from relationshipwith God due to conscience",
+          "timing": "with",
+          "z_index": 59,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 429,
+            "width": 213,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_name": "+mn-lt",
+            "font_size": 15.2
+          }
+        },
+        {
+          "sequence": 45,
+          "shape_name": "TextBox 86",
+          "text": "Ephesians 5:3-72 Thessalonians 2:9-2Matthew 7:13",
+          "timing": "click",
+          "z_index": 73,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 329,
+            "y": 311,
+            "width": 146,
+            "height": 56,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 5,
+            "name": "Ephesians5.3-7"
+          }
+        },
+        {
+          "sequence": 46,
+          "shape_name": "TextBox 133",
+          "text": "?",
+          "timing": "with",
+          "z_index": 80,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 151,
+            "y": 344,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 47,
+          "shape_name": "TextBox 122",
+          "text": "Sinners",
+          "timing": "click",
+          "z_index": 32,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 155,
+            "y": 336,
+            "width": 111,
+            "height": 40,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "bold": true
+          }
+        },
+        {
+          "sequence": 48,
+          "shape_name": "TextBox 123",
+          "text": "Moral, Sin & Death",
+          "timing": "click",
+          "z_index": 105,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 98,
+            "y": 371,
+            "width": 247,
+            "height": 28,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "top",
+            "bold": true,
+            "color": "#FD8017"
+          }
+        },
+        {
+          "sequence": 49,
+          "shape_name": "TextBox 33",
+          "text": "(unable to cleanse conscience)",
+          "timing": "with",
+          "z_index": 49,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 53,
+            "y": 391,
+            "width": 252,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.4,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 50,
+          "shape_name": "Straight Connector 24",
+          "timing": "click",
+          "z_index": 11,
+          "shape_type": "connector",
+          "layout": {
+            "x": 59,
+            "y": 536,
+            "width": 337,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 16,
+            "color": "#F4F4F4"
+          },
+          "path": {
+            "start": {
+              "x": 82,
+              "y": 751
+            },
+            "end": {
+              "x": 554,
+              "y": 751
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 228,
+              "y": 536
+            },
+            "to": {
+              "x": 228,
+              "y": 536
+            }
+          }
+        },
+        {
+          "sequence": 51,
+          "shape_name": "Down Arrow 109",
+          "text": "Death",
+          "timing": "after",
+          "z_index": 103,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 61,
+            "y": 438,
+            "width": 69,
+            "height": 137,
+            "rotation": 318.93926666666664
+          },
+          "fill": "#000000",
+          "line": {
+            "width": 3,
+            "color": "#000000"
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "center",
+            "font_name": "Arial Black",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#F4F4F4"
+          }
+        },
+        {
+          "sequence": 52,
+          "shape_name": "TextBox 11",
+          "text": "2 Peter 2:1-4",
+          "timing": "with",
+          "z_index": 107,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 141,
+            "y": 539,
+            "width": 106,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 15.2,
+            "bold": true
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 6,
+            "name": "2Peter2.1-4"
+          }
+        },
+        {
+          "sequence": 53,
+          "shape_name": "TextBox 139",
+          "text": "Tartarus/Hades - Hopeless",
+          "timing": "click",
+          "z_index": 40,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 83,
+            "y": 552,
+            "width": 309,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 54,
+          "shape_name": "Rectangle 1",
+          "timing": "with",
+          "z_index": 2,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 0,
+            "y": 535,
+            "width": 960,
+            "height": 84,
+            "rotation": 0
+          },
+          "fill": "#969696"
+        },
+        {
+          "sequence": 55,
+          "shape_name": "TextBox 104",
+          "text": "Judgement",
+          "timing": "with",
+          "z_index": 67,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 427,
+            "y": 552,
+            "width": 150,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "sequence": 56,
+          "shape_name": "Straight Connector 134",
+          "timing": "with",
+          "z_index": 36,
+          "shape_type": "connector",
+          "layout": {
+            "x": 0,
+            "y": 589,
+            "width": 960,
+            "height": 1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 16,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 0,
+              "y": 824
+            },
+            "end": {
+              "x": 1344,
+              "y": 825
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 480,
+              "y": 589
+            },
+            "to": {
+              "x": 480,
+              "y": 590
+            }
+          }
+        },
+        {
+          "sequence": 57,
+          "shape_name": "Rectangle 135",
+          "timing": "with",
+          "z_index": 37,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 521,
+            "y": 563,
+            "width": 170,
+            "height": 32,
+            "rotation": 0
+          },
+          "fill": "#969696"
+        },
+        {
+          "sequence": 58,
+          "shape_name": "Down Arrow 137",
+          "timing": "with",
+          "z_index": 38,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 578,
+            "y": 551,
+            "width": 65,
+            "height": 32,
+            "rotation": 0
+          },
+          "fill": "#FD0013",
+          "line": {
+            "width": 3,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 59,
+          "shape_name": "TextBox 138",
+          "text": "2nd Death",
+          "timing": "with",
+          "z_index": 39,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 539,
+            "y": 575,
+            "width": 154,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 60,
+          "shape_name": "TextBox 14",
+          "text": "Romans 6:1-11, Ephesians 2:1-5      Colossians 2:8-14, 3:1-4,            Romans 8:10",
+          "timing": "click",
+          "z_index": 85,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 569,
+            "y": 394,
+            "width": 209,
+            "height": 56,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 8,
+            "name": "Romans6.1-11"
+          }
+        },
+        {
+          "sequence": 61,
+          "shape_name": "Down Arrow 111",
+          "timing": "click",
+          "z_index": 71,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 404,
+            "y": 293,
+            "width": 95,
+            "height": 266,
+            "rotation": 270.0
+          },
+          "fill": "#33CCFF",
+          "line": {
+            "width": 3,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 62,
+          "shape_name": "TextBox 64",
+          "text": "Kingdom",
+          "timing": "with",
+          "z_index": 26,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 520,
+            "y": 286,
+            "width": 161,
+            "height": 44,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 63,
+          "shape_name": "Straight Connector 30",
+          "timing": "with",
+          "z_index": 15,
+          "shape_type": "connector",
+          "layout": {
+            "x": 481,
+            "y": 399,
+            "width": 0,
+            "height": 64,
+            "rotation": 0
+          },
+          "line": {
+            "width": 27,
+            "color": "#F4F4F4"
+          },
+          "path": {
+            "start": {
+              "x": 673,
+              "y": 558
+            },
+            "end": {
+              "x": 673,
+              "y": 647
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 481,
+              "y": 399
+            },
+            "to": {
+              "x": 481,
+              "y": 463
+            }
+          }
+        },
+        {
+          "sequence": 64,
+          "shape_name": "Rectangle 8",
+          "timing": "with",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 483,
+            "y": 270,
+            "width": 446,
+            "height": 266,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 13,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 65,
+          "shape_name": "TextBox 75",
+          "text": "King:",
+          "timing": "with",
+          "z_index": 24,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 520,
+            "y": 322,
+            "width": 57,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 66,
+          "shape_name": "TextBox 76",
+          "text": "Occupants:",
+          "timing": "with",
+          "z_index": 25,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 520,
+            "y": 345,
+            "width": 106,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 67,
+          "shape_name": "TextBox 77",
+          "text": "Law:",
+          "timing": "with",
+          "z_index": 109,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 520,
+            "y": 369,
+            "width": 53,
+            "height": 31,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 19.1,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 68,
+          "shape_name": "Rectangle 131",
+          "timing": "with",
+          "z_index": 3,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 360,
+            "y": 239,
+            "width": 600,
+            "height": 249,
+            "rotation": 0
+          },
+          "fill": "#33CCFF"
+        },
+        {
+          "sequence": 69,
+          "shape_name": "Rectangle 19",
+          "text": "BAPTISIM = DEATH",
+          "timing": "with",
+          "z_index": 72,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 319,
+            "y": 411,
+            "width": 255,
+            "height": 32,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "Arial Black",
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 70,
+          "shape_name": "TextBox 136",
+          "text": "of Christ",
+          "timing": "click",
+          "z_index": 81,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 655,
+            "y": 287,
+            "width": 146,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 71,
+          "shape_name": "TextBox 13",
+          "text": "1 Corinthians 15:1-4 Hebrews 11:6, Romans 10:17, Acts 2:38",
+          "timing": "click",
+          "z_index": 58,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 569,
+            "y": 448,
+            "width": 228,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 7,
+            "name": "1Corinthians15.1-4"
+          }
+        },
+        {
+          "sequence": 72,
+          "shape_name": "TextBox 37",
+          "text": "Hear, Believe, Repent, Confess, Baptize",
+          "timing": "click",
+          "z_index": 108,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 257,
+            "y": 442,
+            "width": 257,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.4
+          }
+        },
+        {
+          "sequence": 73,
+          "shape_name": "TextBox 99",
+          "text": "Gospel: (Narrow Gate)",
+          "timing": "with",
+          "z_index": 74,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 326,
+            "y": 387,
+            "width": 151,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.4,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 74,
+          "shape_name": "TextBox 162",
+          "text": "(Wide Gate)",
+          "timing": "click",
+          "z_index": 53,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 241,
+            "y": 349,
+            "width": 86,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.4,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 75,
+          "shape_name": "TextBox 40",
+          "text": "Believe, but believes misinformation: - Grace saves & nothing you can do to gain salvation - Be baptized but it is not what saves you- Sprinkled as a child – You don’t have to do anything",
+          "timing": "with",
+          "z_index": 102,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 138,
+            "y": 466,
+            "width": 331,
+            "height": 71,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.4,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 76,
+          "shape_name": "Straight Arrow Connector 128",
+          "timing": "with",
+          "z_index": 104,
+          "shape_type": "connector",
+          "layout": {
+            "x": 261,
+            "y": 368,
+            "width": 0,
+            "height": 106,
+            "rotation": 0
+          },
+          "line": {
+            "width": 6,
+            "color": "#000000"
+          },
+          "path": {
+            "start": {
+              "x": 365,
+              "y": 515
+            },
+            "end": {
+              "x": 365,
+              "y": 663
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 261,
+              "y": 368
+            },
+            "to": {
+              "x": 261,
+              "y": 474
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "arrow"
+          }
+        },
+        {
+          "sequence": 77,
+          "shape_name": "TextBox 84",
+          "text": "Saved",
+          "timing": "click",
+          "z_index": 42,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 766,
+            "y": 363,
+            "width": 166,
+            "height": 62,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "Arial Black",
+            "font_size": 45.7,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 78,
+          "shape_name": "TextBox 88",
+          "text": "Maintaining relationshipwith God via Christ’s sinlessblood and the “gift of the Holy Spirit”",
+          "timing": "with",
+          "z_index": 60,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 768,
+            "y": 410,
+            "width": 156,
+            "height": 65,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 11.4
+          }
+        },
+        {
+          "sequence": 79,
+          "shape_name": "TextBox 90",
+          "text": "Conscience Cleaned (1 Peter 3:21)",
+          "timing": "click",
+          "z_index": 82,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 529,
+            "y": 275,
+            "width": 229,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.4,
+            "color": "#0000FF"
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 16,
+            "name": "1Peter3.18-22"
+          }
+        },
+        {
+          "sequence": 80,
+          "shape_name": "Straight Arrow Connector 22",
+          "timing": "with",
+          "z_index": 99,
+          "shape_type": "connector",
+          "layout": {
+            "x": 372,
+            "y": 225,
+            "width": 157,
+            "height": 59,
+            "rotation": 0
+          },
+          "line": {
+            "width": 6,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 521,
+              "y": 315
+            },
+            "end": {
+              "x": 741,
+              "y": 398
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 450,
+              "y": 225
+            },
+            "to": {
+              "x": 450,
+              "y": 284
+            }
+          }
+        },
+        {
+          "sequence": 81,
+          "shape_name": "TextBox 27",
+          "text": "'Must become like children' - not under the law -",
+          "timing": "after",
+          "z_index": 78,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 249,
+            "y": 173,
+            "width": 129,
+            "height": 58,
+            "rotation": 0
+          },
+          "fill": "#0000FF",
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 15.2,
+            "italic": true,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "sequence": 82,
+          "shape_name": "Straight Arrow Connector 78",
+          "timing": "with",
+          "z_index": 51,
+          "shape_type": "connector",
+          "layout": {
+            "x": 254,
+            "y": 151,
+            "width": 24,
+            "height": 26,
+            "rotation": 0
+          },
+          "line": {
+            "width": 6,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 355,
+              "y": 211
+            },
+            "end": {
+              "x": 389,
+              "y": 247
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 266,
+              "y": 151
+            },
+            "to": {
+              "x": 266,
+              "y": 177
+            }
+          },
+          "arrow_ends": {
+            "tailEnd": "arrow"
+          }
+        },
+        {
+          "sequence": 83,
+          "shape_name": "TextBox 16",
+          "text": "Colossians 1:13-141 Peter 2:9-11Galatians 3:26-29",
+          "timing": "click",
+          "z_index": 83,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 786,
+            "y": 296,
+            "width": 138,
+            "height": 56,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 9,
+            "name": "Colossians1.13-14"
+          }
+        },
+        {
+          "sequence": 84,
+          "shape_name": "TextBox 140",
+          "text": "?",
+          "timing": "with",
+          "z_index": 86,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 565,
+            "y": 324,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 85,
+          "shape_name": "TextBox 124",
+          "text": "Christ",
+          "timing": "click",
+          "z_index": 33,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 566,
+            "y": 316,
+            "width": 94,
+            "height": 40,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 86,
+          "shape_name": "TextBox 127",
+          "text": "Church",
+          "timing": "click",
+          "z_index": 35,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 622,
+            "y": 339,
+            "width": 117,
+            "height": 40,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 87,
+          "shape_name": "TextBox 142",
+          "text": "(His body)",
+          "timing": "with",
+          "z_index": 87,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 657,
+            "y": 329,
+            "width": 75,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.4,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 88,
+          "shape_name": "TextBox 89",
+          "text": "2 Corinthians 6:14-15Mark 16:15-16",
+          "timing": "click",
+          "z_index": 84,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 786,
+            "y": 346,
+            "width": 142,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 10,
+            "name": "2Corinthians6.14-15"
+          }
+        },
+        {
+          "sequence": 89,
+          "shape_name": "TextBox 143",
+          "text": "?",
+          "timing": "with",
+          "z_index": 88,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 564,
+            "y": 371,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 90,
+          "shape_name": "TextBox 126",
+          "text": "Faith & Grace",
+          "timing": "click",
+          "z_index": 34,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 561,
+            "y": 365,
+            "width": 204,
+            "height": 40,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 91,
+          "shape_name": "Straight Connector 81",
+          "timing": "click",
+          "z_index": 44,
+          "shape_type": "connector",
+          "layout": {
+            "x": 484,
+            "y": 486,
+            "width": 446,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 7,
+            "color": "#000000",
+            "dash": "sysDash"
+          },
+          "path": {
+            "start": {
+              "x": 677,
+              "y": 681
+            },
+            "end": {
+              "x": 1302,
+              "y": 681
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 707,
+              "y": 486
+            },
+            "to": {
+              "x": 707,
+              "y": 486
+            }
+          }
+        },
+        {
+          "sequence": 92,
+          "shape_name": "TextBox 79",
+          "text": "Unfaithful",
+          "timing": "click",
+          "z_index": 62,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 504,
+            "y": 484,
+            "width": 175,
+            "height": 40,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial Black",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 93,
+          "shape_name": "TextBox 91",
+          "text": "John 6:53, Luke 13:6-9, Matthew 25:26-30",
+          "timing": "with",
+          "z_index": 61,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 501,
+            "y": 512,
+            "width": 276,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 11,
+            "name": "John6.53"
+          }
+        },
+        {
+          "sequence": 94,
+          "shape_name": "Straight Connector 23",
+          "timing": "with",
+          "z_index": 10,
+          "shape_type": "connector",
+          "layout": {
+            "x": 794,
+            "y": 535,
+            "width": 75,
+            "height": 1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 18,
+            "color": "#F4F4F4"
+          },
+          "path": {
+            "start": {
+              "x": 1112,
+              "y": 749
+            },
+            "end": {
+              "x": 1217,
+              "y": 750
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 832,
+              "y": 535
+            },
+            "to": {
+              "x": 832,
+              "y": 536
+            }
+          }
+        },
+        {
+          "sequence": 95,
+          "shape_name": "Down Arrow 110",
+          "text": "Death",
+          "timing": "click",
+          "z_index": 45,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 812,
+            "y": 451,
+            "width": 69,
+            "height": 137,
+            "rotation": 52.02425
+          },
+          "fill": "#000000",
+          "line": {
+            "width": 3,
+            "color": "#000000"
+          },
+          "font": {
+            "v_align": "middle",
+            "font_name": "Arial Black",
+            "font_size": 26.6,
+            "color": "#F4F4F4"
+          }
+        },
+        {
+          "sequence": 96,
+          "shape_name": "TextBox 92",
+          "text": "2 Peter 2:20-21, 3:17",
+          "timing": "with",
+          "z_index": 63,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 651,
+            "y": 556,
+            "width": 193,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 15.2,
+            "bold": true
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 13,
+            "name": "2Peter2.20-21"
+          }
+        },
+        {
+          "sequence": 97,
+          "shape_name": "Up Arrow 15",
+          "text": "Death",
+          "timing": "click",
+          "z_index": 48,
+          "shape_type": "arrow",
+          "layout": {
+            "x": 788,
+            "y": 176,
+            "width": 69,
+            "height": 137,
+            "rotation": 316.0
+          },
+          "fill": "#33CCFF",
+          "line": {
+            "width": 1,
+            "color": "#000000"
+          },
+          "font": {
+            "v_align": "middle",
+            "align": "left",
+            "font_name": "Arial Black",
+            "font_size": 26.6,
+            "bold": true,
+            "color": "#000000"
+          }
+        },
+        {
+          "sequence": 98,
+          "shape_name": "Straight Connector 20",
+          "timing": "with",
+          "z_index": 12,
+          "shape_type": "connector",
+          "layout": {
+            "x": 813,
+            "y": 269,
+            "width": 62,
+            "height": 1,
+            "rotation": 0
+          },
+          "line": {
+            "width": 20,
+            "color": "#F4F4F4"
+          },
+          "path": {
+            "start": {
+              "x": 1138,
+              "y": 376
+            },
+            "end": {
+              "x": 1225,
+              "y": 378
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 844,
+              "y": 269
+            },
+            "to": {
+              "x": 844,
+              "y": 270
+            }
+          }
+        },
+        {
+          "sequence": 99,
+          "shape_name": "TextBox 85",
+          "text": "Perfect Safety",
+          "timing": "with",
+          "z_index": 43,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 524,
+            "y": 144,
+            "width": 401,
+            "height": 58,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_name": "Arial Black",
+            "font_size": 41.9,
+            "bold": true,
+            "color": "#0000FF"
+          }
+        },
+        {
+          "sequence": 100,
+          "shape_name": "TextBox 94",
+          "text": "Heavenly StateState of Eternal Life",
+          "timing": "with",
+          "z_index": 65,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 616,
+            "y": 208,
+            "width": 167,
+            "height": 36,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_name": "+mn-lt",
+            "font_size": 15.2,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 101,
+          "shape_name": "TextBox 17",
+          "text": "1 Corinthians 15:22-252 Peter 1:10-11",
+          "timing": "click",
+          "z_index": 64,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 771,
+            "y": 32,
+            "width": 149,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 14,
+            "name": "1Corinthians15.22-25"
+          }
+        },
+        {
+          "sequence": 102,
+          "shape_name": "TextBox 144",
+          "text": "?",
+          "timing": "with",
+          "z_index": 89,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 711,
+            "y": 98,
+            "width": 26,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 103,
+          "shape_name": "Rectangle 28",
+          "text": "& Those Justified",
+          "timing": "click",
+          "z_index": 70,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 713,
+            "y": 88,
+            "width": 174,
+            "height": 30,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_size": 19.1,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 104,
+          "shape_name": "TextBox 96",
+          "text": "Kings & Priests",
+          "timing": "with",
+          "z_index": 69,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 711,
+            "y": 105,
+            "width": 215,
+            "height": 39,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "align": "center",
+            "font_size": 26.6,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 105,
+          "shape_name": "Straight Connector 49",
+          "timing": "with",
+          "z_index": 91,
+          "shape_type": "connector",
+          "layout": {
+            "x": 503,
+            "y": 69,
+            "width": 238,
+            "height": 0,
+            "rotation": 0
+          },
+          "line": {
+            "width": 4,
+            "color": "#0000FF"
+          },
+          "path": {
+            "start": {
+              "x": 704,
+              "y": 97
+            },
+            "end": {
+              "x": 1037,
+              "y": 97
+            }
+          },
+          "line_endpoints": {
+            "from": {
+              "x": 622,
+              "y": 69
+            },
+            "to": {
+              "x": 622,
+              "y": 69
+            }
+          }
+        },
+        {
+          "sequence": 106,
+          "shape_name": "TextBox 95",
+          "text": "Revelation 21:3-4",
+          "timing": "click",
+          "z_index": 66,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 802,
+            "y": 69,
+            "width": 119,
+            "height": 23,
+            "rotation": 0
+          },
+          "font": {
+            "align": "right",
+            "font_size": 13.4
+          },
+          "hyperlink": {
+            "type": "customshow",
+            "id": 15,
+            "name": "Revelation21.3-4"
+          }
+        }
+      ],
+      "static_content": [
+        {
+          "shape_name": "Rectangle 129",
+          "static": true,
+          "z_index": 0,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 0,
+            "y": 0,
+            "width": 960,
+            "height": 618,
+            "rotation": 0
+          },
+          "fill": "#33CCFF"
+        },
+        {
+          "shape_name": "Title 4",
+          "static": true,
+          "text": "Kingdoms",
+          "z_index": 5,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": -8,
+            "y": -1,
+            "width": 131,
+            "height": 26,
+            "rotation": 0
+          },
+          "font": {
+            "font_name": "Arial",
+            "font_size": 7.6,
+            "bold": true,
+            "color": "#33CCFF"
+          }
+        },
+        {
+          "shape_name": "Rectangle 5",
+          "static": true,
+          "z_index": 9,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 34,
+            "y": 22,
+            "width": 446,
+            "height": 249,
+            "rotation": 0
+          },
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 13,
+            "color": "#000000"
+          }
+        },
+        {
+          "shape_name": "TextBox 62",
+          "static": true,
+          "text": "Kingdom",
+          "z_index": 16,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 41,
+            "y": 31,
+            "width": 146,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_name": "+mn-lt",
+            "font_size": 30.5,
+            "bold": true
+          }
+        }
+      ]
+    },
+    {
+      "slide_number": 2,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "The End",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 48,
+            "y": 232,
+            "width": 864,
+            "height": 45,
+            "rotation": 0
+          },
+          "font": {
+            "bold": true
+          }
+        }
+      ]
+    }
+  ]
+}
