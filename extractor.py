@@ -2,6 +2,7 @@ import os
 import glob
 import json
 import math
+import re
 import shutil
 import sys
 import zipfile
@@ -1077,6 +1078,43 @@ def parse_slide_relationships(pptx_path, slide_num):
     return rid_to_image
 
 
+def parse_slide_links_from_relationships(pptx_path, slide_num):
+    """Parse relationship file for a slide to map rId to target slide numbers.
+    
+    Args:
+        pptx_path: Path to the PPTX file
+        slide_num: Slide number (1-indexed)
+    
+    Returns:
+        Dict mapping rId to target slide number (e.g., 'rId3' -> 4)
+    """
+    rid_to_slide = {}
+    rels_file = f'ppt/slides/_rels/slide{slide_num}.xml.rels'
+    
+    with zipfile.ZipFile(pptx_path, 'r') as zf:
+        try:
+            rels_xml = zf.read(rels_file).decode('utf-8')
+            root = ET.fromstring(rels_xml)
+            
+            # Namespace for relationships
+            rels_ns = '{http://schemas.openxmlformats.org/package/2006/relationships}'
+            
+            for rel in root.findall(f'{rels_ns}Relationship'):
+                rel_type = rel.get('Type', '')
+                # Check for slide relationship type
+                if rel_type.endswith('/slide'):
+                    rid = rel.get('Id')
+                    target = rel.get('Target', '')
+                    # Target is like 'slide4.xml'
+                    match = re.search(r'slide(\d+)\.xml', target)
+                    if match and rid:
+                        rid_to_slide[rid] = int(match.group(1))
+        except KeyError:
+            pass  # No relationships file for this slide
+    
+    return rid_to_slide
+
+
 def parse_pictures_from_slide(slide_xml_content, rid_to_image, slide_width=None, shape_z_indices=None):
     """Parse all picture elements from slide XML.
     
@@ -1277,30 +1315,46 @@ def get_text_from_shape_xml(shape_elem):
     return ''.join(texts).strip()
 
 def get_hyperlink_from_shape_xml(shape_elem):
-    """Extract hyperlink action from shape XML element."""
+    """Extract hyperlink action from shape XML element.
+    
+    Returns dict with hyperlink info:
+    - For custom shows: {'type': 'customshow', 'id': <show_id>}
+    - For slide jumps: {'type': 'slide', 'r_id': <relationship_id>}
+    - For other actions: {'type': 'action', 'action': <action_string>}
+    """
     # Check for hlinkClick on the shape itself (cNvPr)
     cNvPr = shape_elem.find('.//p:cNvPr', NAMESPACES)
     if cNvPr is not None:
         hlinkClick = cNvPr.find('a:hlinkClick', NAMESPACES)
         if hlinkClick is not None:
             action = hlinkClick.get('action', '')
+            r_id = hlinkClick.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id', '')
+            
             if 'customshow' in action.lower():
                 # Extract custom show ID
                 import re
                 match = re.search(r'id=(\d+)', action)
                 if match:
                     return {'type': 'customshow', 'id': int(match.group(1))}
+            elif 'hlinksldjump' in action.lower() and r_id:
+                # Slide jump - return the relationship ID to be resolved later
+                return {'type': 'slide', 'r_id': r_id}
             elif action:
                 return {'type': 'action', 'action': action}
     
     # Check for hyperlinks in text runs
     for hlinkClick in shape_elem.findall('.//a:hlinkClick', NAMESPACES):
         action = hlinkClick.get('action', '')
+        r_id = hlinkClick.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id', '')
+        
         if 'customshow' in action.lower():
             import re
             match = re.search(r'id=(\d+)', action)
             if match:
                 return {'type': 'customshow', 'id': int(match.group(1))}
+        elif 'hlinksldjump' in action.lower() and r_id:
+            # Slide jump - return the relationship ID to be resolved later
+            return {'type': 'slide', 'r_id': r_id}
         elif action:
             return {'type': 'action', 'action': action}
     
@@ -1490,257 +1544,290 @@ def parse_shapes_from_slide(slide_xml_content):
     
     return shapes
 
-def parse_custom_shows(pptx_path, prs, theme_colors=None):
-    """Parse custom shows from presentation.xml with full slide data.
+def parse_custom_shows(pptx_path):
+    """Parse custom shows from presentation.xml - returns metadata only (not slide content).
+    
+    Custom shows are named collections of slides that can be linked from the main presentation.
+    This function extracts just the custom show definitions (name, id, slide_numbers).
     
     Args:
         pptx_path: Path to the PPTX file
-        prs: The Presentation object (for slide dimensions and shape access)
-        theme_colors: Optional dict mapping theme color strings to hex values
     
     Returns:
         Tuple of (custom_shows dict, set of slide numbers used by custom shows)
+        
+        custom_shows structure:
+        {
+            0: {"name": "romans6.3", "id": 0, "slide_numbers": [8]},
+            1: {"name": "revelation20.6", "id": 1, "slide_numbers": [16, 17]}
+        }
     """
     custom_shows = {}
     custom_show_slide_nums = set()  # Track which slide numbers are used by custom shows
-    
-    # Calculate slide dimensions for auto-scaling
-    slide_width = emu_to_px(prs.slide_width)
-    slide_height = emu_to_px(prs.slide_height)
     
     with zipfile.ZipFile(pptx_path, 'r') as zf:
         try:
             pres_xml = zf.read('ppt/presentation.xml').decode('utf-8')
             root = ET.fromstring(pres_xml)
             
-            # Get slide ID to rId mapping
-            slide_map = {}
-            for sldId in root.findall('.//p:sldId', NAMESPACES):
-                slide_id = sldId.get('id')
-                r_id = sldId.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
-                if slide_id and r_id:
-                    slide_map[r_id] = slide_id
-            
-            # Parse relationships to map rId to slide file
+            # Parse relationships to map rId to slide number
             rels_xml = zf.read('ppt/_rels/presentation.xml.rels').decode('utf-8')
             rels_root = ET.fromstring(rels_xml)
-            rid_to_slide = {}
             rid_to_slide_num = {}
             for rel in rels_root.findall('.//{http://schemas.openxmlformats.org/package/2006/relationships}Relationship'):
                 r_id = rel.get('Id')
                 target = rel.get('Target')
                 if target and 'slide' in target.lower() and not 'layout' in target.lower() and not 'master' in target.lower():
-                    rid_to_slide[r_id] = target
                     # Extract slide number from target (e.g., "slides/slide6.xml" -> 6)
                     import re
                     match = re.search(r'slide(\d+)\.xml', target)
                     if match:
                         rid_to_slide_num[r_id] = int(match.group(1))
             
-            # Parse custom shows
+            # Parse custom shows - just extract metadata (name, id, slide_numbers)
             for custShow in root.findall('.//p:custShow', NAMESPACES):
                 show_name = custShow.get('name', '')
                 show_id = custShow.get('id')
                 
                 if show_id:
-                    slides_content = []
+                    slide_numbers = []
                     for sld in custShow.findall('.//p:sld', NAMESPACES):
                         r_id = sld.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
-                        if r_id and r_id in rid_to_slide:
-                            slide_file = rid_to_slide[r_id]
-                            slide_num = rid_to_slide_num.get(r_id)
-                            
-                            # Track this slide number as used by a custom show
-                            if slide_num:
-                                custom_show_slide_nums.add(slide_num)
-                            
-                            # Process this slide with full detail (same as regular slides)
-                            try:
-                                slide_path = f'ppt/{slide_file}' if not slide_file.startswith('slides/') else f'ppt/{slide_file}'
-                                if slide_file.startswith('slides/'):
-                                    slide_path = f'ppt/{slide_file}'
-                                slide_xml = zf.read(slide_path).decode('utf-8')
-                                
-                                # Get the actual slide object for shape access
-                                if slide_num and slide_num <= len(prs.slides):
-                                    slide_obj = prs.slides[slide_num - 1]
-                                    
-                                    # Build shape ID to pptx shape mapping
-                                    pptx_shapes_by_id = {}
-                                    for z_idx, shape, group_id in enumerate_shapes_recursive(slide_obj.shapes):
-                                        pptx_shapes_by_id[str(shape.shape_id)] = (shape, z_idx, group_id)
-                                    
-                                    # Get animation entries
-                                    animation_entries = parse_animation_sequence(slide_xml)
-                                    
-                                    # Get all shapes
-                                    shapes = parse_shapes_from_slide(slide_xml)
-                                    
-                                    # Build animation sequence (same logic as regular slides)
-                                    animation_sequence = []
-                                    sequence_num = 1
-                                    
-                                    for anim_entry in animation_entries:
-                                        shape_id = anim_entry['shape_id']
-                                        
-                                        # Check if this shape_id is a group
-                                        child_ids = get_group_child_ids(slide_xml, shape_id)
-                                        
-                                        if child_ids:
-                                            # Group animation - add all children
-                                            for child_id in child_ids:
-                                                if child_id in shapes:
-                                                    shape = shapes[child_id]
-                                                    entry = {
-                                                        'sequence': sequence_num,
-                                                        'shape_name': shape['name'],
-                                                        'timing': anim_entry['timing']
-                                                    }
-                                                    has_text = bool(shape['text'])
-                                                    if has_text:
-                                                        entry['text'] = shape['text']
-                                                    
-                                                    if 'delay' in anim_entry and anim_entry['delay'] > 0:
-                                                        entry['delay'] = anim_entry['delay']
-                                                    
-                                                    # Add visual data
-                                                    if child_id in pptx_shapes_by_id:
-                                                        pptx_shape, z_idx, group_id = pptx_shapes_by_id[child_id]
-                                                        visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width)
-                                                        if visual:
-                                                            for key, value in visual.items():
-                                                                # Skip font for shapes without text
-                                                                if key == 'font' and not has_text:
-                                                                    continue
-                                                                entry[key] = value
-                                                        entry['group_id'] = shape_id
-                                                    
-                                                    if shape['hyperlink']:
-                                                        entry['hyperlink'] = shape['hyperlink']
-                                                    
-                                                    animation_sequence.append(entry)
-                                            sequence_num += 1
-                                        elif shape_id in shapes:
-                                            # Regular individual shape
-                                            shape = shapes[shape_id]
-                                            entry = {
-                                                'sequence': sequence_num,
-                                                'shape_name': shape['name'],
-                                                'timing': anim_entry['timing']
-                                            }
-                                            has_text = bool(shape['text'])
-                                            if has_text:
-                                                entry['text'] = shape['text']
-                                            
-                                            if 'delay' in anim_entry and anim_entry['delay'] > 0:
-                                                entry['delay'] = anim_entry['delay']
-                                            
-                                            # Add visual data
-                                            if shape_id in pptx_shapes_by_id:
-                                                pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
-                                                try:
-                                                    visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
-                                                except Exception as e:
-                                                    print(f"ERROR: Failed to extract visual data for shape {shape_id}: {e}")
-                                                    visual = None
-                                                if visual:
-                                                    for key, value in visual.items():
-                                                        # Skip font for shapes without text
-                                                        if key == 'font' and not has_text:
-                                                            continue
-                                                        entry[key] = value
-                                                if group_id:
-                                                    entry['group_id'] = group_id
-                                            
-                                            if shape['hyperlink']:
-                                                entry['hyperlink'] = shape['hyperlink']
-                                            
-                                            animation_sequence.append(entry)
-                                            sequence_num += 1
-                                    
-                                    # Get static content (non-animated shapes)
-                                    static_shapes = []
-                                    animated_ids = set(e['shape_id'] for e in animation_entries)
-                                    for anim_entry in animation_entries:
-                                        child_ids = get_group_child_ids(slide_xml, anim_entry['shape_id'])
-                                        if child_ids:
-                                            animated_ids.update(child_ids)
-                                    
-                                    for shape_id, shape in shapes.items():
-                                        if shape_id not in animated_ids:
-                                            static_entry = {
-                                                'shape_name': shape['name'],
-                                                'static': True
-                                            }
-                                            has_text = bool(shape['text'])
-                                            if has_text:
-                                                static_entry['text'] = shape['text']
-                                            
-                                            # Add visual data
-                                            if shape_id in pptx_shapes_by_id:
-                                                pptx_shape, z_idx, group_id = pptx_shapes_by_id[shape_id]
-                                                visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
-                                                if visual:
-                                                    for key, value in visual.items():
-                                                        # Skip font for shapes without text
-                                                        if key == 'font' and not has_text:
-                                                            continue
-                                                        static_entry[key] = value
-                                                if group_id:
-                                                    static_entry['group_id'] = group_id
-                                            else:
-                                                # Fallback: Extract from XML
-                                                try:
-                                                    xml_root = ET.fromstring(slide_xml)
-                                                    for sp in xml_root.findall('.//p:sp', NAMESPACES):
-                                                        cNvPr = sp.find('.//p:cNvPr', NAMESPACES)
-                                                        if cNvPr is not None and cNvPr.get('id') == shape_id:
-                                                            visual = extract_visual_data_from_xml(sp, 0, slide_width)
-                                                            if visual:
-                                                                for key, value in visual.items():
-                                                                    # Skip font for shapes without text
-                                                                    if key == 'font' and not has_text:
-                                                                        continue
-                                                                    static_entry[key] = value
-                                                            break
-                                                except:
-                                                    pass
-                                            
-                                            if shape['hyperlink']:
-                                                static_entry['hyperlink'] = shape['hyperlink']
-                                            static_shapes.append(static_entry)
-                                    
-                                    slide_data = {
-                                        'slide_file': slide_file,
-                                        'animation_sequence': animation_sequence
-                                    }
-                                    if static_shapes:
-                                        slide_data['static_content'] = static_shapes
-                                    
-                                    slides_content.append(slide_data)
-                                else:
-                                    # Fallback if slide not found - just texts
-                                    shapes = parse_shapes_from_slide(slide_xml)
-                                    slide_texts = [s['text'] for s in shapes.values() if s['text']]
-                                    slides_content.append({
-                                        'slide_file': slide_file,
-                                        'texts': slide_texts
-                                    })
-                            except Exception as e:
-                                slides_content.append({
-                                    'slide_file': slide_file,
-                                    'error': str(e)
-                                })
+                        if r_id and r_id in rid_to_slide_num:
+                            slide_num = rid_to_slide_num[r_id]
+                            slide_numbers.append(slide_num)
+                            custom_show_slide_nums.add(slide_num)
                     
                     custom_shows[int(show_id)] = {
                         'name': show_name,
                         'id': int(show_id),
-                        'slides': slides_content
+                        'slide_numbers': slide_numbers
                     }
         except Exception as e:
             print(f"Error parsing custom shows: {e}")
     
     return custom_shows, custom_show_slide_nums
+
+
+def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_path):
+    """Process a single linked slide (from custom show or hlinksldjump) and return its content.
+    
+    Args:
+        slide_num: The 1-based slide number to process
+        prs: The Presentation object
+        zf: Open ZipFile object for the PPTX
+        slide_width: Slide width in pixels
+        theme_colors: Theme color map
+        file_path: Path to the PPTX file (for image extraction)
+    
+    Returns:
+        Dict with slide_number, animation_sequence, and optionally static_content
+    """
+    slide_file = f'ppt/slides/slide{slide_num}.xml'
+    slide_xml = zf.read(slide_file).decode('utf-8')
+    
+    # Get the actual slide object for shape access
+    slide_obj = prs.slides[slide_num - 1]
+    
+    # Build shape ID to pptx shape mapping
+    pptx_shapes_by_id = {}
+    for z_idx, shape, group_id in enumerate_shapes_recursive(slide_obj.shapes):
+        pptx_shapes_by_id[str(shape.shape_id)] = (shape, z_idx, group_id)
+    
+    # Build z_index mapping for all shapes (including pictures)
+    shape_z_indices = {shape_id: data[1] for shape_id, data in pptx_shapes_by_id.items()}
+    
+    # Get animation entries
+    animation_entries = parse_animation_sequence(slide_xml)
+    
+    # Get all shapes
+    shapes = parse_shapes_from_slide(slide_xml)
+    
+    # Get all pictures from this slide
+    rid_to_image = parse_slide_relationships(file_path, slide_num)
+    pictures = parse_pictures_from_slide(slide_xml, rid_to_image, slide_width, shape_z_indices)
+    
+    # Get slide hyperlink relationships (for resolving hlinksldjump)
+    rid_to_target_slide = parse_slide_links_from_relationships(file_path, slide_num)
+    
+    # Build animation sequence
+    animation_sequence = []
+    sequence_num = 1
+    
+    for anim_entry in animation_entries:
+        shape_id = anim_entry['shape_id']
+        
+        # Check if this shape_id is a group
+        child_ids = get_group_child_ids(slide_xml, shape_id)
+        
+        if child_ids:
+            # Group animation - add all children
+            for child_id in child_ids:
+                if child_id in shapes:
+                    shape = shapes[child_id]
+                    entry = {
+                        'sequence': sequence_num,
+                        'shape_name': shape['name'],
+                        'timing': anim_entry['timing']
+                    }
+                    has_text = bool(shape['text'])
+                    if has_text:
+                        entry['text'] = shape['text']
+                    
+                    if 'delay' in anim_entry and anim_entry['delay'] > 0:
+                        entry['delay'] = anim_entry['delay']
+                    
+                    # Add visual data
+                    if child_id in pptx_shapes_by_id:
+                        pptx_shape, z_idx, grp_id = pptx_shapes_by_id[child_id]
+                        visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, child_id, slide_width, theme_colors)
+                        if visual:
+                            for key, value in visual.items():
+                                if key == 'font' and not has_text:
+                                    continue
+                                entry[key] = value
+                        entry['group_id'] = shape_id
+                    
+                    if shape['hyperlink']:
+                        hyperlink = shape['hyperlink'].copy()
+                        if hyperlink['type'] == 'slide':
+                            r_id = hyperlink.get('r_id')
+                            if r_id and r_id in rid_to_target_slide:
+                                hyperlink['slide_number'] = rid_to_target_slide[r_id]
+                                del hyperlink['r_id']
+                        entry['hyperlink'] = hyperlink
+                    
+                    animation_sequence.append(entry)
+            sequence_num += 1
+        elif shape_id in shapes:
+            # Regular individual shape
+            shape = shapes[shape_id]
+            entry = {
+                'sequence': sequence_num,
+                'shape_name': shape['name'],
+                'timing': anim_entry['timing']
+            }
+            has_text = bool(shape['text'])
+            if has_text:
+                entry['text'] = shape['text']
+            
+            if 'delay' in anim_entry and anim_entry['delay'] > 0:
+                entry['delay'] = anim_entry['delay']
+            
+            # Add visual data
+            if shape_id in pptx_shapes_by_id:
+                pptx_shape, z_idx, grp_id = pptx_shapes_by_id[shape_id]
+                visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
+                if visual:
+                    for key, value in visual.items():
+                        if key == 'font' and not has_text:
+                            continue
+                        entry[key] = value
+                if grp_id:
+                    entry['group_id'] = grp_id
+            
+            if shape['hyperlink']:
+                hyperlink = shape['hyperlink'].copy()
+                if hyperlink['type'] == 'slide':
+                    r_id = hyperlink.get('r_id')
+                    if r_id and r_id in rid_to_target_slide:
+                        hyperlink['slide_number'] = rid_to_target_slide[r_id]
+                        del hyperlink['r_id']
+                entry['hyperlink'] = hyperlink
+            
+            animation_sequence.append(entry)
+            sequence_num += 1
+        elif shape_id in pictures:
+            # Animated picture
+            pic = pictures[shape_id]
+            entry = {
+                'sequence': sequence_num,
+                'shape_name': pic['name'],
+                'shape_type': 'picture',
+                'image': pic['image'],
+                'timing': anim_entry['timing']
+            }
+            if pic.get('description'):
+                entry['description'] = pic['description']
+            if 'delay' in anim_entry and anim_entry['delay'] > 0:
+                entry['delay'] = anim_entry['delay']
+            if pic.get('z_index') is not None:
+                entry['z_index'] = pic['z_index']
+            if pic.get('layout'):
+                entry['layout'] = pic['layout']
+            if pic.get('line'):
+                entry['line'] = pic['line']
+            animation_sequence.append(entry)
+            sequence_num += 1
+    
+    # Get static content (non-animated shapes)
+    static_shapes = []
+    animated_ids = set(e['shape_id'] for e in animation_entries)
+    for anim_entry in animation_entries:
+        child_ids = get_group_child_ids(slide_xml, anim_entry['shape_id'])
+        if child_ids:
+            animated_ids.update(child_ids)
+    
+    for shape_id, shape in shapes.items():
+        if shape_id not in animated_ids:
+            static_entry = {
+                'shape_name': shape['name'],
+                'static': True
+            }
+            has_text = bool(shape['text'])
+            if has_text:
+                static_entry['text'] = shape['text']
+            
+            # Add visual data
+            if shape_id in pptx_shapes_by_id:
+                pptx_shape, z_idx, grp_id = pptx_shapes_by_id[shape_id]
+                visual = extract_shape_visual_data(pptx_shape, z_idx, slide_xml, shape_id, slide_width, theme_colors)
+                if visual:
+                    for key, value in visual.items():
+                        if key == 'font' and not has_text:
+                            continue
+                        static_entry[key] = value
+                if grp_id:
+                    static_entry['group_id'] = grp_id
+            
+            if shape['hyperlink']:
+                hyperlink = shape['hyperlink'].copy()
+                if hyperlink['type'] == 'slide':
+                    r_id = hyperlink.get('r_id')
+                    if r_id and r_id in rid_to_target_slide:
+                        hyperlink['slide_number'] = rid_to_target_slide[r_id]
+                        del hyperlink['r_id']
+                static_entry['hyperlink'] = hyperlink
+            static_shapes.append(static_entry)
+    
+    # Add static pictures
+    for pic_id, pic in pictures.items():
+        if pic_id not in animated_ids:
+            static_entry = {
+                'shape_name': pic['name'],
+                'shape_type': 'picture',
+                'image': pic['image'],
+                'static': True
+            }
+            if pic.get('description'):
+                static_entry['description'] = pic['description']
+            if pic.get('z_index') is not None:
+                static_entry['z_index'] = pic['z_index']
+            if pic.get('layout'):
+                static_entry['layout'] = pic['layout']
+            if pic.get('line'):
+                static_entry['line'] = pic['line']
+            static_shapes.append(static_entry)
+    
+    slide_content = {
+        'slide_number': slide_num,
+        'animation_sequence': animation_sequence
+    }
+    if static_shapes:
+        slide_content['static_content'] = static_shapes
+    
+    return slide_content
+
 
 def save_presentation_structure(prs, file_path):
     """Save a simplified representation focusing on animation order and hyperlinks."""
@@ -1751,11 +1838,55 @@ def save_presentation_structure(prs, file_path):
     if theme_colors:
         print(f"Extracted {len(theme_colors)} theme colors from presentation")
     
-    custom_shows, custom_show_slide_nums = parse_custom_shows(file_path, prs, theme_colors)
+    # Parse custom shows - just metadata (name, id, slide_numbers)
+    custom_shows, custom_show_slide_nums = parse_custom_shows(file_path)
     
     # Calculate slide dimensions in pixels (from EMU)
     slide_width = emu_to_px(prs.slide_width)
     slide_height = emu_to_px(prs.slide_height)
+    
+    # Pre-scan all main slides to find slide jump hyperlinks (hlinksldjump)
+    # and add their target slides to custom_show_slide_nums
+    slide_jump_targets = set()  # Set of target slide numbers from hlinksldjump
+    with zipfile.ZipFile(file_path, 'r') as zf:
+        for slide_num in range(1, len(prs.slides) + 1):
+            # Skip slides already marked as custom show slides
+            if slide_num in custom_show_slide_nums:
+                continue
+                
+            try:
+                slide_file = f'ppt/slides/slide{slide_num}.xml'
+                slide_xml = zf.read(slide_file).decode('utf-8')
+                
+                # Parse all shapes to find slide jump hyperlinks
+                shapes = parse_shapes_from_slide(slide_xml)
+                rid_to_slide = parse_slide_links_from_relationships(file_path, slide_num)
+                
+                for shape_id, shape in shapes.items():
+                    if shape['hyperlink'] and shape['hyperlink'].get('type') == 'slide':
+                        r_id = shape['hyperlink'].get('r_id')
+                        if r_id and r_id in rid_to_slide:
+                            target_slide_num = rid_to_slide[r_id]
+                            # Track slide jump targets that aren't already in custom shows
+                            if target_slide_num not in custom_show_slide_nums:
+                                slide_jump_targets.add(target_slide_num)
+                                custom_show_slide_nums.add(target_slide_num)
+            except Exception as e:
+                pass  # Skip slides that can't be read
+    
+    # Build linked_slides: process all slides used by custom shows AND slide jumps
+    linked_slides = {}
+    with zipfile.ZipFile(file_path, 'r') as zf:
+        for linked_slide_num in sorted(custom_show_slide_nums):
+            try:
+                slide_content = process_linked_slide(linked_slide_num, prs, zf, slide_width, theme_colors, file_path)
+                linked_slides[linked_slide_num] = slide_content
+            except Exception as e:
+                print(f"Warning: Could not process linked slide {linked_slide_num}: {e}")
+                linked_slides[linked_slide_num] = {
+                    'slide_number': linked_slide_num,
+                    'error': str(e)
+                }
     
     # Calculate scale factor for coordinate conversion
     scale_factor = TARGET_CANVAS_WIDTH / slide_width if slide_width else 1.0
@@ -1771,13 +1902,15 @@ def save_presentation_structure(prs, file_path):
     # Extract all images from PPTX to the images folder
     image_map = extract_images_from_pptx(file_path, images_folder)
     
-    # Calculate main presentation slide count (excluding custom show slides)
+    # Calculate main presentation slide count (excluding linked slides)
     main_slide_count = len(prs.slides) - len(custom_show_slide_nums)
     
     presentation_data = {
         "file_path": str(file_path),
         "file_name": Path(file_path).name,
         "total_slides": main_slide_count,
+        "total_custom_shows": len(custom_shows),
+        "total_linked_slides": len(linked_slides),
         "source_dimensions": {
             "width": slide_width,
             "height": slide_height
@@ -1789,6 +1922,7 @@ def save_presentation_structure(prs, file_path):
         "scale_factor": round(scale_factor, 3),
         "images_folder": output_stem,
         "custom_shows": custom_shows,
+        "linked_slides": linked_slides,
         "slides": []
     }
     
@@ -1821,6 +1955,9 @@ def save_presentation_structure(prs, file_path):
                 # Get all pictures from this slide
                 rid_to_image = parse_slide_relationships(file_path, slide_num)
                 pictures = parse_pictures_from_slide(slide_xml, rid_to_image, slide_width, shape_z_indices)
+                
+                # Get slide link relationships for resolving hlinksldjump
+                rid_to_target_slide = parse_slide_links_from_relationships(file_path, slide_num)
                 
                 # Build ordered animation list
                 animation_sequence = []
@@ -1863,13 +2000,16 @@ def save_presentation_structure(prs, file_path):
                                     # Mark that this is part of an animated group
                                     entry['group_id'] = shape_id
                                 
-                                # Add hyperlink info if present
+                                # Add hyperlink info if present (just reference, no content)
                                 if shape['hyperlink']:
-                                    entry['hyperlink'] = shape['hyperlink']
-                                    if shape['hyperlink']['type'] == 'customshow':
-                                        cs_id = shape['hyperlink']['id']
-                                        if cs_id in custom_shows:
-                                            entry['linked_content'] = custom_shows[cs_id]
+                                    hyperlink = shape['hyperlink'].copy()
+                                    if hyperlink['type'] == 'slide':
+                                        # Resolve r_id to target slide number
+                                        r_id = hyperlink.get('r_id')
+                                        if r_id and r_id in rid_to_target_slide:
+                                            hyperlink['slide_number'] = rid_to_target_slide[r_id]
+                                            del hyperlink['r_id']
+                                    entry['hyperlink'] = hyperlink
                                 
                                 animation_sequence.append(entry)
                         sequence_num += 1
@@ -1904,14 +2044,16 @@ def save_presentation_structure(prs, file_path):
                             if group_id:
                                 entry['group_id'] = group_id
                         
-                        # Add hyperlink info if present
+                        # Add hyperlink info if present (just reference, no content)
                         if shape['hyperlink']:
-                            entry['hyperlink'] = shape['hyperlink']
-                            # If it's a custom show, include the linked content
-                            if shape['hyperlink']['type'] == 'customshow':
-                                cs_id = shape['hyperlink']['id']
-                                if cs_id in custom_shows:
-                                    entry['linked_content'] = custom_shows[cs_id]
+                            hyperlink = shape['hyperlink'].copy()
+                            if hyperlink['type'] == 'slide':
+                                # Resolve r_id to target slide number
+                                r_id = hyperlink.get('r_id')
+                                if r_id and r_id in rid_to_target_slide:
+                                    hyperlink['slide_number'] = rid_to_target_slide[r_id]
+                                    del hyperlink['r_id']
+                            entry['hyperlink'] = hyperlink
                         
                         animation_sequence.append(entry)
                         sequence_num += 1
@@ -2007,11 +2149,14 @@ def save_presentation_structure(prs, file_path):
                                 pass
                         
                         if shape['hyperlink']:
-                            static_entry['hyperlink'] = shape['hyperlink']
-                            if shape['hyperlink']['type'] == 'customshow':
-                                cs_id = shape['hyperlink']['id']
-                                if cs_id in custom_shows:
-                                    static_entry['linked_content'] = custom_shows[cs_id]
+                            hyperlink = shape['hyperlink'].copy()
+                            if hyperlink['type'] == 'slide':
+                                # Resolve r_id to target slide number
+                                r_id = hyperlink.get('r_id')
+                                if r_id and r_id in rid_to_target_slide:
+                                    hyperlink['slide_number'] = rid_to_target_slide[r_id]
+                                    del hyperlink['r_id']
+                            static_entry['hyperlink'] = hyperlink
                         static_shapes.append(static_entry)
                 
                 # Add static pictures (non-animated)

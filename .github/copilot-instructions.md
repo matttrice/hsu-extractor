@@ -8,7 +8,9 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
 {
   "file_path": "/path/to/presentation.pptx",
   "file_name": "presentation.pptx",
-  "total_slides": 17,
+  "total_slides": 6,
+  "total_custom_shows": 15,
+  "total_linked_slides": 15,
   "source_dimensions": {
     "width": 1536,
     "height": 864
@@ -20,6 +22,7 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
   "scale_factor": 0.625,
   "images_folder": "08-The_Ark",
   "custom_shows": { ... },
+  "linked_slides": { ... },
   "slides": [ ... ]
 }
 ```
@@ -30,55 +33,76 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
 
 ### Custom Shows
 
-Custom shows are named collections of slides that can be linked from the main presentation. When a user clicks a hyperlinked element, the custom show slides are displayed, then the user returns to the main slide.
+Custom shows are named collections of slides that can be linked from the main presentation. When a user clicks a hyperlinked element, the custom show slides are displayed in order, then the user returns to the main slide.
 
-**Structure**: Custom show slides have the **same structure as regular slides**, including `animation_sequence` and `static_content` with full visual data (layout, font, fill, line, etc.).
+**Structure**: Custom shows contain only metadata - the actual slide content is in `linked_slides`.
 
 ```json
 "custom_shows": {
+  "0": {
+    "name": "romans6.3",
+    "id": 0,
+    "slide_numbers": [8, 9]
+  },
   "2": {
     "name": "Gen12.1",
     "id": 2,
-    "slides": [
-      {
-        "slide_file": "slides/slide7.xml",
-        "animation_sequence": [
-          {
-            "sequence": 1,
-            "text": "1 Now the LORD said to Abram...",
-            "shape_name": "Text Box 3",
-            "timing": "click",
-            "layout": { "x": 50, "y": 80, "width": 860, "height": 400 },
-            "font": { "font_size": 20, "wrap": true }
-          }
-        ],
-        "static_content": [
-          {
-            "text": "Genesis 12:1-3",
-            "shape_name": "Title 1",
-            "static": true,
-            "layout": { "x": 50, "y": 20, "width": 860, "height": 40 },
-            "font": { "font_size": 28, "bold": true }
-          }
-        ]
-      }
-    ]
+    "slide_numbers": [7]
   }
 }
 ```
 
 - **Key**: The custom show ID (referenced by hyperlinks)
 - **name**: Display name of the custom show
-- **slides**: Array of slides in the custom show, each containing:
-  - **slide_file**: Original slide file reference
-  - **animation_sequence**: Ordered list of animated elements (same structure as regular slides)
-  - **static_content**: Non-animated elements that appear immediately (same structure as regular slides)
-  
-**Note**: Simple scripture reference drills typically have only `static_content` with text. Complex drills with animations (like "Flesh" in Sin_Death) have full `animation_sequence` with visual data.
+- **id**: Numeric ID matching the key
+- **slide_numbers**: Array of slide numbers in this custom show (content is in `linked_slides`)
 
-### Slides
+### Linked Slides
 
-Each slide contains an ordered animation sequence - the exact order elements appear when presenting.
+All slides that are linked to (from custom shows OR hlinksldjump hyperlinks) are stored in `linked_slides`. This is a unified collection - both custom show slides and individual slide jump targets are here.
+
+```json
+"linked_slides": {
+  "7": {
+    "slide_number": 7,
+    "animation_sequence": [
+      {
+        "sequence": 1,
+        "text": "Genesis 12:1-3",
+        "shape_name": "Text Box 3",
+        "timing": "click",
+        "layout": { "x": 50, "y": 80, "width": 860, "height": 400 },
+        "font": { "font_size": 20, "wrap": true }
+      }
+    ],
+    "static_content": [
+      {
+        "text": "Title Text",
+        "shape_name": "Title 1",
+        "static": true,
+        "layout": { "x": 50, "y": 20, "width": 860, "height": 40 },
+        "font": { "font_size": 28, "bold": true }
+      }
+    ]
+  },
+  "10": {
+    "slide_number": 10,
+    "animation_sequence": [ ... ],
+    "static_content": [ ... ]
+  }
+}
+```
+
+- **Key**: The slide number (string)
+- **slide_number**: Slide number (integer)
+- **animation_sequence**: Ordered list of animated elements (same structure as main slides)
+- **static_content**: Non-animated elements that appear immediately
+
+**Note**: Linked slides can contain hyperlinks to other linked slides (e.g., chained drills). These hyperlinks are fully resolved with `slide_number` values.
+
+### Slides (Main Presentation)
+
+Each slide in the main presentation contains an ordered animation sequence. Only non-linked slides appear here.
 
 ```json
 "slides": [
@@ -106,11 +130,6 @@ The `animation_sequence` array lists text elements in the order they appear duri
     "hyperlink": {
       "type": "customshow",
       "id": 2
-    },
-    "linked_content": {
-      "name": "Gen12.1",
-      "id": 2,
-      "slides": [ ... ]
     }
   },
   {
@@ -171,9 +190,9 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **to**: End point `{ x, y }` in slide coordinates
   - **curve**: Perpendicular offset from midpoint (negative = curve left/up, positive = curve right/down)
 - **hyperlink** (optional): If the element is clickable:
-  - **type**: `"customshow"` for links to custom shows
-  - **id**: The custom show ID to display
-- **linked_content** (optional): When `hyperlink.type` is `"customshow"`, this contains the full content of the linked custom show, including all slide texts which will translate to a drillTo in MBS svelte.
+  - **type**: `"customshow"` for links to custom shows, `"slide"` for direct slide jumps
+  - **id**: The custom show ID to display (for `"customshow"` type)
+  - **slide_number**: Target slide number (for `"slide"` type, references `linked_slides`)
 
 ### Static Content
 
@@ -244,8 +263,9 @@ To recreate the PowerPoint experience in a web format:
    - `timing: "click"` - Wait for user click, then show element (new step number)
    - `timing: "with"` - Show simultaneously with the previous click element (same step number)
    - `timing: "after"` - Show after `delay` milliseconds following the previous element (decimal step, e.g., step 1.1 for 500ms delay)
-3. **Hyperlinks (Drills)**: When an element has a `hyperlink` with `type: "customshow"`:
-   - Display the `linked_content.slides`
+3. **Hyperlinks (Drills)**: When an element has a `hyperlink`:
+   - For `type: "customshow"`: Look up `custom_shows[id].slide_numbers` to get the sequence of slides, then display content from `linked_slides[slide_number]` for each
+   - For `type: "slide"`: Display content from `linked_slides[slide_number]` directly
    - After viewing all content, return to the **origin slide** (not intermediate drills)
    - Multi-level drill chains (e.g., hebrews-3-14 → hebrews-4-1) all return directly to origin like a custom_show   
 5. **Navigation**: After all animation_sequence items are revealed, advance to the next slide
