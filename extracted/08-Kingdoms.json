@@ -5,14 +5,14 @@
   "total_custom_shows": 17,
   "total_linked_slides": 19,
   "source_dimensions": {
-    "width": 1344,
+    "width": 1536,
     "height": 864
   },
   "target_canvas": {
     "width": 960,
     "height": 540
   },
-  "scale_factor": 0.714,
+  "scale_factor": 0.625,
   "images_folder": "08-Kingdoms",
   "custom_shows": {
     "0": {
@@ -149,10 +149,10 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 124,
-            "y": 485,
-            "width": 711,
-            "height": 62,
+            "x": 169,
+            "y": 424,
+            "width": 622,
+            "height": 54,
             "rotation": 0
           },
           "fill": "#000000",
@@ -171,10 +171,10 @@
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 66,
-            "y": 417,
-            "width": 846,
-            "height": 34,
+            "x": 118,
+            "y": 365,
+            "width": 741,
+            "height": 30,
             "rotation": 0
           },
           "fill": "#0000FF",
@@ -194,14 +194,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
-            "y": 31,
-            "width": 864,
-            "height": 51,
+            "x": 102,
+            "y": 28,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -212,10 +212,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 82,
-            "width": 874,
-            "height": 284,
+            "x": 102,
+            "y": 72,
+            "width": 765,
+            "height": 248,
             "rotation": 0
           },
           "font": {
@@ -238,13 +238,13 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 49,
-            "y": 9,
+            "y": 8,
             "width": 864,
-            "height": 51,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -255,10 +255,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 60,
-            "width": 864,
-            "height": 146,
+            "x": 102,
+            "y": 52,
+            "width": 756,
+            "height": 128,
             "rotation": 0
           },
           "font": {
@@ -280,13 +280,13 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 49,
-            "y": 9,
+            "y": 8,
             "width": 864,
-            "height": 51,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -297,10 +297,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 47,
-            "y": 53,
-            "width": 873,
-            "height": 146,
+            "x": 101,
+            "y": 46,
+            "width": 764,
+            "height": 128,
             "rotation": 0
           },
           "font": {
@@ -316,16 +316,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 222,
-            "width": 897,
-            "height": 127,
+            "x": 102,
+            "y": 194,
+            "width": 785,
+            "height": 111,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -343,16 +343,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 252,
-            "width": 836,
-            "height": 127,
+            "x": 102,
+            "y": 221,
+            "width": 732,
+            "height": 111,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -365,15 +365,15 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 844,
-            "y": 571,
-            "width": 91,
-            "height": 23,
+            "x": 799,
+            "y": 499,
+            "width": 80,
+            "height": 20,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -389,17 +389,17 @@
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
-            "x": 103,
-            "y": 414,
-            "width": 766,
-            "height": 39,
+            "x": 150,
+            "y": 362,
+            "width": 671,
+            "height": 34,
             "rotation": 0
           },
           "fill": "#FD8017",
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         }
@@ -412,14 +412,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
-            "y": 15,
-            "width": 864,
-            "height": 51,
+            "x": 102,
+            "y": 13,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -430,10 +430,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 60,
-            "width": 852,
-            "height": 146,
+            "x": 102,
+            "y": 52,
+            "width": 746,
+            "height": 128,
             "rotation": 0
           },
           "font": {
@@ -456,13 +456,13 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 49,
-            "y": 9,
+            "y": 8,
             "width": 864,
-            "height": 51,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -473,16 +473,16 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 54,
-            "width": 871,
-            "height": 298,
+            "x": 102,
+            "y": 47,
+            "width": 762,
+            "height": 261,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "Helvetica Neue",
-            "font_size": 17.1,
+            "font_size": 15.0,
             "color": "#000000"
           }
         },
@@ -493,10 +493,10 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 67,
-            "y": 416,
-            "width": 861,
-            "height": 90,
+            "x": 119,
+            "y": 364,
+            "width": 754,
+            "height": 79,
             "rotation": 0
           },
           "font": {
@@ -519,16 +519,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 34,
-            "y": 111,
-            "width": 869,
-            "height": 210,
+            "x": 90,
+            "y": 98,
+            "width": 761,
+            "height": 184,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -541,16 +541,16 @@
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 34,
-            "y": 326,
-            "width": 895,
-            "height": 266,
+            "x": 90,
+            "y": 285,
+            "width": 783,
+            "height": 232,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "Helvetica Neue",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -564,14 +564,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 34,
-            "y": 9,
-            "width": 864,
-            "height": 51,
+            "x": 90,
+            "y": 8,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -582,10 +582,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 34,
-            "y": 47,
-            "width": 824,
-            "height": 62,
+            "x": 90,
+            "y": 41,
+            "width": 721,
+            "height": 54,
             "rotation": 0
           },
           "font": {
@@ -607,15 +607,15 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 182,
-            "y": 165,
-            "width": 610,
-            "height": 39,
+            "x": 219,
+            "y": 144,
+            "width": 534,
+            "height": 34,
             "rotation": 0
           },
           "fill": "#33CCFF",
           "font": {
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
@@ -627,16 +627,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 44,
-            "y": 239,
-            "width": 882,
-            "height": 127,
+            "x": 98,
+            "y": 209,
+            "width": 772,
+            "height": 111,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "Helvetica Neue",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -650,14 +650,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
-            "y": 24,
-            "width": 356,
-            "height": 51,
+            "x": 102,
+            "y": 21,
+            "width": 311,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -668,10 +668,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 59,
-            "width": 877,
-            "height": 90,
+            "x": 102,
+            "y": 52,
+            "width": 768,
+            "height": 79,
             "rotation": 0
           },
           "font": {
@@ -693,16 +693,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 125,
-            "width": 876,
-            "height": 210,
+            "x": 102,
+            "y": 109,
+            "width": 767,
+            "height": 184,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -715,15 +715,15 @@
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 352,
-            "width": 876,
-            "height": 182,
+            "x": 102,
+            "y": 308,
+            "width": 766,
+            "height": 159,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -736,10 +736,10 @@
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
-            "x": 0,
-            "y": 553,
-            "width": 960,
-            "height": 34,
+            "x": 60,
+            "y": 484,
+            "width": 840,
+            "height": 30,
             "rotation": 0
           },
           "fill": "#0000FF",
@@ -759,14 +759,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 46,
-            "y": 14,
-            "width": 864,
-            "height": 51,
+            "x": 101,
+            "y": 12,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -778,10 +778,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 50,
-            "width": 876,
-            "height": 62,
+            "x": 102,
+            "y": 44,
+            "width": 767,
+            "height": 54,
             "rotation": 0
           },
           "font": {
@@ -803,10 +803,10 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 266,
-            "y": 344,
-            "width": 349,
-            "height": 34,
+            "x": 293,
+            "y": 301,
+            "width": 306,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -821,10 +821,10 @@
           "z_index": 4,
           "shape_type": "connector",
           "layout": {
-            "x": 258,
-            "y": 253,
-            "width": 125,
-            "height": 101,
+            "x": 286,
+            "y": 221,
+            "width": 109,
+            "height": 89,
             "rotation": 0
           },
           "line": {
@@ -833,22 +833,22 @@
           },
           "path": {
             "start": {
-              "x": 361,
+              "x": 457,
               "y": 354
             },
             "end": {
-              "x": 536,
+              "x": 632,
               "y": 496
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 320,
-              "y": 253
+              "x": 340,
+              "y": 221
             },
             "to": {
-              "x": 320,
-              "y": 354
+              "x": 340,
+              "y": 310
             }
           },
           "arrow_ends": {
@@ -862,10 +862,10 @@
           "z_index": 5,
           "shape_type": "connector",
           "layout": {
-            "x": 219,
-            "y": 154,
-            "width": 184,
-            "height": 198,
+            "x": 251,
+            "y": 134,
+            "width": 161,
+            "height": 173,
             "rotation": 0
           },
           "line": {
@@ -874,22 +874,22 @@
           },
           "path": {
             "start": {
-              "x": 306,
+              "x": 402,
               "y": 215
             },
             "end": {
-              "x": 563,
+              "x": 659,
               "y": 492
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 311,
-              "y": 154
+              "x": 332,
+              "y": 134
             },
             "to": {
-              "x": 311,
-              "y": 352
+              "x": 332,
+              "y": 307
             }
           },
           "arrow_ends": {
@@ -904,15 +904,15 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 366,
-            "width": 871,
-            "height": 217,
+            "x": 102,
+            "y": 321,
+            "width": 762,
+            "height": 190,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
@@ -924,10 +924,10 @@
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
-            "x": 274,
-            "y": 576,
-            "width": 629,
-            "height": 34,
+            "x": 299,
+            "y": 504,
+            "width": 551,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -942,9 +942,9 @@
           "z_index": 9,
           "shape_type": "connector",
           "layout": {
-            "x": 700,
-            "y": 552,
-            "width": 133,
+            "x": 672,
+            "y": 483,
+            "width": 116,
             "height": 0,
             "rotation": 0
           },
@@ -954,22 +954,22 @@
           },
           "path": {
             "start": {
-              "x": 980,
+              "x": 1076,
               "y": 773
             },
             "end": {
-              "x": 1166,
+              "x": 1262,
               "y": 773
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 766,
-              "y": 552
+              "x": 730,
+              "y": 483
             },
             "to": {
-              "x": 766,
-              "y": 552
+              "x": 730,
+              "y": 483
             }
           }
         },
@@ -980,9 +980,9 @@
           "z_index": 10,
           "shape_type": "connector",
           "layout": {
-            "x": 140,
-            "y": 579,
-            "width": 92,
+            "x": 182,
+            "y": 506,
+            "width": 81,
             "height": 0,
             "rotation": 0
           },
@@ -992,22 +992,22 @@
           },
           "path": {
             "start": {
-              "x": 196,
+              "x": 292,
               "y": 810
             },
             "end": {
-              "x": 325,
+              "x": 421,
               "y": 810
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 186,
-              "y": 579
+              "x": 222,
+              "y": 506
             },
             "to": {
-              "x": 186,
-              "y": 579
+              "x": 222,
+              "y": 506
             }
           }
         },
@@ -1018,9 +1018,9 @@
           "z_index": 8,
           "shape_type": "connector",
           "layout": {
-            "x": 251,
-            "y": 579,
-            "width": 284,
+            "x": 279,
+            "y": 506,
+            "width": 248,
             "height": 0,
             "rotation": 0
           },
@@ -1030,22 +1030,22 @@
           },
           "path": {
             "start": {
-              "x": 351,
+              "x": 447,
               "y": 810
             },
             "end": {
-              "x": 748,
+              "x": 844,
               "y": 810
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 393,
-              "y": 579
+              "x": 403,
+              "y": 506
             },
             "to": {
-              "x": 393,
-              "y": 579
+              "x": 403,
+              "y": 506
             }
           }
         },
@@ -1056,10 +1056,10 @@
           "z_index": 7,
           "shape_type": "connector",
           "layout": {
-            "x": 635,
-            "y": 256,
-            "width": 19,
-            "height": 326,
+            "x": 616,
+            "y": 224,
+            "width": 17,
+            "height": 286,
             "rotation": 0
           },
           "line": {
@@ -1068,22 +1068,22 @@
           },
           "path": {
             "start": {
-              "x": 889,
+              "x": 985,
               "y": 359
             },
             "end": {
-              "x": 916,
+              "x": 1012,
               "y": 816
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 644,
-              "y": 256
+              "x": 624,
+              "y": 224
             },
             "to": {
-              "x": 644,
-              "y": 582
+              "x": 624,
+              "y": 510
             }
           },
           "arrow_ends": {
@@ -1097,9 +1097,9 @@
           "z_index": 12,
           "shape_type": "connector",
           "layout": {
-            "x": 519,
-            "y": 252,
-            "width": 233,
+            "x": 514,
+            "y": 221,
+            "width": 204,
             "height": 0,
             "rotation": 0
           },
@@ -1109,22 +1109,22 @@
           },
           "path": {
             "start": {
-              "x": 726,
+              "x": 822,
               "y": 353
             },
             "end": {
-              "x": 1052,
+              "x": 1148,
               "y": 353
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 636,
-              "y": 252
+              "x": 616,
+              "y": 221
             },
             "to": {
-              "x": 636,
-              "y": 252
+              "x": 616,
+              "y": 221
             }
           }
         },
@@ -1135,9 +1135,9 @@
           "z_index": 11,
           "shape_type": "connector",
           "layout": {
-            "x": 502,
-            "y": 177,
-            "width": 212,
+            "x": 499,
+            "y": 155,
+            "width": 186,
             "height": 0,
             "rotation": 0
           },
@@ -1147,22 +1147,22 @@
           },
           "path": {
             "start": {
-              "x": 703,
+              "x": 799,
               "y": 248
             },
             "end": {
-              "x": 1000,
+              "x": 1096,
               "y": 248
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 608,
-              "y": 177
+              "x": 592,
+              "y": 155
             },
             "to": {
-              "x": 608,
-              "y": 177
+              "x": 592,
+              "y": 155
             }
           }
         }
@@ -1176,13 +1176,13 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 49,
-            "y": 9,
+            "y": 8,
             "width": 864,
-            "height": 51,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -1193,16 +1193,16 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 48,
-            "width": 885,
-            "height": 311,
+            "x": 102,
+            "y": 42,
+            "width": 774,
+            "height": 272,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 20.9,
+            "font_size": 18.3,
             "color": "#000000"
           }
         }
@@ -1219,16 +1219,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 46,
-            "y": 328,
-            "width": 883,
-            "height": 178,
+            "x": 101,
+            "y": 287,
+            "width": 772,
+            "height": 156,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "Helvetica Neue",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1241,10 +1241,10 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 366,
-            "y": 526,
-            "width": 274,
-            "height": 34,
+            "x": 380,
+            "y": 460,
+            "width": 239,
+            "height": 30,
             "rotation": 0
           },
           "fill": "#0000FF",
@@ -1260,10 +1260,10 @@
           "z_index": 4,
           "shape_type": "connector",
           "layout": {
-            "x": 503,
-            "y": 444,
+            "x": 500,
+            "y": 388,
             "width": 0,
-            "height": 83,
+            "height": 72,
             "rotation": 0
           },
           "line": {
@@ -1272,22 +1272,22 @@
           },
           "path": {
             "start": {
-              "x": 704,
+              "x": 800,
               "y": 621
             },
             "end": {
-              "x": 704,
+              "x": 800,
               "y": 737
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 503,
-              "y": 444
+              "x": 500,
+              "y": 388
             },
             "to": {
-              "x": 503,
-              "y": 527
+              "x": 500,
+              "y": 460
             }
           },
           "arrow_ends": {
@@ -1303,14 +1303,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 46,
-            "y": 16,
-            "width": 864,
-            "height": 51,
+            "x": 101,
+            "y": 14,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1322,16 +1322,16 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 51,
-            "width": 892,
-            "height": 261,
+            "x": 102,
+            "y": 45,
+            "width": 781,
+            "height": 228,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 20.9,
+            "font_size": 18.3,
             "color": "#000000"
           }
         }
@@ -1348,14 +1348,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 44,
-            "y": 16,
-            "width": 864,
-            "height": 51,
+            "x": 99,
+            "y": 14,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1367,16 +1367,16 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 52,
-            "y": 54,
-            "width": 878,
-            "height": 146,
+            "x": 106,
+            "y": 47,
+            "width": 768,
+            "height": 128,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "color": "#000000"
           }
         },
@@ -1387,16 +1387,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 52,
-            "y": 213,
-            "width": 878,
-            "height": 86,
+            "x": 106,
+            "y": 186,
+            "width": 768,
+            "height": 75,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1408,16 +1408,16 @@
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 52,
-            "y": 313,
-            "width": 886,
-            "height": 86,
+            "x": 106,
+            "y": 274,
+            "width": 775,
+            "height": 75,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1429,16 +1429,16 @@
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 44,
-            "y": 417,
-            "width": 818,
-            "height": 62,
+            "x": 99,
+            "y": 365,
+            "width": 716,
+            "height": 54,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1450,16 +1450,16 @@
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 494,
-            "width": 907,
-            "height": 86,
+            "x": 102,
+            "y": 432,
+            "width": 794,
+            "height": 75,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1477,17 +1477,17 @@
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 155,
-            "y": 354,
-            "width": 681,
-            "height": 71,
+            "x": 196,
+            "y": 309,
+            "width": 596,
+            "height": 62,
             "rotation": 0
           },
           "fill": "#FD8017",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 26.6
+            "font_size": 23.3
           }
         }
       ],
@@ -1500,13 +1500,13 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 49,
-            "y": 9,
+            "y": 8,
             "width": 864,
-            "height": 51,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1518,10 +1518,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 60,
-            "width": 876,
-            "height": 229,
+            "x": 102,
+            "y": 52,
+            "width": 766,
+            "height": 200,
             "rotation": 0
           },
           "font": {
@@ -1541,16 +1541,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 226,
-            "width": 893,
-            "height": 210,
+            "x": 102,
+            "y": 198,
+            "width": 781,
+            "height": 184,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1563,16 +1563,16 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 19,
-            "y": 434,
-            "width": 906,
-            "height": 30,
+            "x": 77,
+            "y": 379,
+            "width": 792,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true,
             "color": "#0000FF"
           }
@@ -1585,16 +1585,16 @@
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
-            "x": 49,
-            "y": 465,
-            "width": 893,
-            "height": 127,
+            "x": 102,
+            "y": 407,
+            "width": 781,
+            "height": 111,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1608,14 +1608,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
-            "y": 9,
-            "width": 864,
-            "height": 51,
+            "x": 102,
+            "y": 8,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -1626,15 +1626,15 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 57,
-            "width": 876,
-            "height": 169,
+            "x": 102,
+            "y": 50,
+            "width": 766,
+            "height": 148,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 19.1
+            "font_size": 16.7
           }
         }
       ]
@@ -1650,14 +1650,14 @@
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 49,
-            "y": 154,
-            "width": 889,
-            "height": 127,
+            "x": 102,
+            "y": 134,
+            "width": 778,
+            "height": 111,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -1669,16 +1669,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 295,
-            "width": 864,
-            "height": 127,
+            "x": 102,
+            "y": 258,
+            "width": 756,
+            "height": 111,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1693,14 +1693,14 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 49,
-            "y": 9,
+            "y": 8,
             "width": 864,
-            "height": 51,
+            "height": 44,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1712,10 +1712,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 53,
-            "width": 874,
-            "height": 90,
+            "x": 102,
+            "y": 46,
+            "width": 765,
+            "height": 79,
             "rotation": 0
           },
           "font": {
@@ -1737,15 +1737,15 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 48,
-            "y": 19,
-            "width": 864,
-            "height": 51,
+            "x": 102,
+            "y": 17,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -1756,10 +1756,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 64,
-            "width": 847,
-            "height": 34,
+            "x": 102,
+            "y": 56,
+            "width": 741,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -1775,16 +1775,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 122,
-            "width": 821,
-            "height": 99,
+            "x": 102,
+            "y": 107,
+            "width": 718,
+            "height": 87,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1796,16 +1796,16 @@
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 54,
-            "y": 261,
-            "width": 779,
-            "height": 94,
+            "x": 107,
+            "y": 229,
+            "width": 681,
+            "height": 82,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1823,14 +1823,14 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
-            "y": 22,
-            "width": 864,
-            "height": 51,
+            "x": 102,
+            "y": 19,
+            "width": 756,
+            "height": 44,
             "rotation": 0
           },
           "font": {
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true,
             "color": "#000000"
           }
@@ -1842,10 +1842,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 49,
-            "y": 72,
-            "width": 885,
-            "height": 173,
+            "x": 102,
+            "y": 63,
+            "width": 774,
+            "height": 151,
             "rotation": 0
           },
           "font": {
@@ -1867,17 +1867,17 @@
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 134,
-            "y": 329,
-            "width": 701,
-            "height": 71,
+            "x": 177,
+            "y": 288,
+            "width": 613,
+            "height": 62,
             "rotation": 0
           },
           "fill": "#33CCFF",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 26.6
+            "font_size": 23.3
           }
         }
       ],
@@ -1889,15 +1889,15 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 48,
-            "y": 31,
-            "width": 864,
-            "height": 45,
+            "x": 102,
+            "y": 28,
+            "width": 756,
+            "height": 39,
             "rotation": 0
           },
           "font": {
             "align": "left",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -1908,14 +1908,14 @@
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
-            "x": 48,
-            "y": 69,
-            "width": 871,
-            "height": 169,
+            "x": 102,
+            "y": 60,
+            "width": 762,
+            "height": 148,
             "rotation": 0
           },
           "font": {
-            "font_size": 26.6
+            "font_size": 23.3
           }
         }
       ]
@@ -1931,10 +1931,10 @@
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 95,
-            "y": 239,
-            "width": 771,
-            "height": 34,
+            "x": 143,
+            "y": 209,
+            "width": 675,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -1949,16 +1949,16 @@
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 48,
-            "y": 290,
-            "width": 886,
-            "height": 122,
+            "x": 102,
+            "y": 254,
+            "width": 776,
+            "height": 107,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1971,16 +1971,16 @@
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 48,
-            "y": 429,
-            "width": 881,
-            "height": 94,
+            "x": 102,
+            "y": 376,
+            "width": 771,
+            "height": 82,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -1993,15 +1993,15 @@
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 127,
-            "y": 541,
-            "width": 722,
-            "height": 39,
+            "x": 171,
+            "y": 473,
+            "width": 632,
+            "height": 34,
             "rotation": 0
           },
           "fill": "#0000FF",
           "font": {
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#F4F4F4"
           }
@@ -2015,15 +2015,15 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 41,
-            "y": 9,
-            "width": 208,
-            "height": 45,
+            "x": 96,
+            "y": 8,
+            "width": 182,
+            "height": 39,
             "rotation": 0
           },
           "font": {
             "align": "left",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
@@ -2034,16 +2034,16 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 41,
-            "y": 46,
-            "width": 909,
-            "height": 185,
+            "x": 96,
+            "y": 41,
+            "width": 795,
+            "height": 162,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 20.9,
+            "font_size": 18.3,
             "color": "#000000"
           }
         }
@@ -2060,16 +2060,16 @@
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 35,
-            "y": 117,
-            "width": 925,
-            "height": 94,
+            "x": 91,
+            "y": 102,
+            "width": 809,
+            "height": 82,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -2082,16 +2082,16 @@
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 35,
-            "y": 229,
-            "width": 520,
-            "height": 344,
+            "x": 91,
+            "y": 200,
+            "width": 455,
+            "height": 301,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -2104,16 +2104,16 @@
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 546,
-            "y": 220,
-            "width": 414,
-            "height": 150,
+            "x": 538,
+            "y": 192,
+            "width": 362,
+            "height": 131,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
@@ -2126,17 +2126,17 @@
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 531,
-            "y": 406,
-            "width": 418,
-            "height": 71,
+            "x": 525,
+            "y": 355,
+            "width": 366,
+            "height": 62,
             "rotation": 0
           },
           "fill": "#0000FF",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#FFFFFF"
           }
@@ -2150,15 +2150,15 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 35,
-            "y": 9,
-            "width": 191,
-            "height": 45,
+            "x": 91,
+            "y": 8,
+            "width": 168,
+            "height": 39,
             "rotation": 0
           },
           "font": {
             "align": "left",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
@@ -2169,10 +2169,10 @@
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
-            "x": 35,
-            "y": 47,
-            "width": 905,
-            "height": 62,
+            "x": 91,
+            "y": 41,
+            "width": 792,
+            "height": 54,
             "rotation": 0
           },
           "font": {
@@ -2194,16 +2194,16 @@
           "z_index": 52,
           "shape_type": "text_box",
           "layout": {
-            "x": 329,
-            "y": 24,
-            "width": 141,
-            "height": 71,
+            "x": 348,
+            "y": 21,
+            "width": 124,
+            "height": 62,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2219,15 +2219,15 @@
           "z_index": 68,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 180,
-            "y": 31,
-            "width": 167,
-            "height": 44,
+            "x": 166,
+            "y": 28,
+            "width": 146,
+            "height": 38,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
@@ -2236,18 +2236,18 @@
           "shape_name": "TextBox 66",
           "text": "King:",
           "timing": "click",
-          "z_index": 17,
+          "z_index": 18,
           "shape_type": "text_box",
           "layout": {
-            "x": 44,
-            "y": 74,
-            "width": 58,
-            "height": 30,
+            "x": 49,
+            "y": 65,
+            "width": 51,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
@@ -2256,18 +2256,18 @@
           "shape_name": "TextBox 67",
           "text": "Occupants:",
           "timing": "with",
-          "z_index": 18,
+          "z_index": 19,
           "shape_type": "text_box",
           "layout": {
-            "x": 42,
-            "y": 99,
-            "width": 112,
-            "height": 30,
+            "x": 48,
+            "y": 87,
+            "width": 98,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
@@ -2276,18 +2276,18 @@
           "shape_name": "TextBox 68",
           "text": "Law:",
           "timing": "with",
-          "z_index": 19,
+          "z_index": 20,
           "shape_type": "text_box",
           "layout": {
-            "x": 42,
-            "y": 124,
-            "width": 59,
-            "height": 30,
+            "x": 48,
+            "y": 108,
+            "width": 51,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
@@ -2296,13 +2296,13 @@
           "shape_name": "TextBox 115",
           "text": "God",
           "timing": "click",
-          "z_index": 27,
+          "z_index": 28,
           "shape_type": "text_box",
           "layout": {
             "x": 92,
-            "y": 74,
-            "width": 74,
-            "height": 34,
+            "y": 65,
+            "width": 65,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -2318,14 +2318,14 @@
           "z_index": 75,
           "shape_type": "text_box",
           "layout": {
-            "x": 139,
-            "y": 100,
-            "width": 26,
-            "height": 30,
+            "x": 132,
+            "y": 88,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
@@ -2337,15 +2337,16 @@
           "z_index": 54,
           "shape_type": "text_box",
           "layout": {
-            "x": 367,
-            "y": 123,
-            "width": 106,
-            "height": 56,
+            "x": 381,
+            "y": 108,
+            "width": 93,
+            "height": 49,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2358,13 +2359,13 @@
           "shape_name": "TextBox 117",
           "text": "Innocent",
           "timing": "click",
-          "z_index": 29,
+          "z_index": 30,
           "shape_type": "text_box",
           "layout": {
-            "x": 144,
-            "y": 98,
-            "width": 128,
-            "height": 34,
+            "x": 138,
+            "y": 86,
+            "width": 112,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -2380,16 +2381,16 @@
           "z_index": 47,
           "shape_type": "text_box",
           "layout": {
-            "x": 249,
-            "y": 93,
-            "width": 232,
-            "height": 34,
+            "x": 278,
+            "y": 81,
+            "width": 203,
+            "height": 29,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_size": 11.4,
+            "font_size": 10.0,
             "italic": true
           }
         },
@@ -2402,13 +2403,13 @@
           "shape_type": "text_box",
           "layout": {
             "x": 84,
-            "y": 124,
-            "width": 26,
-            "height": 30,
+            "y": 109,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
@@ -2417,13 +2418,13 @@
           "shape_name": "TextBox 118",
           "text": "Natural, Innocence",
           "timing": "click",
-          "z_index": 30,
+          "z_index": 31,
           "shape_type": "text_box",
           "layout": {
-            "x": 87,
-            "y": 123,
-            "width": 231,
-            "height": 34,
+            "x": 88,
+            "y": 108,
+            "width": 202,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -2433,19 +2434,20 @@
         },
         {
           "sequence": 13,
-          "shape_name": "TextBox 98",
-          "text": "State of SafetyRelationship maintained with God through innocence",
+          "shape_name": "TextBox 32",
+          "text": "State of Safety",
           "timing": "click",
-          "z_index": 77,
+          "z_index": 109,
           "shape_type": "text_box",
           "layout": {
-            "x": 73,
-            "y": 154,
-            "width": 178,
-            "height": 65,
+            "x": 71,
+            "y": 134,
+            "width": 158,
+            "height": 30,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "center",
             "bold": true,
             "color": "#0000FF"
@@ -2453,16 +2455,36 @@
         },
         {
           "sequence": 14,
+          "shape_name": "TextBox 98",
+          "text": "Relationship maintained with God through innocence",
+          "timing": "with",
+          "z_index": 77,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 72,
+            "y": 158,
+            "width": 156,
+            "height": 33,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "font_name": "+mn-lt",
+            "font_size": 11.7
+          }
+        },
+        {
+          "sequence": 15,
           "shape_name": "TextBox 29",
           "text": "Options?",
           "timing": "click",
-          "z_index": 101,
+          "z_index": 100,
           "shape_type": "text_box",
           "layout": {
-            "x": 391,
-            "y": 244,
-            "width": 176,
-            "height": 65,
+            "x": 402,
+            "y": 212,
+            "width": 154,
+            "height": 57,
             "rotation": 0
           },
           "fill": "#F4F4F4",
@@ -2474,43 +2496,43 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
-          "sequence": 15,
+          "sequence": 16,
           "shape_name": "TextBox 63",
           "text": "Kingdom",
           "timing": "click",
           "z_index": 90,
           "shape_type": "text_box",
           "layout": {
-            "x": 604,
-            "y": 29,
-            "width": 147,
-            "height": 44,
+            "x": 589,
+            "y": 25,
+            "width": 129,
+            "height": 38,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
-          "sequence": 16,
+          "sequence": 17,
           "shape_name": "Straight Connector 25",
           "timing": "with",
-          "z_index": 14,
+          "z_index": 15,
           "shape_type": "connector",
           "layout": {
             "x": 481,
-            "y": 174,
+            "y": 152,
             "width": 0,
-            "height": 59,
+            "height": 52,
             "rotation": 0
           },
           "line": {
@@ -2519,36 +2541,36 @@
           },
           "path": {
             "start": {
-              "x": 673,
+              "x": 769,
               "y": 243
             },
             "end": {
-              "x": 673,
+              "x": 769,
               "y": 326
             }
           },
           "line_endpoints": {
             "from": {
               "x": 481,
-              "y": 174
+              "y": 152
             },
             "to": {
               "x": 481,
-              "y": 233
+              "y": 204
             }
           }
         },
         {
-          "sequence": 17,
+          "sequence": 18,
           "shape_name": "Rectangle 6",
           "timing": "with",
-          "z_index": 8,
+          "z_index": 9,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 483,
-            "y": 22,
-            "width": 446,
-            "height": 249,
+            "x": 482,
+            "y": 19,
+            "width": 450,
+            "height": 218,
             "rotation": 0
           },
           "fill": "#F4F4F4",
@@ -2558,81 +2580,101 @@
           }
         },
         {
-          "sequence": 18,
+          "sequence": 19,
           "shape_name": "TextBox 108",
           "text": "Eternal",
           "timing": "with",
           "z_index": 79,
           "shape_type": "text_box",
           "layout": {
-            "x": 491,
-            "y": 28,
-            "width": 131,
-            "height": 44,
+            "x": 490,
+            "y": 24,
+            "width": 114,
+            "height": 38,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
-          "sequence": 19,
+          "sequence": 20,
           "shape_name": "Rectangle 130",
           "timing": "with",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 354,
+            "x": 369,
             "y": 0,
-            "width": 606,
-            "height": 270,
+            "width": 592,
+            "height": 236,
             "rotation": 0
           },
           "fill": "#33CCFF"
         },
         {
-          "sequence": 20,
+          "sequence": 21,
           "shape_name": "Down Arrow 114",
           "text": "Death",
           "timing": "click",
           "z_index": 97,
           "shape_type": "arrow",
           "layout": {
-            "x": 449,
-            "y": 107,
-            "width": 67,
-            "height": 196,
+            "x": 453,
+            "y": 99,
+            "width": 59,
+            "height": 171,
             "rotation": 270.0
           },
           "fill": "#000000",
           "font": {
             "v_align": "middle",
             "font_name": "Arial Black",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#FFFFFF"
           }
         },
         {
-          "sequence": 21,
+          "sequence": 22,
+          "shape_name": "TextBox 54",
+          "text": "(physical)",
+          "timing": "with",
+          "z_index": 111,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 401,
+            "y": 150,
+            "width": 76,
+            "height": 22,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.3,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 23,
           "shape_name": "TextBox 4",
           "text": "2 Samuel 12:21-23",
           "timing": "with",
           "z_index": 55,
           "shape_type": "text_box",
           "layout": {
-            "x": 493,
-            "y": 235,
-            "width": 127,
-            "height": 23,
+            "x": 491,
+            "y": 211,
+            "width": 111,
+            "height": 20,
             "rotation": 0
           },
           "font": {
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2641,155 +2683,155 @@
           }
         },
         {
-          "sequence": 22,
+          "sequence": 24,
           "shape_name": "TextBox 72",
           "text": "King:",
           "timing": "click",
-          "z_index": 21,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 494,
-            "y": 74,
-            "width": 59,
-            "height": 30,
-            "rotation": 0
-          },
-          "font": {
-            "wrap": true,
-            "font_size": 19.1,
-            "italic": true
-          }
-        },
-        {
-          "sequence": 23,
-          "shape_name": "TextBox 73",
-          "text": "Occupants:",
-          "timing": "with",
           "z_index": 22,
           "shape_type": "text_box",
           "layout": {
-            "x": 493,
-            "y": 99,
-            "width": 116,
-            "height": 30,
+            "x": 492,
+            "y": 65,
+            "width": 52,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 19.1,
-            "italic": true
-          }
-        },
-        {
-          "sequence": 24,
-          "shape_name": "TextBox 74",
-          "text": "Law:",
-          "timing": "with",
-          "z_index": 23,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 493,
-            "y": 124,
-            "width": 56,
-            "height": 30,
-            "rotation": 0
-          },
-          "font": {
-            "wrap": true,
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
         {
           "sequence": 25,
-          "shape_name": "TextBox 116",
-          "text": "God",
-          "timing": "click",
-          "z_index": 28,
+          "shape_name": "TextBox 73",
+          "text": "Occupants:",
+          "timing": "with",
+          "z_index": 23,
           "shape_type": "text_box",
           "layout": {
-            "x": 543,
-            "y": 70,
-            "width": 68,
-            "height": 39,
+            "x": 491,
+            "y": 87,
+            "width": 102,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 26.6,
-            "bold": true
+            "font_size": 16.7,
+            "italic": true
           }
         },
         {
           "sequence": 26,
-          "shape_name": "TextBox 119",
-          "text": "Innocent",
-          "timing": "click",
-          "z_index": 31,
+          "shape_name": "TextBox 74",
+          "text": "Law:",
+          "timing": "with",
+          "z_index": 24,
           "shape_type": "text_box",
           "layout": {
-            "x": 596,
-            "y": 94,
-            "width": 131,
-            "height": 39,
+            "x": 491,
+            "y": 108,
+            "width": 49,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 26.6,
-            "bold": true
+            "font_size": 16.7,
+            "italic": true
           }
         },
         {
           "sequence": 27,
+          "shape_name": "TextBox 116",
+          "text": "God",
+          "timing": "click",
+          "z_index": 29,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 535,
+            "y": 61,
+            "width": 59,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 23.3,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 28,
+          "shape_name": "TextBox 119",
+          "text": "Innocent",
+          "timing": "click",
+          "z_index": 32,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 581,
+            "y": 82,
+            "width": 115,
+            "height": 34,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 23.3,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 29,
           "shape_name": "TextBox 82",
           "text": "God",
           "timing": "click",
           "z_index": 46,
           "shape_type": "text_box",
           "layout": {
-            "x": 542,
-            "y": 119,
-            "width": 70,
-            "height": 39,
+            "x": 534,
+            "y": 104,
+            "width": 61,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 28,
+          "sequence": 30,
           "shape_name": "TextBox 120",
           "text": "Age of Accountability = Morality",
           "timing": "click",
           "z_index": 50,
           "shape_type": "text_box",
           "layout": {
-            "x": 133,
-            "y": 243,
-            "width": 339,
-            "height": 26,
+            "x": 49,
+            "y": 211,
+            "width": 220,
+            "height": 22,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 15.2,
+            "font_size": 13.3,
             "bold": true
           }
         },
         {
-          "sequence": 29,
+          "sequence": 31,
           "shape_name": "Straight Connector 113",
           "timing": "with",
           "z_index": 98,
           "shape_type": "connector",
           "layout": {
-            "x": 41,
-            "y": 242,
-            "width": 429,
+            "x": 36,
+            "y": 211,
+            "width": 436,
             "height": 1,
             "rotation": 0
           },
@@ -2800,36 +2842,36 @@
           },
           "path": {
             "start": {
-              "x": 58,
-              "y": 339
+              "x": 57,
+              "y": 337
             },
             "end": {
-              "x": 659,
-              "y": 340
+              "x": 755,
+              "y": 339
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 256,
-              "y": 242
+              "x": 254,
+              "y": 211
             },
             "to": {
-              "x": 256,
-              "y": 243
+              "x": 254,
+              "y": 212
             }
           }
         },
         {
-          "sequence": 30,
+          "sequence": 32,
           "shape_name": "Straight Connector 18",
           "timing": "with",
-          "z_index": 13,
+          "z_index": 14,
           "shape_type": "connector",
           "layout": {
-            "x": 65,
-            "y": 269,
-            "width": 324,
-            "height": 0,
+            "x": 264,
+            "y": 236,
+            "width": 137,
+            "height": 2,
             "rotation": 0
           },
           "line": {
@@ -2838,57 +2880,58 @@
           },
           "path": {
             "start": {
-              "x": 91,
+              "x": 422,
               "y": 377
             },
             "end": {
-              "x": 545,
-              "y": 377
+              "x": 641,
+              "y": 381
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 227,
-              "y": 269
+              "x": 332,
+              "y": 236
             },
             "to": {
-              "x": 227,
-              "y": 269
+              "x": 332,
+              "y": 238
             }
           }
         },
         {
-          "sequence": 31,
+          "sequence": 33,
           "shape_name": "Rectangle 132",
           "timing": "with",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 0,
-            "y": 234,
-            "width": 960,
-            "height": 384,
+            "x": -1,
+            "y": 204,
+            "width": 962,
+            "height": 336,
             "rotation": 0
           },
           "fill": "#FD8017"
         },
         {
-          "sequence": 32,
+          "sequence": 34,
           "shape_name": "TextBox 9",
           "text": "Romans 3:23 Isaiah 59:2, Romans 6:23",
           "timing": "click",
           "z_index": 56,
           "shape_type": "text_box",
           "layout": {
-            "x": 120,
-            "y": 221,
-            "width": 329,
-            "height": 23,
+            "x": 47,
+            "y": 238,
+            "width": 217,
+            "height": 20,
             "rotation": 0
           },
+          "fill": "#FD8017",
           "font": {
             "wrap": true,
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2897,18 +2940,18 @@
           }
         },
         {
-          "sequence": 33,
+          "sequence": 35,
           "shape_name": "Down Arrow 107",
           "text": "Death",
           "timing": "click",
-          "z_index": 100,
+          "z_index": 99,
           "shape_type": "arrow",
           "layout": {
-            "x": 61,
-            "y": 190,
-            "width": 69,
-            "height": 120,
-            "rotation": 318.08116666666666
+            "x": 293,
+            "y": 198,
+            "width": 60,
+            "height": 146,
+            "rotation": 0
           },
           "fill": "#FD8017",
           "line": {
@@ -2918,61 +2961,81 @@
           "font": {
             "v_align": "middle",
             "font_name": "Arial Black",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 34,
-          "shape_name": "TextBox 65",
-          "text": "Kingdom",
-          "timing": "after",
-          "z_index": 106,
+          "sequence": 36,
+          "shape_name": "TextBox 53",
+          "text": "(spiritual)",
+          "timing": "with",
+          "z_index": 110,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 286,
-            "width": 145,
-            "height": 41,
+            "x": 289,
+            "y": 175,
+            "width": 76,
+            "height": 22,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 28.6,
+            "font_size": 13.3,
             "bold": true
           }
         },
         {
-          "sequence": 35,
+          "sequence": 37,
+          "shape_name": "TextBox 65",
+          "text": "Kingdom",
+          "timing": "after",
+          "z_index": 105,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 44,
+            "y": 254,
+            "width": 127,
+            "height": 36,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 25.0,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 38,
           "shape_name": "TextBox 112",
           "text": "of the World",
           "timing": "with",
           "z_index": 92,
           "shape_type": "text_box",
           "layout": {
-            "x": 179,
-            "y": 285,
-            "width": 208,
-            "height": 41,
+            "x": 155,
+            "y": 254,
+            "width": 182,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 28.6,
+            "font_size": 25.0,
             "bold": true
           }
         },
         {
-          "sequence": 36,
+          "sequence": 39,
           "shape_name": "Rectangle 7",
           "timing": "with",
-          "z_index": 7,
+          "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 34,
-            "y": 270,
-            "width": 446,
-            "height": 266,
+            "x": 30,
+            "y": 236,
+            "width": 450,
+            "height": 233,
             "rotation": 0
           },
           "fill": "#F4F4F4",
@@ -2982,82 +3045,82 @@
           }
         },
         {
-          "sequence": 37,
+          "sequence": 40,
           "shape_name": "TextBox 69",
           "text": "King:",
           "timing": "with",
           "z_index": 93,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 320,
-            "width": 54,
-            "height": 31,
+            "x": 48,
+            "y": 280,
+            "width": 47,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
         {
-          "sequence": 38,
+          "sequence": 41,
           "shape_name": "TextBox 70",
           "text": "Occupants:",
           "timing": "with",
           "z_index": 94,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 343,
-            "width": 111,
-            "height": 31,
+            "x": 48,
+            "y": 300,
+            "width": 97,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
         {
-          "sequence": 39,
+          "sequence": 42,
           "shape_name": "TextBox 71",
           "text": "Law:",
           "timing": "with",
-          "z_index": 20,
+          "z_index": 21,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 368,
-            "width": 55,
-            "height": 31,
+            "x": 48,
+            "y": 322,
+            "width": 48,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
         {
-          "sequence": 40,
+          "sequence": 43,
           "shape_name": "TextBox 10",
           "text": "2 Corinthians 4:3-4Matthew 4:8-9",
           "timing": "after",
           "z_index": 57,
           "shape_type": "text_box",
           "layout": {
-            "x": 347,
-            "y": 276,
-            "width": 127,
-            "height": 39,
+            "x": 364,
+            "y": 241,
+            "width": 111,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -3066,36 +3129,36 @@
           }
         },
         {
-          "sequence": 41,
+          "sequence": 44,
           "shape_name": "TextBox 125",
           "text": "?",
           "timing": "with",
           "z_index": 96,
           "shape_type": "text_box",
           "layout": {
-            "x": 96,
-            "y": 322,
-            "width": 26,
-            "height": 30,
+            "x": 86,
+            "y": 282,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
         {
-          "sequence": 42,
+          "sequence": 45,
           "shape_name": "TextBox 121",
           "text": "Satan",
           "timing": "click",
           "z_index": 95,
           "shape_type": "text_box",
           "layout": {
-            "x": 102,
-            "y": 323,
-            "width": 86,
-            "height": 31,
+            "x": 91,
+            "y": 282,
+            "width": 75,
+            "height": 28,
             "rotation": 0
           },
           "font": {
@@ -3104,17 +3167,17 @@
           }
         },
         {
-          "sequence": 43,
+          "sequence": 46,
           "shape_name": "TextBox 83",
           "text": "State of Danger",
           "timing": "with",
           "z_index": 41,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 406,
-            "width": 189,
-            "height": 31,
+            "x": 48,
+            "y": 355,
+            "width": 166,
+            "height": 28,
             "rotation": 0
           },
           "font": {
@@ -3123,42 +3186,42 @@
           }
         },
         {
-          "sequence": 44,
+          "sequence": 47,
           "shape_name": "TextBox 87",
           "text": "Separated from relationshipwith God due to conscience",
           "timing": "with",
           "z_index": 59,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 429,
-            "width": 213,
-            "height": 44,
+            "x": 48,
+            "y": 376,
+            "width": 186,
+            "height": 38,
             "rotation": 0
           },
           "font": {
-            "align": "center",
+            "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 15.2
+            "font_size": 13.3
           }
         },
         {
-          "sequence": 45,
+          "sequence": 48,
           "shape_name": "TextBox 86",
           "text": "Ephesians 5:3-72 Thessalonians 2:9-2Matthew 7:13",
           "timing": "click",
           "z_index": 73,
           "shape_type": "text_box",
           "layout": {
-            "x": 329,
-            "y": 311,
-            "width": 146,
-            "height": 56,
+            "x": 348,
+            "y": 272,
+            "width": 128,
+            "height": 49,
             "rotation": 0
           },
           "font": {
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -3167,36 +3230,36 @@
           }
         },
         {
-          "sequence": 46,
+          "sequence": 49,
           "shape_name": "TextBox 133",
           "text": "?",
           "timing": "with",
           "z_index": 80,
           "shape_type": "text_box",
           "layout": {
-            "x": 151,
-            "y": 344,
-            "width": 26,
-            "height": 30,
+            "x": 134,
+            "y": 301,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
         {
-          "sequence": 47,
+          "sequence": 50,
           "shape_name": "TextBox 122",
           "text": "Sinners",
           "timing": "click",
-          "z_index": 32,
+          "z_index": 33,
           "shape_type": "text_box",
           "layout": {
-            "x": 155,
-            "y": 336,
-            "width": 111,
-            "height": 40,
+            "x": 138,
+            "y": 294,
+            "width": 98,
+            "height": 35,
             "rotation": 0
           },
           "font": {
@@ -3205,17 +3268,17 @@
           }
         },
         {
-          "sequence": 48,
+          "sequence": 51,
           "shape_name": "TextBox 123",
           "text": "Moral, Sin & Death",
           "timing": "click",
-          "z_index": 105,
+          "z_index": 104,
           "shape_type": "text_box",
           "layout": {
-            "x": 98,
-            "y": 371,
-            "width": 247,
-            "height": 28,
+            "x": 88,
+            "y": 324,
+            "width": 216,
+            "height": 24,
             "rotation": 0
           },
           "font": {
@@ -3225,35 +3288,35 @@
           }
         },
         {
-          "sequence": 49,
+          "sequence": 52,
           "shape_name": "TextBox 33",
           "text": "(unable to cleanse conscience)",
           "timing": "with",
           "z_index": 49,
           "shape_type": "text_box",
           "layout": {
-            "x": 53,
-            "y": 391,
-            "width": 252,
-            "height": 23,
+            "x": 48,
+            "y": 342,
+            "width": 221,
+            "height": 20,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 13.4,
+            "font_size": 11.7,
             "italic": true
           }
         },
         {
-          "sequence": 50,
+          "sequence": 53,
           "shape_name": "Straight Connector 24",
           "timing": "click",
-          "z_index": 11,
+          "z_index": 12,
           "shape_type": "connector",
           "layout": {
-            "x": 59,
-            "y": 536,
-            "width": 337,
+            "x": 111,
+            "y": 469,
+            "width": 295,
             "height": 0,
             "rotation": 0
           },
@@ -3263,38 +3326,38 @@
           },
           "path": {
             "start": {
-              "x": 82,
+              "x": 178,
               "y": 751
             },
             "end": {
-              "x": 554,
+              "x": 650,
               "y": 751
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 228,
-              "y": 536
+              "x": 258,
+              "y": 469
             },
             "to": {
-              "x": 228,
-              "y": 536
+              "x": 258,
+              "y": 469
             }
           }
         },
         {
-          "sequence": 51,
+          "sequence": 54,
           "shape_name": "Down Arrow 109",
           "text": "Death",
           "timing": "after",
-          "z_index": 103,
+          "z_index": 102,
           "shape_type": "arrow",
           "layout": {
-            "x": 61,
-            "y": 438,
-            "width": 69,
-            "height": 137,
-            "rotation": 318.93926666666664
+            "x": 266,
+            "y": 385,
+            "width": 60,
+            "height": 105,
+            "rotation": 0
           },
           "fill": "#000000",
           "line": {
@@ -3305,27 +3368,47 @@
             "v_align": "middle",
             "align": "center",
             "font_name": "Arial Black",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#F4F4F4"
           }
         },
         {
-          "sequence": 52,
-          "shape_name": "TextBox 11",
-          "text": "2 Peter 2:1-4",
+          "sequence": 55,
+          "shape_name": "TextBox 55",
+          "text": "(physical)",
           "timing": "with",
-          "z_index": 107,
+          "z_index": 112,
           "shape_type": "text_box",
           "layout": {
-            "x": 141,
-            "y": 539,
-            "width": 106,
-            "height": 26,
+            "x": 259,
+            "y": 364,
+            "width": 76,
+            "height": 22,
             "rotation": 0
           },
           "font": {
-            "font_size": 15.2,
+            "wrap": true,
+            "font_size": 13.3,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 56,
+          "shape_name": "TextBox 11",
+          "text": "2 Peter 2:1-4",
+          "timing": "with",
+          "z_index": 106,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 183,
+            "y": 472,
+            "width": 92,
+            "height": 22,
+            "rotation": 0
+          },
+          "font": {
+            "font_size": 13.3,
             "bold": true
           },
           "hyperlink": {
@@ -3335,17 +3418,17 @@
           }
         },
         {
-          "sequence": 53,
+          "sequence": 57,
           "shape_name": "TextBox 139",
           "text": "Tartarus/Hades - Hopeless",
           "timing": "click",
           "z_index": 40,
           "shape_type": "text_box",
           "layout": {
-            "x": 83,
-            "y": 552,
-            "width": 309,
-            "height": 34,
+            "x": 132,
+            "y": 483,
+            "width": 270,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -3354,32 +3437,47 @@
           }
         },
         {
-          "sequence": 54,
+          "sequence": 58,
+          "shape_name": "Rectangle 101",
+          "timing": "with",
+          "z_index": 6,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": -1,
+            "y": 514,
+            "width": 962,
+            "height": 28,
+            "rotation": 0
+          },
+          "fill": "#000000"
+        },
+        {
+          "sequence": 59,
           "shape_name": "Rectangle 1",
           "timing": "with",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 0,
-            "y": 535,
-            "width": 960,
-            "height": 84,
+            "x": -1,
+            "y": 473,
+            "width": 963,
+            "height": 41,
             "rotation": 0
           },
           "fill": "#969696"
         },
         {
-          "sequence": 55,
+          "sequence": 60,
           "shape_name": "TextBox 104",
           "text": "Judgement",
           "timing": "with",
           "z_index": 67,
           "shape_type": "text_box",
           "layout": {
-            "x": 427,
-            "y": 552,
-            "width": 150,
-            "height": 34,
+            "x": 434,
+            "y": 483,
+            "width": 131,
+            "height": 30,
             "rotation": 0
           },
           "font": {
@@ -3389,69 +3487,31 @@
           }
         },
         {
-          "sequence": 56,
-          "shape_name": "Straight Connector 134",
-          "timing": "with",
-          "z_index": 36,
-          "shape_type": "connector",
-          "layout": {
-            "x": 0,
-            "y": 589,
-            "width": 960,
-            "height": 1,
-            "rotation": 0
-          },
-          "line": {
-            "width": 16,
-            "color": "#000000"
-          },
-          "path": {
-            "start": {
-              "x": 0,
-              "y": 824
-            },
-            "end": {
-              "x": 1344,
-              "y": 825
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 480,
-              "y": 589
-            },
-            "to": {
-              "x": 480,
-              "y": 590
-            }
-          }
-        },
-        {
-          "sequence": 57,
+          "sequence": 61,
           "shape_name": "Rectangle 135",
           "timing": "with",
           "z_index": 37,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 521,
-            "y": 563,
-            "width": 170,
-            "height": 32,
+            "x": 516,
+            "y": 492,
+            "width": 149,
+            "height": 49,
             "rotation": 0
           },
           "fill": "#969696"
         },
         {
-          "sequence": 58,
+          "sequence": 62,
           "shape_name": "Down Arrow 137",
           "timing": "with",
           "z_index": 38,
           "shape_type": "arrow",
           "layout": {
-            "x": 578,
-            "y": 551,
-            "width": 65,
-            "height": 32,
+            "x": 566,
+            "y": 482,
+            "width": 57,
+            "height": 28,
             "rotation": 0
           },
           "fill": "#FD0013",
@@ -3461,41 +3521,41 @@
           }
         },
         {
-          "sequence": 59,
+          "sequence": 63,
           "shape_name": "TextBox 138",
           "text": "2nd Death",
           "timing": "with",
           "z_index": 39,
           "shape_type": "text_box",
           "layout": {
-            "x": 539,
-            "y": 575,
-            "width": 154,
-            "height": 44,
+            "x": 531,
+            "y": 503,
+            "width": 134,
+            "height": 38,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
-          "sequence": 60,
+          "sequence": 64,
           "shape_name": "TextBox 14",
           "text": "Romans 6:1-11, Ephesians 2:1-5      Colossians 2:8-14, 3:1-4,            Romans 8:10",
           "timing": "click",
           "z_index": 85,
           "shape_type": "text_box",
           "layout": {
-            "x": 569,
-            "y": 394,
-            "width": 209,
-            "height": 56,
+            "x": 552,
+            "y": 348,
+            "width": 183,
+            "height": 49,
             "rotation": 0
           },
           "font": {
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -3504,16 +3564,16 @@
           }
         },
         {
-          "sequence": 61,
+          "sequence": 65,
           "shape_name": "Down Arrow 111",
           "timing": "click",
           "z_index": 71,
           "shape_type": "arrow",
           "layout": {
-            "x": 404,
-            "y": 293,
-            "width": 95,
-            "height": 266,
+            "x": 417,
+            "y": 267,
+            "width": 71,
+            "height": 228,
             "rotation": 270.0
           },
           "fill": "#33CCFF",
@@ -3523,38 +3583,38 @@
           }
         },
         {
-          "sequence": 62,
+          "sequence": 66,
           "shape_name": "TextBox 64",
           "text": "Kingdom",
           "timing": "with",
-          "z_index": 26,
+          "z_index": 27,
           "shape_type": "text_box",
           "layout": {
-            "x": 520,
-            "y": 286,
-            "width": 161,
-            "height": 44,
+            "x": 498,
+            "y": 251,
+            "width": 141,
+            "height": 38,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
-          "sequence": 63,
+          "sequence": 67,
           "shape_name": "Straight Connector 30",
           "timing": "with",
-          "z_index": 15,
+          "z_index": 16,
           "shape_type": "connector",
           "layout": {
-            "x": 481,
-            "y": 399,
-            "width": 0,
-            "height": 64,
+            "x": 480,
+            "y": 353,
+            "width": 1,
+            "height": 51,
             "rotation": 0
           },
           "line": {
@@ -3563,36 +3623,36 @@
           },
           "path": {
             "start": {
-              "x": 673,
-              "y": 558
+              "x": 768,
+              "y": 565
             },
             "end": {
-              "x": 673,
+              "x": 769,
               "y": 647
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 481,
-              "y": 399
+              "x": 480,
+              "y": 353
             },
             "to": {
-              "x": 481,
-              "y": 463
+              "x": 480,
+              "y": 404
             }
           }
         },
         {
-          "sequence": 64,
+          "sequence": 68,
           "shape_name": "Rectangle 8",
           "timing": "with",
-          "z_index": 6,
+          "z_index": 7,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 483,
-            "y": 270,
-            "width": 446,
-            "height": 266,
+            "x": 482,
+            "y": 236,
+            "width": 450,
+            "height": 233,
             "rotation": 0
           },
           "fill": "#F4F4F4",
@@ -3602,138 +3662,138 @@
           }
         },
         {
-          "sequence": 65,
+          "sequence": 69,
           "shape_name": "TextBox 75",
           "text": "King:",
-          "timing": "with",
-          "z_index": 24,
-          "shape_type": "text_box",
-          "layout": {
-            "x": 520,
-            "y": 322,
-            "width": 57,
-            "height": 31,
-            "rotation": 0
-          },
-          "font": {
-            "v_align": "bottom",
-            "font_size": 19.1,
-            "italic": true
-          }
-        },
-        {
-          "sequence": 66,
-          "shape_name": "TextBox 76",
-          "text": "Occupants:",
           "timing": "with",
           "z_index": 25,
           "shape_type": "text_box",
           "layout": {
-            "x": 520,
-            "y": 345,
-            "width": 106,
-            "height": 31,
+            "x": 498,
+            "y": 282,
+            "width": 50,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
         {
-          "sequence": 67,
+          "sequence": 70,
+          "shape_name": "TextBox 76",
+          "text": "Occupants:",
+          "timing": "with",
+          "z_index": 26,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 498,
+            "y": 302,
+            "width": 93,
+            "height": 27,
+            "rotation": 0
+          },
+          "font": {
+            "v_align": "bottom",
+            "font_size": 16.7,
+            "italic": true
+          }
+        },
+        {
+          "sequence": 71,
           "shape_name": "TextBox 77",
           "text": "Law:",
           "timing": "with",
-          "z_index": 109,
+          "z_index": 108,
           "shape_type": "text_box",
           "layout": {
-            "x": 520,
-            "y": 369,
-            "width": 53,
-            "height": 31,
+            "x": 498,
+            "y": 323,
+            "width": 46,
+            "height": 27,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "italic": true
           }
         },
         {
-          "sequence": 68,
+          "sequence": 72,
           "shape_name": "Rectangle 131",
           "timing": "with",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 360,
-            "y": 239,
-            "width": 600,
-            "height": 249,
+            "x": 375,
+            "y": 209,
+            "width": 586,
+            "height": 87,
             "rotation": 0
           },
           "fill": "#33CCFF"
         },
         {
-          "sequence": 69,
+          "sequence": 73,
           "shape_name": "Rectangle 19",
           "text": "BAPTISIM = DEATH",
           "timing": "with",
           "z_index": 72,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 319,
-            "y": 411,
-            "width": 255,
-            "height": 32,
+            "x": 336,
+            "y": 367,
+            "width": 223,
+            "height": 28,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "font_name": "Arial Black",
-            "bold": true,
-            "color": "#000000"
+            "bold": true
           }
         },
         {
-          "sequence": 70,
+          "sequence": 74,
           "shape_name": "TextBox 136",
           "text": "of Christ",
           "timing": "click",
           "z_index": 81,
           "shape_type": "text_box",
           "layout": {
-            "x": 655,
-            "y": 287,
-            "width": 146,
-            "height": 44,
+            "x": 616,
+            "y": 251,
+            "width": 128,
+            "height": 38,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
           }
         },
         {
-          "sequence": 71,
+          "sequence": 75,
           "shape_name": "TextBox 13",
           "text": "1 Corinthians 15:1-4 Hebrews 11:6, Romans 10:17, Acts 2:38",
           "timing": "click",
           "z_index": 58,
           "shape_type": "text_box",
           "layout": {
-            "x": 569,
-            "y": 448,
-            "width": 228,
-            "height": 39,
+            "x": 521,
+            "y": 403,
+            "width": 337,
+            "height": 20,
             "rotation": 0
           },
           "font": {
-            "font_size": 13.4
+            "wrap": true,
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -3742,92 +3802,95 @@
           }
         },
         {
-          "sequence": 72,
+          "sequence": 76,
           "shape_name": "TextBox 37",
-          "text": "Hear, Believe, Repent, Confess, Baptize",
+          "text": "Hear, Believe, Repent, Confess, Baptized",
           "timing": "click",
-          "z_index": 108,
+          "z_index": 107,
           "shape_type": "text_box",
           "layout": {
-            "x": 257,
-            "y": 442,
-            "width": 257,
-            "height": 23,
+            "x": 348,
+            "y": 397,
+            "width": 129,
+            "height": 61,
             "rotation": 0
           },
           "font": {
-            "font_size": 13.4
+            "wrap": true,
+            "font_size": 15.0
           }
         },
         {
-          "sequence": 73,
+          "sequence": 77,
           "shape_name": "TextBox 99",
-          "text": "Gospel: (Narrow Gate)",
+          "text": "Gospel: Narrow Gate (Spiritual Death)",
           "timing": "with",
           "z_index": 74,
           "shape_type": "text_box",
           "layout": {
-            "x": 326,
-            "y": 387,
-            "width": 151,
-            "height": 23,
+            "x": 329,
+            "y": 328,
+            "width": 146,
+            "height": 40,
             "rotation": 0
           },
           "font": {
-            "font_size": 13.4,
+            "wrap": true,
+            "align": "center",
+            "font_size": 13.3,
             "bold": true
           }
         },
         {
-          "sequence": 74,
+          "sequence": 78,
           "shape_name": "TextBox 162",
           "text": "(Wide Gate)",
           "timing": "click",
           "z_index": 53,
           "shape_type": "text_box",
           "layout": {
-            "x": 241,
-            "y": 349,
-            "width": 86,
-            "height": 23,
+            "x": 213,
+            "y": 306,
+            "width": 76,
+            "height": 20,
             "rotation": 0
           },
           "font": {
-            "font_size": 13.4,
+            "font_size": 11.7,
             "italic": true
           }
         },
         {
-          "sequence": 75,
+          "sequence": 79,
           "shape_name": "TextBox 40",
-          "text": "Believe, but believes misinformation: - Grace saves & nothing you can do to gain salvation - Be baptized but it is not what saves you- Sprinkled as a child – You don’t have to do anything",
+          "text": "Believe, but believes misinformation: - Grace saves & salvation before of baptism - Baptized but doesn’t believe it’s the gate- Sprinkled as a child; faith only",
           "timing": "with",
-          "z_index": 102,
+          "z_index": 101,
           "shape_type": "text_box",
           "layout": {
-            "x": 138,
-            "y": 466,
-            "width": 331,
-            "height": 71,
+            "x": 39,
+            "y": 407,
+            "width": 289,
+            "height": 62,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 13.4,
+            "font_size": 11.7,
             "bold": true
           }
         },
         {
-          "sequence": 76,
+          "sequence": 80,
           "shape_name": "Straight Arrow Connector 128",
           "timing": "with",
-          "z_index": 104,
+          "z_index": 103,
           "shape_type": "connector",
           "layout": {
-            "x": 261,
-            "y": 368,
-            "width": 0,
-            "height": 106,
+            "x": 239,
+            "y": 322,
+            "width": 32,
+            "height": 89,
             "rotation": 0
           },
           "line": {
@@ -3836,22 +3899,22 @@
           },
           "path": {
             "start": {
-              "x": 365,
+              "x": 382,
               "y": 515
             },
             "end": {
-              "x": 365,
-              "y": 663
+              "x": 434,
+              "y": 658
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 261,
-              "y": 368
+              "x": 255,
+              "y": 322
             },
             "to": {
-              "x": 261,
-              "y": 474
+              "x": 255,
+              "y": 411
             }
           },
           "arrow_ends": {
@@ -3859,63 +3922,64 @@
           }
         },
         {
-          "sequence": 77,
+          "sequence": 81,
           "shape_name": "TextBox 84",
           "text": "Saved",
           "timing": "click",
           "z_index": 42,
           "shape_type": "text_box",
           "layout": {
-            "x": 766,
-            "y": 363,
-            "width": 166,
-            "height": 62,
+            "x": 716,
+            "y": 295,
+            "width": 146,
+            "height": 51,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "Arial Black",
-            "font_size": 45.7,
+            "font_size": 40.0,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
-          "sequence": 78,
+          "sequence": 82,
           "shape_name": "TextBox 88",
           "text": "Maintaining relationshipwith God via Christ’s sinlessblood and the “gift of the Holy Spirit”",
           "timing": "with",
           "z_index": 60,
           "shape_type": "text_box",
           "layout": {
-            "x": 768,
-            "y": 410,
-            "width": 156,
-            "height": 65,
+            "x": 729,
+            "y": 336,
+            "width": 166,
+            "height": 58,
             "rotation": 0
           },
           "font": {
-            "align": "center",
-            "font_size": 11.4
+            "wrap": true,
+            "font_size": 11.7
           }
         },
         {
-          "sequence": 79,
+          "sequence": 83,
           "shape_name": "TextBox 90",
           "text": "Conscience Cleaned (1 Peter 3:21)",
           "timing": "click",
           "z_index": 82,
           "shape_type": "text_box",
           "layout": {
-            "x": 529,
-            "y": 275,
-            "width": 229,
-            "height": 23,
+            "x": 522,
+            "y": 241,
+            "width": 222,
+            "height": 20,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_size": 13.4,
+            "font_size": 11.7,
+            "bold": true,
             "color": "#0000FF"
           },
           "hyperlink": {
@@ -3925,77 +3989,39 @@
           }
         },
         {
-          "sequence": 80,
-          "shape_name": "Straight Arrow Connector 22",
-          "timing": "with",
-          "z_index": 99,
-          "shape_type": "connector",
-          "layout": {
-            "x": 372,
-            "y": 225,
-            "width": 157,
-            "height": 59,
-            "rotation": 0
-          },
-          "line": {
-            "width": 6,
-            "color": "#0000FF"
-          },
-          "path": {
-            "start": {
-              "x": 521,
-              "y": 315
-            },
-            "end": {
-              "x": 741,
-              "y": 398
-            }
-          },
-          "line_endpoints": {
-            "from": {
-              "x": 450,
-              "y": 225
-            },
-            "to": {
-              "x": 450,
-              "y": 284
-            }
-          }
-        },
-        {
-          "sequence": 81,
+          "sequence": 84,
           "shape_name": "TextBox 27",
           "text": "'Must become like children' - not under the law -",
           "timing": "after",
           "z_index": 78,
           "shape_type": "text_box",
           "layout": {
-            "x": 249,
-            "y": 173,
-            "width": 129,
-            "height": 58,
+            "x": 274,
+            "y": 115,
+            "width": 112,
+            "height": 51,
             "rotation": 0
           },
           "fill": "#0000FF",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 15.2,
+            "font_size": 13.3,
             "italic": true,
             "color": "#FFFFFF"
           }
         },
         {
-          "sequence": 82,
+          "sequence": 85,
           "shape_name": "Straight Arrow Connector 78",
           "timing": "with",
           "z_index": 51,
           "shape_type": "connector",
           "layout": {
-            "x": 254,
-            "y": 151,
-            "width": 24,
-            "height": 26,
+            "x": 256,
+            "y": 133,
+            "width": 267,
+            "height": 118,
             "rotation": 0
           },
           "line": {
@@ -4004,22 +4030,22 @@
           },
           "path": {
             "start": {
-              "x": 355,
-              "y": 211
+              "x": 409,
+              "y": 213
             },
             "end": {
-              "x": 389,
-              "y": 247
+              "x": 836,
+              "y": 401
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 266,
-              "y": 151
+              "x": 390,
+              "y": 133
             },
             "to": {
-              "x": 266,
-              "y": 177
+              "x": 390,
+              "y": 251
             }
           },
           "arrow_ends": {
@@ -4027,23 +4053,23 @@
           }
         },
         {
-          "sequence": 83,
+          "sequence": 86,
           "shape_name": "TextBox 16",
           "text": "Colossians 1:13-141 Peter 2:9-11Galatians 3:26-29",
           "timing": "click",
           "z_index": 83,
           "shape_type": "text_box",
           "layout": {
-            "x": 786,
-            "y": 296,
-            "width": 138,
-            "height": 56,
+            "x": 808,
+            "y": 245,
+            "width": 121,
+            "height": 49,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4052,100 +4078,101 @@
           }
         },
         {
-          "sequence": 84,
+          "sequence": 87,
           "shape_name": "TextBox 140",
           "text": "?",
           "timing": "with",
           "z_index": 86,
           "shape_type": "text_box",
           "layout": {
-            "x": 565,
-            "y": 324,
-            "width": 26,
-            "height": 30,
+            "x": 537,
+            "y": 284,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
         {
-          "sequence": 85,
+          "sequence": 88,
           "shape_name": "TextBox 124",
           "text": "Christ",
           "timing": "click",
-          "z_index": 33,
+          "z_index": 34,
           "shape_type": "text_box",
           "layout": {
-            "x": 566,
-            "y": 316,
-            "width": 94,
-            "height": 40,
+            "x": 538,
+            "y": 277,
+            "width": 82,
+            "height": 35,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 86,
+          "sequence": 89,
           "shape_name": "TextBox 127",
           "text": "Church",
           "timing": "click",
-          "z_index": 35,
+          "z_index": 36,
           "shape_type": "text_box",
           "layout": {
-            "x": 622,
-            "y": 339,
-            "width": 117,
-            "height": 40,
+            "x": 587,
+            "y": 297,
+            "width": 102,
+            "height": 35,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 87,
+          "sequence": 90,
           "shape_name": "TextBox 142",
           "text": "(His body)",
           "timing": "with",
           "z_index": 87,
           "shape_type": "text_box",
           "layout": {
-            "x": 657,
-            "y": 329,
-            "width": 75,
-            "height": 23,
+            "x": 615,
+            "y": 288,
+            "width": 66,
+            "height": 20,
             "rotation": 0
           },
           "font": {
-            "font_size": 13.4,
+            "font_size": 11.7,
             "italic": true
           }
         },
         {
-          "sequence": 88,
+          "sequence": 91,
           "shape_name": "TextBox 89",
           "text": "2 Corinthians 6:14-15Mark 16:15-16",
           "timing": "click",
           "z_index": 84,
           "shape_type": "text_box",
           "layout": {
-            "x": 786,
-            "y": 346,
-            "width": 142,
-            "height": 39,
+            "x": 805,
+            "y": 289,
+            "width": 124,
+            "height": 34,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4154,54 +4181,54 @@
           }
         },
         {
-          "sequence": 89,
+          "sequence": 92,
           "shape_name": "TextBox 143",
           "text": "?",
           "timing": "with",
           "z_index": 88,
           "shape_type": "text_box",
           "layout": {
-            "x": 564,
-            "y": 371,
-            "width": 26,
-            "height": 30,
+            "x": 536,
+            "y": 325,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
         {
-          "sequence": 90,
+          "sequence": 93,
           "shape_name": "TextBox 126",
           "text": "Faith & Grace",
           "timing": "click",
-          "z_index": 34,
+          "z_index": 35,
           "shape_type": "text_box",
           "layout": {
-            "x": 561,
-            "y": 365,
-            "width": 204,
-            "height": 40,
+            "x": 534,
+            "y": 319,
+            "width": 178,
+            "height": 35,
             "rotation": 0
           },
           "font": {
             "v_align": "bottom",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 91,
+          "sequence": 94,
           "shape_name": "Straight Connector 81",
           "timing": "click",
           "z_index": 44,
           "shape_type": "connector",
           "layout": {
-            "x": 484,
-            "y": 486,
-            "width": 446,
+            "x": 483,
+            "y": 426,
+            "width": 447,
             "height": 0,
             "rotation": 0
           },
@@ -4212,63 +4239,83 @@
           },
           "path": {
             "start": {
-              "x": 677,
+              "x": 773,
               "y": 681
             },
             "end": {
-              "x": 1302,
+              "x": 1488,
               "y": 681
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 707,
-              "y": 486
+              "x": 706,
+              "y": 426
             },
             "to": {
-              "x": 707,
-              "y": 486
+              "x": 706,
+              "y": 426
             }
           }
         },
         {
-          "sequence": 92,
+          "sequence": 95,
           "shape_name": "TextBox 79",
           "text": "Unfaithful",
           "timing": "click",
           "z_index": 62,
           "shape_type": "text_box",
           "layout": {
-            "x": 504,
-            "y": 484,
-            "width": 175,
-            "height": 40,
+            "x": 501,
+            "y": 423,
+            "width": 153,
+            "height": 35,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial Black",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 93,
+          "sequence": 96,
+          "shape_name": "TextBox 57",
+          "text": "(spiritual)",
+          "timing": "with",
+          "z_index": 113,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 851,
+            "y": 386,
+            "width": 76,
+            "height": 22,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.3,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 97,
           "shape_name": "TextBox 91",
           "text": "John 6:53, Luke 13:6-9, Matthew 25:26-30",
           "timing": "with",
           "z_index": 61,
           "shape_type": "text_box",
           "layout": {
-            "x": 501,
-            "y": 512,
-            "width": 276,
-            "height": 23,
+            "x": 498,
+            "y": 448,
+            "width": 242,
+            "height": 20,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4277,15 +4324,15 @@
           }
         },
         {
-          "sequence": 94,
+          "sequence": 98,
           "shape_name": "Straight Connector 23",
           "timing": "with",
-          "z_index": 10,
+          "z_index": 11,
           "shape_type": "connector",
           "layout": {
-            "x": 794,
-            "y": 535,
-            "width": 75,
+            "x": 792,
+            "y": 468,
+            "width": 66,
             "height": 1,
             "rotation": 0
           },
@@ -4295,37 +4342,37 @@
           },
           "path": {
             "start": {
-              "x": 1112,
+              "x": 1268,
               "y": 749
             },
             "end": {
-              "x": 1217,
+              "x": 1373,
               "y": 750
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 832,
-              "y": 535
+              "x": 825,
+              "y": 468
             },
             "to": {
-              "x": 832,
-              "y": 536
+              "x": 825,
+              "y": 469
             }
           }
         },
         {
-          "sequence": 95,
+          "sequence": 99,
           "shape_name": "Down Arrow 110",
           "text": "Death",
           "timing": "click",
           "z_index": 45,
           "shape_type": "arrow",
           "layout": {
-            "x": 812,
-            "y": 451,
-            "width": 69,
-            "height": 137,
+            "x": 809,
+            "y": 394,
+            "width": 60,
+            "height": 120,
             "rotation": 52.02425
           },
           "fill": "#000000",
@@ -4336,28 +4383,28 @@
           "font": {
             "v_align": "middle",
             "font_name": "Arial Black",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "color": "#F4F4F4"
           }
         },
         {
-          "sequence": 96,
+          "sequence": 100,
           "shape_name": "TextBox 92",
           "text": "2 Peter 2:20-21, 3:17",
           "timing": "with",
           "z_index": 63,
           "shape_type": "text_box",
           "layout": {
-            "x": 651,
-            "y": 556,
-            "width": 193,
-            "height": 26,
+            "x": 630,
+            "y": 487,
+            "width": 169,
+            "height": 22,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 15.2,
+            "font_size": 13.3,
             "bold": true
           },
           "hyperlink": {
@@ -4367,18 +4414,18 @@
           }
         },
         {
-          "sequence": 97,
+          "sequence": 101,
           "shape_name": "Up Arrow 15",
           "text": "Death",
           "timing": "click",
           "z_index": 48,
           "shape_type": "arrow",
           "layout": {
-            "x": 788,
-            "y": 176,
-            "width": 69,
-            "height": 137,
-            "rotation": 316.0
+            "x": 758,
+            "y": 163,
+            "width": 70,
+            "height": 142,
+            "rotation": 0
           },
           "fill": "#33CCFF",
           "line": {
@@ -4387,23 +4434,42 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "left",
             "font_name": "Arial Black",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true,
             "color": "#000000"
           }
         },
         {
-          "sequence": 98,
+          "sequence": 102,
+          "shape_name": "TextBox 58",
+          "text": "(physical)",
+          "timing": "with",
+          "z_index": 114,
+          "shape_type": "text_box",
+          "layout": {
+            "x": 819,
+            "y": 196,
+            "width": 76,
+            "height": 22,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 13.3,
+            "bold": true
+          }
+        },
+        {
+          "sequence": 103,
           "shape_name": "Straight Connector 20",
           "timing": "with",
-          "z_index": 12,
+          "z_index": 13,
           "shape_type": "connector",
           "layout": {
-            "x": 813,
-            "y": 269,
-            "width": 62,
+            "x": 764,
+            "y": 236,
+            "width": 54,
             "height": 1,
             "rotation": 0
           },
@@ -4413,86 +4479,87 @@
           },
           "path": {
             "start": {
-              "x": 1138,
-              "y": 376
+              "x": 1223,
+              "y": 377
             },
             "end": {
-              "x": 1225,
-              "y": 378
+              "x": 1310,
+              "y": 379
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 844,
-              "y": 269
+              "x": 791,
+              "y": 236
             },
             "to": {
-              "x": 844,
-              "y": 270
+              "x": 791,
+              "y": 237
             }
           }
         },
         {
-          "sequence": 99,
+          "sequence": 104,
           "shape_name": "TextBox 85",
           "text": "Perfect Safety",
           "timing": "with",
           "z_index": 43,
           "shape_type": "text_box",
           "layout": {
-            "x": 524,
-            "y": 144,
-            "width": 401,
-            "height": 58,
+            "x": 518,
+            "y": 126,
+            "width": 351,
+            "height": 51,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
             "font_name": "Arial Black",
-            "font_size": 41.9,
+            "font_size": 36.7,
             "bold": true,
             "color": "#0000FF"
           }
         },
         {
-          "sequence": 100,
+          "sequence": 105,
           "shape_name": "TextBox 94",
           "text": "Heavenly StateState of Eternal Life",
           "timing": "with",
           "z_index": 65,
           "shape_type": "text_box",
           "layout": {
-            "x": 616,
-            "y": 208,
-            "width": 167,
-            "height": 36,
+            "x": 599,
+            "y": 182,
+            "width": 146,
+            "height": 32,
             "rotation": 0
           },
           "font": {
             "align": "center",
             "font_name": "+mn-lt",
-            "font_size": 15.2,
+            "font_size": 13.3,
             "bold": true
           }
         },
         {
-          "sequence": 101,
+          "sequence": 106,
           "shape_name": "TextBox 17",
           "text": "1 Corinthians 15:22-252 Peter 1:10-11",
           "timing": "click",
           "z_index": 64,
           "shape_type": "text_box",
           "layout": {
-            "x": 771,
-            "y": 32,
-            "width": 149,
-            "height": 39,
+            "x": 794,
+            "y": 29,
+            "width": 131,
+            "height": 34,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4501,75 +4568,75 @@
           }
         },
         {
-          "sequence": 102,
+          "sequence": 107,
           "shape_name": "TextBox 144",
           "text": "?",
           "timing": "with",
           "z_index": 89,
           "shape_type": "text_box",
           "layout": {
-            "x": 711,
-            "y": 98,
-            "width": 26,
-            "height": 30,
+            "x": 682,
+            "y": 86,
+            "width": 22,
+            "height": 26,
             "rotation": 0
           },
           "font": {
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
         {
-          "sequence": 103,
+          "sequence": 108,
           "shape_name": "Rectangle 28",
           "text": "& Those Justified",
           "timing": "click",
           "z_index": 70,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 713,
-            "y": 88,
-            "width": 174,
-            "height": 30,
+            "x": 701,
+            "y": 86,
+            "width": 152,
+            "height": 26,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_size": 19.1,
+            "font_size": 16.7,
             "bold": true
           }
         },
         {
-          "sequence": 104,
+          "sequence": 109,
           "shape_name": "TextBox 96",
           "text": "Kings & Priests",
           "timing": "with",
           "z_index": 69,
           "shape_type": "text_box",
           "layout": {
-            "x": 711,
-            "y": 105,
-            "width": 215,
-            "height": 39,
+            "x": 700,
+            "y": 101,
+            "width": 188,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_size": 26.6,
+            "font_size": 23.3,
             "bold": true
           }
         },
         {
-          "sequence": 105,
+          "sequence": 110,
           "shape_name": "Straight Connector 49",
           "timing": "with",
           "z_index": 91,
           "shape_type": "connector",
           "layout": {
-            "x": 503,
-            "y": 69,
-            "width": 238,
+            "x": 500,
+            "y": 61,
+            "width": 208,
             "height": 0,
             "rotation": 0
           },
@@ -4579,42 +4646,43 @@
           },
           "path": {
             "start": {
-              "x": 704,
+              "x": 800,
               "y": 97
             },
             "end": {
-              "x": 1037,
+              "x": 1133,
               "y": 97
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 622,
-              "y": 69
+              "x": 604,
+              "y": 61
             },
             "to": {
-              "x": 622,
-              "y": 69
+              "x": 604,
+              "y": 61
             }
           }
         },
         {
-          "sequence": 106,
+          "sequence": 111,
           "shape_name": "TextBox 95",
           "text": "Revelation 21:3-4",
           "timing": "click",
           "z_index": 66,
           "shape_type": "text_box",
           "layout": {
-            "x": 802,
-            "y": 69,
-            "width": 119,
-            "height": 23,
+            "x": 821,
+            "y": 62,
+            "width": 104,
+            "height": 20,
             "rotation": 0
           },
           "font": {
+            "wrap": true,
             "align": "right",
-            "font_size": 13.4
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4632,8 +4700,8 @@
           "layout": {
             "x": 0,
             "y": 0,
-            "width": 960,
-            "height": 618,
+            "width": 961,
+            "height": 541,
             "rotation": 0
           },
           "fill": "#33CCFF"
@@ -4645,15 +4713,15 @@
           "z_index": 5,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": -8,
+            "x": 53,
             "y": -1,
-            "width": 131,
-            "height": 26,
+            "width": 114,
+            "height": 22,
             "rotation": 0
           },
           "font": {
             "font_name": "Arial",
-            "font_size": 7.6,
+            "font_size": 6.7,
             "bold": true,
             "color": "#33CCFF"
           }
@@ -4661,13 +4729,13 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "z_index": 9,
+          "z_index": 10,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 34,
-            "y": 22,
-            "width": 446,
-            "height": 249,
+            "x": 30,
+            "y": 19,
+            "width": 450,
+            "height": 218,
             "rotation": 0
           },
           "fill": "#F4F4F4",
@@ -4680,20 +4748,33 @@
           "shape_name": "TextBox 62",
           "static": true,
           "text": "Kingdom",
-          "z_index": 16,
+          "z_index": 17,
           "shape_type": "text_box",
           "layout": {
-            "x": 41,
-            "y": 31,
-            "width": 146,
-            "height": 44,
+            "x": 44,
+            "y": 28,
+            "width": 128,
+            "height": 38,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "font_name": "+mn-lt",
-            "font_size": 30.5,
+            "font_size": 26.7,
             "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 100",
+          "static": true,
+          "z_index": 115,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 13,
+            "y": 498,
+            "width": 60,
+            "height": 60,
+            "rotation": 0
           }
         }
       ]
@@ -4709,10 +4790,10 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 48,
-            "y": 232,
-            "width": 864,
-            "height": 45,
+            "x": 102,
+            "y": 203,
+            "width": 756,
+            "height": 39,
             "rotation": 0
           },
           "font": {
