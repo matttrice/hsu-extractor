@@ -1,6 +1,8 @@
-## PowerPoint Extractor
+## PowerPoint Extractor for Master Bible Study
 
-Parses PowerPoint files and extracts complete presentation data including:
+Utility tool that parses PowerPoint files and extracts presentation data for [Master Bible Study (MBS)](https://github.com/matttrice/mbs).
+
+Extracts:
 
 - **Animation sequences** - Ordered list of elements as they appear during presentation
 - **Layout data** - Exact positions, dimensions, and styling (font, color, borders)
@@ -53,3 +55,12 @@ Steps to reproduce Power Point to Svelte [MBS](https://github.com/matttrice/mbs)
 1. Run PowerPoint Export of PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
 2. Run `extractor.py` for pptx to json, add to context and move images to static/export folder if they exist.
 3. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md)  
+## License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+
+You are free to use, modify, and distribute this work with proper attribution to the original source.
+
+**How to attribute:** Include a link to this repository and reference the CC-BY 4.0 license. This allows anyone to compare your version with the original if modifications are made.
+
+See the [LICENSE](LICENSE) file for complete details.

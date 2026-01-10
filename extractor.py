@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# Licensed under MIT License. See LICENSE file for details.
+# https://github.com/matttrice/hsu-extractor
+
 import os
 import glob
 import json
