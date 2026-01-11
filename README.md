@@ -50,11 +50,17 @@ hsu-extractor/
 ```
 
 ## Prompt for Reproduction to MBS
-Steps to reproduce Power Point to Svelte [MBS](https://github.com/matttrice/mbs). When running the prompt you should see it reference copilot-instructions from both the mbs repo and hsu-extractor.
+Steps to reproduce Power Point to Svelte [MBS](https://github.com/matttrice/mbs). 
 
-1. Run PowerPoint Export of PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
-2. Run `extractor.py` for pptx to json, add to context and move images to static/export folder if they exist.
-3. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md)  
+It references copilot-instructions from both the mbs repo and hsu-extractor.
+
+1. Pre-scale pptx to 16:9. Scale down for uniformity.
+2. In PowerPoint, set all slides as Hidden that you do not want to be processed as a main, top-level slide.
+2. Run PowerPoint Export of PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
+3. Run `extractor.py` for pptx to json, move images to static/export folder (if they exist).
+4. Add json to context.
+5. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md) <name>.
+
 ## License
 
 This project is licensed under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).

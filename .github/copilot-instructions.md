@@ -530,4 +530,4 @@ Pictures (images) use Fragment's `layout` prop for positioning with a simple `<i
 3. Click → Show "Great Nation"
 4. Click → Show "Land of Canaan"
 5. ... continue through sequence
-6. After all 35 items revealed, next click advances to slide 2
+6. After all 35 Fragments revealed, next click advances to slide 2

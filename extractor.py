@@ -1548,6 +1548,40 @@ def parse_shapes_from_slide(slide_xml_content):
     
     return shapes
 
+def get_hidden_slides(pptx_path, total_slides):
+    """Get set of hidden slide numbers by checking each slide's XML file.
+    
+    Hidden slides have show="0" attribute on the root p:sld element in their
+    individual slide XML files (ppt/slides/slideN.xml).
+    These are the slides that should go into linked_slides, not the main slides array.
+    
+    Args:
+        pptx_path: Path to the PPTX file
+        total_slides: Total number of slides in the presentation
+    
+    Returns:
+        Set of hidden slide numbers (1-indexed)
+    """
+    hidden_slides = set()
+    
+    with zipfile.ZipFile(pptx_path, 'r') as zf:
+        for slide_num in range(1, total_slides + 1):
+            try:
+                slide_file = f'ppt/slides/slide{slide_num}.xml'
+                slide_xml = zf.read(slide_file).decode('utf-8')
+                root = ET.fromstring(slide_xml)
+                
+                # Check show attribute on root p:sld element
+                # show="0" means hidden, show="1" or absent means visible
+                show_attr = root.get('show', '1')
+                if show_attr == '0':
+                    hidden_slides.add(slide_num)
+            except Exception as e:
+                print(f"Warning: Could not check slide {slide_num} hidden status: {e}")
+    
+    return hidden_slides
+
+
 def parse_custom_shows(pptx_path):
     """Parse custom shows from presentation.xml - returns metadata only (not slide content).
     
@@ -1858,43 +1892,20 @@ def save_presentation_structure(prs, file_path):
     # Parse custom shows - just metadata (name, id, slide_numbers)
     custom_shows, custom_show_slide_nums = parse_custom_shows(file_path)
     
+    # Get hidden slides (these go into linked_slides, not main slides array)
+    hidden_slide_nums = get_hidden_slides(file_path, len(prs.slides))
+    if hidden_slide_nums:
+        print(f"Found {len(hidden_slide_nums)} hidden slides: {sorted(hidden_slide_nums)}")
+    
     # Calculate slide dimensions in pixels (from EMU)
     slide_width = emu_to_px(prs.slide_width)
     slide_height = emu_to_px(prs.slide_height)
     
-    # Pre-scan all main slides to find slide jump hyperlinks (hlinksldjump)
-    # and add their target slides to custom_show_slide_nums
-    slide_jump_targets = set()  # Set of target slide numbers from hlinksldjump
-    with zipfile.ZipFile(file_path, 'r') as zf:
-        for slide_num in range(1, len(prs.slides) + 1):
-            # Skip slides already marked as custom show slides
-            if slide_num in custom_show_slide_nums:
-                continue
-                
-            try:
-                slide_file = f'ppt/slides/slide{slide_num}.xml'
-                slide_xml = zf.read(slide_file).decode('utf-8')
-                
-                # Parse all shapes to find slide jump hyperlinks
-                shapes = parse_shapes_from_slide(slide_xml)
-                rid_to_slide = parse_slide_links_from_relationships(file_path, slide_num)
-                
-                for shape_id, shape in shapes.items():
-                    if shape['hyperlink'] and shape['hyperlink'].get('type') == 'slide':
-                        r_id = shape['hyperlink'].get('r_id')
-                        if r_id and r_id in rid_to_slide:
-                            target_slide_num = rid_to_slide[r_id]
-                            # Track slide jump targets that aren't already in custom shows
-                            if target_slide_num not in custom_show_slide_nums:
-                                slide_jump_targets.add(target_slide_num)
-                                custom_show_slide_nums.add(target_slide_num)
-            except Exception as e:
-                pass  # Skip slides that can't be read
-    
-    # Build linked_slides: process all slides used by custom shows AND slide jumps
+    # Build linked_slides: process all hidden slides (they contain drill/custom show content)
+    # Hidden slides are the authoritative source for what goes into linked_slides
     linked_slides = {}
     with zipfile.ZipFile(file_path, 'r') as zf:
-        for linked_slide_num in sorted(custom_show_slide_nums):
+        for linked_slide_num in sorted(hidden_slide_nums):
             try:
                 slide_content = process_linked_slide(linked_slide_num, prs, zf, slide_width, theme_colors, file_path, custom_shows)
                 linked_slides[linked_slide_num] = slide_content
@@ -1919,8 +1930,8 @@ def save_presentation_structure(prs, file_path):
     # Extract all images from PPTX to the images folder
     image_map = extract_images_from_pptx(file_path, images_folder)
     
-    # Calculate main presentation slide count (excluding linked slides)
-    main_slide_count = len(prs.slides) - len(custom_show_slide_nums)
+    # Calculate main presentation slide count (excluding hidden/linked slides)
+    main_slide_count = len(prs.slides) - len(hidden_slide_nums)
     
     presentation_data = {
         "file_path": str(file_path),
@@ -1946,8 +1957,8 @@ def save_presentation_structure(prs, file_path):
     # Build a mapping of shape ID to pptx shape object for visual data
     with zipfile.ZipFile(file_path, 'r') as zf:
         for slide_num, slide in enumerate(prs.slides, 1):
-            # Skip slides that are only used in custom shows (not part of main presentation)
-            if slide_num in custom_show_slide_nums:
+            # Skip hidden slides (they go into linked_slides, not main presentation)
+            if slide_num in hidden_slide_nums:
                 continue
                 
             slide_file = f'ppt/slides/slide{slide_num}.xml'
