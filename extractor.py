@@ -32,6 +32,11 @@ TARGET_CANVAS_HEIGHT = 540
 # EMU to pixels conversion (96 DPI standard)
 EMU_PER_PIXEL = 9525
 
+# Wrap inference heuristic defaults
+WRAP_MIN_TEXT_LENGTH = 40
+WRAP_AVG_CHAR_WIDTH_EM = 0.52
+WRAP_FALLBACK_FONT_SIZE_PX = 20
+
 def extract_theme_colors_from_pptx(pptx_path):
     """Extract theme color scheme from PowerPoint file.
     
@@ -133,6 +138,45 @@ def scale_to_target(value, source_width, target_width=TARGET_CANVAS_WIDTH):
     scale_factor = target_width / source_width
     return round(value * scale_factor)
 
+
+def should_force_font_wrap(text, layout=None, font_size=None):
+    """Infer whether text should be wrapped even when PPT wrap is not explicitly set.
+
+    Heuristics used:
+    1) Explicit line-break markers in text imply wrapping intent.
+    2) Long single-line text that exceeds estimated line capacity implies wrap.
+    """
+    if not text:
+        return False
+
+    normalized_text = text.replace('\r\n', '\n').replace('\r', '\n').replace('\v', '\n')
+
+    # Manual line breaks strongly indicate wrapped content intent.
+    if '\n' in normalized_text:
+        return True
+
+    if not layout:
+        return False
+
+    width = layout.get('width')
+    if not width or width <= 0:
+        return False
+
+    # Avoid forcing wrap for very short text.
+    compact_text = ' '.join(normalized_text.split())
+    if len(compact_text) < WRAP_MIN_TEXT_LENGTH:
+        return False
+
+    # Approximate average glyph width for mixed-case text.
+    # WRAP_AVG_CHAR_WIDTH_EM is a conservative middle-ground for common sans-serif fonts.
+    size_px = font_size if isinstance(font_size, (int, float)) and font_size > 0 else WRAP_FALLBACK_FONT_SIZE_PX
+    avg_char_width = max(size_px * WRAP_AVG_CHAR_WIDTH_EM, 1)
+    estimated_chars_per_line = max(int(width / avg_char_width), 1)
+
+    # If a single visual line clearly exceeds the box capacity, force wrap.
+    longest_line_len = max((len(part) for part in compact_text.split('\n')), default=0)
+    return longest_line_len > estimated_chars_per_line
+
 def rgb_to_hex(rgb_color):
     """Convert RGBColor to hex string."""
     if rgb_color is None:
@@ -217,7 +261,7 @@ def extract_layout_from_xml(shape_elem, slide_width=None):
     except:
         return None
 
-def extract_font_from_xml(shape_elem):
+def extract_font_from_xml(shape_elem, layout=None):
     """Extract font properties from shape XML element.
     
     Args:
@@ -243,6 +287,13 @@ def extract_font_from_xml(shape_elem):
                 font_data['v_align'] = 'middle'
             elif anchor == 'b':
                 font_data['v_align'] = 'bottom'
+
+            # PowerPoint wrap settings:
+            # - wrap="none" => no wrapping
+            # - wrap missing or other values => wrapping enabled/default
+            wrap_attr = bodyPr.get('wrap')
+            if wrap_attr != 'none':
+                font_data['wrap'] = True
         
         # Get first paragraph for alignment and default properties
         para = txBody.find('a:p', NAMESPACES)
@@ -345,6 +396,11 @@ def extract_font_from_xml(shape_elem):
                             if val:
                                 font_data['color'] = f"#{val}"
         
+        # Fallback wrap inference from preserved line breaks / overflow heuristic.
+        text_content = get_text_from_shape_xml(shape_elem)
+        if 'wrap' not in font_data and should_force_font_wrap(text_content, layout, font_data.get('font_size')):
+            font_data['wrap'] = True
+
         return font_data if font_data else None
     except:
         return None
@@ -374,7 +430,7 @@ def extract_visual_data_from_xml(shape_elem, z_index, slide_width=None):
         visual_data['layout'] = layout
     
     # Extract font
-    font = extract_font_from_xml(shape_elem)
+    font = extract_font_from_xml(shape_elem, layout)
     if font:
         visual_data['font'] = font
     
@@ -697,7 +753,7 @@ def _extract_line_ends(spPr):
     
     return result if result else None
 
-def extract_font_style(shape, slide_width=None, theme_colors=None):
+def extract_font_style(shape, slide_width=None, theme_colors=None, layout=None):
     """Extract font properties from the first text run in a shape.
     
     Args:
@@ -780,7 +836,7 @@ def extract_font_style(shape, slide_width=None, theme_colors=None):
             pass
         
         # Get font properties from first run with text
-        found_font_size = False
+        found_run = False
         for para in tf.paragraphs:
             for run in para.runs:
                 if run.text.strip():
@@ -800,7 +856,6 @@ def extract_font_style(shape, slide_width=None, theme_colors=None):
                         if slide_width is not None:
                             scale_factor = TARGET_CANVAS_WIDTH / slide_width
                             font_data['font_size'] = round(font_data['font_size'] * scale_factor, 1)
-                        found_font_size = True
                     # Bold - explicitly check for True (overrides default), False (overrides default), or None (uses default/theme)
                     if font.bold is True:
                         font_data['bold'] = True
@@ -847,9 +902,22 @@ def extract_font_style(shape, slide_width=None, theme_colors=None):
                     except:
                         pass
                     
-                    # Return after first meaningful run
-                    if font_data:
-                        return font_data
+                    found_run = True
+                    break
+            if found_run:
+                break
+
+        # Fallback wrap inference:
+        # - Manual line breaks in text (paragraph returns / soft breaks)
+        # - Long text overflow relative to box width and font size
+        if 'wrap' not in font_data:
+            shape_text = ''
+            try:
+                shape_text = shape.text or ''
+            except:
+                shape_text = ''
+            if should_force_font_wrap(shape_text, layout, font_data.get('font_size')):
+                font_data['wrap'] = True
         
         return font_data if font_data else None
     except:
@@ -1321,7 +1389,7 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
         visual_data['line'] = line
     
     # Font properties
-    font = extract_font_style(shape, slide_width, theme_colors)
+    font = extract_font_style(shape, slide_width, theme_colors, layout)
     if font:
         visual_data['font'] = font
     
@@ -1362,12 +1430,32 @@ def extract_shape_visual_data(shape, z_index, slide_xml_content=None, shape_id=N
     return visual_data
 
 def get_text_from_shape_xml(shape_elem):
-    """Extract all text from a shape XML element."""
-    texts = []
-    for t in shape_elem.findall('.//a:t', NAMESPACES):
-        if t.text:
-            texts.append(t.text)
-    return ''.join(texts).strip()
+    """Extract all text from a shape XML element, preserving line and paragraph breaks."""
+    tx_body = shape_elem.find('.//p:txBody', NAMESPACES)
+    if tx_body is None:
+        return ''
+
+    paragraph_texts = []
+    for para in tx_body.findall('a:p', NAMESPACES):
+        parts = []
+        for node in list(para):
+            # Regular text run
+            if node.tag.endswith('}r'):
+                text_node = node.find('a:t', NAMESPACES)
+                if text_node is not None and text_node.text:
+                    parts.append(text_node.text)
+            # Explicit line break within paragraph
+            elif node.tag.endswith('}br'):
+                parts.append('\n')
+            # Text field run
+            elif node.tag.endswith('}fld'):
+                text_node = node.find('a:t', NAMESPACES)
+                if text_node is not None and text_node.text:
+                    parts.append(text_node.text)
+
+        paragraph_texts.append(''.join(parts))
+
+    return '\n'.join(paragraph_texts).strip()
 
 def get_hyperlink_from_shape_xml(shape_elem):
     """Extract hyperlink action from shape XML element.
