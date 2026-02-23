@@ -52,14 +52,19 @@ hsu-extractor/
 ## Prompt for Reproduction to MBS
 Steps to reproduce Power Point to Svelte [MBS](https://github.com/matttrice/mbs). 
 
-It references copilot-instructions from both the mbs repo and hsu-extractor.
+The prompt will reference copilot-instructions from both the mbs repo and hsu-extractor.
 
-1. Pre-scale pptx to 16:9. Scale down for uniformity.
-2. In PowerPoint, set all slides as Hidden that you do not want to be processed as a main, top-level slide.
-2. Run PowerPoint Export of PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
-3. Run `extractor.py` for pptx to json, move images to static/export folder (if they exist).
-4. Add json to context.
-5. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md) <name>.
+1. Pre-scale pptx to 16:9 WideScreen:
+    -  PPTX -> Design -> Slide Size -> Widescreen, scale up/down for uniformity if prompted.
+2. Before extraction, mark all **non-top-level** drill slides as **Hidden** in PowerPoint.
+	- This applies to both decks using `custom_shows` and decks using pure hyperlink chains.
+	- Extractor classification is deterministic: Hidden → `linked_slides`, Non-hidden → `slides[]`.
+3. Run PowerPoint -> Export -> PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
+4. Run `extractor.py` for pptx to json, move images to static/export folder (if they exist).
+	- move extracted images to static/export/
+5. Add json to context.
+	- For decks with `custom_shows`, treat each `custom_shows[id].slide_numbers[]` value as a reference to a `linked_slides` `slide_number`.
+6. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md) route-name.
 
 ## License
 

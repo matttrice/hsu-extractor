@@ -59,7 +59,15 @@ Custom shows are named collections of slides that can be linked from the main pr
 
 ### Linked Slides
 
-All slides that are linked to (from custom shows OR hlinksldjump hyperlinks) are stored in `linked_slides`. This is a unified collection - both custom show slides and individual slide jump targets are here. All custom show slides referenced in `custom_shows` are included in `linked_slides` but not all linked slides are part of a custom show.
+Slides marked **Hidden** in PowerPoint are stored in `linked_slides`. This is the authoritative classification rule for extractor output.
+
+- Hidden slides → `linked_slides`
+- Non-hidden slides → `slides[]` (top-level main presentation)
+
+**Extraction guidance (important):**
+- Use `custom_shows` and slide hyperlinks to determine drill relationships.
+- Classification of main vs linked slides comes from hidden status, not hyperlink inference.
+- Downstream conversion should preserve this partition exactly (`slides[]` vs `linked_slides`) and must not reclassify slides from hyperlink graph analysis.
 
 ```json
 "linked_slides": {
@@ -102,7 +110,7 @@ All slides that are linked to (from custom shows OR hlinksldjump hyperlinks) are
 
 ### Slides (Main Presentation)
 
-Each slide in the main presentation contains an ordered animation sequence. Only non-linked slides appear here.
+Each slide in the main presentation contains an ordered animation sequence. Non-hidden slides appear here.
 
 ```json
 "slides": [
@@ -268,6 +276,8 @@ To recreate the PowerPoint experience in a web format:
    - For `type: "slide"`: Display content from `linked_slides[slide_number]` directly
    - After viewing all content, return to the **origin slide** (not intermediate drills)
    - Multi-level drill chains (e.g., hebrews-3-14 → hebrews-4-1) all return directly to origin like a custom_show   
+
+**Note on slide-jump chains:** A final link that returns to a main slide is valid and expected in MBS.
 5. **Navigation**: After all animation_sequence items are revealed, advance to the next slide
 
 ### Converting Timing to MBS Step Values
@@ -428,7 +438,7 @@ Rectangle shapes (background columns, boxes) use the `Rect` component:
 **MBS conversion:**
 ```svelte
 <Fragment step={5} animate="wipe-down">
-  <Rect x={75} y={48} width={275} height={464} fill="var(--color-level1)" zIndex={5} />
+  <Rect x={75} y={48} width={275} height={464} fill="var(--bg-level-1)" zIndex={5} />
 </Fragment>
 ```
 
