@@ -37,6 +37,53 @@ EMU_PER_PIXEL = 9525
 WRAP_MIN_TEXT_LENGTH = 40
 WRAP_AVG_CHAR_WIDTH_EM = 0.52
 WRAP_FALLBACK_FONT_SIZE_PX = 20
+SCRIPTURE_SPAN_MARKER = '<span class="scripture">'
+SCRIPTURE_REFERENCE_PLUS_TEXT_RE = re.compile(
+    r"^\s*(?:[1-3]\s+)?[A-Za-z][A-Za-z'’.-]*(?:\s+[A-Za-z][A-Za-z'’.-]*)*\s+"
+    r"\d{1,3}:\d{1,3}(?:[-–]\d{1,3})?(?:\s*,\s*\d{1,3}(?:[-–]\d{1,3})?)*"
+    r"(?:\s*[:—-]\s*|\s+).+",
+    re.IGNORECASE,
+)
+
+
+def _looks_like_scripture_reference_with_text(text):
+    """Best-effort check for leading scripture reference followed by content.
+
+    Matches patterns like:
+    - "Ezekiel 18:4: For every living soul..."
+    - "Genesis 27:30-38: After Isaac finished..."
+    """
+    if not isinstance(text, str) or not text.strip():
+        return False
+
+    single_line = ' '.join(text.split())
+    return bool(SCRIPTURE_REFERENCE_PLUS_TEXT_RE.match(single_line))
+
+
+def _sanitize_scripture_block_font(entry, is_scripture=False):
+    """Remove block-level typography that should be delegated to inline scripture markup.
+
+    Scripture text often contains mixed run formatting (e.g., bold/large reference + normal body).
+    Setting a single block font_size/bold at shape level causes incorrect rendering downstream.
+
+        Contract:
+        - This function must be driven by explicit scripture metadata (`is_scripture`),
+            not by checking rendered markup.
+        - Keep layout/flow font fields (e.g., wrap, align, v_align) intact.
+        - Remove only typography fields that can incorrectly style an entire mixed-format block.
+    """
+    if not entry or not is_scripture:
+        return
+
+    font = entry.get('font')
+    if not isinstance(font, dict):
+        return
+
+    font.pop('font_size', None)
+    font.pop('bold', None)
+
+    if not font:
+        entry.pop('font', None)
 
 def extract_theme_colors_from_pptx(pptx_path):
     """Extract theme color scheme from PowerPoint file.
@@ -1591,18 +1638,38 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
     """Extract plain text plus optional minimal HTML markup from shape XML.
 
     Returns:
-        tuple[str, str, bool]: (plain_text, text_with_markup, has_markup)
+        tuple[str, str, bool, bool]: (plain_text, text_with_markup, has_markup, is_scripture)
     """
     tx_body = shape_elem.find('.//p:txBody', NAMESPACES)
     if tx_body is None:
-        return '', '', False
+        return '', '', False, False
 
     paragraph_texts = []
     paragraph_html = []
     has_rich_formatting = False
     scripture_mode = False
 
-    # Scripture context heuristic: any superscript run marks this block as scripture text.
+    # Heuristic A: leading "{Book} {Chapter}:{VerseOrRange}" + body text.
+    # This catches scripture blocks that do not include superscript verse numbers.
+    raw_text = get_text_from_shape_xml(shape_elem)
+    if _looks_like_scripture_reference_with_text(raw_text):
+        scripture_mode = True
+
+    # Scripture detection heuristic (current):
+    # - A) leading reference + body text pattern (see above)
+    # - B) any superscript run marks this block as scripture
+    #
+    # Where this comes from:
+    # - _extract_run_format_from_rpr reads a:rPr@baseline
+    # - baseline > 0 => run_fmt['superscript'] = True
+    # - if any run/fld in the text body is superscript, we set scripture_mode = True
+    # These are intentional best-effort signals and may evolve.
+    #
+    # Important: this heuristic may evolve, but downstream behavior should remain explicit:
+    # parse_shapes_from_slide stores `is_scripture`, and entry assembly applies
+    # _sanitize_scripture_block_font(entry, is_scripture=...).
+    #
+    # Keep this detection logic and downstream sanitation contract in sync.
     for para in tx_body.findall('a:p', NAMESPACES):
         paragraph_default_format = {}
         pPr = para.find('a:pPr', NAMESPACES)
@@ -1668,12 +1735,12 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
     text_with_markup = _normalize_fragment_markup(text_with_markup)
 
     if scripture_mode and text_with_markup:
-        text_with_markup = f'<span class="scripture">{text_with_markup}</span>'
+        text_with_markup = f'{SCRIPTURE_SPAN_MARKER}{text_with_markup}</span>'
         has_rich_formatting = True
 
     if has_rich_formatting:
-        return plain_text, text_with_markup, True
-    return plain_text, plain_text, False
+        return plain_text, text_with_markup, True, scripture_mode
+    return plain_text, plain_text, False, scripture_mode
 
 def get_hyperlink_from_shape_xml(shape_elem):
     """Extract hyperlink action from shape XML element.
@@ -1874,7 +1941,7 @@ def parse_shapes_from_slide(slide_xml_content):
             if cNvPr is not None:
                 shape_id = cNvPr.get('id')
                 shape_name = cNvPr.get('name', '')
-                text_plain, text_markup, has_markup = get_text_with_fragment_markup_from_shape_xml(sp)
+                text_plain, text_markup, has_markup, is_scripture = get_text_with_fragment_markup_from_shape_xml(sp)
                 hyperlink = get_hyperlink_from_shape_xml(sp)
                 
                 if shape_id:
@@ -1882,7 +1949,8 @@ def parse_shapes_from_slide(slide_xml_content):
                         'id': shape_id,
                         'name': shape_name,
                         'text': text_markup if has_markup else text_plain,
-                        'hyperlink': hyperlink
+                        'hyperlink': hyperlink,
+                        'is_scripture': is_scripture
                     }
                     shapes[shape_id] = shape_data
     
@@ -1901,6 +1969,7 @@ def parse_shapes_from_slide(slide_xml_content):
                         'name': shape_name,
                         'text': '',
                         'hyperlink': None,
+                        'is_scripture': False,
                         'is_connector': True
                     }
     
@@ -2097,6 +2166,8 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
                             if show_id is not None and show_id in custom_shows:
                                 hyperlink['name'] = custom_shows[show_id]['name']
                         entry['hyperlink'] = hyperlink
+
+                    _sanitize_scripture_block_font(entry, shape.get('is_scripture', False))
                     
                     animation_sequence.append(entry)
             sequence_num += 1
@@ -2139,6 +2210,8 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
                     if show_id is not None and show_id in custom_shows:
                         hyperlink['name'] = custom_shows[show_id]['name']
                 entry['hyperlink'] = hyperlink
+
+            _sanitize_scripture_block_font(entry, shape.get('is_scripture', False))
             
             animation_sequence.append(entry)
             sequence_num += 1
@@ -2207,6 +2280,8 @@ def process_linked_slide(slide_num, prs, zf, slide_width, theme_colors, file_pat
                     if show_id is not None and show_id in custom_shows:
                         hyperlink['name'] = custom_shows[show_id]['name']
                 static_entry['hyperlink'] = hyperlink
+
+            _sanitize_scripture_block_font(static_entry, shape.get('is_scripture', False))
             static_shapes.append(static_entry)
     
     # Add static pictures
@@ -2402,6 +2477,8 @@ def save_presentation_structure(prs, file_path):
                                         if show_id is not None and show_id in custom_shows:
                                             hyperlink['name'] = custom_shows[show_id]['name']
                                     entry['hyperlink'] = hyperlink
+
+                                _sanitize_scripture_block_font(entry, shape.get('is_scripture', False))
                                 
                                 animation_sequence.append(entry)
                         sequence_num += 1
@@ -2450,6 +2527,8 @@ def save_presentation_structure(prs, file_path):
                                 if show_id is not None and show_id in custom_shows:
                                     hyperlink['name'] = custom_shows[show_id]['name']
                             entry['hyperlink'] = hyperlink
+
+                        _sanitize_scripture_block_font(entry, shape.get('is_scripture', False))
                         
                         animation_sequence.append(entry)
                         sequence_num += 1
@@ -2557,6 +2636,8 @@ def save_presentation_structure(prs, file_path):
                                 if show_id is not None and show_id in custom_shows:
                                     hyperlink['name'] = custom_shows[show_id]['name']
                             static_entry['hyperlink'] = hyperlink
+
+                        _sanitize_scripture_block_font(static_entry, shape.get('is_scripture', False))
                         static_shapes.append(static_entry)
                 
                 # Add static pictures (non-animated)
