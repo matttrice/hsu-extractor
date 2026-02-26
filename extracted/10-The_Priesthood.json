@@ -5,14 +5,14 @@
   "total_custom_shows": 22,
   "total_linked_slides": 22,
   "source_dimensions": {
-    "width": 960,
-    "height": 540
+    "width": 1280,
+    "height": 720
   },
   "target_canvas": {
     "width": 960,
     "height": 540
   },
-  "scale_factor": 1.0,
+  "scale_factor": 0.75,
   "images_folder": "10-The_Priesthood",
   "custom_shows": {
     "0": {
@@ -186,7 +186,7 @@
           "sequence": 1,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "Abraham",
+          "text": "<strong>Abraham</strong>",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
@@ -199,7 +199,6 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true
           }
@@ -208,19 +207,18 @@
           "sequence": 2,
           "shape_name": "Text Box 16",
           "timing": "with",
-          "text": "Jacob (Israel)",
+          "text": "<strong>Jacob (Israel)</strong>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
-            "x": 184,
+            "x": 186,
             "y": 56,
-            "width": 160,
-            "height": 36,
+            "width": 155,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#F4F4F4"
@@ -230,20 +228,19 @@
           "sequence": 3,
           "shape_name": "Text Box 16",
           "timing": "click",
-          "text": "12 sons12 tribes (Israel)",
+          "text": "<strong>12 sons12 tribes (Israel)</strong>",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
             "x": 326,
             "y": 56,
             "width": 313,
-            "height": 36,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#F4F4F4"
@@ -253,19 +250,18 @@
           "sequence": 4,
           "shape_name": "Text Box 16",
           "timing": "click",
-          "text": "Levi",
+          "text": "<strong>Levi</strong>",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
-            "x": 623,
+            "x": 626,
             "y": 56,
-            "width": 86,
-            "height": 36,
+            "width": 82,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#F4F4F4"
@@ -275,19 +271,18 @@
           "sequence": 5,
           "shape_name": "Text Box 16",
           "timing": "click",
-          "text": "Aaron (order of)",
+          "text": "<strong>Aaron (order of)</strong>",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 693,
+            "x": 694,
             "y": 56,
-            "width": 208,
-            "height": 36,
+            "width": 204,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#F4F4F4"
@@ -297,29 +292,29 @@
           "sequence": 6,
           "shape_name": "Text Box 17",
           "timing": "click",
-          "text": "Responsible for a system of animal sacrifice",
+          "text": "<strong>Responsible for a system of animal sacrifice</strong>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 155,
+            "x": 158,
             "y": 90,
-            "width": 634,
-            "height": 45,
+            "width": 628,
+            "height": 42,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true,
-            "color": "#F4F4F4"
+            "color": "#F4F4F4",
+            "wrap": true
           }
         },
         {
           "sequence": 7,
           "shape_name": "TextBox 3",
           "timing": "with",
-          "text": "Leviticus 9:7-8,15 Moses said to Aaron, “Come to the altar and sacrifice your sin offering and your burnt offering and make atonement for yourself and the people; sacrifice the offering that is for the people and make atonement for them, as the LORD has commanded.” 8 So Aaron came to the altar and slaughtered the calf as a sin offering for himself… 15 Aaron then brought the offering that was for the people. He took the goat for the people’s sin offering and slaughtered it and offered it for a sin offering as he did with the first one.",
+          "text": "<span class=\"scripture\"><strong>Leviticus 9:7-8,15 </strong><br/>Moses said to Aaron, “Come to the altar and sacrifice your sin offering and your burnt offering and make atonement for yourself and the people; sacrifice the offering that is for the people and make atonement for them, as the LORD has commanded.” <sup>8</sup> So Aaron came to the altar and slaughtered the calf as a sin offering for himself… <br/><sup>15</sup> Aaron then brought the offering that was for the people. He took the goat for the people’s sin offering and slaughtered it and offered it for a sin offering as he did with the first one.</span>",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
@@ -331,31 +326,25 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 28.8,
-            "bold": true
+            "wrap": true
           }
         },
         {
           "sequence": 8,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "Hebrews10:3-4: But those sacrifices are an annual reminder of sins, 4 because it is impossible for the blood of bulls and goats to take away sins.",
+          "text": "<span class=\"scripture\"><strong>Hebrews10:3-4</strong>: <br/>But those sacrifices are an annual reminder of sins, <sup>4</sup> because it is <strong><u>impossible</u></strong> for the blood of bulls and goats to take away sins.</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 69,
-            "y": 407,
+            "y": 406,
             "width": 836,
-            "height": 103,
+            "height": 100,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 28.8,
-            "bold": true,
             "color": "#F4F4F4"
           }
         },
@@ -363,7 +352,7 @@
           "sequence": 9,
           "shape_name": "TextBox 5",
           "timing": "with",
-          "text": "Copy / Shadow of the True",
+          "text": "<strong>Copy / Shadow </strong>of the <strong>True</strong>",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
@@ -380,8 +369,7 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true
           }
         }
@@ -394,8 +382,8 @@
           "z_index": 3,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 91,
-            "y": 11,
+            "x": 92,
+            "y": 10,
             "width": 778,
             "height": 40,
             "rotation": 0
@@ -440,22 +428,21 @@
           "sequence": 1,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "1st tabernacle = illustrationExternal & TemporaryIneffectual for the internal conscience",
+          "text": "<span class=\"scripture\"><strong><u>1</u></strong><sup>st</sup><strong><u> tabernacle = illustration</u></strong><br/><strong>External &amp; Temporary</strong><br/><strong>Ineffectual for the internal conscience</strong></span>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
             "x": 125,
-            "y": 377,
-            "width": 709,
+            "y": 376,
+            "width": 710,
             "height": 148,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 38.4,
-            "bold": true
+            "underline": true,
+            "wrap": true
           }
         }
       ],
@@ -463,38 +450,35 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Hebrews 9:8-10",
+          "text": "<span class=\"scripture\">Hebrews 9:8-10</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 89,
+            "x": 88,
             "y": 36,
             "width": 310,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "bold": true,
             "color": "#F4F4F4"
           }
         },
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "The Holy Spirit was showing by this that the way into the Most Holy Place had not yet been disclosed as long as the first tabernacle was still standing. 9 This is an illustration for the present time, indicating that the gifts and sacrifices being offered were not able to clear the conscience of the worshiper. 10 They are only a matter of food and drink and various ceremonial washings — external regulations applying until the time of the new order.",
+          "text": "<span class=\"scripture\">The Holy Spirit was showing by this that the way into the Most Holy Place had not yet been disclosed as long as the <strong><u>first tabernacle</u></strong> was still standing. <sup>9</sup> This is an <strong><u>illustration</u></strong> for the present time, indicating that the gifts and sacrifices being offered were <u>not able to clear the conscience</u> of the worshiper. <sup>10</sup> They are only a matter of food and drink and various ceremonial washings — <strong>external</strong> regulations applying <strong><u>until</u></strong> the time of the <strong><u>new order</u></strong>.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 91,
+            "x": 92,
             "y": 76,
-            "width": 799,
-            "height": 295,
+            "width": 800,
+            "height": 304,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 28.8,
             "color": "#F4F4F4"
           }
         },
@@ -520,14 +504,14 @@
           "sequence": 1,
           "shape_name": "Rectangle 12",
           "timing": "click",
-          "text": "The “Branch” will be a King and Priest per order of MelchizedekJesus transformed the physical (temporary) Levitical Priesthood into its spiritual (eternal) Melchizedekian form.",
+          "text": "The “Branch” will be a <strong>King and Priest</strong> per order of <strong>Melchizedek</strong><br/>Jesus transformed the <strong>physical (temporary)</strong> Levitical Priesthood into its <strong>spiritual (eternal) Melchizedekian</strong> form.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 106,
             "y": 378,
             "width": 756,
-            "height": 97,
+            "height": 94,
             "rotation": 0
           },
           "line": {
@@ -536,7 +520,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 24.0
           }
         }
@@ -545,26 +528,24 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "\"'The days are coming,' declares the LORD, 'when I will fulfill the gracious promise I made to the house of Israel and to the house of Judah. 15 \"'In those days and at that time I will make a righteous Branch sprout from David's line; he will do what is just and right in the land. 16 In those days Judah will be saved and Jerusalem will live in safety. This is the name by which it will be called: The LORD Our Righteousness.' 17 For this is what the LORD says: 'David will never fail to have a man to sit on the throne of the house of Israel, 18 nor will the priests, who are Levites, ever fail to have a man to stand before me continually to offer burnt offerings, to burn grain offerings and to present sacrifices.'“ (NIV)",
+          "text": "<span class=\"scripture\">\"'The days are coming,' declares the LORD, 'when I will fulfill the gracious promise I made to the house of Israel and to the house of Judah. <sup>15</sup> \"'In those days and at that time I will make a righteous Branch sprout from David's line; he will do what is just and right in the land. <sup>16</sup> In those days Judah will be saved and Jerusalem will live in safety. This is the name by which it will be called: The LORD Our Righteousness.' <sup>17</sup> For this is what the LORD says: 'David will never fail to have a man to sit on the throne of the house of Israel, <sup>18</sup> <u>nor will the priests, who are Levites, ever fail to have a man to stand before me</u> continually to offer burnt offerings, to burn grain offerings and to present sacrifices.'“ <sub>(NIV)</sub></span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 91,
+            "x": 92,
             "y": 57,
-            "width": 785,
-            "height": 301,
+            "width": 784,
+            "height": 298,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 6",
           "static": true,
-          "text": "Jeremiah 33:14-18",
+          "text": "<span class=\"scripture\">Jeremiah 33:14-18</span>",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -573,9 +554,6 @@
             "width": 778,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "bold": true
           }
         }
       ]
@@ -587,20 +565,23 @@
           "sequence": 1,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "Melchizedek is both a king and a priest.",
+          "text": "<strong>Melchizedek is both a <u>king</u> and a <u>priest</u>.</strong>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 142,
-            "y": 335,
+            "y": 334,
             "width": 655,
-            "height": 49,
+            "height": 50,
             "rotation": 0
           },
+          "line": {
+            "width": 3
+          },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
-            "bold": true
+            "font_size": 43.0,
+            "bold": true,
+            "wrap": true
           }
         }
       ],
@@ -608,26 +589,25 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Then after his return from the defeat of Chedorlaomer and the kings who were with him, the king of Sodom went out to meet him at the valley of Shaveh (that is, the King's Valley). 18 And Melchizedek king of Salem brought out bread and wine; now he was a priest of God Most High. 19 He blessed him and said, \"Blessed be Abram of God Most High, Possessor of heaven and earth;",
+          "text": "<span class=\"scripture\">Then after his return from the defeat of Chedorlaomer and the kings who were with him, the king of Sodom went out to meet him at the valley of Shaveh (that is, the King's Valley). <sup>18</sup> And Melchizedek <strong><u>king</u></strong> of Salem brought out bread and wine; now he was a <strong><u>priest</u></strong> of God Most High. <sup>19</sup> He blessed him and said, \"Blessed be Abram of God Most High, Possessor of heaven and earth;</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 120,
-            "y": 73,
-            "width": 727,
-            "height": 213,
+            "y": 74,
+            "width": 728,
+            "height": 211,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "+mn-lt",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Genesis 14:17-19",
+          "text": "<span class=\"scripture\">Genesis 14:17-19</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -638,9 +618,7 @@
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "font_name": "+mn-lt",
-            "bold": true
+            "align": "left"
           }
         }
       ]
@@ -652,18 +630,20 @@
           "sequence": 1,
           "shape_name": "Rectangle 15",
           "timing": "click",
-          "text": "Only spiritual things last forever.",
+          "text": "<strong>Only spiritual things last forever.</strong>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 257,
-            "y": 437,
+            "x": 256,
+            "y": 436,
             "width": 478,
             "height": 52,
             "rotation": 0
           },
+          "line": {
+            "width": 3
+          },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true,
             "color": "#0000FF"
@@ -674,7 +654,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Hebrews 7:1-10",
+          "text": "<span class=\"scripture\">Hebrews 7:1-10</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -685,29 +665,24 @@
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
-            "bold": true
+            "align": "left"
           }
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "This Melchizedek was king of Salem and priest of God Most High. He met Abraham returning from the defeat of the kings and blessed him, 2 and Abraham gave him a tenth of everything. First, his name means \"king of righteousness\"; then also, \"king of Salem\" means \"king of peace.\" 3 Without father or mother, without genealogy, without beginning of days or end of life, like the Son of God he remains a priest forever.4Just think how great he was: Even the patriarch Abraham gave him a tenth of the plunder! 5 Now the law requires the descendants of Levi who become priests to collect a tenth from the people—that is, from their fellow Israelites—even though they also are descended from Abraham. 6 This man, however, did not trace his descent from Levi, yet he collected a tenth from Abraham and blessed him who had the promises. 7 And without doubt the lesser is blessed by the greater. 8 In the one case, the tenth is collected by people who die; but in the other case, by him who is declared to be living.",
+          "text": "<span class=\"scripture\">This <u>Melchizede</u>k was <u>king</u> of Salem and <u>priest</u> of God Most High. He met Abraham returning from the defeat of the kings and blessed him, <sup>2 </sup>and Abraham gave him a tenth of everything. First, his name means \"king of righteousness\"; then also, \"king of Salem\" means \"king of peace.\" <sup>3</sup> Without father or mother, without genealogy, without beginning of days or end of life, like the Son of God he <strong><u>remains a priest forever</u></strong>.<br/><br/><sup>4</sup>Just think how great he was: Even the patriarch Abraham gave him a tenth of the plunder! <sup>5</sup> Now the law requires the descendants of Levi who become priests to collect a tenth from the people—that is, from their fellow Israelites—even though they also are descended from Abraham. <sup>6</sup> This man, however, did not trace his descent from Levi, yet he collected a tenth from Abraham and blessed him who had the promises. <sup>7</sup> And without doubt the lesser is blessed by the greater. <sup>8</sup> In the one case, the tenth is collected by people who die; but in the other case, by him who is declared to be living.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 71,
+            "x": 70,
             "y": 44,
-            "width": 827,
-            "height": 394,
+            "width": 826,
+            "height": 365,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 21.6
+            "wrap": true
           }
         }
       ]
@@ -719,20 +694,22 @@
           "sequence": 1,
           "shape_name": "Rectangle 16",
           "timing": "click",
-          "text": "Unlawful for Jesus to become High Priest under Mosaic Law.Jesus is High Priest under the “New Order”",
+          "text": "<strong>Unlawful for Jesus to become High Priest under Mosaic Law.</strong><br/><strong>Jesus is High Priest under the “New Order”</strong>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 73,
-            "y": 447,
+            "x": 74,
+            "y": 448,
             "width": 814,
-            "height": 79,
+            "height": 141,
             "rotation": 0
+          },
+          "line": {
+            "width": 3
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true,
             "color": "#181818"
@@ -743,19 +720,15 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Hebrews 7:11-19",
+          "text": "<span class=\"scripture\">Hebrews 7:11-19</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 73,
+            "x": 74,
             "y": 9,
             "width": 778,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "bold": true
           }
         },
         {
@@ -764,7 +737,7 @@
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
-            "x": 168,
+            "x": 167,
             "y": 194,
             "width": 0,
             "height": 0,
@@ -774,11 +747,11 @@
         {
           "shape_name": "TextBox 5",
           "static": true,
-          "text": "Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron? 12 For when the priesthood is changed, of necessity there takes place a change of law also. 13 For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar. 14 For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests. 15 And this is clearer still, if another priest arises according to the likeness of Melchizedek, 16 who has become such not on the basis of a law of physical requirement, but according to the power of an indestructible life. 17 For it is attested of Him, \"You ARE A PRIEST FOREVER ACCORDING TO THE ORDER OF MELCHIZEDEK.\" 18 For, on the one hand, there is a setting aside of a former commandment because of its weakness and uselessness 19 (for the Law made nothing perfect), and on the other hand there is a bringing in of a better hope, through which we draw near to God. (NASB95)",
+          "text": "<span class=\"scripture\">Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron? <sup>12</sup> <strong><u>For when the priesthood is changed, of necessity there takes place a change of law also.</u> </strong><sup>13</sup> For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar. <sup>14</sup> <strong>For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests.</strong> <sup>15</sup> And this is clearer still, if another priest arises according to the likeness of Melchizedek, <sup>16</sup> who has become such <strong>not on the basis of a law of physical requirement, but according to the power of an indestructible life. </strong><br/><sup>17</sup> For it is attested of Him, <br/><strong>\"You ARE A PRIEST FOREVER ACCORDING TO THE ORDER OF MELCHIZEDEK.\" </strong><br/><sup>18</sup> For, on the one hand, there is a setting aside of a former commandment because of its <strong>weakness</strong> and <strong>uselessness</strong> <sup>19</sup> (for the Law made nothing perfect), and on the other hand there is a bringing in of a <strong>better hope</strong>, through which we draw near to God. (NASB95)</span>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
-            "x": 73,
+            "x": 74,
             "y": 53,
             "width": 814,
             "height": 376,
@@ -786,9 +759,7 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 20.4
+            "wrap": true
           }
         },
         {
@@ -813,22 +784,21 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "Physical = Weak SinfulSpiritual = Perfect ForeverPermanent Priesthood",
+          "text": "<strong>Physical = Weak Sinful</strong><br/><strong>Spiritual = Perfect Forever</strong><br/><strong><u>Permanent Priesthood</u></strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
             "x": 228,
-            "y": 369,
+            "y": 327,
             "width": 490,
-            "height": 132,
+            "height": 216,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true
           }
         }
@@ -837,7 +807,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Hebrews 7:23-28",
+          "text": "<span class=\"scripture\">Hebrews 7:23-28</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -848,28 +818,24 @@
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "font_name": "+mn-lt",
-            "bold": true
+            "align": "left"
           }
         },
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "Now there have been many of those priests, since death prevented them from continuing in office; 24 but because Jesus lives forever, he has a permanent priesthood. 25 Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them. 26 Such a high priest meets our need — one who is holy, blameless, pure, set apart from sinners, exalted above the heavens. 27 Unlike the other high priests, he does not need to offer sacrifices day after day, first for his own sins, and then for the sins of the people. He sacrificed for their sins once for all when he offered himself. 28 For the law appoints as high priests men who are weak; but the oath, which came after the law, appointed the Son, who has been made perfect forever. (NIV)",
+          "text": "<span class=\"scripture\">Now there have been many of those priests, since death prevented them from continuing in office; <sup>24</sup> but <strong>because Jesus lives forever</strong>, he has a <strong>permanent priesthood</strong>. <sup>25</sup> Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them. <sup>26</sup> Such a high priest meets our need — one who is holy, blameless, pure, set apart from sinners, exalted above the heavens. <sup>27</sup> Unlike the other high priests, he does not need to offer sacrifices day after day, <strong>first for his own sins</strong>, and then for the sins of the people. He sacrificed for their sins once for all when he offered himself. <sup>28</sup> For the law appoints as high priests <strong>men who are weak</strong>; but the oath, which came after the law, appointed the Son, who has been made <strong>perfect forever</strong>.<sub> (NIV)</sub></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 98,
             "y": 67,
-            "width": 763,
-            "height": 298,
+            "width": 764,
+            "height": 296,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 21.6
+            "wrap": true
           }
         },
         {
@@ -894,12 +860,12 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "King & Lord Forever",
+          "text": "<strong>King &amp; Lord Forever</strong>",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
             "x": 229,
-            "y": 299,
+            "y": 298,
             "width": 482,
             "height": 86,
             "rotation": 0
@@ -908,7 +874,6 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 38.4,
             "bold": true,
             "color": "#0000FF"
@@ -924,35 +889,33 @@
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 92,
-            "y": 53,
+            "y": 54,
             "width": 770,
-            "height": 97,
+            "height": 94,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "font_size": 24.0,
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "Revelation 19:16And on His robe and on His thigh He has a name written, \"KING OF KINGS, AND LORD OF LORDS.\"",
+          "text": "<span class=\"scripture\"><strong>Revelation 19:16</strong><br/>And on His robe and on His thigh He has a name written, \"KING OF KINGS, AND LORD OF LORDS.\"</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 88,
-            "y": 162,
-            "width": 763,
-            "height": 103,
+            "y": 163,
+            "width": 764,
+            "height": 100,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 28.8,
-            "bold": true
+            "wrap": true
           }
         },
         {
@@ -1001,15 +964,15 @@
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 84,
-            "y": 82,
+            "y": 40,
             "width": 814,
-            "height": 132,
+            "height": 216,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 33.6
+            "font_size": 43.0,
+            "wrap": true
           }
         },
         {
@@ -1019,7 +982,7 @@
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 91,
+            "x": 92,
             "y": 41,
             "width": 778,
             "height": 40,
@@ -1043,36 +1006,34 @@
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 90,
-            "y": 52,
+            "x": 91,
+            "y": 53,
             "width": 814,
-            "height": 97,
+            "height": 94,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "font_size": 24.0,
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "Psalms 60:6-7God has spoken in His holiness: \"I will exult, I will portion out Shechem  and measure out the valley of Succoth. 7 \"Gilead is Mine, and Manasseh is Mine; Ephraim also is the helmet of My head; Judah is My scepter.",
+          "text": "<span class=\"scripture\"><strong>Psalms 60:6-7</strong><br/>God has spoken in His holiness: \"I will exult, I will portion out Shechem  and measure out the valley of Succoth. <sup>7</sup> \"Gilead is Mine, and Manasseh is Mine; Ephraim also is the helmet of My head; Judah is My scepter.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 84,
-            "y": 162,
+            "y": 157,
             "width": 806,
-            "height": 138,
+            "height": 147,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         },
         {
@@ -1083,7 +1044,7 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 89,
-            "y": 13,
+            "y": 14,
             "width": 778,
             "height": 40,
             "rotation": 0
@@ -1097,21 +1058,18 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Hebrews 7:14For it is clear that our Lord descended from Judah, and in regard to that tribe Moses said nothing about priests.",
+          "text": "<span class=\"scripture\"><strong>Hebrews 7:14</strong><br/>For it is clear that our Lord descended from Judah, and in regard to that tribe Moses said nothing about priests.</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 84,
             "y": 312,
             "width": 706,
-            "height": 109,
+            "height": 118,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         }
       ]
@@ -1127,7 +1085,7 @@
           "shape_type": "connector",
           "layout": {
             "x": 286,
-            "y": 241,
+            "y": 242,
             "width": 590,
             "height": 0,
             "rotation": 0
@@ -1138,22 +1096,22 @@
           },
           "path": {
             "start": {
-              "x": 286,
-              "y": 241
+              "x": 381,
+              "y": 322
             },
             "end": {
-              "x": 876,
-              "y": 241
+              "x": 1168,
+              "y": 322
             }
           },
           "line_endpoints": {
             "from": {
               "x": 581,
-              "y": 241
+              "y": 242
             },
             "to": {
               "x": 581,
-              "y": 241
+              "y": 242
             }
           }
         },
@@ -1166,7 +1124,7 @@
           "layout": {
             "x": 106,
             "y": 270,
-            "width": 79,
+            "width": 80,
             "height": 1,
             "rotation": 0
           },
@@ -1176,12 +1134,12 @@
           },
           "path": {
             "start": {
-              "x": 106,
-              "y": 270
+              "x": 141,
+              "y": 360
             },
             "end": {
-              "x": 185,
-              "y": 271
+              "x": 247,
+              "y": 361
             }
           },
           "line_endpoints": {
@@ -1214,12 +1172,12 @@
           },
           "path": {
             "start": {
-              "x": 278,
-              "y": 270
+              "x": 371,
+              "y": 360
             },
             "end": {
-              "x": 854,
-              "y": 270
+              "x": 1139,
+              "y": 360
             }
           },
           "line_endpoints": {
@@ -1240,7 +1198,7 @@
           "z_index": 5,
           "shape_type": "connector",
           "layout": {
-            "x": 163,
+            "x": 164,
             "y": 308,
             "width": 374,
             "height": 0,
@@ -1252,21 +1210,21 @@
           },
           "path": {
             "start": {
-              "x": 163,
-              "y": 308
+              "x": 218,
+              "y": 411
             },
             "end": {
-              "x": 537,
-              "y": 308
+              "x": 717,
+              "y": 411
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 350,
+              "x": 351,
               "y": 308
             },
             "to": {
-              "x": 350,
+              "x": 351,
               "y": 308
             }
           }
@@ -1276,38 +1234,36 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "The angel said to her, \"Do not be afraid, Mary; for you have found favor with God. 31 \"And behold, you will conceive in your womb and bear a son, and you shall name Him Jesus. 32 \"He will be great and will be called the Son of the Most High; and the Lord God will give Him the throne of His father David; 33 and He will reign over the house of Jacob forever, and His kingdom will have no end.\"",
+          "text": "<span class=\"scripture\">The angel said to her, \"Do not be afraid, Mary; for you have found favor with God. <sup>31</sup> \"And behold, you will conceive in your womb and bear a son, and you shall name Him Jesus. <sup>32</sup> \"He will be great and will be called the Son of the Most High; and the Lord God will give Him the throne of His father David; <sup>33</sup> and He will reign over the house of Jacob forever, and His kingdom will have no end.\"</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 98,
-            "y": 60,
+            "y": 61,
             "width": 792,
-            "height": 254,
+            "height": 251,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 28.8
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Luke 1:30-33",
+          "text": "<span class=\"scripture\">Luke 1:30-33</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 98,
-            "y": 25,
+            "y": 26,
             "width": 778,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "bold": true
+            "align": "left"
           }
         }
       ]
@@ -1322,9 +1278,9 @@
           "z_index": 6,
           "shape_type": "connector",
           "layout": {
-            "x": 293,
+            "x": 292,
             "y": 83,
-            "width": 173,
+            "width": 172,
             "height": 118,
             "rotation": 0
           },
@@ -1334,21 +1290,21 @@
           },
           "path": {
             "start": {
-              "x": 293,
-              "y": 83
+              "x": 390,
+              "y": 111
             },
             "end": {
-              "x": 466,
-              "y": 201
+              "x": 620,
+              "y": 268
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 380,
+              "x": 378,
               "y": 83
             },
             "to": {
-              "x": 380,
+              "x": 378,
               "y": 201
             }
           },
@@ -1360,42 +1316,37 @@
           "sequence": 2,
           "shape_name": "Rectangle 7",
           "timing": "with",
-          "text": "\"Do not be afraid, Mary, you have found favor with God. 31 You will be with child and give birth to a son, and you are to give him the name Jesus. 32 He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, 33 and he will reign over the house of Jacob forever; his kingdom will never end.\" 34 \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" 35 The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. 36 Even Elizabeth your relative is going to have a child in her old age, and she who was said to be barren is in her sixth month. (NIV)",
+          "text": "<span class=\"scripture\">\"Do not be afraid, <u>Mary</u>, you have found favor with God. <sup>31</sup> You will be with child and give birth to a son, and you are to give him the name Jesus. <sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, <sup>33</sup> and he will reign over the house of Jacob forever; his kingdom will never end.\" <sup>34</sup> \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" <sup>35</sup> The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. <sup>36</sup> Even <u>Elizabeth your relative </u>is going to have a child in her old age, and she who was said to be barren is in her sixth month. <sub>(NIV)</sub></span>",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 93,
             "y": 54,
             "width": 806,
-            "height": 196,
+            "height": 194,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 19.2
+            "wrap": true
           }
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "Luke 1:5In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife Elizabeth was also a descendant of Aaron. (NIV)",
+          "text": "<span class=\"scripture\"><strong>Luke 1:5</strong><br/>In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife Elizabeth was also a descendant of Aaron. <sub>(NIV)</sub></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 94,
             "y": 246,
             "width": 793,
-            "height": 97,
+            "height": 106,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         },
         {
@@ -1407,7 +1358,7 @@
           "layout": {
             "x": 610,
             "y": 216,
-            "width": 43,
+            "width": 44,
             "height": 104,
             "rotation": 0
           },
@@ -1417,12 +1368,12 @@
           },
           "path": {
             "start": {
-              "x": 610,
-              "y": 216
+              "x": 813,
+              "y": 288
             },
             "end": {
-              "x": 653,
-              "y": 320
+              "x": 871,
+              "y": 427
             }
           },
           "line_endpoints": {
@@ -1443,44 +1394,38 @@
           "sequence": 5,
           "shape_name": "Rectangle 6",
           "timing": "with",
-          "text": "Luke 1:5In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife Elizabeth was also a descendant of Aaron. (NIV)",
+          "text": "<span class=\"scripture\"><strong>Luke 1:5</strong><br/>In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife <u>Elizabeth was also a descendant of Aaron</u>. <sub>(NIV)</sub></span>",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 94,
             "y": 246,
             "width": 793,
-            "height": 97,
+            "height": 106,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         },
         {
           "sequence": 6,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "Matthew 1:1, 16The record of the genealogy of Jesus the Messiah, the son of David, the son of Abraham: 2Abraham was the father of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers. 3 Judah was the father of Perez and Zerah by Tamar, Perez… Obed the father of Jesse,6 and Jesse the father of King David…16 Jacob was the father of Joseph the husband of Mary, by whom Jesus was born, who is called the Messiah.",
+          "text": "<span class=\"scripture\"><strong>Matthew 1:1, 16</strong><br/>The record of the genealogy of Jesus the Messiah, the son of David, the son of Abraham: <sup>2</sup>Abraham was the father of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers. <sup>3 </sup>Judah was the father of Perez and Zerah by Tamar, Perez… Obed the father of Jesse,<sup>6 </sup>and Jesse the father of King David…<br/><sup>16</sup> Jacob was the father of Joseph the husband of Mary, by whom Jesus was born, who is called the Messiah.</span>",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 98,
             "y": 336,
             "width": 742,
-            "height": 164,
+            "height": 161,
             "rotation": 0
           },
           "font": {
             "v_align": "top",
             "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 28.8,
-            "bold": true,
             "color": "#000000"
           }
         },
@@ -1503,12 +1448,12 @@
           },
           "path": {
             "start": {
-              "x": 430,
-              "y": 389
+              "x": 573,
+              "y": 519
             },
             "end": {
-              "x": 596,
-              "y": 447
+              "x": 794,
+              "y": 597
             }
           },
           "line_endpoints": {
@@ -1533,7 +1478,7 @@
           "shape_type": "connector",
           "layout": {
             "x": 430,
-            "y": 449,
+            "y": 448,
             "width": 40,
             "height": 5,
             "rotation": 0
@@ -1544,22 +1489,22 @@
           },
           "path": {
             "start": {
-              "x": 430,
-              "y": 449
+              "x": 573,
+              "y": 598
             },
             "end": {
-              "x": 470,
-              "y": 454
+              "x": 626,
+              "y": 605
             }
           },
           "line_endpoints": {
             "from": {
               "x": 450,
-              "y": 449
+              "y": 448
             },
             "to": {
               "x": 450,
-              "y": 454
+              "y": 453
             }
           },
           "arrow_ends": {
@@ -1576,14 +1521,16 @@
           "layout": {
             "x": 84,
             "y": 494,
-            "width": 763,
-            "height": 36,
+            "width": 764,
+            "height": 34,
             "rotation": 0
+          },
+          "line": {
+            "width": 3
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "color": "#0000FF"
           }
@@ -1593,39 +1540,35 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Luke 1:30-36",
+          "text": "<span class=\"scripture\">Luke 1:30-36</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 91,
+            "x": 92,
             "y": 18,
             "width": 778,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "font_size": 33.6,
-            "bold": true
+            "align": "left"
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "\"Do not be afraid, Mary, you have found favor with God. 31 You will be with child and give birth to a son, and you are to give him the name Jesus. 32 He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, 33 and he will reign over the house of Jacob forever; his kingdom will never end.\" 34 \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" 35 The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. 36 Even Elizabeth your relative is going to have a child in her old age, and she who was said to be barren is in her sixth month. (NIV)",
+          "text": "<span class=\"scripture\">\"Do not be afraid, Mary, you have found favor with God. <sup>31</sup> You will be with child and give birth to a son, and you are to give him the name Jesus. <sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, <sup>33</sup> and he will reign over the house of Jacob forever; his kingdom will never end.\" <sup>34</sup> \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" <sup>35</sup> The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. <sup>36</sup> Even Elizabeth your relative is going to have a child in her old age, and she who was said to be barren is in her sixth month. <sub>(NIV)</sub></span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 93,
             "y": 54,
             "width": 806,
-            "height": 196,
+            "height": 194,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 19.2
+            "wrap": true
           }
         }
       ]
@@ -1637,65 +1580,60 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "\"For thus says the Lord: 'David shall never lack a man to sit on the throne of the house of Israel; 18 nor shall the priests, the Levites, lack a man to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'",
+          "text": "<span class=\"scripture\">\"For thus says the Lord: '<strong>David shall never lack a man </strong>to sit <strong>on the throne </strong>of the house of Israel; <sup>18</sup> <strong>nor shall the priests, the Levites, lack a man </strong>to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 78,
-            "y": 60,
-            "width": 821,
-            "height": 88,
+            "x": 77,
+            "y": 62,
+            "width": 820,
+            "height": 86,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 21.6
+            "wrap": true
           }
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 4",
           "timing": "with",
-          "text": "Zechariah 6:11-13\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. 12 \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. 13 \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a priest on His throne, and the counsel of peace will be between the two offices.'\"",
+          "text": "<span class=\"scripture\"><strong>Zechariah 6:11-13</strong><br/>\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. <sup>12</sup> \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. <sup>13</sup> \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a <u>priest</u> on <u>His throne</u>, and the counsel of <strong>peace will be between the two offices</strong>.'\"</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 76,
-            "y": 190,
+            "y": 186,
             "width": 828,
-            "height": 234,
+            "height": 243,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         },
         {
           "sequence": 3,
           "shape_name": "Text Box 15",
           "timing": "with",
-          "text": "Offices Spiritually Joined – No longer divided",
+          "text": "<strong>Offices Spiritually Joined – No longer divided</strong>",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 132,
-            "y": 443,
+            "x": 131,
+            "y": 442,
             "width": 720,
-            "height": 36,
+            "height": 34,
             "rotation": 0
           },
           "fill": "#33CCFF",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#0000FF"
@@ -1706,47 +1644,43 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "\"For thus says the Lord: 'David shall never lack a man to sit on the throne of the house of Israel; 18 nor shall the priests, the Levites, lack a man to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'",
+          "text": "<span class=\"scripture\">\"For thus says the Lord: 'David shall never lack a man to sit on the throne of the house of Israel; <sup>18</sup> nor shall the priests, the Levites, lack a man to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 78,
-            "y": 60,
-            "width": 821,
-            "height": 88,
+            "x": 77,
+            "y": 62,
+            "width": 820,
+            "height": 86,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 21.6
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Zechariah 6:11-13\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. 12 \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. 13 \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a priest on His throne, and the counsel of peace will be between the two offices.'\"",
+          "text": "<span class=\"scripture\"><strong>Zechariah 6:11-13</strong><br/>\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. <sup>12</sup> \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. <sup>13</sup> \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a priest on His throne, and the counsel of peace will be between the two offices.'\"</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 76,
-            "y": 190,
+            "y": 186,
             "width": 828,
-            "height": 234,
+            "height": 243,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Jeremiah 33:17-18",
+          "text": "<span class=\"scripture\">Jeremiah 33:17-18</span>",
           "z_index": 4,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1757,8 +1691,7 @@
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "bold": true
+            "align": "left"
           }
         }
       ]
@@ -1770,11 +1703,11 @@
           "sequence": 1,
           "shape_name": "TextBox 6",
           "timing": "click",
-          "text": "King PriestPriest King",
+          "text": "<strong>King Priest</strong><br/><strong>Priest King</strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 473,
+            "x": 472,
             "y": 56,
             "width": 266,
             "height": 107,
@@ -1789,8 +1722,7 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true
           }
         },
@@ -1798,21 +1730,21 @@
           "sequence": 2,
           "shape_name": "TextBox 10",
           "timing": "click",
-          "text": "All members born through the Church have a dual nature in the Kingdom",
+          "text": "All members born through the Church \nhave a dual nature in the Kingdom",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
-            "x": 149,
+            "x": 148,
             "y": 410,
-            "width": 641,
+            "width": 640,
             "height": 86,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 28.8
+            "font_size": 28.8,
+            "wrap": true
           }
         }
       ],
@@ -1825,8 +1757,8 @@
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 92,
-            "y": 31,
-            "width": 582,
+            "y": 32,
+            "width": 583,
             "height": 44,
             "rotation": 0
           },
@@ -1837,7 +1769,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "But you are a chosen people, a royal priesthood, a holy nation, God’s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
+          "text": "But you are a chosen people, <br/>a <strong><u>royal</u> <u>priesthood</u></strong>, <br/>a <strong><u>holy</u> <u>nation</u></strong>, <br/>God’s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1850,7 +1782,6 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 24.0
           }
         },
@@ -1909,7 +1840,7 @@
         {
           "shape_name": "TextBox 13",
           "static": true,
-          "text": "James 1:12Blessed is a man who perseveres under trial; for once he has been approved, he will receive the crown of life which the Lord has promised to those who love Him.",
+          "text": "<span class=\"scripture\"><strong>James 1:12</strong><br/>Blessed is a man who perseveres under trial; for once he has been approved, he will receive the <strong>crown of life </strong>which the Lord has promised to those who love Him.<br/></span>",
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
@@ -1921,10 +1852,7 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
-            "bold": true
+            "wrap": true
           }
         }
       ]
@@ -1936,38 +1864,36 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Wives, be subject to your own husbands, as to the Lord. 23 For the husband is the head of the wife, as Christ also is the head of the church, He Himself being the Savior of the body. 24 But as the church is subject to Christ, so also the wives ought to be to their husbands in everything. 25 Husbands, love your wives, just as Christ also loved the church and gave Himself up for her,",
+          "text": "<span class=\"scripture\">Wives, be subject to your own husbands, as to the Lord. <sup>23</sup> For the husband is the head of the wife, as <strong>Christ also is the head of the church</strong>, He Himself being the Savior of the body. <sup>24</sup> But as the <strong>church is subject to Christ</strong>, so also the wives ought to be to their husbands in everything. <sup>25</sup> Husbands, love your wives, just as Christ also loved the church and gave Himself up for her,</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 98,
-            "y": 68,
-            "width": 763,
-            "height": 184,
+            "y": 69,
+            "width": 764,
+            "height": 182,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Ephesians 5:22-25",
+          "text": "<span class=\"scripture\">Ephesians 5:22-25</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 98,
-            "y": 29,
+            "y": 28,
             "width": 778,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "bold": true
+            "align": "left"
           }
         },
         {
@@ -1986,22 +1912,19 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "Galatians 3:26-28For you are all sons of God through faith in Christ Jesus. 27 For all of you who were baptized into Christ have clothed yourselves with Christ. 28 There is neither Jew nor Greek, there is neither slave nor free man, there is neither male nor female; for you are all one in Christ Jesus. (NASB95)",
+          "text": "<span class=\"scripture\"><strong>Galatians 3:26-28</strong><br/><u>For </u><strong><u>you are all sons of God</u></strong><u> through faith in Christ Jesus</u>. <sup>27</sup> For all of you who were baptized into Christ have clothed yourselves with Christ. <sup>28</sup> There is neither Jew nor Greek, there is neither slave nor free man, <strong>there is neither male nor female</strong>; for you are all one in Christ Jesus. <sub>(NASB95)</sub></span>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
             "x": 98,
             "y": 271,
-            "width": 763,
+            "width": 764,
             "height": 180,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 28.8,
-            "bold": true
+            "wrap": true
           }
         }
       ]
@@ -2013,38 +1936,36 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "And they sang a new song, saying: \"You are worthy to take the scroll, And to open its seals; For You were slain, And have redeemed us to God by Your blood out of every tribe and tongue and people and nation, 10 And have made us kings and priests to our God; And we shall reign on the earth.\"",
+          "text": "<span class=\"scripture\">And they sang a new song, saying: \"You are worthy to take the scroll, And to open its seals; For You were slain, And have redeemed us to God by Your blood out of every tribe and tongue and people and nation, <sup>10</sup> And have made us kings and priests to our God; And we shall reign on the earth.\"</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 91,
-            "y": 66,
+            "x": 92,
+            "y": 68,
             "width": 778,
-            "height": 155,
+            "height": 153,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Revelation 5:9-10",
+          "text": "<span class=\"scripture\">Revelation 5:9-10</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 91,
-            "y": 25,
+            "x": 92,
+            "y": 26,
             "width": 778,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "bold": true
+            "align": "left"
           }
         }
       ]
@@ -2056,14 +1977,14 @@
           "sequence": 1,
           "shape_name": "Text Box 5",
           "timing": "click",
-          "text": "The Church is offensive, militant, and on the move",
+          "text": "<strong>The Church is offensive, militant, and on the move</strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
             "x": 218,
             "y": 464,
-            "width": 541,
-            "height": 36,
+            "width": 538,
+            "height": 34,
             "rotation": 0
           },
           "line": {
@@ -2071,9 +1992,9 @@
             "color": "#000000"
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 21.6,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         }
       ],
@@ -2085,56 +2006,52 @@
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 77,
-            "y": 46,
-            "width": 821,
-            "height": 88,
+            "x": 76,
+            "y": 47,
+            "width": 820,
+            "height": 86,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 21.6
+            "font_size": 21.6,
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "Ephesians 6:10-12Finally, my brethren, be strong in the Lord and in the power of His might. 11 Put on the whole armor of God, that you may be able to stand against the wiles of the devil. 12 For we do not wrestle against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this age, against spiritual hosts of wickedness in the heavenly places.",
+          "text": "<span class=\"scripture\"><strong>Ephesians 6:10-12</strong><br/>Finally, my brethren, be strong in the Lord and in the power of His might. <sup>11</sup> Put on the whole armor of God, that you may be able to stand against the wiles of the devil. <sup>12</sup> For we do not wrestle against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this age, against spiritual hosts of wickedness in the heavenly places.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 75,
-            "y": 142,
+            "y": 144,
             "width": 806,
-            "height": 175,
+            "height": 173,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 28.8,
-            "bold": true
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Matthew 28:18-19And Jesus came and spoke to them, saying, \"All authority has been given to Me in heaven and on earth. 19 Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit",
+          "text": "<span class=\"scripture\"><strong>Matthew 28:18-19</strong><br/>And Jesus came and spoke to them, saying, \"All authority has been given to Me in heaven and on earth. <sup>19</sup> Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 74,
-            "y": 327,
-            "width": 799,
-            "height": 123,
+            "y": 328,
+            "width": 800,
+            "height": 121,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 28.8,
-            "bold": true
+            "wrap": true
           }
         },
         {
@@ -2165,19 +2082,21 @@
           "sequence": 1,
           "shape_name": "Rectangle 12",
           "timing": "click",
-          "text": "When Christ became King He issued a decree of war.",
+          "text": "<strong>When Christ became King He issued a decree of war.</strong>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 104,
-            "y": 263,
-            "width": 751,
-            "height": 36,
+            "y": 262,
+            "width": 752,
+            "height": 34,
             "rotation": 0
+          },
+          "line": {
+            "width": 3
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 21.6,
             "bold": true,
             "color": "#0000FF"
@@ -2187,14 +2106,14 @@
           "sequence": 2,
           "shape_name": "TextBox 7",
           "timing": "click",
-          "text": "Consider the Tutor: Physical Israel tribe ratio of 11:1 11 non-priestly tribes to 1 priestly tribeMost resources were dedicated to the 11",
+          "text": "<strong>Consider the Tutor: </strong>Physical Israel tribe ratio of 11:1 <br/>11 non-priestly tribes to 1 priestly tribe<br/>Most resources were dedicated to the 11",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
             "x": 152,
             "y": 300,
             "width": 657,
-            "height": 97,
+            "height": 94,
             "rotation": 0
           },
           "line": {
@@ -2204,7 +2123,6 @@
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true
           }
@@ -2220,12 +2138,11 @@
             "x": 108,
             "y": 396,
             "width": 743,
-            "height": 39,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 24.0
           }
         },
@@ -2233,12 +2150,12 @@
           "sequence": 4,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "Priestly allocations (multi-million dollar mega-churches, paid staff, multi-media, etc.)far exceed the royal – the opposite of the tutor. In contrast, most of the New Testament scriptures focus on edification (sword training) and evangelism rather than priestly/worship activities – precisely like Israel!",
+          "text": "<strong>Priestly allocations </strong>(multi-million dollar mega-churches, paid staff, multi-media, etc.)<br/><strong>far exceed the royal </strong>– the opposite of the tutor. <br/>In contrast, most of the New Testament scriptures focus on edification (sword training) and evangelism rather than priestly/worship activities – precisely like Israel!",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 71,
-            "y": 429,
+            "x": 70,
+            "y": 428,
             "width": 820,
             "height": 93,
             "rotation": 0
@@ -2246,7 +2163,6 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 16.8,
             "bold": true
           }
@@ -2256,38 +2172,39 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "For though we live in the world, we do not wage war as the world does. 4 The weapons we fight with are not the weapons of the world. On the contrary, they have divine power to demolish strongholds. 5 We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ. 6 And we will be ready to punish every act of disobedience, once your obedience is complete. (NIV)",
+          "text": "<span class=\"scripture\">For though we live in the world, we do not wage war as the world does. <sup>4</sup> The weapons we fight with are not the weapons of the world. On the contrary, they have divine power to demolish strongholds. <sup>5 </sup>We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ. <sup>6</sup> And we will be ready to punish every act of disobedience, once your obedience is complete. <sub>(NIV)</sub></span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 84,
             "y": 57,
             "width": 768,
-            "height": 213,
+            "height": 211,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "2 Corinthians 10:3-6",
+          "text": "<span class=\"scripture\">2 Corinthians 10:3-6</span>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
             "x": 84,
-            "y": 23,
+            "y": 22,
             "width": 778,
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "align": "left",
-            "font_size": 28.8
+            "align": "left"
           }
         },
         {
@@ -2317,35 +2234,35 @@
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 90,
-            "y": 61,
+            "y": 62,
             "width": 806,
-            "height": 68,
+            "height": 65,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "font_size": 24.0,
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "1Timothy 2:5For there is one God, and one mediator also between God and men, the man Christ Jesus,",
+          "text": "<strong>1Timothy 2:5</strong><br/>For there is one God, and one mediator also between God and men, the man Christ Jesus,",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 90,
-            "y": 154,
+            "y": 150,
             "width": 792,
-            "height": 109,
+            "height": 118,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 33.6,
-            "bold": true
+            "font_size": 43.0,
+            "bold": true,
+            "wrap": true
           }
         },
         {
@@ -2355,7 +2272,7 @@
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 91,
+            "x": 92,
             "y": 20,
             "width": 778,
             "height": 40,
@@ -2375,38 +2292,36 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "\"But do not be called Rabbi; for One is your Teacher, and you are all brothers. 9 \"Do not call anyone on earth your father; for One is your Father, He who is in heaven. 10 \"Do not be called leaders; for One is your Leader, that is, Christ.",
+          "text": "<span class=\"scripture\">\"But do not be called Rabbi; for One is your Teacher, and you are all brothers. <sup>9</sup> \"Do not call anyone on earth your father; for One is your Father, He who is in heaven. <sup>10</sup> \"Do not be called leaders; for One is your Leader, that is, Christ.</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 106,
-            "y": 68,
+            "y": 69,
             "width": 770,
-            "height": 126,
+            "height": 124,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Matthew 23:8-10",
+          "text": "<span class=\"scripture\">Matthew 23:8-10</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 106,
-            "y": 25,
+            "y": 26,
             "width": 778,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "bold": true
+            "align": "left"
           }
         }
       ]
@@ -2423,15 +2338,14 @@
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 106,
-            "y": 74,
-            "width": 763,
-            "height": 68,
+            "y": 76,
+            "width": 764,
+            "height": 65,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 24.0
           }
         },
@@ -2462,27 +2376,25 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "For you yourselves know how you ought to follow our example, because we did not act in an undisciplined manner among you, 8 nor did we eat anyone's bread without paying for it, but with labor and hardship we kept working night and day so that we would not be a burden to any of you; 9 not because we do not have the right to this, but in order to offer ourselves as a model for you, so that you would follow our example. 10 For even when we were with you, we used to give you this order: if anyone is not willing to work, then he is not to eat, either. 11 For we hear that some among you are leading an undisciplined life, doing no work at all, but acting like busybodies. (NASB95)",
+          "text": "<span class=\"scripture\">For you yourselves know how you ought to follow our example, because we did not act in an undisciplined manner among you, <sup>8</sup> nor did we eat anyone's bread without paying for it, but with labor and hardship we kept working night and day so that we would not be a burden to any of you; <sup>9</sup> not because we do not have the right to this, but in order to offer ourselves as a model for you, so that you would follow our example. <sup>10</sup> For even when we were with you, we used to give you this order: if anyone is not willing to work, then he is not to eat, either. <sup>11</sup> For we hear that some among you are leading an undisciplined life, doing no work at all, but acting like busybodies. (NASB95)</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 102,
-            "y": 72,
-            "width": 763,
-            "height": 330,
+            "x": 103,
+            "y": 73,
+            "width": 764,
+            "height": 327,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 24.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "2 Thessalonians 3:7-11",
+          "text": "<span class=\"scripture\">2 Thessalonians 3:7-11</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -2493,8 +2405,7 @@
             "rotation": 0
           },
           "font": {
-            "align": "left",
-            "bold": true
+            "align": "left"
           }
         }
       ]
@@ -2511,10 +2422,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 55,
-            "y": 53,
+            "x": 56,
+            "y": 52,
             "width": 419,
-            "height": 475,
+            "height": 476,
             "rotation": 0
           },
           "fill": "#F4F4F4"
@@ -2526,7 +2437,7 @@
           "z_index": 34,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 55,
+            "x": 56,
             "y": 54,
             "width": 850,
             "height": 0,
@@ -2538,11 +2449,11 @@
           },
           "line_endpoints": {
             "from": {
-              "x": 480,
+              "x": 481,
               "y": 54
             },
             "to": {
-              "x": 480,
+              "x": 481,
               "y": 54
             }
           }
@@ -2550,42 +2461,40 @@
         {
           "sequence": 3,
           "shape_name": "Text Box 13",
-          "text": "LEVITICAL",
+          "text": "<strong>LEVITICAL </strong>",
           "timing": "with",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
-            "x": 155,
+            "x": 131,
             "y": 55,
-            "width": 203,
-            "height": 50,
+            "width": 251,
+            "height": 59,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true
           }
         },
         {
           "sequence": 4,
           "shape_name": "TextBox 3",
-          "text": "Tribe of Levi, Order of Aaron",
+          "text": "<strong><em>Tribe of Levi, Order of Aaron </em></strong>",
           "timing": "with",
           "z_index": 19,
           "shape_type": "text_box",
           "layout": {
             "x": 84,
-            "y": 97,
-            "width": 341,
+            "y": 98,
+            "width": 340,
             "height": 42,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true,
             "italic": true
@@ -2594,7 +2503,7 @@
         {
           "sequence": 5,
           "shape_name": "Text Box 18",
-          "text": "Source: Physical AncestryWeak Sinful Priest(s)Temporary PriesthoodExternal Regulations",
+          "text": "<strong>Source: Physical Ancestry</strong><br/><strong>Weak Sinful Priest(s)</strong><br/><strong>Temporary Priesthood</strong><br/><strong>External Regulations</strong>",
           "timing": "with",
           "z_index": 7,
           "shape_type": "text_box",
@@ -2607,7 +2516,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 21.6,
             "bold": true
           }
@@ -2615,7 +2523,7 @@
         {
           "sequence": 6,
           "shape_name": "Text Box 8",
-          "text": "Genesis 14:17, Hebrews 7",
+          "text": "<strong>Genesis 14:17, Hebrews 7</strong>",
           "timing": "click",
           "z_index": 21,
           "shape_type": "text_box",
@@ -2629,7 +2537,6 @@
           "font": {
             "v_align": "top",
             "align": "center",
-            "font_name": "Arial",
             "font_size": 21.6,
             "bold": true
           },
@@ -2647,9 +2554,9 @@
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 475,
-            "y": 53,
+            "y": 52,
             "width": 430,
-            "height": 475,
+            "height": 476,
             "rotation": 0
           },
           "fill": "#33CCFF"
@@ -2657,7 +2564,7 @@
         {
           "sequence": 8,
           "shape_name": "TextBox 26",
-          "text": "“New Order”",
+          "text": "<strong><em>“New Order”</em></strong>",
           "timing": "with",
           "z_index": 20,
           "shape_type": "text_box",
@@ -2665,13 +2572,12 @@
             "x": 484,
             "y": 102,
             "width": 176,
-            "height": 35,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true,
             "italic": true,
@@ -2681,7 +2587,7 @@
         {
           "sequence": 9,
           "shape_name": "TextBox 84",
-          "text": "of Melchizedek Indestructible Life",
+          "text": "<strong><em>of Melchizedek</em></strong><br/><strong><em> Indestructible Life</em></strong>",
           "timing": "click",
           "z_index": 35,
           "shape_type": "text_box",
@@ -2696,7 +2602,6 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "italic": true
@@ -2705,21 +2610,20 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 16",
-          "text": "MELCHIZEDEKIAN",
+          "text": "<strong>MELCHIZEDEKIAN</strong>",
           "timing": "with",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
-            "x": 526,
+            "x": 485,
             "y": 57,
-            "width": 323,
-            "height": 50,
+            "width": 404,
+            "height": 59,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true,
             "color": "#0000FF"
           }
@@ -2727,13 +2631,13 @@
         {
           "sequence": 11,
           "shape_name": "TextBox 5",
-          "text": "”A better hope”",
+          "text": "<strong><em>”A better hope”</em></strong>",
           "timing": "with",
           "z_index": 36,
           "shape_type": "text_box",
           "layout": {
             "x": 488,
-            "y": 125,
+            "y": 124,
             "width": 172,
             "height": 36,
             "rotation": 0
@@ -2741,7 +2645,6 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 19.2,
             "bold": true,
             "italic": true,
@@ -2757,7 +2660,7 @@
           "layout": {
             "x": 375,
             "y": 288,
-            "width": 169,
+            "width": 170,
             "height": 1,
             "rotation": 0
           },
@@ -2767,12 +2670,12 @@
           },
           "path": {
             "start": {
-              "x": 375,
-              "y": 288
+              "x": 500,
+              "y": 384
             },
             "end": {
-              "x": 544,
-              "y": 289
+              "x": 726,
+              "y": 385
             }
           },
           "line_endpoints": {
@@ -2808,12 +2711,12 @@
           },
           "path": {
             "start": {
-              "x": 375,
-              "y": 315
+              "x": 500,
+              "y": 420
             },
             "end": {
-              "x": 546,
-              "y": 315
+              "x": 728,
+              "y": 420
             }
           },
           "line_endpoints": {
@@ -2849,12 +2752,12 @@
           },
           "path": {
             "start": {
-              "x": 375,
-              "y": 339
+              "x": 500,
+              "y": 452
             },
             "end": {
-              "x": 546,
-              "y": 341
+              "x": 728,
+              "y": 454
             }
           },
           "line_endpoints": {
@@ -2890,12 +2793,12 @@
           },
           "path": {
             "start": {
-              "x": 375,
-              "y": 365
+              "x": 500,
+              "y": 487
             },
             "end": {
-              "x": 546,
-              "y": 365
+              "x": 728,
+              "y": 487
             }
           },
           "line_endpoints": {
@@ -2915,20 +2818,19 @@
         {
           "sequence": 16,
           "shape_name": "Text Box 24",
-          "text": "Source: Indestructible LifePerfect ForeverPermanent PriesthoodInternal/Conscience Clean",
+          "text": "<strong>Source: Indestructible Life</strong><br/><strong>Perfect Forever</strong><br/><strong>Permanent Priesthood</strong><br/><strong>Internal/Conscience Clean</strong>",
           "timing": "with",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
-            "x": 553,
+            "x": 554,
             "y": 266,
-            "width": 336,
+            "width": 335,
             "height": 148,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 21.6,
             "bold": true
           }
@@ -2936,7 +2838,7 @@
         {
           "sequence": 17,
           "shape_name": "TextBox 2",
-          "text": "High Priest: Appointed For Life",
+          "text": "<strong><u>High Priest</u></strong><u>: Appointed For Life</u>",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -2949,9 +2851,9 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
-            "bold": true
+            "bold": true,
+            "underline": true
           }
         },
         {
@@ -2962,8 +2864,8 @@
           "shape_type": "connector",
           "layout": {
             "x": 422,
-            "y": 167,
-            "width": 79,
+            "y": 166,
+            "width": 80,
             "height": 0,
             "rotation": 0
           },
@@ -2973,22 +2875,22 @@
           },
           "path": {
             "start": {
-              "x": 422,
-              "y": 167
+              "x": 563,
+              "y": 222
             },
             "end": {
-              "x": 501,
-              "y": 167
+              "x": 669,
+              "y": 222
             }
           },
           "line_endpoints": {
             "from": {
               "x": 462,
-              "y": 167
+              "y": 166
             },
             "to": {
               "x": 462,
-              "y": 167
+              "y": 166
             }
           },
           "arrow_ends": {
@@ -2998,7 +2900,7 @@
         {
           "sequence": 19,
           "shape_name": "TextBox 33",
-          "text": "High Priest: Appointed For Eternity",
+          "text": "<strong><u>High Priest</u></strong><u>: Appointed For Eternity</u>",
           "timing": "with",
           "z_index": 17,
           "shape_type": "text_box",
@@ -3011,9 +2913,9 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
-            "bold": true
+            "bold": true,
+            "underline": true
           }
         },
         {
@@ -3033,14 +2935,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 19.2
           }
         },
         {
           "sequence": 21,
           "shape_name": "TextBox 4",
-          "text": "Jeremiah 33:14-18",
+          "text": "<span class=\"scripture\"><strong>Jeremiah 33:14-18 </strong></span>",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
@@ -3053,10 +2954,7 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 21.6,
-            "bold": true
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -3083,12 +2981,12 @@
           },
           "path": {
             "start": {
-              "x": 376,
-              "y": 219
+              "x": 502,
+              "y": 292
             },
             "end": {
-              "x": 583,
-              "y": 219
+              "x": 778,
+              "y": 292
             }
           },
           "line_endpoints": {
@@ -3108,54 +3006,55 @@
         {
           "sequence": 23,
           "shape_name": "TextBox 34",
-          "text": "Spiritual man (Christ) intercedes onbehalf of spiritual people eternally.",
+          "text": "Spiritual man (Christ) intercedes on\nbehalf of spiritual people eternally.",
           "timing": "with",
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
-            "x": 581,
+            "x": 580,
             "y": 196,
-            "width": 317,
+            "width": 316,
             "height": 52,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "+mn-lt",
-            "font_size": 19.2
+            "font_size": 19.2,
+            "wrap": true
           }
         },
         {
           "sequence": 24,
           "shape_name": "Text Box 19",
-          "text": "Old Testament (1st Glory)",
+          "text": "<span class=\"scripture\">Old Testament (1<sup>st</sup> Glory)</span>",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
-            "x": 91,
+            "x": 92,
             "y": 390,
-            "width": 293,
-            "height": 39,
+            "width": 292,
+            "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 4
           },
           "font": {
             "wrap": true,
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "align": "center"
           }
         },
         {
           "sequence": 25,
           "shape_name": "Text Box 24",
-          "text": "Physical",
+          "text": "<strong>Physical</strong>",
           "timing": "with",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
             "x": 84,
-            "y": 421,
+            "y": 422,
             "width": 252,
             "height": 50,
             "rotation": 0
@@ -3186,12 +3085,12 @@
           },
           "path": {
             "start": {
-              "x": 375,
-              "y": 409
+              "x": 500,
+              "y": 545
             },
             "end": {
-              "x": 550,
-              "y": 409
+              "x": 733,
+              "y": 545
             }
           },
           "line_endpoints": {
@@ -3211,34 +3110,35 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 25",
-          "text": "New Testament (2nd Glory)",
+          "text": "<span class=\"scripture\">New Testament (2<sup>nd</sup> Glory)</span>",
           "timing": "with",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
             "x": 540,
             "y": 390,
-            "width": 327,
-            "height": 39,
+            "width": 326,
+            "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 4
           },
           "font": {
             "wrap": true,
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 24.0
+            "align": "center"
           }
         },
         {
           "sequence": 28,
           "shape_name": "Text Box 23",
-          "text": "Spiritual",
+          "text": "<strong>Spiritual</strong>",
           "timing": "with",
           "z_index": 30,
           "shape_type": "text_box",
           "layout": {
             "x": 608,
-            "y": 421,
+            "y": 422,
             "width": 268,
             "height": 50,
             "rotation": 0
@@ -3254,40 +3154,42 @@
         {
           "sequence": 29,
           "shape_name": "Text Box 31",
-          "text": "Levitical Priesthood  part of what nation?",
+          "text": "<strong>Levitical Priesthood </strong><br/><strong> part of what nation?</strong>",
           "timing": "click",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
             "x": 293,
-            "y": 431,
+            "y": 430,
             "width": 168,
             "height": 70,
             "rotation": 0
           },
+          "line": {
+            "width": 4
+          },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
             "font_size": 16.8,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
           "sequence": 30,
           "shape_name": "Text Box 32",
-          "text": "Israel",
+          "text": "<strong>Israel</strong>",
           "timing": "click",
           "z_index": 12,
           "shape_type": "text_box",
           "layout": {
             "x": 138,
             "y": 462,
-            "width": 146,
-            "height": 68,
+            "width": 142,
+            "height": 65,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 48.0,
             "bold": true
           }
@@ -3295,22 +3197,24 @@
         {
           "sequence": 31,
           "shape_name": "Text Box 34",
-          "text": "Melchizedekiancounterpart?",
+          "text": "<strong>Melchizedekian</strong><br/><strong>counterpart?</strong>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
             "x": 475,
-            "y": 431,
+            "y": 430,
             "width": 157,
             "height": 70,
             "rotation": 0
+          },
+          "line": {
+            "width": 4
           },
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "Arial",
             "font_size": 16.8,
             "bold": true
           }
@@ -3334,12 +3238,12 @@
           },
           "path": {
             "start": {
-              "x": 285,
-              "y": 500
+              "x": 380,
+              "y": 666
             },
             "end": {
-              "x": 648,
-              "y": 500
+              "x": 864,
+              "y": 666
             }
           },
           "line_endpoints": {
@@ -3359,19 +3263,18 @@
         {
           "sequence": 33,
           "shape_name": "Text Box 35",
-          "text": "Church",
+          "text": "<strong>Church</strong>",
           "timing": "with",
           "z_index": 31,
           "shape_type": "text_box",
           "layout": {
             "x": 648,
-            "y": 465,
-            "width": 189,
-            "height": 68,
+            "y": 464,
+            "width": 184,
+            "height": 65,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 48.0,
             "bold": true,
             "color": "#0000FF"
@@ -3382,11 +3285,11 @@
         {
           "shape_name": "Text Box 6",
           "static": true,
-          "text": "Leviticus 9, Hebrews 9,10",
+          "text": "<strong>Leviticus 9, Hebrews 9,10</strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
-            "x": 55,
+            "x": 56,
             "y": 18,
             "width": 302,
             "height": 40,
@@ -3395,7 +3298,6 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
             "font_size": 21.6,
             "bold": true
           },
@@ -3412,9 +3314,9 @@
           "shape_type": "text_box",
           "layout": {
             "x": 254,
-            "y": 91,
-            "width": 19,
-            "height": 33,
+            "y": 92,
+            "width": 14,
+            "height": 31,
             "rotation": 0
           }
         },
@@ -3425,14 +3327,13 @@
           "z_index": 14,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 329,
-            "y": 11,
+            "x": 328,
+            "y": 10,
             "width": 302,
             "height": 40,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 43.2,
             "bold": true,
             "color": "#000000"
@@ -3460,7 +3361,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 59",
           "timing": "with",
-          "z_index": 1,
+          "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 48,
@@ -3480,32 +3381,30 @@
           "shape_type": "text_box",
           "layout": {
             "x": 90,
-            "y": 84,
-            "width": 177,
-            "height": 30,
+            "y": 83,
+            "width": 172,
+            "height": 28,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 16.8
           }
         },
         {
           "sequence": 3,
           "shape_name": "Text Box 7",
-          "text": "No, just the Levites.",
+          "text": "<em>No, just the Levites.</em>",
           "timing": "click",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
-            "x": 253,
-            "y": 84,
-            "width": 168,
-            "height": 30,
+            "x": 254,
+            "y": 83,
+            "width": 164,
+            "height": 28,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 16.8,
             "italic": true
           }
@@ -3519,34 +3418,32 @@
           "shape_type": "text_box",
           "layout": {
             "x": 90,
-            "y": 104,
-            "width": 264,
-            "height": 30,
+            "y": 105,
+            "width": 260,
+            "height": 28,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "+mn-lt",
             "font_size": 16.8
           }
         },
         {
           "sequence": 5,
           "shape_name": "Text Box 9",
-          "text": "No.",
+          "text": "<em>No.</em>",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
             "x": 336,
-            "y": 104,
-            "width": 46,
-            "height": 30,
+            "y": 105,
+            "width": 41,
+            "height": 28,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "font_name": "+mn-lt",
             "font_size": 16.8,
             "italic": true
           }
@@ -3554,19 +3451,18 @@
         {
           "sequence": 6,
           "shape_name": "Text Box 10",
-          "text": "Levitical Priesthood",
+          "text": "<strong>Levitical Priesthood</strong>",
           "timing": "click",
-          "z_index": 56,
+          "z_index": 7,
           "shape_type": "text_box",
           "layout": {
             "x": 120,
-            "y": 54,
-            "width": 296,
-            "height": 45,
+            "y": 53,
+            "width": 291,
+            "height": 42,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true
           }
@@ -3575,10 +3471,10 @@
           "sequence": 7,
           "shape_name": "Half Frame 51",
           "timing": "with",
-          "z_index": 33,
+          "z_index": 40,
           "shape_type": "half_frame (159)",
           "layout": {
-            "x": 55,
+            "x": 56,
             "y": 129,
             "width": 202,
             "height": 125,
@@ -3594,7 +3490,7 @@
           "sequence": 8,
           "shape_name": "Half Frame 4",
           "timing": "with",
-          "z_index": 32,
+          "z_index": 39,
           "shape_type": "half_frame (159)",
           "layout": {
             "x": 250,
@@ -3612,22 +3508,21 @@
         {
           "sequence": 9,
           "shape_name": "Text Box 15",
-          "text": "Offices Divided",
+          "text": "<strong>Offices Divided</strong>",
           "timing": "with",
-          "z_index": 50,
+          "z_index": 41,
           "shape_type": "text_box",
           "layout": {
             "x": 134,
             "y": 184,
             "width": 234,
-            "height": 36,
+            "height": 34,
             "rotation": 0
           },
           "fill": "#000000",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#FFC000"
@@ -3636,19 +3531,18 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 14",
-          "text": "Priests",
+          "text": "<strong>Priests</strong>",
           "timing": "after",
-          "z_index": 49,
+          "z_index": 9,
           "shape_type": "text_box",
           "layout": {
-            "x": 114,
+            "x": 115,
             "y": 141,
-            "width": 116,
-            "height": 45,
+            "width": 112,
+            "height": 42,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true
           }
@@ -3656,19 +3550,18 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 13",
-          "text": "Kings",
+          "text": "<strong>Kings</strong>",
           "timing": "with",
-          "z_index": 48,
+          "z_index": 8,
           "shape_type": "text_box",
           "layout": {
             "x": 288,
             "y": 141,
-            "width": 100,
-            "height": 45,
+            "width": 95,
+            "height": 42,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true
           }
@@ -3676,20 +3569,19 @@
         {
           "sequence": 12,
           "shape_name": "Text Box 18",
-          "text": "- Clergy (Levitical) / Laity- Born into it- Mediators  i.e. Moses- Oversee holy worship   (tabernacle)- All die and need to be replaced- Weak because of own sins",
+          "text": "- Clergy (Levitical) / Laity\n- Born into it\n- Mediators  i.e. Moses\n- Oversee holy worship \n  (tabernacle)\n- All die and need to be replaced\n- Weak because of own sins",
           "timing": "click",
-          "z_index": 7,
+          "z_index": 10,
           "shape_type": "text_box",
           "layout": {
-            "x": 61,
+            "x": 62,
             "y": 226,
             "width": 275,
-            "height": 152,
+            "height": 150,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 16.8
           }
         },
@@ -3697,10 +3589,10 @@
           "sequence": 13,
           "shape_name": "Line 22",
           "timing": "click",
-          "z_index": 41,
+          "z_index": 49,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 377,
+            "x": 376,
             "y": 178,
             "width": 1,
             "height": 63,
@@ -3712,11 +3604,11 @@
           },
           "line_endpoints": {
             "from": {
-              "x": 378,
+              "x": 376,
               "y": 178
             },
             "to": {
-              "x": 378,
+              "x": 376,
               "y": 241
             }
           },
@@ -3727,22 +3619,20 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 19",
-          "text": "Genesis 49:10Psalms 60:7, Hebrews 7:14",
+          "text": "<span class=\"scripture\"><strong>Genesis 49:10</strong><br/><strong>Psalms 60:7, Hebrews 7:14</strong></span>",
           "timing": "after",
-          "z_index": 8,
+          "z_index": 11,
           "shape_type": "text_box",
           "layout": {
-            "x": 235,
+            "x": 238,
             "y": 233,
-            "width": 236,
-            "height": 50,
+            "width": 232,
+            "height": 48,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 16.8,
-            "bold": true
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3753,20 +3643,19 @@
         {
           "sequence": 15,
           "shape_name": "Text Box 20",
-          "text": "Judah = Kings",
+          "text": "<strong>Judah = Kings</strong>",
           "timing": "click",
-          "z_index": 9,
+          "z_index": 12,
           "shape_type": "text_box",
           "layout": {
             "x": 302,
-            "y": 275,
+            "y": 274,
             "width": 167,
-            "height": 62,
+            "height": 34,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true
           }
@@ -3774,19 +3663,18 @@
         {
           "sequence": 16,
           "shape_name": "Text Box 21",
-          "text": "Throne of David",
+          "text": "<strong>Throne of David</strong>",
           "timing": "with",
-          "z_index": 10,
+          "z_index": 13,
           "shape_type": "text_box",
           "layout": {
             "x": 312,
-            "y": 301,
-            "width": 149,
-            "height": 30,
+            "y": 302,
+            "width": 143,
+            "height": 28,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 16.8,
             "bold": true
           }
@@ -3795,7 +3683,7 @@
           "sequence": 17,
           "shape_name": "Line 22",
           "timing": "click",
-          "z_index": 11,
+          "z_index": 14,
           "shape_type": "auto_shape",
           "layout": {
             "x": 380,
@@ -3825,22 +3713,20 @@
         {
           "sequence": 18,
           "shape_name": "Text Box 23",
-          "text": "Christ Luke 1:30-33",
+          "text": "<span class=\"scripture\"><strong>Christ </strong><br/><strong>Luke 1:30-33</strong></span>",
           "timing": "with",
-          "z_index": 12,
+          "z_index": 15,
           "shape_type": "text_box",
           "layout": {
-            "x": 306,
-            "y": 342,
-            "width": 151,
-            "height": 62,
+            "x": 309,
+            "y": 341,
+            "width": 147,
+            "height": 59,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 21.6,
-            "bold": true
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3851,24 +3737,27 @@
         {
           "sequence": 19,
           "shape_name": "Text Box 25",
-          "text": "What is the nameof Christ’s Kingdom?",
+          "text": "<strong>What is the name</strong><br/><strong>of Christ’s Kingdom?</strong>",
           "timing": "click",
-          "z_index": 13,
+          "z_index": 16,
           "shape_type": "text_box",
           "layout": {
-            "x": 275,
+            "x": 278,
             "y": 405,
-            "width": 193,
-            "height": 50,
+            "width": 187,
+            "height": 48,
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 4
+          },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 16.8,
             "bold": true,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         },
         {
@@ -3876,7 +3765,7 @@
           "shape_name": "Title 1",
           "text": "Church",
           "timing": "click",
-          "z_index": 35,
+          "z_index": 43,
           "shape_type": "text_box",
           "layout": {
             "x": 597,
@@ -3885,10 +3774,12 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_name": "+mn-lt",
             "font_size": 38.4,
             "color": "#0000FF"
           }
@@ -3897,7 +3788,7 @@
           "sequence": 21,
           "shape_name": "Rectangle 60",
           "timing": "with",
-          "z_index": 0,
+          "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 466,
@@ -3913,19 +3804,18 @@
           "shape_name": "Text Box 27",
           "text": "What is the name of the Priesthood over the CHURCH?",
           "timing": "with",
-          "z_index": 14,
+          "z_index": 17,
           "shape_type": "text_box",
           "layout": {
-            "x": 465,
-            "y": 83,
-            "width": 447,
-            "height": 30,
+            "x": 464,
+            "y": 82,
+            "width": 448,
+            "height": 28,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 16.8
           }
         },
@@ -3933,7 +3823,7 @@
           "sequence": 23,
           "shape_name": "Half Frame 50",
           "timing": "with",
-          "z_index": 39,
+          "z_index": 47,
           "shape_type": "half_frame (159)",
           "layout": {
             "x": 682,
@@ -3942,13 +3832,16 @@
             "height": 125,
             "rotation": 0
           },
-          "fill": "#000000"
+          "fill": "#000000",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 24,
           "shape_name": "Half Frame 52",
           "timing": "with",
-          "z_index": 40,
+          "z_index": 48,
           "shape_type": "half_frame (159)",
           "layout": {
             "x": 488,
@@ -3957,24 +3850,26 @@
             "height": 125,
             "rotation": 0
           },
-          "fill": "#000000"
+          "fill": "#000000",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 25,
           "shape_name": "Text Box 28",
-          "text": "MELCHIZEDEK",
+          "text": "<strong>MELCHIZEDEK</strong>",
           "timing": "click",
-          "z_index": 55,
+          "z_index": 18,
           "shape_type": "text_box",
           "layout": {
             "x": 575,
-            "y": 54,
-            "width": 230,
-            "height": 45,
+            "y": 53,
+            "width": 224,
+            "height": 42,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true,
             "color": "#0000FF"
@@ -3983,19 +3878,18 @@
         {
           "sequence": 26,
           "shape_name": "Text Box 30",
-          "text": "Priest?",
+          "text": "<strong>Priest?</strong>",
           "timing": "click",
-          "z_index": 52,
+          "z_index": 19,
           "shape_type": "text_box",
           "layout": {
             "x": 523,
             "y": 140,
-            "width": 118,
-            "height": 45,
+            "width": 113,
+            "height": 42,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true
           }
@@ -4003,23 +3897,20 @@
         {
           "sequence": 27,
           "shape_name": "Rectangle 3",
-          "text": "Hebrews 7:23-28",
+          "text": "<span class=\"scripture\"><strong>Hebrews 7:23-28  </strong><br/></span>",
           "timing": "with",
-          "z_index": 43,
+          "z_index": 51,
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 514,
             "y": 214,
             "width": 169,
-            "height": 29,
+            "height": 28,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 16.8,
-            "bold": true
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -4030,40 +3921,38 @@
         {
           "sequence": 28,
           "shape_name": "Text Box 31",
-          "text": "CHRIST",
+          "text": "<strong>CHRIST</strong>",
           "timing": "click",
-          "z_index": 53,
+          "z_index": 20,
           "shape_type": "text_box",
           "layout": {
-            "x": 501,
+            "x": 486,
             "y": 176,
-            "width": 146,
-            "height": 50,
+            "width": 176,
+            "height": 59,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true
           }
         },
         {
           "sequence": 29,
           "shape_name": "Text Box 33",
-          "text": "King?",
+          "text": "<strong>King?</strong>",
           "timing": "click",
-          "z_index": 15,
+          "z_index": 21,
           "shape_type": "text_box",
           "layout": {
             "x": 732,
             "y": 140,
-            "width": 102,
-            "height": 45,
+            "width": 97,
+            "height": 42,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 28.8,
             "bold": true
           }
@@ -4071,23 +3960,20 @@
         {
           "sequence": 30,
           "shape_name": "TextBox 5",
-          "text": "Revelation 17:14,19:16",
+          "text": "<span class=\"scripture\"><strong>Revelation 17:14,19:16</strong></span>",
           "timing": "with",
-          "z_index": 47,
+          "z_index": 56,
           "shape_type": "text_box",
           "layout": {
-            "x": 684,
-            "y": 215,
+            "x": 683,
+            "y": 214,
             "width": 202,
             "height": 28,
             "rotation": 0
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 16.8,
-            "bold": true
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4098,43 +3984,39 @@
         {
           "sequence": 31,
           "shape_name": "Text Box 34",
-          "text": "CHRIST",
+          "text": "<strong>CHRIST</strong>",
           "timing": "click",
-          "z_index": 54,
+          "z_index": 22,
           "shape_type": "text_box",
           "layout": {
-            "x": 731,
+            "x": 716,
             "y": 176,
-            "width": 146,
-            "height": 50,
+            "width": 176,
+            "height": 59,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true
           }
         },
         {
           "sequence": 32,
           "shape_name": "Text Box 37",
-          "text": "Jeremiah 33:17-18Zechariah 6:11-13",
+          "text": "<span class=\"scripture\"><strong>Jeremiah 33:17-18</strong><br/><strong>Zechariah 6:11-13</strong></span>",
           "timing": "click",
-          "z_index": 16,
+          "z_index": 23,
           "shape_type": "text_box",
           "layout": {
             "x": 523,
             "y": 234,
             "width": 186,
-            "height": 50,
+            "height": 48,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 16.8,
-            "bold": true
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4145,22 +4027,19 @@
         {
           "sequence": 33,
           "shape_name": "Text Box 37",
-          "text": "Luke 1:30-36, 1:5Matthew 1:1-16",
+          "text": "<span class=\"scripture\"><strong>Luke 1:30-36, 1:5</strong><br/><strong>Matthew 1:1-16</strong></span>",
           "timing": "with",
-          "z_index": 42,
+          "z_index": 50,
           "shape_type": "text_box",
           "layout": {
             "x": 685,
             "y": 234,
             "width": 172,
-            "height": 50,
+            "height": 48,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 16.8,
-            "bold": true
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4171,21 +4050,20 @@
         {
           "sequence": 34,
           "shape_name": "Text Box 38",
-          "text": "JESUS = High Priest and King",
+          "text": "<strong>JESUS = High Priest and King</strong>",
           "timing": "click",
-          "z_index": 17,
+          "z_index": 24,
           "shape_type": "text_box",
           "layout": {
             "x": 465,
-            "y": 275,
+            "y": 274,
             "width": 404,
-            "height": 39,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "right",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true,
             "color": "#0000FF"
@@ -4195,27 +4073,30 @@
           "sequence": 35,
           "shape_name": "Rectangle 8",
           "timing": "with",
-          "z_index": 44,
+          "z_index": 52,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 673,
+            "x": 677,
             "y": 147,
-            "width": 25,
-            "height": 67,
+            "width": 18,
+            "height": 68,
             "rotation": 0
           },
-          "fill": "#33CCFF"
+          "fill": "#33CCFF",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 36,
           "shape_name": "Curved Connector 10",
           "timing": "with",
-          "z_index": 36,
+          "z_index": 44,
           "shape_type": "connector",
           "layout": {
-            "x": 805,
-            "y": 76,
-            "width": 64,
+            "x": 800,
+            "y": 75,
+            "width": 69,
             "height": 218,
             "rotation": 0
           },
@@ -4225,22 +4106,22 @@
           },
           "path": {
             "start": {
-              "x": 805,
-              "y": 76
+              "x": 1066,
+              "y": 100
             },
             "end": {
-              "x": 869,
-              "y": 294
+              "x": 1158,
+              "y": 391
             }
           },
           "line_endpoints": {
             "from": {
-              "x": 837,
-              "y": 76
+              "x": 834,
+              "y": 75
             },
             "to": {
-              "x": 837,
-              "y": 294
+              "x": 834,
+              "y": 293
             }
           },
           "arrow_ends": {
@@ -4250,9 +4131,9 @@
         {
           "sequence": 37,
           "shape_name": "Text Box 15",
-          "text": "Peace",
+          "text": "<strong>Peace</strong>",
           "timing": "with",
-          "z_index": 51,
+          "z_index": 53,
           "shape_type": "text_box",
           "layout": {
             "x": 642,
@@ -4265,7 +4146,6 @@
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true,
             "color": "#FFC000"
@@ -4274,22 +4154,19 @@
         {
           "sequence": 38,
           "shape_name": "Text Box 40",
-          "text": "Ephesians 5:22-25Galatians 3:261 Peter 2:9, James 1:12",
+          "text": "<span class=\"scripture\"><strong>Ephesians 5:22-25</strong><br/><strong>Galatians 3:26</strong><br/><strong>1 Peter 2:9, James 1:12</strong></span>",
           "timing": "click",
-          "z_index": 18,
+          "z_index": 25,
           "shape_type": "text_box",
           "layout": {
             "x": 660,
             "y": 304,
             "width": 238,
-            "height": 79,
+            "height": 77,
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 19.2,
-            "bold": true
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4300,80 +4177,75 @@
         {
           "sequence": 39,
           "shape_name": "Text Box 41",
-          "text": "ChristChurchKing/Priests",
+          "text": "Christ\nChurch\nKing/Priests",
           "timing": "click",
-          "z_index": 19,
+          "z_index": 26,
           "shape_type": "text_box",
           "layout": {
             "x": 480,
-            "y": 300,
-            "width": 110,
-            "height": 71,
+            "y": 301,
+            "width": 105,
+            "height": 68,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 16.8
+            "font_size": 16.8,
+            "wrap": true
           }
         },
         {
           "sequence": 40,
           "shape_name": "Text Box 42",
-          "text": "HusbandWomanSons",
+          "text": "Husband\nWoman\nSons",
           "timing": "click",
-          "z_index": 20,
+          "z_index": 27,
           "shape_type": "text_box",
           "layout": {
             "x": 579,
             "y": 301,
-            "width": 87,
-            "height": 71,
+            "width": 82,
+            "height": 68,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 16.8
+            "font_size": 16.8,
+            "wrap": true
           }
         },
         {
           "sequence": 41,
           "shape_name": "Text Box 43",
-          "text": "If you were born into this family, what would that make you?",
+          "text": "<strong>If you were born into this family, what would that make you?</strong>",
           "timing": "click",
-          "z_index": 21,
+          "z_index": 28,
           "shape_type": "text_box",
           "layout": {
-            "x": 467,
-            "y": 371,
-            "width": 437,
-            "height": 27,
+            "x": 471,
+            "y": 370,
+            "width": 429,
+            "height": 25,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 14.4,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
           "sequence": 42,
           "shape_name": "Text Box 46",
-          "text": "Revelation 5:9-10 NKJV",
+          "text": "<span class=\"scripture\"><strong>Revelation 5:9-10 NKJV</strong></span>",
           "timing": "click",
-          "z_index": 38,
+          "z_index": 46,
           "shape_type": "text_box",
           "layout": {
             "x": 586,
             "y": 390,
-            "width": 190,
-            "height": 30,
+            "width": 184,
+            "height": 28,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "+mn-lt",
-            "font_size": 16.8,
-            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4384,19 +4256,18 @@
         {
           "sequence": 43,
           "shape_name": "Text Box 45",
-          "text": "Sons = Kings and Priests",
+          "text": "<strong>Sons = Kings and Priests</strong>",
           "timing": "click",
-          "z_index": 37,
+          "z_index": 45,
           "shape_type": "text_box",
           "layout": {
             "x": 541,
             "y": 410,
-            "width": 311,
-            "height": 39,
+            "width": 306,
+            "height": 36,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true
           }
@@ -4404,12 +4275,12 @@
         {
           "sequence": 44,
           "shape_name": "Text Box 47",
-          "text": "Responsibilities / Duties:",
+          "text": "<strong>Responsibilities / Duties:</strong>",
           "timing": "click",
-          "z_index": 22,
+          "z_index": 29,
           "shape_type": "text_box",
           "layout": {
-            "x": 221,
+            "x": 220,
             "y": 404,
             "width": 357,
             "height": 50,
@@ -4420,7 +4291,6 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true
           }
@@ -4428,19 +4298,18 @@
         {
           "sequence": 45,
           "shape_name": "Rectangle 2",
-          "text": "Malachi 2:7",
+          "text": "<strong> Malachi 2:7</strong>",
           "timing": "click",
-          "z_index": 34,
+          "z_index": 42,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 69,
-            "y": 411,
-            "width": 157,
-            "height": 39,
+            "x": 68,
+            "y": 410,
+            "width": 152,
+            "height": 36,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true
           },
@@ -4453,33 +4322,33 @@
         {
           "sequence": 46,
           "shape_name": "Text Box 48",
-          "text": "Duties to the Priesthood:  Oversee the Holy Worship",
+          "text": "<strong>Duties to the Priesthood:  Oversee the Holy Worship</strong>",
           "timing": "click",
-          "z_index": 23,
+          "z_index": 30,
           "shape_type": "text_box",
           "layout": {
             "x": 266,
             "y": 449,
-            "width": 501,
-            "height": 33,
+            "width": 496,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 19.2,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
           "sequence": 47,
           "shape_name": "Line 53",
           "timing": "with",
-          "z_index": 28,
+          "z_index": 35,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 207,
+            "x": 206,
             "y": 464,
-            "width": 65,
+            "width": 64,
             "height": 0,
             "rotation": 0
           },
@@ -4489,11 +4358,11 @@
           },
           "line_endpoints": {
             "from": {
-              "x": 240,
+              "x": 238,
               "y": 464
             },
             "to": {
-              "x": 240,
+              "x": 238,
               "y": 464
             }
           },
@@ -4504,19 +4373,18 @@
         {
           "sequence": 48,
           "shape_name": "Text Box 51",
-          "text": "HOLY",
+          "text": "<strong>HOLY</strong>",
           "timing": "with",
-          "z_index": 26,
+          "z_index": 33,
           "shape_type": "text_box",
           "layout": {
             "x": 85,
             "y": 436,
-            "width": 124,
-            "height": 56,
+            "width": 118,
+            "height": 54,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 38.4,
             "bold": true,
             "color": "#0000FF"
@@ -4525,20 +4393,19 @@
         {
           "sequence": 49,
           "shape_name": "Text Box 49",
-          "text": "Duties to the Nation:  2 Samuel 11:1, Ephesians 6:10-12, Matthew 28:18-19, 2 Corinthians 10:3-6",
+          "text": "<strong>Duties to the Nation:  </strong><br/><strong>2 Samuel 11:1, Ephesians 6:10-12, Matthew 28:18-19, 2 Corinthians 10:3-6</strong>",
           "timing": "click",
-          "z_index": 24,
+          "z_index": 31,
           "shape_type": "text_box",
           "layout": {
-            "x": 267,
+            "x": 268,
             "y": 472,
             "width": 620,
-            "height": 53,
+            "height": 51,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 19.2,
             "bold": true
           },
@@ -4551,20 +4418,19 @@
         {
           "sequence": 50,
           "shape_name": "Text Box 49",
-          "text": "Spiritual Battle, Expand the boarders",
+          "text": "<strong>Spiritual Battle, Expand the boarders</strong>",
           "timing": "click",
-          "z_index": 2,
+          "z_index": 0,
           "shape_type": "text_box",
           "layout": {
-            "x": 473,
-            "y": 473,
+            "x": 472,
+            "y": 472,
             "width": 367,
-            "height": 33,
+            "height": 31,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 19.2,
             "bold": true,
             "color": "#0000FF"
@@ -4579,10 +4445,10 @@
           "sequence": 51,
           "shape_name": "Line 54",
           "timing": "after",
-          "z_index": 29,
+          "z_index": 36,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 221,
+            "x": 220,
             "y": 486,
             "width": 50,
             "height": 0,
@@ -4594,11 +4460,11 @@
           },
           "line_endpoints": {
             "from": {
-              "x": 246,
+              "x": 245,
               "y": 486
             },
             "to": {
-              "x": 246,
+              "x": 245,
               "y": 486
             }
           },
@@ -4609,19 +4475,18 @@
         {
           "sequence": 52,
           "shape_name": "Text Box 52",
-          "text": "ROYAL",
+          "text": "<strong>ROYAL</strong>",
           "timing": "with",
-          "z_index": 27,
+          "z_index": 34,
           "shape_type": "text_box",
           "layout": {
-            "x": 77,
+            "x": 76,
             "y": 472,
-            "width": 151,
-            "height": 56,
+            "width": 147,
+            "height": 54,
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 38.4,
             "bold": true,
             "color": "#0000FF"
@@ -4632,12 +4497,12 @@
         {
           "shape_name": "AutoShape 50",
           "static": true,
-          "z_index": 25,
+          "z_index": 32,
           "shape_type": "action_button_custom (125)",
           "layout": {
             "x": 872,
-            "y": 491,
-            "width": 29,
+            "y": 490,
+            "width": 28,
             "height": 24,
             "rotation": 0
           },
@@ -4650,7 +4515,7 @@
           "shape_name": "Title 1",
           "static": true,
           "text": "Physical Israel",
-          "z_index": 30,
+          "z_index": 37,
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 98,
@@ -4661,7 +4526,6 @@
           },
           "font": {
             "align": "left",
-            "font_name": "+mn-lt",
             "bold": true,
             "color": "#000000"
           }
@@ -4669,7 +4533,7 @@
         {
           "shape_name": "Line 62",
           "static": true,
-          "z_index": 31,
+          "z_index": 38,
           "shape_type": "auto_shape",
           "layout": {
             "x": 48,
@@ -4696,11 +4560,11 @@
         {
           "shape_name": "TextBox 6",
           "static": true,
-          "z_index": 45,
+          "z_index": 54,
           "shape_type": "text_box",
           "layout": {
             "x": 1092,
-            "y": -21,
+            "y": -20,
             "width": 0,
             "height": 0,
             "rotation": 0
@@ -4709,7 +4573,7 @@
         {
           "shape_name": "TextBox 7",
           "static": true,
-          "z_index": 46,
+          "z_index": 55,
           "shape_type": "text_box",
           "layout": {
             "x": 1112,
@@ -4731,10 +4595,10 @@
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
-            "x": 59,
-            "y": 53,
-            "width": 331,
-            "height": 487,
+            "x": 58,
+            "y": 52,
+            "width": 332,
+            "height": 488,
             "rotation": 0
           },
           "fill": "#B3B3B3"
@@ -4746,7 +4610,7 @@
           "z_index": 2,
           "shape_type": "auto_shape",
           "layout": {
-            "x": 55,
+            "x": 56,
             "y": 54,
             "width": 850,
             "height": 0,
@@ -4758,11 +4622,11 @@
           },
           "line_endpoints": {
             "from": {
-              "x": 480,
+              "x": 481,
               "y": 54
             },
             "to": {
-              "x": 480,
+              "x": 481,
               "y": 54
             }
           }
@@ -4777,12 +4641,11 @@
           "layout": {
             "x": 97,
             "y": 68,
-            "width": 248,
-            "height": 33,
+            "width": 242,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4796,13 +4659,12 @@
           "shape_type": "text_box",
           "layout": {
             "x": 97,
-            "y": 97,
-            "width": 266,
-            "height": 33,
+            "y": 98,
+            "width": 260,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4812,17 +4674,16 @@
           "shape_name": "Text Box 10",
           "text": "Tithes support clergy",
           "timing": "click",
-          "z_index": 30,
+          "z_index": 31,
           "shape_type": "text_box",
           "layout": {
             "x": 97,
             "y": 126,
-            "width": 199,
-            "height": 33,
+            "width": 194,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4837,12 +4698,11 @@
           "layout": {
             "x": 97,
             "y": 155,
-            "width": 287,
-            "height": 33,
+            "width": 281,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4857,12 +4717,11 @@
           "layout": {
             "x": 97,
             "y": 184,
-            "width": 194,
-            "height": 33,
+            "width": 189,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4877,12 +4736,11 @@
           "layout": {
             "x": 97,
             "y": 213,
-            "width": 230,
-            "height": 33,
+            "width": 224,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4897,12 +4755,11 @@
           "layout": {
             "x": 97,
             "y": 242,
-            "width": 138,
-            "height": 33,
+            "width": 133,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -4910,13 +4767,13 @@
         {
           "sequence": 10,
           "shape_name": "TextBox 2",
-          "text": "“Weak and Useless”(Hebrews 7:18)",
+          "text": "<strong>“Weak and Useless”</strong><br/>(Hebrews 7:18)",
           "timing": "click",
           "z_index": 34,
           "shape_type": "text_box",
           "layout": {
             "x": 98,
-            "y": 277,
+            "y": 278,
             "width": 248,
             "height": 38,
             "rotation": 0
@@ -4925,7 +4782,6 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 21.6,
             "bold": true
           },
@@ -4946,12 +4802,11 @@
             "x": 65,
             "y": 317,
             "width": 247,
-            "height": 39,
+            "height": 36,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 24.0,
             "color": "#000000"
           }
@@ -4979,19 +4834,18 @@
         {
           "sequence": 13,
           "shape_name": "Text Box 24",
-          "text": "Judaism",
+          "text": "<strong>Judaism</strong>",
           "timing": "with",
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
             "x": 55,
             "y": 446,
-            "width": 118,
-            "height": 39,
+            "width": 112,
+            "height": 36,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 24.0,
             "bold": true,
             "color": "#000000"
@@ -5007,8 +4861,8 @@
           "z_index": 19,
           "layout": {
             "x": 170,
-            "y": 355,
-            "width": 97,
+            "y": 356,
+            "width": 98,
             "height": 93,
             "rotation": 0.0
           }
@@ -5016,19 +4870,18 @@
         {
           "sequence": 15,
           "shape_name": "Text Box 26",
-          "text": "Islam",
+          "text": "<strong>Islam</strong>",
           "timing": "with",
           "z_index": 20,
           "shape_type": "text_box",
           "layout": {
             "x": 174,
             "y": 446,
-            "width": 81,
-            "height": 39,
+            "width": 76,
+            "height": 36,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 24.0,
             "bold": true,
             "color": "#000000"
@@ -5043,7 +4896,7 @@
           "description": "Orthodox Cross",
           "z_index": 21,
           "layout": {
-            "x": 279,
+            "x": 280,
             "y": 352,
             "width": 93,
             "height": 96,
@@ -5053,43 +4906,42 @@
         {
           "sequence": 17,
           "shape_name": "Text Box 28",
-          "text": "OrthodoxProtestant",
+          "text": "<strong>Orthodox</strong><br/><strong>Protestant</strong>",
           "timing": "with",
           "z_index": 22,
           "shape_type": "text_box",
           "layout": {
-            "x": 258,
-            "y": 444,
-            "width": 139,
-            "height": 68,
+            "x": 257,
+            "y": 445,
+            "width": 134,
+            "height": 65,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 24.0,
             "bold": true,
-            "color": "#000000"
+            "color": "#000000",
+            "wrap": true
           }
         },
         {
           "sequence": 18,
           "shape_name": "Text Box 7",
-          "text": "Spiritual Priesthood",
+          "text": "<strong>Spiritual Priesthood</strong>",
           "timing": "click",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
             "x": 519,
-            "y": 11,
+            "y": 12,
             "width": 379,
-            "height": 50,
+            "height": 112,
             "rotation": 0
           },
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 33.6,
+            "font_size": 43.0,
             "bold": true,
             "color": "#0000FF"
           }
@@ -5102,9 +4954,9 @@
           "shape_type": "rectangle (1)",
           "layout": {
             "x": 533,
-            "y": 53,
+            "y": 52,
             "width": 371,
-            "height": 487,
+            "height": 488,
             "rotation": 0
           },
           "fill": "#33CCFF"
@@ -5112,22 +4964,22 @@
         {
           "sequence": 20,
           "shape_name": "Text Box 34",
-          "text": "Hebrews 7:25, 1Timothy 2:5",
+          "text": "<strong>Hebrews 7:25, </strong><br/><strong>1Timothy 2:5</strong>",
           "timing": "click",
-          "z_index": 26,
+          "z_index": 27,
           "shape_type": "text_box",
           "layout": {
             "x": 395,
             "y": 62,
-            "width": 138,
-            "height": 50,
+            "width": 134,
+            "height": 48,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 16.8,
             "bold": true,
-            "color": "#000000"
+            "color": "#000000",
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -5143,14 +4995,13 @@
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
-            "x": 535,
+            "x": 536,
             "y": 71,
-            "width": 166,
-            "height": 33,
+            "width": 161,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -5164,13 +5015,12 @@
           "shape_type": "text_box",
           "layout": {
             "x": 535,
-            "y": 108,
-            "width": 163,
-            "height": 33,
+            "y": 109,
+            "width": 158,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -5178,21 +5028,18 @@
         {
           "sequence": 23,
           "shape_name": "Text Box 35",
-          "text": "Matthew 23:8-10",
+          "text": "<span class=\"scripture\"><strong>Matthew 23:8-10</strong></span>",
           "timing": "with",
-          "z_index": 27,
+          "z_index": 28,
           "shape_type": "text_box",
           "layout": {
             "x": 390,
             "y": 110,
-            "width": 151,
-            "height": 30,
+            "width": 146,
+            "height": 28,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 16.8,
-            "bold": true,
             "color": "#000000"
           },
           "hyperlink": {
@@ -5206,17 +5053,16 @@
           "shape_name": "Text Box 10",
           "text": "All must work for their possessions",
           "timing": "click",
-          "z_index": 31,
+          "z_index": 32,
           "shape_type": "text_box",
           "layout": {
             "x": 535,
-            "y": 133,
-            "width": 318,
-            "height": 33,
+            "y": 134,
+            "width": 313,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -5224,20 +5070,19 @@
         {
           "sequence": 25,
           "shape_name": "Text Box 35",
-          "text": "2 Thessalonians 3:9",
+          "text": "<strong>2 Thessalonians 3:9</strong>",
           "timing": "with",
-          "z_index": 32,
+          "z_index": 33,
           "shape_type": "text_box",
           "layout": {
-            "x": 384,
-            "y": 137,
-            "width": 158,
-            "height": 27,
+            "x": 387,
+            "y": 136,
+            "width": 152,
+            "height": 25,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 14.4,
             "bold": true,
             "color": "#000000"
@@ -5256,14 +5101,13 @@
           "z_index": 12,
           "shape_type": "text_box",
           "layout": {
-            "x": 535,
+            "x": 536,
             "y": 158,
-            "width": 304,
-            "height": 33,
+            "width": 298,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -5271,19 +5115,18 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 36",
-          "text": "Hebrews 7:24",
+          "text": "<strong>Hebrews 7:24</strong>",
           "timing": "with",
-          "z_index": 28,
+          "z_index": 29,
           "shape_type": "text_box",
           "layout": {
             "x": 401,
             "y": 160,
-            "width": 129,
-            "height": 30,
+            "width": 124,
+            "height": 28,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 16.8,
             "bold": true,
             "color": "#000000"
@@ -5302,16 +5145,16 @@
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
-            "x": 535,
+            "x": 536,
             "y": 188,
-            "width": 371,
-            "height": 33,
+            "width": 365,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
-            "color": "#000000"
+            "color": "#000000",
+            "wrap": true
           }
         },
         {
@@ -5322,14 +5165,13 @@
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
-            "x": 535,
+            "x": 536,
             "y": 218,
-            "width": 304,
-            "height": 33,
+            "width": 298,
+            "height": 31,
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -5337,7 +5179,7 @@
         {
           "sequence": 30,
           "shape_name": "Text Box 20",
-          "text": "Spiritual battles“not against flesh and blood”",
+          "text": "Spiritual battles\n“not against flesh and blood”",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -5345,12 +5187,11 @@
             "x": 537,
             "y": 248,
             "width": 362,
-            "height": 56,
+            "height": 54,
             "rotation": 0
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 19.2,
             "color": "#000000"
           }
@@ -5358,22 +5199,21 @@
         {
           "sequence": 31,
           "shape_name": "Text Box 22",
-          "text": "“No graven image” can represent a Spiritual Nation",
+          "text": "<strong>“No graven image” can represent a <u>Spiritual</u> Nation </strong>",
           "timing": "click",
           "z_index": 35,
           "shape_type": "text_box",
           "layout": {
-            "x": 289,
+            "x": 290,
             "y": 316,
-            "width": 515,
-            "height": 33,
+            "width": 514,
+            "height": 31,
             "rotation": 0
           },
           "fill": "#969696",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "Arial",
             "font_size": 19.2,
             "bold": true,
             "color": "#000000"
@@ -5398,9 +5238,9 @@
         {
           "sequence": 33,
           "shape_name": "TextBox 3",
-          "text": "Evangelicalism",
+          "text": "<strong>Evangelicalism</strong>",
           "timing": "click",
-          "z_index": 33,
+          "z_index": 36,
           "shape_type": "text_box",
           "layout": {
             "x": 354,
@@ -5409,12 +5249,10 @@
             "height": 36,
             "rotation": 0
           },
-          "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 24.0,
             "bold": true
           }
@@ -5422,44 +5260,43 @@
         {
           "sequence": 34,
           "shape_name": "Text Box 30",
-          "text": "Dagon(Fish God)Philistines",
+          "text": "<strong>Dagon</strong><br/><strong>(Fish God)</strong><br/><strong>Philistines</strong>",
           "timing": "click",
           "z_index": 24,
           "shape_type": "text_box",
           "layout": {
-            "x": 399,
+            "x": 402,
             "y": 452,
-            "width": 116,
-            "height": 79,
+            "width": 112,
+            "height": 77,
             "rotation": 0
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 19.2,
             "bold": true,
-            "color": "#000000"
+            "color": "#000000",
+            "wrap": true
           }
         },
         {
           "sequence": 35,
           "shape_name": "Text Box 32",
-          "text": "A physical symbol representing a spiritual (invisible) nation is a contradiction, anathema to God",
+          "text": "A physical symbol representing a spiritual (invisible) nation is <strong>a contradiction</strong>, anathema to God",
           "timing": "with",
-          "z_index": 36,
+          "z_index": 25,
           "shape_type": "text_box",
           "layout": {
-            "x": 553,
+            "x": 554,
             "y": 358,
             "width": 334,
-            "height": 114,
+            "height": 86,
             "rotation": 0
           },
           "fill": "#F4F4F4",
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "Arial",
             "font_size": 21.6,
             "color": "#000000"
           }
@@ -5468,12 +5305,12 @@
           "sequence": 36,
           "shape_name": "AutoShape 33",
           "timing": "with",
-          "z_index": 25,
+          "z_index": 26,
           "shape_type": "action_button_custom (125)",
           "layout": {
             "x": 862,
             "y": 498,
-            "width": 29,
+            "width": 28,
             "height": 24,
             "rotation": 0
           },
@@ -5488,13 +5325,13 @@
           "shape_name": "Title 1",
           "static": true,
           "text": "Physical Priesthood",
-          "z_index": 29,
+          "z_index": 30,
           "shape_type": "placeholder (14)",
           "layout": {
             "x": 50,
-            "y": 11,
+            "y": 10,
             "width": 365,
-            "height": 50,
+            "height": 48,
             "rotation": 0
           },
           "font": {
@@ -5517,8 +5354,8 @@
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 77,
-            "y": 25,
+            "x": 76,
+            "y": 26,
             "width": 778,
             "height": 40,
             "rotation": 0

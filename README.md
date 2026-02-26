@@ -56,7 +56,7 @@ The prompt will reference copilot-instructions from both the mbs repo and hsu-ex
 
 1. Pre-scale pptx to 16:9 WideScreen:
     -  PPTX -> Design -> Slide Size -> Widescreen, scale up/down for uniformity if prompted.
-2. Before extraction, mark all **non-top-level** drill slides as **Hidden** in PowerPoint.
+2. Before extraction, mark all **non-top-level** drill/linked slides as **Hidden** in PowerPoint.
 	- This applies to both decks using `custom_shows` and decks using pure hyperlink chains.
 	- Extractor classification is deterministic: Hidden → `linked_slides`, Non-hidden → `slides[]`.
 3. Run PowerPoint -> Export -> PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 

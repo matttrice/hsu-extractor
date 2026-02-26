@@ -1,9 +1,9 @@
 {
   "file_path": "/Users/badger/projects/hsu-pptx/05-Law.pptx",
   "file_name": "05-Law.pptx",
-  "total_slides": 5,
+  "total_slides": 4,
   "total_custom_shows": 20,
-  "total_linked_slides": 20,
+  "total_linked_slides": 21,
   "source_dimensions": {
     "width": 1536,
     "height": 864
@@ -157,6 +157,48 @@
     }
   },
   "linked_slides": {
+    "5": {
+      "slide_number": 5,
+      "animation_sequence": [],
+      "static_content": [
+        {
+          "shape_name": "Title 1",
+          "static": true,
+          "text": "“you are not under the law, but under grace.”",
+          "z_index": 0,
+          "shape_type": "placeholder (14)",
+          "layout": {
+            "x": 103,
+            "y": 17,
+            "width": 756,
+            "height": 44,
+            "rotation": 0
+          },
+          "font": {
+            "align": "center",
+            "bold": true
+          }
+        },
+        {
+          "shape_name": "Rectangle 2",
+          "static": true,
+          "text": "Being under grace is not like being under the law. Under the Law, a violation would result in death with no exceptions.  Under grace, those in Christ are expected to perform work as a slave to righteousness, but you are given help  - Christ the vine-keeper fertilizes and massages the soil. You are expected to eventually produce fruit. <br/><br/>Under grace, failing to produce fruit is not a direct equation resulting in death – as the parable implies, death or fire <em>could eventually </em>result but not right away because Christ is interceding. This is why it is called “grace and faith” – The law of faith is the grace. Under Moral and Commandment Law, violations cause sin which causes death. <br/><br/>Therefore the world is dead because of sin which is the infection that kills all of humanity due to a guilty conscience. The Church is never infected with sin due to Christ but members can still potentially die from a lack of effort/fruit. Therefore we work out our salvation with <em>fear and trembling, </em>not because of a fear of sin, but fear of living up to responsibility in the vineyard. There are many instances one can shirk the responsibility of being a slave to righteousness, for example, by ceasing to eat the spiritual meal (communion) which would eventually cause a death...again not because of sin but because weakness due to starvation. Those in Christ never sin once they are born of Him (1 John 5:18). This is why Church members should not fear sin but should fear judgment because “anything is permissible, but not everything is beneficial.” Only under grace can that statement be true.",
+          "z_index": 1,
+          "shape_type": "rectangle (1)",
+          "layout": {
+            "x": 22,
+            "y": 54,
+            "width": 922,
+            "height": 466,
+            "rotation": 0
+          },
+          "font": {
+            "wrap": true,
+            "font_size": 20.0
+          }
+        }
+      ]
+    },
     "6": {
       "slide_number": 6,
       "animation_sequence": [],
@@ -175,7 +217,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 36.7,
             "bold": true
           }
@@ -183,7 +224,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Do you not know that the wicked will not inherit the kingdom of God? Do not be deceived: Neither the sexually immoral nor idolaters nor adulterers nor male prostitutes nor homosexual offenders 10 nor thieves nor the greedy nor drunkards nor slanderers nor swindlers will inherit the kingdom of God. 11 And that is what some of you were. But you were washed, you were sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God.12 “Everything is permissible for me”—but not everything is beneficial. “Everything is permissible for me”—but I will not be mastered by anything.",
+          "text": "<span class=\"scripture\">Do you not know that the wicked will not inherit the kingdom of God? Do not be deceived: Neither the sexually immoral nor idolaters nor adulterers nor male prostitutes nor homosexual offenders <sup>10</sup> nor thieves nor the greedy nor drunkards nor slanderers nor swindlers will inherit the kingdom of God. <sup>11</sup> And that is what some of you were. But you were washed, you were sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God.<sup>12</sup> <br/>“Everything is permissible for me”—but not everything is beneficial. “Everything is permissible for me”—but I will not be mastered by anything.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -195,15 +236,13 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 23.3
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "1 Corinthians 10:23“Everything is permissible”—but not everything is beneficial. “Everything is permissible”—but not everything is constructive. 24 Nobody should seek his own good, but the good of others. 25 Eat anything that is sold in the meat market without asking questions for conscience’ sake;",
+          "text": "<span class=\"scripture\">1 Corinthians 10:23<br/>“Everything is permissible”—but not everything is beneficial. “Everything is permissible”—but not everything is constructive. <sup>24</sup> Nobody should seek his own good, but the good of others.<sup> 25 </sup>Eat anything that is sold in the meat market without asking questions for <u>conscience’ sake</u>;</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -215,15 +254,13 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 36.7
+            "wrap": true
           }
         },
         {
           "shape_name": "TextBox 1",
           "static": true,
-          "text": "[NIV] Permissible = [NASB, KJV] Lawful",
+          "text": "[NIV] Permissible = <strong>[NASB, KJV] </strong>Lawful",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -235,7 +272,6 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
             "font_size": 26.7,
             "color": "#000000"
           }
@@ -249,7 +285,7 @@
           "sequence": 1,
           "shape_name": "Text Box 6",
           "timing": "click",
-          "text": "“commanded” evokes what thoughts?",
+          "text": "“commanded” \nevokes what thoughts?",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -260,9 +296,12 @@
             "rotation": 0
           },
           "fill": "#FD8017",
+          "line": {
+            "width": 8
+          },
           "font": {
             "align": "center",
-            "font_name": "Arial"
+            "wrap": true
           }
         }
       ],
@@ -282,14 +321,14 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 4",
           "static": true,
-          "text": "Genesis 2:16-17",
+          "text": "<span class=\"scripture\">Genesis 2:16-17</span>",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -298,11 +337,6 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 44.2,
-            "bold": true
           }
         }
       ]
@@ -314,7 +348,7 @@
           "sequence": 1,
           "shape_name": "Text Box 7",
           "timing": "click",
-          "text": "Jew vs. GentileHearers vs Doers",
+          "text": "Jew vs. Gentile\nHearers vs Doers",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -331,15 +365,15 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "\"instinctively” Means what?",
+          "text": "\"instinctively”\n Means what?",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -352,8 +386,8 @@
           "fill": "#969696",
           "font": {
             "align": "center",
-            "font_name": "+mj-lt",
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         },
         {
@@ -373,7 +407,6 @@
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "Arial",
             "font_size": 26.7
           }
         },
@@ -381,7 +414,7 @@
           "sequence": 4,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "Instinct +Conscience & Heart",
+          "text": "Instinct +\nConscience & Heart",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -394,8 +427,8 @@
           "fill": "#969696",
           "font": {
             "align": "center",
-            "font_name": "+mj-lt",
-            "font_size": 30.0
+            "font_size": 30.0,
+            "wrap": true
           }
         }
       ],
@@ -416,14 +449,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 26.7
           }
         },
         {
           "shape_name": "Title 3",
           "static": true,
-          "text": "Romans 2:12-16",
+          "text": "<span class=\"scripture\">Romans 2:12-16</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -432,11 +464,6 @@
             "width": 390,
             "height": 51,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 44.2,
-            "bold": true
           }
         }
       ]
@@ -448,7 +475,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "Ephesians 4:17-19So this I say, and affirm together with the Lord, that you walk no longer just as the Gentiles also walk, in the futility of their mind, being darkened  in their understanding,excluded from the life of God because of the ignorance that is in them, because of the hardness of their heart; and they, having become callous, have given themselvesover to sensuality for the practice of every kind of impurity with greediness.",
+          "text": "<span class=\"scripture\">Ephesians 4:17-19<br/>So this I say, and affirm together with the Lord, that you walk no longer just as the <br/>Gentiles also walk, in the futility of their mind, being darkened  in their understanding,<br/>excluded from the life of God because of the ignorance that is in them, because of <br/>the hardness of their heart; and they, having become callous, have given themselves<br/>over to sensuality for the practice of every kind of impurity with greediness.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -460,8 +487,7 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 36.7
+            "wrap": true
           }
         },
         {
@@ -481,15 +507,15 @@
           "fill": "#33CCFF",
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 23.3
+            "font_size": 23.3,
+            "wrap": true
           }
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "Isaiah 5:20 Woe to those who call evil good, and good evil; Who substitute darkness for light and light for darkness; Who substitute bitter for sweet and sweet for bitter!",
+          "text": "<span class=\"scripture\">Isaiah 5:20 <br/>Woe to those who call evil good, and good evil; Who substitute darkness for light and light for darkness; Who substitute bitter for sweet and sweet for bitter!</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -501,9 +527,7 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 36.7
+            "wrap": true
           }
         }
       ],
@@ -511,7 +535,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "But the Spirit explicitly says that in later times some will fall away from the faith, paying attention to deceitful spirits and doctrines of demons, by means of the hypocrisy of liars seared in their own conscience as with a branding iron,",
+          "text": "But the Spirit explicitly says that in later times some will fall away from the faith, \npaying attention to deceitful spirits and doctrines of demons, by means of the \nhypocrisy of liars seared in their own conscience as with a branding iron,",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -523,14 +547,14 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 23.3
+            "font_size": 23.3,
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 6",
           "static": true,
-          "text": "1 Timothy 4:1-2",
+          "text": "<span class=\"scripture\">1 Timothy 4:1-2</span>",
           "z_index": 4,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -539,11 +563,6 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 36.7,
-            "bold": true
           }
         },
         {
@@ -568,7 +587,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "MosesLaw",
+          "text": "Moses\nLaw",
           "z_index": 10,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -585,8 +604,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 33.3
+            "font_size": 33.3,
+            "wrap": true
           }
         },
         {
@@ -605,7 +624,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 23.3
           }
         },
@@ -673,8 +691,7 @@
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "align": "center",
-            "font_name": "Arial"
+            "align": "center"
           }
         },
         {
@@ -692,7 +709,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 23.3
           }
         },
@@ -700,7 +716,7 @@
           "sequence": 6,
           "shape_name": "Rectangle 36",
           "timing": "with",
-          "text": "“But sin is not taken into account when there is no law” (verse 13)",
+          "text": "“But sin is not taken into account when there is no law” \n(verse 13)",
           "z_index": 12,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -711,8 +727,8 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           }
         },
         {
@@ -761,7 +777,7 @@
           "sequence": 8,
           "shape_name": "Text Box 34",
           "timing": "with",
-          "text": "“Death reigned…even over those who did not sin by breaking a command” (verse 14)",
+          "text": "“Death reigned…even over those who did not <u>sin by breaking a command</u>” (verse 14)",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
@@ -773,15 +789,15 @@
           },
           "font": {
             "align": "right",
-            "font_name": "Arial",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           }
         },
         {
           "sequence": 9,
           "shape_name": "Rectangle 16",
           "timing": "with",
-          "text": "“all sinned”(verse 12)",
+          "text": "“all sinned”\n(verse 12)",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -794,7 +810,6 @@
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "Arial",
             "font_size": 23.3
           }
         },
@@ -802,7 +817,7 @@
           "sequence": 10,
           "shape_name": "Text Box 31",
           "timing": "click",
-          "text": "Why did death reign during the time period with no law?",
+          "text": "<em>Why did death reign during the time period with no law? </em>",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -814,10 +829,10 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 26.7,
             "italic": true,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         },
         {
@@ -835,7 +850,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 33.3
           }
         },
@@ -843,7 +857,7 @@
           "sequence": 12,
           "shape_name": "Text Box 32",
           "timing": "with",
-          "text": "Days of Noah,Sodom & Gomorrah",
+          "text": "<em>Days of Noah,</em><br/><em>Sodom &amp; Gomorrah</em>",
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
@@ -855,16 +869,16 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 26.7,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 13,
           "shape_name": "Text Box 39",
           "timing": "click",
-          "text": "Moral Law",
+          "text": "Moral <u>Law</u>",
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
@@ -880,8 +894,7 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center",
-            "font_name": "Arial"
+            "align": "center"
           }
         }
       ],
@@ -889,7 +902,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all men, because all sinned— 13 for before the law was given, sin was in the world. But sin is not taken into account when there is no law. 14Nevertheless, death reigned from the time of Adam to the time of Moses, even over those who did not sin by breaking a command, as did Adam, who was a pattern of the one to come.",
+          "text": "<span class=\"scripture\">Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all men, because all sinned— <sup>13 </sup>for before the law was given, sin was in the world. But sin is not taken into account when there is no law. <sup>14</sup>Nevertheless, death reigned from the time of Adam to the time of Moses, even over those who did not sin by breaking a command, as did Adam, who was a pattern of the one to come.</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -901,15 +914,13 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 23.3
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 3",
           "static": true,
-          "text": "Romans 5:12-14",
+          "text": "<span class=\"scripture\">Romans 5:12-14</span>",
           "z_index": 3,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -918,10 +929,6 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "bold": true
           }
         }
       ]
@@ -933,7 +940,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "Galatians 3:19Why the Law then? It was added because of transgressions, having been ordained through angels by the agency of a mediator, until the seed would come to whom the promise had been made.",
+          "text": "<span class=\"scripture\">Galatians 3:19<br/>Why the Law then? It was <u>added</u> because of transgressions, having been ordained through angels by the agency of a mediator, until the seed would come to whom the promise had been made.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -945,8 +952,7 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 39.2
+            "wrap": true
           }
         }
       ],
@@ -966,8 +972,8 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         },
         {
@@ -984,7 +990,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 39.2,
             "bold": true
           }
@@ -1010,14 +1015,14 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         },
         {
           "shape_name": "Title 3",
           "static": true,
-          "text": "Luke 13:6-9",
+          "text": "<span class=\"scripture\">Luke 13:6-9</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1026,11 +1031,6 @@
             "width": 332,
             "height": 63,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 44.2,
-            "bold": true
           }
         }
       ]
@@ -1042,7 +1042,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Romans 6:11-14",
+          "text": "<span class=\"scripture\">Romans 6:11-14</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1051,17 +1051,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 36.7,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "In the same way, count yourselves dead to sin butalive to God in Christ Jesus. 12 Therefore do not let sin reign in your mortal body so that you obey its evil desires. 13 Do not offer the parts of your body to sin, as instruments of wickedness, but rather offer yourselves to God, as those who have been brought from death to life; and offer the parts of your body to him as instruments of righteousness. 14 For sin shall not be your master, because you are not under law, but under grace.",
+          "text": "<span class=\"scripture\">In the same way, count yourselves dead to sin but<br/>alive to God in Christ Jesus. <sup>12</sup> Therefore do not let sin <br/>reign in your mortal body so that you obey its evil desires. <br/><sup>13</sup> Do not offer the parts of your body to sin, as <br/>instruments of wickedness, but rather offer yourselves <br/>to God, as those who have <em><u>been brought from death </u></em><br/><em><u>to life;</u></em> and offer the parts of your body to him as <br/>instruments of righteousness. <br/><br/><sup>14</sup> For sin shall not be your master, <br/>because you are <em><u>not under law, but under grace.</u></em></span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1072,8 +1067,7 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "wrap": true
           }
         }
       ]
@@ -1085,7 +1079,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "Freedom from sin but a slave to righteousness.This dictates a new standard; a responsibility to live by.Are God’s standards easy to meet?",
+          "text": "Freedom from sin but a slave to righteousness.\nThis dictates a new standard; a responsibility to live by.\nAre God’s standards easy to meet?",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1097,9 +1091,9 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 30.0,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         }
       ],
@@ -1107,7 +1101,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Romans 6:17-18",
+          "text": "<span class=\"scripture\">Romans 6:17-18</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1116,17 +1110,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 36.7,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "But thanks be to God that, though you used to be slaves to sin, you wholeheartedly obeyed the form of teaching to which you were entrusted. 18 You have been set free from sin and have become slaves to righteousness.",
+          "text": "<span class=\"scripture\">But thanks be to God that, though you used to be <br/>slaves to sin, you wholeheartedly obeyed the form of <br/>teaching to which you were entrusted. <br/><br/><sup>18</sup> You have been <em><u>set free from sin</u></em> and have<br/> become <em><u>slaves to righteousness</u></em>.</span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1137,9 +1126,7 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "wrap": true
           }
         }
       ]
@@ -1151,7 +1138,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Romans 10:17 NASB",
+          "text": "<span class=\"scripture\">Romans 10:17 <sup>NASB</sup></span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1160,16 +1147,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 36.7,
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "So faith comes from hearing, and hearing by the word of Christ.",
+          "text": "So faith comes from hearing, \nand hearing by the word of Christ.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1181,14 +1164,13 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 30.0
           }
         },
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "Romans 10:17 NIVConsequently, faith comes from hearing the message, and the message is heard through the word about Christ.",
+          "text": "<span class=\"scripture\">Romans 10:17 <sup>NIV</sup><br/>Consequently, faith comes from hearing the message, and the message is heard through the word about Christ.</span>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1199,9 +1181,7 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mj-lt",
-            "font_size": 36.7
+            "wrap": true
           }
         }
       ]
@@ -1224,7 +1204,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 40.0,
             "bold": true
           }
@@ -1232,7 +1211,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "So then, my beloved, just as you have always obeyed, not as in my presence only, but now much more in my absence, work out your salvation with fear and trembling;",
+          "text": "So then, my beloved, just as you have always obeyed, <br/>not as in my presence only, but now much more in my <br/>absence, <em><u>work out your salvation with fear and trembling</u></em>;",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1243,8 +1222,8 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "font_size": 30.0,
+            "wrap": true
           }
         }
       ]
@@ -1267,7 +1246,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 33.3,
             "bold": true
           }
@@ -1275,7 +1253,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Dear friends, do not be surprised at the painful trial you are suffering, as though something strange were happening to you. 13 But rejoice that you participate in the sufferings of Christ, so that you may be overjoyed when his glory is revealed. 14 If you are insulted because of the name of Christ, you are blessed, for the Spirit of glory and of God rests on you. 15 If you suffer, it should not be as a murderer or thief or any other kind of criminal, or even as a meddler.16 However, if you suffer as a Christian, do not be ashamed, but praise God that you bear that name. 17 For it is time for judgment to begin with the family of God; and if it begins with us, what will the outcome be for those who do not obey the gospel of God? 18 And,  “If it is hard for the righteous to be saved,  what will become of the ungodly and the sinner?”",
+          "text": "<span class=\"scripture\">Dear friends, do not be surprised at the painful trial you are suffering, as though something strange were happening to you. <sup>13</sup> But rejoice that you participate in the sufferings of Christ, so that you may be overjoyed when his glory is revealed. <sup>14</sup> If you are insulted because of the name of Christ, you are blessed, for the Spirit of glory and of God rests on you. <sup>15</sup> If you suffer, it should not be as a murderer or thief or any other kind of criminal, or even as a meddler.<sup>16</sup> However, if you suffer as a Christian, do not be ashamed, but praise God that you bear that name. <sup>17</sup> For it is time for judgment to begin with the family of God; and if it begins with us, what will the outcome be for those who do not obey the gospel of God? <sup>18 </sup>And,  “If it is hard for the righteous to be saved,  what will become of the ungodly and the sinner?”</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1286,15 +1264,13 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 20.8
+            "wrap": true
           }
         },
         {
           "shape_name": "TextBox 1",
           "static": true,
-          "text": "Hebrews 10:23Let us hold fast the confession of our hope without wavering, for He who promised is faithful; 24 and let us consider how to stimulate one another to love and good deeds, 25 not forsaking our own assembling together, as is the habit of some, but encouraging one another; and all the more as you see the day drawing near. 26 For if we go on sinning willfully after receiving the knowledge of the truth, there no longer remains a sacrifice for sins, 27 but a terrifying expectation of judgment and the fury of a fire which will consume the adversaries.",
+          "text": "<span class=\"scripture\">Hebrews 10:23<br/>Let us hold fast the confession of our hope without wavering, for He who promised is faithful; <sup>24 </sup>and let us consider how to stimulate one another to love and good deeds, <sup>25 </sup>not forsaking our own assembling together, as is the habit of some, but encouraging <em>one another</em>; and all the more as you see the day drawing near. <sup>26 </sup>For if we go on sinning willfully after receiving the knowledge of the truth, there no longer remains a sacrifice for sins, <sup>27 </sup>but a terrifying expectation of judgment and the fury of a fire which will consume the adversaries. <br/></span>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1305,9 +1281,7 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "Arial",
-            "font_size": 33.3
+            "wrap": true
           }
         }
       ]
@@ -1319,7 +1293,7 @@
           "sequence": 1,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "Under the Law, sins are counted against mankind.Christ’s ambassadors' sins are NOT counted against them",
+          "text": "Under the Law, sins <em><u>are</u></em> counted against mankind.<br/>Christ’s ambassadors' sins <em><u>are NOT</u> </em>counted against them",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1333,8 +1307,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         }
       ],
@@ -1342,7 +1316,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "2 Corinthians 5:17-20",
+          "text": "<span class=\"scripture\">2 Corinthians 5:17-20</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1351,17 +1325,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 33.3,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "Therefore, if anyone is in Christ, he is a new creation; the old has gone, the new has come! 18 All this is from God, who reconciled usto himself through Christ and gave us the ministry of reconciliation:19 that God was reconciling the world to himself in Christ, not counting men’s sins against them. And he has committed to us the message of reconciliation. 20 We are therefore Christ’s ambassadors, as though God were making his appeal through us. We implore you on Christ’s behalf: Be reconciled to God.",
+          "text": "<span class=\"scripture\">Therefore, if anyone is in Christ, he is a new creation; the old has <br/>gone, the new has come! <sup>18</sup> All this is from God, who reconciled us<br/>to himself through Christ and gave us the ministry of reconciliation:<br/><sup>19</sup> that God was reconciling the world to himself in Christ, not <br/>counting men’s sins against them. And he has committed to us <br/>the message of reconciliation. <sup>20</sup> We are therefore Christ’s <br/>ambassadors, as though God were making his appeal through <br/>us. We implore you on Christ’s behalf: Be reconciled to God.</span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1372,8 +1341,7 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "wrap": true
           }
         }
       ]
@@ -1385,7 +1353,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "What then is the Church under?",
+          "text": "<em>What then is the Church under?</em>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1401,7 +1369,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 30.0,
             "italic": true
           }
@@ -1411,7 +1378,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Romans 4:14-16",
+          "text": "<span class=\"scripture\">Romans 4:14-16</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1420,16 +1387,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 36.7,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "For if those who are of the Law are heirs, then faith is made void andthe promise is nullified; 15 for the Law brings about wrath, but where there is no law, there also is no violation. 16 For this reason it is by faith, in order that it may be in accordance with grace, so that the promise will be guaranteed to all the descendants, not only to those who are of the Law, but also to those who are of the faith of Abraham, who is the father of us all, 17 (as it is written: “I have made you a father of many nations”) in the presence of Him whom he believed, that is, God, who gives life to the dead and calls into being things that do not exist.",
+          "text": "<span class=\"scripture\">For if those who are of the Law are heirs, then faith is made void and<br/>the promise is nullified; <sup>15</sup> for the <u>Law brings about wrath, but where </u><br/><u>there is no law, there also is no violation</u>. <br/><sup>16</sup> For <u>this reason</u> it is by faith, in order that it may be in accordance <br/>with grace, so that the promise will be guaranteed to all the <br/>descendants, not only to those who are of the Law, but also to those <br/>who are of the faith of Abraham, who is the father of us all, <br/><sup>17</sup> (as it is written: “I have made you a father of many nations”) in the <br/>presence of Him whom he believed, that is, God, who gives life to the<br/> dead and calls into being things that do not exist.</span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1440,8 +1403,7 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 26.7
+            "wrap": true
           }
         }
       ]
@@ -1453,7 +1415,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "Did you respect the office of Ambassador for Christ?Did you respect your grace period? Your diplomatic immunity?",
+          "text": "Did you respect the office of Ambassador for Christ?\nDid you respect your grace period? Your diplomatic immunity?",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1467,8 +1429,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         }
       ],
@@ -1487,7 +1449,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 33.3,
             "bold": true
           }
@@ -1495,7 +1456,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "For we must all appear before the judgment seat of Christ, that each one may receive what is due him for the thing done while in the body, whether good or bad.11 Since, then, we know what it is to fear the Lord, we tryto persuade men.",
+          "text": "<span class=\"scripture\">For we must all appear before the judgment seat of <br/>Christ, that each one may receive what is due him for <br/>the thing done while in the body, whether good or bad.<br/><sup>11</sup> Since, then, we know what it is to fear the Lord, we try<br/>to persuade men.</span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1506,8 +1467,7 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "wrap": true
           }
         },
         {
@@ -1532,7 +1492,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Romans 3:19 (NIV)",
+          "text": "<span class=\"scripture\">Romans 3:19 <em>(NIV)</em></span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1541,16 +1501,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 33.3,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "Now we know that whatever the law says, it says to those who are under the law, so that everymouth may be silenced and the whole world held accountable to God. 20 Therefore no one will be declared righteous in his sight by observing the law; rather, through the law we become conscious of sin. 21 But now a righteousness from God, apart from law, has been made known, to which the Law and the Prophets testify. 22 This righteousness from God comes through faith in Jesus Christ to all who believe. There is no difference, 23 for all have sinned and fall short of the glory of God, 24 and are justified freely by his grace through the redemption that came by Christ Jesus. 25 God presented him as a sacrifice of atonement, through faith in his blood. He did this to demonstrate his justice, because in his forbearance he had left the sins committed beforehand unpunished— 26 he did it to demonstrate his justice at the present time, so as to be just and the one who justifies those who have faith in Jesus.  27 Where, then, is boasting? It is excluded. On what principle? On that of observing the law? No, but on that of faith. 28 For we maintain that a man is justified by faith apart from observing the law. 29 Is God the God of Jews only? Is he not the God of Gentiles too?  Yes, of Gentiles too, 30 since there is only one God, who will justify the circumcised by faith and the uncircumcisedthrough that same faith. 31 Do we, then, nullify the law by this faith? Not at all! Rather, we uphold the law.",
+          "text": "<span class=\"scripture\">Now we know that whatever the law says, it says to those who are under the law, so that every<br/>mouth may be silenced and the whole world held accountable to God. <sup>20</sup> Therefore no one will <br/>be declared righteous in his sight by observing the law; rather, <u>through the law we become </u><br/><u>conscious of sin</u>. <sup>21</sup> But now a righteousness from God, apart from law, has been made known, <br/>to which the Law and the Prophets testify. <sup>22</sup> This righteousness from God comes through faith in <br/>Jesus Christ to all who believe. There is no difference, <sup>23</sup> for all have sinned and fall short of the <br/>glory of God, <sup>24</sup> and are justified freely by his grace through the redemption that came by <br/>Christ Jesus. <sup>25</sup> God presented him as a sacrifice of atonement, through faith in his blood. He did <br/>this to demonstrate his justice, because in his forbearance he had left the sins committed <br/>beforehand unpunished— <sup>26</sup> he did it to demonstrate his justice at the present time, so as to be <br/>just and the one who justifies those who have faith in Jesus.  <sup>27</sup> Where, then, is boasting? It is <br/>excluded. On what principle? On that of observing the law? No, but on that of faith. <sup>28</sup> For we <br/>maintain that a man is justified by faith apart from observing the law. <br/><sup>29</sup> Is God the God of Jews only? Is he not the God of Gentiles too?  Yes, of Gentiles too, <br/><sup>30</sup> since there is only one God, who will justify the circumcised by faith and the uncircumcised<br/>through that same faith. <sup>31</sup> Do we, then, nullify the law by this faith? Not at all! <br/>Rather, we uphold the law.</span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1561,14 +1517,13 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 20.0
+            "wrap": true
           }
         },
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "- link NASB version -",
+          "text": "<em>- link NASB version -</em>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1580,7 +1535,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 16.7,
             "italic": true
           },
@@ -1599,7 +1553,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Romans 3:19 (NASB)",
+          "text": "<span class=\"scripture\">Romans 3:19 <em>(NASB)</em></span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1608,16 +1562,12 @@
             "width": 825,
             "height": 45,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 33.3,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "Now we know that whatever the Law says, it speaks to those who are under the Law, so that every mouth may be closed and all the world may become accountable to God; 20 because by the works of the Law no flesh will be justified in His sight; for through the Law comes the knowledge of sin. 21 But now apart from the Law the righteousness of God has been manifested, being witnessed by the Law and the Prophets, 22 even the righteousness of God through faith in Jesus Christ for all those who believe; for there is no distinction; 23 for all sinned and fall short of the glory of God, 24 being justified as a gift by His grace through the redemption which is in Christ Jesus; 25 whom God displayed publicly as a propitiation in His blood through faith. This was to demonstrate His righteousness, because in the forbearance of God He passed over the sins previously committed; 26 for the demonstration, I say, of His righteousness at the present time, so that He would be just and the justifier of the one who has faith in Jesus. 27 Where then is boasting? It is excluded. By what kind of law? Of works? No, but by a law of faith. 28For we maintain that a man is justified by faith apart from works of the Law. 29 Or is God the God of Jews only? Is He not the God of Gentiles also? Yes, of Gentiles also, 30 since indeed God who will justify the circumcised by faith and the uncircumcised through faith is one. 31 Do we then nullify the Law through faith? May it never be! On the contrary, we establish the Law.",
+          "text": "<span class=\"scripture\">Now we know that whatever the Law says, it speaks to those who are under the Law, so that every mouth may be closed and all the world may become accountable to God; <sup>20</sup> because by the works of the Law no flesh will be justified in His sight; for <u>through the Law </u><em><u>comes</u></em><u> the knowledge of sin</u>. <sup>21</sup> But now apart from the Law <em>the</em> righteousness of God has been manifested, being witnessed by the Law and the Prophets, <sup>22</sup> even <em>the</em> righteousness of God through faith in Jesus Christ for all those who believe; for there is no distinction; <sup>23</sup> for all sinned and fall short of the glory of God, <sup>24</sup> being justified as a gift by His grace through the redemption which is in Christ Jesus; <sup>25</sup> whom God displayed publicly as a propitiation in His blood through faith. <em>This was</em> to demonstrate His righteousness, because in the forbearance of God He passed over the sins previously committed; <sup>26</sup> for the demonstration, <em>I say</em>, of His righteousness at the present time, so that He would be just and the justifier of the one who has faith in Jesus. <sup>27</sup> Where then is boasting? It is excluded. By what kind of law? Of works? No, but by <u>a law of faith. </u><sup>28</sup>For we maintain that a man is justified by faith apart from works of the Law. <sup>29</sup> Or is God <em>the God</em> of Jews only? Is He not <em>the God</em> of Gentiles also? Yes, of Gentiles also, <sup>30</sup> since indeed God who will justify the circumcised by faith and the uncircumcised through faith is one. <sup>31</sup> <u>Do we then nullify the Law through faith</u>? May it never be! On the contrary, <u>we establish the Law. </u></span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1628,15 +1578,13 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 20.8
+            "wrap": true
           }
         },
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "- link to NIV version -",
+          "text": "<em>- link to NIV version -</em>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1647,7 +1595,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 16.7,
             "italic": true
           },
@@ -1685,7 +1632,7 @@
           "sequence": 2,
           "shape_name": "Text Box 8",
           "timing": "with",
-          "text": "Commandment LawLevitical – Not perfect",
+          "text": "<u>Commandment Law</u><br/>Levitical – <em>Not</em> perfect",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1697,8 +1644,9 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "underline": true,
+            "wrap": true
           }
         },
         {
@@ -1724,7 +1672,7 @@
           "sequence": 4,
           "shape_name": "Text Box 8",
           "timing": "with",
-          "text": "Law of Faith / Grace Christ – Perfect Law",
+          "text": "<u>Law of Faith / Grace </u><br/>Christ – Perfect Law",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -1736,8 +1684,9 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "underline": true,
+            "wrap": true
           }
         },
         {
@@ -1757,7 +1706,6 @@
           "font": {
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 20.0
           }
         },
@@ -1807,7 +1755,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "Hebrews 7:11-12",
+          "text": "<span class=\"scripture\">Hebrews 7:11-12</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1816,16 +1764,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 33.3,
-            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron? 12 For when the priesthood is changed, of necessity there takes place a change of law also.",
+          "text": "<span class=\"scripture\">Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron?<sup> 12 </sup>For when the priesthood is changed, of necessity there takes place a change of law also.</span>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1836,9 +1780,7 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "wrap": true
           }
         }
       ]
@@ -1850,7 +1792,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "Romans 2:19-23If you are convinced that you are a guide for the blind, a light for those who are in the dark, 20 an instructor of the foolish, a teacher of little children, because you have in the law the embodiment of knowledge and truth— 21 you, then, who teach others, do you not teach yourself? You who preach against stealing, do you steal? 22 You who say that people should not commit adultery, do you commit adultery? You who abhor idols, do you rob temples? 23 You who boast in the law, do you dishonor God by breaking the law?",
+          "text": "<span class=\"scripture\">Romans 2:19-23<br/>If you are convinced that you are a guide for the blind, a light for those who are in the dark, <sup>20</sup> an instructor of the foolish, a teacher of little children, because you have in the law the embodiment of knowledge and truth— <sup>21</sup> you, then, who teach others, do you not teach yourself? You who preach against stealing, do you steal? <sup>22</sup> You who say that people should not commit adultery, do you commit adultery? You who abhor idols, do you rob temples? <sup>23</sup> You who boast in the law, do you dishonor God by breaking the law?</span>",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1861,16 +1803,14 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 30.0
+            "wrap": true
           }
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 10",
           "timing": "click",
-          "text": "Most example law violations are moral law (stealing, adultery). Paul (2:12) argues that Gentiles may do these things instinctually.",
+          "text": "Most example law violations are moral law <em>(stealing, adultery). </em><br/>Paul (2:12) argues that Gentiles may do these things instinctually.",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -1887,7 +1827,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
             "font_size": 20.0,
             "color": "#000000"
           }
@@ -1952,7 +1891,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "+ You shall have no other gods before Me.+ You shall not make idols.+ You shall not take the name of the LORD your God in vain.+ Remember the Sabbath day, to keep it holy.* Honor your father and your mother. * You shall not murder.* You shall not commit adultery.* You shall not steal.* You shall not bear false witness against your neighbor.* You shall not covet.",
+          "text": "+ You shall have no other gods before Me.\n+ You shall not make idols.\n+ You shall not take the name of the LORD your God in vain.\n+ Remember the Sabbath day, to keep it holy.\n* Honor your father and your mother. \n* You shall not murder.\n* You shall not commit adultery.\n* You shall not steal.\n* You shall not bear false witness against your neighbor.\n* You shall not covet.",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1963,14 +1902,14 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           }
         },
         {
           "shape_name": "TextBox 4",
           "static": true,
-          "text": "+ Additions that increased   transgression.* Codification of the Moral Law, things your conscience knows by instinct",
+          "text": "+ Additions that increased   transgression.\n* Codification of the Moral Law, things your conscience knows by instinct",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1987,7 +1926,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "+mn-lt",
             "font_size": 20.0
           }
         }
@@ -2000,7 +1938,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "Romans 6:18You have been set free from sin.. 1 John 1:18We know that no one who is born of God sins;",
+          "text": "<span class=\"scripture\">Romans 6:18<br/>You have been set free from sin.. <br/>1 John 1:18<br/>We know that no one who is born of God sins;</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2011,9 +1949,7 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 20.0
+            "wrap": true
           }
         },
         {
@@ -2034,7 +1970,6 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 20.0
           }
         },
@@ -2042,7 +1977,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 14",
           "timing": "click",
-          "text": "Romans 4:8“Blessed is the one whose sin the Lord will never count against them.”Psalm 32:1How blessed is he whose transgression is forgiven, whose sin is covered!",
+          "text": "<span class=\"scripture\">Romans 4:8<br/>“Blessed is the one whose sin the Lord will never count against them.”<br/>Psalm 32:1<br/>How blessed is he whose transgression is forgiven, whose sin is covered!</span>",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2054,8 +1989,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Helvetica Neue",
-            "font_size": 20.0,
             "color": "#000000"
           }
         },
@@ -2063,7 +1996,7 @@
           "sequence": 4,
           "shape_name": "Rectangle 9",
           "timing": "click",
-          "text": "2 Corinthians 5:18-19God, who reconciled us to himself through Christ and gave us the ministry of reconciliation: 19 that God was reconciling the world to himself in Christ, not counting men’s sins against them.",
+          "text": "<span class=\"scripture\">2 Corinthians 5:18-19<br/>God, who reconciled us to himself through Christ and gave us the ministry of reconciliation: <sup>19</sup> that <em><u>God was reconciling the world to himself in Christ, not counting men’s sins against them</u></em>.</span>",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2075,8 +2008,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
-            "font_size": 20.0,
             "color": "#000000"
           }
         },
@@ -2084,7 +2015,7 @@
           "sequence": 5,
           "shape_name": "TextBox 13",
           "timing": "click",
-          "text": "In Christ, sins are not counted.This is only possible through separation from the Law and rebirth under grace.Christ covers the sins of the Church.",
+          "text": "In Christ, sins are not counted.<br/>This is only possible through <u>separation from the Law</u> and rebirth under grace.<br/>Christ covers the sins of the Church.",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -2099,7 +2030,6 @@
             "v_align": "middle",
             "wrap": true,
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 20.0
           }
         }
@@ -2126,7 +2056,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "1 John 1:8If we say that we have no sin, we are deceiving ourselves and the truth is not in us.",
+          "text": "<span class=\"scripture\">1 John 1:8<br/>If we say that we have no sin, we are deceiving ourselves and the truth is not in us.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2138,15 +2068,13 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
-            "font_size": 20.0,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "1 John 1:10 If we say that we have not sinned, we make Him a liar and His word is not in us.",
+          "text": "<span class=\"scripture\">1 John 1:10 <br/>If we say that we have not sinned, we make Him a liar and His word is not in us.</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2158,8 +2086,6 @@
           },
           "font": {
             "wrap": true,
-            "font_name": "Arial",
-            "font_size": 20.0,
             "color": "#000000"
           }
         }
@@ -2173,7 +2099,7 @@
         {
           "sequence": 1,
           "shape_name": "Text Box 6",
-          "text": "Romans 2:12-16",
+          "text": "<span class=\"scripture\">Romans 2:12-16</span>",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
@@ -2186,9 +2112,7 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -2230,8 +2154,7 @@
             "rotation": 0
           },
           "font": {
-            "align": "center",
-            "font_name": "Arial"
+            "align": "center"
           }
         },
         {
@@ -2251,7 +2174,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 16.7
           }
         },
@@ -2271,14 +2193,13 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 16.7
           }
         },
         {
           "sequence": 6,
           "shape_name": "Text Box 16",
-          "text": "Conscience",
+          "text": "<em><u>Conscience</u></em>",
           "timing": "click",
           "z_index": 28,
           "shape_type": "text_box",
@@ -2292,15 +2213,15 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
             "font_size": 26.7,
-            "italic": true
+            "italic": true,
+            "underline": true
           }
         },
         {
           "sequence": 7,
           "shape_name": "Text Box 19",
-          "text": "1 Timothy 4:1-4Ephesians 4:17-19Isaiah 5:20",
+          "text": "<span class=\"scripture\">1 Timothy 4:1-4<br/>Ephesians 4:17-19<br/>Isaiah 5:20</span>",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -2314,8 +2235,7 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 23.3
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2326,7 +2246,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 22",
-          "text": "Do you have to know the Bible to define good and evil?",
+          "text": "Do you have to know the Bible \nto define good and evil?",
           "timing": "click",
           "z_index": 7,
           "shape_type": "text_box",
@@ -2339,14 +2259,14 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 18.3
+            "font_size": 18.3,
+            "wrap": true
           }
         },
         {
           "sequence": 9,
           "shape_name": "Text Box 23",
-          "text": "Romans 5:12-14",
+          "text": "<span class=\"scripture\">Romans 5:12-14</span>",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
@@ -2358,9 +2278,7 @@
             "rotation": 0
           },
           "font": {
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -2371,7 +2289,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 31",
-          "text": "Sin existed before Law even over those who did not break a commandment.",
+          "text": "Sin existed before Law even \nover those who \ndid not break a \ncommandment.",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
@@ -2383,8 +2301,8 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 16.7
+            "font_size": 16.7,
+            "wrap": true
           },
           "group_id": "2"
         },
@@ -2406,7 +2324,6 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
             "font_size": 40.0
           },
           "group_id": "2"
@@ -2428,7 +2345,6 @@
           "fill": "#F4F4F4",
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
             "font_size": 40.0
           },
           "group_id": "2"
@@ -2436,7 +2352,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 29",
-          "text": "MosesLaw",
+          "text": "Moses\nLaw",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -2451,8 +2367,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 40.0
+            "font_size": 40.0,
+            "wrap": true
           },
           "group_id": "2"
         },
@@ -2471,7 +2387,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 16.7
           },
           "group_id": "2"
@@ -2521,7 +2436,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 5",
-          "text": "Genesis 2:16-17",
+          "text": "<span class=\"scripture\">Genesis 2:16-17</span>",
           "timing": "click",
           "z_index": 29,
           "shape_type": "text_box",
@@ -2534,9 +2449,7 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -2576,15 +2489,12 @@
             "width": 234,
             "height": 61,
             "rotation": 0
-          },
-          "font": {
-            "font_name": "Arial"
           }
         },
         {
           "sequence": 14,
           "shape_name": "Text Box 48",
-          "text": "Romans 5:20Galatians 3:19",
+          "text": "<span class=\"scripture\">Romans 5:20<br/>Galatians 3:19</span>",
           "timing": "with",
           "z_index": 13,
           "shape_type": "text_box",
@@ -2597,8 +2507,7 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 23.3
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2609,7 +2518,7 @@
         {
           "sequence": 15,
           "shape_name": "Text Box 45",
-          "text": "Expanded Law due to weak flesh.",
+          "text": "<em>Expanded Law due to weak flesh.</em>",
           "timing": "click",
           "z_index": 11,
           "shape_type": "text_box",
@@ -2622,7 +2531,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 16.7,
             "italic": true
           }
@@ -2630,7 +2538,7 @@
         {
           "sequence": 16,
           "shape_name": "Text Box 49",
-          "text": "Examples:",
+          "text": "<em>Examples:</em>",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
@@ -2642,7 +2550,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 20.0,
             "italic": true
           }
@@ -2650,7 +2557,7 @@
         {
           "sequence": 17,
           "shape_name": "Text Box 52",
-          "text": "Social Laws (Leviticus)",
+          "text": "Social Laws <em>(Leviticus)</em>",
           "timing": "with",
           "z_index": 16,
           "shape_type": "text_box",
@@ -2662,14 +2569,13 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 20.0
           }
         },
         {
           "sequence": 18,
           "shape_name": "Text Box 53",
-          "text": "Priesthood / RoyaltySacrifice / Worship etc.",
+          "text": "Priesthood / Royalty\nSacrifice / Worship etc.",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
@@ -2681,14 +2587,14 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           }
         },
         {
           "sequence": 19,
           "shape_name": "Text Box 50",
-          "text": "10 Commandments (moral +)",
+          "text": "10 Commandments <em>(<u>moral +</u>)</em>",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -2700,7 +2606,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 20.0
           },
           "hyperlink": {
@@ -2755,7 +2660,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 50.0,
             "bold": true,
             "color": "#000000"
@@ -2852,7 +2756,7 @@
         {
           "sequence": 25,
           "shape_name": "Text Box 54",
-          "text": "Must be heard",
+          "text": "<em><u>Must be heard</u></em>",
           "timing": "after",
           "z_index": 21,
           "shape_type": "text_box",
@@ -2865,15 +2769,15 @@
           },
           "font": {
             "v_align": "middle",
-            "font_name": "Arial",
             "font_size": 26.7,
-            "italic": true
+            "italic": true,
+            "underline": true
           }
         },
         {
           "sequence": 26,
           "shape_name": "Text Box 58",
-          "text": "Entire World:Violates Moral Law",
+          "text": "<u>Entire World:</u><br/>Violates Moral Law",
           "timing": "click",
           "z_index": 19,
           "shape_type": "text_box",
@@ -2886,14 +2790,15 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "underline": true,
+            "wrap": true
           }
         },
         {
           "sequence": 27,
           "shape_name": "Text Box 58",
-          "text": "Only Israel: Violates Moral &Commandment Law",
+          "text": "<u>Only Israel</u>: <br/>Violates Moral &amp;<br/>Commandment Law",
           "timing": "click",
           "z_index": 33,
           "shape_type": "text_box",
@@ -2906,14 +2811,15 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "underline": true,
+            "wrap": true
           }
         },
         {
           "sequence": 28,
           "shape_name": "TextBox 3",
-          "text": "All ViolateConscience.",
+          "text": "All Violate\nConscience.",
           "timing": "click",
           "z_index": 34,
           "shape_type": "text_box",
@@ -2927,9 +2833,9 @@
           "fill": "#000000",
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 30.0,
-            "color": "#FD8017"
+            "color": "#FD8017",
+            "wrap": true
           }
         }
       ],
@@ -3020,7 +2926,7 @@
         {
           "sequence": 2,
           "shape_name": "Text Box 7",
-          "text": "Moral",
+          "text": "<u>Moral</u>",
           "timing": "with",
           "z_index": 10,
           "shape_type": "text_box",
@@ -3032,13 +2938,13 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial"
+            "underline": true
           }
         },
         {
           "sequence": 3,
           "shape_name": "Text Box 10",
-          "text": "“Awen”twisted, distorted, ugly",
+          "text": "“Awen”\ntwisted, \ndistorted,\n ugly",
           "timing": "with",
           "z_index": 4,
           "shape_type": "text_box",
@@ -3051,8 +2957,8 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         },
         {
@@ -3103,7 +3009,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 48.3
           }
         },
@@ -3129,7 +3034,7 @@
         {
           "sequence": 7,
           "shape_name": "Text Box 8",
-          "text": "Command",
+          "text": "<u>Command</u>",
           "timing": "with",
           "z_index": 11,
           "shape_type": "text_box",
@@ -3142,13 +3047,13 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial"
+            "underline": true
           }
         },
         {
           "sequence": 8,
           "shape_name": "Text Box 12",
-          "text": "“Pesha”stubborn, rebellious",
+          "text": "“Pesha”\nstubborn, \nrebellious",
           "timing": "with",
           "z_index": 6,
           "shape_type": "text_box",
@@ -3161,8 +3066,8 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         },
         {
@@ -3213,14 +3118,13 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 48.3
           }
         },
         {
           "sequence": 11,
           "shape_name": "Text Box 8",
-          "text": "Sin causes death. Law brings wrath. Romans 4:15",
+          "text": "Sin causes death. \nLaw brings wrath.\n Romans 4:15",
           "timing": "click",
           "z_index": 12,
           "shape_type": "text_box",
@@ -3233,8 +3137,8 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 30.0
+            "font_size": 30.0,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3245,7 +3149,7 @@
         {
           "sequence": 12,
           "shape_name": "Text Box 86",
-          "text": "Romans 6:11-14",
+          "text": "<span class=\"scripture\">Romans 6:11-14</span>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -3257,9 +3161,7 @@
             "rotation": 0
           },
           "font": {
-            "align": "center",
-            "font_name": "Arial",
-            "font_size": 26.7
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -3289,7 +3191,7 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 8",
-          "text": "Faith / Grace",
+          "text": "<u>Faith / Grace </u>",
           "timing": "with",
           "z_index": 16,
           "shape_type": "text_box",
@@ -3302,14 +3204,14 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
-            "font_size": 45.0
+            "font_size": 45.0,
+            "underline": true
           }
         },
         {
           "sequence": 15,
           "shape_name": "Rectangle 17",
-          "text": "For sin shall no longer be your master, because you are not under the law, but under grace",
+          "text": "For sin shall no longer be your <br/>master, because you are <br/><u>not under the law</u>, but under grace<br/>",
           "timing": "click",
           "z_index": 14,
           "shape_type": "rectangle (1)",
@@ -3321,8 +3223,8 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           }
         },
         {
@@ -3376,7 +3278,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 33.3,
             "color": "#FD8017"
           }
@@ -3397,7 +3298,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 26.7
           },
           "hyperlink": {
@@ -3409,7 +3309,7 @@
         {
           "sequence": 19,
           "shape_name": "TextBox 19",
-          "text": "God not counting men’s sins against them. Ambassadors for Christ. Diplomatic Immunity – grace period",
+          "text": "God not counting men’s sins against them. \nAmbassadors for Christ. \nDiplomatic Immunity – grace period",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -3421,8 +3321,8 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
-            "font_size": 16.7
+            "font_size": 16.7,
+            "wrap": true
           }
         },
         {
@@ -3442,7 +3342,6 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 26.7
           },
           "hyperlink": {
@@ -3454,7 +3353,7 @@
         {
           "sequence": 21,
           "shape_name": "Rectangle 24",
-          "text": "Justified – Not under the law, still upholding (establishing) the law",
+          "text": "<em>Justified – <u>Not under the law</u>, </em><br/><em>still upholding (establishing) the law</em>",
           "timing": "click",
           "z_index": 17,
           "shape_type": "rectangle (1)",
@@ -3467,9 +3366,9 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 20.0,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
@@ -3519,7 +3418,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 26.7
           },
           "hyperlink": {
@@ -3531,7 +3429,7 @@
         {
           "sequence": 24,
           "shape_name": "TextBox 25",
-          "text": "Everything is permissible [lawful]but not all is beneficial",
+          "text": "<em>Everything is permissible [lawful]</em><br/><em>but not all is beneficial</em>",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
@@ -3544,15 +3442,15 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 20.0,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 25,
           "shape_name": "TextBox 29",
-          "text": "“I thought everyonewas/is a sinner ?”",
+          "text": "<em>“I thought everyone</em><br/><em>was/is a sinner ?”</em>",
           "timing": "click",
           "z_index": 27,
           "shape_type": "text_box",
@@ -3566,9 +3464,9 @@
           "fill": "#F4F4F4",
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 20.0,
-            "italic": true
+            "italic": true,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3579,7 +3477,7 @@
         {
           "sequence": 26,
           "shape_name": "TextBox 21",
-          "text": "Hebrews 7:11(change of law)",
+          "text": "<span class=\"scripture\">Hebrews 7:11<br/>(change of law)</span>",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -3593,8 +3491,7 @@
           "fill": "#00B0F0",
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 26.7
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3618,7 +3515,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 33.3,
             "bold": true,
             "color": "#000000"
@@ -3658,7 +3554,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 23.3
           },
           "hyperlink": {
@@ -3670,7 +3565,7 @@
         {
           "sequence": 2,
           "shape_name": "TextBox 39",
-          "text": "Sin Not Counted = No DeathWhy Fear & Trembling?",
+          "text": "<em>Sin Not Counted = No Death</em><br/><em>Why Fear &amp; Trembling?</em><br/>",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -3683,10 +3578,10 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 16.7,
             "italic": true,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         },
         {
@@ -3705,7 +3600,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 23.3
           },
           "hyperlink": {
@@ -3717,7 +3611,7 @@
         {
           "sequence": 4,
           "shape_name": "TextBox 2",
-          "text": "Responsible for good and bad while in the body,Fear the Lord.",
+          "text": "<em>Responsible for good</em><br/><em> and bad while in the body,</em><br/><em>Fear the Lord.</em>",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
@@ -3730,9 +3624,9 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 20.0,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
@@ -3751,7 +3645,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
             "font_size": 23.3
           },
           "hyperlink": {
@@ -3801,7 +3694,7 @@
         {
           "sequence": 7,
           "shape_name": "Rectangle 6",
-          "text": "“You have been set freefrom sin and have become slaves to righteousness”",
+          "text": "“You have been set free<br/>from sin and have become <br/><u>slaves to righteousness”</u>",
           "timing": "click",
           "z_index": 22,
           "shape_type": "rectangle (1)",
@@ -3814,8 +3707,8 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3826,7 +3719,7 @@
         {
           "sequence": 8,
           "shape_name": "TextBox 7",
-          "text": "Freedom from sin but notresponsibility!",
+          "text": "<em>Freedom from sin but not</em><br/><em><u>responsibility!</u></em>",
           "timing": "with",
           "z_index": 23,
           "shape_type": "text_box",
@@ -3838,15 +3731,15 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 20.0,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 9,
           "shape_name": "Rectangle 11",
-          "text": "Fear and trembling from responsibility...not sin.",
+          "text": "<em>Fear and trembling from responsibility...not sin.</em>",
           "timing": "click",
           "z_index": 27,
           "shape_type": "rectangle (1)",
@@ -3858,9 +3751,9 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 26.7,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
@@ -3885,7 +3778,7 @@
         {
           "sequence": 11,
           "shape_name": "TextBox 8",
-          "text": "As a slave you havenew set of responsibility",
+          "text": "As a slave you have\nnew set of responsibility",
           "timing": "with",
           "z_index": 24,
           "shape_type": "text_box",
@@ -3898,14 +3791,14 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 20.0
+            "font_size": 20.0,
+            "wrap": true
           }
         },
         {
           "sequence": 12,
           "shape_name": "Text Box 61",
-          "text": "Luke 13:6-9",
+          "text": "<span class=\"scripture\">Luke 13:6-9</span>",
           "timing": "with",
           "z_index": 17,
           "shape_type": "text_box",
@@ -3916,10 +3809,6 @@
             "height": 46,
             "rotation": 0
           },
-          "font": {
-            "font_name": "Arial",
-            "font_size": 30.0
-          },
           "hyperlink": {
             "type": "customshow",
             "id": 5,
@@ -3929,7 +3818,7 @@
         {
           "sequence": 13,
           "shape_name": "Text Box 62",
-          "text": "OwnerKeeperVineyardTreesFruit",
+          "text": "Owner\nKeeper\nVineyard\nTrees\nFruit",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -3941,8 +3830,8 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
@@ -3991,7 +3880,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 26.7
           }
         },
@@ -4041,7 +3929,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 26.7
           }
         },
@@ -4091,7 +3978,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 26.7
           }
         },
@@ -4141,7 +4027,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 26.7
           }
         },
@@ -4179,7 +4064,7 @@
         {
           "sequence": 23,
           "shape_name": "Text Box 86",
-          "text": "Fruits of Spirit:Benevolence,Teaching, ect.",
+          "text": "<em>Fruits of Spirit:</em><br/><em>Benevolence,</em><br/><em>Teaching, ect.</em>",
           "timing": "after",
           "z_index": 16,
           "shape_type": "text_box",
@@ -4191,15 +4076,15 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 17.5,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 24,
           "shape_name": "Text Box 54",
-          "text": "Church Exclusive",
+          "text": "<em><u>Church Exclusive</u></em>",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
@@ -4213,9 +4098,9 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
             "font_size": 26.7,
-            "italic": true
+            "italic": true,
+            "underline": true
           }
         },
         {
@@ -4240,7 +4125,7 @@
         {
           "sequence": 26,
           "shape_name": "Text Box 13",
-          "text": "“hamartia”to be without a      share inb) to miss the markc) to err, be mistakend) to miss or wander     from the path of      uprightnesse) to wander from the     law of God",
+          "text": "<em>“hamartia”</em><br/>to be without a <br/>     share in<br/>b) to miss the mark<br/>c) to err, be mistaken<br/>d) to miss or wander<br/>     from the path of <br/>     uprightness<br/>e) to wander from the<br/>     law of God",
           "timing": "with",
           "z_index": 2,
           "shape_type": "text_box",
@@ -4252,9 +4137,9 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
             "font_size": 35.0,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
@@ -4305,14 +4190,13 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 48.3
           }
         },
         {
           "sequence": 29,
           "shape_name": "TextBox 25",
-          "text": "Same result as other sins Decided at judgment.",
+          "text": "Same result as other sins \nDecided at judgment.",
           "timing": "with",
           "delay": 500,
           "z_index": 21,
@@ -4326,14 +4210,14 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 16.7
+            "font_size": 16.7,
+            "wrap": true
           }
         },
         {
           "sequence": 30,
           "shape_name": "Rectangle 5",
-          "text": "9 If it bears fruit next year, fine! If not, then cut it down.",
+          "text": "<span class=\"scripture\"><sup>9</sup> If it bears fruit next year, fine! If not, then cut it down.</span>",
           "timing": "click",
           "z_index": 20,
           "shape_type": "rectangle (1)",
@@ -4345,15 +4229,14 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "Arial",
-            "font_size": 30.0,
-            "color": "#000000"
+            "color": "#000000",
+            "wrap": true
           }
         },
         {
           "sequence": 31,
           "shape_name": "TextBox 41",
-          "text": "1Peter 4:12-18Hebrews 10:23",
+          "text": "1Peter 4:12-18\nHebrews 10:23",
           "timing": "click",
           "z_index": 28,
           "shape_type": "text_box",
@@ -4366,8 +4249,8 @@
           },
           "font": {
             "align": "center",
-            "font_name": "+mn-lt",
-            "font_size": 23.3
+            "font_size": 23.3,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4390,7 +4273,6 @@
             "rotation": 0
           },
           "font": {
-            "font_name": "+mn-lt",
             "font_size": 20.0
           }
         }
@@ -4411,7 +4293,6 @@
           },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 40.0,
             "bold": true,
             "color": "#000000"
@@ -4439,50 +4320,6 @@
           "font": {
             "font_size": 50.0,
             "bold": true
-          }
-        }
-      ]
-    },
-    {
-      "slide_number": 5,
-      "animation_sequence": [],
-      "static_content": [
-        {
-          "shape_name": "Title 1",
-          "static": true,
-          "text": "“you are not under the law, but under grace.”",
-          "z_index": 0,
-          "shape_type": "placeholder (14)",
-          "layout": {
-            "x": 103,
-            "y": 17,
-            "width": 756,
-            "height": 44,
-            "rotation": 0
-          },
-          "font": {
-            "align": "center",
-            "font_name": "Arial",
-            "bold": true
-          }
-        },
-        {
-          "shape_name": "Rectangle 2",
-          "static": true,
-          "text": "Being under grace is not like being under the law. Under the Law, a violation would result in death with no exceptions.  Under grace, those in Christ are expected to perform work as a slave to righteousness, but you are given help  - Christ the vine-keeper fertilizes and massages the soil. You are expected to eventually produce fruit. Under grace, failing to produce fruit is not a direct equation resulting in death – as the parable implies, death or fire could eventually result but not right away because Christ is interceding. This is why it is called “grace and faith” – The law of faith is the grace. Under Moral and Commandment Law, violations cause sin which causes death. Therefore the world is dead because of sin which is the infection that kills all of humanity due to a guilty conscience. The Church is never infected with sin due to Christ but members can still potentially die from a lack of effort/fruit. Therefore we work out our salvation with fear and trembling, not because of a fear of sin, but fear of living up to responsibility in the vineyard. There are many instances one can shirk the responsibility of being a slave to righteousness, for example, by ceasing to eat the spiritual meal (communion) which would eventually cause a death...again not because of sin but because weakness due to starvation. Those in Christ never sin once they are born of Him (1 John 5:18). This is why Church members should not fear sin but should fear judgment because “anything is permissible, but not everything is beneficial.” Only under grace can that statement be true.",
-          "z_index": 1,
-          "shape_type": "rectangle (1)",
-          "layout": {
-            "x": 22,
-            "y": 54,
-            "width": 922,
-            "height": 466,
-            "rotation": 0
-          },
-          "font": {
-            "wrap": true,
-            "font_name": "+mn-lt",
-            "font_size": 20.0
           }
         }
       ]

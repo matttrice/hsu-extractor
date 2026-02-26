@@ -238,7 +238,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "12 Therefore, just as through one man sin entered into the world, and death through sin, and so death spread to all men, because all sinned—",
+          "text": "<span class=\"scripture\"><sup>12</sup> Therefore, just as through one man sin entered into the world, and death through sin, and so death spread to all men, because all sinned—</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -248,8 +248,11 @@
             "height": 169,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 33.3
+            "wrap": true
           }
         }
       ]
@@ -261,7 +264,7 @@
           "sequence": 1,
           "shape_name": "Text Box 8",
           "timing": "click",
-          "text": "Where did this sinful nature in the flesh come from?",
+          "text": "Where did this sinful nature \nin the flesh come from?",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -271,8 +274,12 @@
             "height": 46,
             "rotation": 0
           },
+          "line": {
+            "width": 6
+          },
           "font": {
-            "font_size": 17.5
+            "font_size": 17.5,
+            "wrap": true
           }
         },
         {
@@ -290,6 +297,9 @@
             "rotation": 0
           },
           "fill": "#969696",
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 30.8
           }
@@ -298,7 +308,7 @@
           "sequence": 3,
           "shape_name": "Text Box 9",
           "timing": "with",
-          "text": "Passed through birth from Generation to generation.Sin lives inside the flesh from birth which causes us to be MORTAL and we have NO CHOICE.",
+          "text": "Passed through birth from <br/>Generation to generation.<br/><br/><u>Sin lives inside the flesh </u>from <br/>birth which causes us to be <br/>MORTAL and we have NO CHOICE.",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -309,16 +319,20 @@
             "rotation": 0
           },
           "fill": "#969696",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 17.5
+            "font_size": 17.5,
+            "wrap": true
           }
         },
         {
           "sequence": 4,
           "shape_name": "Text Box 10",
           "timing": "click",
-          "text": "Romans 8:1-14",
+          "text": "<span class=\"scripture\">Romans 8:1-14</span>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -329,8 +343,8 @@
             "rotation": 0
           },
           "fill": "#FD8017",
-          "font": {
-            "font_size": 36.7
+          "line": {
+            "width": 6
           },
           "hyperlink": {
             "type": "slide",
@@ -351,15 +365,19 @@
             "height": 48,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 23.3
+            "font_size": 23.3,
+            "wrap": true
           }
         },
         {
           "sequence": 6,
           "shape_name": "Text Box 12",
           "timing": "click",
-          "text": "How and why do we sin?",
+          "text": "<em>How and why do we sin?</em>",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -368,6 +386,9 @@
             "width": 350,
             "height": 26,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -379,7 +400,7 @@
           "sequence": 7,
           "shape_name": "Text Box 14",
           "timing": "click",
-          "text": "Galatians 5:17Romans 6:12James 1:14-15",
+          "text": "<span class=\"scripture\">Galatians 5:17<br/>Romans 6:12<br/>James 1:14-15</span>",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -389,8 +410,11 @@
             "height": 122,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 26.7
+            "wrap": true
           },
           "hyperlink": {
             "type": "slide",
@@ -401,7 +425,7 @@
           "sequence": 8,
           "shape_name": "Text Box 15",
           "timing": "click",
-          "text": "Temptation“by own lusts”",
+          "text": "<em>Temptation</em><br/><em>“by own lusts”</em>",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
@@ -419,7 +443,8 @@
             "v_align": "middle",
             "align": "center",
             "font_size": 23.3,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
@@ -466,6 +491,9 @@
             "height": 60,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 50.0
@@ -504,6 +532,9 @@
             "height": 61,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 50.0
@@ -513,7 +544,7 @@
           "sequence": 13,
           "shape_name": "Text Box 23",
           "timing": "click",
-          "text": "Side Note: Temptation is necessaryto start the cascade of events that leads to sin and death.  Who providedthe temptation in the Garden?",
+          "text": "Side Note: Temptation is necessary\nto start the cascade of events that \nleads to sin and death.  Who provided\nthe temptation in the Garden?",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
@@ -523,13 +554,19 @@
             "height": 78,
             "rotation": 0
           },
-          "fill": "#FD8017"
+          "fill": "#FD8017",
+          "line": {
+            "width": 1
+          },
+          "font": {
+            "wrap": true
+          }
         },
         {
           "sequence": 14,
           "shape_name": "Text Box 25",
           "timing": "click",
-          "text": "1Corinthians 15:45-53",
+          "text": "1Corinthians \n15:45-53",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
@@ -539,8 +576,12 @@
             "height": 88,
             "rotation": 0
           },
+          "line": {
+            "width": 6
+          },
           "font": {
-            "font_size": 33.3
+            "font_size": 33.3,
+            "wrap": true
           },
           "hyperlink": {
             "type": "slide",
@@ -552,7 +593,7 @@
         {
           "shape_name": "Text Box 7",
           "static": true,
-          "text": "Flesh that covers the bonesThe body of man.         Sensuous nature of man.        Animal nature with cravings which incite to sin.        Physical nature of man.The flesh, earthly nature apart from divine influence        and therefore prone to sin and opposed to God.",
+          "text": "Flesh that covers the bones\nThe body of man. \n        Sensuous nature of man.\n        Animal nature with cravings which incite to sin.\n        Physical nature of man.\nThe flesh, earthly nature apart from divine influence\n        and therefore prone to sin and opposed to God.",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -562,7 +603,13 @@
             "height": 134,
             "rotation": 0
           },
-          "fill": "#969696"
+          "fill": "#969696",
+          "line": {
+            "width": 6
+          },
+          "font": {
+            "wrap": true
+          }
         },
         {
           "shape_name": "Rectangle 26",
@@ -598,6 +645,9 @@
             "rotation": 0
           },
           "fill": "#969696",
+          "line": {
+            "width": 6
+          },
           "font": {
             "font_size": 30.8
           }
@@ -638,8 +688,12 @@
             "height": 195,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         }
       ]
@@ -651,7 +705,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Psalms 139:14-15",
+          "text": "<span class=\"scripture\">Psalms 139:14-15</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -660,15 +714,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "I will give thanks to You, for I  am fearfully and wonderfully made; Wonderful  are Your works, And my soul knows it very well. 15 My frame  was not hidden from You, When I was made in secret, and skillfully wrought in the depths  of the earth;",
+          "text": "<span class=\"scripture\">I will give thanks to You, for I  am fearfully and wonderfully made; Wonderful  are Your works, And my soul knows it very well. <sup>15</sup> My frame  was not hidden from You, When I was made in secret, and skillfully wrought in the depths  of the earth; <br/></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -678,9 +729,11 @@
             "height": 232,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 30.8
+            "wrap": true
           }
         }
       ]
@@ -720,8 +773,12 @@
             "height": 82,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         }
       ]
@@ -733,7 +790,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Psalms 51:5-6",
+          "text": "<span class=\"scripture\">Psalms 51:5-6</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -742,15 +799,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Behold, I was brought  forth in iniquity, And in sin my mother conceived me. 6 Behold, You desire truth  in the innermost  being, And in the hidden part You will make  me know wisdom.",
+          "text": "<span class=\"scripture\">Behold, I was brought  forth in iniquity, And in sin my mother conceived me. <sup>6</sup> Behold, You desire truth  in the innermost  being, And in the hidden part You will make  me know wisdom. <br/></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -760,8 +814,11 @@
             "height": 195,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "wrap": true
           }
         }
       ]
@@ -801,8 +858,12 @@
             "height": 82,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         }
       ]
@@ -833,7 +894,7 @@
         {
           "shape_name": "Rectangle 13",
           "static": true,
-          "text": "So also it is written, \"The first MAN , Adam, BECAME A LIVING SOUL.\" The last  Adam became a life-giving  spirit. 46 However, the spiritual is not first, but the natural; then the spiritual. 47 The first man is from the earth, earthy; the second man is from heaven. 48 As is the earthy, so also are those who are earthy; and as is the heavenly, so  also are those who are heavenly. 49 Just as we have borne  the image of the earthy, we  will  also bear the image of the heavenly. 50 Now I say this, brethren, that flesh  and blood cannot inherit  the kingdom of God; nor does the  perishable inherit the  imperishable. 51 Behold, I tell you a mystery;  we will not all sleep, but we will all be changed,  52 in a moment, in the twinkling of an eye, at the last trumpet; for the  trumpet will sound, and the  dead will be raised imperishable, and we  will be changed. 53 For this perishable  must put on the  imperishable, and this mortal  must put on immortality.",
+          "text": "<span class=\"scripture\">So also it is written, \"The first MAN , Adam, BECAME A LIVING SOUL.\" The last  Adam became a life-giving  spirit. <sup>46</sup><sup> </sup>However, the spiritual is not first, but the natural; then the spiritual. <sup>47</sup> The first man is from the earth, earthy; the second man is from heaven. <sup>48</sup><sup> </sup>As is the earthy, so also are those who are earthy; and as is the heavenly, so  also are those who are heavenly. <sup>49</sup><sup> </sup>Just as we have borne  the image of the earthy, we  will  also bear the image of the heavenly. <sup>50</sup> Now I say this, brethren, that flesh  and blood cannot inherit  the kingdom of God; nor does the  perishable inherit the  imperishable. <br/><sup>51</sup> Behold, I tell you a mystery;  we will not all sleep, but we will all be changed,  <sup>52</sup> in a moment, in the twinkling of an eye, at the last trumpet; for the  trumpet will sound, and the  dead will be raised imperishable, and we  will be changed. <sup>53</sup> For this perishable  must put on the  imperishable, and this mortal  must put on immortality.<br/></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -843,8 +904,11 @@
             "height": 444,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 23.3
+            "wrap": true
           }
         }
       ]
@@ -856,7 +920,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "Philippians 2:6-7Who, although He existed  in the form of God, did  not regard equality with God a thing to be grasped,  7 but emptied  Himself, taking the form of a bond-servant, and being  made in the likeness of men.",
+          "text": "<span class=\"scripture\">Philippians <em>2:6-7</em><br/>Who, although He existed  in the form of God, did  not regard equality with God a thing to be grasped,  <sup>7</sup> but emptied  Himself, taking the form of a bond-servant, and being  made in the likeness of men.</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -866,15 +930,18 @@
             "height": 113,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 26.7
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Hebrews 2:14-17Therefore, since the children share in flesh and blood, He Himself likewise also partook of the same, that through  death He might render powerless him  who had the power of death, that is, the devil, 15 and might free those who through fear of death were subject to slavery all their lives. 16 For assuredly He does not give  help to angels, but He gives help to the descendants  of Abraham. 17 Therefore, He had  to be made like His brethren in all things, so that He might become  a merciful and faithful high  priest in things  pertaining to God, to make  propitiation for the sins of the people.",
+          "text": "<span class=\"scripture\">Hebrews 2:14-17<br/>Therefore, since the children share in flesh and blood, He Himself likewise also partook of the same, that through  death He might render powerless him  who had the power of death, that is, the devil, <sup>15</sup> and might free those who through fear of death were subject to slavery all their lives. <sup>16</sup> For assuredly He does not give  help to angels, but He gives help to the descendants  of Abraham. <sup>17</sup> Therefore, He had  to be made like His brethren in all things, so that He might become  a merciful and faithful high  priest in things  pertaining to God, to make  propitiation for the sins of the people.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -884,15 +951,18 @@
             "height": 210,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 26.7
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "Hebrews 4:15For we do not have a high priest who cannot sympathize with our weaknesses, but One who has been tempted  in all things as we are, yet without  sin.",
+          "text": "<span class=\"scripture\">Hebrews 4:15<br/>For we do not have a high priest who cannot sympathize with our weaknesses, but One who has been tempted  in all things as we are, yet without  sin.</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -902,9 +972,12 @@
             "height": 89,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 26.7
+            "wrap": true
           }
         },
         {
@@ -937,6 +1010,9 @@
             "width": 808,
             "height": 105,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -981,8 +1057,12 @@
             "height": 89,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 33.3
+            "font_size": 33.3,
+            "wrap": true
           }
         }
       ]
@@ -994,7 +1074,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Isaiah 59:1-2",
+          "text": "<span class=\"scripture\">Isaiah 59:1-2</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1005,15 +1085,13 @@
             "rotation": 0
           },
           "font": {
-            "font_size": 52.5,
-            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Behold, the LORD'S hand is not so short That it cannot save; \tNor is His ear so dull That it cannot hear. 2 But your iniquities have made a separation between you and your God,And your sins have hidden His face from you so that He does not hear. (NASB)",
+          "text": "<span class=\"scripture\">Behold, the LORD'S hand is not so short <br/>That it cannot save; <br/>\tNor is His ear so dull <br/>That it cannot hear. <br/><sup>2</sup><sup> </sup>But your iniquities have made a separation between you and your God,<br/>And your sins have hidden His face from you so that He does not hear. <em>(NASB)</em></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1023,9 +1101,11 @@
             "height": 342,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 33.3
+            "wrap": true
           }
         }
       ]
@@ -1066,9 +1146,13 @@
             "height": 93,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         }
       ]
@@ -1080,7 +1164,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 44",
           "timing": "click",
-          "text": "Ephesians 2:1-2",
+          "text": "<span class=\"scripture\">Ephesians 2:1-2</span>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1090,9 +1174,11 @@
             "height": 44,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "v_align": "middle",
-            "font_size": 39.2
+            "v_align": "middle"
           }
         },
         {
@@ -1109,8 +1195,12 @@
             "height": 220,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         }
       ],
@@ -1147,8 +1237,12 @@
             "height": 135,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         }
       ]
@@ -1160,7 +1254,7 @@
         {
           "shape_name": "Rectangle 44",
           "static": true,
-          "text": "Ephesians 2:1-2",
+          "text": "<span class=\"scripture\">Ephesians 2:1-2</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1171,8 +1265,6 @@
             "rotation": 0
           },
           "font": {
-            "font_size": 39.2,
-            "bold": true,
             "color": "#000000"
           }
         },
@@ -1189,8 +1281,12 @@
             "height": 220,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 35.0
+            "font_size": 35.0,
+            "wrap": true
           }
         }
       ]
@@ -1202,7 +1298,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Revelation 20:14-15",
+          "text": "<span class=\"scripture\">Revelation 20:14-15</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1211,15 +1307,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Then death  and Hades were thrown into the  lake of fire. This is the second  death, the lake of fire. 15 And if anyone's  name was not found written in the  book of life, he was thrown into the lake of fire.",
+          "text": "<span class=\"scripture\">Then death  and Hades were thrown into the  lake of fire. This is the second  death, the lake of fire. <sup>15</sup><sup> </sup>And if anyone's  name was not found written in the  book of life, he was thrown into the lake of fire. <br/></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1229,15 +1322,17 @@
             "height": 159,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 25.0
+            "wrap": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "Revelation 21:6-8",
+          "text": "<span class=\"scripture\">Revelation 21:6-8</span>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1246,15 +1341,12 @@
             "width": 303,
             "height": 49,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 35.0
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "6 Then He said to me, “It is done. I am the Alpha and the Omega, the beginning and the end. I will give to the one who thirsts from the spring of the water of life without cost. 7 He who overcomes will inherit these things, and I will be his God and he will be My son. 8But for the cowardly and unbelieving and abominable and murderers and immoral persons and sorcerers and idolaters and all liars, their part will be in the lake that burns with fire and brimstone, which is the second death",
+          "text": "<span class=\"scripture\"><sup>6</sup> Then He said to me, “It is done. I am the Alpha and the Omega, the beginning and the end. I will give to the one who thirsts from the spring of the water of life without cost. <sup>7</sup> He who overcomes will inherit these things, and I will be his God and he will be My son. <sup>8</sup>But for the cowardly and unbelieving and abominable and murderers and immoral persons and sorcerers and idolaters and all liars, their part <em>will be</em> in the lake that burns with fire and brimstone, which is the second death</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1264,9 +1356,11 @@
             "height": 250,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 25.0
+            "wrap": true
           }
         }
       ]
@@ -1278,7 +1372,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Matthew 8:21-22",
+          "text": "<span class=\"scripture\">Matthew 8:21-22</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1287,16 +1381,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "font_size": 39.2,
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Another of the disciples said to Him, \"Lord, permit me first to go and bury my father.\" 22 But Jesus said to him, \"Follow Me, and allow the dead to bury their own dead.“",
+          "text": "<span class=\"scripture\">Another of the disciples said to Him, \"Lord, permit me first to go and bury my father.\" <sup>22</sup> But Jesus said to him, \"Follow Me, and allow the dead to bury their own dead.“</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1306,8 +1396,11 @@
             "height": 158,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "wrap": true
           }
         }
       ]
@@ -1346,8 +1439,12 @@
             "height": 158,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         }
       ]
@@ -1359,7 +1456,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Isaiah 7:14-16",
+          "text": "<span class=\"scripture\">Isaiah 7:14-16</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1368,15 +1465,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "\"Therefore the Lord Himself will give you a sign: Behold, a  virgin  will be with child and bear a son, and she will call His name Immanuel.  15 \"He will eat curds  and honey at  the time He knows enough to refuse evil and choose good. 16 \"  For before the boy will know enough to refuse evil and choose good, the  land whose two kings you dread will be forsaken.",
+          "text": "<span class=\"scripture\">\"Therefore the Lord Himself will give you a sign: Behold, a  virgin  will be with child and bear a son, and she will call His name Immanuel.  <sup>15</sup> \"He will eat curds  and honey at  the time He knows enough to refuse evil and choose good. <sup>16</sup> \"  For before the boy will know enough to refuse evil and choose good, the  land whose two kings you dread will be forsaken. <br/></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1386,8 +1480,11 @@
             "height": 307,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "wrap": true
           }
         }
       ]
@@ -1399,7 +1496,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Roman 7:14-25",
+          "text": "<span class=\"scripture\">Roman 7:14-25</span>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1408,15 +1505,12 @@
             "width": 756,
             "height": 44,
             "rotation": 0
-          },
-          "font": {
-            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "For we know that the Law is spiritual,  but I am of  flesh, sold  into bondage to sin. 15 For what I am doing, I  do not understand; for I am not practicing what  I would like to do, but I am doing the very thing I hate. 16 But if I do the very thing I do not want to do, I agree with the Law, confessing that the Law is good. 17 So now, no  longer am I the one doing it, but sin which dwells in me. 18 For I know that nothing good dwells in me, that is, in my flesh;  for the willing is present in me, but the doing of the good is not. 19 For the  good that I want, I do not do, but I practice the very evil that I do not want. 20 But if I am doing the very thing I do not want, I  am no longer the one doing it, but sin which dwells in me. 21 I find then the principle  that evil is present in me, the one who wants to do good. 22 For I joyfully concur with the law of God in  the inner man, 23 but I see  different law in the members of my body, waging war against the law  of my mind and making me a prisoner of  the law of sin which is in my members. 24 Wretched man that I am! Who will set me free from the  body of this death?  25 Thanks  be to God through Jesus Christ our Lord! So then, on the one hand I myself with my mind am serving the law of God, but on the other, with my flesh the  law of sin.",
+          "text": "<span class=\"scripture\">For we know that the Law is spiritual,  but I am of  flesh, sold  into bondage to sin. <sup>15 </sup>For what I am doing, I  do not understand; for I am not practicing what  I would like to do, but I am doing the very thing I hate. <sup>16</sup> But if I do the very thing I do not want to do, I agree with the Law, confessing that the Law is good. <sup>17</sup> So now, no  longer am I the one doing it, but sin which dwells in me. <sup>18</sup> For I know that nothing good dwells in me, that is, in my flesh;  for the willing is present in me, but the doing of the good is not. <sup>19</sup> For the  good that I want, I do not do, but I practice the very evil that I do not want.<sup> 20</sup>But if I am doing the very thing I do not want, I  am no longer the one doing it, but sin which dwells in me.<sup> 21</sup> I find then the principle  that evil is present in me, the one who wants to do good. <sup>22</sup> For I joyfully concur with the law of God in  the inner man, <sup>23</sup> but I see  different law in the members of my body, waging war against the law  of my mind and making me a prisoner of  the law of sin which is in my members. <sup>24</sup> Wretched man that I am! Who will set me free from the  body of this death?  <sup>25</sup> Thanks  be to God through Jesus Christ our Lord! So then, on the one hand I myself with my mind am serving the law of God, but on the other, with my flesh the  law of sin. <br/></span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1426,8 +1520,11 @@
             "height": 462,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 20.8
+            "wrap": true
           }
         }
       ]
@@ -1456,7 +1553,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "In  the same way, you wives, be  submissive to your own husbands so that even if any of them are disobedient to the word, they may be won  without a word by the behavior of their wives, 2 as they observe your chaste and respectful  behavior. 3 Your  adornment must not be merely external--braiding the hair, and wearing gold jewelry, or putting on dresses; 4 but let it be the  hidden person of the heart, with the imperishable quality of a gentle and quiet spirit, which is precious in the sight of God.",
+          "text": "<span class=\"scripture\">In  the same way, you wives, be  submissive to your own husbands so that even if any of them are disobedient to the word, they may be won  without a word by the behavior of their wives, <sup>2</sup> as they observe your chaste and respectful  behavior. <sup>3 </sup>Your  adornment must not be merely external--braiding the hair, and wearing gold jewelry, or putting on dresses;<sup> 4 </sup>but let it be the  hidden person of the heart, with the imperishable quality of a gentle and quiet spirit, which is precious in the sight of God.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1466,8 +1563,11 @@
             "height": 381,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.8
+            "wrap": true
           }
         }
       ]
@@ -1507,6 +1607,9 @@
             "height": 120,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "wrap": true,
             "font_size": 30.8
@@ -1540,7 +1643,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Therefore, to  one who knows the right  thing to do and does not do it, to him it is sin.Ezekiel 18:4\"Behold, all  souls  are Mine; the soul  of the father as well as the soul  of the son is Mine. The soul  who sins  will die.",
+          "text": "Therefore, to  one who knows the right  thing to do and does not do it, to him it is sin.\n\n\nEzekiel 18:4\n\"Behold, all  souls  are Mine; the soul  of the father as well as the soul  of the son is Mine. The soul  who sins  will die.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1549,6 +1652,9 @@
             "width": 767,
             "height": 343,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -1565,7 +1671,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "Matthew 19:13-1413 Then  some children were brought to Him so that He might lay His hands on them and pray; and the disciples rebuked them. 14 But Jesus said, \"Let  the children alone, and do not hinder them from coming to Me; for the  kingdom of heaven belongs to such as these.\"",
+          "text": "<span class=\"scripture\">Matthew 19:13-14<br/><sup>13</sup> Then  some children were brought to Him so that He might lay His hands on them and pray; and the disciples rebuked them. <sup>14</sup> But Jesus said, \"Let  the children alone, and do not hinder them from coming to Me; for the  kingdom of heaven belongs to such as these.\"</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1575,15 +1681,18 @@
             "height": 150,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 30.8
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "2 Samuel 12:21-2321 His servants asked him, “Why are you acting this way? While the child was alive, you fasted and wept, but now that the child is dead, you get up and eat!”  22 He answered, “While the child was still alive, I fasted and wept. I thought, ‘Who knows? The LORD may be gracious to me and let the child live.’ 23 But now that he is dead, why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”",
+          "text": "<span class=\"scripture\">2 Samuel 12:21-23<br/><sup>21</sup> His servants asked him, “Why are you acting this way? While the child was alive, you fasted and wept, but now that the child is dead, you get up and eat!”  <sup>22</sup> He answered, “While the child was still alive, I fasted and wept. I thought, ‘Who knows? The LORD may be gracious to me and let the child live.’ <sup>23</sup> But now that he is dead, why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1593,16 +1702,18 @@
             "height": 215,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_size": 30.8
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 9",
           "static": true,
-          "text": "Matthew 18:1-3",
+          "text": "<span class=\"scripture\">Matthew 18:1-3</span>",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1613,14 +1724,13 @@
             "rotation": 0
           },
           "font": {
-            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "At  that time  the disciples came to Jesus and said, \"Who  then is greatest in the kingdom of heaven?\" 2 And He called a child to Himself and set him before  them, 3 and said, \"Truly I say to you, unless you are converted and become  like children, you will not enter the kingdom of heaven.",
+          "text": "<span class=\"scripture\">At  that time  the disciples came to Jesus and said, \"Who  then is greatest in the kingdom of heaven?\" <sup>2</sup> And He called a child to Himself and set him before  them, <sup>3</sup> and said, \"Truly I say to you, unless you are converted and become  like children, you will not enter the kingdom of heaven.</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1630,9 +1740,11 @@
             "height": 113,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 21.7
+            "wrap": true
           }
         }
       ]
@@ -1644,7 +1756,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "Acts 22:16`Now why do you delay? Get  up and be baptized, and wash  away your sins, calling  on His name.'",
+          "text": "<span class=\"scripture\">Acts 22:16<br/>`Now why do you delay? Get  up and be baptized, and wash  away your sins, calling  on His name.'</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1654,16 +1766,18 @@
             "height": 113,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "wrap": true,
-            "font_size": 33.3
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "Acts 2:37-39",
+          "text": "<span class=\"scripture\">Acts 2:37-39</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1674,15 +1788,13 @@
             "rotation": 0
           },
           "font": {
-            "font_size": 33.3,
-            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "37 When the people heard this, they were cut to the heart and said to Peter and the other apostles, “Brothers, what shall we do?”38 Peter replied, “Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit. 39 The promise is for you and your children and for all who are far off—for all whom the Lord our God will call.”",
+          "text": "<span class=\"scripture\"><sup>37 </sup>When the people heard this, they were cut to the heart and said to Peter and the other apostles, “Brothers, what shall we do?”<br/><sup>38 </sup>Peter replied, “Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit. <sup>39 </sup>The promise is for you and your children and for all who are far off—for all whom the Lord our God will call.”</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1692,9 +1804,11 @@
             "height": 266,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 26.7
+            "wrap": true
           }
         }
       ]
@@ -1706,7 +1820,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "1 Therefore there is now no condemnation  for those who are in  Christ Jesus. 2 For the law of the Spirit of life in Christ Jesus has  set you free from the law of sin and of death. 3 For what the Law could not do, weak as it was through the flesh, God did: sending His own Son in the  likeness of sinful flesh and as an offering for sin, He condemned sin in the flesh, 4 so that the requirement  of the Law might be fulfilled in us, who do not walk according to the flesh but according to the Spirit. 5 For those who are according to the flesh set their minds on the  things of the flesh, but those who are according to the Spirit, the things of the Spirit. 6 For the mind set on the flesh is death, but the mind set on the Spirit is life and peace, 7 because the mind set on the flesh is hostile toward God; for it does not subject itself to the law of God, for it is not even able to do so, 8 and those who are in  the flesh cannot please God. 9 However, you are not in the flesh but in the Spirit, if indeed the Spirit of God dwells  in you. But if anyone does not have the Spirit of Christ, he does not belong to Him. 10 If  Christ is in you, though the body is dead because of sin, yet the spirit is alive  because of righteousness. 11 But if the Spirit of Him who raised  Jesus from the dead dwells in you, He  who raised Christ  Jesus from the dead will also give life to your mortal bodies through  His Spirit who dwells in you. 12 So then, brethren, we are under obligation, not to the flesh, to live according to the flesh-- 13 for if  you are living according to the flesh, you must  die; but if by the Spirit you are putting  to death the deeds of the body, you will live. 14 For all who are being  led by the Spirit of God, these are sons  of God.",
+          "text": "<span class=\"scripture\"><sup>1</sup> Therefore there is now no condemnation  for those who are in  Christ Jesus. <sup>2</sup> For the law of the Spirit of life in Christ Jesus has  set you free from the law of sin and of death. <sup>3</sup> For what the Law could not do, weak as it was through the flesh, God did: sending His own Son in the  likeness of sinful flesh and as an offering for sin, He condemned sin in the flesh, <sup>4</sup> so that the requirement  of the Law might be fulfilled in us, who do not walk according to the flesh but according to the Spirit. <sup>5</sup> For those who are according to the flesh set their minds on the  things of the flesh, but those who are according to the Spirit, the things of the Spirit. <sup>6</sup> For the mind set on the flesh is death, but the mind set on the Spirit is life and peace, <sup>7</sup> because the mind set on the flesh is hostile toward God; for it does not subject itself to the law of God, for it is not even able to do so, <sup>8</sup> and those who are in  the flesh cannot please God. <sup>9</sup> However, you are not in the flesh but in the Spirit, if indeed the Spirit of God dwells  in you. But if anyone does not have the Spirit of Christ, he does not belong to Him. <br/><sup>10</sup><sup> </sup>If  Christ is in you, though the body is dead because of sin, yet the spirit is alive  because of righteousness. <sup>11</sup> But if the Spirit of Him who raised  Jesus from the dead dwells in you, He  who raised Christ  Jesus from the dead will also give life to your mortal bodies through  His Spirit who dwells in you. <sup>12</sup> So then, brethren, we are under obligation, not to the flesh, to live according to the flesh-- <sup>13</sup>for if  you are living according to the flesh, you must  die; but if by the Spirit you are putting  to death the deeds of the body, you will live. <sup>14</sup>For all who are being  led by the Spirit of God, these are sons  of God.</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1716,16 +1830,19 @@
             "height": 483,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 19.2,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 11",
           "static": true,
-          "text": "Romans 8:1-14",
+          "text": "<span class=\"scripture\">Romans 8:1-14</span>",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1736,8 +1853,6 @@
             "rotation": 0
           },
           "font": {
-            "font_size": 30.8,
-            "bold": true,
             "color": "#000000"
           }
         }
@@ -1750,7 +1865,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "Romans 6:12Therefore do not let sin reign  in your mortal body so that you obey its lusts,",
+          "text": "<span class=\"scripture\">Romans 6:12<br/>Therefore do not let sin reign  in your mortal body so that <br/>you obey its lusts,</span>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1760,15 +1875,18 @@
             "height": 108,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 35.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "James 1:14-15But each one is tempted when he is carried away and enticed by his own lust. 15 Then when  lust has conceived, it gives birth to sin; and when sin  is  accomplished, it brings forth death.",
+          "text": "<span class=\"scripture\">James 1:14-15<br/>But each one is tempted when he is carried away and <br/>enticed by his own lust. <sup>15</sup> Then when  lust has conceived, <br/>it gives birth to sin; and when sin  is  accomplished, <br/>it brings forth death.</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1778,9 +1896,12 @@
             "height": 186,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "font_size": 35.0
+            "wrap": true
           }
         },
         {
@@ -1803,7 +1924,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "For the  flesh sets  its desire against the Spirit, and the Spirit against the flesh; for these are in opposition to one another, so that you may not do the things that you please.",
+          "text": "For the  flesh sets  its desire against the Spirit, and the \nSpirit against the flesh; for these are in opposition to one \nanother, so that you may not do the things that you please.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1813,8 +1934,12 @@
             "height": 138,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 30.0
+            "font_size": 30.0,
+            "wrap": true
           }
         }
       ]
@@ -1844,7 +1969,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "By the sweat of your brow you will eat your food until youreturn to the ground, since from it you were taken; for dustyou are and to dust you will return.”",
+          "text": "By the sweat of your brow you will eat your food until you\nreturn to the ground, since from it you were taken; for dust\nyou are and to dust you will return.”",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1855,13 +1980,14 @@
             "rotation": 0
           },
           "font": {
-            "font_size": 30.0
+            "font_size": 30.0,
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Ezekiel 18:4\"Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul  who sins will die.",
+          "text": "<span class=\"scripture\">Ezekiel 18:4<br/>\"Behold, all souls are Mine; the soul of the father as well<br/> as the soul of the son is Mine. The soul  who sins will die.</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1871,14 +1997,17 @@
             "height": 132,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 35.0
+            "wrap": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Ephesians 2:1As for you, you were dead in your transgressions and sins,2 in which you used to live when you followed the waysof this world…",
+          "text": "<span class=\"scripture\">Ephesians 2:1<br/>As for you, you were dead in your transgressions and sins,<br/><sup>2</sup> in which you used to live when you followed the ways<br/>of this world…</span>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1889,7 +2018,7 @@
             "rotation": 0
           },
           "font": {
-            "font_size": 35.0
+            "wrap": true
           }
         },
         {
@@ -1904,6 +2033,9 @@
             "width": 272,
             "height": 43,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 35.0
@@ -1921,6 +2053,9 @@
             "width": 398,
             "height": 44,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 40.0,
@@ -1940,6 +2075,9 @@
             "height": 41,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 40.0,
             "color": "#FD8017"
@@ -1954,7 +2092,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "Genesis 3:19 By the sweat of your face You will eat bread, Till you return to the ground, Because from it you were taken; For you are dust, And to dust you shall return.”",
+          "text": "<span class=\"scripture\">Genesis 3:19 By the sweat of your face You will eat bread, Till you return to the ground, Because from it you were taken; For you are dust, And to dust you shall return.”</span>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1964,9 +2102,11 @@
             "height": 101,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 30.0
+            "wrap": true
           }
         },
         {
@@ -1993,7 +2133,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "Genesis 3:22 Then the LORD God said, “Behold, the man has become like one of Us, knowing good and evil; and now, he might stretch out his hand, and take also from the tree of life, and eat, and live forever”—",
+          "text": "<span class=\"scripture\">Genesis 3:22 Then the LORD God said, “Behold, the man has become like one of Us, knowing good and evil; and now, he might stretch out his hand, and take also from the tree of life, and eat, and live forever”—</span>",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2004,15 +2144,14 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true,
-            "font_size": 30.0
+            "wrap": true
           }
         },
         {
           "sequence": 4,
           "shape_name": "TextBox 6",
           "timing": "click",
-          "text": "Morality = choice of good and evil",
+          "text": "Morality = choice of good <em>and</em> evil",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
@@ -2052,7 +2191,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Genesis 2:15-17 Then the LORD God took the man and put him into the garden of Eden to cultivate it and keep it. 16 The LORD God commanded the man, saying, “From any tree of the garden you may eat freely; 17 but from the tree of the knowledge of good and evil you shall not eat, for in the day that you eat from it you will surely die.”",
+          "text": "<span class=\"scripture\">Genesis 2:15-17 Then the LORD God took the man and put him into the garden of Eden to cultivate it and keep it. <sup>16</sup> The LORD God commanded the man, saying, “From any tree of the garden you may eat freely; <sup>17</sup> but from the tree of the knowledge of good and evil you shall not eat, for in the day that you eat from it you will surely die.”</span>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2062,9 +2201,11 @@
             "height": 158,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "wrap": true,
-            "font_size": 30.0
+            "wrap": true
           }
         }
       ]
@@ -2077,7 +2218,7 @@
         {
           "sequence": 1,
           "shape_name": "Text Box 27",
-          "text": "Isaiah 59:1-2",
+          "text": "<span class=\"scripture\">Isaiah 59:1-2</span>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -2088,9 +2229,11 @@
             "height": 30,
             "rotation": 0
           },
+          "line": {
+            "width": 6
+          },
           "font": {
-            "v_align": "middle",
-            "font_size": 30.8
+            "v_align": "middle"
           },
           "hyperlink": {
             "type": "customshow",
@@ -2113,6 +2256,9 @@
             "rotation": 0
           },
           "fill": "#000000",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2181,6 +2327,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2206,6 +2355,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2226,6 +2378,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2235,7 +2390,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 16",
-          "text": "PhysicalDeath",
+          "text": "Physical\nDeath",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
@@ -2249,7 +2404,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_size": 45.0
+            "font_size": 45.0,
+            "wrap": true
           }
         },
         {
@@ -2285,6 +2441,9 @@
             "height": 27,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2299,7 +2458,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 21",
-          "text": "Ephesians 2:1-2",
+          "text": "<span class=\"scripture\">Ephesians 2:1-2</span>",
           "timing": "with",
           "z_index": 33,
           "shape_type": "text_box",
@@ -2310,10 +2469,12 @@
             "height": 32,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "align": "center",
-            "font_size": 23.3
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -2335,6 +2496,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2355,6 +2519,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2364,7 +2531,7 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 23",
-          "text": "SpiritualDeath",
+          "text": "Spiritual\nDeath",
           "timing": "click",
           "z_index": 9,
           "shape_type": "text_box",
@@ -2378,7 +2545,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_size": 45.0
+            "font_size": 45.0,
+            "wrap": true
           }
         },
         {
@@ -2403,7 +2571,7 @@
         {
           "sequence": 16,
           "shape_name": "Text Box 25",
-          "text": "Revelation 20:14-15Revelation 21:6-8",
+          "text": "<span class=\"scripture\">Revelation 20:14-15<br/>Revelation 21:6-8</span>",
           "timing": "after",
           "z_index": 11,
           "shape_type": "text_box",
@@ -2414,10 +2582,13 @@
             "height": 50,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_size": 23.3
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2439,6 +2610,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2459,6 +2633,9 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2468,7 +2645,7 @@
         {
           "sequence": 19,
           "shape_name": "Text Box 24",
-          "text": "EternalDeath",
+          "text": "Eternal\nDeath",
           "timing": "click",
           "z_index": 10,
           "shape_type": "text_box",
@@ -2482,13 +2659,14 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_size": 45.0
+            "font_size": 45.0,
+            "wrap": true
           }
         },
         {
           "sequence": 20,
           "shape_name": "Text Box 46",
-          "text": "Difference?",
+          "text": "<em>Difference?</em>",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
@@ -2500,6 +2678,9 @@
             "rotation": 0
           },
           "fill": "#FFFFFF",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -2510,7 +2691,7 @@
         {
           "sequence": 21,
           "shape_name": "Text Box 49",
-          "text": "Changeable",
+          "text": "<em>Changeable</em>",
           "timing": "after",
           "z_index": 21,
           "shape_type": "text_box",
@@ -2520,6 +2701,9 @@
             "width": 282,
             "height": 48,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -2531,7 +2715,7 @@
         {
           "sequence": 22,
           "shape_name": "Text Box 50",
-          "text": "“ you formerly walked”",
+          "text": "<em>“ you formerly walked”</em>",
           "timing": "after",
           "z_index": 22,
           "shape_type": "text_box",
@@ -2541,6 +2725,9 @@
             "width": 231,
             "height": 29,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -2563,6 +2750,9 @@
             "height": 48,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 30.8
@@ -2571,7 +2761,7 @@
         {
           "sequence": 24,
           "shape_name": "Text Box 101",
-          "text": "\"It is done\"",
+          "text": "<em>\"It is done\"</em>",
           "timing": "after",
           "z_index": 31,
           "shape_type": "text_box",
@@ -2582,6 +2772,9 @@
             "height": 43,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 30.8,
@@ -2591,7 +2784,7 @@
         {
           "sequence": 25,
           "shape_name": "Text Box 55",
-          "text": "Nature of Death:",
+          "text": "<u>Nature of Death:</u>",
           "timing": "click",
           "z_index": 24,
           "shape_type": "text_box",
@@ -2602,9 +2795,13 @@
             "height": 52,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 30.8
+            "font_size": 30.8,
+            "underline": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2615,7 +2812,7 @@
         {
           "sequence": 26,
           "shape_name": "Text Box 56",
-          "text": "Process Genesis 3:19",
+          "text": "Process \nGenesis 3:19",
           "timing": "after",
           "z_index": 25,
           "shape_type": "text_box",
@@ -2626,8 +2823,12 @@
             "height": 73,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 33.3
+            "font_size": 33.3,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2638,7 +2839,7 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 57",
-          "text": "Event Ezekiel 18:4",
+          "text": "Event \nEzekiel 18:4",
           "timing": "after",
           "z_index": 26,
           "shape_type": "text_box",
@@ -2649,9 +2850,13 @@
             "height": 79,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 33.3,
-            "color": "#FF8000"
+            "color": "#FF8000",
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2662,7 +2867,7 @@
         {
           "sequence": 28,
           "shape_name": "Text Box 58",
-          "text": "State Ephesians 2:1",
+          "text": "State \nEphesians 2:1",
           "timing": "after",
           "z_index": 27,
           "shape_type": "text_box",
@@ -2673,9 +2878,13 @@
             "height": 66,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 33.3,
-            "color": "#FD8017"
+            "color": "#FD8017",
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2686,7 +2895,7 @@
         {
           "sequence": 29,
           "shape_name": "Text Box 59",
-          "text": "Matthew 8:21-22",
+          "text": "<span class=\"scripture\">Matthew 8:21-22</span>",
           "timing": "click",
           "z_index": 28,
           "shape_type": "text_box",
@@ -2697,8 +2906,8 @@
             "height": 45,
             "rotation": 0
           },
-          "font": {
-            "font_size": 30.0
+          "line": {
+            "width": 1
           },
           "hyperlink": {
             "type": "customshow",
@@ -2709,7 +2918,7 @@
         {
           "sequence": 30,
           "shape_name": "Text Box 60",
-          "text": "How can dead people bury dead people?",
+          "text": "<em>How can dead people bury dead people?</em>",
           "timing": "click",
           "z_index": 29,
           "shape_type": "text_box",
@@ -2719,6 +2928,9 @@
             "width": 464,
             "height": 31,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -2731,7 +2943,7 @@
         {
           "shape_name": "Text Box 28",
           "static": true,
-          "text": "Sin  =",
+          "text": "Sin<em>  =</em>",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -2742,6 +2954,9 @@
             "rotation": 0
           },
           "fill": "#000000",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 39.2,
@@ -2760,6 +2975,9 @@
             "width": 217,
             "height": 33,
             "rotation": 0
+          },
+          "line": {
+            "width": 6
           },
           "font": {
             "v_align": "middle",
@@ -2841,6 +3059,9 @@
             "height": 61,
             "rotation": 0
           },
+          "line": {
+            "width": 8
+          },
           "font": {
             "align": "center",
             "font_size": 44.2
@@ -2859,7 +3080,10 @@
             "height": 372,
             "rotation": 0
           },
-          "fill": "#999999"
+          "fill": "#999999",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 4,
@@ -2893,6 +3117,9 @@
             "height": 61,
             "rotation": 0
           },
+          "line": {
+            "width": 8
+          },
           "font": {
             "align": "center",
             "font_size": 44.2
@@ -2911,7 +3138,10 @@
             "height": 373,
             "rotation": 0
           },
-          "fill": "#FD8017"
+          "fill": "#FD8017",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 7,
@@ -2959,6 +3189,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 44.2
@@ -3010,6 +3243,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 44.2
@@ -3018,7 +3254,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 18",
-          "text": "Physical Death",
+          "text": "Physical \nDeath",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -3029,15 +3265,19 @@
             "height": 129,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 50.0
+            "font_size": 50.0,
+            "wrap": true
           }
         },
         {
           "sequence": 12,
           "shape_name": "Text Box 19",
-          "text": "Spiritual Death",
+          "text": "Spiritual \nDeath",
           "timing": "click",
           "z_index": 7,
           "shape_type": "text_box",
@@ -3048,9 +3288,13 @@
             "height": 129,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 50.0
+            "font_size": 50.0,
+            "wrap": true
           }
         }
       ],
@@ -3058,7 +3302,7 @@
         {
           "shape_name": "Text Box 20",
           "static": true,
-          "text": "Romans 5:12 \"All have sinned”",
+          "text": "<span class=\"scripture\">Romans 5:12 <em>\"All have sinned”</em></span>",
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
@@ -3069,10 +3313,12 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
-            "align": "center",
-            "font_size": 36.7
+            "align": "center"
           },
           "hyperlink": {
             "type": "customshow",
@@ -3117,6 +3363,9 @@
             "height": 32,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 26.7
@@ -3141,6 +3390,9 @@
             "height": 30,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 26.7
@@ -3164,6 +3416,9 @@
             "width": 174,
             "height": 33,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3237,7 +3492,7 @@
         {
           "sequence": 6,
           "shape_name": "Text Box 17",
-          "text": "Compare to",
+          "text": "<em>  Compare to</em>",
           "timing": "with",
           "z_index": 11,
           "shape_type": "text_box",
@@ -3273,6 +3528,9 @@
             "height": 31,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 26.7
@@ -3286,7 +3544,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 15",
-          "text": "Isaiah 7:14-16",
+          "text": "<span class=\"scripture\">Isaiah 7:14-16</span>",
           "timing": "click",
           "z_index": 9,
           "shape_type": "text_box",
@@ -3297,9 +3555,11 @@
             "height": 32,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "v_align": "middle",
-            "font_size": 26.7
+            "v_align": "middle"
           },
           "hyperlink": {
             "type": "customshow",
@@ -3320,6 +3580,9 @@
             "width": 259,
             "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3373,6 +3636,9 @@
             "height": 42,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -3382,7 +3648,7 @@
         {
           "sequence": 12,
           "shape_name": "Text Box 19",
-          "text": "Psalms 51:5-6",
+          "text": "<span class=\"scripture\">Psalms 51:5-6</span>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -3393,8 +3659,8 @@
             "height": 41,
             "rotation": 0
           },
-          "font": {
-            "font_size": 26.7
+          "line": {
+            "width": 1
           },
           "hyperlink": {
             "type": "customshow",
@@ -3405,7 +3671,7 @@
         {
           "sequence": 13,
           "shape_name": "Text Box 21",
-          "text": "“Innermost being”",
+          "text": "<em>“Innermost being”</em>",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
@@ -3416,6 +3682,9 @@
             "height": 18,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 26.7,
@@ -3425,7 +3694,7 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 22",
-          "text": "“hidden part”",
+          "text": "<em>“hidden part”</em>",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -3436,6 +3705,9 @@
             "height": 30,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 26.7,
             "italic": true
@@ -3444,7 +3716,7 @@
         {
           "sequence": 15,
           "shape_name": "Text Box 24",
-          "text": "Internal interpretation  Where are like phrases?",
+          "text": "<em>Internal </em><br/><em>interpretation</em>  <br/>Where are like phrases?",
           "timing": "click",
           "z_index": 16,
           "shape_type": "text_box",
@@ -3455,16 +3727,20 @@
             "height": 78,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 26.7,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 16,
           "shape_name": "Text Box 26",
-          "text": "Romans 7:14-25",
+          "text": "<span class=\"scripture\">Romans 7:14-25</span>",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
@@ -3475,8 +3751,8 @@
             "height": 36,
             "rotation": 0
           },
-          "font": {
-            "font_size": 26.7
+          "line": {
+            "width": 1
           },
           "hyperlink": {
             "type": "customshow",
@@ -3487,7 +3763,7 @@
         {
           "sequence": 17,
           "shape_name": "Text Box 27",
-          "text": "“inner man” v.s.“flesh”",
+          "text": "<em>“inner man” v.s.“flesh”</em>",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
@@ -3497,6 +3773,9 @@
             "width": 280,
             "height": 30,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 26.7,
@@ -3517,6 +3796,9 @@
             "height": 30,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -3531,7 +3813,7 @@
         {
           "sequence": 19,
           "shape_name": "Text Box 29",
-          "text": "“hidden person”",
+          "text": "<em>“hidden person”</em>",
           "timing": "click",
           "z_index": 20,
           "shape_type": "text_box",
@@ -3542,6 +3824,9 @@
             "height": 36,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 26.7,
             "italic": true
@@ -3550,7 +3835,7 @@
         {
           "sequence": 20,
           "shape_name": "Text Box 30",
-          "text": "Why do we die?",
+          "text": "<em>Why do we die?</em>",
           "timing": "click",
           "z_index": 21,
           "shape_type": "text_box",
@@ -3560,6 +3845,9 @@
             "width": 231,
             "height": 42,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 27.5,
@@ -3580,6 +3868,9 @@
             "height": 34,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 26.7
@@ -3593,7 +3884,7 @@
         {
           "sequence": 22,
           "shape_name": "Text Box 32",
-          "text": "Flesh dead becauseof sin. Where did thesin come from?",
+          "text": "<em>Flesh dead because</em><br/><em>of sin. Where did the</em><br/><em>sin come from?</em>",
           "timing": "click",
           "z_index": 23,
           "shape_type": "text_box",
@@ -3604,15 +3895,19 @@
             "height": 66,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 21.7,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 23,
           "shape_name": "Text Box 40",
-          "text": "Definition of “flesh”",
+          "text": "Definition\n of “flesh”",
           "timing": "click",
           "z_index": 29,
           "shape_type": "text_box",
@@ -3630,7 +3925,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3641,7 +3937,7 @@
         {
           "sequence": 24,
           "shape_name": "Text Box 33",
-          "text": "MORTALITYLimited to flesh",
+          "text": "MORTALITY\nLimited to flesh",
           "timing": "after",
           "z_index": 24,
           "shape_type": "text_box",
@@ -3652,15 +3948,19 @@
             "height": 83,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         },
         {
           "sequence": 25,
           "shape_name": "Text Box 35",
-          "text": "Why does the “inner man” die?",
+          "text": "<em>Why does the </em><br/><em>“inner man” die?</em>",
           "timing": "click",
           "z_index": 25,
           "shape_type": "text_box",
@@ -3671,16 +3971,20 @@
             "height": 48,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 21.7,
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
           "sequence": 26,
           "shape_name": "Text Box 36",
-          "text": "James 4:17Ezekiel 18:4",
+          "text": "<span class=\"scripture\">James 4:17<br/>Ezekiel 18:4<br/></span>",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -3691,8 +3995,11 @@
             "height": 61,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_size": 26.7
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3703,7 +4010,7 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 37",
-          "text": "soul sins and dies",
+          "text": "<em>soul sins and dies</em>",
           "timing": "click",
           "z_index": 27,
           "shape_type": "text_box",
@@ -3714,6 +4021,9 @@
             "height": 18,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 21.7,
@@ -3723,7 +4033,7 @@
         {
           "sequence": 28,
           "shape_name": "Text Box 39",
-          "text": "MORALITYLimited to “inner man” (soul)",
+          "text": "MORALITY<br/><em>Limited to </em><br/><em>“inner man” </em><br/><em>(soul)</em>",
           "timing": "after",
           "z_index": 28,
           "shape_type": "text_box",
@@ -3734,9 +4044,13 @@
             "height": 96,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 30.8
+            "font_size": 30.8,
+            "wrap": true
           }
         },
         {
@@ -3753,6 +4067,9 @@
             "height": 24,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 30.8
@@ -3761,7 +4078,7 @@
         {
           "sequence": 30,
           "shape_name": "Text Box 42",
-          "text": "Matthew 18:1-4,19:14, 2 Samuel 12:21",
+          "text": "<span class=\"scripture\">Matthew 18:1-4,19:14, 2 Samuel 12:21</span>",
           "timing": "click",
           "z_index": 31,
           "shape_type": "text_box",
@@ -3772,8 +4089,8 @@
             "height": 22,
             "rotation": 0
           },
-          "font": {
-            "font_size": 17.5
+          "line": {
+            "width": 1
           },
           "hyperlink": {
             "type": "customshow",
@@ -3784,7 +4101,7 @@
         {
           "sequence": 31,
           "shape_name": "Text Box 43",
-          "text": "What do children posses that adults should desire?",
+          "text": "<em>What do children posses that adults should desire?</em>",
           "timing": "click",
           "z_index": 32,
           "shape_type": "text_box",
@@ -3795,10 +4112,14 @@
             "height": 29,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
-            "italic": true
+            "italic": true,
+            "wrap": true
           }
         },
         {
@@ -3814,6 +4135,9 @@
             "width": 310,
             "height": 48,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3848,7 +4172,7 @@
         {
           "sequence": 34,
           "shape_name": "Text Box 45",
-          "text": "Acts 2:37-39, Acts 22:16",
+          "text": "<span class=\"scripture\">Acts 2:37-39, Acts 22:16</span>",
           "timing": "after",
           "z_index": 34,
           "shape_type": "text_box",
@@ -3859,9 +4183,11 @@
             "height": 27,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "v_align": "middle",
-            "font_size": 26.7
+            "v_align": "middle"
           },
           "hyperlink": {
             "type": "customshow",
@@ -3898,7 +4224,7 @@
         {
           "sequence": 36,
           "shape_name": "Text Box 47",
-          "text": "Why baptize babies?",
+          "text": "<em>Why baptize babies?</em>",
           "timing": "click",
           "z_index": 36,
           "shape_type": "text_box",
@@ -3908,6 +4234,9 @@
             "width": 315,
             "height": 32,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3929,6 +4258,9 @@
             "height": 22,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 16.7
@@ -3937,7 +4269,7 @@
         {
           "sequence": 38,
           "shape_name": "Text Box 49",
-          "text": "Romans 8:3Phil. 2:6-7Hebrews 2:14-17Hebrews 4:15",
+          "text": "<span class=\"scripture\">Romans 8:3<br/>Phil. 2:6-7<br/>Hebrews 2:14-17<br/>Hebrews 4:15</span>",
           "timing": "click",
           "z_index": 38,
           "shape_type": "text_box",
@@ -3948,9 +4280,12 @@
             "height": 84,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "right",
-            "font_size": 16.7
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3961,7 +4296,7 @@
         {
           "sequence": 39,
           "shape_name": "Text Box 50",
-          "text": "Was Christ separated from God at birth?",
+          "text": "<em>Was Christ separated from God at birth?</em>",
           "timing": "click",
           "z_index": 39,
           "shape_type": "text_box",
@@ -3971,6 +4306,9 @@
             "width": 367,
             "height": 26,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
