@@ -4,6 +4,7 @@
 
 import os
 import glob
+import html
 import json
 import math
 import re
@@ -95,6 +96,7 @@ def extract_theme_colors_from_pptx(pptx_path):
         print(f"Warning: Could not extract theme colors: {e}")
     
     return theme_colors
+
 
 def resolve_theme_color(theme_color_str, theme_map, context=""):
     """Resolve a theme color string to hex value.
@@ -325,16 +327,18 @@ def extract_font_from_xml(shape_elem, layout=None):
                     # Italic from defRPr
                     if defRPr.get('i') == '1':
                         font_data['italic'] = True
+
+                    # Underline from defRPr
+                    u_attr = defRPr.get('u')
+                    if u_attr and u_attr != 'none':
+                        font_data['underline'] = True
                     
                     # Font name from defRPr
                     latin = defRPr.find('a:latin', NAMESPACES)
                     if latin is not None:
                         typeface = latin.get('typeface')
-                        if typeface:
-                            font_data['font_name'] = typeface
-                            # Check if font name includes "Bold" and set bold property
-                            if 'bold' in typeface.lower():
-                                font_data['bold'] = True
+                        if typeface and 'bold' in typeface.lower():
+                            font_data['bold'] = True
                     
                     # Color from defRPr
                     solidFill = defRPr.find('a:solidFill', NAMESPACES)
@@ -376,16 +380,20 @@ def extract_font_from_xml(shape_elem, layout=None):
                         font_data['italic'] = True
                     elif i_attr == '0':
                         font_data['italic'] = False
+
+                    # Underline
+                    u_attr = rPr.get('u')
+                    if u_attr and u_attr != 'none':
+                        font_data['underline'] = True
+                    elif u_attr == 'none':
+                        font_data['underline'] = False
                     
                     # Font name
                     latin = rPr.find('a:latin', NAMESPACES)
                     if latin is not None:
                         typeface = latin.get('typeface')
-                        if typeface:
-                            font_data['font_name'] = typeface
-                            # Check if font name includes "Bold" and set bold property
-                            if 'bold' in typeface.lower():
-                                font_data['bold'] = True
+                        if typeface and 'bold' in typeface.lower():
+                            font_data['bold'] = True
                     
                     # Color
                     solidFill = rPr.find('a:solidFill', NAMESPACES)
@@ -809,6 +817,7 @@ def extract_font_style(shape, slide_width=None, theme_colors=None, layout=None):
         # This captures bold/italic that apply to the entire paragraph
         has_default_bold = False
         has_default_italic = False
+        has_default_underline = False
         try:
             # Access the underlying XML to check defRPr (default run properties)
             para_xml = para._element
@@ -822,6 +831,9 @@ def extract_font_style(shape, slide_width=None, theme_colors=None, layout=None):
                     if defRPr.get('i') == '1':
                         has_default_italic = True
                         font_data['italic'] = True
+                    if defRPr.get('u') and defRPr.get('u') != 'none':
+                        has_default_underline = True
+                        font_data['underline'] = True
         except:
             pass
         
@@ -842,7 +854,6 @@ def extract_font_style(shape, slide_width=None, theme_colors=None, layout=None):
                 if run.text.strip():
                     font = run.font
                     if font.name:
-                        font_data['font_name'] = font.name
                         # Check if font name includes "Bold" and set bold property
                         if 'bold' in font.name.lower():
                             font_data['bold'] = True
@@ -875,6 +886,15 @@ def extract_font_style(shape, slide_width=None, theme_colors=None, layout=None):
                         # Explicitly not italic - overrides any default
                         if 'italic' in font_data:
                             del font_data['italic']
+
+                    # Underline - same logic
+                    if font.underline is True:
+                        font_data['underline'] = True
+                    elif font.underline is False:
+                        if 'underline' in font_data:
+                            del font_data['underline']
+                    elif font.underline is None and has_default_underline and 'underline' not in font_data:
+                        font_data['underline'] = True
                     
                     # Get font color
                     try:
@@ -1457,6 +1477,204 @@ def get_text_from_shape_xml(shape_elem):
 
     return '\n'.join(paragraph_texts).strip()
 
+
+def _extract_run_format_from_rpr(rPr, base_format=None):
+    """Extract run formatting from rPr, optionally applying overrides to base_format."""
+    fmt = dict(base_format) if base_format else {}
+    if rPr is None:
+        return fmt
+
+    b_attr = rPr.get('b')
+    if b_attr == '1':
+        fmt['bold'] = True
+    elif b_attr == '0':
+        fmt['bold'] = False
+
+    i_attr = rPr.get('i')
+    if i_attr == '1':
+        fmt['italic'] = True
+    elif i_attr == '0':
+        fmt['italic'] = False
+
+    u_attr = rPr.get('u')
+    if u_attr:
+        fmt['underline'] = (u_attr != 'none')
+
+    strike_attr = rPr.get('strike')
+    if strike_attr:
+        fmt['strike'] = (strike_attr != 'noStrike')
+
+    baseline_attr = rPr.get('baseline')
+    if baseline_attr is not None:
+        try:
+            baseline = int(baseline_attr)
+            if baseline > 0:
+                fmt['superscript'] = True
+                fmt['subscript'] = False
+            elif baseline < 0:
+                fmt['subscript'] = True
+                fmt['superscript'] = False
+            else:
+                fmt['superscript'] = False
+                fmt['subscript'] = False
+        except ValueError:
+            pass
+
+    return fmt
+
+
+def _format_run_as_html(text, fmt, scripture_mode=False):
+    """Format a run's text as Fragment-friendly minimal HTML and indicate formatting."""
+    escaped = html.escape(text, quote=False)
+    if not escaped:
+        return escaped, False
+
+    has_formatting = False
+    content = escaped
+    has_scripture_marker = False
+
+    if fmt.get('subscript'):
+        has_formatting = True
+        has_scripture_marker = True
+        content = f"<sub>{content}</sub>"
+    elif fmt.get('superscript'):
+        has_formatting = True
+        has_scripture_marker = True
+        content = f"<sup>{content}</sup>"
+
+    if scripture_mode and has_scripture_marker:
+        return content, has_formatting
+
+    if fmt.get('strike'):
+        has_formatting = True
+        content = f"<s>{content}</s>"
+    if fmt.get('underline'):
+        has_formatting = True
+        content = f"<u>{content}</u>"
+    if fmt.get('italic'):
+        has_formatting = True
+        content = f"<em>{content}</em>"
+    if fmt.get('bold'):
+        has_formatting = True
+        content = f"<strong>{content}</strong>"
+
+    return content, has_formatting
+
+
+def _normalize_fragment_markup(text):
+    """Normalize generated inline markup by collapsing adjacent identical tags.
+
+    PowerPoint frequently splits visually continuous text into multiple runs,
+    which can produce sequences like </strong><strong> around punctuation.
+    """
+    if not text:
+        return text
+
+    normalized = text
+    # Only collapse simple wrapper tags used by extractor.
+    for tag in ('strong', 'em', 'u', 's'):
+        normalized = normalized.replace(f'</{tag}><{tag}>', '')
+
+    # Drop empty wrappers that can occur after run collapsing.
+    normalized = re.sub(r'<(strong|em|u|s)\s*>\s*</\1>', '', normalized)
+
+    # Canonicalize all break tag variants.
+    normalized = re.sub(r'<br\s*/?>', '<br/>', normalized)
+
+    # Preserve intentional blank lines (<br/><br/>) but collapse accidental longer runs.
+    normalized = re.sub(r'(?:<br\s*/?>\s*){3,}', '<br/><br/>', normalized)
+
+    return normalized
+
+
+def get_text_with_fragment_markup_from_shape_xml(shape_elem):
+    """Extract plain text plus optional minimal HTML markup from shape XML.
+
+    Returns:
+        tuple[str, str, bool]: (plain_text, text_with_markup, has_markup)
+    """
+    tx_body = shape_elem.find('.//p:txBody', NAMESPACES)
+    if tx_body is None:
+        return '', '', False
+
+    paragraph_texts = []
+    paragraph_html = []
+    has_rich_formatting = False
+    scripture_mode = False
+
+    # Scripture context heuristic: any superscript run marks this block as scripture text.
+    for para in tx_body.findall('a:p', NAMESPACES):
+        paragraph_default_format = {}
+        pPr = para.find('a:pPr', NAMESPACES)
+        if pPr is not None:
+            defRPr = pPr.find('a:defRPr', NAMESPACES)
+            paragraph_default_format = _extract_run_format_from_rpr(defRPr)
+
+        for node in list(para):
+            if node.tag.endswith('}r') or node.tag.endswith('}fld'):
+                rPr = node.find('a:rPr', NAMESPACES)
+                run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
+                if run_fmt.get('superscript'):
+                    scripture_mode = True
+                    break
+        if scripture_mode:
+            break
+
+    for para in tx_body.findall('a:p', NAMESPACES):
+        parts = []
+        html_parts = []
+
+        paragraph_default_format = {}
+        pPr = para.find('a:pPr', NAMESPACES)
+        if pPr is not None:
+            defRPr = pPr.find('a:defRPr', NAMESPACES)
+            paragraph_default_format = _extract_run_format_from_rpr(defRPr)
+
+        for node in list(para):
+            # Regular text run
+            if node.tag.endswith('}r'):
+                text_node = node.find('a:t', NAMESPACES)
+                if text_node is not None and text_node.text:
+                    run_text = text_node.text
+                    parts.append(run_text)
+                    rPr = node.find('a:rPr', NAMESPACES)
+                    run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
+                    run_html, run_has_formatting = _format_run_as_html(run_text, run_fmt, scripture_mode)
+                    html_parts.append(run_html)
+                    if run_has_formatting:
+                        has_rich_formatting = True
+            # Explicit line break within paragraph
+            elif node.tag.endswith('}br'):
+                parts.append('\n')
+                html_parts.append('<br/>')
+            # Text field run
+            elif node.tag.endswith('}fld'):
+                text_node = node.find('a:t', NAMESPACES)
+                if text_node is not None and text_node.text:
+                    run_text = text_node.text
+                    parts.append(run_text)
+                    rPr = node.find('a:rPr', NAMESPACES)
+                    run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
+                    run_html, run_has_formatting = _format_run_as_html(run_text, run_fmt, scripture_mode)
+                    html_parts.append(run_html)
+                    if run_has_formatting:
+                        has_rich_formatting = True
+
+        paragraph_texts.append(''.join(parts))
+        paragraph_html.append(''.join(html_parts))
+
+    plain_text = '\n'.join(paragraph_texts).strip()
+    text_with_markup = '<br/>'.join(paragraph_html).strip()
+    text_with_markup = _normalize_fragment_markup(text_with_markup)
+
+    if scripture_mode and text_with_markup:
+        text_with_markup = f'<span class="scripture">{text_with_markup}</span>'
+        has_rich_formatting = True
+
+    if has_rich_formatting:
+        return plain_text, text_with_markup, True
+    return plain_text, plain_text, False
+
 def get_hyperlink_from_shape_xml(shape_elem):
     """Extract hyperlink action from shape XML element.
     
@@ -1656,16 +1874,17 @@ def parse_shapes_from_slide(slide_xml_content):
             if cNvPr is not None:
                 shape_id = cNvPr.get('id')
                 shape_name = cNvPr.get('name', '')
-                text = get_text_from_shape_xml(sp)
+                text_plain, text_markup, has_markup = get_text_with_fragment_markup_from_shape_xml(sp)
                 hyperlink = get_hyperlink_from_shape_xml(sp)
                 
                 if shape_id:
-                    shapes[shape_id] = {
+                    shape_data = {
                         'id': shape_id,
                         'name': shape_name,
-                        'text': text,
+                        'text': text_markup if has_markup else text_plain,
                         'hyperlink': hyperlink
                     }
+                    shapes[shape_id] = shape_data
     
     # Also find connector/line shapes (cxnSp elements)
     for cxn in root.findall('.//p:cxnSp', NAMESPACES):
