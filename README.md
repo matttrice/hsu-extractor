@@ -34,17 +34,19 @@ Add a directory named `pptx` (or `hsu-pptx`) at the same level, next to this rep
 python extractor.py
 ```
 
-You will be presented with the list of pptx files in the directory. Select the file you want to parse and the script will generate a `.json` file in the `extracted/` folder.
+You will be presented with the list of pptx files in the directory. Select the file you want to parse and the script will generate a `.json` file in `extracted/{name}/`.
 
 ```
 hsu-extractor/
 ├── extractor.py
-├── extracted/           ← JSON output files go here
-│   ├── 09-The_Promises.json
-│   ├── 08-The_Ark.json
-│   ├── 08-The_Ark/      ← Images extracted from the PPTX
-│   │   ├── image1.jpg
+├── extracted/
+│   ├── 09-The_Promises/
+│   │   ├── 09-The_Promises.json   ← JSON output
+│   │   ├── image1.jpg             ← Images extracted from the PPTX
 │   │   ├── image2.png
+│   │   └── ...
+│   ├── 08-The_Ark/
+│   │   ├── 08-The_Ark.json
 │   │   └── ...
 │   └── ...
 ```

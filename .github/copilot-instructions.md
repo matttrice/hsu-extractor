@@ -29,7 +29,7 @@ The JSON output captures the presentation's animation sequence and hyperlink rel
 
 **Coordinate Scaling**: All layout coordinates (x, y, width, height) are automatically scaled from the source PowerPoint dimensions to a 960×540 pixel canvas. The `scale_factor` shows the conversion ratio applied.
 
-**Images**: Images are extracted and moved to a folder with the same name as the JSON file (e.g., `../../mbs/static/export/08-The_Ark/`). The `images_folder` field indicates the folder name.
+**Images**: Images are extracted to the same subfolder as the JSON file (e.g., `extracted/08-The_Ark/`). The `images_folder` field indicates the folder name.
 
 ### Custom Shows
 

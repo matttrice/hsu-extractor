@@ -46,6 +46,23 @@ SCRIPTURE_REFERENCE_PLUS_TEXT_RE = re.compile(
 )
 
 
+def normalize_unicode_text(text):
+    """Replace common Unicode typographic characters with plain ASCII equivalents."""
+    if not text:
+        return text
+    # Smart double quotes → straight double
+    text = text.replace('\u201c', '"').replace('\u201d', '"')
+    # Smart single quotes / apostrophes → straight single
+    text = text.replace('\u2018', "'").replace('\u2019', "'")
+    # En-dash / em-dash → hyphen / double-hyphen
+    text = text.replace('\u2013', '-').replace('\u2014', '--')
+    # Ellipsis → three dots
+    text = text.replace('\u2026', '...')
+    # Non-breaking space → regular space
+    text = text.replace('\u00a0', ' ')
+    return text
+
+
 def _looks_like_scripture_reference_with_text(text):
     """Best-effort check for leading scripture reference followed by content.
 
@@ -1522,7 +1539,7 @@ def get_text_from_shape_xml(shape_elem):
 
         paragraph_texts.append(''.join(parts))
 
-    return '\n'.join(paragraph_texts).strip()
+    return normalize_unicode_text('\n'.join(paragraph_texts).strip())
 
 
 def _extract_run_format_from_rpr(rPr, base_format=None):
@@ -1702,7 +1719,7 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
             if node.tag.endswith('}r'):
                 text_node = node.find('a:t', NAMESPACES)
                 if text_node is not None and text_node.text:
-                    run_text = text_node.text
+                    run_text = normalize_unicode_text(text_node.text)
                     parts.append(run_text)
                     rPr = node.find('a:rPr', NAMESPACES)
                     run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
@@ -1718,7 +1735,7 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
             elif node.tag.endswith('}fld'):
                 text_node = node.find('a:t', NAMESPACES)
                 if text_node is not None and text_node.text:
-                    run_text = text_node.text
+                    run_text = normalize_unicode_text(text_node.text)
                     parts.append(run_text)
                     rPr = node.find('a:rPr', NAMESPACES)
                     run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
@@ -2368,8 +2385,16 @@ def save_presentation_structure(prs, file_path):
     # Calculate main presentation slide count (excluding linked slides)
     main_slide_count = len(prs.slides) - len(linked_slide_nums)
     
+    # Store path with ~ instead of absolute home dir (safe for git, unambiguous)
+    abs_path = Path(file_path).resolve()
+    home = Path.home()
+    try:
+        display_path = '~/' + str(abs_path.relative_to(home))
+    except ValueError:
+        display_path = str(abs_path)
+
     presentation_data = {
-        "file_path": str(file_path),
+        "file_path": display_path,
         "file_name": Path(file_path).name,
         "total_slides": main_slide_count,
         "total_custom_shows": len(custom_shows),
@@ -2675,13 +2700,14 @@ def save_presentation_structure(prs, file_path):
                     'error': str(e)
                 })
     
-    # Save to JSON file in extracted/ folder
+    # Save JSON file inside the same subfolder as images
     script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
     extracted_dir = script_dir / 'extracted'
-    extracted_dir.mkdir(exist_ok=True)
+    output_folder = extracted_dir / output_stem
+    output_folder.mkdir(parents=True, exist_ok=True)
     
-    output_filename = Path(file_path).stem + '.json'
-    output_path = extracted_dir / output_filename
+    output_filename = output_stem + '.json'
+    output_path = output_folder / output_filename
     
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(presentation_data, f, indent=2, ensure_ascii=False)
