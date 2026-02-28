@@ -37,7 +37,7 @@ EMU_PER_PIXEL = 9525
 WRAP_MIN_TEXT_LENGTH = 40
 WRAP_AVG_CHAR_WIDTH_EM = 0.52
 WRAP_FALLBACK_FONT_SIZE_PX = 20
-SCRIPTURE_SPAN_MARKER = '<span class="scripture">'
+
 SCRIPTURE_REFERENCE_PLUS_TEXT_RE = re.compile(
     r"^\s*(?:[1-3]\s+)?[A-Za-z][A-Za-z'’.-]*(?:\s+[A-Za-z][A-Za-z'’.-]*)*\s+"
     r"\d{1,3}:\d{1,3}(?:[-–]\d{1,3})?(?:\s*,\s*\d{1,3}(?:[-–]\d{1,3})?)*"
@@ -83,6 +83,9 @@ def _sanitize_scripture_block_font(entry, is_scripture=False):
     Scripture text often contains mixed run formatting (e.g., bold/large reference + normal body).
     Setting a single block font_size/bold at shape level causes incorrect rendering downstream.
 
+    Also propagates `is_scripture` flag to the JSON entry so downstream consumers
+    can identify scripture blocks structurally rather than by parsing rendered markup.
+
         Contract:
         - This function must be driven by explicit scripture metadata (`is_scripture`),
             not by checking rendered markup.
@@ -91,6 +94,13 @@ def _sanitize_scripture_block_font(entry, is_scripture=False):
     """
     if not entry or not is_scripture:
         return
+
+    # Hyperlinked entries are drill links to scripture routes, not scripture
+    # content themselves — preserve their font and skip the flag.
+    if entry.get('hyperlink'):
+        return
+
+    entry['is_scripture'] = True
 
     font = entry.get('font')
     if not isinstance(font, dict):
@@ -1750,10 +1760,6 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
     plain_text = '\n'.join(paragraph_texts).strip()
     text_with_markup = '<br/>'.join(paragraph_html).strip()
     text_with_markup = _normalize_fragment_markup(text_with_markup)
-
-    if scripture_mode and text_with_markup:
-        text_with_markup = f'{SCRIPTURE_SPAN_MARKER}{text_with_markup}</span>'
-        has_rich_formatting = True
 
     if has_rich_formatting:
         return plain_text, text_with_markup, True, scripture_mode

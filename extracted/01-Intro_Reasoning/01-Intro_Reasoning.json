@@ -45,7 +45,7 @@
           "sequence": 1,
           "shape_name": "Text Box 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Hebrews 9:16-17 </strong><em>(NASB95)</em><br/>For where a covenant is, there must of necessity be the death of the one who made it. <sup>17</sup>For a covenant is valid only when men are dead, for it is never in force while the one who made it lives.</span>",
+          "text": "<strong>Hebrews 9:16-17 </strong><em>(NASB95)</em><br/>For where a covenant is, there must of necessity be the death of the one who made it. <sup>17</sup>For a covenant is valid only when men are dead, for it is never in force while the one who made it lives.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -58,13 +58,14 @@
           "font": {
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Text Box 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Hebrews 9:16-17 </strong><em>(NKJV)</em><br/>For where there is a testament, there must also of necessity be the death of the testator. <sup>17</sup> For a testament is in force after men are dead, since it has no power at all while the testator lives.</span>",
+          "text": "<strong>Hebrews 9:16-17 </strong><em>(NKJV)</em><br/>For where there is a testament, there must also of necessity be the death of the testator. <sup>17</sup> For a testament is in force after men are dead, since it has no power at all while the testator lives.",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
@@ -77,13 +78,14 @@
           "font": {
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Text Box 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Hebrews 9:16-17 </strong><em>(RSV)</em><br/>For where a will is involved, the death of the one who made it must be established.<sup>17</sup>For a will takes effect only at death, since it is not in force as long as the one who made it is alive.</span>",
+          "text": "<strong>Hebrews 9:16-17 </strong><em>(RSV)</em><br/>For where a will is involved, the death of the one who made it must be established.<sup>17</sup>For a will takes effect only at death, since it is not in force as long as the one who made it is alive.",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -96,14 +98,15 @@
           "font": {
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Text Box 4",
           "static": true,
-          "text": "<span class=\"scripture\">For this reason Christ is the mediator of a new covenant, that those who are called may receive the promised eternal inheritance -- now that he has died as a ransom to set them free from the sins committed under the first covenant. <sup>16 </sup>In the case of a will, it is necessary to prove the death of the one who made it, <sup>17</sup> because awill is in force only when somebody has died; it never takes effect while the one who made it is living.</span>",
+          "text": "For this reason Christ is the mediator of a new covenant, that those who are called may receive the promised eternal inheritance -- now that he has died as a ransom to set them free from the sins committed under the first covenant. <sup>16 </sup>In the case of a will, it is necessary to prove the death of the one who made it, <sup>17</sup> because awill is in force only when somebody has died; it never takes effect while the one who made it is living.",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -116,12 +119,13 @@
           "font": {
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 9:15-17 <em>(NIV)</em></span>",
+          "text": "Hebrews 9:15-17 <em>(NIV)</em>",
           "z_index": 3,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -134,7 +138,8 @@
           "font": {
             "align": "left",
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -145,7 +150,7 @@
           "sequence": 1,
           "shape_name": "Text Box 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Genesis 2:4</strong><br/>This is the account of the heavens and the earth when they were created, in the day that the Lord God made earth and heaven. <sup>5 </sup>Now no shrub of the field was yet in the earth, and no plant of the field had yet sprouted, for the Lord God had not sent rain upon the earth, and there was no man to cultivate the ground. <sup>6 </sup>But a mist used to rise from the earth and water the whole surface of the ground. <sup>7 </sup>Then the Lord God formed man of dust from the ground, and breathed into his nostrils the breath of life; and man became a living being. <sup>8 </sup>The Lord God planted a garden toward the east, in Eden; and there He placed the man whom He had formed.  <br/><br/><strong>Genesis 2:18, 21-23</strong><br/>Then the Lord God said, \"It is not good for the man to be alone; I will make him a helper suitable for him.\"... <sup>21 </sup>So the Lord God caused a deep sleep to fall upon the man, and he slept; then He took one of his ribs and closed up the flesh at that place. <sup>22 </sup>The Lord God fashioned into a woman the rib which He had taken from the man, and brought her to the man. <sup>23 </sup>The man said, \"This is now bone of my bones,<br/>And flesh of my flesh; She shall be called Woman, Because she was taken out of Man.\"</span>",
+          "text": "<strong>Genesis 2:4</strong><br/>This is the account of the heavens and the earth when they were created, in the day that the Lord God made earth and heaven. <sup>5 </sup>Now no shrub of the field was yet in the earth, and no plant of the field had yet sprouted, for the Lord God had not sent rain upon the earth, and there was no man to cultivate the ground. <sup>6 </sup>But a mist used to rise from the earth and water the whole surface of the ground. <sup>7 </sup>Then the Lord God formed man of dust from the ground, and breathed into his nostrils the breath of life; and man became a living being. <sup>8 </sup>The Lord God planted a garden toward the east, in Eden; and there He placed the man whom He had formed.  <br/><br/><strong>Genesis 2:18, 21-23</strong><br/>Then the Lord God said, \"It is not good for the man to be alone; I will make him a helper suitable for him.\"... <sup>21 </sup>So the Lord God caused a deep sleep to fall upon the man, and he slept; then He took one of his ribs and closed up the flesh at that place. <sup>22 </sup>The Lord God fashioned into a woman the rib which He had taken from the man, and brought her to the man. <sup>23 </sup>The man said, \"This is now bone of my bones,<br/>And flesh of my flesh; She shall be called Woman, Because she was taken out of Man.\"",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -158,14 +163,15 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Text Box 4",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>1</sup>In the beginning God created the heavens and the earth... <br/><sup>26 </sup>Then God said, \"Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals, and over all the creatures that move along the ground.\" <sup>27 </sup>So God created mankind in his own image, in the image of God he created them; male and female he created them.<br/><sup>28 </sup>God blessed them and said to them, \"Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky and over every living creature that moves on the ground.\"</span>",
+          "text": "<sup>1</sup>In the beginning God created the heavens and the earth... <br/><sup>26 </sup>Then God said, \"Let us make mankind in our image, in our likeness, so that they may rule over the fish in the sea and the birds in the sky, over the livestock and all the wild animals, and over all the creatures that move along the ground.\" <sup>27 </sup>So God created mankind in his own image, in the image of God he created them; male and female he created them.<br/><sup>28 </sup>God blessed them and said to them, \"Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky and over every living creature that moves on the ground.\"",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -178,12 +184,13 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 1:1, 26-27</span>",
+          "text": "Genesis 1:1, 26-27",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -196,7 +203,8 @@
           "font": {
             "align": "left",
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     }
@@ -1875,7 +1883,7 @@
         {
           "sequence": 54,
           "shape_name": "Text Box 197",
-          "text": "<span class=\"scripture\"><strong>Hebrews 9:15-17</strong></span>",
+          "text": "<strong>Hebrews 9:15-17</strong>",
           "timing": "click",
           "z_index": 90,
           "shape_type": "text_box",
@@ -1892,7 +1900,9 @@
             "color": "#000000"
           },
           "font": {
-            "v_align": "middle"
+            "v_align": "middle",
+            "font_size": 16.7,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2959,7 +2969,7 @@
         {
           "sequence": 93,
           "shape_name": "Text Box 221",
-          "text": "<span class=\"scripture\"><strong>Genesis 1:27 vs. Genesis 2:7  </strong></span>",
+          "text": "<strong>Genesis 1:27 vs. Genesis 2:7  </strong>",
           "timing": "click",
           "z_index": 94,
           "shape_type": "text_box",
@@ -2972,7 +2982,9 @@
           },
           "fill": "#F4F4F4",
           "font": {
-            "align": "left"
+            "align": "left",
+            "font_size": 15.0,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3167,7 +3179,7 @@
         {
           "sequence": 1,
           "shape_name": "Rectangle 4",
-          "text": "<span class=\"scripture\">However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong></span>",
+          "text": "However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong>",
           "timing": "click",
           "z_index": 2,
           "shape_type": "rectangle (1)",
@@ -3181,12 +3193,13 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 4",
-          "text": "<span class=\"scripture\">However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong></span>",
+          "text": "However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong>",
           "timing": "click",
           "z_index": 3,
           "shape_type": "rectangle (1)",
@@ -3200,12 +3213,13 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 6",
-          "text": "<span class=\"scripture\">However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong></span>",
+          "text": "However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong>",
           "timing": "click",
           "z_index": 4,
           "shape_type": "rectangle (1)",
@@ -3219,14 +3233,15 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong></span>",
+          "text": "However, as it is written: \"No eye has seen, no ear has heard, no mind has conceived what God has prepared for those who love him\"--  <sup>10</sup> but <strong>God has revealed it to us by his Spirit. The Spirit searches all things, even the deep things of God.</strong> <sup>11</sup> For who among men knows the thoughts of a man except the man's spirit within him? In the same way no one knows the thoughts of God except the Spirit of God. <sup>12 </sup>We have not received the spirit of the world but the Spirit who is from God, that we may understand what God has freely given us. <sup>13</sup> This is what we speak, <strong>not in words taught us by human wisdom but in words taught by the Spirit, expressing spiritual truths in spiritual words. </strong>  <sup>14</sup> The man without the Spirit does not accept the things that come from the Spirit of God, for they are foolishness to him, and he cannot understand them, because they are spiritually discerned. <sup>15</sup> The spiritual man makes judgments about all things, but he himself is not subject to any man's judgment: <sup>16</sup> \"For who has known the mind of the Lord that he may instruct him?  \"<strong>But we have the mind of Christ.\" </strong>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3239,12 +3254,13 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">1 Corinthians 2:9-16:</span>",
+          "text": "1 Corinthians 2:9-16:",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -3256,7 +3272,8 @@
           },
           "font": {
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },

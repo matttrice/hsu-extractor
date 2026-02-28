@@ -201,6 +201,7 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **type**: `"customshow"` for links to custom shows, `"slide"` for direct slide jumps
   - **id**: The custom show ID to display (for `"customshow"` type)
   - **slide_number**: Target slide number (for `"slide"` type, references `linked_slides`)
+- **is_scripture** (optional): `true` when the shape contains scripture reference content (detected via leading reference pattern or superscript verse numbers). When present, block-level `font_size` and `bold` are stripped from the entry since scripture blocks contain mixed run formatting. Downstream MBS conversion should wrap these entries in `ScriptureBlock`.
 
 ### Static Content
 

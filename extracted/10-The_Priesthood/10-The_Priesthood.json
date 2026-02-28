@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/10-The_Priesthood.pptx",
+  "file_path": "~/projects/hsu-pptx/10-The_Priesthood.pptx",
   "file_name": "10-The_Priesthood.pptx",
   "total_slides": 4,
   "total_custom_shows": 22,
@@ -314,7 +314,7 @@
           "sequence": 7,
           "shape_name": "TextBox 3",
           "timing": "with",
-          "text": "<span class=\"scripture\"><strong>Leviticus 9:7-8,15 </strong><br/>Moses said to Aaron, “Come to the altar and sacrifice your sin offering and your burnt offering and make atonement for yourself and the people; sacrifice the offering that is for the people and make atonement for them, as the LORD has commanded.” <sup>8</sup> So Aaron came to the altar and slaughtered the calf as a sin offering for himself… <br/><sup>15</sup> Aaron then brought the offering that was for the people. He took the goat for the people’s sin offering and slaughtered it and offered it for a sin offering as he did with the first one.</span>",
+          "text": "<strong>Leviticus 9:7-8,15 </strong><br/>Moses said to Aaron, \"Come to the altar and sacrifice your sin offering and your burnt offering and make atonement for yourself and the people; sacrifice the offering that is for the people and make atonement for them, as the LORD has commanded.\" <sup>8</sup> So Aaron came to the altar and slaughtered the calf as a sin offering for himself... <br/><sup>15</sup> Aaron then brought the offering that was for the people. He took the goat for the people's sin offering and slaughtered it and offered it for a sin offering as he did with the first one.",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
@@ -327,13 +327,14 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 8,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Hebrews10:3-4</strong>: <br/>But those sacrifices are an annual reminder of sins, <sup>4</sup> because it is <strong><u>impossible</u></strong> for the blood of bulls and goats to take away sins.</span>",
+          "text": "<strong>Hebrews10:3-4</strong>: <br/>But those sacrifices are an annual reminder of sins, <sup>4</sup> because it is <strong><u>impossible</u></strong> for the blood of bulls and goats to take away sins.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -346,7 +347,8 @@
           "font": {
             "wrap": true,
             "color": "#F4F4F4"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 9,
@@ -428,7 +430,7 @@
           "sequence": 1,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong><u>1</u></strong><sup>st</sup><strong><u> tabernacle = illustration</u></strong><br/><strong>External &amp; Temporary</strong><br/><strong>Ineffectual for the internal conscience</strong></span>",
+          "text": "<strong><u>1</u></strong><sup>st</sup><strong><u> tabernacle = illustration</u></strong><br/><strong>External &amp; Temporary</strong><br/><strong>Ineffectual for the internal conscience</strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -443,14 +445,15 @@
             "align": "center",
             "underline": true,
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 9:8-10</span>",
+          "text": "Hebrews 9:8-10",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -462,12 +465,13 @@
           },
           "font": {
             "color": "#F4F4F4"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "<span class=\"scripture\">The Holy Spirit was showing by this that the way into the Most Holy Place had not yet been disclosed as long as the <strong><u>first tabernacle</u></strong> was still standing. <sup>9</sup> This is an <strong><u>illustration</u></strong> for the present time, indicating that the gifts and sacrifices being offered were <u>not able to clear the conscience</u> of the worshiper. <sup>10</sup> They are only a matter of food and drink and various ceremonial washings — <strong>external</strong> regulations applying <strong><u>until</u></strong> the time of the <strong><u>new order</u></strong>.</span>",
+          "text": "The Holy Spirit was showing by this that the way into the Most Holy Place had not yet been disclosed as long as the <strong><u>first tabernacle</u></strong> was still standing. <sup>9</sup> This is an <strong><u>illustration</u></strong> for the present time, indicating that the gifts and sacrifices being offered were <u>not able to clear the conscience</u> of the worshiper. <sup>10</sup> They are only a matter of food and drink and various ceremonial washings -- <strong>external</strong> regulations applying <strong><u>until</u></strong> the time of the <strong><u>new order</u></strong>.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -480,7 +484,8 @@
           "font": {
             "wrap": true,
             "color": "#F4F4F4"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 3",
@@ -504,7 +509,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 12",
           "timing": "click",
-          "text": "The “Branch” will be a <strong>King and Priest</strong> per order of <strong>Melchizedek</strong><br/>Jesus transformed the <strong>physical (temporary)</strong> Levitical Priesthood into its <strong>spiritual (eternal) Melchizedekian</strong> form.",
+          "text": "The \"Branch\" will be a <strong>King and Priest</strong> per order of <strong>Melchizedek</strong><br/>Jesus transformed the <strong>physical (temporary)</strong> Levitical Priesthood into its <strong>spiritual (eternal) Melchizedekian</strong> form.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -528,7 +533,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">\"'The days are coming,' declares the LORD, 'when I will fulfill the gracious promise I made to the house of Israel and to the house of Judah. <sup>15</sup> \"'In those days and at that time I will make a righteous Branch sprout from David's line; he will do what is just and right in the land. <sup>16</sup> In those days Judah will be saved and Jerusalem will live in safety. This is the name by which it will be called: The LORD Our Righteousness.' <sup>17</sup> For this is what the LORD says: 'David will never fail to have a man to sit on the throne of the house of Israel, <sup>18</sup> <u>nor will the priests, who are Levites, ever fail to have a man to stand before me</u> continually to offer burnt offerings, to burn grain offerings and to present sacrifices.'“ <sub>(NIV)</sub></span>",
+          "text": "\"'The days are coming,' declares the LORD, 'when I will fulfill the gracious promise I made to the house of Israel and to the house of Judah. <sup>15</sup> \"'In those days and at that time I will make a righteous Branch sprout from David's line; he will do what is just and right in the land. <sup>16</sup> In those days Judah will be saved and Jerusalem will live in safety. This is the name by which it will be called: The LORD Our Righteousness.' <sup>17</sup> For this is what the LORD says: 'David will never fail to have a man to sit on the throne of the house of Israel, <sup>18</sup> <u>nor will the priests, who are Levites, ever fail to have a man to stand before me</u> continually to offer burnt offerings, to burn grain offerings and to present sacrifices.'\" <sub>(NIV)</sub>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -540,12 +545,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 6",
           "static": true,
-          "text": "<span class=\"scripture\">Jeremiah 33:14-18</span>",
+          "text": "Jeremiah 33:14-18",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -554,7 +560,8 @@
             "width": 778,
             "height": 44,
             "rotation": 0
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -589,7 +596,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">Then after his return from the defeat of Chedorlaomer and the kings who were with him, the king of Sodom went out to meet him at the valley of Shaveh (that is, the King's Valley). <sup>18</sup> And Melchizedek <strong><u>king</u></strong> of Salem brought out bread and wine; now he was a <strong><u>priest</u></strong> of God Most High. <sup>19</sup> He blessed him and said, \"Blessed be Abram of God Most High, Possessor of heaven and earth;</span>",
+          "text": "Then after his return from the defeat of Chedorlaomer and the kings who were with him, the king of Sodom went out to meet him at the valley of Shaveh (that is, the King's Valley). <sup>18</sup> And Melchizedek <strong><u>king</u></strong> of Salem brought out bread and wine; now he was a <strong><u>priest</u></strong> of God Most High. <sup>19</sup> He blessed him and said, \"Blessed be Abram of God Most High, Possessor of heaven and earth;",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -602,12 +609,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 14:17-19</span>",
+          "text": "Genesis 14:17-19",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -619,7 +627,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -654,7 +663,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 7:1-10</span>",
+          "text": "Hebrews 7:1-10",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -666,12 +675,13 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">This <u>Melchizede</u>k was <u>king</u> of Salem and <u>priest</u> of God Most High. He met Abraham returning from the defeat of the kings and blessed him, <sup>2 </sup>and Abraham gave him a tenth of everything. First, his name means \"king of righteousness\"; then also, \"king of Salem\" means \"king of peace.\" <sup>3</sup> Without father or mother, without genealogy, without beginning of days or end of life, like the Son of God he <strong><u>remains a priest forever</u></strong>.<br/><br/><sup>4</sup>Just think how great he was: Even the patriarch Abraham gave him a tenth of the plunder! <sup>5</sup> Now the law requires the descendants of Levi who become priests to collect a tenth from the people—that is, from their fellow Israelites—even though they also are descended from Abraham. <sup>6</sup> This man, however, did not trace his descent from Levi, yet he collected a tenth from Abraham and blessed him who had the promises. <sup>7</sup> And without doubt the lesser is blessed by the greater. <sup>8</sup> In the one case, the tenth is collected by people who die; but in the other case, by him who is declared to be living.</span>",
+          "text": "This <u>Melchizede</u>k was <u>king</u> of Salem and <u>priest</u> of God Most High. He met Abraham returning from the defeat of the kings and blessed him, <sup>2 </sup>and Abraham gave him a tenth of everything. First, his name means \"king of righteousness\"; then also, \"king of Salem\" means \"king of peace.\" <sup>3</sup> Without father or mother, without genealogy, without beginning of days or end of life, like the Son of God he <strong><u>remains a priest forever</u></strong>.<br/><br/><sup>4</sup>Just think how great he was: Even the patriarch Abraham gave him a tenth of the plunder! <sup>5</sup> Now the law requires the descendants of Levi who become priests to collect a tenth from the people--that is, from their fellow Israelites--even though they also are descended from Abraham. <sup>6</sup> This man, however, did not trace his descent from Levi, yet he collected a tenth from Abraham and blessed him who had the promises. <sup>7</sup> And without doubt the lesser is blessed by the greater. <sup>8</sup> In the one case, the tenth is collected by people who die; but in the other case, by him who is declared to be living.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -683,7 +693,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -694,7 +705,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 16",
           "timing": "click",
-          "text": "<strong>Unlawful for Jesus to become High Priest under Mosaic Law.</strong><br/><strong>Jesus is High Priest under the “New Order”</strong>",
+          "text": "<strong>Unlawful for Jesus to become High Priest under Mosaic Law.</strong><br/><strong>Jesus is High Priest under the \"New Order\"</strong>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -720,7 +731,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 7:11-19</span>",
+          "text": "Hebrews 7:11-19",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -729,7 +740,8 @@
             "width": 778,
             "height": 44,
             "rotation": 0
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -747,7 +759,7 @@
         {
           "shape_name": "TextBox 5",
           "static": true,
-          "text": "<span class=\"scripture\">Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron? <sup>12</sup> <strong><u>For when the priesthood is changed, of necessity there takes place a change of law also.</u> </strong><sup>13</sup> For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar. <sup>14</sup> <strong>For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests.</strong> <sup>15</sup> And this is clearer still, if another priest arises according to the likeness of Melchizedek, <sup>16</sup> who has become such <strong>not on the basis of a law of physical requirement, but according to the power of an indestructible life. </strong><br/><sup>17</sup> For it is attested of Him, <br/><strong>\"You ARE A PRIEST FOREVER ACCORDING TO THE ORDER OF MELCHIZEDEK.\" </strong><br/><sup>18</sup> For, on the one hand, there is a setting aside of a former commandment because of its <strong>weakness</strong> and <strong>uselessness</strong> <sup>19</sup> (for the Law made nothing perfect), and on the other hand there is a bringing in of a <strong>better hope</strong>, through which we draw near to God. (NASB95)</span>",
+          "text": "Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron? <sup>12</sup> <strong><u>For when the priesthood is changed, of necessity there takes place a change of law also.</u> </strong><sup>13</sup> For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar. <sup>14</sup> <strong>For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests.</strong> <sup>15</sup> And this is clearer still, if another priest arises according to the likeness of Melchizedek, <sup>16</sup> who has become such <strong>not on the basis of a law of physical requirement, but according to the power of an indestructible life. </strong><br/><sup>17</sup> For it is attested of Him, <br/><strong>\"You ARE A PRIEST FOREVER ACCORDING TO THE ORDER OF MELCHIZEDEK.\" </strong><br/><sup>18</sup> For, on the one hand, there is a setting aside of a former commandment because of its <strong>weakness</strong> and <strong>uselessness</strong> <sup>19</sup> (for the Law made nothing perfect), and on the other hand there is a bringing in of a <strong>better hope</strong>, through which we draw near to God. (NASB95)",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -760,7 +772,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 7",
@@ -807,7 +820,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 7:23-28</span>",
+          "text": "Hebrews 7:23-28",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -819,12 +832,13 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "<span class=\"scripture\">Now there have been many of those priests, since death prevented them from continuing in office; <sup>24</sup> but <strong>because Jesus lives forever</strong>, he has a <strong>permanent priesthood</strong>. <sup>25</sup> Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them. <sup>26</sup> Such a high priest meets our need — one who is holy, blameless, pure, set apart from sinners, exalted above the heavens. <sup>27</sup> Unlike the other high priests, he does not need to offer sacrifices day after day, <strong>first for his own sins</strong>, and then for the sins of the people. He sacrificed for their sins once for all when he offered himself. <sup>28</sup> For the law appoints as high priests <strong>men who are weak</strong>; but the oath, which came after the law, appointed the Son, who has been made <strong>perfect forever</strong>.<sub> (NIV)</sub></span>",
+          "text": "Now there have been many of those priests, since death prevented them from continuing in office; <sup>24</sup> but <strong>because Jesus lives forever</strong>, he has a <strong>permanent priesthood</strong>. <sup>25</sup> Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them. <sup>26</sup> Such a high priest meets our need -- one who is holy, blameless, pure, set apart from sinners, exalted above the heavens. <sup>27</sup> Unlike the other high priests, he does not need to offer sacrifices day after day, <strong>first for his own sins</strong>, and then for the sins of the people. He sacrificed for their sins once for all when he offered himself. <sup>28</sup> For the law appoints as high priests <strong>men who are weak</strong>; but the oath, which came after the law, appointed the Son, who has been made <strong>perfect forever</strong>.<sub> (NIV)</sub>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -836,7 +850,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -903,7 +918,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Revelation 19:16</strong><br/>And on His robe and on His thigh He has a name written, \"KING OF KINGS, AND LORD OF LORDS.\"</span>",
+          "text": "<strong>Revelation 19:16</strong><br/>And on His robe and on His thigh He has a name written, \"KING OF KINGS, AND LORD OF LORDS.\"",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -916,7 +931,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
@@ -1021,7 +1037,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Psalms 60:6-7</strong><br/>God has spoken in His holiness: \"I will exult, I will portion out Shechem  and measure out the valley of Succoth. <sup>7</sup> \"Gilead is Mine, and Manasseh is Mine; Ephraim also is the helmet of My head; Judah is My scepter.</span>",
+          "text": "<strong>Psalms 60:6-7</strong><br/>God has spoken in His holiness: \"I will exult, I will portion out Shechem  and measure out the valley of Succoth. <sup>7</sup> \"Gilead is Mine, and Manasseh is Mine; Ephraim also is the helmet of My head; Judah is My scepter.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1034,7 +1050,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
@@ -1058,7 +1075,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Hebrews 7:14</strong><br/>For it is clear that our Lord descended from Judah, and in regard to that tribe Moses said nothing about priests.</span>",
+          "text": "<strong>Hebrews 7:14</strong><br/>For it is clear that our Lord descended from Judah, and in regard to that tribe Moses said nothing about priests.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1070,7 +1087,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1234,7 +1252,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">The angel said to her, \"Do not be afraid, Mary; for you have found favor with God. <sup>31</sup> \"And behold, you will conceive in your womb and bear a son, and you shall name Him Jesus. <sup>32</sup> \"He will be great and will be called the Son of the Most High; and the Lord God will give Him the throne of His father David; <sup>33</sup> and He will reign over the house of Jacob forever, and His kingdom will have no end.\"</span>",
+          "text": "The angel said to her, \"Do not be afraid, Mary; for you have found favor with God. <sup>31</sup> \"And behold, you will conceive in your womb and bear a son, and you shall name Him Jesus. <sup>32</sup> \"He will be great and will be called the Son of the Most High; and the Lord God will give Him the throne of His father David; <sup>33</sup> and He will reign over the house of Jacob forever, and His kingdom will have no end.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1247,12 +1265,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Luke 1:30-33</span>",
+          "text": "Luke 1:30-33",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1264,7 +1283,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1316,7 +1336,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 7",
           "timing": "with",
-          "text": "<span class=\"scripture\">\"Do not be afraid, <u>Mary</u>, you have found favor with God. <sup>31</sup> You will be with child and give birth to a son, and you are to give him the name Jesus. <sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, <sup>33</sup> and he will reign over the house of Jacob forever; his kingdom will never end.\" <sup>34</sup> \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" <sup>35</sup> The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. <sup>36</sup> Even <u>Elizabeth your relative </u>is going to have a child in her old age, and she who was said to be barren is in her sixth month. <sub>(NIV)</sub></span>",
+          "text": "\"Do not be afraid, <u>Mary</u>, you have found favor with God. <sup>31</sup> You will be with child and give birth to a son, and you are to give him the name Jesus. <sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, <sup>33</sup> and he will reign over the house of Jacob forever; his kingdom will never end.\" <sup>34</sup> \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" <sup>35</sup> The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. <sup>36</sup> Even <u>Elizabeth your relative </u>is going to have a child in her old age, and she who was said to be barren is in her sixth month. <sub>(NIV)</sub>",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1329,13 +1349,14 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Luke 1:5</strong><br/>In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife Elizabeth was also a descendant of Aaron. <sub>(NIV)</sub></span>",
+          "text": "<strong>Luke 1:5</strong><br/>In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife Elizabeth was also a descendant of Aaron. <sub>(NIV)</sub>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1347,7 +1368,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -1394,7 +1416,7 @@
           "sequence": 5,
           "shape_name": "Rectangle 6",
           "timing": "with",
-          "text": "<span class=\"scripture\"><strong>Luke 1:5</strong><br/>In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife <u>Elizabeth was also a descendant of Aaron</u>. <sub>(NIV)</sub></span>",
+          "text": "<strong>Luke 1:5</strong><br/>In the time of Herod king of Judea there was a priest named Zechariah, who belonged to the priestly division of Abijah; his wife <u>Elizabeth was also a descendant of Aaron</u>. <sub>(NIV)</sub>",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1407,13 +1429,14 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 6,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Matthew 1:1, 16</strong><br/>The record of the genealogy of Jesus the Messiah, the son of David, the son of Abraham: <sup>2</sup>Abraham was the father of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers. <sup>3 </sup>Judah was the father of Perez and Zerah by Tamar, Perez… Obed the father of Jesse,<sup>6 </sup>and Jesse the father of King David…<br/><sup>16</sup> Jacob was the father of Joseph the husband of Mary, by whom Jesus was born, who is called the Messiah.</span>",
+          "text": "<strong>Matthew 1:1, 16</strong><br/>The record of the genealogy of Jesus the Messiah, the son of David, the son of Abraham: <sup>2</sup>Abraham was the father of Isaac, Isaac the father of Jacob, and Jacob the father of Judah and his brothers. <sup>3 </sup>Judah was the father of Perez and Zerah by Tamar, Perez... Obed the father of Jesse,<sup>6 </sup>and Jesse the father of King David...<br/><sup>16</sup> Jacob was the father of Joseph the husband of Mary, by whom Jesus was born, who is called the Messiah.",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1427,7 +1450,8 @@
             "v_align": "top",
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 7,
@@ -1540,7 +1564,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Luke 1:30-36</span>",
+          "text": "Luke 1:30-36",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1552,12 +1576,13 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">\"Do not be afraid, Mary, you have found favor with God. <sup>31</sup> You will be with child and give birth to a son, and you are to give him the name Jesus. <sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, <sup>33</sup> and he will reign over the house of Jacob forever; his kingdom will never end.\" <sup>34</sup> \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" <sup>35</sup> The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. <sup>36</sup> Even Elizabeth your relative is going to have a child in her old age, and she who was said to be barren is in her sixth month. <sub>(NIV)</sub></span>",
+          "text": "\"Do not be afraid, Mary, you have found favor with God. <sup>31</sup> You will be with child and give birth to a son, and you are to give him the name Jesus. <sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David, <sup>33</sup> and he will reign over the house of Jacob forever; his kingdom will never end.\" <sup>34</sup> \"How will this be,\" Mary asked the angel, \"since I am a virgin?\" <sup>35</sup> The angel answered, \"The Holy Spirit will come upon you, and the power of the Most High will overshadow you. So the holy one to be born will be called the Son of God. <sup>36</sup> Even Elizabeth your relative is going to have a child in her old age, and she who was said to be barren is in her sixth month. <sub>(NIV)</sub>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1569,7 +1594,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1580,7 +1606,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\">\"For thus says the Lord: '<strong>David shall never lack a man </strong>to sit <strong>on the throne </strong>of the house of Israel; <sup>18</sup> <strong>nor shall the priests, the Levites, lack a man </strong>to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'</span>",
+          "text": "\"For thus says the Lord: '<strong>David shall never lack a man </strong>to sit <strong>on the throne </strong>of the house of Israel; <sup>18</sup> <strong>nor shall the priests, the Levites, lack a man </strong>to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1594,13 +1620,14 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 4",
           "timing": "with",
-          "text": "<span class=\"scripture\"><strong>Zechariah 6:11-13</strong><br/>\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. <sup>12</sup> \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. <sup>13</sup> \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a <u>priest</u> on <u>His throne</u>, and the counsel of <strong>peace will be between the two offices</strong>.'\"</span>",
+          "text": "<strong>Zechariah 6:11-13</strong><br/>\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. <sup>12</sup> \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. <sup>13</sup> \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a <u>priest</u> on <u>His throne</u>, and the counsel of <strong>peace will be between the two offices</strong>.'\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1614,13 +1641,14 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Text Box 15",
           "timing": "with",
-          "text": "<strong>Offices Spiritually Joined – No longer divided</strong>",
+          "text": "<strong>Offices Spiritually Joined - No longer divided</strong>",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -1644,7 +1672,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\">\"For thus says the Lord: 'David shall never lack a man to sit on the throne of the house of Israel; <sup>18</sup> nor shall the priests, the Levites, lack a man to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'</span>",
+          "text": "\"For thus says the Lord: 'David shall never lack a man to sit on the throne of the house of Israel; <sup>18</sup> nor shall the priests, the Levites, lack a man to offer burnt offerings before Me, to kindle grain offerings, and to sacrifice continually.'",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1657,12 +1685,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Zechariah 6:11-13</strong><br/>\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. <sup>12</sup> \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. <sup>13</sup> \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a priest on His throne, and the counsel of peace will be between the two offices.'\"</span>",
+          "text": "<strong>Zechariah 6:11-13</strong><br/>\"Take silver and gold, make an {ornate} crown and set {it} on the head of Joshua the son of Jehozadak, the high priest. <sup>12</sup> \"Then say to him, 'Thus says the LORD of hosts, \"Behold, a man whose name is Branch, for He will branch out from where He is; and He will build the temple of the LORD. <sup>13</sup> \"Yes, it is He who will build the temple of the LORD, and He who will bear the honor and sit and rule on His throne. Thus, He will be a priest on His throne, and the counsel of peace will be between the two offices.'\"",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1675,12 +1704,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Jeremiah 33:17-18</span>",
+          "text": "Jeremiah 33:17-18",
           "z_index": 4,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1692,7 +1722,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1769,7 +1800,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "But you are a chosen people, <br/>a <strong><u>royal</u> <u>priesthood</u></strong>, <br/>a <strong><u>holy</u> <u>nation</u></strong>, <br/>God’s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
+          "text": "But you are a chosen people, <br/>a <strong><u>royal</u> <u>priesthood</u></strong>, <br/>a <strong><u>holy</u> <u>nation</u></strong>, <br/>God's special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1840,7 +1871,7 @@
         {
           "shape_name": "TextBox 13",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>James 1:12</strong><br/>Blessed is a man who perseveres under trial; for once he has been approved, he will receive the <strong>crown of life </strong>which the Lord has promised to those who love Him.<br/></span>",
+          "text": "<strong>James 1:12</strong><br/>Blessed is a man who perseveres under trial; for once he has been approved, he will receive the <strong>crown of life </strong>which the Lord has promised to those who love Him.<br/>",
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
@@ -1853,7 +1884,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1864,7 +1896,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Wives, be subject to your own husbands, as to the Lord. <sup>23</sup> For the husband is the head of the wife, as <strong>Christ also is the head of the church</strong>, He Himself being the Savior of the body. <sup>24</sup> But as the <strong>church is subject to Christ</strong>, so also the wives ought to be to their husbands in everything. <sup>25</sup> Husbands, love your wives, just as Christ also loved the church and gave Himself up for her,</span>",
+          "text": "Wives, be subject to your own husbands, as to the Lord. <sup>23</sup> For the husband is the head of the wife, as <strong>Christ also is the head of the church</strong>, He Himself being the Savior of the body. <sup>24</sup> But as the <strong>church is subject to Christ</strong>, so also the wives ought to be to their husbands in everything. <sup>25</sup> Husbands, love your wives, just as Christ also loved the church and gave Himself up for her,",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1877,12 +1909,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Ephesians 5:22-25</span>",
+          "text": "Ephesians 5:22-25",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1894,7 +1927,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -1912,7 +1946,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Galatians 3:26-28</strong><br/><u>For </u><strong><u>you are all sons of God</u></strong><u> through faith in Christ Jesus</u>. <sup>27</sup> For all of you who were baptized into Christ have clothed yourselves with Christ. <sup>28</sup> There is neither Jew nor Greek, there is neither slave nor free man, <strong>there is neither male nor female</strong>; for you are all one in Christ Jesus. <sub>(NASB95)</sub></span>",
+          "text": "<strong>Galatians 3:26-28</strong><br/><u>For </u><strong><u>you are all sons of God</u></strong><u> through faith in Christ Jesus</u>. <sup>27</sup> For all of you who were baptized into Christ have clothed yourselves with Christ. <sup>28</sup> There is neither Jew nor Greek, there is neither slave nor free man, <strong>there is neither male nor female</strong>; for you are all one in Christ Jesus. <sub>(NASB95)</sub>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1925,7 +1959,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1936,7 +1971,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">And they sang a new song, saying: \"You are worthy to take the scroll, And to open its seals; For You were slain, And have redeemed us to God by Your blood out of every tribe and tongue and people and nation, <sup>10</sup> And have made us kings and priests to our God; And we shall reign on the earth.\"</span>",
+          "text": "And they sang a new song, saying: \"You are worthy to take the scroll, And to open its seals; For You were slain, And have redeemed us to God by Your blood out of every tribe and tongue and people and nation, <sup>10</sup> And have made us kings and priests to our God; And we shall reign on the earth.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1949,12 +1984,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Revelation 5:9-10</span>",
+          "text": "Revelation 5:9-10",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1966,7 +2002,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -2021,7 +2058,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Ephesians 6:10-12</strong><br/>Finally, my brethren, be strong in the Lord and in the power of His might. <sup>11</sup> Put on the whole armor of God, that you may be able to stand against the wiles of the devil. <sup>12</sup> For we do not wrestle against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this age, against spiritual hosts of wickedness in the heavenly places.</span>",
+          "text": "<strong>Ephesians 6:10-12</strong><br/>Finally, my brethren, be strong in the Lord and in the power of His might. <sup>11</sup> Put on the whole armor of God, that you may be able to stand against the wiles of the devil. <sup>12</sup> For we do not wrestle against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this age, against spiritual hosts of wickedness in the heavenly places.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2034,12 +2071,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Matthew 28:18-19</strong><br/>And Jesus came and spoke to them, saying, \"All authority has been given to Me in heaven and on earth. <sup>19</sup> Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit</span>",
+          "text": "<strong>Matthew 28:18-19</strong><br/>And Jesus came and spoke to them, saying, \"All authority has been given to Me in heaven and on earth. <sup>19</sup> Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2052,7 +2090,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
@@ -2131,7 +2170,7 @@
           "sequence": 3,
           "shape_name": "TextBox 9",
           "timing": "click",
-          "text": "Do most contemporary “churches” align with this biblical pattern?",
+          "text": "Do most contemporary \"churches\" align with this biblical pattern?",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -2150,7 +2189,7 @@
           "sequence": 4,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "<strong>Priestly allocations </strong>(multi-million dollar mega-churches, paid staff, multi-media, etc.)<br/><strong>far exceed the royal </strong>– the opposite of the tutor. <br/>In contrast, most of the New Testament scriptures focus on edification (sword training) and evangelism rather than priestly/worship activities – precisely like Israel!",
+          "text": "<strong>Priestly allocations </strong>(multi-million dollar mega-churches, paid staff, multi-media, etc.)<br/><strong>far exceed the royal </strong>- the opposite of the tutor. <br/>In contrast, most of the New Testament scriptures focus on edification (sword training) and evangelism rather than priestly/worship activities - precisely like Israel!",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -2172,7 +2211,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">For though we live in the world, we do not wage war as the world does. <sup>4</sup> The weapons we fight with are not the weapons of the world. On the contrary, they have divine power to demolish strongholds. <sup>5 </sup>We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ. <sup>6</sup> And we will be ready to punish every act of disobedience, once your obedience is complete. <sub>(NIV)</sub></span>",
+          "text": "For though we live in the world, we do not wage war as the world does. <sup>4</sup> The weapons we fight with are not the weapons of the world. On the contrary, they have divine power to demolish strongholds. <sup>5 </sup>We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ. <sup>6</sup> And we will be ready to punish every act of disobedience, once your obedience is complete. <sub>(NIV)</sub>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2184,12 +2223,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Corinthians 10:3-6</span>",
+          "text": "2 Corinthians 10:3-6",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -2205,7 +2245,8 @@
           "font": {
             "v_align": "middle",
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 4",
@@ -2292,7 +2333,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">\"But do not be called Rabbi; for One is your Teacher, and you are all brothers. <sup>9</sup> \"Do not call anyone on earth your father; for One is your Father, He who is in heaven. <sup>10</sup> \"Do not be called leaders; for One is your Leader, that is, Christ.</span>",
+          "text": "\"But do not be called Rabbi; for One is your Teacher, and you are all brothers. <sup>9</sup> \"Do not call anyone on earth your father; for One is your Father, He who is in heaven. <sup>10</sup> \"Do not be called leaders; for One is your Leader, that is, Christ.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2305,12 +2346,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Matthew 23:8-10</span>",
+          "text": "Matthew 23:8-10",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -2322,7 +2364,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -2376,7 +2419,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">For you yourselves know how you ought to follow our example, because we did not act in an undisciplined manner among you, <sup>8</sup> nor did we eat anyone's bread without paying for it, but with labor and hardship we kept working night and day so that we would not be a burden to any of you; <sup>9</sup> not because we do not have the right to this, but in order to offer ourselves as a model for you, so that you would follow our example. <sup>10</sup> For even when we were with you, we used to give you this order: if anyone is not willing to work, then he is not to eat, either. <sup>11</sup> For we hear that some among you are leading an undisciplined life, doing no work at all, but acting like busybodies. (NASB95)</span>",
+          "text": "For you yourselves know how you ought to follow our example, because we did not act in an undisciplined manner among you, <sup>8</sup> nor did we eat anyone's bread without paying for it, but with labor and hardship we kept working night and day so that we would not be a burden to any of you; <sup>9</sup> not because we do not have the right to this, but in order to offer ourselves as a model for you, so that you would follow our example. <sup>10</sup> For even when we were with you, we used to give you this order: if anyone is not willing to work, then he is not to eat, either. <sup>11</sup> For we hear that some among you are leading an undisciplined life, doing no work at all, but acting like busybodies. (NASB95)",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2389,12 +2432,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Thessalonians 3:7-11</span>",
+          "text": "2 Thessalonians 3:7-11",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -2406,7 +2450,8 @@
           },
           "font": {
             "align": "left"
-          }
+          },
+          "is_scripture": true
         }
       ]
     }
@@ -2564,7 +2609,7 @@
         {
           "sequence": 8,
           "shape_name": "TextBox 26",
-          "text": "<strong><em>“New Order”</em></strong>",
+          "text": "<strong><em>\"New Order\"</em></strong>",
           "timing": "with",
           "z_index": 20,
           "shape_type": "text_box",
@@ -2631,7 +2676,7 @@
         {
           "sequence": 11,
           "shape_name": "TextBox 5",
-          "text": "<strong><em>”A better hope”</em></strong>",
+          "text": "<strong><em>\"A better hope\"</em></strong>",
           "timing": "with",
           "z_index": 36,
           "shape_type": "text_box",
@@ -2941,7 +2986,7 @@
         {
           "sequence": 21,
           "shape_name": "TextBox 4",
-          "text": "<span class=\"scripture\"><strong>Jeremiah 33:14-18 </strong></span>",
+          "text": "<strong>Jeremiah 33:14-18 </strong>",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
@@ -2954,7 +2999,9 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center"
+            "align": "center",
+            "font_size": 21.6,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3026,7 +3073,7 @@
         {
           "sequence": 24,
           "shape_name": "Text Box 19",
-          "text": "<span class=\"scripture\">Old Testament (1<sup>st</sup> Glory)</span>",
+          "text": "Old Testament (1<sup>st</sup> Glory)",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
@@ -3043,7 +3090,8 @@
           "font": {
             "wrap": true,
             "align": "center"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 25,
@@ -3110,7 +3158,7 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 25",
-          "text": "<span class=\"scripture\">New Testament (2<sup>nd</sup> Glory)</span>",
+          "text": "New Testament (2<sup>nd</sup> Glory)",
           "timing": "with",
           "z_index": 10,
           "shape_type": "text_box",
@@ -3127,7 +3175,8 @@
           "font": {
             "wrap": true,
             "align": "center"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 28,
@@ -3619,7 +3668,7 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 19",
-          "text": "<span class=\"scripture\"><strong>Genesis 49:10</strong><br/><strong>Psalms 60:7, Hebrews 7:14</strong></span>",
+          "text": "<strong>Genesis 49:10</strong><br/><strong>Psalms 60:7, Hebrews 7:14</strong>",
           "timing": "after",
           "z_index": 11,
           "shape_type": "text_box",
@@ -3632,6 +3681,8 @@
           },
           "font": {
             "align": "center",
+            "font_size": 16.8,
+            "bold": true,
             "wrap": true
           },
           "hyperlink": {
@@ -3713,7 +3764,7 @@
         {
           "sequence": 18,
           "shape_name": "Text Box 23",
-          "text": "<span class=\"scripture\"><strong>Christ </strong><br/><strong>Luke 1:30-33</strong></span>",
+          "text": "<strong>Christ </strong><br/><strong>Luke 1:30-33</strong>",
           "timing": "with",
           "z_index": 15,
           "shape_type": "text_box",
@@ -3726,6 +3777,8 @@
           },
           "font": {
             "align": "center",
+            "font_size": 21.6,
+            "bold": true,
             "wrap": true
           },
           "hyperlink": {
@@ -3737,7 +3790,7 @@
         {
           "sequence": 19,
           "shape_name": "Text Box 25",
-          "text": "<strong>What is the name</strong><br/><strong>of Christ’s Kingdom?</strong>",
+          "text": "<strong>What is the name</strong><br/><strong>of Christ's Kingdom?</strong>",
           "timing": "click",
           "z_index": 16,
           "shape_type": "text_box",
@@ -3897,7 +3950,7 @@
         {
           "sequence": 27,
           "shape_name": "Rectangle 3",
-          "text": "<span class=\"scripture\"><strong>Hebrews 7:23-28  </strong><br/></span>",
+          "text": "<strong>Hebrews 7:23-28  </strong><br/>",
           "timing": "with",
           "z_index": 51,
           "shape_type": "rectangle (1)",
@@ -3910,7 +3963,9 @@
           },
           "font": {
             "wrap": true,
-            "align": "center"
+            "align": "center",
+            "font_size": 16.8,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3960,7 +4015,7 @@
         {
           "sequence": 30,
           "shape_name": "TextBox 5",
-          "text": "<span class=\"scripture\"><strong>Revelation 17:14,19:16</strong></span>",
+          "text": "<strong>Revelation 17:14,19:16</strong>",
           "timing": "with",
           "z_index": 56,
           "shape_type": "text_box",
@@ -3973,7 +4028,9 @@
           },
           "font": {
             "v_align": "middle",
-            "wrap": true
+            "wrap": true,
+            "font_size": 16.8,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4004,7 +4061,7 @@
         {
           "sequence": 32,
           "shape_name": "Text Box 37",
-          "text": "<span class=\"scripture\"><strong>Jeremiah 33:17-18</strong><br/><strong>Zechariah 6:11-13</strong></span>",
+          "text": "<strong>Jeremiah 33:17-18</strong><br/><strong>Zechariah 6:11-13</strong>",
           "timing": "click",
           "z_index": 23,
           "shape_type": "text_box",
@@ -4016,7 +4073,9 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 16.8,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4027,7 +4086,7 @@
         {
           "sequence": 33,
           "shape_name": "Text Box 37",
-          "text": "<span class=\"scripture\"><strong>Luke 1:30-36, 1:5</strong><br/><strong>Matthew 1:1-16</strong></span>",
+          "text": "<strong>Luke 1:30-36, 1:5</strong><br/><strong>Matthew 1:1-16</strong>",
           "timing": "with",
           "z_index": 50,
           "shape_type": "text_box",
@@ -4039,7 +4098,9 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 16.8,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4154,7 +4215,7 @@
         {
           "sequence": 38,
           "shape_name": "Text Box 40",
-          "text": "<span class=\"scripture\"><strong>Ephesians 5:22-25</strong><br/><strong>Galatians 3:26</strong><br/><strong>1 Peter 2:9, James 1:12</strong></span>",
+          "text": "<strong>Ephesians 5:22-25</strong><br/><strong>Galatians 3:26</strong><br/><strong>1 Peter 2:9, James 1:12</strong>",
           "timing": "click",
           "z_index": 25,
           "shape_type": "text_box",
@@ -4166,7 +4227,9 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 19.2,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4236,7 +4299,7 @@
         {
           "sequence": 42,
           "shape_name": "Text Box 46",
-          "text": "<span class=\"scripture\"><strong>Revelation 5:9-10 NKJV</strong></span>",
+          "text": "<strong>Revelation 5:9-10 NKJV</strong>",
           "timing": "click",
           "z_index": 46,
           "shape_type": "text_box",
@@ -4246,6 +4309,10 @@
             "width": 184,
             "height": 28,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 16.8,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4767,7 +4834,7 @@
         {
           "sequence": 10,
           "shape_name": "TextBox 2",
-          "text": "<strong>“Weak and Useless”</strong><br/>(Hebrews 7:18)",
+          "text": "<strong>\"Weak and Useless\"</strong><br/>(Hebrews 7:18)",
           "timing": "click",
           "z_index": 34,
           "shape_type": "text_box",
@@ -5028,7 +5095,7 @@
         {
           "sequence": 23,
           "shape_name": "Text Box 35",
-          "text": "<span class=\"scripture\"><strong>Matthew 23:8-10</strong></span>",
+          "text": "<strong>Matthew 23:8-10</strong>",
           "timing": "with",
           "z_index": 28,
           "shape_type": "text_box",
@@ -5040,6 +5107,8 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 16.8,
+            "bold": true,
             "color": "#000000"
           },
           "hyperlink": {
@@ -5179,7 +5248,7 @@
         {
           "sequence": 30,
           "shape_name": "Text Box 20",
-          "text": "Spiritual battles\n“not against flesh and blood”",
+          "text": "Spiritual battles\n\"not against flesh and blood\"",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -5199,7 +5268,7 @@
         {
           "sequence": 31,
           "shape_name": "Text Box 22",
-          "text": "<strong>“No graven image” can represent a <u>Spiritual</u> Nation </strong>",
+          "text": "<strong>\"No graven image\" can represent a <u>Spiritual</u> Nation </strong>",
           "timing": "click",
           "z_index": 35,
           "shape_type": "text_box",
