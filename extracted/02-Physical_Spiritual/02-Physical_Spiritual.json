@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/02-Physical_Spiritual.pptx",
+  "file_path": "~/projects/hsu-pptx/02-Physical_Spiritual.pptx",
   "file_name": "02-Physical_Spiritual.pptx",
   "total_slides": 3,
   "total_custom_shows": 7,
@@ -73,7 +73,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 9",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>1 </sup>In the beginning God created the <strong><em>heavens</em></strong> and the <strong><em>earth</em></strong>.</span>",
+          "text": "<sup>1 </sup>In the beginning God created the <strong><em>heavens</em></strong> and the <strong><em>earth</em></strong>.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -86,7 +86,8 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -116,7 +117,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 13",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>2 </sup>The <strong>earth was formless and void</strong>, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.</span>",
+          "text": "<sup>2 </sup>The <strong>earth was formless and void</strong>, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -130,7 +131,8 @@
             "v_align": "middle",
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -160,7 +162,7 @@
           "sequence": 5,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>3 </sup>Then God said, <br/>\"Let there be light\"; and there was light.</span>",
+          "text": "<sup>3 </sup>Then God said, <br/>\"Let there be light\"; and there was light.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -174,7 +176,8 @@
             "v_align": "middle",
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 6,
@@ -224,7 +227,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 1:1-3 1:1-3</span>",
+          "text": "Genesis 1:1-3 1:1-3",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -236,6 +239,8 @@
           },
           "font": {
             "align": "left",
+            "font_size": 33.3,
+            "bold": true,
             "color": "#000000"
           }
         }
@@ -290,7 +295,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>20</sup>For since the creation of the world God's invisible qualities--his eternal power and divine nature--have been clearly seen, being understood from what has been made, so that men are without excuse. <br/></span>",
+          "text": "<sup>20</sup>For since the creation of the world God's invisible qualities--his eternal power and divine nature--have been clearly seen, being understood from what has been made, so that men are without excuse. <br/>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -303,7 +308,8 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -314,7 +320,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "So it is with the resurrection of the dead. What is sown is <strong><em>perishable</em></strong>, what is raised is <strong><em>imperishable</em></strong>.  It is sown in <strong><em>dishonor</em></strong>, it is raised in <strong><em>glory</em></strong>. It is sown in <strong><em>weakness</em></strong>, it is raised in <strong><em>power</em></strong>.  It is sown a <strong><em>physical body</em></strong>, it is raised a <strong><em>spiritual body</em></strong>. If there is a <strong><em>physical body</em></strong>, there is also a <strong><em>spiritual body</em></strong>.  Thus it is written, \"The <strong><em>first man, Adam</em></strong>, became a <strong><em>living being\"</em></strong>; the <strong><em>last Adam</em></strong> became a <strong><em>life-giving spirit</em></strong>.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the <strong><em>earth</em></strong>, a man of dust; the second man is from <strong><em>heaven</em></strong>.<br/>",
+          "text": "So it is with the resurrection of the dead. What is sown is <strong><em>perishable</em></strong>, what is raised is <strong><em>imperishable</em></strong>.  It is sown in <strong><em>dishonor</em></strong>, it is raised in <strong><em>glory</em></strong>. It is sown in <strong><em>weakness</em></strong>, it is raised in <strong><em>power</em></strong>.  It is sown a <strong><em>physical body</em></strong>, it is raised a <strong><em>spiritual body</em></strong>. If there is a <strong><em>physical body</em></strong>, there is also a <strong><em>spiritual body</em></strong>.  Thus it is written, \"The <strong><em>first man, Adam</em></strong>, became a <strong><em>living being\"</em></strong>; the <strong><em>last Adam</em></strong> became a <strong><em>life-giving spirit</em></strong>.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the <strong><em>earth</em></strong>, a man of dust; the second man is from <strong><em>heaven</em></strong>.<br/>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -335,7 +341,7 @@
           "sequence": 2,
           "shape_name": "TextBox 3",
           "timing": "with",
-          "text": "So it is with the resurrection of the dead. What is sown is <strong><em>perishable</em></strong>, what is raised is <strong><em>imperishable</em></strong>.  It is sown in <strong><em>dishonor</em></strong>, it is raised in <strong><em>glory</em></strong>. It is sown in <strong><em>weakness</em></strong>, it is raised in <strong><em>power</em></strong>.  It is sown a <strong><em>physical body</em></strong>, it is raised a <strong><em>spiritual body</em></strong>. If there is a <strong><em>physical body</em></strong>, there is also a <strong><em>spiritual body</em></strong>.  Thus it is written, \"The <strong><em>first man, Adam</em></strong>, became a <strong><em>living being\"</em></strong>; the <strong><em>last Adam</em></strong> became a <strong><em>life-giving spirit</em></strong>.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the <strong><em>earth</em></strong>, a man of dust; the second man is from <strong><em>heaven</em></strong>.<br/>",
+          "text": "So it is with the resurrection of the dead. What is sown is <strong><em>perishable</em></strong>, what is raised is <strong><em>imperishable</em></strong>.  It is sown in <strong><em>dishonor</em></strong>, it is raised in <strong><em>glory</em></strong>. It is sown in <strong><em>weakness</em></strong>, it is raised in <strong><em>power</em></strong>.  It is sown a <strong><em>physical body</em></strong>, it is raised a <strong><em>spiritual body</em></strong>. If there is a <strong><em>physical body</em></strong>, there is also a <strong><em>spiritual body</em></strong>.  Thus it is written, \"The <strong><em>first man, Adam</em></strong>, became a <strong><em>living being\"</em></strong>; the <strong><em>last Adam</em></strong> became a <strong><em>life-giving spirit</em></strong>.  But it is not the spiritual that is first, but the physical, and then the spiritual.  The first man was from the <strong><em>earth</em></strong>, a man of dust; the second man is from <strong><em>heaven</em></strong>.<br/>",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -356,7 +362,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">1 Corinthians 15:40-45</span>",
+          "text": "1 Corinthians 15:40-45",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -368,6 +374,8 @@
           },
           "font": {
             "align": "left",
+            "font_size": 44.2,
+            "bold": true,
             "color": "#000000"
           }
         }
@@ -400,7 +408,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "<span class=\"scripture\">For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,<sup>18 </sup>while we <strong>look not at the things which are seen</strong>, but at the things which are <br/><strong>not seen</strong>; <br/>for the <strong>things which are <u>seen are temporal</u></strong>, but the <strong>things which are <u>not seen are eternal</u></strong>.</span>",
+          "text": "For momentary, light affliction is producing for us an eternal weight of glory far beyond all comparison,<sup>18 </sup>while we <strong>look not at the things which are seen</strong>, but at the things which are <br/><strong>not seen</strong>; <br/>for the <strong>things which are <u>seen are temporal</u></strong>, but the <strong>things which are <u>not seen are eternal</u></strong>.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -413,7 +421,8 @@
           "font": {
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 1",
@@ -441,7 +450,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">Colossians 1:15-16</span>",
+          "text": "Colossians 1:15-16",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -452,13 +461,15 @@
             "rotation": 0
           },
           "font": {
-            "align": "left"
+            "align": "left",
+            "font_size": 44.2,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 4",
           "static": true,
-          "text": "<span class=\"scripture\">He is the image of the invisible God, the firstborn of all creation.  <sup>16</sup>For by Him <u>all things were created</u>, both in the <strong>heavens and on earth, visible and invisible</strong>, whether thrones or dominions or rulers or authorities--<u>all things</u> have been created through Him and for Him.</span>",
+          "text": "He is the image of the invisible God, the firstborn of all creation.  <sup>16</sup>For by Him <u>all things were created</u>, both in the <strong>heavens and on earth, visible and invisible</strong>, whether thrones or dominions or rulers or authorities--<u>all things</u> have been created through Him and for Him.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -471,7 +482,8 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 1",
@@ -499,7 +511,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 11:1-3</span>",
+          "text": "Hebrews 11:1-3",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -511,13 +523,15 @@
           },
           "font": {
             "align": "left",
+            "font_size": 44.2,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "<span class=\"scripture\">Now faith is the substance of things hoped for, the <u>evidence of things not seen</u>.  <sup>2</sup>For by it the elders obtained a good testimony.  <br/><sup>3</sup>By faith we understand that the worlds were framed by the word of God, so that the <br/><strong><u>things which are seen</u></strong>were <br/><strong><u>not made of things which are visible</u></strong>.<br/></span>",
+          "text": "Now faith is the substance of things hoped for, the <u>evidence of things not seen</u>.  <sup>2</sup>For by it the elders obtained a good testimony.  <br/><sup>3</sup>By faith we understand that the worlds were framed by the word of God, so that the <br/><strong><u>things which are seen</u></strong>were <br/><strong><u>not made of things which are visible</u></strong>.<br/>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -530,7 +544,8 @@
           "font": {
             "align": "left",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -559,7 +574,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 9:22-24</span>",
+          "text": "Hebrews 9:22-24",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -570,13 +585,15 @@
             "rotation": 0
           },
           "font": {
-            "align": "left"
+            "align": "left",
+            "font_size": 45.0,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "<span class=\"scripture\">In fact, the law requires that nearly everything be cleansed with blood, and without the shedding of blood there is no forgiveness. <sup>23</sup> <strong><u>It was necessary, then, for the copies of the heavenly things</u> </strong>to be purified with these sacrifices, but the heavenly things themselves with better sacrifices than these. <sup>24</sup> <strong><u>For Christ did not enter a sanctuary made with human hands that was only a copy of the true one; he entered heaven itself</u></strong>, now to appear for us in God’s presence.</span>",
+          "text": "In fact, the law requires that nearly everything be cleansed with blood, and without the shedding of blood there is no forgiveness. <sup>23</sup> <strong><u>It was necessary, then, for the copies of the heavenly things</u> </strong>to be purified with these sacrifices, but the heavenly things themselves with better sacrifices than these. <sup>24</sup> <strong><u>For Christ did not enter a sanctuary made with human hands that was only a copy of the true one; he entered heaven itself</u></strong>, now to appear for us in God's presence.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -589,7 +606,8 @@
           "font": {
             "wrap": true,
             "align": "left"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -787,7 +805,7 @@
         {
           "sequence": 9,
           "shape_name": "Text Box 12",
-          "text": "<span class=\"scripture\"><strong>Colossians 1:15-16</strong></span>",
+          "text": "<strong>Colossians 1:15-16</strong>",
           "timing": "click",
           "z_index": 62,
           "shape_type": "text_box",
@@ -801,7 +819,9 @@
           "fill": "#969696",
           "font": {
             "v_align": "middle",
-            "align": "left"
+            "align": "left",
+            "font_size": 23.3,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -812,7 +832,7 @@
         {
           "sequence": 10,
           "shape_name": "TextBox 2",
-          "text": "<em>All things…</em>",
+          "text": "<em>All things...</em>",
           "timing": "with",
           "z_index": 74,
           "shape_type": "text_box",
@@ -1004,7 +1024,7 @@
         {
           "sequence": 19,
           "shape_name": "TextBox 3",
-          "text": "<em>Evidence…</em>",
+          "text": "<em>Evidence...</em>",
           "timing": "with",
           "z_index": 73,
           "shape_type": "text_box",
@@ -1051,7 +1071,7 @@
         {
           "sequence": 21,
           "shape_name": "Text Box 57",
-          "text": "What evidence for<br/><em>invisible qualities—</em><br/><em>clearly seen</em>?",
+          "text": "What evidence for<br/><em>invisible qualities--</em><br/><em>clearly seen</em>?",
           "timing": "click",
           "z_index": 20,
           "shape_type": "text_box",
@@ -1666,7 +1686,7 @@
         {
           "sequence": 50,
           "shape_name": "Text Box 99",
-          "text": "<strong>What’s missing?</strong>",
+          "text": "<strong>What's missing?</strong>",
           "timing": "click",
           "z_index": 35,
           "shape_type": "text_box",
@@ -1686,7 +1706,7 @@
         {
           "sequence": 51,
           "shape_name": "Text Box 101",
-          "text": "<span class=\"scripture\"><strong>Genesis 1:1-3</strong></span>",
+          "text": "<strong>Genesis 1:1-3</strong>",
           "timing": "click",
           "z_index": 36,
           "shape_type": "text_box",
@@ -1700,6 +1720,10 @@
           "fill": "#F4F4F4",
           "line": {
             "width": 1
+          },
+          "font": {
+            "font_size": 20.0,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -1761,7 +1785,7 @@
         {
           "sequence": 54,
           "shape_name": "Text Box 100",
-          "text": "<span class=\"scripture\">c<sup>2</sup></span>",
+          "text": "c<sup>2</sup>",
           "timing": "click",
           "z_index": 71,
           "shape_type": "text_box",
@@ -1775,7 +1799,8 @@
           "font": {
             "v_align": "middle",
             "color": "#0000FF"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 55,
@@ -2379,7 +2404,7 @@
         {
           "sequence": 8,
           "shape_name": "TextBox 1",
-          "text": "<span class=\"scripture\"><strong>Hebrews 9:22-24</strong></span>",
+          "text": "<strong>Hebrews 9:22-24</strong>",
           "timing": "click",
           "z_index": 33,
           "shape_type": "text_box",
@@ -2392,7 +2417,9 @@
           },
           "fill": "#33CCFF",
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 23.3,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",

@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/03-Biblical_Time.pptx",
+  "file_path": "~/projects/hsu-pptx/03-Biblical_Time.pptx",
   "file_name": "03-Biblical_Time.pptx",
   "total_slides": 4,
   "total_custom_shows": 10,
@@ -94,7 +94,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Romans 15:4</strong><br/>For whatever was written in earlier times <strong>was written for our instruction</strong>, so that through perseverance and the encouragement of the Scriptures we might have hope.</span>",
+          "text": "<strong>Romans 15:4</strong><br/>For whatever was written in earlier times <strong>was written for our instruction</strong>, so that through perseverance and the encouragement of the Scriptures we might have hope.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -107,7 +107,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -134,7 +135,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Colossians 2:16-17</strong><br/>Therefore no one is to act as your judge in regard to food or drink or in respect to a festival or a new moon or a Sabbath day -<strong>things which are a mere shadow</strong> of what is to come; but the substance belongs to Christ.</span>",
+          "text": "<strong>Colossians 2:16-17</strong><br/>Therefore no one is to act as your judge in regard to food or drink or in respect to a festival or a new moon or a Sabbath day -<strong>things which are a mere shadow</strong> of what is to come; but the substance belongs to Christ.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -147,13 +148,14 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Hebrews 10:1</strong><br/>For the <strong>Law, since it has only a shadow</strong> of the good things to come and <strong>not the very form of things</strong>, can never, by the same sacrifices which they offer continually year by year, make perfect those who draw near.</span>",
+          "text": "<strong>Hebrews 10:1</strong><br/>For the <strong>Law, since it has only a shadow</strong> of the good things to come and <strong>not the very form of things</strong>, can never, by the same sacrifices which they offer continually year by year, make perfect those who draw near.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -166,7 +168,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -186,7 +189,7 @@
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "<span class=\"scripture\">Galatians 3:24-25</span>",
+          "text": "Galatians 3:24-25",
           "z_index": 5,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -198,13 +201,15 @@
           },
           "font": {
             "align": "left",
+            "font_size": 26.7,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "Therefore the <strong>Law has become our tutor</strong> to lead us to Christ, so that we may be justified by faith.  But now that faith has come, we are no longer under a tutor",
+          "text": "Therefore the <strong>Law has become our tutor</strong> to lead us to Christ, so that we may be justified by faith.  But now that faith has come, we are no longer under a tutor",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -228,7 +233,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>John 17:24</strong><br/>\"Father, I want those you have given me to be with me where I am, and to see my glory, the glory you have given me because you loved me before the creation of the world.</span>",
+          "text": "<strong>John 17:24</strong><br/>\"Father, I want those you have given me to be with me where I am, and to see my glory, the glory you have given me because you loved me before the creation of the world.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -240,13 +245,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1 Peter 1:20</strong><br/>He was chosen before the creation of the world, but was revealed in these last times for your sake.</span>",
+          "text": "<strong>1 Peter 1:20</strong><br/>He was chosen before the creation of the world, but was revealed in these last times for your sake.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -258,7 +264,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
@@ -285,7 +292,7 @@
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "<span class=\"scripture\">Praise be to the God and Father of our Lord Jesus Christ, who has blessed us in the heavenly realms with every spiritual blessing in Christ. <sup>4</sup> For he chose us in him before the creation of the world to be holy and blameless in his sight.</span>",
+          "text": "Praise be to the God and Father of our Lord Jesus Christ, who has blessed us in the heavenly realms with every spiritual blessing in Christ. <sup>4</sup> For he chose us in him before the creation of the world to be holy and blameless in his sight.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -297,7 +304,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 12",
@@ -328,7 +336,7 @@
         {
           "shape_name": "Rectangle 15",
           "static": true,
-          "text": "<span class=\"scripture\">Ephesians 1:3-4</span>",
+          "text": "Ephesians 1:3-4",
           "z_index": 6,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -339,7 +347,9 @@
             "rotation": 0
           },
           "font": {
-            "align": "left"
+            "align": "left",
+            "font_size": 30.8,
+            "bold": true
           }
         }
       ]
@@ -351,7 +361,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 10",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Revelation 21:6-7</strong><br/>He said to me: \"It is done. I am the Alpha and the Omega, the Beginning and the End. To him who is thirsty I will give to drink without cost from the spring of the water of life. <sup>7</sup> He who overcomes will inherit all this, and I will be his God and he will be my son.</span>",
+          "text": "<strong>Revelation 21:6-7</strong><br/>He said to me: \"It is done. I am the Alpha and the Omega, the Beginning and the End. To him who is thirsty I will give to drink without cost from the spring of the water of life. <sup>7</sup> He who overcomes will inherit all this, and I will be his God and he will be my son.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -363,13 +373,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 11",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Revelation 22:12-13</strong><br/>\"Behold, I am coming soon! My reward is with me, and I will give to everyone according to what he has done.<sup> 13</sup> I am the Alpha and the Omega, the First and the Last, the Beginning and the End.</span>",
+          "text": "<strong>Revelation 22:12-13</strong><br/>\"Behold, I am coming soon! My reward is with me, and I will give to everyone according to what he has done.<sup> 13</sup> I am the Alpha and the Omega, the First and the Last, the Beginning and the End.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -381,14 +392,15 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "\"I am the Alpha and the Omega,\" says the Lord God, \"who is, and who was, and who is to come, the Almighty.“",
+          "text": "\"I am the Alpha and the Omega,\" says the Lord God, \"who is, and who was, and who is to come, the Almighty.\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -431,7 +443,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 10",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1 Peter 1:10-11</strong><br/>Concerning this salvation, the prophets, who spoke of the grace that was to come to you, searched intently and with the greatest care, <sup>11</sup>trying to find out the time and circumstances to which the Spirit of Christ in them was pointing when he predicted the sufferings of Christ and the glories that would follow.</span>",
+          "text": "<strong>1 Peter 1:10-11</strong><br/>Concerning this salvation, the prophets, who spoke of the grace that was to come to you, searched intently and with the greatest care, <sup>11</sup>trying to find out the time and circumstances to which the Spirit of Christ in them was pointing when he predicted the sufferings of Christ and the glories that would follow.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -443,7 +455,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -463,7 +476,7 @@
         {
           "shape_name": "Rectangle 12",
           "static": true,
-          "text": "<span class=\"scripture\">2 Corinthians 3:7-11</span>",
+          "text": "2 Corinthians 3:7-11",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -474,13 +487,14 @@
             "rotation": 0
           },
           "font": {
-            "align": "left"
+            "align": "left",
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">Now if the ministry that brought death, which was engraved in letters on stone, came with glory, so that the Israelites could not look steadily at the face of Moses because of its glory, fading though it was,<sup> 8 </sup>will not the ministry of the Spirit be even more glorious?<sup> 9 </sup>If the ministry that condemns men is glorious, how much more glorious is the ministry that brings righteousness! <sup>10</sup> For what was glorious has no glory now in comparison with the surpassing glory. <sup>11</sup> And if what was fading away came with glory, how much greater is the glory of that which lasts!</span>",
+          "text": "Now if the ministry that brought death, which was engraved in letters on stone, came with glory, so that the Israelites could not look steadily at the face of Moses because of its glory, fading though it was,<sup> 8 </sup>will not the ministry of the Spirit be even more glorious?<sup> 9 </sup>If the ministry that condemns men is glorious, how much more glorious is the ministry that brings righteousness! <sup>10</sup> For what was glorious has no glory now in comparison with the surpassing glory. <sup>11</sup> And if what was fading away came with glory, how much greater is the glory of that which lasts!",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -492,7 +506,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -539,7 +554,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>7</sup> For if there had been nothing wrong with that first covenant, no place would have been sought for another. <br/>...............<br/><br/><sup>13 </sup>By calling this covenant \"new,\" he has made the first one obsolete; and what is obsolete and aging will soon disappear.</span>",
+          "text": "<sup>7</sup> For if there had been nothing wrong with that first covenant, no place would have been sought for another. <br/>...............<br/><br/><sup>13 </sup>By calling this covenant \"new,\" he has made the first one obsolete; and what is obsolete and aging will soon disappear.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -551,7 +566,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 2",
@@ -580,7 +596,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>2 Corinthians 4:17-18 </strong><br/>For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all. <sup>18 </sup>So we fix our eyes not on what is seen, but on what is unseen. For what is seen is temporary, but what is unseen is eternal.</span>",
+          "text": "<strong>2 Corinthians 4:17-18 </strong><br/>For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all. <sup>18 </sup>So we fix our eyes not on what is seen, but on what is unseen. For what is seen is temporary, but what is unseen is eternal.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -592,13 +608,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>2 Timothy 2:8-10</strong><br/>Remember Jesus Christ, raised from the dead, descended from David. This is my gospel, <sup>9</sup> for which I am suffering even to the point of being chained like a criminal. But God's word is not chained. <sup>10 </sup>Therefore I endure everything for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus, with eternal glory.</span>",
+          "text": "<strong>2 Timothy 2:8-10</strong><br/>Remember Jesus Christ, raised from the dead, descended from David. This is my gospel, <sup>9</sup> for which I am suffering even to the point of being chained like a criminal. But God's word is not chained. <sup>10 </sup>Therefore I endure everything for the sake of the elect, that they too may obtain the salvation that is in Christ Jesus, with eternal glory.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -610,7 +627,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -729,7 +747,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Malachi 3:6</strong><br/>\"For I, the LORD, do not change; therefore you, O sons of Jacob, are not consumed.</span>",
+          "text": "<strong>Malachi 3:6</strong><br/>\"For I, the LORD, do not change; therefore you, O sons of Jacob, are not consumed.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -742,7 +760,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -769,7 +788,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Hebrews 13:8</strong><br/>Jesus Christ is the same yesterday and today and forever.</span>",
+          "text": "<strong>Hebrews 13:8</strong><br/>Jesus Christ is the same yesterday and today and forever.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -782,7 +801,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -912,7 +932,7 @@
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "Matthew 5 – You have heard that it was said.. But..",
+          "text": "Matthew 5 - You have heard that it was said.. But..",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -933,7 +953,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>21 </sup>“You have heard that it was said to the people long ago, ‘You shall not murder,<sup> </sup>and anyone who murders will be subject to judgment.’ <sup>22 </sup>But I tell you that anyone who is angry with a brother or sister will be subject to judgment. Again, anyone who says to a brother or sister, ‘Raca,’ is answerable to the court. And anyone who says, ‘You fool!’ will be in danger of the fire of hell.<br/>…<br/><sup>27 </sup>“You have heard that it was said, ‘You shall not commit adultery. <sup>28 </sup>But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart.<br/>…<br/><sup>31 </sup>“It has been said, ‘Anyone who divorces his wife must give her a certificate of divorce.’<sup>[</sup><sup>f</sup><sup>]</sup> <sup>32 </sup>But I tell you that anyone who divorces his wife, except for sexual immorality, makes her the victim of adultery, and anyone who marries a divorced woman commits adultery.<br/>…<br/><sup>33 </sup>“Again, you have heard that it was said to the people long ago, ‘Do not break your oath, but fulfill to the Lord the vows you have made.’ <sup>34 </sup>But I tell you, do not swear an oath at all: either by heaven, for it is God’s throne; <sup>35 </sup>or by the earth, for it is his footstool; or by Jerusalem, for it is the city of the Great King. <br/>…<br/><sup>38 </sup>“You have heard that it was said, ‘Eye for eye, and tooth for tooth.<sup>39 </sup>But I tell you, do not resist an evil person. If anyone slaps you on the right cheek, turn to them the other cheek also. <br/>…<br/><sup>43 </sup>“You have heard that it was said, ‘Love your neighbor and hate your enemy.’<sup>44 </sup>But I tell you, love your enemies and pray for those who persecute you, <sup>45 </sup>that you may be children of your Father in heaven. He causes his sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. <sup>46 </sup>If you love those who love you, what reward will you get? Are not even the tax collectors doing that? <sup>47 </sup>And if you greet only your own people, what are you doing more than others? Do not even pagans do that? <sup>48 </sup><u>Be perfect, therefore, as your heavenly Father is perfect</u>.</span>",
+          "text": "<sup>21 </sup>\"You have heard that it was said to the people long ago, 'You shall not murder,<sup> </sup>and anyone who murders will be subject to judgment.' <sup>22 </sup>But I tell you that anyone who is angry with a brother or sister will be subject to judgment. Again, anyone who says to a brother or sister, 'Raca,' is answerable to the court. And anyone who says, 'You fool!' will be in danger of the fire of hell.<br/>...<br/><sup>27 </sup>\"You have heard that it was said, 'You shall not commit adultery. <sup>28 </sup>But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart.<br/>...<br/><sup>31 </sup>\"It has been said, 'Anyone who divorces his wife must give her a certificate of divorce.'<sup>[</sup><sup>f</sup><sup>]</sup> <sup>32 </sup>But I tell you that anyone who divorces his wife, except for sexual immorality, makes her the victim of adultery, and anyone who marries a divorced woman commits adultery.<br/>...<br/><sup>33 </sup>\"Again, you have heard that it was said to the people long ago, 'Do not break your oath, but fulfill to the Lord the vows you have made.' <sup>34 </sup>But I tell you, do not swear an oath at all: either by heaven, for it is God's throne; <sup>35 </sup>or by the earth, for it is his footstool; or by Jerusalem, for it is the city of the Great King. <br/>...<br/><sup>38 </sup>\"You have heard that it was said, 'Eye for eye, and tooth for tooth.<sup>39 </sup>But I tell you, do not resist an evil person. If anyone slaps you on the right cheek, turn to them the other cheek also. <br/>...<br/><sup>43 </sup>\"You have heard that it was said, 'Love your neighbor and hate your enemy.'<sup>44 </sup>But I tell you, love your enemies and pray for those who persecute you, <sup>45 </sup>that you may be children of your Father in heaven. He causes his sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. <sup>46 </sup>If you love those who love you, what reward will you get? Are not even the tax collectors doing that? <sup>47 </sup>And if you greet only your own people, what are you doing more than others? Do not even pagans do that? <sup>48 </sup><u>Be perfect, therefore, as your heavenly Father is perfect</u>.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -945,7 +965,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     }
@@ -1032,7 +1053,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 1:1<br/><em>In the beginning…</em><br/></span>",
+          "text": "Genesis 1:1<br/><em>In the beginning...</em><br/>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1045,6 +1066,7 @@
           "font": {
             "v_align": "top",
             "align": "left",
+            "font_size": 40.0,
             "wrap": true
           }
         },
@@ -1670,7 +1692,7 @@
         {
           "sequence": 2,
           "shape_name": "Rectangle 22",
-          "text": "<span class=\"scripture\"><strong>Ephesians 1:4</strong><br/><strong>John 17:24</strong><br/><strong>1 Peter 1:20</strong><br/><strong>Jude 24-25</strong></span>",
+          "text": "<strong>Ephesians 1:4</strong><br/><strong>John 17:24</strong><br/><strong>1 Peter 1:20</strong><br/><strong>Jude 24-25</strong>",
           "timing": "click",
           "z_index": 0,
           "shape_type": "rectangle (1)",
@@ -1682,7 +1704,9 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 16.7,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -2214,7 +2238,7 @@
         {
           "sequence": 26,
           "shape_name": "Text Box 114",
-          "text": "<span class=\"scripture\"><sup>◻︎</sup> <strong>Jesus</strong>...</span>",
+          "text": "<sup>◻︎</sup> <strong>Jesus</strong>...",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
@@ -2237,7 +2261,7 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 113",
-          "text": "<em>“you heard it said\"</em>",
+          "text": "<em>\"you heard it said\"</em>",
           "timing": "after",
           "delay": 500,
           "z_index": 13,
@@ -2289,7 +2313,7 @@
         {
           "sequence": 29,
           "shape_name": "Text Box 115",
-          "text": "<em>“now I say to you\"</em>",
+          "text": "<em>\"now I say to you\"</em>",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -2441,7 +2465,7 @@
         {
           "sequence": 35,
           "shape_name": "Text Box 44",
-          "text": "<span class=\"scripture\"><strong>2 Corinthians 3:7-11</strong><br/><strong>1 Peter 1:10-11</strong></span>",
+          "text": "<strong>2 Corinthians 3:7-11</strong><br/><strong>1 Peter 1:10-11</strong>",
           "timing": "with",
           "z_index": 27,
           "shape_type": "text_box",
@@ -2454,6 +2478,8 @@
           },
           "font": {
             "v_align": "middle",
+            "font_size": 21.7,
+            "bold": true,
             "wrap": true
           },
           "hyperlink": {
@@ -2531,7 +2557,7 @@
         {
           "sequence": 39,
           "shape_name": "Rectangle 47",
-          "text": "<span class=\"scripture\"><strong>Romans 8:18</strong><br/><strong>2 Cor. 4:17</strong><br/><strong>2 Timothy 2:8</strong></span>",
+          "text": "<strong>Romans 8:18</strong><br/><strong>2 Cor. 4:17</strong><br/><strong>2 Timothy 2:8</strong>",
           "timing": "click",
           "z_index": 29,
           "shape_type": "rectangle (1)",
@@ -2544,6 +2570,8 @@
           },
           "font": {
             "v_align": "middle",
+            "font_size": 20.0,
+            "bold": true,
             "wrap": true
           },
           "hyperlink": {
@@ -2765,7 +2793,7 @@
         {
           "sequence": 49,
           "shape_name": "Rectangle 48",
-          "text": "<span class=\"scripture\"><strong>Romans 7:14 We know that the <u>Law</u> is<u> spiritual</u>;</strong><br/><strong>but I am unspiritual, sold as a slave to sin.</strong></span>",
+          "text": "<strong>Romans 7:14 We know that the <u>Law</u> is<u> spiritual</u>;</strong><br/><strong>but I am unspiritual, sold as a slave to sin.</strong>",
           "timing": "click",
           "z_index": 30,
           "shape_type": "rectangle (1)",
@@ -2779,7 +2807,8 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 50,
@@ -2866,7 +2895,7 @@
         {
           "sequence": 53,
           "shape_name": "TextBox 4",
-          "text": "<span class=\"scripture\">Galatians 3:24-25, Romans 15:4, 1Corinthians 10:11, Colossians 2:16-17, Hebrews 10:1</span>",
+          "text": "Galatians 3:24-25, Romans 15:4, 1Corinthians 10:11, Colossians 2:16-17, Hebrews 10:1",
           "timing": "click",
           "z_index": 55,
           "shape_type": "text_box",
@@ -2882,6 +2911,7 @@
           },
           "font": {
             "wrap": true,
+            "font_size": 16.7,
             "color": "#000000"
           },
           "hyperlink": {
@@ -2991,7 +3021,7 @@
         {
           "shape_name": "Text Box 136",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Genesis 1:1</strong><br/><strong><em>In the beginning…</em></strong></span>",
+          "text": "<strong>Genesis 1:1</strong><br/><strong><em>In the beginning...</em></strong>",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
@@ -3003,7 +3033,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 121",

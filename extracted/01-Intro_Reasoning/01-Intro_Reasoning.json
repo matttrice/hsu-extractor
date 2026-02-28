@@ -137,9 +137,10 @@
           },
           "font": {
             "align": "left",
+            "font_size": 30.8,
+            "bold": true,
             "color": "#000000"
-          },
-          "is_scripture": true
+          }
         }
       ]
     },
@@ -202,9 +203,10 @@
           },
           "font": {
             "align": "left",
+            "font_size": 23.3,
+            "bold": true,
             "color": "#000000"
-          },
-          "is_scripture": true
+          }
         }
       ]
     }
@@ -3271,9 +3273,10 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 44.2,
+            "bold": true,
             "color": "#000000"
-          },
-          "is_scripture": true
+          }
         }
       ]
     },

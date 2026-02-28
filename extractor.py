@@ -55,11 +55,21 @@ def normalize_unicode_text(text):
     # Smart single quotes / apostrophes → straight single
     text = text.replace('\u2018', "'").replace('\u2019', "'")
     # En-dash / em-dash → hyphen / double-hyphen
-    text = text.replace('\u2013', '-').replace('\u2014', '--')
+    text = text.replace('\u2013', '-')   # en dash → hyphen (best for verse ranges)
+    text = text.replace('\u2014', '--')  # em dash → double hyphen (safe approximation)
     # Ellipsis → three dots
     text = text.replace('\u2026', '...')
+    text = text.replace('\u22EF', '...')
     # Non-breaking space → regular space
     text = text.replace('\u00a0', ' ')
+    # Text Arrow normalization: convert common ASCII arrow-like sequences to proper Unicode arrow
+    # Order matters a bit — longer sequences first to avoid partial matches
+    text = text.replace('-->', '→')       # sometimes used for "implies" or long arrows
+    text = text.replace('->', '→')        # most common plain-text right arrow
+    text = text.replace(' → ', ' → ')     # preserve spacing if already using real arrow (no-op)
+    text = text.replace('=>', '⇒')     # ⇒ U+21D2 RIGHTWARDS DOUBLE ARROW (logical implication)
+    text = text.replace('->>', '→')    # rarer variants
+    
     return text
 
 
@@ -98,6 +108,14 @@ def _sanitize_scripture_block_font(entry, is_scripture=False):
     # Hyperlinked entries are drill links to scripture routes, not scripture
     # content themselves — preserve their font and skip the flag.
     if entry.get('hyperlink'):
+        return
+
+    # Title placeholders (e.g., "Title 1", "Title 3") are scripture reference
+    # labels, not scripture content — they may trigger heuristics due to their
+    # text (e.g., "Genesis 2:16-17") but should not be marked as scripture.
+    shape_type = entry.get('shape_type', '')
+    shape_name = entry.get('shape_name', '')
+    if shape_type.startswith('placeholder (14)') or re.match(r'^Title \d+$', shape_name):
         return
 
     entry['is_scripture'] = True
