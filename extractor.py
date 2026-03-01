@@ -51,9 +51,12 @@ def normalize_unicode_text(text):
     if not text:
         return text
     # Smart double quotes → straight double
-    text = text.replace('\u201c', '"').replace('\u201d', '"')
-    # Smart single quotes / apostrophes → straight single
-    text = text.replace('\u2018', "'").replace('\u2019', "'")
+    text = text.replace('\u201c', '"')   # “ → "
+    text = text.replace('\u201d', '"')   # ” → "
+    # Single quotes (including curly apostrophes)
+    text = text.replace('\u2018', "'")   # ‘ → '
+    text = text.replace('\u2019', "'")   # ’ → '
+    
     # En-dash / em-dash → hyphen / double-hyphen
     text = text.replace('\u2013', '-')   # en dash → hyphen (best for verse ranges)
     text = text.replace('\u2014', '--')  # em dash → double hyphen (safe approximation)

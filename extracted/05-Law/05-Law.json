@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/05-Law.pptx",
+  "file_path": "~/projects/hsu-pptx/05-Law.pptx",
   "file_name": "05-Law.pptx",
   "total_slides": 4,
   "total_custom_shows": 20,
@@ -164,7 +164,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "“you are not under the law, but under grace.”",
+          "text": "\"you are not under the law, but under grace.\"",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -182,7 +182,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "Being under grace is not like being under the law. Under the Law, a violation would result in death with no exceptions.  Under grace, those in Christ are expected to perform work as a slave to righteousness, but you are given help  - Christ the vine-keeper fertilizes and massages the soil. You are expected to eventually produce fruit. <br/><br/>Under grace, failing to produce fruit is not a direct equation resulting in death – as the parable implies, death or fire <em>could eventually </em>result but not right away because Christ is interceding. This is why it is called “grace and faith” – The law of faith is the grace. Under Moral and Commandment Law, violations cause sin which causes death. <br/><br/>Therefore the world is dead because of sin which is the infection that kills all of humanity due to a guilty conscience. The Church is never infected with sin due to Christ but members can still potentially die from a lack of effort/fruit. Therefore we work out our salvation with <em>fear and trembling, </em>not because of a fear of sin, but fear of living up to responsibility in the vineyard. There are many instances one can shirk the responsibility of being a slave to righteousness, for example, by ceasing to eat the spiritual meal (communion) which would eventually cause a death...again not because of sin but because weakness due to starvation. Those in Christ never sin once they are born of Him (1 John 5:18). This is why Church members should not fear sin but should fear judgment because “anything is permissible, but not everything is beneficial.” Only under grace can that statement be true.",
+          "text": "Being under grace is not like being under the law. Under the Law, a violation would result in death with no exceptions.  Under grace, those in Christ are expected to perform work as a slave to righteousness, but you are given help  - Christ the vine-keeper fertilizes and massages the soil. You are expected to eventually produce fruit. <br><br>Under grace, failing to produce fruit is not a direct equation resulting in death - as the parable implies, death or fire <em>could eventually </em>result but not right away because Christ is interceding. This is why it is called \"grace and faith\" - The law of faith is the grace. Under Moral and Commandment Law, violations cause sin which causes death. <br><br>Therefore the world is dead because of sin which is the infection that kills all of humanity due to a guilty conscience. The Church is never infected with sin due to Christ but members can still potentially die from a lack of effort/fruit. Therefore we work out our salvation with <em>fear and trembling, </em>not because of a fear of sin, but fear of living up to responsibility in the vineyard. There are many instances one can shirk the responsibility of being a slave to righteousness, for example, by ceasing to eat the spiritual meal (communion) which would eventually cause a death...again not because of sin but because weakness due to starvation. Those in Christ never sin once they are born of Him (1 John 5:18). This is why Church members should not fear sin but should fear judgment because \"anything is permissible, but not everything is beneficial.\" Only under grace can that statement be true.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -224,7 +224,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">Do you not know that the wicked will not inherit the kingdom of God? Do not be deceived: Neither the sexually immoral nor idolaters nor adulterers nor male prostitutes nor homosexual offenders <sup>10</sup> nor thieves nor the greedy nor drunkards nor slanderers nor swindlers will inherit the kingdom of God. <sup>11</sup> And that is what some of you were. But you were washed, you were sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God.<sup>12</sup> <br/>“Everything is permissible for me”—but not everything is beneficial. “Everything is permissible for me”—but I will not be mastered by anything.</span>",
+          "text": "Do you not know that the wicked will not inherit the kingdom of God? Do not be deceived: Neither the sexually immoral nor idolaters nor adulterers nor male prostitutes nor homosexual offenders <sup>10</sup> nor thieves nor the greedy nor drunkards nor slanderers nor swindlers will inherit the kingdom of God. <sup>11</sup> And that is what some of you were. But you were washed, you were sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God.<sup>12</sup> <br>\"Everything is permissible for me\"--but not everything is beneficial. \"Everything is permissible for me\"--but I will not be mastered by anything.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -237,12 +237,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">1 Corinthians 10:23<br/>“Everything is permissible”—but not everything is beneficial. “Everything is permissible”—but not everything is constructive. <sup>24</sup> Nobody should seek his own good, but the good of others.<sup> 25 </sup>Eat anything that is sold in the meat market without asking questions for <u>conscience’ sake</u>;</span>",
+          "text": "1 Corinthians 10:23<br>\"Everything is permissible\"--but not everything is beneficial. \"Everything is permissible\"--but not everything is constructive. <sup>24</sup> Nobody should seek his own good, but the good of others.<sup> 25 </sup>Eat anything that is sold in the meat market without asking questions for <u>conscience' sake</u>;",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -255,7 +256,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 1",
@@ -285,7 +287,7 @@
           "sequence": 1,
           "shape_name": "Text Box 6",
           "timing": "click",
-          "text": "“commanded” \nevokes what thoughts?",
+          "text": "\"commanded\" <br>evokes what thoughts?",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -309,7 +311,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "The LORD God commanded the man, saying, \"From any tree of the garden you may eat freely;  but from the tree of the knowledge of good and evil you shall not eat, for in the day that you eat from it you will surely die.\"",
+          "text": "The LORD God commanded the man, saying, \"From any tree of the garden you may eat freely;  but from the tree of the knowledge of good and evil you shall not eat, for in the day that you eat from it you will surely die.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -328,7 +330,7 @@
         {
           "shape_name": "Title 4",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 2:16-17</span>",
+          "text": "Genesis 2:16-17",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -337,6 +339,10 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 44.2,
+            "bold": true
           }
         }
       ]
@@ -348,7 +354,7 @@
           "sequence": 1,
           "shape_name": "Text Box 7",
           "timing": "click",
-          "text": "Jew vs. Gentile\nHearers vs Doers",
+          "text": "Jew vs. Gentile<br>Hearers vs Doers",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -373,7 +379,7 @@
           "sequence": 2,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "\"instinctively”\n Means what?",
+          "text": "\"instinctively\"<br> Means what?",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -414,7 +420,7 @@
           "sequence": 4,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "Instinct +\nConscience & Heart",
+          "text": "Instinct +<br>Conscience &amp; Heart",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -436,7 +442,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "For all who have sinned without the Law will also perish without the Law, and all who have sinned under the Law will be judged by the Law; for it is not the hearers of the Law who are just before God, but the doers of the Law will be justified.  For when Gentiles who do not have the Law do instinctively the things of the Law, these, not having the Law, are a law to themselves, in that they show the work of the Law written in their hearts, their conscience bearing witness and their thoughts alternately accusing or else defending them, on the day when, according to my gospel, God will judge the secrets of men through Christ Jesus.",
+          "text": "For all who have sinned without the Law will also perish without the Law, and all who have sinned under the Law will be judged by the Law; for it is not the hearers of the Law who are just before God, but the doers of the Law will be justified.  For when Gentiles who do not have the Law do instinctively the things of the Law, these, not having the Law, are a law to themselves, in that they show the work of the Law written in their hearts, their conscience bearing witness and their thoughts alternately accusing or else defending them, on the day when, according to my gospel, God will judge the secrets of men through Christ Jesus.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -455,7 +461,7 @@
         {
           "shape_name": "Title 3",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 2:12-16</span>",
+          "text": "Romans 2:12-16",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -464,6 +470,10 @@
             "width": 390,
             "height": 51,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 44.2,
+            "bold": true
           }
         }
       ]
@@ -475,7 +485,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">Ephesians 4:17-19<br/>So this I say, and affirm together with the Lord, that you walk no longer just as the <br/>Gentiles also walk, in the futility of their mind, being darkened  in their understanding,<br/>excluded from the life of God because of the ignorance that is in them, because of <br/>the hardness of their heart; and they, having become callous, have given themselves<br/>over to sensuality for the practice of every kind of impurity with greediness.</span>",
+          "text": "Ephesians 4:17-19<br>So this I say, and affirm together with the Lord, that you walk no longer just as the <br>Gentiles also walk, in the futility of their mind, being darkened  in their understanding,<br>excluded from the life of God because of the ignorance that is in them, because of <br>the hardness of their heart; and they, having become callous, have given themselves<br>over to sensuality for the practice of every kind of impurity with greediness.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -488,7 +498,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -515,7 +526,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "<span class=\"scripture\">Isaiah 5:20 <br/>Woe to those who call evil good, and good evil; Who substitute darkness for light and light for darkness; Who substitute bitter for sweet and sweet for bitter!</span>",
+          "text": "Isaiah 5:20 <br>Woe to those who call evil good, and good evil; Who substitute darkness for light and light for darkness; Who substitute bitter for sweet and sweet for bitter!",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -528,14 +539,15 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "But the Spirit explicitly says that in later times some will fall away from the faith, \npaying attention to deceitful spirits and doctrines of demons, by means of the \nhypocrisy of liars seared in their own conscience as with a branding iron,",
+          "text": "But the Spirit explicitly says that in later times some will fall away from the faith, <br>paying attention to deceitful spirits and doctrines of demons, by means of the <br>hypocrisy of liars seared in their own conscience as with a branding iron,",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -554,7 +566,7 @@
         {
           "shape_name": "Title 6",
           "static": true,
-          "text": "<span class=\"scripture\">1 Timothy 4:1-2</span>",
+          "text": "1 Timothy 4:1-2",
           "z_index": 4,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -563,6 +575,10 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 36.7,
+            "bold": true
           }
         },
         {
@@ -587,7 +603,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "Moses\nLaw",
+          "text": "Moses<br>Law",
           "z_index": 10,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -612,7 +628,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 25",
           "timing": "with",
-          "text": "“before the law was given”",
+          "text": "\"before the law was given\"",
           "z_index": 9,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -698,7 +714,7 @@
           "sequence": 5,
           "shape_name": "Rectangle 35",
           "timing": "click",
-          "text": "“sin was in the world”",
+          "text": "\"sin was in the world\"",
           "z_index": 11,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -716,7 +732,7 @@
           "sequence": 6,
           "shape_name": "Rectangle 36",
           "timing": "with",
-          "text": "“But sin is not taken into account when there is no law” \n(verse 13)",
+          "text": "\"But sin is not taken into account when there is no law\" <br>(verse 13)",
           "z_index": 12,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -777,7 +793,7 @@
           "sequence": 8,
           "shape_name": "Text Box 34",
           "timing": "with",
-          "text": "“Death reigned…even over those who did not <u>sin by breaking a command</u>” (verse 14)",
+          "text": "\"Death reigned...even over those who did not <u>sin by breaking a command</u>\" (verse 14)",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
@@ -797,7 +813,7 @@
           "sequence": 9,
           "shape_name": "Rectangle 16",
           "timing": "with",
-          "text": "“all sinned”\n(verse 12)",
+          "text": "\"all sinned\"<br>(verse 12)",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -857,7 +873,7 @@
           "sequence": 12,
           "shape_name": "Text Box 32",
           "timing": "with",
-          "text": "<em>Days of Noah,</em><br/><em>Sodom &amp; Gomorrah</em>",
+          "text": "<em>Days of Noah,</em><br><em>Sodom &amp; Gomorrah</em>",
           "z_index": 14,
           "shape_type": "text_box",
           "layout": {
@@ -902,7 +918,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all men, because all sinned— <sup>13 </sup>for before the law was given, sin was in the world. But sin is not taken into account when there is no law. <sup>14</sup>Nevertheless, death reigned from the time of Adam to the time of Moses, even over those who did not sin by breaking a command, as did Adam, who was a pattern of the one to come.</span>",
+          "text": "Therefore, just as sin entered the world through one man, and death through sin, and in this way death came to all men, because all sinned-- <sup>13 </sup>for before the law was given, sin was in the world. But sin is not taken into account when there is no law. <sup>14</sup>Nevertheless, death reigned from the time of Adam to the time of Moses, even over those who did not sin by breaking a command, as did Adam, who was a pattern of the one to come.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -915,12 +931,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 3",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 5:12-14</span>",
+          "text": "Romans 5:12-14",
           "z_index": 3,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -929,6 +946,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -940,7 +960,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">Galatians 3:19<br/>Why the Law then? It was <u>added</u> because of transgressions, having been ordained through angels by the agency of a mediator, until the seed would come to whom the promise had been made.</span>",
+          "text": "Galatians 3:19<br>Why the Law then? It was <u>added</u> because of transgressions, having been ordained through angels by the agency of a mediator, until the seed would come to whom the promise had been made.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -953,7 +973,8 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -1003,7 +1024,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "And He began telling this parable: \"A man had a fig tree which had been planted in his vineyard; and he came looking for fruit on it and did not find any.  \"And he said to the vineyard-keeper, `Behold, for three years I have come looking for fruit on this fig tree without finding any. Cut  it down! Why does it even use up the ground?'  \"And he answered and said to him, `Let it alone, sir, for this year too, until I dig around it and put in fertilizer; and if it bears fruit next year, fine; but if not, cut it down.' \"",
+          "text": "And He began telling this parable: \"A man had a fig tree which had been planted in his vineyard; and he came looking for fruit on it and did not find any.  \"And he said to the vineyard-keeper, `Behold, for three years I have come looking for fruit on this fig tree without finding any. Cut  it down! Why does it even use up the ground?'  \"And he answered and said to him, `Let it alone, sir, for this year too, until I dig around it and put in fertilizer; and if it bears fruit next year, fine; but if not, cut it down.' \"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1022,7 +1043,7 @@
         {
           "shape_name": "Title 3",
           "static": true,
-          "text": "<span class=\"scripture\">Luke 13:6-9</span>",
+          "text": "Luke 13:6-9",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1031,6 +1052,10 @@
             "width": 332,
             "height": 63,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 44.2,
+            "bold": true
           }
         }
       ]
@@ -1042,7 +1067,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 6:11-14</span>",
+          "text": "Romans 6:11-14",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1051,12 +1076,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 36.7,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">In the same way, count yourselves dead to sin but<br/>alive to God in Christ Jesus. <sup>12</sup> Therefore do not let sin <br/>reign in your mortal body so that you obey its evil desires. <br/><sup>13</sup> Do not offer the parts of your body to sin, as <br/>instruments of wickedness, but rather offer yourselves <br/>to God, as those who have <em><u>been brought from death </u></em><br/><em><u>to life;</u></em> and offer the parts of your body to him as <br/>instruments of righteousness. <br/><br/><sup>14</sup> For sin shall not be your master, <br/>because you are <em><u>not under law, but under grace.</u></em></span>",
+          "text": "In the same way, count yourselves dead to sin but<br>alive to God in Christ Jesus. <sup>12</sup> Therefore do not let sin <br>reign in your mortal body so that you obey its evil desires. <br><sup>13</sup> Do not offer the parts of your body to sin, as <br>instruments of wickedness, but rather offer yourselves <br>to God, as those who have <em><u>been brought from death </u></em><br><em><u>to life;</u></em> and offer the parts of your body to him as <br>instruments of righteousness. <br><br><sup>14</sup> For sin shall not be your master, <br>because you are <em><u>not under law, but under grace.</u></em>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1068,7 +1097,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1079,7 +1109,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "Freedom from sin but a slave to righteousness.\nThis dictates a new standard; a responsibility to live by.\nAre God’s standards easy to meet?",
+          "text": "Freedom from sin but a slave to righteousness.<br>This dictates a new standard; a responsibility to live by.<br>Are God's standards easy to meet?",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1101,7 +1131,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 6:17-18</span>",
+          "text": "Romans 6:17-18",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1110,12 +1140,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 36.7,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">But thanks be to God that, though you used to be <br/>slaves to sin, you wholeheartedly obeyed the form of <br/>teaching to which you were entrusted. <br/><br/><sup>18</sup> You have been <em><u>set free from sin</u></em> and have<br/> become <em><u>slaves to righteousness</u></em>.</span>",
+          "text": "But thanks be to God that, though you used to be <br>slaves to sin, you wholeheartedly obeyed the form of <br>teaching to which you were entrusted. <br><br><sup>18</sup> You have been <em><u>set free from sin</u></em> and have<br> become <em><u>slaves to righteousness</u></em>.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1127,7 +1161,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1138,7 +1173,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 10:17 <sup>NASB</sup></span>",
+          "text": "Romans 10:17 <sup>NASB</sup>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1147,12 +1182,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 36.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "So faith comes from hearing, \nand hearing by the word of Christ.",
+          "text": "So faith comes from hearing, <br>and hearing by the word of Christ.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1170,7 +1209,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 10:17 <sup>NIV</sup><br/>Consequently, faith comes from hearing the message, and the message is heard through the word about Christ.</span>",
+          "text": "Romans 10:17 <sup>NIV</sup><br>Consequently, faith comes from hearing the message, and the message is heard through the word about Christ.",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1182,7 +1221,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1211,7 +1251,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "So then, my beloved, just as you have always obeyed, <br/>not as in my presence only, but now much more in my <br/>absence, <em><u>work out your salvation with fear and trembling</u></em>;",
+          "text": "So then, my beloved, just as you have always obeyed, <br>not as in my presence only, but now much more in my <br>absence, <em><u>work out your salvation with fear and trembling</u></em>;",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1253,7 +1293,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Dear friends, do not be surprised at the painful trial you are suffering, as though something strange were happening to you. <sup>13</sup> But rejoice that you participate in the sufferings of Christ, so that you may be overjoyed when his glory is revealed. <sup>14</sup> If you are insulted because of the name of Christ, you are blessed, for the Spirit of glory and of God rests on you. <sup>15</sup> If you suffer, it should not be as a murderer or thief or any other kind of criminal, or even as a meddler.<sup>16</sup> However, if you suffer as a Christian, do not be ashamed, but praise God that you bear that name. <sup>17</sup> For it is time for judgment to begin with the family of God; and if it begins with us, what will the outcome be for those who do not obey the gospel of God? <sup>18 </sup>And,  “If it is hard for the righteous to be saved,  what will become of the ungodly and the sinner?”</span>",
+          "text": "Dear friends, do not be surprised at the painful trial you are suffering, as though something strange were happening to you. <sup>13</sup> But rejoice that you participate in the sufferings of Christ, so that you may be overjoyed when his glory is revealed. <sup>14</sup> If you are insulted because of the name of Christ, you are blessed, for the Spirit of glory and of God rests on you. <sup>15</sup> If you suffer, it should not be as a murderer or thief or any other kind of criminal, or even as a meddler.<sup>16</sup> However, if you suffer as a Christian, do not be ashamed, but praise God that you bear that name. <sup>17</sup> For it is time for judgment to begin with the family of God; and if it begins with us, what will the outcome be for those who do not obey the gospel of God? <sup>18 </sup>And,  \"If it is hard for the righteous to be saved,  what will become of the ungodly and the sinner?\"",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1265,12 +1305,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 1",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 10:23<br/>Let us hold fast the confession of our hope without wavering, for He who promised is faithful; <sup>24 </sup>and let us consider how to stimulate one another to love and good deeds, <sup>25 </sup>not forsaking our own assembling together, as is the habit of some, but encouraging <em>one another</em>; and all the more as you see the day drawing near. <sup>26 </sup>For if we go on sinning willfully after receiving the knowledge of the truth, there no longer remains a sacrifice for sins, <sup>27 </sup>but a terrifying expectation of judgment and the fury of a fire which will consume the adversaries. <br/></span>",
+          "text": "Hebrews 10:23<br>Let us hold fast the confession of our hope without wavering, for He who promised is faithful; <sup>24 </sup>and let us consider how to stimulate one another to love and good deeds, <sup>25 </sup>not forsaking our own assembling together, as is the habit of some, but encouraging <em>one another</em>; and all the more as you see the day drawing near. <sup>26 </sup>For if we go on sinning willfully after receiving the knowledge of the truth, there no longer remains a sacrifice for sins, <sup>27 </sup>but a terrifying expectation of judgment and the fury of a fire which will consume the adversaries. <br>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1282,7 +1323,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1293,7 +1335,7 @@
           "sequence": 1,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "Under the Law, sins <em><u>are</u></em> counted against mankind.<br/>Christ’s ambassadors' sins <em><u>are NOT</u> </em>counted against them",
+          "text": "Under the Law, sins <em><u>are</u></em> counted against mankind.<br>Christ's ambassadors' sins <em><u>are NOT</u> </em>counted against them",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1316,7 +1358,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Corinthians 5:17-20</span>",
+          "text": "2 Corinthians 5:17-20",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1325,12 +1367,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 33.3,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">Therefore, if anyone is in Christ, he is a new creation; the old has <br/>gone, the new has come! <sup>18</sup> All this is from God, who reconciled us<br/>to himself through Christ and gave us the ministry of reconciliation:<br/><sup>19</sup> that God was reconciling the world to himself in Christ, not <br/>counting men’s sins against them. And he has committed to us <br/>the message of reconciliation. <sup>20</sup> We are therefore Christ’s <br/>ambassadors, as though God were making his appeal through <br/>us. We implore you on Christ’s behalf: Be reconciled to God.</span>",
+          "text": "Therefore, if anyone is in Christ, he is a new creation; the old has <br>gone, the new has come! <sup>18</sup> All this is from God, who reconciled us<br>to himself through Christ and gave us the ministry of reconciliation:<br><sup>19</sup> that God was reconciling the world to himself in Christ, not <br>counting men's sins against them. And he has committed to us <br>the message of reconciliation. <sup>20</sup> We are therefore Christ's <br>ambassadors, as though God were making his appeal through <br>us. We implore you on Christ's behalf: Be reconciled to God.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1342,7 +1388,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1378,7 +1425,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 4:14-16</span>",
+          "text": "Romans 4:14-16",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1387,12 +1434,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 36.7,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">For if those who are of the Law are heirs, then faith is made void and<br/>the promise is nullified; <sup>15</sup> for the <u>Law brings about wrath, but where </u><br/><u>there is no law, there also is no violation</u>. <br/><sup>16</sup> For <u>this reason</u> it is by faith, in order that it may be in accordance <br/>with grace, so that the promise will be guaranteed to all the <br/>descendants, not only to those who are of the Law, but also to those <br/>who are of the faith of Abraham, who is the father of us all, <br/><sup>17</sup> (as it is written: “I have made you a father of many nations”) in the <br/>presence of Him whom he believed, that is, God, who gives life to the<br/> dead and calls into being things that do not exist.</span>",
+          "text": "For if those who are of the Law are heirs, then faith is made void and<br>the promise is nullified; <sup>15</sup> for the <u>Law brings about wrath, but where </u><br><u>there is no law, there also is no violation</u>. <br><sup>16</sup> For <u>this reason</u> it is by faith, in order that it may be in accordance <br>with grace, so that the promise will be guaranteed to all the <br>descendants, not only to those who are of the Law, but also to those <br>who are of the faith of Abraham, who is the father of us all, <br><sup>17</sup> (as it is written: \"I have made you a father of many nations\") in the <br>presence of Him whom he believed, that is, God, who gives life to the<br> dead and calls into being things that do not exist.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1404,7 +1455,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1415,7 +1467,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "Did you respect the office of Ambassador for Christ?\nDid you respect your grace period? Your diplomatic immunity?",
+          "text": "Did you respect the office of Ambassador for Christ?<br>Did you respect your grace period? Your diplomatic immunity?",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1456,7 +1508,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">For we must all appear before the judgment seat of <br/>Christ, that each one may receive what is due him for <br/>the thing done while in the body, whether good or bad.<br/><sup>11</sup> Since, then, we know what it is to fear the Lord, we try<br/>to persuade men.</span>",
+          "text": "For we must all appear before the judgment seat of <br>Christ, that each one may receive what is due him for <br>the thing done while in the body, whether good or bad.<br><sup>11</sup> Since, then, we know what it is to fear the Lord, we try<br>to persuade men.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1468,7 +1520,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 4",
@@ -1492,7 +1545,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 3:19 <em>(NIV)</em></span>",
+          "text": "Romans 3:19 <em>(NIV)</em>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1501,12 +1554,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 33.3,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">Now we know that whatever the law says, it says to those who are under the law, so that every<br/>mouth may be silenced and the whole world held accountable to God. <sup>20</sup> Therefore no one will <br/>be declared righteous in his sight by observing the law; rather, <u>through the law we become </u><br/><u>conscious of sin</u>. <sup>21</sup> But now a righteousness from God, apart from law, has been made known, <br/>to which the Law and the Prophets testify. <sup>22</sup> This righteousness from God comes through faith in <br/>Jesus Christ to all who believe. There is no difference, <sup>23</sup> for all have sinned and fall short of the <br/>glory of God, <sup>24</sup> and are justified freely by his grace through the redemption that came by <br/>Christ Jesus. <sup>25</sup> God presented him as a sacrifice of atonement, through faith in his blood. He did <br/>this to demonstrate his justice, because in his forbearance he had left the sins committed <br/>beforehand unpunished— <sup>26</sup> he did it to demonstrate his justice at the present time, so as to be <br/>just and the one who justifies those who have faith in Jesus.  <sup>27</sup> Where, then, is boasting? It is <br/>excluded. On what principle? On that of observing the law? No, but on that of faith. <sup>28</sup> For we <br/>maintain that a man is justified by faith apart from observing the law. <br/><sup>29</sup> Is God the God of Jews only? Is he not the God of Gentiles too?  Yes, of Gentiles too, <br/><sup>30</sup> since there is only one God, who will justify the circumcised by faith and the uncircumcised<br/>through that same faith. <sup>31</sup> Do we, then, nullify the law by this faith? Not at all! <br/>Rather, we uphold the law.</span>",
+          "text": "Now we know that whatever the law says, it says to those who are under the law, so that every<br>mouth may be silenced and the whole world held accountable to God. <sup>20</sup> Therefore no one will <br>be declared righteous in his sight by observing the law; rather, <u>through the law we become </u><br><u>conscious of sin</u>. <sup>21</sup> But now a righteousness from God, apart from law, has been made known, <br>to which the Law and the Prophets testify. <sup>22</sup> This righteousness from God comes through faith in <br>Jesus Christ to all who believe. There is no difference, <sup>23</sup> for all have sinned and fall short of the <br>glory of God, <sup>24</sup> and are justified freely by his grace through the redemption that came by <br>Christ Jesus. <sup>25</sup> God presented him as a sacrifice of atonement, through faith in his blood. He did <br>this to demonstrate his justice, because in his forbearance he had left the sins committed <br>beforehand unpunished-- <sup>26</sup> he did it to demonstrate his justice at the present time, so as to be <br>just and the one who justifies those who have faith in Jesus.  <sup>27</sup> Where, then, is boasting? It is <br>excluded. On what principle? On that of observing the law? No, but on that of faith. <sup>28</sup> For we <br>maintain that a man is justified by faith apart from observing the law. <br><sup>29</sup> Is God the God of Jews only? Is he not the God of Gentiles too?  Yes, of Gentiles too, <br><sup>30</sup> since there is only one God, who will justify the circumcised by faith and the uncircumcised<br>through that same faith. <sup>31</sup> Do we, then, nullify the law by this faith? Not at all! <br>Rather, we uphold the law.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1518,7 +1575,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 3",
@@ -1553,7 +1611,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 3:19 <em>(NASB)</em></span>",
+          "text": "Romans 3:19 <em>(NASB)</em>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1562,12 +1620,16 @@
             "width": 825,
             "height": 45,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 33.3,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">Now we know that whatever the Law says, it speaks to those who are under the Law, so that every mouth may be closed and all the world may become accountable to God; <sup>20</sup> because by the works of the Law no flesh will be justified in His sight; for <u>through the Law </u><em><u>comes</u></em><u> the knowledge of sin</u>. <sup>21</sup> But now apart from the Law <em>the</em> righteousness of God has been manifested, being witnessed by the Law and the Prophets, <sup>22</sup> even <em>the</em> righteousness of God through faith in Jesus Christ for all those who believe; for there is no distinction; <sup>23</sup> for all sinned and fall short of the glory of God, <sup>24</sup> being justified as a gift by His grace through the redemption which is in Christ Jesus; <sup>25</sup> whom God displayed publicly as a propitiation in His blood through faith. <em>This was</em> to demonstrate His righteousness, because in the forbearance of God He passed over the sins previously committed; <sup>26</sup> for the demonstration, <em>I say</em>, of His righteousness at the present time, so that He would be just and the justifier of the one who has faith in Jesus. <sup>27</sup> Where then is boasting? It is excluded. By what kind of law? Of works? No, but by <u>a law of faith. </u><sup>28</sup>For we maintain that a man is justified by faith apart from works of the Law. <sup>29</sup> Or is God <em>the God</em> of Jews only? Is He not <em>the God</em> of Gentiles also? Yes, of Gentiles also, <sup>30</sup> since indeed God who will justify the circumcised by faith and the uncircumcised through faith is one. <sup>31</sup> <u>Do we then nullify the Law through faith</u>? May it never be! On the contrary, <u>we establish the Law. </u></span>",
+          "text": "Now we know that whatever the Law says, it speaks to those who are under the Law, so that every mouth may be closed and all the world may become accountable to God; <sup>20</sup> because by the works of the Law no flesh will be justified in His sight; for <u>through the Law </u><em><u>comes</u></em><u> the knowledge of sin</u>. <sup>21</sup> But now apart from the Law <em>the</em> righteousness of God has been manifested, being witnessed by the Law and the Prophets, <sup>22</sup> even <em>the</em> righteousness of God through faith in Jesus Christ for all those who believe; for there is no distinction; <sup>23</sup> for all sinned and fall short of the glory of God, <sup>24</sup> being justified as a gift by His grace through the redemption which is in Christ Jesus; <sup>25</sup> whom God displayed publicly as a propitiation in His blood through faith. <em>This was</em> to demonstrate His righteousness, because in the forbearance of God He passed over the sins previously committed; <sup>26</sup> for the demonstration, <em>I say</em>, of His righteousness at the present time, so that He would be just and the justifier of the one who has faith in Jesus. <sup>27</sup> Where then is boasting? It is excluded. By what kind of law? Of works? No, but by <u>a law of faith. </u><sup>28</sup>For we maintain that a man is justified by faith apart from works of the Law. <sup>29</sup> Or is God <em>the God</em> of Jews only? Is He not <em>the God</em> of Gentiles also? Yes, of Gentiles also, <sup>30</sup> since indeed God who will justify the circumcised by faith and the uncircumcised through faith is one. <sup>31</sup> <u>Do we then nullify the Law through faith</u>? May it never be! On the contrary, <u>we establish the Law. </u>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1579,7 +1641,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 3",
@@ -1632,7 +1695,7 @@
           "sequence": 2,
           "shape_name": "Text Box 8",
           "timing": "with",
-          "text": "<u>Commandment Law</u><br/>Levitical – <em>Not</em> perfect",
+          "text": "<u>Commandment Law</u><br>Levitical - <em>Not</em> perfect",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1672,7 +1735,7 @@
           "sequence": 4,
           "shape_name": "Text Box 8",
           "timing": "with",
-          "text": "<u>Law of Faith / Grace </u><br/>Christ – Perfect Law",
+          "text": "<u>Law of Faith / Grace </u><br>Christ - Perfect Law",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -1755,7 +1818,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 7:11-12</span>",
+          "text": "Hebrews 7:11-12",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1764,12 +1827,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 33.3,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron?<sup> 12 </sup>For when the priesthood is changed, of necessity there takes place a change of law also.</span>",
+          "text": "Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron?<sup> 12 </sup>For when the priesthood is changed, of necessity there takes place a change of law also.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1781,7 +1848,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1792,7 +1860,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\">Romans 2:19-23<br/>If you are convinced that you are a guide for the blind, a light for those who are in the dark, <sup>20</sup> an instructor of the foolish, a teacher of little children, because you have in the law the embodiment of knowledge and truth— <sup>21</sup> you, then, who teach others, do you not teach yourself? You who preach against stealing, do you steal? <sup>22</sup> You who say that people should not commit adultery, do you commit adultery? You who abhor idols, do you rob temples? <sup>23</sup> You who boast in the law, do you dishonor God by breaking the law?</span>",
+          "text": "Romans 2:19-23<br>If you are convinced that you are a guide for the blind, a light for those who are in the dark, <sup>20</sup> an instructor of the foolish, a teacher of little children, because you have in the law the embodiment of knowledge and truth-- <sup>21</sup> you, then, who teach others, do you not teach yourself? You who preach against stealing, do you steal? <sup>22</sup> You who say that people should not commit adultery, do you commit adultery? You who abhor idols, do you rob temples? <sup>23</sup> You who boast in the law, do you dishonor God by breaking the law?",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1804,13 +1872,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 10",
           "timing": "click",
-          "text": "Most example law violations are moral law <em>(stealing, adultery). </em><br/>Paul (2:12) argues that Gentiles may do these things instinctually.",
+          "text": "Most example law violations are moral law <em>(stealing, adultery). </em><br>Paul (2:12) argues that Gentiles may do these things instinctually.",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -1891,7 +1960,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "+ You shall have no other gods before Me.\n+ You shall not make idols.\n+ You shall not take the name of the LORD your God in vain.\n+ Remember the Sabbath day, to keep it holy.\n* Honor your father and your mother. \n* You shall not murder.\n* You shall not commit adultery.\n* You shall not steal.\n* You shall not bear false witness against your neighbor.\n* You shall not covet.",
+          "text": "+ You shall have no other gods before Me.<br>+ You shall not make idols.<br>+ You shall not take the name of the LORD your God in vain.<br>+ Remember the Sabbath day, to keep it holy.<br>* Honor your father and your mother. <br>* You shall not murder.<br>* You shall not commit adultery.<br>* You shall not steal.<br>* You shall not bear false witness against your neighbor.<br>* You shall not covet.",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1909,7 +1978,7 @@
         {
           "shape_name": "TextBox 4",
           "static": true,
-          "text": "+ Additions that increased   transgression.\n* Codification of the Moral Law, things your conscience knows by instinct",
+          "text": "+ Additions that increased   transgression.<br>* Codification of the Moral Law, things your conscience knows by instinct",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1938,7 +2007,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">Romans 6:18<br/>You have been set free from sin.. <br/>1 John 1:18<br/>We know that no one who is born of God sins;</span>",
+          "text": "Romans 6:18<br>You have been set free from sin.. <br>1 John 1:18<br>We know that no one who is born of God sins;",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1950,7 +2019,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -1977,7 +2047,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 14",
           "timing": "click",
-          "text": "<span class=\"scripture\">Romans 4:8<br/>“Blessed is the one whose sin the Lord will never count against them.”<br/>Psalm 32:1<br/>How blessed is he whose transgression is forgiven, whose sin is covered!</span>",
+          "text": "Romans 4:8<br>\"Blessed is the one whose sin the Lord will never count against them.\"<br>Psalm 32:1<br>How blessed is he whose transgression is forgiven, whose sin is covered!",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1990,13 +2060,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
           "shape_name": "Rectangle 9",
           "timing": "click",
-          "text": "<span class=\"scripture\">2 Corinthians 5:18-19<br/>God, who reconciled us to himself through Christ and gave us the ministry of reconciliation: <sup>19</sup> that <em><u>God was reconciling the world to himself in Christ, not counting men’s sins against them</u></em>.</span>",
+          "text": "2 Corinthians 5:18-19<br>God, who reconciled us to himself through Christ and gave us the ministry of reconciliation: <sup>19</sup> that <em><u>God was reconciling the world to himself in Christ, not counting men's sins against them</u></em>.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2009,13 +2080,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 5,
           "shape_name": "TextBox 13",
           "timing": "click",
-          "text": "In Christ, sins are not counted.<br/>This is only possible through <u>separation from the Law</u> and rebirth under grace.<br/>Christ covers the sins of the Church.",
+          "text": "In Christ, sins are not counted.<br>This is only possible through <u>separation from the Law</u> and rebirth under grace.<br>Christ covers the sins of the Church.",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -2056,7 +2128,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\">1 John 1:8<br/>If we say that we have no sin, we are deceiving ourselves and the truth is not in us.</span>",
+          "text": "1 John 1:8<br>If we say that we have no sin, we are deceiving ourselves and the truth is not in us.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2069,12 +2141,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">1 John 1:10 <br/>If we say that we have not sinned, we make Him a liar and His word is not in us.</span>",
+          "text": "1 John 1:10 <br>If we say that we have not sinned, we make Him a liar and His word is not in us.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2087,7 +2160,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     }
@@ -2099,7 +2173,7 @@
         {
           "sequence": 1,
           "shape_name": "Text Box 6",
-          "text": "<span class=\"scripture\">Romans 2:12-16</span>",
+          "text": "Romans 2:12-16",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
@@ -2112,7 +2186,8 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center"
+            "align": "center",
+            "font_size": 26.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2221,7 +2296,7 @@
         {
           "sequence": 7,
           "shape_name": "Text Box 19",
-          "text": "<span class=\"scripture\">1 Timothy 4:1-4<br/>Ephesians 4:17-19<br/>Isaiah 5:20</span>",
+          "text": "1 Timothy 4:1-4<br>Ephesians 4:17-19<br>Isaiah 5:20",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -2235,6 +2310,7 @@
           "font": {
             "v_align": "middle",
             "align": "center",
+            "font_size": 23.3,
             "wrap": true
           },
           "hyperlink": {
@@ -2246,7 +2322,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 22",
-          "text": "Do you have to know the Bible \nto define good and evil?",
+          "text": "Do you have to know the Bible <br>to define good and evil?",
           "timing": "click",
           "z_index": 7,
           "shape_type": "text_box",
@@ -2266,7 +2342,7 @@
         {
           "sequence": 9,
           "shape_name": "Text Box 23",
-          "text": "<span class=\"scripture\">Romans 5:12-14</span>",
+          "text": "Romans 5:12-14",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
@@ -2278,7 +2354,8 @@
             "rotation": 0
           },
           "font": {
-            "align": "center"
+            "align": "center",
+            "font_size": 26.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2289,7 +2366,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 31",
-          "text": "Sin existed before Law even \nover those who \ndid not break a \ncommandment.",
+          "text": "Sin existed before Law even <br>over those who <br>did not break a <br>commandment.",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
@@ -2352,7 +2429,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 29",
-          "text": "Moses\nLaw",
+          "text": "Moses<br>Law",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -2436,7 +2513,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 5",
-          "text": "<span class=\"scripture\">Genesis 2:16-17</span>",
+          "text": "Genesis 2:16-17",
           "timing": "click",
           "z_index": 29,
           "shape_type": "text_box",
@@ -2449,7 +2526,8 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center"
+            "align": "center",
+            "font_size": 26.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2494,7 +2572,7 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 48",
-          "text": "<span class=\"scripture\">Romans 5:20<br/>Galatians 3:19</span>",
+          "text": "Romans 5:20<br>Galatians 3:19",
           "timing": "with",
           "z_index": 13,
           "shape_type": "text_box",
@@ -2507,6 +2585,7 @@
           },
           "font": {
             "align": "center",
+            "font_size": 23.3,
             "wrap": true
           },
           "hyperlink": {
@@ -2575,7 +2654,7 @@
         {
           "sequence": 18,
           "shape_name": "Text Box 53",
-          "text": "Priesthood / Royalty\nSacrifice / Worship etc.",
+          "text": "Priesthood / Royalty<br>Sacrifice / Worship etc.",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
@@ -2777,7 +2856,7 @@
         {
           "sequence": 26,
           "shape_name": "Text Box 58",
-          "text": "<u>Entire World:</u><br/>Violates Moral Law",
+          "text": "<u>Entire World:</u><br>Violates Moral Law",
           "timing": "click",
           "z_index": 19,
           "shape_type": "text_box",
@@ -2798,7 +2877,7 @@
         {
           "sequence": 27,
           "shape_name": "Text Box 58",
-          "text": "<u>Only Israel</u>: <br/>Violates Moral &amp;<br/>Commandment Law",
+          "text": "<u>Only Israel</u>: <br>Violates Moral &amp;<br>Commandment Law",
           "timing": "click",
           "z_index": 33,
           "shape_type": "text_box",
@@ -2819,7 +2898,7 @@
         {
           "sequence": 28,
           "shape_name": "TextBox 3",
-          "text": "All Violate\nConscience.",
+          "text": "All Violate<br>Conscience.",
           "timing": "click",
           "z_index": 34,
           "shape_type": "text_box",
@@ -2944,7 +3023,7 @@
         {
           "sequence": 3,
           "shape_name": "Text Box 10",
-          "text": "“Awen”\ntwisted, \ndistorted,\n ugly",
+          "text": "\"Awen\"<br>twisted, <br>distorted,<br> ugly",
           "timing": "with",
           "z_index": 4,
           "shape_type": "text_box",
@@ -3053,7 +3132,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 12",
-          "text": "“Pesha”\nstubborn, \nrebellious",
+          "text": "\"Pesha\"<br>stubborn, <br>rebellious",
           "timing": "with",
           "z_index": 6,
           "shape_type": "text_box",
@@ -3124,7 +3203,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 8",
-          "text": "Sin causes death. \nLaw brings wrath.\n Romans 4:15",
+          "text": "Sin causes death. <br>Law brings wrath.<br> Romans 4:15",
           "timing": "click",
           "z_index": 12,
           "shape_type": "text_box",
@@ -3149,7 +3228,7 @@
         {
           "sequence": 12,
           "shape_name": "Text Box 86",
-          "text": "<span class=\"scripture\">Romans 6:11-14</span>",
+          "text": "Romans 6:11-14",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -3161,7 +3240,8 @@
             "rotation": 0
           },
           "font": {
-            "align": "center"
+            "align": "center",
+            "font_size": 26.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -3211,7 +3291,7 @@
         {
           "sequence": 15,
           "shape_name": "Rectangle 17",
-          "text": "For sin shall no longer be your <br/>master, because you are <br/><u>not under the law</u>, but under grace<br/>",
+          "text": "For sin shall no longer be your <br>master, because you are <br><u>not under the law</u>, but under grace<br>",
           "timing": "click",
           "z_index": 14,
           "shape_type": "rectangle (1)",
@@ -3261,7 +3341,7 @@
         {
           "sequence": 17,
           "shape_name": "TextBox 6",
-          "text": "Law of Sin & Death",
+          "text": "Law of Sin &amp; Death",
           "timing": "after",
           "z_index": 23,
           "shape_type": "text_box",
@@ -3309,7 +3389,7 @@
         {
           "sequence": 19,
           "shape_name": "TextBox 19",
-          "text": "God not counting men’s sins against them. \nAmbassadors for Christ. \nDiplomatic Immunity – grace period",
+          "text": "God not counting men's sins against them. <br>Ambassadors for Christ. <br>Diplomatic Immunity - grace period",
           "timing": "click",
           "z_index": 15,
           "shape_type": "text_box",
@@ -3353,7 +3433,7 @@
         {
           "sequence": 21,
           "shape_name": "Rectangle 24",
-          "text": "<em>Justified – <u>Not under the law</u>, </em><br/><em>still upholding (establishing) the law</em>",
+          "text": "<em>Justified - <u>Not under the law</u>, </em><br><em>still upholding (establishing) the law</em>",
           "timing": "click",
           "z_index": 17,
           "shape_type": "rectangle (1)",
@@ -3429,7 +3509,7 @@
         {
           "sequence": 24,
           "shape_name": "TextBox 25",
-          "text": "<em>Everything is permissible [lawful]</em><br/><em>but not all is beneficial</em>",
+          "text": "<em>Everything is permissible [lawful]</em><br><em>but not all is beneficial</em>",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
@@ -3450,7 +3530,7 @@
         {
           "sequence": 25,
           "shape_name": "TextBox 29",
-          "text": "<em>“I thought everyone</em><br/><em>was/is a sinner ?”</em>",
+          "text": "<em>\"I thought everyone</em><br><em>was/is a sinner ?\"</em>",
           "timing": "click",
           "z_index": 27,
           "shape_type": "text_box",
@@ -3477,7 +3557,7 @@
         {
           "sequence": 26,
           "shape_name": "TextBox 21",
-          "text": "<span class=\"scripture\">Hebrews 7:11<br/>(change of law)</span>",
+          "text": "Hebrews 7:11<br>(change of law)",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -3491,6 +3571,7 @@
           "fill": "#00B0F0",
           "font": {
             "align": "center",
+            "font_size": 26.7,
             "wrap": true
           },
           "hyperlink": {
@@ -3565,7 +3646,7 @@
         {
           "sequence": 2,
           "shape_name": "TextBox 39",
-          "text": "<em>Sin Not Counted = No Death</em><br/><em>Why Fear &amp; Trembling?</em><br/>",
+          "text": "<em>Sin Not Counted = No Death</em><br><em>Why Fear &amp; Trembling?</em><br>",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -3611,7 +3692,7 @@
         {
           "sequence": 4,
           "shape_name": "TextBox 2",
-          "text": "<em>Responsible for good</em><br/><em> and bad while in the body,</em><br/><em>Fear the Lord.</em>",
+          "text": "<em>Responsible for good</em><br><em> and bad while in the body,</em><br><em>Fear the Lord.</em>",
           "timing": "click",
           "z_index": 30,
           "shape_type": "text_box",
@@ -3694,7 +3775,7 @@
         {
           "sequence": 7,
           "shape_name": "Rectangle 6",
-          "text": "“You have been set free<br/>from sin and have become <br/><u>slaves to righteousness”</u>",
+          "text": "\"You have been set free<br>from sin and have become <br><u>slaves to righteousness\"</u>",
           "timing": "click",
           "z_index": 22,
           "shape_type": "rectangle (1)",
@@ -3719,7 +3800,7 @@
         {
           "sequence": 8,
           "shape_name": "TextBox 7",
-          "text": "<em>Freedom from sin but not</em><br/><em><u>responsibility!</u></em>",
+          "text": "<em>Freedom from sin but not</em><br><em><u>responsibility!</u></em>",
           "timing": "with",
           "z_index": 23,
           "shape_type": "text_box",
@@ -3778,7 +3859,7 @@
         {
           "sequence": 11,
           "shape_name": "TextBox 8",
-          "text": "As a slave you have\nnew set of responsibility",
+          "text": "As a slave you have<br>new set of responsibility",
           "timing": "with",
           "z_index": 24,
           "shape_type": "text_box",
@@ -3798,7 +3879,7 @@
         {
           "sequence": 12,
           "shape_name": "Text Box 61",
-          "text": "<span class=\"scripture\">Luke 13:6-9</span>",
+          "text": "Luke 13:6-9",
           "timing": "with",
           "z_index": 17,
           "shape_type": "text_box",
@@ -3809,6 +3890,9 @@
             "height": 46,
             "rotation": 0
           },
+          "font": {
+            "font_size": 30.0
+          },
           "hyperlink": {
             "type": "customshow",
             "id": 5,
@@ -3818,7 +3902,7 @@
         {
           "sequence": 13,
           "shape_name": "Text Box 62",
-          "text": "Owner\nKeeper\nVineyard\nTrees\nFruit",
+          "text": "Owner<br>Keeper<br>Vineyard<br>Trees<br>Fruit",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -4064,7 +4148,7 @@
         {
           "sequence": 23,
           "shape_name": "Text Box 86",
-          "text": "<em>Fruits of Spirit:</em><br/><em>Benevolence,</em><br/><em>Teaching, ect.</em>",
+          "text": "<em>Fruits of Spirit:</em><br><em>Benevolence,</em><br><em>Teaching, ect.</em>",
           "timing": "after",
           "z_index": 16,
           "shape_type": "text_box",
@@ -4125,7 +4209,7 @@
         {
           "sequence": 26,
           "shape_name": "Text Box 13",
-          "text": "<em>“hamartia”</em><br/>to be without a <br/>     share in<br/>b) to miss the mark<br/>c) to err, be mistaken<br/>d) to miss or wander<br/>     from the path of <br/>     uprightness<br/>e) to wander from the<br/>     law of God",
+          "text": "<em>\"hamartia\"</em><br>to be without a <br>     share in<br>b) to miss the mark<br>c) to err, be mistaken<br>d) to miss or wander<br>     from the path of <br>     uprightness<br>e) to wander from the<br>     law of God",
           "timing": "with",
           "z_index": 2,
           "shape_type": "text_box",
@@ -4196,7 +4280,7 @@
         {
           "sequence": 29,
           "shape_name": "TextBox 25",
-          "text": "Same result as other sins \nDecided at judgment.",
+          "text": "Same result as other sins <br>Decided at judgment.",
           "timing": "with",
           "delay": 500,
           "z_index": 21,
@@ -4217,7 +4301,7 @@
         {
           "sequence": 30,
           "shape_name": "Rectangle 5",
-          "text": "<span class=\"scripture\"><sup>9</sup> If it bears fruit next year, fine! If not, then cut it down.</span>",
+          "text": "<sup>9</sup> If it bears fruit next year, fine! If not, then cut it down.",
           "timing": "click",
           "z_index": 20,
           "shape_type": "rectangle (1)",
@@ -4231,12 +4315,13 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 31,
           "shape_name": "TextBox 41",
-          "text": "1Peter 4:12-18\nHebrews 10:23",
+          "text": "1Peter 4:12-18<br>Hebrews 10:23",
           "timing": "click",
           "z_index": 28,
           "shape_type": "text_box",
