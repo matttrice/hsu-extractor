@@ -1663,6 +1663,8 @@ def _normalize_fragment_markup(text):
         return text
 
     normalized = text
+    # Replace newlines with HTML line breaks.
+    normalized = normalized.replace('\n', '<br>')
     # Only collapse simple wrapper tags used by extractor.
     for tag in ('strong', 'em', 'u', 's'):
         normalized = normalized.replace(f'</{tag}><{tag}>', '')
@@ -1671,27 +1673,25 @@ def _normalize_fragment_markup(text):
     normalized = re.sub(r'<(strong|em|u|s)\s*>\s*</\1>', '', normalized)
 
     # Canonicalize all break tag variants.
-    normalized = re.sub(r'<br\s*/?>', '<br/>', normalized)
+    normalized = re.sub(r'<br\s*/?>', '<br>', normalized)
 
-    # Preserve intentional blank lines (<br/><br/>) but collapse accidental longer runs.
-    normalized = re.sub(r'(?:<br\s*/?>\s*){3,}', '<br/><br/>', normalized)
+    # Preserve intentional blank lines (<br><br>) but collapse accidental longer runs.
+    normalized = re.sub(r'(?:<br\s*/?>\s*){3,}', '<br><br>', normalized)
 
     return normalized
 
 
 def get_text_with_fragment_markup_from_shape_xml(shape_elem):
-    """Extract plain text plus optional minimal HTML markup from shape XML.
+    """Extract text with optional minimal HTML markup from shape XML.
 
     Returns:
-        tuple[str, str, bool, bool]: (plain_text, text_with_markup, has_markup, is_scripture)
+        tuple[str, bool]: (text, is_scripture)
     """
     tx_body = shape_elem.find('.//p:txBody', NAMESPACES)
     if tx_body is None:
-        return '', '', False, False
+        return '', False
 
-    paragraph_texts = []
     paragraph_html = []
-    has_rich_formatting = False
     scripture_mode = False
 
     # Heuristic A: leading "{Book} {Chapter}:{VerseOrRange}" + body text.
@@ -1733,7 +1733,6 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
             break
 
     for para in tx_body.findall('a:p', NAMESPACES):
-        parts = []
         html_parts = []
 
         paragraph_default_format = {}
@@ -1748,40 +1747,29 @@ def get_text_with_fragment_markup_from_shape_xml(shape_elem):
                 text_node = node.find('a:t', NAMESPACES)
                 if text_node is not None and text_node.text:
                     run_text = normalize_unicode_text(text_node.text)
-                    parts.append(run_text)
                     rPr = node.find('a:rPr', NAMESPACES)
                     run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
                     run_html, run_has_formatting = _format_run_as_html(run_text, run_fmt, scripture_mode)
                     html_parts.append(run_html)
-                    if run_has_formatting:
-                        has_rich_formatting = True
             # Explicit line break within paragraph
             elif node.tag.endswith('}br'):
-                parts.append('\n')
-                html_parts.append('<br/>')
+                html_parts.append('<br>')
             # Text field run
             elif node.tag.endswith('}fld'):
                 text_node = node.find('a:t', NAMESPACES)
                 if text_node is not None and text_node.text:
                     run_text = normalize_unicode_text(text_node.text)
-                    parts.append(run_text)
                     rPr = node.find('a:rPr', NAMESPACES)
                     run_fmt = _extract_run_format_from_rpr(rPr, paragraph_default_format)
                     run_html, run_has_formatting = _format_run_as_html(run_text, run_fmt, scripture_mode)
                     html_parts.append(run_html)
-                    if run_has_formatting:
-                        has_rich_formatting = True
 
-        paragraph_texts.append(''.join(parts))
         paragraph_html.append(''.join(html_parts))
 
-    plain_text = '\n'.join(paragraph_texts).strip()
-    text_with_markup = '<br/>'.join(paragraph_html).strip()
-    text_with_markup = _normalize_fragment_markup(text_with_markup)
+    text = '<br>'.join(paragraph_html).strip()
+    text = _normalize_fragment_markup(text)
 
-    if has_rich_formatting:
-        return plain_text, text_with_markup, True, scripture_mode
-    return plain_text, plain_text, False, scripture_mode
+    return text, scripture_mode
 
 def get_hyperlink_from_shape_xml(shape_elem):
     """Extract hyperlink action from shape XML element.
@@ -1982,14 +1970,14 @@ def parse_shapes_from_slide(slide_xml_content):
             if cNvPr is not None:
                 shape_id = cNvPr.get('id')
                 shape_name = cNvPr.get('name', '')
-                text_plain, text_markup, has_markup, is_scripture = get_text_with_fragment_markup_from_shape_xml(sp)
+                text, is_scripture = get_text_with_fragment_markup_from_shape_xml(sp)
                 hyperlink = get_hyperlink_from_shape_xml(sp)
                 
                 if shape_id:
                     shape_data = {
                         'id': shape_id,
                         'name': shape_name,
-                        'text': text_markup if has_markup else text_plain,
+                        'text': text,
                         'hyperlink': hyperlink,
                         'is_scripture': is_scripture
                     }
