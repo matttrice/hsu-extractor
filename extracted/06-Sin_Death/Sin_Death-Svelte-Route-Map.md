@@ -1,0 +1,33 @@
+# Sin & Death - Route-to-Slide Mapping
+
+## Route → JSON Linked Slide
+- 1-corinthians-15/ → Slide 12 (CustomShow 1: 1Corinthians14.45)
+- 1-peter-3-1/ → Slide 24 (CustomShow 14: 1Peter3.1)
+- acts-2-37/ → Slide 28 (CustomShow 17: Acts2.37)
+- death-states/ → Slide 31 (CustomShow 20: DeathStates)
+- deuteronomy-1-39/ → Slide 21 (CustomShow 21: Deuteronomy1.39)
+- ephesians-2-1/ → Slide 18 (CustomShow 7: Ephesians2.1)
+- ezekiel-18-4/ → Slide 17 (CustomShow 6: Ezekiel18.4)
+- flesh/ → CustomShowProvider (Slides 6, 12) (CustomShow 0: Flesh)
+- galatians-5-17/ → Slide 30 (CustomShow 19: Galatians5.17)
+- genesis-8-21/ → Slide 7 (CustomShow 11: Genesis8.21)
+- isaiah-59-1/ → Slide 15 (CustomShow 4: Isaiah59.1)
+- isaiah-7-14/ → Slide 22 (CustomShow 22: Isaiah7.14)
+- james-2-26/ → Slide 16 (CustomShow 5: James2.26)
+- james-4-17/ → Slide 26 (CustomShow 27: James4.17)
+- matthew-18-1/ → Slide 27 (CustomShow 16: Matthew18.1)
+- matthew-8-21/ → Slide 20 (CustomShow 9: Matthew8.21)
+- mortality-morality/ → Slide 32 (CustomShow 26: MortalityMorality)
+- psalms-139-14/ → Slide 8 (CustomShow 23: Psalms139.14)
+- psalms-51-5/ → Slide 9 (CustomShow 12: Psalms51.5)
+- psalms-51-5-6/ → Slide 10 (CustomShow 24: Psalm51.5-6)
+- psalms-58-3/ → Slide 11 (CustomShow 10: Psalms58.3)
+- revelation-20-14/ → Slide 19 (CustomShow 8: Revelation20.14)
+- romans-5-12/ → Slide 5 (CustomShow 25: Romans5.12)
+- romans-6-23/ → Slide 14 (CustomShow 3: Romans6.23)
+- romans-7-14/ → Slide 23 (CustomShow 13: Romans7.14)
+- romans-8-1/ → Slide 29 (CustomShow 18: Romans8.1)
+- romans-8-10/ → Slide 25 (CustomShow 15: Romans8.10)
+- romans-8-3/ → Slide 13 (CustomShow 2: Romans8.3)
+
+## All Routes Complete
