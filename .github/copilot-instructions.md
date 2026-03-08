@@ -180,6 +180,10 @@ The `animation_sequence` array lists text elements in the order they appear duri
   - **align**: `"left"`, `"center"`, or `"right"` (horizontal alignment)
   - **v_align**: `"top"`, `"middle"`, or `"bottom"` (vertical alignment, from PowerPoint's anchor property)
   - **wrap**: Boolean flag indicating if text wraps within the shape bounds (defaults to false if omitted)
+
+**Conversion guardrail for inline markup:**
+- If extracted `text` contains inline flow markup (`<br>`, `<em>`, `<strong>`, `<u>`, `<sup>`, `<sub>`) and `font.wrap` is omitted/false, downstream Svelte conversion should set Fragment `font.wrap: true`.
+- This preserves intended text flow and does not override JSON fidelity for `text` content or coordinates.
 - **fill**: Background color (hex)
 - **line**: Border/stroke styling:
   - **width**: Stroke width in pixels
