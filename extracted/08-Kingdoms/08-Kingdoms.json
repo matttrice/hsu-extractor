@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/08-Kingdoms.pptx",
+  "file_path": "~/projects/hsu-pptx/08-Kingdoms.pptx",
   "file_name": "08-Kingdoms.pptx",
   "total_slides": 2,
   "total_custom_shows": 17,
@@ -145,18 +145,19 @@
           "sequence": 1,
           "shape_name": "TextBox 5",
           "timing": "click",
-          "text": "<strong>The water is an appeal to God for a good conscience – through the resurrection of Jesus Christ. </strong>",
+          "text": "<strong>The water is an appeal to God for a good conscience - through the resurrection of Jesus Christ. </strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
             "x": 169,
             "y": 424,
             "width": 622,
-            "height": 54,
+            "height": 88,
             "rotation": 0
           },
           "fill": "#000000",
           "font": {
+            "v_align": "middle",
             "wrap": true,
             "align": "center",
             "bold": true,
@@ -172,13 +173,14 @@
           "shape_type": "text_box",
           "layout": {
             "x": 118,
-            "y": 365,
+            "y": 334,
             "width": 741,
-            "height": 30,
+            "height": 61,
             "rotation": 0
           },
           "fill": "#0000FF",
           "font": {
+            "v_align": "middle",
             "wrap": true,
             "align": "center",
             "bold": true,
@@ -190,7 +192,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">1 Peter 3:18-22</span>",
+          "text": "1 Peter 3:18-22",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -199,12 +201,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\">For Christ also died for sins once for all, <em>the</em> just for <em>the</em> unjust, so that He might bring us to God, having been put to death in the flesh, but made alive in the spirit; <sup>19 </sup>in which also He went and made proclamation to the spirits <em>now</em> in prison, <sup>20 </sup>who once were disobedient, when the patience of God kept waiting in the days of Noah, during the construction of the ark, in which a few, that is, eight persons, were brought safely through <em>the</em> water. <sup>21 </sup>Corresponding to that, baptism now saves you—not the removal of dirt from the flesh, but an appeal to God for a good conscience—through the resurrection of Jesus Christ, <sup>22 </sup>who is at the right hand of God, having gone into heaven, after angels and authorities and powers had been subjected to Him.</span>",
+          "text": "For Christ also died for sins once for all, <em>the</em> just for <em>the</em> unjust, so that He might bring us to God, having been put to death in the flesh, but made alive in the spirit; <sup>19 </sup>in which also He went and made proclamation to the spirits <em>now</em> in prison, <sup>20 </sup>who once were disobedient, when the patience of God kept waiting in the days of Noah, during the construction of the ark, in which a few, that is, eight persons, were brought safely through <em>the</em> water. <sup>21 </sup>Corresponding to that, baptism now saves you--not the removal of dirt from the flesh, but an appeal to God for a good conscience--through the resurrection of Jesus Christ, <sup>22 </sup>who is at the right hand of God, having gone into heaven, after angels and authorities and powers had been subjected to Him.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -217,7 +223,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -228,7 +235,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Revelation 21:3-4</span>",
+          "text": "Revelation 21:3-4",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -237,12 +244,16 @@
             "width": 864,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>3 </sup>And I heard a loud voice from the throne, saying, “Behold, the tabernacle of God is among men, and He will dwell among them, and they shall be His people, and God Himself will be among them, <sup>4 </sup>and He will wipe away every tear from their eyes; and there will <strong><u>no longer be </u><em><u>any</u></em><u> death</u></strong>; there will no longer be <em>any</em> mourning, or crying, or pain; the first things have passed away.”</span>",
+          "text": "<sup>3 </sup>And I heard a loud voice from the throne, saying, \"Behold, the tabernacle of God is among men, and He will dwell among them, and they shall be His people, and God Himself will be among them, <sup>4 </sup>and He will wipe away every tear from their eyes; and there will <strong><u>no longer be </u><em><u>any</u></em><u> death</u></strong>; there will no longer be <em>any</em> mourning, or crying, or pain; the first things have passed away.\"",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -254,7 +265,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -265,7 +277,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">1 Corinthians 15:22-25</span>",
+          "text": "1 Corinthians 15:22-25",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -274,12 +286,16 @@
             "width": 864,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">For as in Adam all die, so in Christ all will be made alive. <sup>23 </sup>But each in turn: Christ, the firstfruits; then, when he comes, those who belong to him. <sup>24 </sup>Then the end will come, <u>when he hands over the kingdom to God the Father</u> after he has destroyed all dominion, authority and power. <sup>25 </sup>For he must reign until he has put all his enemies under his feet.</span>",
+          "text": "For as in Adam all die, so in Christ all will be made alive. <sup>23 </sup>But each in turn: Christ, the firstfruits; then, when he comes, those who belong to him. <sup>24 </sup>Then the end will come, <u>when he hands over the kingdom to God the Father</u> after he has destroyed all dominion, authority and power. <sup>25 </sup>For he must reign until he has put all his enemies under his feet.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -292,12 +308,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>2 Peter 1:10-11</strong><br/>Therefore, my brothers and sisters, make every effort to confirm your calling and election. For if you do these things, you will <u>never stumble</u>, <sup>11 </sup>and you will receive a rich welcome into the <u>eternal kingdom</u> of our Lord and Savior Jesus Christ.</span>",
+          "text": "<strong>2 Peter 1:10-11</strong><br>Therefore, my brothers and sisters, make every effort to confirm your calling and election. For if you do these things, you will <u>never stumble</u>, <sup>11 </sup>and you will receive a rich welcome into the <u>eternal kingdom</u> of our Lord and Savior Jesus Christ.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -310,7 +327,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -321,7 +339,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>2 Peter 3:17</strong><br/>Therefore, dear friends, since you have been forewarned, be on your guard so that you may not be carried away by the error of the lawless and <u>fall from your secure position.</u></span>",
+          "text": "<strong>2 Peter 3:17</strong><br>Therefore, dear friends, since you have been forewarned, be on your guard so that you may not be carried away by the error of the lawless and <u>fall from your secure position.</u>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -334,7 +352,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -386,7 +405,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Peter 2:20-21</span>",
+          "text": "2 Peter 2:20-21",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -395,12 +414,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">If they have escaped the corruption of the world by knowing our Lord and Savior Jesus Christ and are again entangled in it and are overcome, they are worse off at the end than they were at the beginning. <sup>21 </sup>It would have been better for them not to have known the way of righteousness, than to have known it and then to turn their backs on the sacred command that was passed on to them.</span>",
+          "text": "If they have escaped the corruption of the world by knowing our Lord and Savior Jesus Christ and are again entangled in it and are overcome, they are worse off at the end than they were at the beginning. <sup>21 </sup>It would have been better for them not to have known the way of righteousness, than to have known it and then to turn their backs on the sacred command that was passed on to them.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -413,7 +436,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -424,7 +448,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Peter 3:1-10, 17</span>",
+          "text": "2 Peter 3:1-10, 17",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -433,12 +457,16 @@
             "width": 864,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Dear friends, this is now my second letter to you. I have written both of them as reminders to stimulate you to wholesome thinking. <sup>2 </sup>I want you to <u>recall the words spoken in the past </u>by the holy prophets and the command given by our Lord and Savior through your apostles.<br/><sup>3 </sup>Above all, you must understand that in the <u>last days scoffers will come</u>, scoffing and following their own evil desires. <sup>4 </sup>They will say, “Where is this ‘coming’ he promised? Ever since our ancestors died, everything goes on as it has since the beginning of creation.” <sup>5 </sup>But they deliberately forget that long ago <u>by God’s word</u> the heavens came into being and <u>the earth was formed out of water and by water</u>. <sup>6 </sup><u>By these waters also</u> the world of that time was deluged and destroyed. <sup>7 </sup><u>By the same word the present heavens and earth are reserved for fire</u>, being kept for the day of judgment and destruction of the ungodly.<br/><sup>8 </sup>But do not forget this one thing, dear friends: With the Lord a day is like a thousand years, and a thousand years are like a day. <sup>9 </sup>The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.<br/><sup>10 </sup>But the day of the Lord will come like a thief. The heavens will disappear with a roar; the elements will be destroyed by fire, and the earth and everything done in it will be laid bare.</span>",
+          "text": "Dear friends, this is now my second letter to you. I have written both of them as reminders to stimulate you to wholesome thinking. <sup>2 </sup>I want you to <u>recall the words spoken in the past </u>by the holy prophets and the command given by our Lord and Savior through your apostles.<br><sup>3 </sup>Above all, you must understand that in the <u>last days scoffers will come</u>, scoffing and following their own evil desires. <sup>4 </sup>They will say, \"Where is this 'coming' he promised? Ever since our ancestors died, everything goes on as it has since the beginning of creation.\" <sup>5 </sup>But they deliberately forget that long ago <u>by God's word</u> the heavens came into being and <u>the earth was formed out of water and by water</u>. <sup>6 </sup><u>By these waters also</u> the world of that time was deluged and destroyed. <sup>7 </sup><u>By the same word the present heavens and earth are reserved for fire</u>, being kept for the day of judgment and destruction of the ungodly.<br><sup>8 </sup>But do not forget this one thing, dear friends: With the Lord a day is like a thousand years, and a thousand years are like a day. <sup>9 </sup>The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.<br><sup>10 </sup>But the day of the Lord will come like a thief. The heavens will disappear with a roar; the elements will be destroyed by fire, and the earth and everything done in it will be laid bare.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -451,12 +479,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>17 </sup>Therefore, dear friends, since you have been forewarned, be on your guard so that you may not be carried away by the error of the lawless and fall from your secure position.</span>",
+          "text": "<sup>17 </sup>Therefore, dear friends, since you have been forewarned, be on your guard so that you may not be carried away by the error of the lawless and fall from your secure position.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -469,7 +498,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -480,7 +510,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Luke 13:6-9</strong><br/><sup>6 </sup>And He <em>began</em> telling this parable: “A man had a fig tree which had been planted in his vineyard; and he came looking for fruit on it and did not find any.<sup>7 </sup>And he said to the vineyard-keeper, ‘Behold, for three years I have come looking for fruit on this fig tree without finding any. Cut it down! Why does it even use up the ground?’ <sup>8 </sup>And he answered and said to him, ‘Let it alone, sir, for this year too, until I dig around it and put in fertilizer; <sup>9 </sup>and if it bears fruit next year, <em>fine</em>; but if not, cut it down.’”</span>",
+          "text": "<strong>Luke 13:6-9</strong><br><sup>6 </sup>And He <em>began</em> telling this parable: \"A man had a fig tree which had been planted in his vineyard; and he came looking for fruit on it and did not find any.<sup>7 </sup>And he said to the vineyard-keeper, 'Behold, for three years I have come looking for fruit on this fig tree without finding any. Cut it down! Why does it even use up the ground?' <sup>8 </sup>And he answered and said to him, 'Let it alone, sir, for this year too, until I dig around it and put in fertilizer; <sup>9 </sup>and if it bears fruit next year, <em>fine</em>; but if not, cut it down.'\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -493,13 +523,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Matthew 25:26-30</strong><br/>“But his master answered and said to him, ‘You wicked, lazy slave, you knew that I reap where I did not sow and gather where I scattered no <em>seed</em>. <sup>27 </sup>Then you ought to have put my money in the bank, and on my arrival I would have received my <em>money</em> back with interest. <sup>28 </sup>Therefore take away the talent from him, and give it to the one who has the ten talents.’ <sup>29 </sup>“For to everyone who has, <em>more</em> shall be given, and he will have an abundance; but from the one who does not have, even what he does have shall be taken away. <sup>30 </sup>Throw out the worthless slave into the outer darkness; in that place there will be weeping and gnashing of teeth.</span>",
+          "text": "<strong>Matthew 25:26-30</strong><br>\"But his master answered and said to him, 'You wicked, lazy slave, you knew that I reap where I did not sow and gather where I scattered no <em>seed</em>. <sup>27 </sup>Then you ought to have put my money in the bank, and on my arrival I would have received my <em>money</em> back with interest. <sup>28 </sup>Therefore take away the talent from him, and give it to the one who has the ten talents.' <sup>29 </sup>\"For to everyone who has, <em>more</em> shall be given, and he will have an abundance; but from the one who does not have, even what he does have shall be taken away. <sup>30 </sup>Throw out the worthless slave into the outer darkness; in that place there will be weeping and gnashing of teeth.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -512,7 +543,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -537,7 +569,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "So Jesus said to them, “Truly, truly, I say to you, unless you eat the flesh of the Son of Man and drink His blood, you have no life in yourselves.",
+          "text": "So Jesus said to them, \"Truly, truly, I say to you, unless you eat the flesh of the Son of Man and drink His blood, you have no life in yourselves.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -561,7 +593,7 @@
           "sequence": 1,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "<strong>What is a Christian’s mission in this kingdom?</strong>",
+          "text": "<strong>What is a Christian's mission in this kingdom?</strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -582,7 +614,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Mark 16:15-16</strong><br/><sup>15 </sup>And He said to them, “Go into all <u>the world</u> and preach the gospel to all creation. <sup>16 </sup>He who has believed and has been baptized shall be saved; but he who has disbelieved shall be condemned.</span>",
+          "text": "<strong>Mark 16:15-16</strong><br><sup>15 </sup>And He said to them, \"Go into all <u>the world</u> and preach the gospel to all creation. <sup>16 </sup>He who has believed and has been baptized shall be saved; but he who has disbelieved shall be condemned.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -595,14 +627,15 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Corinthians 6:14-15</span>",
+          "text": "2 Corinthians 6:14-15",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -611,12 +644,16 @@
             "width": 311,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Do not be bound together with unbelievers; for what partnership have righteousness and lawlessness, or what fellowship has light with darkness?<sup>15 </sup>Or what harmony has Christ with Belial, or what has a believer in common with an unbeliever?</span>",
+          "text": "Do not be bound together with unbelievers; for what partnership have righteousness and lawlessness, or what fellowship has light with darkness?<sup>15 </sup>Or what harmony has Christ with Belial, or what has a believer in common with an unbeliever?",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -629,7 +666,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -640,7 +678,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1 Peter 2:9-11</strong><br/>But you are a chosen race, a royal priesthood, a holy nation, a people for <em>God’s</em> own possession, so that you may proclaim the excellencies of Him who has called you out of darkness into His marvelous light; <sup>10 </sup>for you once were not a people, but now you are the people of God; you had not received mercy, but now you have received mercy.<sup>11 </sup>Beloved, I urge you as aliens and strangers to abstain from fleshly lusts which wage war against the soul.</span>",
+          "text": "<strong>1 Peter 2:9-11</strong><br>But you are a chosen race, a royal priesthood, a holy nation, a people for <em>God's</em> own possession, so that you may proclaim the excellencies of Him who has called you out of darkness into His marvelous light; <sup>10 </sup>for you once were not a people, but now you are the people of God; you had not received mercy, but now you have received mercy.<sup>11 </sup>Beloved, I urge you as aliens and strangers to abstain from fleshly lusts which wage war against the soul.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -653,13 +691,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Galatians 3:26-29</strong><br/>For you are all sons of God through faith in Christ Jesus. <sup>27 </sup>For all of you who were baptized into Christ have clothed yourselves with Christ.<sup>28 </sup>There is neither Jew nor Greek, there is neither slave nor free man, there is neither male nor female; for you are all one in Christ Jesus. <sup>29 </sup>And if you belong to Christ, then you are Abraham’s descendants, heirs according to promise.</span>",
+          "text": "<strong>Galatians 3:26-29</strong><br>For you are all sons of God through faith in Christ Jesus. <sup>27 </sup>For all of you who were baptized into Christ have clothed yourselves with Christ.<sup>28 </sup>There is neither Jew nor Greek, there is neither slave nor free man, there is neither male nor female; for you are all one in Christ Jesus. <sup>29 </sup>And if you belong to Christ, then you are Abraham's descendants, heirs according to promise.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -672,7 +711,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
@@ -701,7 +741,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Colossians 1:13-14</span>",
+          "text": "Colossians 1:13-14",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -712,13 +752,15 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 26.7,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">For He rescued us from the domain of darkness, and transferred us to the kingdom of His beloved Son, <sup>14 </sup>in whom we have redemption, the forgiveness of sins.</span>",
+          "text": "For He rescued us from the domain of darkness, and transferred us to the kingdom of His beloved Son, <sup>14 </sup>in whom we have redemption, the forgiveness of sins.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -731,7 +773,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -843,7 +886,7 @@
           "sequence": 4,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Ephesians 2:1-5</strong><br/>And <u>you were dead in your trespasses and sins</u>, <sup>2 </sup>in which you formerly walked according to the course of this world, according to the prince of the power of the air, of the spirit that is now working in the sons of disobedience.<sup>3 </sup>Among them we too all formerly lived in the lusts of our flesh, indulging the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest. <sup>4 </sup>But God, being rich in mercy, because of His great love with which He loved us, <sup>5 </sup>even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved),</span>",
+          "text": "<strong>Ephesians 2:1-5</strong><br>And <u>you were dead in your trespasses and sins</u>, <sup>2 </sup>in which you formerly walked according to the course of this world, according to the prince of the power of the air, of the spirit that is now working in the sons of disobedience.<sup>3 </sup>Among them we too all formerly lived in the lusts of our flesh, indulging the desires of the flesh and of the mind, and were by nature children of wrath, even as the rest. <sup>4 </sup>But God, being rich in mercy, because of His great love with which He loved us, <sup>5 </sup>even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved),",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -855,13 +898,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 5,
           "shape_name": "TextBox 12",
           "timing": "click",
-          "text": "<strong>Dead in sins;  Saved by grace;  Alive with Christ – how?</strong>",
+          "text": "<strong>Dead in sins;  Saved by grace;  Alive with Christ - how?</strong>",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -1113,21 +1157,25 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 6:1-11</span>",
+          "text": "Romans 6:1-11",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
+            "x": 102,
             "y": 8,
-            "width": 864,
+            "width": 208,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">What shall we say then? Are we to continue in sin so that grace may increase? <sup>2 </sup>May it never be! How shall we who died to sin still live in it? <sup>3 </sup>Or do you not know that all of us who have been baptized into Christ Jesus have been baptized into His death? <sup>4 </sup>Therefore <u>we have been buried with Him through baptism into death</u>, so that as Christ was raised from the dead through the glory of the Father, so we too might walk in newness of life. <sup>5 </sup>For if we have become united with <em>Him</em> in the likeness of His death, certainly we shall also be <em>in the likeness</em> of His resurrection,<br/><sup>8 </sup>Now <u>if we have died with Christ</u>, we believe that we shall also live with Him,<sup>9 </sup>knowing that Christ, having been raised from the dead, is never to die again; death no longer is master over Him. <sup>10 </sup>For the death that He died, He died to sin once for all; but the life that He lives, He lives to God. <sup>11 </sup>Even so consider yourselves to be dead to sin, but alive to God in Christ Jesus.</span>",
+          "text": "What shall we say then? Are we to continue in sin so that grace may increase? <sup>2 </sup>May it never be! How shall we who died to sin still live in it? <sup>3 </sup>Or do you not know that all of us who have been baptized into Christ Jesus have been baptized into His death? <sup>4 </sup>Therefore <u>we have been buried with Him through baptism into death</u>, so that as Christ was raised from the dead through the glory of the Father, so we too might walk in newness of life. <sup>5 </sup>For if we have become united with <em>Him</em> in the likeness of His death, certainly we shall also be <em>in the likeness</em> of His resurrection,<br><sup>8 </sup>Now <u>if we have died with Christ</u>, we believe that we shall also live with Him,<sup>9 </sup>knowing that Christ, having been raised from the dead, is never to die again; death no longer is master over Him. <sup>10 </sup>For the death that He died, He died to sin once for all; but the life that He lives, He lives to God. <sup>11 </sup>Even so consider yourselves to be dead to sin, but alive to God in Christ Jesus.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1140,7 +1188,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1151,7 +1200,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Colossians 3:1-4</strong><br/>Therefore <u>if you have been raised up with Christ</u>, keep seeking the things above, where Christ is, seated at the right hand of God. <sup>2 </sup>Set your mind on the things above, not on the things that are on earth. <sup>3</sup><sup> </sup><u>For you have died</u> and your life is hidden with Christ in God. <sup>4 </sup>When Christ, who is our life, is revealed, then you also will be revealed with Him in glory.</span>",
+          "text": "<strong>Colossians 3:1-4</strong><br>Therefore <u>if you have been raised up with Christ</u>, keep seeking the things above, where Christ is, seated at the right hand of God. <sup>2 </sup>Set your mind on the things above, not on the things that are on earth. <sup>3</sup><sup> </sup><u>For you have died</u> and your life is hidden with Christ in God. <sup>4 </sup>When Christ, who is our life, is revealed, then you also will be revealed with Him in glory.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1164,7 +1213,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -1182,6 +1232,7 @@
           },
           "fill": "#0000FF",
           "font": {
+            "align": "center",
             "bold": true,
             "color": "#F4F4F4"
           }
@@ -1232,7 +1283,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Colossians 2:8-14</span>",
+          "text": "Colossians 2:8-14",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1243,13 +1294,15 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 26.7,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">See to it that no one takes you captive through <u>philosophy and empty deception</u>, according to the tradition of men, according to the elementary principles of the world, rather than according to Christ. <sup>9 </sup>For in Him all the fullness of Deity dwells in bodily form, <sup>10 </sup>and in Him you have been made complete, and He is the head over all rule and authority; <sup>11 </sup>and in Him you were also circumcised with a circumcision made without hands, in the removal of the body of the flesh by the circumcision of Christ; <sup>12 </sup><u>having been buried with Him in baptism</u>, in which you were also raised up with Him through faith in the working of God, who raised Him from the dead. <sup>13 </sup>When <u>you were dead </u>in your transgressions and the uncircumcision of your flesh, He made you alive together with Him, having forgiven us all our transgressions, <sup>14 </sup>having canceled out the certificate of debt consisting of decrees against us, which was hostile to us</span>",
+          "text": "See to it that no one takes you captive through <u>philosophy and empty deception</u>, according to the tradition of men, according to the elementary principles of the world, rather than according to Christ. <sup>9 </sup>For in Him all the fullness of Deity dwells in bodily form, <sup>10 </sup>and in Him you have been made complete, and He is the head over all rule and authority; <sup>11 </sup>and in Him you were also circumcised with a circumcision made without hands, in the removal of the body of the flesh by the circumcision of Christ; <sup>12 </sup><u>having been buried with Him in baptism</u>, in which you were also raised up with Him through faith in the working of God, who raised Him from the dead. <sup>13 </sup>When <u>you were dead </u>in your transgressions and the uncircumcision of your flesh, He made you alive together with Him, having forgiven us all our transgressions, <sup>14 </sup>having canceled out the certificate of debt consisting of decrees against us, which was hostile to us",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1262,7 +1315,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1273,7 +1327,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">1 Corinthians 15:1-4</span>",
+          "text": "1 Corinthians 15:1-4",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1284,13 +1338,15 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 23.3,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">Now I make known to you, brethren, <u>the gospel which I preached to you</u>, which also you received, in which also you stand, <sup>2 </sup>by which also you are saved, if you hold fast the word which I preached to you, unless you believed in vain.<br/><sup>3 </sup>For I delivered to you as of first importance what I also received, that Christ died for our sins according to the Scriptures, <sup>4 </sup>and that He was buried, and that He was raised on the third day according to the Scriptures,</span>",
+          "text": "Now I make known to you, brethren, <u>the gospel which I preached to you</u>, which also you received, in which also you stand, <sup>2 </sup>by which also you are saved, if you hold fast the word which I preached to you, unless you believed in vain.<br><sup>3 </sup>For I delivered to you as of first importance what I also received, that Christ died for our sins according to the Scriptures, <sup>4 </sup>and that He was buried, and that He was raised on the third day according to the Scriptures,",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1303,12 +1359,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Hebrews 11:6</strong><br/><sup>6 </sup>And <u>without faith</u> it is impossible to please <em>Him</em>, for he who comes to God must believe that He is and <em>that</em> He is a rewarder of those who seek Him.</span>",
+          "text": "<strong>Hebrews 11:6</strong><br><sup>6 </sup>And <u>without faith</u> it is impossible to please <em>Him</em>, for he who comes to God must believe that He is and <em>that</em> He is a rewarder of those who seek Him.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1321,12 +1378,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 9",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Acts 17:30</strong><br/><sup>30 </sup>Therefore having overlooked the times of ignorance, God is now declaring to men that <u>all </u><em><u>people</u></em><u> everywhere should repent</u>,</span>",
+          "text": "<strong>Acts 17:30</strong><br><sup>30 </sup>Therefore having overlooked the times of ignorance, God is now declaring to men that <u>all </u><em><u>people</u></em><u> everywhere should repent</u>,",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1339,12 +1397,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Romans 10:17</strong><br/><sup>17 </sup>So <u>faith </u><em><u>comes</u></em><u> from hearing</u>, and hearing by the word of Christ.</span>",
+          "text": "<strong>Romans 10:17</strong><br><sup>17 </sup>So <u>faith </u><em><u>comes</u></em><u> from hearing</u>, and hearing by the word of Christ.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1357,12 +1416,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 11",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Acts 2:38</strong><br/><sup>38 </sup>Peter <em>said</em> to them, “Repent, and each of you be <u>baptized</u> in the name of Jesus Christ for the forgiveness of your sins; and <u>you will receive the gift of the Holy Spirit</u>.</span>",
+          "text": "<strong>Acts 2:38</strong><br><sup>38 </sup>Peter <em>said</em> to them, \"Repent, and each of you be <u>baptized</u> in the name of Jesus Christ for the forgiveness of your sins; and <u>you will receive the gift of the Holy Spirit</u>.",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1375,7 +1435,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1408,24 +1469,26 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Peter 2:1-4</span>",
+          "text": "2 Peter 2:1-4",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
-            "x": 49,
+            "x": 102,
             "y": 8,
-            "width": 864,
+            "width": 186,
             "height": 44,
             "rotation": 0
           },
           "font": {
+            "font_size": 26.7,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">But false prophets also arose among the people, just as there will also be false teachers among you, who will secretly introduce <u>destructive heresies</u>, even denying the Master who bought them, bringing swift destruction upon themselves. <sup>2 </sup>Many will follow their sensuality, and because of them <u>the way of the truth will be maligned</u>; <sup>3 </sup>and in <em>their</em> greed they will <u>exploit you with false words</u>; their judgment from long ago is not idle, and their destruction is not asleep.<br/><sup>4 </sup>For if God did not spare angels when they sinned, but cast them into hell and committed them to pits of darkness, reserved for judgment;</span>",
+          "text": "But false prophets also arose among the people, just as there will also be false teachers among you, who will secretly introduce <u>destructive heresies</u>, even denying the Master who bought them, bringing swift destruction upon themselves. <sup>2 </sup>Many will follow their sensuality, and because of them <u>the way of the truth will be maligned</u>; <sup>3 </sup>and in <em>their</em> greed they will <u>exploit you with false words</u>; their judgment from long ago is not idle, and their destruction is not asleep.<br><sup>4 </sup>For if God did not spare angels when they sinned, but cast them into hell and committed them to pits of darkness, reserved for judgment;",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1437,7 +1500,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1448,7 +1512,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>2 Thessalonians 2:9-12 </strong><br/>The coming of the lawless one will be in accordance with how Satan works. He will use all sorts of displays of power through signs and wonders that serve the lie, <sup>10 </sup>and all the ways that wickedness <u>deceives</u> those who are perishing. They perish because they refused to love the truth and so be saved. <sup>11 </sup>For this reason God sends them a powerful delusion so that they will believe the lie<sup>12 </sup>and so that all will be condemned who have not believed the truth but have delighted in wickedness.</span>",
+          "text": "<strong>2 Thessalonians 2:9-12 </strong><br>The coming of the lawless one will be in accordance with how Satan works. He will use all sorts of displays of power through signs and wonders that serve the lie, <sup>10 </sup>and all the ways that wickedness <u>deceives</u> those who are perishing. They perish because they refused to love the truth and so be saved. <sup>11 </sup>For this reason God sends them a powerful delusion so that they will believe the lie<sup>12 </sup>and so that all will be condemned who have not believed the truth but have delighted in wickedness.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1461,13 +1525,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "<em>The context of “wickedness” is doctrinal <u>deception</u>: empty words of salvation, “refusal to love the truth”</em>",
+          "text": "<em>The context of \"wickedness\" is doctrinal <u>deception</u>: empty words of salvation, \"refusal to love the truth\"</em>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1489,7 +1554,7 @@
           "sequence": 3,
           "shape_name": "TextBox 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Matthew 7:13</strong><br/>“Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. <sup>14 </sup>For the gate is narrow and the way is constricted that leads to life, and there are few who find it.</span>",
+          "text": "<strong>Matthew 7:13</strong><br>\"Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. <sup>14 </sup>For the gate is narrow and the way is constricted that leads to life, and there are few who find it.",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
@@ -1502,14 +1567,15 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Ephesians 5:3-7</span>",
+          "text": "Ephesians 5:3-7",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1518,12 +1584,16 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for God’s holy people. <sup>4 </sup>Nor should there be obscenity, foolish talk or coarse joking, which are out of place, but rather thanksgiving. <sup>5 </sup>For of this you can be sure: No immoral, impure or greedy person—such a person is an idolater—has any inheritance in the kingdom of Christ and of God.<sup> </sup><sup>6 </sup>Let no one <u>deceive</u> you with empty words, for because of such things God’s wrath comes on those who are disobedient. <sup>7 </sup>Therefore do not be partners with them. <sup>8 </sup>For you were once darkness, but now you are light in the Lord.</span>",
+          "text": "But among you there must not be even a hint of sexual immorality, or of any kind of impurity, or of greed, because these are improper for God's holy people. <sup>4 </sup>Nor should there be obscenity, foolish talk or coarse joking, which are out of place, but rather thanksgiving. <sup>5 </sup>For of this you can be sure: No immoral, impure or greedy person--such a person is an idolater--has any inheritance in the kingdom of Christ and of God.<sup> </sup><sup>6 </sup>Let no one <u>deceive</u> you with empty words, for because of such things God's wrath comes on those who are disobedient. <sup>7 </sup>Therefore do not be partners with them. <sup>8 </sup>For you were once darkness, but now you are light in the Lord.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1535,7 +1605,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1546,7 +1617,7 @@
           "sequence": 1,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>2 Corinthians 4:3-4 </strong>NASB95<br/>And even if our gospel is veiled, it is veiled to those who are perishing, <sup>4 </sup>in whose <br/>case <u>the god of this world </u>has blinded the minds of the unbelieving so that they might <br/>not see the light of the gospel of the glory of Christ, who is the image of God.</span>",
+          "text": "<strong>2 Corinthians 4:3-4 </strong>NASB95<br>And even if our gospel is veiled, it is veiled to those who are perishing, <sup>4 </sup>in whose <br>case <u>the god of this world </u>has blinded the minds of the unbelieving so that they might <br>not see the light of the gospel of the glory of Christ, who is the image of God.",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1558,13 +1629,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Matthew 4:8-9</strong><br/>Again, the devil took Him to a very high mountain and showed Him all the kingdoms of the world and their glory; <sup>9 </sup>and he said to Him, “All these things I will give You, if You fall down and worship me.”</span>",
+          "text": "<strong>Matthew 4:8-9</strong><br>Again, the devil took Him to a very high mountain and showed Him all the kingdoms of the world and their glory; <sup>9 </sup>and he said to Him, \"All these things I will give You, if You fall down and worship me.\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1577,14 +1649,15 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Corinthians 4:3-4 NIV</span>",
+          "text": "2 Corinthians 4:3-4 NIV",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1595,13 +1668,15 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 26.7,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">And even if our gospel is veiled, it is veiled to those who are perishing.<sup> 4 </sup>The <u>god of this age </u>has blinded the minds of unbelievers, so that they cannot see the light of the gospel that displays the glory of Christ, who is the image of God.</span>",
+          "text": "And even if our gospel is veiled, it is veiled to those who are perishing.<sup> 4 </sup>The <u>god of this age </u>has blinded the minds of unbelievers, so that they cannot see the light of the gospel that displays the glory of Christ, who is the image of God.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1614,7 +1689,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1643,7 +1719,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">…There is no distinction; <sup>23 </sup>for all have sinned and fall short of the glory of God,</span>",
+          "text": "...There is no distinction; <sup>23 </sup>for all have sinned and fall short of the glory of God,",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1656,12 +1732,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Isaiah 59:2</strong><sup> </sup><br/>But your iniquities have made a separation between you and your God, And your sins have hidden <em>His</em> face from you so that He does not hear.</span>",
+          "text": "<strong>Isaiah 59:2</strong><sup> </sup><br>But your iniquities have made a separation between you and your God, And your sins have hidden <em>His</em> face from you so that He does not hear.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1674,12 +1751,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Romans 6:23</strong><br/>For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.</span>",
+          "text": "<strong>Romans 6:23</strong><br>For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1692,7 +1770,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1703,7 +1782,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">2 Samuel 12:21-23</span>",
+          "text": "2 Samuel 12:21-23",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1714,13 +1793,15 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 26.7,
+            "bold": true,
             "color": "#000000"
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Then his servants said to him, “What is this thing that you have done?<sup> </sup>While the child was alive, you fasted and wept; but when the child died, you arose and ate food.” <sup>22 </sup>He said, “While the child was <em>still</em> alive, I fasted and wept; for I said, ‘Who knows, the Lord may be gracious to me, that the child may live.’ <sup>23 </sup>But now he has died; why should I fast? Can I bring him back again? I will go to him, but he will not return to me.”</span>",
+          "text": "Then his servants said to him, \"What is this thing that you have done?<sup> </sup>While the child was alive, you fasted and wept; but when the child died, you arose and ate food.\" <sup>22 </sup>He said, \"While the child was <em>still</em> alive, I fasted and wept; for I said, 'Who knows, the Lord may be gracious to me, that the child may live.' <sup>23 </sup>But now he has died; why should I fast? Can I bring him back again? I will go to him, but he will not return to me.\"",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1733,7 +1814,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1766,7 +1848,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 8:10-11</span>",
+          "text": "Romans 8:10-11",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1777,13 +1859,15 @@
             "rotation": 0
           },
           "font": {
-            "align": "left"
+            "align": "left",
+            "font_size": 26.7,
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "<span class=\"scripture\">But if Christ is in you, your body is dead because of sin, yet your spirit<br/>is alive because of righteousness. <sup>11</sup> And if the Spirit of him who raised <br/>Jesus from the dead is living in you, he who raised Christ from the dead <br/>will also give life to your mortal bodies through his Spirit,<br/>who lives in you.</span>",
+          "text": "But if Christ is in you, your body is dead because of sin, yet your spirit<br>is alive because of righteousness. <sup>11</sup> And if the Spirit of him who raised <br>Jesus from the dead is living in you, he who raised Christ from the dead <br>will also give life to your mortal bodies through his Spirit,<br>who lives in you.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1795,7 +1879,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1806,7 +1891,7 @@
           "sequence": 1,
           "shape_name": "TextBox 3",
           "timing": "click",
-          "text": "<strong>“The Fall” – The origin of conscience – Adam &amp; Eve created innocent</strong>",
+          "text": "<strong>\"The Fall\" - The origin of conscience - Adam &amp; Eve created innocent</strong>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1825,7 +1910,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Matthew 18:2-3</strong><br/>He called a little child to him, and placed the child among them. <sup>3 </sup>And he said: “Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven.</span>",
+          "text": "<strong>Matthew 18:2-3</strong><br>He called a little child to him, and placed the child among them. <sup>3 </sup>And he said: \"Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1838,13 +1923,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Matthew 19:14 </strong><br/>Jesus said, “Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.”</span>",
+          "text": "<strong>Matthew 19:14 </strong><br>Jesus said, \"Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.\"",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1857,7 +1943,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -1886,7 +1973,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 3:6-8</span>",
+          "text": "Genesis 3:6-8",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1897,13 +1984,15 @@
             "rotation": 0
           },
           "font": {
-            "align": "left"
+            "align": "left",
+            "font_size": 23.3,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it. <sup>7 </sup>Then the eyes of both of them were opened, and they realized they were naked; so they sewed fig leaves together and made coverings for themselves.<br/><sup>8 </sup>Then the man and his wife heard the sound of the Lord God as he was walking in the garden in the cool of the day, and they hid from the Lord God among the trees of the garden.</span>",
+          "text": "When the woman saw that the fruit of the tree was good for food and pleasing to the eye, and also desirable for gaining wisdom, she took some and ate it. She also gave some to her husband, who was with her, and he ate it. <sup>7 </sup>Then the eyes of both of them were opened, and they realized they were naked; so they sewed fig leaves together and made coverings for themselves.<br><sup>8 </sup>Then the man and his wife heard the sound of the Lord God as he was walking in the garden in the cool of the day, and they hid from the Lord God among the trees of the garden.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1916,7 +2005,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1927,7 +2017,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Job 38:32-33</strong><br/>Can you bring forth the constellations in their seasons or lead out the Bear with its cubs?<br/><sup>33 </sup>Do you know the laws of the heavens? Can you set up God’s dominion over the earth?</span>",
+          "text": "<strong>Job 38:32-33</strong><br>Can you bring forth the constellations in their seasons or lead out the Bear with its cubs?<br><sup>33 </sup>Do you know the laws of the heavens? Can you set up God's dominion over the earth?",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1940,13 +2030,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1 Chronicles 29:10-11</strong><br/>David praised the Lord in the presence of the whole assembly, saying,<br/>“Praise be to you, Lord,<br/>    the God of our father Israel,<br/>    from everlasting to everlasting.<br/><sup>11 </sup>Yours, Lord, is the greatness and the power<br/>    and the glory and the majesty and the splendor,<br/>    for everything in heaven and earth is yours.<br/>Yours, Lord, is the kingdom;<br/>    you are exalted as head over all.</span>",
+          "text": "<strong>1 Chronicles 29:10-11</strong><br>David praised the Lord in the presence of the whole assembly, saying,<br>\"Praise be to you, Lord,<br>    the God of our father Israel,<br>    from everlasting to everlasting.<br><sup>11 </sup>Yours, Lord, is the greatness and the power<br>    and the glory and the majesty and the splendor,<br>    for everything in heaven and earth is yours.<br>Yours, Lord, is the kingdom;<br>    you are exalted as head over all.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1959,13 +2050,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Psalm 47:2</strong><br/>Clap your hands, all you nations;<br/>    shout to God with cries of joy.<br/><sup>2 </sup>For the Lord Most High is awesome,<br/>    the great King over all the earth.</span>",
+          "text": "<strong>Psalm 47:2</strong><br>Clap your hands, all you nations;<br>    shout to God with cries of joy.<br><sup>2 </sup>For the Lord Most High is awesome,<br>    the great King over all the earth.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1978,7 +2070,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -2027,7 +2120,7 @@
         {
           "shape_name": "TextBox 2",
           "static": true,
-          "text": "God saw all that he had made, and it was very good. And there was evening, and there was morning—the sixth day.",
+          "text": "God saw all that he had made, and it was very good. And there was evening, and there was morning--the sixth day.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -2051,7 +2144,7 @@
         {
           "sequence": 1,
           "shape_name": "TextBox 3",
-          "text": "Genesis 1:31,\nJob 38:32-33\n1 Chron. 29:10-11\nPsalms 47:2",
+          "text": "Genesis 1:31,<br>Job 38:32-33<br>1 Chron. 29:10-11<br>Psalms 47:2",
           "timing": "click",
           "z_index": 52,
           "shape_type": "text_box",
@@ -2194,7 +2287,7 @@
         {
           "sequence": 8,
           "shape_name": "TextBox 2",
-          "text": "<span class=\"scripture\">Genesis 3:6-8<br/>Matthew 18:2-3<br/>Matthew 19:14</span>",
+          "text": "Genesis 3:6-8<br>Matthew 18:2-3<br>Matthew 19:14",
           "timing": "click",
           "z_index": 54,
           "shape_type": "text_box",
@@ -2207,7 +2300,8 @@
           },
           "font": {
             "wrap": true,
-            "align": "right"
+            "align": "right",
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2237,7 +2331,7 @@
         {
           "sequence": 10,
           "shape_name": "TextBox 12",
-          "text": "<em>Lacking moral categories – no law against sin – Pre-fallen Adam &amp; Eve, children, etc. </em>",
+          "text": "<em>Lacking moral categories - no law against sin - Pre-fallen Adam &amp; Eve, children, etc. </em>",
           "timing": "click",
           "z_index": 47,
           "shape_type": "text_box",
@@ -2317,7 +2411,7 @@
         {
           "sequence": 14,
           "shape_name": "TextBox 98",
-          "text": "Relationship maintained with \nGod through innocence",
+          "text": "Relationship maintained with <br>God through innocence",
           "timing": "with",
           "z_index": 77,
           "shape_type": "text_box",
@@ -2522,7 +2616,7 @@
         {
           "sequence": 23,
           "shape_name": "TextBox 4",
-          "text": "<span class=\"scripture\">2 Samuel 12:21-23</span>",
+          "text": "2 Samuel 12:21-23",
           "timing": "with",
           "z_index": 55,
           "shape_type": "text_box",
@@ -2534,7 +2628,8 @@
             "rotation": 0
           },
           "font": {
-            "align": "right"
+            "align": "right",
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2780,7 +2875,7 @@
         {
           "sequence": 34,
           "shape_name": "TextBox 9",
-          "text": "<span class=\"scripture\">Romans 3:23 Isaiah 59:2, Romans 6:23</span>",
+          "text": "Romans 3:23 Isaiah 59:2, Romans 6:23",
           "timing": "click",
           "z_index": 56,
           "shape_type": "text_box",
@@ -2793,7 +2888,8 @@
           },
           "fill": "#FD8017",
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -2968,7 +3064,7 @@
         {
           "sequence": 43,
           "shape_name": "TextBox 10",
-          "text": "<span class=\"scripture\">2 Corinthians 4:3-4<br/>Matthew 4:8-9</span>",
+          "text": "2 Corinthians 4:3-4<br>Matthew 4:8-9",
           "timing": "after",
           "z_index": 57,
           "shape_type": "text_box",
@@ -2981,6 +3077,7 @@
           },
           "font": {
             "align": "right",
+            "font_size": 11.7,
             "wrap": true
           },
           "hyperlink": {
@@ -3049,7 +3146,7 @@
         {
           "sequence": 47,
           "shape_name": "TextBox 87",
-          "text": "Separated from relationship\nwith God due to conscience",
+          "text": "Separated from relationship<br>with God due to conscience",
           "timing": "with",
           "z_index": 59,
           "shape_type": "text_box",
@@ -3068,7 +3165,7 @@
         {
           "sequence": 48,
           "shape_name": "TextBox 86",
-          "text": "<span class=\"scripture\">Ephesians 5:3-7<br/>2 Thessalonians 2:9-2<br/>Matthew 7:13</span>",
+          "text": "Ephesians 5:3-7<br>2 Thessalonians 2:9-2<br>Matthew 7:13",
           "timing": "click",
           "z_index": 73,
           "shape_type": "text_box",
@@ -3081,6 +3178,7 @@
           },
           "font": {
             "align": "right",
+            "font_size": 11.7,
             "wrap": true
           },
           "hyperlink": {
@@ -3255,7 +3353,7 @@
         {
           "sequence": 56,
           "shape_name": "TextBox 11",
-          "text": "<span class=\"scripture\"><strong>2 Peter 2:1-4</strong></span>",
+          "text": "<strong>2 Peter 2:1-4</strong>",
           "timing": "with",
           "z_index": 106,
           "shape_type": "text_box",
@@ -3265,6 +3363,10 @@
             "width": 92,
             "height": 22,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 13.3,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3381,7 +3483,7 @@
         {
           "sequence": 63,
           "shape_name": "TextBox 138",
-          "text": "<span class=\"scripture\"><strong>2</strong><sup>nd</sup><strong> Death</strong></span>",
+          "text": "<strong>2</strong><sup>nd</sup><strong> Death</strong>",
           "timing": "with",
           "z_index": 39,
           "shape_type": "text_box",
@@ -3394,12 +3496,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 64,
           "shape_name": "TextBox 14",
-          "text": "<span class=\"scripture\">Romans 6:1-11, Ephesians 2:1-5<br/>      Colossians 2:8-14, 3:1-4, <br/>           Romans 8:10</span>",
+          "text": "Romans 6:1-11, Ephesians 2:1-5<br>      Colossians 2:8-14, 3:1-4, <br>           Romans 8:10",
           "timing": "click",
           "z_index": 85,
           "shape_type": "text_box",
@@ -3411,6 +3514,7 @@
             "rotation": 0
           },
           "font": {
+            "font_size": 11.7,
             "wrap": true
           },
           "hyperlink": {
@@ -3636,7 +3740,7 @@
         {
           "sequence": 75,
           "shape_name": "TextBox 13",
-          "text": "<span class=\"scripture\">1 Corinthians 15:1-4 Hebrews 11:6, Romans 10:17, Acts 2:38</span>",
+          "text": "1 Corinthians 15:1-4 Hebrews 11:6, Romans 10:17, Acts 2:38",
           "timing": "click",
           "z_index": 58,
           "shape_type": "text_box",
@@ -3648,7 +3752,8 @@
             "rotation": 0
           },
           "font": {
-            "wrap": true
+            "wrap": true,
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -3659,7 +3764,7 @@
         {
           "sequence": 76,
           "shape_name": "TextBox 37",
-          "text": "Hear, Believe, \nRepent, Confess, Baptized",
+          "text": "Hear, Believe, <br>Repent, Confess, Baptized",
           "timing": "click",
           "z_index": 107,
           "shape_type": "text_box",
@@ -3718,7 +3823,7 @@
         {
           "sequence": 79,
           "shape_name": "TextBox 40",
-          "text": "<strong>Believe, but believes misinformation: </strong><br/><em>- Grace saves &amp; salvation before of baptism </em><br/><em>- Baptized but doesn’t believe it’s the gate</em><br/><em>- Sprinkled as a child; faith only</em>",
+          "text": "<strong>Believe, but believes misinformation: </strong><br><em>- Grace saves &amp; salvation before of baptism </em><br><em>- Baptized but doesn't believe it's the gate</em><br><em>- Sprinkled as a child; faith only</em>",
           "timing": "with",
           "z_index": 101,
           "shape_type": "text_box",
@@ -3800,7 +3905,7 @@
         {
           "sequence": 82,
           "shape_name": "TextBox 88",
-          "text": "Maintaining relationship\nwith God via Christ’s sinless\nblood and the \n“gift of the Holy Spirit”",
+          "text": "Maintaining relationship<br>with God via Christ's sinless<br>blood and the <br>\"gift of the Holy Spirit\"",
           "timing": "with",
           "z_index": 60,
           "shape_type": "text_box",
@@ -3845,7 +3950,7 @@
         {
           "sequence": 84,
           "shape_name": "TextBox 27",
-          "text": "<em>'Must become like children' </em><br/><em>- not under the law -</em>",
+          "text": "<em>'Must become like children' </em><br><em>- not under the law -</em>",
           "timing": "after",
           "z_index": 78,
           "shape_type": "text_box",
@@ -3909,7 +4014,7 @@
         {
           "sequence": 86,
           "shape_name": "TextBox 16",
-          "text": "<span class=\"scripture\">Colossians 1:13-14<br/>1 Peter 2:9-11<br/>Galatians 3:26-29</span>",
+          "text": "Colossians 1:13-14<br>1 Peter 2:9-11<br>Galatians 3:26-29",
           "timing": "click",
           "z_index": 83,
           "shape_type": "text_box",
@@ -3922,7 +4027,8 @@
           },
           "font": {
             "wrap": true,
-            "align": "right"
+            "align": "right",
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4011,7 +4117,7 @@
         {
           "sequence": 91,
           "shape_name": "TextBox 89",
-          "text": "<span class=\"scripture\">2 Corinthians 6:14-15<br/>Mark 16:15-16</span>",
+          "text": "2 Corinthians 6:14-15<br>Mark 16:15-16",
           "timing": "click",
           "z_index": 84,
           "shape_type": "text_box",
@@ -4024,7 +4130,8 @@
           },
           "font": {
             "wrap": true,
-            "align": "right"
+            "align": "right",
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4240,7 +4347,7 @@
         {
           "sequence": 100,
           "shape_name": "TextBox 92",
-          "text": "<span class=\"scripture\"><strong>2 Peter 2:20-21, 3:17</strong></span>",
+          "text": "<strong>2 Peter 2:20-21, 3:17</strong>",
           "timing": "with",
           "z_index": 63,
           "shape_type": "text_box",
@@ -4253,7 +4360,9 @@
           },
           "font": {
             "wrap": true,
-            "align": "center"
+            "align": "center",
+            "font_size": 13.3,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4370,7 +4479,7 @@
         {
           "sequence": 105,
           "shape_name": "TextBox 94",
-          "text": "<strong>Heavenly State</strong><br/><strong>State of Eternal Life</strong>",
+          "text": "<strong>Heavenly State</strong><br><strong>State of Eternal Life</strong>",
           "timing": "with",
           "z_index": 65,
           "shape_type": "text_box",
@@ -4391,7 +4500,7 @@
         {
           "sequence": 106,
           "shape_name": "TextBox 17",
-          "text": "<span class=\"scripture\">1 Corinthians 15:22-25<br/>2 Peter 1:10-11</span>",
+          "text": "1 Corinthians 15:22-25<br>2 Peter 1:10-11",
           "timing": "click",
           "z_index": 64,
           "shape_type": "text_box",
@@ -4404,7 +4513,8 @@
           },
           "font": {
             "wrap": true,
-            "align": "right"
+            "align": "right",
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
@@ -4513,7 +4623,7 @@
         {
           "sequence": 111,
           "shape_name": "TextBox 95",
-          "text": "<span class=\"scripture\">Revelation 21:3-4</span>",
+          "text": "Revelation 21:3-4",
           "timing": "click",
           "z_index": 66,
           "shape_type": "text_box",
@@ -4526,7 +4636,8 @@
           },
           "font": {
             "wrap": true,
-            "align": "right"
+            "align": "right",
+            "font_size": 11.7
           },
           "hyperlink": {
             "type": "customshow",
