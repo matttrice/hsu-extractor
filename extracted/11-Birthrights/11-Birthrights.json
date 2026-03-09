@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/11-Birthrights.pptx",
+  "file_path": "~/projects/hsu-pptx/11-Birthrights.pptx",
   "file_name": "11-Birthrights.pptx",
   "total_slides": 2,
   "total_custom_shows": 35,
@@ -306,7 +306,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 23",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1</strong><sup>st </sup><strong>Adam</strong></span>",
+          "text": "<strong>1</strong><sup>st </sup><strong>Adam</strong>",
           "z_index": 19,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -315,7 +315,8 @@
             "width": 190,
             "height": 51,
             "rotation": 0
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -532,7 +533,7 @@
           "sequence": 15,
           "shape_name": "Rectangle 48",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Formed </strong><br/><strong>2</strong><sup>nd</sup><strong> Half</strong></span>",
+          "text": "<strong>Formed </strong><br><strong>2</strong><sup>nd</sup><strong> Half</strong>",
           "z_index": 25,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -545,13 +546,14 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 16,
           "shape_name": "Rectangle 50",
           "timing": "click",
-          "text": "<strong>1. Miraculous “Births”</strong>",
+          "text": "<strong>1. Miraculous \"Births\"</strong>",
           "z_index": 27,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -607,7 +609,7 @@
           "sequence": 19,
           "shape_name": "Rectangle 30",
           "timing": "with",
-          "text": "<strong>One</strong><br/><strong>Flesh</strong>",
+          "text": "<strong>One</strong><br><strong>Flesh</strong>",
           "z_index": 15,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -650,7 +652,7 @@
           "sequence": 21,
           "shape_name": "Rectangle 51",
           "timing": "click",
-          "text": "<strong>3.</strong> <strong> All subsequent births</strong><br/><strong> follow <em>Birth Pattern</em></strong>",
+          "text": "<strong>3.</strong> <strong> All subsequent births</strong><br><strong> follow <em>Birth Pattern</em></strong>",
           "z_index": 28,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -686,7 +688,7 @@
           "sequence": 23,
           "shape_name": "Rectangle 24",
           "timing": "with",
-          "text": "<span class=\"scripture\"><strong>2</strong><sup>nd</sup><strong> Adam</strong></span>",
+          "text": "<strong>2</strong><sup>nd</sup><strong> Adam</strong>",
           "z_index": 20,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -695,7 +697,8 @@
             "width": 203,
             "height": 51,
             "rotation": 0
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 24,
@@ -918,7 +921,7 @@
           "sequence": 33,
           "shape_name": "Rectangle 36",
           "timing": "with",
-          "text": "<strong>Living </strong><br/><strong>Church</strong>",
+          "text": "<strong>Living </strong><br><strong>Church</strong>",
           "z_index": 32,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -956,7 +959,7 @@
           "sequence": 35,
           "shape_name": "Rectangle 73",
           "timing": "with",
-          "text": "<strong>Is the Church </strong><br/><strong>Complete?</strong><br/><em>Was Adam?</em>",
+          "text": "<strong>Is the Church </strong><br><strong>Complete?</strong><br><em>Was Adam?</em>",
           "z_index": 51,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1226,7 +1229,7 @@
           "sequence": 47,
           "shape_name": "Rectangle 31",
           "timing": "with",
-          "text": "<strong>One</strong><br/><strong>Church</strong>",
+          "text": "<strong>One</strong><br><strong>Church</strong>",
           "z_index": 38,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1247,7 +1250,7 @@
           "sequence": 48,
           "shape_name": "Rectangle 31",
           "timing": "after",
-          "text": "<strong>Body of</strong><br/><strong>Christ</strong>",
+          "text": "<strong>Body of</strong><br><strong>Christ</strong>",
           "delay": 1000,
           "z_index": 48,
           "shape_type": "rectangle (1)",
@@ -1400,7 +1403,7 @@
           "sequence": 54,
           "shape_name": "Rectangle 40",
           "timing": "with",
-          "text": "<span class=\"scripture\">No one receives the spirit like the 1<sup>st</sup> does… everyone else is born of  man and woman or spiritually, the seed of the word planted in the heart and baptized (born again)</span>",
+          "text": "No one receives the spirit like the 1<sup>st</sup> does... everyone else is born of  man and woman or spiritually, the seed of the word planted in the heart and baptized (born again)",
           "z_index": 54,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1414,7 +1417,8 @@
             "wrap": true,
             "align": "center",
             "color": "#F4F4F4"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -1449,7 +1453,7 @@
           "sequence": 1,
           "shape_name": "TextBox 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>20</sup> So the man gave names to all the livestock, the birds of the air and all the beasts of the field. <br/>      But for Adam no suitable helper was found. <sup>21</sup> So the LORD God caused the man to fall into a deep sleep; and while he was sleeping, he took <strong>one of the man's ribs</strong> and closed up the place with flesh. <sup>22</sup> Then the LORD God <strong>made a woman</strong> from the rib he had taken out of the man, and he brought her to the man. <br/> <sup>23</sup> The man said, <br/>       \"This is now bone of my bones <br/>       and flesh of my flesh; <br/>       she shall be called 'woman,' <br/>       for she was taken out of man.\" <br/> <sup>24</sup> For this reason a man will leave his father and mother and be united to his wife, and they will <strong>become one flesh</strong>.<br/></span>",
+          "text": "<sup>20</sup> So the man gave names to all the livestock, the birds of the air and all the beasts of the field. <br>      But for Adam no suitable helper was found. <sup>21</sup> So the LORD God caused the man to fall into a deep sleep; and while he was sleeping, he took <strong>one of the man's ribs</strong> and closed up the place with flesh. <sup>22</sup> Then the LORD God <strong>made a woman</strong> from the rib he had taken out of the man, and he brought her to the man. <br> <sup>23</sup> The man said, <br>       \"This is now bone of my bones <br>       and flesh of my flesh; <br>       she shall be called 'woman,' <br>       for she was taken out of man.\" <br> <sup>24</sup> For this reason a man will leave his father and mother and be united to his wife, and they will <strong>become one flesh</strong>.<br>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -1461,7 +1465,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -1508,7 +1513,7 @@
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>7</sup>Then the LORD God formed man of dust from the ground, and breathed into his nostrils the <strong>breath of life</strong>; and man became a <strong>living being</strong>.</span>",
+          "text": "<sup>7</sup>Then the LORD God formed man of dust from the ground, and breathed into his nostrils the <strong>breath of life</strong>; and man became a <strong>living being</strong>.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1520,7 +1525,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1531,7 +1537,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">The boys grew up, and Esau became a skillful hunter, a man of the open country, while Jacob was a quiet man, staying among the tents. <sup>28 </sup>Isaac, who had a taste for wild game, loved Esau, but Rebekah loved Jacob. <sup>29</sup> Once when Jacob was cooking some stew, Esau came in from the open country, famished. <sup>30</sup> He said to Jacob, \"Quick, let me have some of that red stew! I'm famished!\" (That is why he was also called Edom.)  <sup>31</sup> Jacob replied, \"First sell me your birthright.“ <sup>32</sup> \"Look, I am about to die,\" Esau said. \"What good is the birthright to me?“ <sup>33</sup> But Jacob said, \"Swear to me first.\" So he swore an oath to him, selling his birthright to Jacob. <sup>34</sup> Then Jacob gave Esau some bread and some lentil stew. He ate and drank, and then got up and left. So Esau despised his birthright. (NIV)</span>",
+          "text": "The boys grew up, and Esau became a skillful hunter, a man of the open country, while Jacob was a quiet man, staying among the tents. <sup>28 </sup>Isaac, who had a taste for wild game, loved Esau, but Rebekah loved Jacob. <sup>29</sup> Once when Jacob was cooking some stew, Esau came in from the open country, famished. <sup>30</sup> He said to Jacob, \"Quick, let me have some of that red stew! I'm famished!\" (That is why he was also called Edom.)  <sup>31</sup> Jacob replied, \"First sell me your birthright.\" <sup>32</sup> \"Look, I am about to die,\" Esau said. \"What good is the birthright to me?\" <sup>33</sup> But Jacob said, \"Swear to me first.\" So he swore an oath to him, selling his birthright to Jacob. <sup>34</sup> Then Jacob gave Esau some bread and some lentil stew. He ate and drank, and then got up and left. So Esau despised his birthright. (NIV)",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1543,12 +1549,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 25:27-34</span>",
+          "text": "Genesis 25:27-34",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1557,6 +1564,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -1568,7 +1578,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">After Isaac finished blessing him and Jacob had scarcely left his father's presence, <br/>his brother Esau came in from hunting. <sup>31 </sup>He too prepared  some tasty food and <br/>brought it to his father. Then he said to him, \"My father, sit up and eat some of my <br/>game, so that you may give me your blessing.“ <sup>32</sup> His father Isaac asked him, \"Who<br/>are you?“ \"I am your son,\" he answered, \"your firstborn, Esau.“ <sup>33</sup> Isaac trembled <br/>violently and said, \"Who was it, then, that hunted game and brought it to me? I ate it just <br/>before you came and I blessed him — and indeed he will be blessed!“ <br/><br/><sup>34</sup> When Esau heard his father's words, he burst out with a loud and bitter cry and said<br/>to his father, \"Bless me — me too, my father!\" <sup>35</sup> But he said, \"Your brother came <br/>deceitfully and took your blessing.\" <sup>36</sup> Esau said, \"Isn't he rightly named Jacob? He has<br/>deceived me these two times: He took my birthright, and now he's taken my blessing!\"<br/><br/>Then he asked, \"Haven't  you reserved any blessing for me?\"<sup> 37</sup> Isaac answered Esau,<br/>\"I have made him lord over you and have made all his relatives his servants, and I have <br/>sustained him with grain and new wine. So what can I possibly do for you, my son?\" <br/><sup>38</sup> Esau said to his father, \"Do you have only one blessing, my father? <br/>Bless me too, my father!\" Then Esau wept aloud. (NIV)</span>",
+          "text": "After Isaac finished blessing him and Jacob had scarcely left his father's presence, <br>his brother Esau came in from hunting. <sup>31 </sup>He too prepared  some tasty food and <br>brought it to his father. Then he said to him, \"My father, sit up and eat some of my <br>game, so that you may give me your blessing.\" <sup>32</sup> His father Isaac asked him, \"Who<br>are you?\" \"I am your son,\" he answered, \"your firstborn, Esau.\" <sup>33</sup> Isaac trembled <br>violently and said, \"Who was it, then, that hunted game and brought it to me? I ate it just <br>before you came and I blessed him -- and indeed he will be blessed!\" <br><br><sup>34</sup> When Esau heard his father's words, he burst out with a loud and bitter cry and said<br>to his father, \"Bless me -- me too, my father!\" <sup>35</sup> But he said, \"Your brother came <br>deceitfully and took your blessing.\" <sup>36</sup> Esau said, \"Isn't he rightly named Jacob? He has<br>deceived me these two times: He took my birthright, and now he's taken my blessing!\"<br><br>Then he asked, \"Haven't  you reserved any blessing for me?\"<sup> 37</sup> Isaac answered Esau,<br>\"I have made him lord over you and have made all his relatives his servants, and I have <br>sustained him with grain and new wine. So what can I possibly do for you, my son?\" <br><sup>38</sup> Esau said to his father, \"Do you have only one blessing, my father? <br>Bless me too, my father!\" Then Esau wept aloud. (NIV)",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1580,12 +1590,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Genesis 27:30-38</span>",
+          "text": "Genesis 27:30-38",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -1594,6 +1605,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -1623,7 +1637,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 24",
           "timing": "with",
-          "text": "Then the LORD God said to the woman, \"What is this you have\ndone?\" The woman said, \"The serpent deceived me, and I ate.\"",
+          "text": "Then the LORD God said to the woman, \"What is this you have<br>done?\" The woman said, \"The serpent deceived me, and I ate.\"",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1642,7 +1656,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 26",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>14</sup> So the LORD God said to the serpent, \"Because you have done this,<br/>      \"Cursed are you above all the livestock<br/>       and all the wild animals!<br/>       You will crawl on your belly<br/>       and you will eat dust<br/>       all the days of your life.</span>",
+          "text": "<sup>14</sup> So the LORD God said to the serpent, \"Because you have done this,<br>      \"Cursed are you above all the livestock<br>       and all the wild animals!<br>       You will crawl on your belly<br>       and you will eat dust<br>       all the days of your life.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1654,13 +1668,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
           "shape_name": "Rectangle 27",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>15</sup> And I will put enmity<br/>       between you and the woman,<br/>       and between your offspring and hers;</span>",
+          "text": "<sup>15</sup> And I will put enmity<br>       between you and the woman,<br>       and between your offspring and hers;",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1673,13 +1688,14 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 5,
           "shape_name": "Rectangle 28",
           "timing": "click",
-          "text": "he will crush your head, and\nyou will strike his heel.\"",
+          "text": "he will crush your head, and<br>you will strike his heel.\"",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1698,7 +1714,7 @@
           "sequence": 6,
           "shape_name": "Rectangle 29",
           "timing": "click",
-          "text": "Then the LORD God said to the <strong>woman</strong>, \"What is this you have<br/>done?\" The woman said, \"The <strong>serpent</strong> deceived me, and I ate.\"",
+          "text": "Then the LORD God said to the <strong>woman</strong>, \"What is this you have<br>done?\" The woman said, \"The <strong>serpent</strong> deceived me, and I ate.\"",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1721,7 +1737,7 @@
           "sequence": 7,
           "shape_name": "Rectangle 30",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>15</sup> And I <strong>will put enmity</strong><br/>       between <strong>you</strong> and the <strong>woman</strong>,<br/>       and between <strong>your offspring</strong> and <strong>hers;</strong></span>",
+          "text": "<sup>15</sup> And I <strong>will put enmity</strong><br>       between <strong>you</strong> and the <strong>woman</strong>,<br>       and between <strong>your offspring</strong> and <strong>hers;</strong>",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1734,13 +1750,14 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 8,
           "shape_name": "Rectangle 31",
           "timing": "click",
-          "text": "<strong>he</strong> will crush <strong>your</strong> head, and<br/><strong>you</strong> will strike <strong>his</strong> heel.\"",
+          "text": "<strong>he</strong> will crush <strong>your</strong> head, and<br><strong>you</strong> will strike <strong>his</strong> heel.\"",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1932,7 +1949,7 @@
           "sequence": 16,
           "shape_name": "Rectangle 12",
           "timing": "click",
-          "text": "Those “born” of false seed,\ndoctrine, teaching",
+          "text": "Those \"born\" of false seed,<br>doctrine, teaching",
           "z_index": 20,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2059,7 +2076,7 @@
         {
           "shape_name": "Rectangle 19",
           "static": true,
-          "text": "<strong>Consider when the battle between seeds </strong><em>(doctrine)</em><strong> began…</strong>",
+          "text": "<strong>Consider when the battle between seeds </strong><em>(doctrine)</em><strong> began...</strong>",
           "z_index": 12,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2084,7 +2101,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Job 38:4-11</span>",
+          "text": "Job 38:4-11",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -2093,12 +2110,15 @@
             "width": 236,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>4</sup> \"Where were you when I laid the earth's foundation?<br/>       Tell me, if you understand.<br/><sup>5</sup> Who marked off its dimensions? Surely you know!<br/>       Who stretched a measuring line across it?<br/><sup>6</sup> On what were its footings set,<br/>       or who laid its cornerstone-<br/><sup>7</sup> while the morning stars sang together<br/>       and all the angels shouted for joy?<br/><sup>8</sup> \"Who shut up the sea behind doors<br/>       when it <strong>burst forth from the womb,</strong><br/><sup>9</sup> when I made the clouds its garment<br/>       and wrapped it in thick darkness,<br/><sup>10</sup> when I fixed limits for it<br/>       and set its doors and bars in place,<br/><sup>11</sup> when I said, 'This far you may come and no farther;<br/>       here is where your proud waves halt'?</span>",
+          "text": "<sup>4</sup> \"Where were you when I laid the earth's foundation?<br>       Tell me, if you understand.<br><sup>5</sup> Who marked off its dimensions? Surely you know!<br>       Who stretched a measuring line across it?<br><sup>6</sup> On what were its footings set,<br>       or who laid its cornerstone-<br><sup>7</sup> while the morning stars sang together<br>       and all the angels shouted for joy?<br><sup>8</sup> \"Who shut up the sea behind doors<br>       when it <strong>burst forth from the womb,</strong><br><sup>9</sup> when I made the clouds its garment<br>       and wrapped it in thick darkness,<br><sup>10</sup> when I fixed limits for it<br>       and set its doors and bars in place,<br><sup>11</sup> when I said, 'This far you may come and no farther;<br>       here is where your proud waves halt'?",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2110,7 +2130,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 5",
@@ -2133,7 +2154,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>5</sup>…But they deliberately forget that long ago by God's word the heavens existed and the earth was formed out of water and by water. <sup>6 </sup>By these waters also the world of that time was deluged and destroyed.</span>",
+          "text": "<sup>5</sup>...But they deliberately forget that long ago by God's word the heavens existed and the earth was formed out of water and by water. <sup>6 </sup>By these waters also the world of that time was deluged and destroyed.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2145,7 +2166,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -2156,7 +2178,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "<span class=\"scripture\">I am jealous for you with a godly jealousy. I promised you to <strong><em><u>one husband, </u></em></strong><br/><strong><em><u>to Christ</u></em></strong>, so that I might present you as a pure virgin to him. <sup>3</sup>But I am afraid <br/>that <strong><em>just as Eve was <u>deceived</u> by the serpent's cunning, your minds may </em></strong><br/><strong><em>somehow be led astray</em> </strong>from your sincere and pure devotion to Christ. <sup>4</sup>For if <br/>someone comes to you and preaches <strong><em><u>a Jesus other than the Jesus we </u></em></strong><br/><strong><em><u>preached</u></em></strong>, or if you receive a different spirit from the one you received,or <br/><strong><em><u>a different gospel</u> </em></strong>from the one you accepted, you put up with it easily enough.</span>",
+          "text": "I am jealous for you with a godly jealousy. I promised you to <strong><em><u>one husband, </u></em></strong><br><strong><em><u>to Christ</u></em></strong>, so that I might present you as a pure virgin to him. <sup>3</sup>But I am afraid <br>that <strong><em>just as Eve was <u>deceived</u> by the serpent's cunning, your minds may </em></strong><br><strong><em>somehow be led astray</em> </strong>from your sincere and pure devotion to Christ. <sup>4</sup>For if <br>someone comes to you and preaches <strong><em><u>a Jesus other than the Jesus we </u></em></strong><br><strong><em><u>preached</u></em></strong>, or if you receive a different spirit from the one you received,or <br><strong><em><u>a different gospel</u> </em></strong>from the one you accepted, you put up with it easily enough.",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2169,13 +2191,14 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "<strong>How can multiple Jesus’ exist? </strong>",
+          "text": "<strong>How can multiple Jesus' exist? </strong>",
           "z_index": 21,
           "shape_type": "text_box",
           "layout": {
@@ -2196,7 +2219,7 @@
           "sequence": 3,
           "shape_name": "TextBox 6",
           "timing": "click",
-          "text": "<strong>“Jesus” is not just an utterance: </strong><br/><em>He is the Word:  doctrine -  teachings - instruction.</em><br/><em>There are different gospels and different Jesus’s.</em><br/><strong>True Christ</strong> is monogamous <br/>– one doctrine<br/>(one Husband, one Bride – the Church) <br/>",
+          "text": "<strong>\"Jesus\" is not just an utterance: </strong><br><em>He is the Word:  doctrine -  teachings - instruction.</em><br><em>There are different gospels and different Jesus's.</em><br><strong>True Christ</strong> is monogamous <br>- one doctrine<br>(one Husband, one Bride - the Church) <br>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -2217,7 +2240,7 @@
           "sequence": 4,
           "shape_name": "Text Box 5",
           "timing": "click",
-          "text": "<strong>Satan is promiscuous </strong><br/><strong><em>(many women – many doctrines)</em></strong><br/>He impregnates with his seed to <br/>generate illegitimate children; These women/churches will teach their children <strong>a gospel message but it is not the true.</strong>",
+          "text": "<strong>Satan is promiscuous </strong><br><strong><em>(many women - many doctrines)</em></strong><br>He impregnates with his seed to <br>generate illegitimate children; These women/churches will teach their children <strong>a gospel message but it is not the true.</strong>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -2635,7 +2658,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">I am jealous for you with a godly jealousy. I promised you to one husband, <br/>to Christ, so that I might present you as a pure virgin to him. <sup>3</sup>But I am afraid <br/>that just as Eve was deceived by the serpent's cunning, your minds may <br/>somehow be led astray from your sincere and pure devotion to Christ. <sup>4</sup>For if <br/>someone comes to you and preaches a Jesus other than the Jesus we <br/>preached, or if you receive a different spirit from the one you received, or <br/>a different gospel from the one you accepted, you put up with it easily enough.</span>",
+          "text": "I am jealous for you with a godly jealousy. I promised you to one husband, <br>to Christ, so that I might present you as a pure virgin to him. <sup>3</sup>But I am afraid <br>that just as Eve was deceived by the serpent's cunning, your minds may <br>somehow be led astray from your sincere and pure devotion to Christ. <sup>4</sup>For if <br>someone comes to you and preaches a Jesus other than the Jesus we <br>preached, or if you receive a different spirit from the one you received, or <br>a different gospel from the one you accepted, you put up with it easily enough.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2647,12 +2670,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "<span class=\"scripture\">2 Corinthians 11:2-4</span>",
+          "text": "2 Corinthians 11:2-4",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -2661,6 +2685,9 @@
             "width": 598,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -2672,7 +2699,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">Or don't you know that <u>all of us who were baptized into Christ </u>Jesus were baptized into his death? <sup>4</sup> We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead through the glory of the Father, we too may live a new life. <sup>5 </sup><strong><em><u>If</u></em></strong> we have been united with him like this in his death, we will certainly also be united with him in his resurrection.<sup> 6</sup> For we know that our old self was crucified with him so that the body of sin might be done away with, that we should no longer be slaves to sin— <sup>7</sup> because anyone who has died has been freed from sin. <sup>8</sup> Now <strong><em><u>if </u></em>we died with Christ</strong>, we believe that we will also live with him. <sup>9</sup> For we know that since Christ was raised from the dead, he cannot die again; death no longer has mastery over him.</span>",
+          "text": "Or don't you know that <u>all of us who were baptized into Christ </u>Jesus were baptized into his death? <sup>4</sup> We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead through the glory of the Father, we too may live a new life. <sup>5 </sup><strong><em><u>If</u></em></strong> we have been united with him like this in his death, we will certainly also be united with him in his resurrection.<sup> 6</sup> For we know that our old self was crucified with him so that the body of sin might be done away with, that we should no longer be slaves to sin-- <sup>7</sup> because anyone who has died has been freed from sin. <sup>8</sup> Now <strong><em><u>if </u></em>we died with Christ</strong>, we believe that we will also live with him. <sup>9</sup> For we know that since Christ was raised from the dead, he cannot die again; death no longer has mastery over him.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2686,7 +2713,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -2716,7 +2744,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 1",
           "timing": "click",
-          "text": "<strong>Quoted from large evangelical church: </strong><br/><em>“One last thing we need to be careful of: Making baptism something that it’s not. You need to remind yourself that baptism is not a work that you do in order to earn salvation. It’s simply a gift, a public, outward act that shows the change that has happened in your heart”</em>",
+          "text": "<strong>Quoted from large evangelical church: </strong><br><em>\"One last thing we need to be careful of: Making baptism something that it's not. You need to remind yourself that baptism is not a work that you do in order to earn salvation. It's simply a gift, a public, outward act that shows the change that has happened in your heart\"</em>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2737,7 +2765,7 @@
           "sequence": 4,
           "shape_name": "TextBox 2",
           "timing": "click",
-          "text": "Baptism does <em>“earn” </em>i.e. – perfect / complete faith.<br/>Baptism is the gate to the gift of the Holy Spirit.<br/>The <em>“change” </em>that matters (death to sin) can’t occur unless you are baptized – therefore no meaningful change has occurred until this is done.<br/>Christ would never say less, nor would his servants    therefore baptism with this doctrine / seed cannot result in salvation.",
+          "text": "Baptism does <em>\"earn\" </em>i.e. - perfect / complete faith.<br>Baptism is the gate to the gift of the Holy Spirit.<br>The <em>\"change\" </em>that matters (death to sin) can't occur unless you are baptized - therefore no meaningful change has occurred until this is done.<br>Christ would never say less, nor would his servants    therefore baptism with this doctrine / seed cannot result in salvation.",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -2785,7 +2813,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Or don't you know that all of us who were baptized into Christ Jesus were baptized into his death? <sup>4</sup> We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead through the glory of the Father, we too may live a new life. <sup>5 </sup>If we have been united with him like this in his death, we will certainly also be united with him in his resurrection.<sup> 6</sup> For we know that our old self was crucified with him so that the body of sin might be done away with, that we should no longer be slaves to sin— <sup>7</sup> because anyone who has died has been freed from sin. <sup>8</sup> Now if we died with Christ, we believe that we will also live with him. <sup>9</sup> For we know that since Christ was raised from the dead, he cannot die again; death no longer has mastery over him.</span>",
+          "text": "Or don't you know that all of us who were baptized into Christ Jesus were baptized into his death? <sup>4</sup> We were therefore buried with him through baptism into death in order that, just as Christ was raised from the dead through the glory of the Father, we too may live a new life. <sup>5 </sup>If we have been united with him like this in his death, we will certainly also be united with him in his resurrection.<sup> 6</sup> For we know that our old self was crucified with him so that the body of sin might be done away with, that we should no longer be slaves to sin-- <sup>7</sup> because anyone who has died has been freed from sin. <sup>8</sup> Now if we died with Christ, we believe that we will also live with him. <sup>9</sup> For we know that since Christ was raised from the dead, he cannot die again; death no longer has mastery over him.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2798,12 +2826,13 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 6:3-9</span>",
+          "text": "Romans 6:3-9",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -2812,6 +2841,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -2823,7 +2855,7 @@
           "sequence": 1,
           "shape_name": "TextBox 4",
           "timing": "click",
-          "text": "How could God not ‘<em>know them’? – They used his name –</em><br/><strong>Galatians 4:6-9</strong>",
+          "text": "How could God not '<em>know them'? - They used his name -</em><br><strong>Galatians 4:6-9</strong>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -2854,7 +2886,7 @@
           "sequence": 2,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "<strong>God knows his Sons – those</strong><br/><strong>Born of the promise, Abraham’s seed.</strong>",
+          "text": "<strong>God knows his Sons - those</strong><br><strong>Born of the promise, Abraham's seed.</strong>",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
@@ -2896,7 +2928,7 @@
           "sequence": 4,
           "shape_name": "Rectangle 6",
           "timing": "with",
-          "text": "<span class=\"scripture\">And no wonder, for Satan himself masquerades as an angel of light. <sup>15</sup>It is not surprising, then, if his servants masquerade as servants of righteousness. Their end will be what their actions deserve.</span>",
+          "text": "And no wonder, for Satan himself masquerades as an angel of light. <sup>15</sup>It is not surprising, then, if his servants masquerade as servants of righteousness. Their end will be what their actions deserve.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2908,13 +2940,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 5,
           "shape_name": "TextBox 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Galatians 1:6</strong><br/>I am astonished that you are so quickly deserting the one who called you by the grace of Christ and are<strong> turning to a different gospel</strong>— <sup>7</sup><strong>which <em>is really no gospel</em> at all</strong>.</span>",
+          "text": "<strong>Galatians 1:6</strong><br>I am astonished that you are so quickly deserting the one who called you by the grace of Christ and are<strong> turning to a different gospel</strong>-- <sup>7</sup><strong>which <em>is really no gospel</em> at all</strong>.",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -2926,13 +2959,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 6,
           "shape_name": "TextBox 5",
           "timing": "click",
-          "text": "<strong>Jesus is not just a name.</strong><br/>Some are born of <em>another “Jesus.” </em> Many doctrines look similar but there is only one true seed and gate to salvation.",
+          "text": "<strong>Jesus is not just a name.</strong><br>Some are born of <em>another \"Jesus.\" </em> Many doctrines look similar but there is only one true seed and gate to salvation.",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -2955,7 +2989,7 @@
         {
           "shape_name": "Rectangle 1",
           "static": true,
-          "text": "<span class=\"scripture\">\"Not everyone who says to me, 'Lord, Lord,' will enter the kingdom of heaven, but only he who does the will of my Father who is in heaven. <sup>22</sup>Many will say to me on that day, 'Lord, Lord, did we not prophesy in your name, and in your name drive out demons and perform many miracles?' <sup>23</sup>Then I will tell them plainly, '<strong>I never knew you.</strong> Away from me, you evildoers!'</span>",
+          "text": "\"Not everyone who says to me, 'Lord, Lord,' will enter the kingdom of heaven, but only he who does the will of my Father who is in heaven. <sup>22</sup>Many will say to me on that day, 'Lord, Lord, did we not prophesy in your name, and in your name drive out demons and perform many miracles?' <sup>23</sup>Then I will tell them plainly, '<strong>I never knew you.</strong> Away from me, you evildoers!'",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2967,7 +3001,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 3",
@@ -2995,7 +3030,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">\"This is the meaning of the parable: <u>The seed is the word of God</u>. <sup>12</sup> Those along the path are the ones who <u>hear</u>, and then the devil comes and takes away the <u>word from their hearts</u>, so that they may not believe and be saved.</span>",
+          "text": "\"This is the meaning of the parable: <u>The seed is the word of God</u>. <sup>12</sup> Those along the path are the ones who <u>hear</u>, and then the devil comes and takes away the <u>word from their hearts</u>, so that they may not believe and be saved.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3008,14 +3043,15 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">\"This is the meaning of the parable: The seed is the word of God. <sup>12</sup> Those along the path are the ones who hear, and then the devil comes and takes away the word from their hearts, so that they may not believe and be saved.</span>",
+          "text": "\"This is the meaning of the parable: The seed is the word of God. <sup>12</sup> Those along the path are the ones who hear, and then the devil comes and takes away the word from their hearts, so that they may not believe and be saved.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3027,12 +3063,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Luke 8:11-12</span>",
+          "text": "Luke 8:11-12",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -3041,6 +3078,10 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 44.2,
+            "bold": true
           }
         }
       ]
@@ -3052,7 +3093,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">He came to that which was his own, but his own did not receive him. <sup>12 </sup>Yet to all who received him, to those who believed in his name, he gave the right to become children of God— <sup>13</sup>children <u>born not of natural descent</u>, nor of human decision or a husband's will, <u>but born of God</u>.</span>",
+          "text": "He came to that which was his own, but his own did not receive him. <sup>12 </sup>Yet to all who received him, to those who believed in his name, he gave the right to become children of God-- <sup>13</sup>children <u>born not of natural descent</u>, nor of human decision or a husband's will, <u>but born of God</u>.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3065,14 +3106,15 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">He came to that which was his own, but his own did not receive him. <sup>12 </sup>Yet to all who received him, to those who believed in his name, he gave the right to become children of God— <sup>13</sup>children born not of natural descent, nor of human decision or a husband's will, but born of God.</span>",
+          "text": "He came to that which was his own, but his own did not receive him. <sup>12 </sup>Yet to all who received him, to those who believed in his name, he gave the right to become children of God-- <sup>13</sup>children born not of natural descent, nor of human decision or a husband's will, but born of God.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3084,12 +3126,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">John 1:11-12</span>",
+          "text": "John 1:11-12",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -3098,6 +3141,10 @@
             "width": 756,
             "height": 45,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 44.2,
+            "bold": true
           }
         }
       ]
@@ -3223,7 +3270,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>3</sup>In reply Jesus declared, \"I tell you the truth, no one can see the kingdom of God unless he is born again\" <br/> <sup>4</sup>\"How can a man be born when he is old?\" Nicodemus asked. \"Surely he cannot enter a second time into his mother's womb to be born!\" <br/> <sup>5</sup>Jesus answered, \"I tell you the truth, no one can enter the kingdom of God unless he is born of water and the Spirit. <sup>6</sup>Flesh gives birth to flesh, but the Spirit gives birth to spirit. <sup>7</sup>You should not be surprised at my saying, 'You must be born again.'</span>",
+          "text": "<sup>3</sup>In reply Jesus declared, \"I tell you the truth, no one can see the kingdom of God unless he is born again\" <br> <sup>4</sup>\"How can a man be born when he is old?\" Nicodemus asked. \"Surely he cannot enter a second time into his mother's womb to be born!\" <br> <sup>5</sup>Jesus answered, \"I tell you the truth, no one can enter the kingdom of God unless he is born of water and the Spirit. <sup>6</sup>Flesh gives birth to flesh, but the Spirit gives birth to spirit. <sup>7</sup>You should not be surprised at my saying, 'You must be born again.'",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3235,12 +3282,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">John 3:3-7</span>",
+          "text": "John 3:3-7",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -3249,6 +3297,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -3260,7 +3311,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Colossians 1:18</strong><br/>And he is the head of the body, the church; he is the beginning and the firstborn from among the dead, so that in everything he might have the supremacy.</span>",
+          "text": "<strong>Colossians 1:18</strong><br>And he is the head of the body, the church; he is the beginning and the firstborn from among the dead, so that in everything he might have the supremacy.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3273,14 +3324,15 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">When he had said this, Jesus called in a loud voice, \"Lazarus, come out!\"  <sup>44</sup> The dead man came out, his hands and feet wrapped with strips of linen, and a cloth around his face. Jesus said to them, \"Take off the grave clothes and let him go.“</span>",
+          "text": "When he had said this, Jesus called in a loud voice, \"Lazarus, come out!\"  <sup>44</sup> The dead man came out, his hands and feet wrapped with strips of linen, and a cloth around his face. Jesus said to them, \"Take off the grave clothes and let him go.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3293,12 +3345,13 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">John 11:43-44</span>",
+          "text": "John 11:43-44",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -3307,6 +3360,9 @@
             "width": 756,
             "height": 45,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -3318,7 +3374,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>John 14:26</strong><br/>But the Counselor, the Holy Spirit, whom the Father will send in my name, will teach you all things and will remind you of everything I have said to you.</span>",
+          "text": "<strong>John 14:26</strong><br>But the Counselor, the Holy Spirit, whom the Father will send in my name, will teach you all things and will remind you of everything I have said to you.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3331,14 +3387,15 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">On one occasion, while he was eating with them, he gave them this command: \"Do not leave Jerusalem, but wait for the gift my Father promised, which you have heard me speak about. <sup>5</sup> For John baptized with water, but in a few days you will be baptized with the Holy Spirit.“</span>",
+          "text": "On one occasion, while he was eating with them, he gave them this command: \"Do not leave Jerusalem, but wait for the gift my Father promised, which you have heard me speak about. <sup>5</sup> For John baptized with water, but in a few days you will be baptized with the Holy Spirit.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3350,7 +3407,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
@@ -3378,7 +3436,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Acts 2:1-4</strong></span>",
+          "text": "<strong>Acts 2:1-4</strong>",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
@@ -3392,13 +3450,14 @@
             "v_align": "middle",
             "align": "center",
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 14",
           "timing": "with",
-          "text": "<span class=\"scripture\"><sup>1</sup>When the day of Pentecost came, they were all together in one place. <sup>2</sup>Suddenly<br/>a sound like the blowing of a violent wind came from heaven and filled the whole<br/>house where they were sitting. <sup>3</sup>They saw what seemed to be tongues of fire that<br/>separated and came to rest on each of them. <br/><sup>4</sup>All of them were filled with the Holy Spirit and began to speak in other tongues <br/>as the Spirit enabled them.</span>",
+          "text": "<sup>1</sup>When the day of Pentecost came, they were all together in one place. <sup>2</sup>Suddenly<br>a sound like the blowing of a violent wind came from heaven and filled the whole<br>house where they were sitting. <sup>3</sup>They saw what seemed to be tongues of fire that<br>separated and came to rest on each of them. <br><sup>4</sup>All of them were filled with the Holy Spirit and began to speak in other tongues <br>as the Spirit enabled them.",
           "z_index": 8,
           "shape_type": "text_box",
           "layout": {
@@ -3410,13 +3469,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "TextBox 13",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>1</sup>When the day of Pentecost came, <strong>they</strong> were all together in one place. <sup>2</sup>Suddenly<br/>a sound like the blowing of a violent wind came from heaven and filled the whole<br/>house where they were sitting. <sup>3</sup>They saw what seemed to be tongues of fire that<br/>separated and came to rest on each of them. <br/><sup>4</sup>All of them were <strong>filled with the Holy Spirit</strong> and began to speak in other tongues <br/>as the Spirit enabled them.</span>",
+          "text": "<sup>1</sup>When the day of Pentecost came, <strong>they</strong> were all together in one place. <sup>2</sup>Suddenly<br>a sound like the blowing of a violent wind came from heaven and filled the whole<br>house where they were sitting. <sup>3</sup>They saw what seemed to be tongues of fire that<br>separated and came to rest on each of them. <br><sup>4</sup>All of them were <strong>filled with the Holy Spirit</strong> and began to speak in other tongues <br>as the Spirit enabled them.",
           "z_index": 10,
           "shape_type": "text_box",
           "layout": {
@@ -3429,7 +3489,8 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -3454,7 +3515,7 @@
           "sequence": 5,
           "shape_name": "Rectangle 15",
           "timing": "with",
-          "text": "<strong>The Church miraculously comes to life when the disciples receive the </strong><br/><strong>Holy Spirit. They now have the counselor and begin to plant the Seed.</strong>",
+          "text": "<strong>The Church miraculously comes to life when the disciples receive the </strong><br><strong>Holy Spirit. They now have the counselor and begin to plant the Seed.</strong>",
           "z_index": 7,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3497,7 +3558,7 @@
         {
           "shape_name": "Rectangle 8",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>1</sup>In my former book, Theophilus, I wrote about all that Jesus began to do and to teach <br/><sup>2</sup>until the day he was taken up to heaven, after giving instructions through the <br/>Holy Spirit to the apostles he had chosen. <sup>3</sup>After his suffering, he showed himself to <br/>these men and gave many convincing proofs that he was alive. He appeared to them <br/>over a period of forty days and spoke about the kingdom of God. <sup>4</sup>On one occasion, <br/>while he was eating with them, he gave them this command: \"Do not leave Jerusalem, <br/>but wait for the gift my Father promised, which you have heard me speak about. <sup>5</sup>For <br/>John baptized with water, but in a few days you will be baptized with the Holy Spirit.\"</span>",
+          "text": "<sup>1</sup>In my former book, Theophilus, I wrote about all that Jesus began to do and to teach <br><sup>2</sup>until the day he was taken up to heaven, after giving instructions through the <br>Holy Spirit to the apostles he had chosen. <sup>3</sup>After his suffering, he showed himself to <br>these men and gave many convincing proofs that he was alive. He appeared to them <br>over a period of forty days and spoke about the kingdom of God. <sup>4</sup>On one occasion, <br>while he was eating with them, he gave them this command: \"Do not leave Jerusalem, <br>but wait for the gift my Father promised, which you have heard me speak about. <sup>5</sup>For <br>John baptized with water, but in a few days you will be baptized with the Holy Spirit.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3509,7 +3570,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 9",
@@ -3578,7 +3640,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 3",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>5</sup>Now there were staying in Jerusalem<strong> God-fearing Jews</strong> from every nation under<br/>heaven. <sup>6</sup>When they heard this sound, a crowd came together in bewilderment, <br/>because each one heard them speaking in his own language.</span>",
+          "text": "<sup>5</sup>Now there were staying in Jerusalem<strong> God-fearing Jews</strong> from every nation under<br>heaven. <sup>6</sup>When they heard this sound, a crowd came together in bewilderment, <br>because each one heard them speaking in his own language.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3591,7 +3653,8 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -3624,7 +3687,7 @@
           "sequence": 3,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Acts 2:14 -17 ,41</strong></span>",
+          "text": "<strong>Acts 2:14 -17 ,41</strong>",
           "z_index": 7,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3638,13 +3701,14 @@
             "v_align": "middle",
             "align": "center",
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
           "shape_name": "Rectangle 7",
           "timing": "with",
-          "text": "<span class=\"scripture\"><sup>14</sup>Then Peter stood up with the Eleven, raised his voice and addressed the crowd: <br/>\"Fellow Jews and all of you who live in Jerusalem, let me explain this to you; listen <br/>carefully to what I say. <sup>15</sup>These men are not drunk, as you suppose. It's only nine in <br/>the morning! <sup>16</sup>No, this is what was spoken by the prophet Joel: <br/> <sup>17</sup>\" 'In the last days, God says, <br/>      I will pour out my Spirit on all people….. <br/>…. <sup>41</sup><strong>Those who accepted his message were baptized</strong>, and about three thousand <br/>were added to their number that day.<br/></span>",
+          "text": "<sup>14</sup>Then Peter stood up with the Eleven, raised his voice and addressed the crowd: <br>\"Fellow Jews and all of you who live in Jerusalem, let me explain this to you; listen <br>carefully to what I say. <sup>15</sup>These men are not drunk, as you suppose. It's only nine in <br>the morning! <sup>16</sup>No, this is what was spoken by the prophet Joel: <br> <sup>17</sup>\" 'In the last days, God says, <br>      I will pour out my Spirit on all people..... <br>.... <sup>41</sup><strong>Those who accepted his message were baptized</strong>, and about three thousand <br>were added to their number that day.<br>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3656,13 +3720,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 5,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>14</sup>Then Peter stood up with the Eleven, raised his voice and addressed the crowd: <br/>\"<strong>Fellow Jews</strong> and all of you who live in Jerusalem, let me explain this to you; listen <br/>carefully to what I say. <sup>15</sup>These men are not drunk, as you suppose. It's only nine in <br/>the morning! <sup>16</sup>No, this is what was spoken by the prophet Joel: <br/> <sup>17</sup>\" 'In the last days, God says, <br/>      I will pour out my Spirit on all people….. <br/>…. <sup>41</sup><strong>Those who accepted his message were baptized</strong>, and about three thousand <br/>were added to their number that day.</span>",
+          "text": "<sup>14</sup>Then Peter stood up with the Eleven, raised his voice and addressed the crowd: <br>\"<strong>Fellow Jews</strong> and all of you who live in Jerusalem, let me explain this to you; listen <br>carefully to what I say. <sup>15</sup>These men are not drunk, as you suppose. It's only nine in <br>the morning! <sup>16</sup>No, this is what was spoken by the prophet Joel: <br> <sup>17</sup>\" 'In the last days, God says, <br>      I will pour out my Spirit on all people..... <br>.... <sup>41</sup><strong>Those who accepted his message were baptized</strong>, and about three thousand <br>were added to their number that day.",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3675,7 +3740,8 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 6,
@@ -3705,7 +3771,7 @@
           "sequence": 7,
           "shape_name": "Rectangle 14",
           "timing": "click",
-          "text": "<strong>The disciples received the Holy Spirit miraculously to form the body. </strong><br/><strong>Then Jews preached to other Jews and added them by <em>baptism</em>.  </strong>",
+          "text": "<strong>The disciples received the Holy Spirit miraculously to form the body. </strong><br><strong>Then Jews preached to other Jews and added them by <em>baptism</em>.  </strong>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3728,7 +3794,7 @@
         {
           "shape_name": "Rectangle 2",
           "static": true,
-          "text": "<span class=\"scripture\">Acts 2:5 <em>cont...</em></span>",
+          "text": "Acts 2:5 <em>cont...</em>",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -3737,12 +3803,16 @@
             "width": 205,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 23.3,
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 3",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>5</sup>Now there were staying in Jerusalem God-fearing Jews from every nation under<br/>heaven. <sup>6</sup>When they heard this sound, a crowd came together in bewilderment, <br/>because each one heard them speaking in his own language.</span>",
+          "text": "<sup>5</sup>Now there were staying in Jerusalem God-fearing Jews from every nation under<br>heaven. <sup>6</sup>When they heard this sound, a crowd came together in bewilderment, <br>because each one heard them speaking in his own language.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3754,7 +3824,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -3765,7 +3836,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Galatians 3:24</strong>: <br/><sup>24</sup>So the law was put in charge to lead us to Christ that we might be justified by faith. <sup>25</sup>Now that faith has come, we are no longer under the supervision of the law.  <sup>26</sup>You are all sons of God through faith in Christ Jesus, <sup>27</sup>for all of you who were baptized into Christ have clothed yourselves with Christ. <sup>28</sup>There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus. <sup>29</sup><strong>If you belong to Christ, then you are Abraham's seed, and heirs according to the promise.</strong></span>",
+          "text": "<strong>Galatians 3:24</strong>: <br><sup>24</sup>So the law was put in charge to lead us to Christ that we might be justified by faith. <sup>25</sup>Now that faith has come, we are no longer under the supervision of the law.  <sup>26</sup>You are all sons of God through faith in Christ Jesus, <sup>27</sup>for all of you who were baptized into Christ have clothed yourselves with Christ. <sup>28</sup>There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus. <sup>29</sup><strong>If you belong to Christ, then you are Abraham's seed, and heirs according to the promise.</strong>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3777,13 +3848,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1 Corinthians 12:13</strong><br/> For we were all baptized by one Spirit into one body — whether Jews or Greeks, slave or free — and we were all given the one Spirit to drink.</span>",
+          "text": "<strong>1 Corinthians 12:13</strong><br> For we were all baptized by one Spirit into one body -- whether Jews or Greeks, slave or free -- and we were all given the one Spirit to drink.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3795,13 +3867,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "What does Christ’s doctrine (seed / message) on Baptism sound like?",
+          "text": "What does Christ's doctrine (seed / message) on Baptism sound like?",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
@@ -3822,7 +3895,7 @@
           "sequence": 4,
           "shape_name": "TextBox 6",
           "timing": "click",
-          "text": "<strong>Holy Spirit == Gift == Baptism == “You <u>must</u> be born again” == Seed</strong>",
+          "text": "<strong>Holy Spirit == Gift == Baptism == \"You <u>must</u> be born again\" == Seed</strong>",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
@@ -4151,7 +4224,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Peter replied, \"Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit. <sup>39</sup>The promise is for you and your children and for all who are far off—for all whom the Lord our God will call.\" <br/> <sup>40</sup>With many other words he warned them; and he pleaded with them, \"Save yourselves from this corrupt generation.\" <sup>41</sup><strong>Those <u>who accepted his message were baptized</u></strong>, and about three thousand were added to their number that day.</span>",
+          "text": "Peter replied, \"Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit. <sup>39</sup>The promise is for you and your children and for all who are far off--for all whom the Lord our God will call.\" <br> <sup>40</sup>With many other words he warned them; and he pleaded with them, \"Save yourselves from this corrupt generation.\" <sup>41</sup><strong>Those <u>who accepted his message were baptized</u></strong>, and about three thousand were added to their number that day.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4163,7 +4236,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 9",
@@ -4193,7 +4267,7 @@
           "sequence": 1,
           "shape_name": "TextBox 8",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>15</sup>\"As I began to speak, the Holy Spirit came on them as he had come on us at the beginning. <sup>16</sup>Then I remembered what the Lord had said: 'John baptized with water, but you will be baptized with the Holy Spirit.' <sup>17</sup>So if God gave them the same gift as he gave us, who believed in the Lord Jesus Christ, who was I to think that I could oppose God?\" <sup>18</sup>When they heard this, they had no further objections and praised God, saying, \"So then, <strong>God has granted even the Gentiles repentance unto life.</strong>\"</span>",
+          "text": "<sup>15</sup>\"As I began to speak, the Holy Spirit came on them as he had come on us at the beginning. <sup>16</sup>Then I remembered what the Lord had said: 'John baptized with water, but you will be baptized with the Holy Spirit.' <sup>17</sup>So if God gave them the same gift as he gave us, who believed in the Lord Jesus Christ, who was I to think that I could oppose God?\" <sup>18</sup>When they heard this, they had no further objections and praised God, saying, \"So then, <strong>God has granted even the Gentiles repentance unto life.</strong>\"",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
@@ -4205,13 +4279,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 7",
           "timing": "with",
-          "text": "<span class=\"scripture\">The apostles and the brothers throughout Judea heard that the Gentiles also had received the word of God. <sup>2</sup>So when Peter went up to Jerusalem, <strong>the circumcised believers criticized him</strong> <sup>3</sup>and said, \"You went into the house of uncircumcised men and ate with them.” <sup>4</sup>Peter began and explained everything to them precisely as it had happened…..</span>",
+          "text": "The apostles and the brothers throughout Judea heard that the Gentiles also had received the word of God. <sup>2</sup>So when Peter went up to Jerusalem, <strong>the circumcised believers criticized him</strong> <sup>3</sup>and said, \"You went into the house of uncircumcised men and ate with them.\" <sup>4</sup>Peter began and explained everything to them precisely as it had happened.....",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -4223,13 +4298,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 6",
           "timing": "with",
-          "text": "<span class=\"scripture\"><strong>Acts 11:1-18</strong></span>",
+          "text": "<strong>Acts 11:1-18</strong>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4238,7 +4314,8 @@
             "width": 173,
             "height": 40,
             "rotation": 0
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -4263,7 +4340,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">Then Peter began to speak: \"I now realize how true it is that God does not show favoritism <sup>35</sup>but accepts men from every nation who fear him and do what is right. <sup>36</sup>.…......<br/> <sup>44</sup>While Peter was still speaking these words, <strong>the Holy Spirit came on all who heard the message.</strong> <sup>45</sup><strong>The circumcised believers who had come with Peter were astonished that the gift of the Holy Spirit had been poured out even on the Gentiles.</strong> <sup>46</sup>For they heard them speaking in tongues and praising God.<br/> Then Peter said, <sup>47</sup>\"Can anyone keep these people from being baptized with water? <strong>They have received the Holy Spirit just as we have</strong>.\" <sup>48</sup>So he ordered that they be baptized in the name of Jesus Christ. Then they asked Peter to stay with them for a few days.<br/></span>",
+          "text": "Then Peter began to speak: \"I now realize how true it is that God does not show favoritism <sup>35</sup>but accepts men from every nation who fear him and do what is right. <sup>36</sup>..........<br> <sup>44</sup>While Peter was still speaking these words, <strong>the Holy Spirit came on all who heard the message.</strong> <sup>45</sup><strong>The circumcised believers who had come with Peter were astonished that the gift of the Holy Spirit had been poured out even on the Gentiles.</strong> <sup>46</sup>For they heard them speaking in tongues and praising God.<br> Then Peter said, <sup>47</sup>\"Can anyone keep these people from being baptized with water? <strong>They have received the Holy Spirit just as we have</strong>.\" <sup>48</sup>So he ordered that they be baptized in the name of Jesus Christ. Then they asked Peter to stay with them for a few days.<br>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4275,7 +4352,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -4286,7 +4364,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">While Apollos was at Corinth, Paul took the road through the interior and arrived at Ephesus. There he found some disciples <sup>2</sup>and asked them, <strong>\"Did you receive the Holy Spirit when you believed?\" </strong><br/>      They answered, \"No, we have not even heard that there is a Holy Spirit.\"  <sup>3</sup>So Paul asked, \"Then what baptism did you receive?\" <br/>      \"John's baptism,\" they replied. <br/> <sup>4</sup>Paul said, \"John's baptism was a baptism of repentance. He told the people to believe in the one coming after him, that is, in Jesus.\" <sup>5</sup>On hearing this, they were<strong> baptized into the name</strong> of the Lord Jesus.</span>",
+          "text": "While Apollos was at Corinth, Paul took the road through the interior and arrived at Ephesus. There he found some disciples <sup>2</sup>and asked them, <strong>\"Did you receive the Holy Spirit when you believed?\" </strong><br>      They answered, \"No, we have not even heard that there is a Holy Spirit.\"  <sup>3</sup>So Paul asked, \"Then what baptism did you receive?\" <br>      \"John's baptism,\" they replied. <br> <sup>4</sup>Paul said, \"John's baptism was a baptism of repentance. He told the people to believe in the one coming after him, that is, in Jesus.\" <sup>5</sup>On hearing this, they were<strong> baptized into the name</strong> of the Lord Jesus.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4298,12 +4376,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Acts 19:1-5</span>",
+          "text": "Acts 19:1-5",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4312,6 +4391,9 @@
             "width": 778,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -4323,7 +4405,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Genesis 25:23</strong><br/>The LORD said to her, \"Two nations are in your womb, and two peoples from within you will be separated; one people will be stronger than the other, and the older will serve the younger.“</span>",
+          "text": "<strong>Genesis 25:23</strong><br>The LORD said to her, \"Two nations are in your womb, and two peoples from within you will be separated; one people will be stronger than the other, and the older will serve the younger.\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4336,7 +4418,8 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -4364,7 +4447,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Romans 8:5-8</span>",
+          "text": "Romans 8:5-8",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4373,12 +4456,15 @@
             "width": 756,
             "height": 45,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         },
         {
           "shape_name": "TextBox 4",
           "static": true,
-          "text": "<span class=\"scripture\">Those who live according to the sinful nature have their minds set on what that nature desires; but those who live in accordance with the Spirit have their minds set on what the Spirit desires. <sup>6</sup>The mind of sinful man is death, but the mind controlled by the Spirit is life and peace; <sup>7</sup>the sinful mind is hostile to God. It <strong>does not submit to God's law</strong>, nor can it do so. <sup>8</sup><strong>Those controlled by the sinful nature cannot please God. </strong></span>",
+          "text": "Those who live according to the sinful nature have their minds set on what that nature desires; but those who live in accordance with the Spirit have their minds set on what the Spirit desires. <sup>6</sup>The mind of sinful man is death, but the mind controlled by the Spirit is life and peace; <sup>7</sup>the sinful mind is hostile to God. It <strong>does not submit to God's law</strong>, nor can it do so. <sup>8</sup><strong>Those controlled by the sinful nature cannot please God. </strong>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -4390,7 +4476,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -4442,7 +4529,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "<span class=\"scripture\">So it is written: <br/>\"<strong>The first man Adam became a living being”</strong><br/><strong>the last Adam, a life-giving spirit.</strong> <br/><sup>46</sup>The spiritual did not come first, but the <br/>natural, and after that the spiritual. <br/><sup>47</sup><strong>The first man was of the dust of the earth,</strong><br/><strong> the second man from heaven.</strong> <br/><sup>48</sup>As was the earthly man, so are those who <br/>are of the earth; and as is the man from heaven,<br/>so also are those who are of heaven. <sup>49</sup>And <br/>just as we have borne the likeness of the <br/>earthly man, so shall we bear the likeness <br/>of the man from heaven.</span>",
+          "text": "So it is written: <br>\"<strong>The first man Adam became a living being\"</strong><br><strong>the last Adam, a life-giving spirit.</strong> <br><sup>46</sup>The spiritual did not come first, but the <br>natural, and after that the spiritual. <br><sup>47</sup><strong>The first man was of the dust of the earth,</strong><br><strong> the second man from heaven.</strong> <br><sup>48</sup>As was the earthly man, so are those who <br>are of the earth; and as is the man from heaven,<br>so also are those who are of heaven. <sup>49</sup>And <br>just as we have borne the likeness of the <br>earthly man, so shall we bear the likeness <br>of the man from heaven.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4455,14 +4542,15 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">1 Corinthians 15:45-49</span>",
+          "text": "1 Corinthians 15:45-49",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4471,12 +4559,15 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">So it is written: <br/>\"The first man Adam became a living being”<br/>the last Adam, a life-giving spirit. <br/><sup>46</sup>The spiritual did not come first, but the <br/>natural, and after that the spiritual. <br/><sup>47</sup>The first man was of the dust of the earth,<br/> the second man from heaven. <br/><sup>48</sup>As was the earthly man, so are those who <br/>are of the earth; and as is the man from heaven,<br/>so also are those who are of heaven. <sup>49</sup>And <br/>just as we have borne the likeness of the <br/>earthly man, so shall we bear the likeness <br/>of the man from heaven.</span>",
+          "text": "So it is written: <br>\"The first man Adam became a living being\"<br>the last Adam, a life-giving spirit. <br><sup>46</sup>The spiritual did not come first, but the <br>natural, and after that the spiritual. <br><sup>47</sup>The first man was of the dust of the earth,<br> the second man from heaven. <br><sup>48</sup>As was the earthly man, so are those who <br>are of the earth; and as is the man from heaven,<br>so also are those who are of heaven. <sup>49</sup>And <br>just as we have borne the likeness of the <br>earthly man, so shall we bear the likeness <br>of the man from heaven.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4488,7 +4579,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -4499,7 +4591,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "<span class=\"scripture\">So it is written: <br/>\"<strong>The first man Adam became a living being”</strong><br/><strong>the last Adam, a life-giving spirit.</strong> <br/><sup>46</sup>The spiritual did not come first, but the <br/>natural, and after that the spiritual. <br/><sup>47</sup><strong>The first man was of the dust of the earth,</strong><br/><strong> the second man from heaven.</strong> <br/><sup>48</sup>As was the earthly man, so are those who <br/>are of the earth; and as is the man from heaven,<br/>so also are those who are of heaven. <sup>49</sup>And <br/>just as we have borne the likeness of the <br/>earthly man, so shall we bear the likeness <br/>of the man from heaven.</span>",
+          "text": "So it is written: <br>\"<strong>The first man Adam became a living being\"</strong><br><strong>the last Adam, a life-giving spirit.</strong> <br><sup>46</sup>The spiritual did not come first, but the <br>natural, and after that the spiritual. <br><sup>47</sup><strong>The first man was of the dust of the earth,</strong><br><strong> the second man from heaven.</strong> <br><sup>48</sup>As was the earthly man, so are those who <br>are of the earth; and as is the man from heaven,<br>so also are those who are of heaven. <sup>49</sup>And <br>just as we have borne the likeness of the <br>earthly man, so shall we bear the likeness <br>of the man from heaven.",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4512,7 +4604,8 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
@@ -4537,7 +4630,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">So it is written: <br/>\"The first man Adam became a living being”<br/>the last Adam, a life-giving spirit. <br/><sup>46</sup>The spiritual did not come first, but the <br/>natural, and after that the spiritual. <br/><sup>47</sup>The first man was of the dust of the earth,<br/> the second man from heaven. <br/><sup>48</sup>As was the earthly man, so are those who <br/>are of the earth; and as is the man from heaven,<br/>so also are those who are of heaven. <sup>49</sup>And <br/>just as we have borne the likeness of the <br/>earthly man, so shall we bear the likeness <br/>of the man from heaven.</span>",
+          "text": "So it is written: <br>\"The first man Adam became a living being\"<br>the last Adam, a life-giving spirit. <br><sup>46</sup>The spiritual did not come first, but the <br>natural, and after that the spiritual. <br><sup>47</sup>The first man was of the dust of the earth,<br> the second man from heaven. <br><sup>48</sup>As was the earthly man, so are those who <br>are of the earth; and as is the man from heaven,<br>so also are those who are of heaven. <sup>49</sup>And <br>just as we have borne the likeness of the <br>earthly man, so shall we bear the likeness <br>of the man from heaven.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4549,7 +4642,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
@@ -4578,7 +4672,7 @@
         {
           "shape_name": "TextBox 5",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>1 Corinthians 15:45-49</strong></span>",
+          "text": "<strong>1 Corinthians 15:45-49</strong>",
           "z_index": 4,
           "shape_type": "text_box",
           "layout": {
@@ -4592,7 +4686,8 @@
             "wrap": true,
             "align": "center",
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 5",
@@ -4656,7 +4751,7 @@
           "sequence": 1,
           "shape_name": "TextBox 7",
           "timing": "click",
-          "text": "<span class=\"scripture\"><sup>1</sup>I hope you will put up with a little of my foolishness; but you are already doing that. <sup>2</sup>I am jealous for you with a godly jealousy. I <strong>promised you to one husband, to Christ</strong>, so that I might present you as a pure virgin to him.</span>",
+          "text": "<sup>1</sup>I hope you will put up with a little of my foolishness; but you are already doing that. <sup>2</sup>I am jealous for you with a godly jealousy. I <strong>promised you to one husband, to Christ</strong>, so that I might present you as a pure virgin to him.",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -4668,13 +4763,14 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 10",
           "timing": "with",
-          "text": "<span class=\"scripture\"><strong>2 Corinthians 11:2-4</strong></span>",
+          "text": "<strong>2 Corinthians 11:2-4</strong>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -4687,14 +4783,15 @@
           "font": {
             "v_align": "middle",
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "TextBox 9",
           "static": true,
-          "text": "<span class=\"scripture\"><sup>29</sup>After all, no one ever hated his own body, but he feeds and cares for it, just as Christ does the church— <sup>30</sup>for we are members of his body. <sup>31</sup>\"For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh.\" <sup>32</sup>This is a profound mystery—but I am talking about Christ and the church.</span>",
+          "text": "<sup>29</sup>After all, no one ever hated his own body, but he feeds and cares for it, just as Christ does the church-- <sup>30</sup>for we are members of his body. <sup>31</sup>\"For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh.\" <sup>32</sup>This is a profound mystery--but I am talking about Christ and the church.",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -4706,7 +4803,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
@@ -4724,7 +4822,7 @@
         {
           "shape_name": "Title 1",
           "static": true,
-          "text": "<span class=\"scripture\">Ephesians 5:29-32</span>",
+          "text": "Ephesians 5:29-32",
           "z_index": 4,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4733,6 +4831,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -4761,7 +4862,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "<span class=\"scripture\">Therefore, remember that formerly you who are<strong> Gentiles by birth</strong> and called \"uncircumcised\" by those who call themselves \"the circumcision\" (that done in the body by the hands of men)— <sup>12 </sup>remember that at that time <strong>you were separate from Christ, excluded from citizenship in Israel </strong>and foreigners to the covenants of the promise, without hope and without God in the world. <sup>13</sup>But now in Christ Jesus you who once were far away have been brought near through the blood of Christ.  <sup>14</sup>For he himself is our peace, who has made the two one and has destroyed the barrier, the dividing wall of hostility, <sup>15</sup>by abolishing in his flesh the law with its commandments and regulations. <strong>His purpose was to create in himself one new man out of the two, thus making peace,</strong> <sup>16</sup>and in this one body to reconcile both of them to God through the cross, by which he put to death their hostility.</span>",
+          "text": "Therefore, remember that formerly you who are<strong> Gentiles by birth</strong> and called \"uncircumcised\" by those who call themselves \"the circumcision\" (that done in the body by the hands of men)-- <sup>12 </sup>remember that at that time <strong>you were separate from Christ, excluded from citizenship in Israel </strong>and foreigners to the covenants of the promise, without hope and without God in the world. <sup>13</sup>But now in Christ Jesus you who once were far away have been brought near through the blood of Christ.  <sup>14</sup>For he himself is our peace, who has made the two one and has destroyed the barrier, the dividing wall of hostility, <sup>15</sup>by abolishing in his flesh the law with its commandments and regulations. <strong>His purpose was to create in himself one new man out of the two, thus making peace,</strong> <sup>16</sup>and in this one body to reconcile both of them to God through the cross, by which he put to death their hostility.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4773,7 +4874,8 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -4784,7 +4886,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Wives, submit to your husbands as to the Lord. <sup>23</sup>For the husband is the head of the wife as <strong>Christ is the head of the church</strong>, his body, of which he is the Savior. <sup>24</sup>Now as the <strong>church submits to Christ</strong>, so also wives should submit to their husbands in everything.</span>",
+          "text": "Wives, submit to your husbands as to the Lord. <sup>23</sup>For the husband is the head of the wife as <strong>Christ is the head of the church</strong>, his body, of which he is the Savior. <sup>24</sup>Now as the <strong>church submits to Christ</strong>, so also wives should submit to their husbands in everything.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4796,12 +4898,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Ephesians 5:22-24</span>",
+          "text": "Ephesians 5:22-24",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4810,6 +4913,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -4821,7 +4927,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">Now faith is being sure of what we hope for and <u>certain of what we do not see</u>. <sup>2</sup> This is what the ancients were <br/>commended for.</span>",
+          "text": "Now faith is being sure of what we hope for and <u>certain of what we do not see</u>. <sup>2</sup> This is what the ancients were <br>commended for.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4834,13 +4940,14 @@
           "fill": "#F4F4F4",
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 1",
           "timing": "with",
-          "text": "<em>Being certain of what is not seen means you are spiritually minded; a Jacob type of individual</em><br/><em>[Noah, Abraham, Isaac, Jacob, Moses, etc.]</em><br/>",
+          "text": "<em>Being certain of what is not seen means you are spiritually minded; a Jacob type of individual</em><br><em>[Noah, Abraham, Isaac, Jacob, Moses, etc.]</em><br>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -4862,7 +4969,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Now faith is being sure of what we hope for and certain of what we do not see. <sup>2</sup> This is what the ancients were <br/>commended for.</span>",
+          "text": "Now faith is being sure of what we hope for and certain of what we do not see. <sup>2</sup> This is what the ancients were <br>commended for.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4874,12 +4981,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 11:1-2</span>",
+          "text": "Hebrews 11:1-2",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4888,6 +4996,10 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "font_size": 39.2,
+            "bold": true
           }
         }
       ]
@@ -4899,7 +5011,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">See that no one is sexually immoral, or is godless like Esau, who for a single meal sold his inheritance rights as the oldest son. <sup>17</sup> Afterward, as you know, when he wanted to inherit this blessing, he was rejected. He could bring about no change of mind, though he sought the blessing with tears.</span>",
+          "text": "See that no one is sexually immoral, or is godless like Esau, who for a single meal sold his inheritance rights as the oldest son. <sup>17</sup> Afterward, as you know, when he wanted to inherit this blessing, he was rejected. He could bring about no change of mind, though he sought the blessing with tears.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4911,12 +5023,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Hebrews 12:16-17</span>",
+          "text": "Hebrews 12:16-17",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -4925,12 +5038,15 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "Just as it is written: \"Jacob I loved, but Esau I hated.“",
+          "text": "Just as it is written: \"Jacob I loved, but Esau I hated.\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4974,7 +5090,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>1 Corinthians 7:19 </strong><br/>Circumcision is nothing and uncircumcision is nothing. Keeping God's commands is what counts.</span>",
+          "text": "<strong>1 Corinthians 7:19 </strong><br>Circumcision is nothing and uncircumcision is nothing. Keeping God's commands is what counts.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4987,13 +5103,14 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Romans 2:28-29 </strong><br/>A man is not a Jew if he is only one outwardly, nor is circumcision merely outward and physical. <sup>29</sup> No, a man is a Jew if he is one inwardly; and circumcision is circumcision of the heart, by the Spirit, not by the written code. Such a man's praise is not from men, but from God.</span>",
+          "text": "<strong>Romans 2:28-29 </strong><br>A man is not a Jew if he is only one outwardly, nor is circumcision merely outward and physical. <sup>29</sup> No, a man is a Jew if he is one inwardly; and circumcision is circumcision of the heart, by the Spirit, not by the written code. Such a man's praise is not from men, but from God.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5006,14 +5123,15 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Jeremiah 9:25-26</strong><br/>\"The days are coming,\" declares the LORD, \"when I will punish all who are circumcised only in the flesh — <sup> 26</sup> Egypt, Judah, Edom, Ammon, Moab and all who live in the desert in distant places. For all these nations are really uncircumcised, and even the whole house of Israel is uncircumcised in heart.“</span>",
+          "text": "<strong>Jeremiah 9:25-26</strong><br>\"The days are coming,\" declares the LORD, \"when I will punish all who are circumcised only in the flesh -- <sup> 26</sup> Egypt, Judah, Edom, Ammon, Moab and all who live in the desert in distant places. For all these nations are really uncircumcised, and even the whole house of Israel is uncircumcised in heart.\"",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5026,7 +5144,8 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 8",
@@ -5055,7 +5174,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">In him you were also circumcised, in the putting off of the sinful nature, not with a circumcision done by the hands of men but with the circumcision done by Christ, <sup>12</sup>having been buried with him in baptism and raised with him through your faith in the power of God, who raised him from the dead. <br/> <sup>13</sup>When you were dead in your sins and in the uncircumcision of your sinful nature, God made you<br/>alive with Christ. He forgave us all our sins, <sup>14</sup>having canceled the written code, with its regulations, that was against us and that stood opposed to us; he took it away, nailing it to the cross.</span>",
+          "text": "In him you were also circumcised, in the putting off of the sinful nature, not with a circumcision done by the hands of men but with the circumcision done by Christ, <sup>12</sup>having been buried with him in baptism and raised with him through your faith in the power of God, who raised him from the dead. <br> <sup>13</sup>When you were dead in your sins and in the uncircumcision of your sinful nature, God made you<br>alive with Christ. He forgave us all our sins, <sup>14</sup>having canceled the written code, with its regulations, that was against us and that stood opposed to us; he took it away, nailing it to the cross.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5067,12 +5186,13 @@
           },
           "font": {
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "<span class=\"scripture\">Colossians 2:11-14</span>",
+          "text": "Colossians 2:11-14",
           "z_index": 1,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -5081,6 +5201,9 @@
             "width": 756,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -5092,7 +5215,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "<span class=\"scripture\"><strong>Revelation 20:6: </strong><br/>Blessed and holy are those who have part in the first resurrection. The second death has no power over them, but they will be priests of God and of Christ and will reign with him for a thousand years. <sub>(NIV)</sub></span>",
+          "text": "<strong>Revelation 20:6: </strong><br>Blessed and holy are those who have part in the first resurrection. The second death has no power over them, but they will be priests of God and of Christ and will reign with him for a thousand years. <sub>(NIV)</sub>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5105,7 +5228,8 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
@@ -5133,7 +5257,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">For there are three that testify:<sup> 8</sup> the Spirit, the water and the blood; and the three are in agreement. <sub>(NIV)</sub></span>",
+          "text": "For there are three that testify:<sup> 8</sup> the Spirit, the water and the blood; and the three are in agreement. <sub>(NIV)</sub>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5146,12 +5270,13 @@
           "font": {
             "color": "#000000",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">1 John 5:7-8</span>",
+          "text": "1 John 5:7-8",
           "z_index": 2,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -5160,6 +5285,9 @@
             "width": 491,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         }
       ]
@@ -5171,7 +5299,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\">What use is it, my brethren, if someone says he has faith but he has no works? Can that faith save him? <sup>15</sup> If a brother or sister is without clothing and in need of daily food,<sup>16</sup> and one of you says to them, “Go in peace, be warmed and be filled,” and yet you do not give them what is necessary for their body, what use is that? <br/><sup>17</sup> <u>Even so faith, if it has no works, is dead, being by itself.</u><br/><sup>18</sup> But someone may well say, “You have faith and I have works; show me your faith without the works, and I will show you my faith by my works.” <sup>19</sup> You believe that God is one. You do well; the demons also believe, and shudder. <br/><sup>20</sup> But are you willing to recognize, you foolish fellow, that faith without works is useless? <sup>21</sup> Was not Abraham our father justified by works when he offered up Isaac his son on the altar? <sup>22</sup> You see that faith was working with his works, and <u>as a result of the works, faith was perfected</u>; <sup>23</sup> and the Scripture was fulfilled which says, “And Abraham believed God, and it was reckoned to him as righteousness,” and he was called the friend of God. <sup>24</sup> You see that a man is justified by works and not by faith alone.</span>",
+          "text": "What use is it, my brethren, if someone says he has faith but he has no works? Can that faith save him? <sup>15</sup> If a brother or sister is without clothing and in need of daily food,<sup>16</sup> and one of you says to them, \"Go in peace, be warmed and be filled,\" and yet you do not give them what is necessary for their body, what use is that? <br><sup>17</sup> <u>Even so faith, if it has no works, is dead, being by itself.</u><br><sup>18</sup> But someone may well say, \"You have faith and I have works; show me your faith without the works, and I will show you my faith by my works.\" <sup>19</sup> You believe that God is one. You do well; the demons also believe, and shudder. <br><sup>20</sup> But are you willing to recognize, you foolish fellow, that faith without works is useless? <sup>21</sup> Was not Abraham our father justified by works when he offered up Isaac his son on the altar? <sup>22</sup> You see that faith was working with his works, and <u>as a result of the works, faith was perfected</u>; <sup>23</sup> and the Scripture was fulfilled which says, \"And Abraham believed God, and it was reckoned to him as righteousness,\" and he was called the friend of God. <sup>24</sup> You see that a man is justified by works and not by faith alone.",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5185,13 +5313,14 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "Clearly some works are necessary in addition to belief: <br/>God instructs us to be baptized – faith is “perfected” when we follow through.<br/><u>This instruction is part the one true seed. </u>",
+          "text": "Clearly some works are necessary in addition to belief: <br>God instructs us to be baptized - faith is \"perfected\" when we follow through.<br><u>This instruction is part the one true seed. </u>",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -5230,7 +5359,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">What use is it, my brethren, if someone says he has faith but he has no works? Can that faith save him? <sup>15</sup> If a brother or sister is without clothing and in need of daily food,<sup>16</sup> and one of you says to them, “Go in peace, be warmed and be filled,” and yet you do not give them what is necessary for their body, what use is that? <br/><sup>17</sup> Even so faith, if it has no works, is dead, being by itself.<br/><sup>18</sup> But someone may well say, “You have faith and I have works; show me your faith without the works, and I will show you my faith by my works.” <sup>19</sup> You believe that God is one. You do well; the demons also believe, and shudder. <br/><sup>20</sup> But are you willing to recognize, you foolish fellow, that faith without works is useless? <sup>21</sup> Was not Abraham our father justified by works when he offered up Isaac his son on the altar? <sup>22</sup> You see that faith was working with his works, and as a result of the works, faith was perfected; <sup>23</sup> and the Scripture was fulfilled which says, “And Abraham believed God, and it was reckoned to him as righteousness,” and he was called the friend of God. <sup>24</sup> You see that a man is justified by works and not by faith alone.</span>",
+          "text": "What use is it, my brethren, if someone says he has faith but he has no works? Can that faith save him? <sup>15</sup> If a brother or sister is without clothing and in need of daily food,<sup>16</sup> and one of you says to them, \"Go in peace, be warmed and be filled,\" and yet you do not give them what is necessary for their body, what use is that? <br><sup>17</sup> Even so faith, if it has no works, is dead, being by itself.<br><sup>18</sup> But someone may well say, \"You have faith and I have works; show me your faith without the works, and I will show you my faith by my works.\" <sup>19</sup> You believe that God is one. You do well; the demons also believe, and shudder. <br><sup>20</sup> But are you willing to recognize, you foolish fellow, that faith without works is useless? <sup>21</sup> Was not Abraham our father justified by works when he offered up Isaac his son on the altar? <sup>22</sup> You see that faith was working with his works, and as a result of the works, faith was perfected; <sup>23</sup> and the Scripture was fulfilled which says, \"And Abraham believed God, and it was reckoned to him as righteousness,\" and he was called the friend of God. <sup>24</sup> You see that a man is justified by works and not by faith alone.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5244,7 +5373,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -5255,7 +5385,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "<span class=\"scripture\"><u>Because you are sons</u>, God has sent forth <u>the Spirit of His Son into our hearts</u>, crying, “Abba! Father!” <sup>7</sup> Therefore you are no longer a slave, but a son; and if a son, then an heir through God. <em>[birthright/inheritance]</em><br/><sup>8</sup> However at that time, when you did not know God, you were slaves to those which by nature are no gods. <sup>9</sup> But now that you have come to know God, <u>or rather to be known by God</u></span>",
+          "text": "<u>Because you are sons</u>, God has sent forth <u>the Spirit of His Son into our hearts</u>, crying, \"Abba! Father!\" <sup>7</sup> Therefore you are no longer a slave, but a son; and if a son, then an heir through God. <em>[birthright/inheritance]</em><br><sup>8</sup> However at that time, when you did not know God, you were slaves to those which by nature are no gods. <sup>9</sup> But now that you have come to know God, <u>or rather to be known by God</u>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5270,13 +5400,14 @@
             "wrap": true,
             "underline": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "TextBox 1",
           "timing": "click",
-          "text": "<u>God knows his sons.</u> <br/>If in the end he doesn’t know you, its because you were not born by his word/son/seed.",
+          "text": "<u>God knows his sons.</u> <br>If in the end he doesn't know you, its because you were not born by his word/son/seed.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -5299,7 +5430,7 @@
         {
           "shape_name": "Rectangle 7",
           "static": true,
-          "text": "<span class=\"scripture\">Galatians 4:6-9</span>",
+          "text": "Galatians 4:6-9",
           "z_index": 0,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -5308,12 +5439,15 @@
             "width": 491,
             "height": 44,
             "rotation": 0
+          },
+          "font": {
+            "bold": true
           }
         },
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "<span class=\"scripture\">Because you are sons, God has sent forth the Spirit of His Son into our hearts, crying, “Abba! Father!” <sup>7</sup> Therefore you are no longer a slave, but a son; and if a son, then an heir through God.<br/><sup>8</sup> However at that time, when you did not know God, you were slaves to those which by nature are no gods. <sup>9</sup> But now that you have come to know God, or rather to be known by God</span>",
+          "text": "Because you are sons, God has sent forth the Spirit of His Son into our hearts, crying, \"Abba! Father!\" <sup>7</sup> Therefore you are no longer a slave, but a son; and if a son, then an heir through God.<br><sup>8</sup> However at that time, when you did not know God, you were slaves to those which by nature are no gods. <sup>9</sup> But now that you have come to know God, or rather to be known by God",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -5327,7 +5461,8 @@
           "font": {
             "wrap": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ]
     }
@@ -5339,7 +5474,7 @@
         {
           "sequence": 1,
           "shape_name": "Text Box 7",
-          "text": "<span class=\"scripture\"><strong>Hebrews 12:16-17</strong></span>",
+          "text": "<strong>Hebrews 12:16-17</strong>",
           "timing": "click",
           "z_index": 51,
           "shape_type": "text_box",
@@ -5351,7 +5486,9 @@
             "rotation": 0
           },
           "font": {
-            "align": "center"
+            "align": "center",
+            "font_size": 20.0,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -5362,7 +5499,7 @@
         {
           "sequence": 2,
           "shape_name": "Text Box 8",
-          "text": "<strong><em>“godless and immoral” </em></strong><br/><em>what was so bad about Esau?</em>",
+          "text": "<strong><em>\"godless and immoral\" </em></strong><br><em>what was so bad about Esau?</em>",
           "timing": "click",
           "z_index": 4,
           "shape_type": "text_box",
@@ -5388,7 +5525,7 @@
         {
           "sequence": 3,
           "shape_name": "TextBox 104",
-          "text": "<span class=\"scripture\"><strong>Romans 8:5-8, Genesis 25:23</strong></span>",
+          "text": "<strong>Romans 8:5-8, Genesis 25:23</strong>",
           "timing": "click",
           "z_index": 52,
           "shape_type": "text_box",
@@ -5401,7 +5538,9 @@
           },
           "font": {
             "wrap": true,
-            "align": "center"
+            "align": "center",
+            "font_size": 20.0,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -5412,7 +5551,7 @@
         {
           "sequence": 4,
           "shape_name": "Text Box 40",
-          "text": "<span class=\"scripture\"><strong>John 3:3-7</strong></span>",
+          "text": "<strong>John 3:3-7</strong>",
           "timing": "click",
           "z_index": 92,
           "shape_type": "text_box",
@@ -5426,6 +5565,8 @@
           "font": {
             "v_align": "middle",
             "align": "center",
+            "font_size": 23.3,
+            "bold": true,
             "color": "#0000FF"
           },
           "hyperlink": {
@@ -5501,7 +5642,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 40",
-          "text": "<em>“Flesh gives birth to flesh”</em>",
+          "text": "<em>\"Flesh gives birth to flesh\"</em>",
           "timing": "with",
           "z_index": 87,
           "shape_type": "text_box",
@@ -5549,7 +5690,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 40",
-          "text": "<em>“Spirit gives birth to spirit”</em>",
+          "text": "<em>\"Spirit gives birth to spirit\"</em>",
           "timing": "with",
           "z_index": 88,
           "shape_type": "text_box",
@@ -5812,7 +5953,7 @@
         {
           "sequence": 21,
           "shape_name": "Text Box 20",
-          "text": "<strong>Fed by</strong> <br/><strong>Woman</strong>",
+          "text": "<strong>Fed by</strong> <br><strong>Woman</strong>",
           "timing": "click",
           "z_index": 24,
           "shape_type": "text_box",
@@ -5956,7 +6097,7 @@
         {
           "sequence": 28,
           "shape_name": "Text Box 43",
-          "text": "How do \nyou know\nwhich family \nthis baby \nbelongs to?",
+          "text": "How do <br>you know<br>which family <br>this baby <br>belongs to?",
           "timing": "click",
           "z_index": 16,
           "shape_type": "text_box",
@@ -5976,7 +6117,7 @@
         {
           "sequence": 29,
           "shape_name": "Text Box 29",
-          "text": "<strong>Seed,</strong><br/><strong>Body</strong>",
+          "text": "<strong>Seed,</strong><br><strong>Body</strong>",
           "timing": "click",
           "z_index": 26,
           "shape_type": "text_box",
@@ -6214,7 +6355,7 @@
         {
           "sequence": 37,
           "shape_name": "Text Box 40",
-          "text": "<span class=\"scripture\">Eph. 5:29, 2 Cor. 11: 2</span>",
+          "text": "Eph. 5:29, 2 Cor. 11: 2",
           "timing": "with",
           "z_index": 81,
           "shape_type": "text_box",
@@ -6228,6 +6369,7 @@
           "font": {
             "v_align": "middle",
             "align": "center",
+            "font_size": 10.0,
             "color": "#0000FF"
           },
           "hyperlink": {
@@ -6611,7 +6753,7 @@
         {
           "sequence": 50,
           "shape_name": "Text Box 34",
-          "text": "<strong>Fed by </strong><br/><strong>Church</strong>",
+          "text": "<strong>Fed by </strong><br><strong>Church</strong>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -6738,7 +6880,7 @@
         {
           "sequence": 55,
           "shape_name": "Text Box 40",
-          "text": "Acts 2:38, Gal. 2:24, \n1Cor. 12:13",
+          "text": "Acts 2:38, Gal. 2:24, <br>1Cor. 12:13",
           "timing": "with",
           "z_index": 100,
           "shape_type": "text_box",
@@ -6838,7 +6980,7 @@
         {
           "sequence": 60,
           "shape_name": "Text Box 44",
-          "text": "How do \nyou know\nwhich family \nthis baby \nbelongs to?",
+          "text": "How do <br>you know<br>which family <br>this baby <br>belongs to?",
           "timing": "click",
           "z_index": 17,
           "shape_type": "text_box",
@@ -6858,7 +7000,7 @@
         {
           "sequence": 61,
           "shape_name": "Text Box 29",
-          "text": "<strong>Seed,</strong><br/><strong>Body</strong>",
+          "text": "<strong>Seed,</strong><br><strong>Body</strong>",
           "timing": "click",
           "z_index": 11,
           "shape_type": "text_box",
@@ -7047,7 +7189,7 @@
         {
           "sequence": 68,
           "shape_name": "TextBox 98",
-          "text": "<span class=\"scripture\"><strong><em>Life </em></strong><sup>(true seed)</sup></span>",
+          "text": "<strong><em>Life </em></strong><sup>(true seed)</sup>",
           "timing": "click",
           "z_index": 58,
           "shape_type": "text_box",
@@ -7061,7 +7203,8 @@
           "font": {
             "v_align": "middle",
             "italic": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 69,
@@ -7118,7 +7261,7 @@
         {
           "sequence": 71,
           "shape_name": "Text Box 71",
-          "text": "<span class=\"scripture\"><strong>1</strong><sup>st</sup><strong> Adam</strong></span>",
+          "text": "<strong>1</strong><sup>st</sup><strong> Adam</strong>",
           "timing": "click",
           "z_index": 68,
           "shape_type": "text_box",
@@ -7136,12 +7279,13 @@
           "font": {
             "v_align": "middle",
             "align": "center"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 72,
           "shape_name": "Text Box 72",
-          "text": "<span class=\"scripture\"><strong>2</strong><sup>nd </sup><strong>Adam</strong></span>",
+          "text": "<strong>2</strong><sup>nd </sup><strong>Adam</strong>",
           "timing": "with",
           "z_index": 101,
           "shape_type": "text_box",
@@ -7160,7 +7304,8 @@
             "v_align": "middle",
             "align": "center",
             "color": "#0000FF"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 73,
@@ -7202,7 +7347,7 @@
         {
           "sequence": 75,
           "shape_name": "Rectangle 106",
-          "text": "Not monogamous –<br/><strong>Many false seeds.</strong>",
+          "text": "Not monogamous -<br><strong>Many false seeds.</strong>",
           "timing": "with",
           "z_index": 37,
           "shape_type": "rectangle (1)",
@@ -7400,7 +7545,7 @@
         {
           "sequence": 83,
           "shape_name": "Text Box 59",
-          "text": "<span class=\"scripture\"><strong>Galatians 1:6</strong><br/>    “a different gospel— <sup>7</sup>which <em>is really no gospel</em> at all.”</span>",
+          "text": "<strong>Galatians 1:6</strong><br>    \"a different gospel-- <sup>7</sup>which <em>is really no gospel</em> at all.\"",
           "timing": "with",
           "z_index": 73,
           "shape_type": "text_box",
@@ -7414,12 +7559,13 @@
           "font": {
             "v_align": "middle",
             "wrap": true
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 84,
           "shape_name": "Text Box 59",
-          "text": "<strong>“A different Jesus”</strong>",
+          "text": "<strong>\"A different Jesus\"</strong>",
           "timing": "with",
           "z_index": 78,
           "shape_type": "text_box",
@@ -7681,7 +7827,7 @@
         {
           "sequence": 95,
           "shape_name": "Text Box 64",
-          "text": "<strong>Illegitimate Children – born of false doctrine</strong>",
+          "text": "<strong>Illegitimate Children - born of false doctrine</strong>",
           "timing": "click",
           "z_index": 49,
           "shape_type": "text_box",
@@ -7727,7 +7873,7 @@
         {
           "sequence": 97,
           "shape_name": "Text Box 76",
-          "text": "<span class=\"scripture\"><strong>Acts 19:1-5</strong></span>",
+          "text": "<strong>Acts 19:1-5</strong>",
           "timing": "after",
           "z_index": 70,
           "shape_type": "text_box",
@@ -7739,7 +7885,9 @@
             "rotation": 0
           },
           "font": {
-            "align": "center"
+            "align": "center",
+            "font_size": 16.7,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -7750,7 +7898,7 @@
         {
           "sequence": 98,
           "shape_name": "Text Box 66",
-          "text": "<span class=\"scripture\"><strong>John 1:11-12</strong></span>",
+          "text": "<strong>John 1:11-12</strong>",
           "timing": "click",
           "z_index": 20,
           "shape_type": "text_box",
@@ -7762,7 +7910,9 @@
             "rotation": 0
           },
           "font": {
-            "align": "center"
+            "align": "center",
+            "font_size": 21.7,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -7773,7 +7923,7 @@
         {
           "sequence": 99,
           "shape_name": "Text Box 67",
-          "text": "<em>“right to be called sons of God”</em>",
+          "text": "<em>\"right to be called sons of God\"</em>",
           "timing": "click",
           "z_index": 21,
           "shape_type": "text_box",
@@ -7793,7 +7943,7 @@
         {
           "sequence": 100,
           "shape_name": "Text Box 76",
-          "text": "<span class=\"scripture\"><strong>Circumcision</strong><br/>Jer. 9:25, 1 Cor 7:19, <br/>Rom. 2:28, Col. 2:11</span>",
+          "text": "<strong>Circumcision</strong><br>Jer. 9:25, 1 Cor 7:19, <br>Rom. 2:28, Col. 2:11",
           "timing": "click",
           "z_index": 79,
           "shape_type": "text_box",
@@ -7806,6 +7956,8 @@
           },
           "font": {
             "align": "center",
+            "font_size": 23.3,
+            "bold": true,
             "wrap": true
           },
           "hyperlink": {
@@ -7879,7 +8031,7 @@
         {
           "sequence": 103,
           "shape_name": "Text Box 76",
-          "text": "<strong>Baptism = Death, Burial &amp; Resurrection</strong><br/>1John 5:7, Rev. 20:6",
+          "text": "<strong>Baptism = Death, Burial &amp; Resurrection</strong><br>1John 5:7, Rev. 20:6",
           "timing": "click",
           "z_index": 80,
           "shape_type": "text_box",
@@ -7980,7 +8132,7 @@
         {
           "shape_name": "Text Box 6",
           "static": true,
-          "text": "<span class=\"scripture\"><strong>Genesis 25:27-34</strong></span>",
+          "text": "<strong>Genesis 25:27-34</strong>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -7992,7 +8144,9 @@
           },
           "font": {
             "v_align": "middle",
-            "align": "center"
+            "align": "center",
+            "font_size": 20.0,
+            "bold": true
           },
           "hyperlink": {
             "type": "customshow",

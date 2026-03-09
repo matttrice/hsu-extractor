@@ -61,12 +61,12 @@ The prompt will reference copilot-instructions from both the mbs repo and hsu-ex
 2. Before extraction, mark all **non-top-level** drill/linked slides as **Hidden** in PowerPoint.
 	- This applies to both decks using `custom_shows` and decks using pure hyperlink chains.
 	- Extractor classification is deterministic: Hidden → `linked_slides`, Non-hidden → `slides[]`.
-3. Run PowerPoint -> Export -> PNG Slides to [mbs/static](../mbs/static/export) for ReferenceOverlay(s). 
+3. Run PowerPoint -> Export -> PNG Slides to [mbs/static/export](https://github.com/matttrice/mbs/tree/main/static/export) for ReferenceOverlay(s). 
 4. Run `extractor.py` for pptx to json, move images to static/export folder (if they exist).
 	- move extracted images to static/export/
 5. Add json to context.
 	- For decks with `custom_shows`, treat each `custom_shows[id].slide_numbers[]` value as a reference to a `linked_slides` `slide_number`.
-6. Prompt: [/create-presentation](../mbs/.github/prompts/create-lesson.prompt.md) route-name.
+6. Prompt: [/create-presentation](https://github.com/matttrice/mbs/blob/main/.github/prompts/create-lesson.prompt.md) route-name.
 
 ## License
 
