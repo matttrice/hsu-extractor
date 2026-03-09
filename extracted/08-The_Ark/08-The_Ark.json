@@ -1,5 +1,5 @@
 {
-  "file_path": "/Users/badger/projects/hsu-pptx/08-The_Ark.pptx",
+  "file_path": "~/projects/hsu-pptx/08-The_Ark.pptx",
   "file_name": "08-The_Ark.pptx",
   "total_slides": 6,
   "total_custom_shows": 15,
@@ -130,7 +130,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 26",
           "timing": "with",
-          "text": "*Ark = Tebah",
+          "text": "*Ark = <em>Tebah</em>",
           "z_index": 12,
           "shape_type": "placeholder (14)",
           "layout": {
@@ -194,7 +194,7 @@
           "sequence": 4,
           "shape_name": "TextBox 29",
           "timing": "click",
-          "text": "Treasured Possession: Exodus 19:5, Exodus 25:10 Malachi. 3:17, 1 Peter 2:9",
+          "text": "Treasured Possession: Exodus 19:5, <br>Exodus 25:10 Malachi. 3:17, 1 Peter 2:9",
           "z_index": 26,
           "shape_type": "text_box",
           "layout": {
@@ -206,7 +206,8 @@
           },
           "font": {
             "align": "left",
-            "font_size": 16.7
+            "font_size": 16.7,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -218,7 +219,7 @@
           "sequence": 5,
           "shape_name": "TextBox 28",
           "timing": "click",
-          "text": "(Moses - Exodus 2:1-6)",
+          "text": "<em>(Moses - Exodus 2:1-6)</em>",
           "z_index": 25,
           "shape_type": "text_box",
           "layout": {
@@ -245,7 +246,7 @@
           "sequence": 6,
           "shape_name": "Rectangle 23",
           "timing": "click",
-          "text": "*Pitch = Kopher (n)",
+          "text": "<strong>*Pitch</strong> = <strong><em>Kopher</em></strong> (n)<br>",
           "z_index": 9,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -255,10 +256,14 @@
             "height": 34,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 26.7,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
@@ -285,7 +290,7 @@
           "sequence": 8,
           "shape_name": "Rectangle 24",
           "timing": "click",
-          "text": "*Cover = Kaphar (v)",
+          "text": "<strong>*Cover</strong> = <strong><em>Kaphar</em></strong> (v)",
           "z_index": 10,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -294,6 +299,9 @@
             "width": 332,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -347,7 +355,7 @@
           "sequence": 11,
           "shape_name": "Rectangle 4",
           "timing": "click",
-          "text": "2. Purge, make an atonement, make propitiation, reconciliation, cover over with pitch",
+          "text": "2. Purge, make an <strong>atonement</strong>, make propitiation, <br>reconciliation, cover over with pitch",
           "z_index": 14,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -360,14 +368,15 @@
           "font": {
             "align": "left",
             "font_size": 20.0,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         },
         {
           "sequence": 12,
           "shape_name": "TextBox 32",
           "timing": "click",
-          "text": "Leviticus 17:11, 16:15",
+          "text": "<strong>Leviticus </strong><br><strong>17:11, 16:15</strong>",
           "z_index": 27,
           "shape_type": "text_box",
           "layout": {
@@ -380,7 +389,8 @@
           "font": {
             "align": "center",
             "font_size": 20.0,
-            "bold": true
+            "bold": true,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -410,7 +420,7 @@
           "sequence": 14,
           "shape_name": "TextBox 36",
           "timing": "click",
-          "text": "Life of flesh is in the blood",
+          "text": "<em>Life of flesh is </em><br><em>in the blood</em>",
           "z_index": 29,
           "shape_type": "text_box",
           "layout": {
@@ -431,7 +441,7 @@
           "sequence": 15,
           "shape_name": "Rectangle 21",
           "timing": "click",
-          "text": "Romans 3:24 …and all are justified freely by his grace through the redemption that came by Christ Jesus. 25 God presented Christ as a sacrifice of *atonement, through the shedding of his blood—to be received by faith. He did this to demonstrate his righteousness, because in his forbearance he had left the sins committed beforehand unpunished. (NIV)[*propitiation NASB, KJV = atone, appease]",
+          "text": "<strong>Romans 3:24</strong> ...and all are justified freely by his grace through the redemption that came by Christ Jesus. <sup>25</sup> God presented <strong>Christ as a sacrifice of *atonement,</strong><sup> </sup><strong>through the shedding of his blood</strong>--to be received by faith. He did this to demonstrate his righteousness, because in his forbearance he had left the sins committed beforehand unpunished. <sub>(NIV)</sub><br><em>[*propitiation NASB, KJV = atone, appease]</em>",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -441,13 +451,15 @@
             "height": 224,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "wrap": true,
             "align": "left",
-            "font_size": 23.3,
-            "bold": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 16,
@@ -560,7 +572,7 @@
           "sequence": 19,
           "shape_name": "Rectangle 15",
           "timing": "with",
-          "text": "Atonement  =",
+          "text": "<strong>Atonement  =</strong>",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -570,8 +582,10 @@
             "height": 46,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
-            "font_name": "Arial",
             "font_size": 30.8,
             "bold": true,
             "color": "#CC0000"
@@ -581,7 +595,7 @@
           "sequence": 20,
           "shape_name": "Rectangle 14",
           "timing": "with",
-          "text": "kaphar =",
+          "text": "<strong>kaphar =</strong>",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -590,6 +604,9 @@
             "width": 173,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 30.8,
@@ -631,7 +648,7 @@
           "sequence": 22,
           "shape_name": "Rectangle 16",
           "timing": "with",
-          "text": "blood =",
+          "text": "<strong>blood = </strong>",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -641,9 +658,11 @@
             "height": 46,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
-            "font_name": "Arial",
             "font_size": 30.8,
             "bold": true,
             "color": "#CC0000"
@@ -691,7 +710,7 @@
           "sequence": 24,
           "shape_name": "Rectangle 19",
           "timing": "click",
-          "text": "1 John 2:2  He is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.",
+          "text": "<strong>1 John 2:2</strong> <sup> </sup>He is the atoning sacrifice for our sins, and not only for ours but also for the sins of the whole world.",
           "z_index": 7,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -701,19 +720,21 @@
             "height": 89,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "wrap": true,
             "align": "left",
-            "font_size": 23.3,
-            "bold": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 25,
           "shape_name": "Rectangle 10",
           "timing": "click",
-          "text": "1 John1:7… but if we walk in the Light as He Himself is in the Light, we have fellowship                with one another, and the blood of Jesus His Son cleanses us from all sin.",
+          "text": "<strong>1 John1:7</strong>... but if we walk in the Light as He Himself is in the Light, we have fellowship <br>               with one another, and <strong><u>the blood of Jesus His Son cleanses us from all sin. </u></strong>",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -723,19 +744,23 @@
             "height": 80,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
             "font_size": 23.3,
             "bold": true,
-            "color": "#000000"
+            "color": "#000000",
+            "wrap": true
           }
         },
         {
           "sequence": 26,
           "shape_name": "Text Box 6",
           "timing": "click",
-          "text": "Propitiation (atoning sacrifice) of sin is accomplished how?",
+          "text": "<strong>Propitiation (atoning sacrifice)</strong><br><strong> of sin is accomplished how?</strong>",
           "z_index": 11,
           "shape_type": "text_box",
           "layout": {
@@ -745,18 +770,22 @@
             "height": 69,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 21.7,
             "bold": true,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         },
         {
           "sequence": 27,
           "shape_name": "Text Box 7",
           "timing": "click",
-          "text": "CHRIST",
+          "text": "<strong>CHRIST </strong>",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -765,6 +794,9 @@
             "width": 148,
             "height": 50,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -807,7 +839,7 @@
           "sequence": 29,
           "shape_name": "Text Box 9",
           "timing": "after",
-          "text": "BLOOD",
+          "text": "<strong>BLOOD</strong>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -817,9 +849,11 @@
             "height": 51,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
-            "font_name": "Arial",
             "font_size": 35.0,
             "bold": true,
             "color": "#CC0000"
@@ -829,7 +863,7 @@
           "sequence": 30,
           "shape_name": "Rectangle 24",
           "timing": "with",
-          "text": "kaphar = cover = kopher = blood",
+          "text": "<strong><em>kaphar = cover = kopher = blood</em></strong>",
           "z_index": 15,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -838,6 +872,9 @@
             "width": 431,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -883,7 +920,7 @@
         {
           "shape_name": "TextBox 24",
           "static": true,
-          "text": "\"Make for yourself an *ark of gopher wood; you shall make the ark with rooms, and shall *cover it inside and out with *pitch.",
+          "text": "\"<em>Make for yourself an </em><strong><em>*<u>ark</u> </em></strong>of gopher wood; you shall make the ark with rooms, and shall *<strong><em><u>cover</u> it inside and out with </em></strong><em>*</em><strong><em><u>pitch</u></em></strong>.",
           "z_index": 18,
           "shape_type": "text_box",
           "layout": {
@@ -913,7 +950,7 @@
           "sequence": 1,
           "shape_name": "Text Box 7",
           "timing": "click",
-          "text": "Baptism",
+          "text": "<strong>Baptism</strong>",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -922,6 +959,9 @@
             "width": 162,
             "height": 52,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -933,7 +973,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 38",
           "timing": "with",
-          "text": "=",
+          "text": "<strong>=</strong>",
           "z_index": 14,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -942,6 +982,9 @@
             "width": 34,
             "height": 45,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 30.8,
@@ -952,7 +995,7 @@
           "sequence": 3,
           "shape_name": "Text Box 9",
           "timing": "with",
-          "text": "Death, Burial",
+          "text": "<strong>Death, Burial</strong>",
           "z_index": 6,
           "shape_type": "text_box",
           "layout": {
@@ -963,6 +1006,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 30.0,
@@ -1006,7 +1052,7 @@
           "sequence": 5,
           "shape_name": "Text Box 10",
           "timing": "click",
-          "text": "United in Death & Resurrection",
+          "text": "United in Death &amp; Resurrection",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
@@ -1017,6 +1063,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
@@ -1039,6 +1088,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
@@ -1049,7 +1101,7 @@
           "sequence": 7,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "17...though you were slaves of sin, you became obedient from the heart to that form of teaching to which you were committed, 18 and having been freed from sin, you became slaves of righteousness…",
+          "text": "<sup>17</sup>...though you were slaves of sin, you became obedient from the heart to that form of teaching to which you were committed, <sup>18</sup> and having <strong>been freed from sin</strong>, you became <strong>slaves of righteousness</strong>...",
           "z_index": 3,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1059,20 +1111,23 @@
             "height": 81,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "left",
-            "font_size": 20.0,
             "italic": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 8,
           "shape_name": "Text Box 12",
           "timing": "click",
-          "text": "Freed of Sin = Slave of Righteousness",
+          "text": "Freed of Sin <em>= </em>Slave of Righteousness",
           "z_index": 9,
           "shape_type": "text_box",
           "layout": {
@@ -1083,6 +1138,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -1093,7 +1151,7 @@
           "sequence": 9,
           "shape_name": "Rectangle 6",
           "timing": "click",
-          "text": "22 But now having been freed from sin and enslaved to God, you derive your benefit, resulting in sanctification, and the outcome, eternal life. 23 For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
+          "text": "<sup>22</sup><sup> </sup><strong><u>But now </u></strong>having been <strong>freed from sin</strong> and <strong>enslaved to God</strong>, you derive <strong>your benefit</strong>, resulting in <strong>sanctification</strong>, and the <strong>outcome, eternal life</strong>. <sup>23</sup> For the wages of sin is death, but the <strong>free gift of God</strong> <strong>is</strong> <strong>eternal life</strong> in Christ Jesus our Lord.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1103,15 +1161,17 @@
             "height": 81,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "left",
-            "font_name": "Arial",
-            "font_size": 20.0,
             "italic": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "sequence": 10,
@@ -1149,7 +1209,7 @@
           "sequence": 11,
           "shape_name": "Text Box 13",
           "timing": "after",
-          "text": "Slave’s Benefit = Sanctification",
+          "text": "Slave's Benefit = Sanctification",
           "delay": 500,
           "z_index": 10,
           "shape_type": "text_box",
@@ -1161,6 +1221,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "center",
@@ -1183,6 +1246,9 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
@@ -1193,7 +1259,7 @@
           "sequence": 13,
           "shape_name": "Text Box 15",
           "timing": "after",
-          "text": "Resurrection = Free Gift of God = Eternal life",
+          "text": "<strong>Resurrection = </strong><br><strong>Free Gift of God =Eternal life</strong>",
           "delay": 1500,
           "z_index": 12,
           "shape_type": "text_box",
@@ -1205,18 +1271,22 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 20.0,
             "bold": true,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           }
         },
         {
           "sequence": 14,
           "shape_name": "Text Box 25",
           "timing": "click",
-          "text": "Ephesians 2:8-9",
+          "text": "<strong>Ephesians 2:8-9</strong>",
           "z_index": 13,
           "shape_type": "text_box",
           "layout": {
@@ -1233,17 +1303,16 @@
           },
           "font": {
             "align": "left",
-            "font_size": 36.7,
-            "bold": true,
             "color": "#F4F4F4"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "Or do you not know that all of us who have been baptized into Christ Jesus have been baptized into His death? 4 Therefore we have been buried with Him through baptism into death, so that as Christ was raised  from the dead through the glory of the Father, so we too might walk in newness of life. 5 For if we have become united with Him in the likeness of His death, certainly we shall also be in the likeness of His resurrection, 6 knowing this, that our old self was crucified with Him, in order that our body of sin might be done away with, so that we would no longer be slaves to sin; 7 for he who has died is freed from sin.",
+          "text": "Or do you not know that all of us who have been <strong>baptized into Christ Jesus</strong> have been baptized into <strong>His death</strong>?<sup> </sup><sup>4</sup><sup> </sup>Therefore we have been <strong>buried</strong> with Him through baptism into death, so that as Christ was raised  from the dead through the glory of the Father, so we too might walk in newness of life.<sup> </sup><sup>5</sup> For if we have become <strong>united with Him</strong> in the <strong>likeness of His</strong> <strong>death</strong>, certainly we shall also be in the likeness of His <strong>resurrection</strong>, <sup>6</sup> knowing this, that our old self was crucified with Him, in order that our body of sin might be done away with, so that we would no longer be slaves to sin; <sup>7 </sup>for <strong><u>he who has died is freed from sin</u></strong>.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1253,13 +1322,16 @@
             "height": 178,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "left",
-            "font_size": 20.0,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 39",
@@ -1290,7 +1362,7 @@
           "sequence": 1,
           "shape_name": "TextBox 2",
           "timing": "click",
-          "text": "Is Baptism a “work”?",
+          "text": "<strong>Is Baptism a \"work\"?</strong>",
           "z_index": 0,
           "shape_type": "text_box",
           "layout": {
@@ -1312,7 +1384,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "Romans 6:22-23But now having been freed from sin and enslaved to God, you derive your benefit, resulting in sanctification, and the outcome, eternal life. 23 For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
+          "text": "<strong>Romans 6:22-23</strong><br><strong><u>But now</u> having been freed from sin </strong>and enslaved to God, you derive <br>your benefit, resulting in sanctification, and the <strong>outcome, eternal life</strong>. <br><sup>23</sup> For the wages of sin is death, but the <strong>free gift of God</strong> is <strong>eternal life</strong> <br>in Christ Jesus our Lord.",
           "z_index": 7,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1322,13 +1394,15 @@
             "height": 169,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "align": "left",
-            "font_size": 30.8,
-            "bold": true
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         },
         {
           "sequence": 3,
@@ -1396,7 +1470,7 @@
           "sequence": 5,
           "shape_name": "Rectangle 7",
           "timing": "click",
-          "text": "1Peter 3:20-21...who once were disobedient, when the patience of God kept waiting in the days of Noah, during the construction of the ark, in which a few, that is, eight persons, were brought safely through the water. 21 Corresponding to that, baptism now saves you --not the removal of dirt from the flesh, but an appeal to God for a good conscience --through the resurrection of Jesus Christ.",
+          "text": "<strong>1Peter 3:20-21</strong><br>...who once were disobedient, when the patience of God kept waiting in the days<br> of Noah, during the construction of the ark, in which a few, that is, eight persons,<br> were brought safely through the water. <br><sup>21</sup> Corresponding to that, <strong>baptism now saves you </strong>--not the removal of dirt from <br>the flesh, but an appeal to God for a good conscience --through the resurrection<br> of Jesus Christ.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1407,17 +1481,20 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 8
+          },
           "font": {
             "align": "left",
-            "font_size": 30.8,
-            "bold": true
-          }
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "sequence": 6,
           "shape_name": "Rectangle 9",
           "timing": "click",
-          "text": "baptism now saves you",
+          "text": "<strong>baptism now saves you</strong>",
           "z_index": 11,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1435,7 +1512,6 @@
           "font": {
             "v_align": "middle",
             "align": "center",
-            "font_name": "Arial",
             "font_size": 23.3,
             "bold": true,
             "color": "#0000FF"
@@ -1589,7 +1665,7 @@
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "For by grace you have been saved through faith; and that not of yourselves, it is the gift of God; 9 not as a result of works, so that no one may boast.",
+          "text": "For by <strong>grace</strong> you have been <strong>saved through faith</strong>; and that not of <br>yourselves, it is the <strong>gift of God</strong>; <sup>9</sup> not as a result of works, so that no <br>one may boast.",
           "z_index": 6,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1599,11 +1675,15 @@
             "height": 99,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 21.7
-          }
+            "wrap": true
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -1614,7 +1694,7 @@
           "sequence": 1,
           "shape_name": "Text Box 13",
           "timing": "click",
-          "text": "an ugly black box…",
+          "text": "an ugly black box...",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -1623,6 +1703,9 @@
             "width": 332,
             "height": 51,
             "rotation": 0
+          },
+          "line": {
+            "width": 4
           },
           "font": {
             "align": "center",
@@ -1633,7 +1716,7 @@
           "sequence": 2,
           "shape_name": "Text Box 14",
           "timing": "click",
-          "text": "What did Christ physically look like?Isaiah 53:1-2",
+          "text": "What did Christ physically look like?<br>Isaiah 53:1-2",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1643,16 +1726,20 @@
             "height": 72,
             "rotation": 0
           },
+          "line": {
+            "width": 4
+          },
           "font": {
             "align": "center",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
           "sequence": 3,
           "shape_name": "Rectangle 2",
           "timing": "click",
-          "text": "Who has believed our message? And to whom has the arm of the LORD been revealed? 2 For He grew up before Him like a tender  shoot, And like a root out of parched ground; He has no {stately} form or majesty That we should look upon Him, Nor appearance that we should be attracted to Him.",
+          "text": "Who has believed our message? And to whom has the arm of the LORD been revealed? <sup>2</sup><sup> </sup>For He grew up before Him like a tender  shoot, And like a root out of parched ground; He has no {stately} form or majesty That we should look upon Him, Nor appearance that we should be attracted to Him.",
           "z_index": 12,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1669,9 +1756,9 @@
           },
           "font": {
             "wrap": true,
-            "align": "left",
-            "font_size": 23.3
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         },
         {
           "sequence": 4,
@@ -1718,6 +1805,9 @@
             "height": 45,
             "rotation": 0
           },
+          "line": {
+            "width": 4
+          },
           "font": {
             "align": "center",
             "font_size": 30.8
@@ -1737,16 +1827,20 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 4
+          },
           "font": {
             "align": "center",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
           "sequence": 7,
           "shape_name": "Rectangle 25",
           "timing": "with",
-          "text": "Ark  = ?",
+          "text": "<strong>Ark  = ?</strong>",
           "z_index": 8,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1755,6 +1849,9 @@
             "width": 190,
             "height": 61,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -1767,7 +1864,7 @@
           "sequence": 8,
           "shape_name": "Rectangle 26",
           "timing": "click",
-          "text": "Jesus",
+          "text": "<strong>Jesus</strong>",
           "z_index": 9,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1776,6 +1873,9 @@
             "width": 142,
             "height": 62,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -1797,13 +1897,16 @@
             "height": 64,
             "rotation": 0
           },
-          "fill": "#F4F4F4"
+          "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 10,
           "shape_name": "Text Box 19",
           "timing": "click",
-          "text": "Who is the Church?1 Corinthians 12",
+          "text": "Who is the Church?<br>1 Corinthians 12",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -1813,9 +1916,13 @@
             "height": 73,
             "rotation": 0
           },
+          "line": {
+            "width": 4
+          },
           "font": {
             "align": "center",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -1827,7 +1934,7 @@
           "sequence": 11,
           "shape_name": "Text Box 21",
           "timing": "click",
-          "text": "=  Church",
+          "text": "<strong>=  Church</strong>",
           "z_index": 7,
           "shape_type": "text_box",
           "layout": {
@@ -1836,6 +1943,9 @@
             "width": 211,
             "height": 61,
             "rotation": 0
+          },
+          "line": {
+            "width": 4
           },
           "font": {
             "v_align": "middle",
@@ -1857,6 +1967,9 @@
             "width": 16,
             "height": 45,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
@@ -1888,7 +2001,7 @@
           "sequence": 1,
           "shape_name": "TextBox 2",
           "timing": "click",
-          "text": "Leviticus 16:15-1615 “He shall then slaughter the goat for the sin offering for the people and take its blood behind the curtain and do with it as he did with the bull’s blood: He shall sprinkle it on the atonement cover and in front of it. 16 In this way he will make atonement for the Most Holy Place because of the uncleanness and rebellion of the Israelites, whatever their sins have been. He is to do the same for the tent of meeting, which is among them in the midst of their uncleanness. NIV",
+          "text": "<strong>Leviticus 16:15-16</strong><br><sup>15 </sup>\"He shall then slaughter the goat for the sin offering for the people and take its blood behind the curtain and do with it as he did with the bull's blood: He shall sprinkle it on the <u>atonement cover </u>and in front of it. <sup>16 </sup>In this way he will make <u>atonement</u> for the Most Holy Place because of the uncleanness and rebellion of the Israelites, whatever their sins have been. He is to do the same for the tent of meeting, which is among them in the midst of their uncleanness. <sub>NIV</sub>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -1900,17 +2013,16 @@
           },
           "font": {
             "wrap": true,
-            "align": "left",
-            "font_size": 33.3,
-            "bold": true
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "'For the life of the flesh is in the blood, and I have given it to you on the altar to make atonement for your souls; for it is the blood by reason of the life that makes atonement.’ NASB",
+          "text": "'For the <u>life of the flesh is in the blood</u>, and I have given it to you on the altar to make <u>atonement</u> for your souls; for it is the blood by reason of the life that makes atonement.' <sub>NASB</sub>",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -1920,10 +2032,14 @@
             "height": 105,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
@@ -2144,7 +2260,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "For Christ also died for sins once for all, the just for the unjust, so that He might bring us to God, having been put to death in the flesh, but made alive in the spirit; 19 in which also He went and made proclamation to the spirits now in prison, 20 who once were disobedient, when the patience of God kept waiting in the days of Noah, during the construction of the ark, in which a few, that is, eight persons, were brought safely through the water. 21 Corresponding to that, baptism now saves you—not the removal of dirt from the flesh, but an appeal to God for a good conscience—through the resurrection of Jesus Christ",
+          "text": "<br>For Christ also died for sins once for all, the just for the unjust, so that He might bring us to God, having been put to death in the flesh, but made alive in the spirit; <sup>19 </sup>in which also He went and made proclamation to the spirits now in prison, <sup>20 </sup>who once were disobedient, <u>when the patience of God kept waiting in the days of Noah, during the construction of the ark</u>, in which a few, that is, eight persons, were brought safely through the<sup> </sup>water. <sup>21 </sup>Corresponding to that, baptism now saves you--not the removal of dirt from the flesh, but an appeal to God for a good conscience--through the resurrection of Jesus Christ",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2154,11 +2270,14 @@
             "height": 363,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "wrap": true,
-            "align": "left",
-            "font_size": 26.7
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
@@ -2192,6 +2311,9 @@
             "height": 26,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 16.7
           }
@@ -2205,7 +2327,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "In the six  hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on the same day all the  fountains of the great deep burst open, and the floodgates of the sky were opened.",
+          "text": "In the six  hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on the same day all the  <u>fountains of the great deep burst open</u>, and the <u>floodgates of the sky</u> were opened.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2215,10 +2337,14 @@
             "height": 138,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
@@ -2250,7 +2376,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 8",
           "timing": "click",
-          "text": "Acts 2:38Peter replied, \"Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins.",
+          "text": "<strong>Acts 2:38</strong><br>Peter replied, \"Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins.",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2260,18 +2386,21 @@
             "height": 109,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 30.0,
-            "bold": true
-          }
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "sequence": 2,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "Acts 22:16`Now why do you delay? Get up and be baptized, and wash away your sins, calling  on His name.'",
+          "text": "<strong>Acts 22:16</strong><br>`Now why do you delay? Get up and be baptized, and <u>wash</u> away your sins, calling  on His name.'",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2281,22 +2410,23 @@
             "height": 109,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
             "align": "left",
-            "font_name": "Arial",
-            "font_size": 30.0,
-            "bold": true,
             "color": "#000000"
-          }
+          },
+          "is_scripture": true
         }
       ],
       "static_content": [
         {
           "shape_name": "Rectangle 4",
           "static": true,
-          "text": "5 Then He poured water into the basin, and began to wash the disciples' feet and to wipe them with the towel with which He was girded. 6 So He came to Simon Peter. He said to Him, \"Lord, do You wash my feet?\" 7 Jesus answered and said to him, \"What I do you do not realize now, but you will understand hereafter.\" 8 Peter said to Him, \"Never shall You wash my feet!\" Jesus answered him, \"If I do not wash you, you have no part with Me.\"",
+          "text": "<sup>5</sup><sup> </sup>Then He poured water into the basin, and began to wash the disciples' feet and to wipe them with the towel with which He was girded. <sup>6</sup><sup> </sup>So He came to Simon Peter. He said to Him, \"Lord, do You wash my feet?\" <sup>7</sup> Jesus answered and said to him, \"What I do you do not realize now, but you will understand hereafter.\" <sup>8</sup> Peter said to Him, \"Never shall You wash my feet!\" Jesus answered him,\"If I do not <u>wash</u> you, you have no part with Me.\"",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2306,12 +2436,16 @@
             "height": 234,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7,
-            "italic": true
-          }
+            "italic": true,
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 9",
@@ -2342,7 +2476,7 @@
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "fixing our eyes on Jesus, the author and perfecter of faith, who for the joy set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God... 22 But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to myriads of angels, 23 to the general assembly and Church of the firstborn who are enrolled in heaven, and to God, the Judge of all, and to the spirits of the righteous made perfect,",
+          "text": "fixing our eyes on Jesus, the author and perfecter of faith, who for the joy set before Him endured the cross, despising the shame, and has <strong>sat down</strong> at the right hand of the throne of God... <br><sup>22 </sup>But you have come to <strong>Mount Zion</strong> and to the city of the living God, the heavenly Jerusalem, and to myriads of angels, <sup>23</sup>to the general assembly and <strong>Church</strong> of the firstborn who are enrolled in heaven, and to God, the Judge of all, and to the spirits of the righteous made perfect,",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2352,12 +2486,16 @@
             "height": 299,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7,
-            "color": "#000000"
-          }
+            "color": "#000000",
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 8",
@@ -2382,7 +2520,7 @@
         {
           "shape_name": "Rectangle 10",
           "static": true,
-          "text": "Psalms 99:1-2 The LORD reigns, let the nations tremble; he sits enthroned between the cherubim, let the earth shake. 2 Great is the LORD in Zion; he is exalted over all the nations. (NIV)",
+          "text": "<strong>Psalms 99:1-2</strong><br>The LORD reigns, let the nations tremble; he <strong>sits enthroned</strong> between the cherubim, let the earth shake. <sup>2</sup>Great is the LORD in Zion; <strong>he is exalted over all the nations</strong>. <em>(NIV)</em>",
           "z_index": 2,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2392,12 +2530,15 @@
             "height": 152,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
-            "font_size": 36.7,
-            "bold": true,
-            "color": "#000000"
-          }
+            "color": "#000000",
+            "wrap": true
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -2408,7 +2549,7 @@
           "sequence": 1,
           "shape_name": "Text Box 5",
           "timing": "click",
-          "text": "Who is the first to be resurrected from death?",
+          "text": "Who is the first to be <br>resurrected from death?",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -2419,9 +2560,13 @@
             "rotation": 0
           },
           "fill": "#33CCFF",
+          "line": {
+            "width": 2
+          },
           "font": {
             "align": "left",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
@@ -2459,7 +2604,7 @@
           "sequence": 3,
           "shape_name": "Text Box 7",
           "timing": "after",
-          "text": "CHRIST",
+          "text": "<strong>CHRIST</strong>",
           "delay": 500,
           "z_index": 4,
           "shape_type": "text_box",
@@ -2469,6 +2614,9 @@
             "width": 185,
             "height": 62,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -2480,7 +2628,7 @@
           "sequence": 4,
           "shape_name": "Text Box 8",
           "timing": "click",
-          "text": "What did Christ leave behind as a way for you to “have a part” in His death, burial, and resurrection?",
+          "text": "What did Christ leave behind as a<br> way for you to \"have a part\" in His<br> death, burial, and resurrection?",
           "z_index": 5,
           "shape_type": "text_box",
           "layout": {
@@ -2491,9 +2639,13 @@
             "rotation": 0
           },
           "fill": "#33CCFF",
+          "line": {
+            "width": 2
+          },
           "font": {
             "align": "left",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           }
         },
         {
@@ -2531,7 +2683,7 @@
           "sequence": 6,
           "shape_name": "Text Box 10",
           "timing": "after",
-          "text": "BAPTISIM",
+          "text": "<strong>BAPTISIM</strong>",
           "delay": 500,
           "z_index": 6,
           "shape_type": "text_box",
@@ -2541,6 +2693,9 @@
             "width": 205,
             "height": 56,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -2567,10 +2722,14 @@
             "height": 153,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 30.0
+            "font_size": 30.0,
+            "wrap": true
           }
         },
         {
@@ -2609,12 +2768,15 @@
             "width": 16,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
           "shape_name": "Rectangle 15",
           "static": true,
-          "text": "Who has believed our message? And to whom has the arm of the LORD been revealed? 2 For He grew up before Him like a tender  shoot, And like a root out of parched ground; He has no {stately} form or majesty That we should look upon Him, Nor appearance that we should be attracted to Him.",
+          "text": "Who has believed our message? And to whom has the arm of the LORD been revealed? <sup>2</sup><sup> </sup>For He grew up before Him like a tender  shoot, And like a root out of parched ground; He has no {stately} form or majesty That we should look upon Him, Nor appearance that we should be attracted to Him.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2624,11 +2786,15 @@
             "height": 169,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7
-          }
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 18",
@@ -2667,12 +2833,15 @@
             "width": 16,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "12 For even as the body is one and yet has many members, and all the members of the body, though they are many, are one body, so also is Christ. 13 For by one Spirit we were all baptized into one body, whether Jews or Greeks, whether slaves or free, and we were all made to drink of one Spirit.14For the body is not one member, but many. 27 Now you are Christ's body, and individually members of it. 28 And God has appointed in the church, first apostles, second prophets, third teachers, then miracles, then gifts of healings, helps, administrations, various kinds of tongues.",
+          "text": "<sup>12 </sup>For even as the body is one and yet has many members, and all the members of the body, though they are many, are one body, so also is Christ. <sup>13 </sup>For by one Spirit we were all <u>baptized into one body</u>, whether Jews or Greeks, whether slaves or free, and we were all made to drink of one Spirit.<sup>14</sup>For the body is not one member, but many. <br><br><sup>27</sup> Now <u>you are Christ's body</u>, and individually members of it. <sup>28</sup> And God has appointed in the church, first apostles, second prophets, third teachers, then miracles, then gifts of healings, helps, administrations, various kinds of tongues.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2682,10 +2851,14 @@
             "height": 363,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           },
           "hyperlink": {
             "type": "slide",
@@ -2728,12 +2901,15 @@
             "width": 16,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "By faith Noah, being warned by God about things not yet seen, in reverence prepared an ark for the salvation of his household, by which he condemned the world, and became an heir of the righteousness which is according to faith. (NASB)",
+          "text": "By faith Noah, being warned <em>by God</em> about things not yet seen, in reverence <u>prepared an ark</u> <u>for the salvation</u> of his household, by which he condemned the world, and became an heir of the righteousness which is according to faith. <em>(NASB)</em>",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2743,10 +2919,14 @@
             "height": 121,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 23.3
+            "font_size": 23.3,
+            "wrap": true
           }
         },
         {
@@ -2771,7 +2951,7 @@
         {
           "shape_name": "TextBox 1",
           "static": true,
-          "text": "Hebrews 11:7By faith Noah, when warned about things not yet seen, in holy fear built an ark to save his family. By his faith he condemned the world and became heir of the righteousness that is in keeping with faith. (NIV)",
+          "text": "<strong>Hebrews 11:7</strong><br>By faith Noah, when warned about things not yet seen, in holy fear <u>built an ark</u> <u>to save</u> his family. By his faith he condemned the world and became heir of the righteousness that is in keeping with faith. <em>(NIV)</em>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -2783,10 +2963,9 @@
           },
           "font": {
             "wrap": true,
-            "align": "left",
-            "font_size": 30.0,
-            "bold": true
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         }
       ]
     },
@@ -2805,12 +2984,15 @@
             "width": 16,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "Now a man of the tribe of Levi married a Levite woman, 2 and she became pregnant and gave birth to a son. When she saw that he was a fine child, she hid him for three months. 3 But when she could hide him no longer, she got a papyrus basket (tebah) for him and coated it with tar and pitch. Then she placed the child in it and put it among the reeds along the bank of the Nile. 4 His sister stood at a distance to see what would happen to him. 5 Then Pharaoh’s daughter went down to the Nile to bathe, and her attendants were walking along the riverbank. She saw the basket among the reeds and sent her female slave to get it.",
+          "text": "Now a man of the tribe of Levi married a Levite woman, <sup>2</sup> and she became pregnant and gave birth to a son. When she saw that he was a fine child, she hid him for three months. <sup>3</sup> But when she could hide him no longer, she got a papyrus basket <em>(tebah) </em>for him and coated it with tar and <u>pitch</u>. Then she placed the child in it and put it among the reeds along the bank of the Nile. <sup>4</sup> His sister stood at a distance to see what would happen to him. <sup>5</sup> Then Pharaoh's daughter went down to the Nile to bathe, and her attendants were walking along the riverbank. She saw the basket among the reeds and sent her female slave to get it.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2820,11 +3002,15 @@
             "height": 363,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 26.7
-          }
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
@@ -2871,7 +3057,7 @@
           "sequence": 1,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "Malachi 3:17-18“On the day when I act,” says the LORD Almighty, “they will be my treasured possession. I will spare them, just as a father has compassion and spares his son who serves him. 18 And you will again see the distinction between the righteous and the wicked, between those who serve God and those who do not.",
+          "text": "<strong>Malachi 3:17-18</strong><br>\"On the day when I act,\" says the LORD Almighty, \"they will be my <u>treasured possession</u>. I will spare them, just as a father has compassion and spares his son who serves him. <sup>18</sup> And you will again see the distinction between the righteous and the wicked, between those who serve God and those who do not.",
           "z_index": 4,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2880,6 +3066,9 @@
             "width": 876,
             "height": 158,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -2897,7 +3086,7 @@
           "sequence": 2,
           "shape_name": "Rectangle 5",
           "timing": "click",
-          "text": "1 Peter 2:9But you are a chosen people, a royal priesthood, a holy nation, God’s special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
+          "text": "<strong>1 Peter 2:9</strong><br>But you are a chosen people, a royal priesthood, a holy nation, <br><u>God's special possession</u>, that you may declare the praises of him who called you out of darkness into his wonderful light.",
           "z_index": 5,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2906,6 +3095,9 @@
             "width": 876,
             "height": 129,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -2932,12 +3124,15 @@
             "width": 16,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
           "shape_name": "Rectangle 5",
           "static": true,
-          "text": "Now if you obey me fully and keep my covenant, then out of all nations you will be my treasured possession. Although the whole earth is mine,Exodus 25:10,16“Have them make an ark of acacia wood—two and a half cubits long, a cubit and a half wide, and a cubit and a half high… [16] Then put in the ark the tablets of the covenant law, which I will give you.",
+          "text": "Now if you obey me fully and keep my covenant, then out of all nations you will be my <u>treasured possession</u>. Although the whole earth is mine,<br><br><strong>Exodus 25:10,16</strong><br>\"Have them make an ark of acacia wood--two and a half cubits long, a cubit and a half wide, and a cubit and a half high... <br><sup>[16] </sup>Then put in the ark the tablets of the covenant law, which I will give you.",
           "z_index": 1,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -2947,12 +3142,15 @@
             "height": 198,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "align": "left",
-            "font_size": 23.3
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 7",
@@ -2976,7 +3174,7 @@
         {
           "shape_name": "TextBox 1",
           "static": true,
-          "text": "NIV",
+          "text": "<em>NIV</em>",
           "z_index": 3,
           "shape_type": "text_box",
           "layout": {
@@ -3020,7 +3218,7 @@
         {
           "shape_name": "TextBox 3",
           "static": true,
-          "text": "Then the Lord saw that the wickedness of mankind was great on the earth, and that every intent of the thoughts of their hearts was only evil continually. [6] So the Lord was sorry that He had made mankind on the earth, and He was grieved in His heart. [7] Then the Lord said, “I will wipe out mankind whom I have created from the face of the land; mankind, and animals as well, and crawling things, and the birds of the sky. For I am sorry that I have made them.” [8] But Noah found favor in the eyes of the Lord. [9] These are the records of the generations of Noah. Noah was a righteous man, blameless in his generation. Noah walked with God. [10] And Noah fathered three sons: Shem, Ham, and Japheth. [11] Now the earth was corrupt in the sight of God, and the earth was filled with violence. [12] And God looked on the earth, and behold, it was corrupt; for humanity had corrupted its way upon the earth.",
+          "text": "Then the Lord saw that the wickedness of mankind was great on the earth, and that every intent of the thoughts of their hearts was only evil continually. <sup>[6]</sup> So the Lord was sorry that He had made mankind on the earth, and He was grieved in His heart. <sup>[7] </sup>Then the Lord said, \"I will wipe out mankind whom I have created from the face of the land; mankind, and animals as well, and crawling things, and the birds of the sky. For I am sorry that I have made them.\" <sup>[8]</sup> But Noah found favor in the eyes of the Lord. <sup>[9] </sup>These are the records of the generations of Noah. Noah was a righteous man, blameless in his generation. Noah walked with God. <sup>[10]</sup> And Noah fathered three sons: Shem, Ham, and Japheth. <sup>[11] </sup>Now the earth was corrupt in the sight of God, and the earth was filled with violence. <sup>[12] </sup>And God looked on the earth, and behold, it was corrupt; for humanity had corrupted its way upon the earth.",
           "z_index": 1,
           "shape_type": "text_box",
           "layout": {
@@ -3032,9 +3230,9 @@
           },
           "font": {
             "wrap": true,
-            "align": "left",
-            "font_size": 26.7
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "TextBox 4",
@@ -3062,7 +3260,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "Then God said to Noah, \"The end of all flesh has come before Me; for the earth is filled with violence because of them; and behold, I am about to destroy them with the earth. 14 \"Make for yourself an ark of gopher wood; you shall make the ark with rooms, and shall *cover (pitch) it inside and out with *pitch. 15 \"This is how you shall make it: the length of the ark three hundred cubits,  its breadth fifty cubits,  and its height thirty cubits. 16 \"You shall make a window  for the ark, and finish it to a cubit from the  top; and set the door of the ark in the side of it; you shall make it with lower, second, and third decks. 17 \"Behold, I, even I am bringing the flood of water upon the earth, to destroy all flesh in which is the breath of life, from under heaven; everything that is on the earth shall perish.",
+          "text": "Then God said to Noah, \"The end of all flesh has come before Me; for the earth is filled with violence because of them; and behold, I am about to destroy them with the earth. <sup>14</sup> \"Make for yourself an ark of gopher wood; you shall make the ark with rooms, and shall *cover <em>(pitch) </em>it inside and out with *pitch. <sup>15</sup> \"This is how you shall make it: the length of the ark three hundred cubits,  its breadth fifty cubits,  and its height thirty cubits.<sup> </sup><sup>16</sup><sup> </sup>\"You shall make a window  for the ark, and finish it to a cubit from the  top; and set the door of the ark in the side of it; you shall make it with lower, second, and third decks. <sup>17</sup> \"Behold, I, even I am bringing the flood of water upon the earth, to destroy all flesh in which is the breath of life, from under heaven; everything that is on the earth shall perish.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -3072,12 +3270,15 @@
             "height": 396,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "wrap": true,
-            "align": "left",
-            "font_size": 26.7
-          }
+            "align": "left"
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Title 2",
@@ -3100,7 +3301,7 @@
         {
           "shape_name": "TextBox 5",
           "static": true,
-          "text": "NASB95",
+          "text": "<em>NASB95</em>",
           "z_index": 2,
           "shape_type": "text_box",
           "layout": {
@@ -3161,7 +3362,7 @@
         {
           "sequence": 3,
           "shape_name": "TextBox 51",
-          "text": "75ft",
+          "text": "<strong>75ft</strong>",
           "timing": "after",
           "z_index": 3,
           "shape_type": "text_box",
@@ -3183,7 +3384,7 @@
         {
           "sequence": 4,
           "shape_name": "TextBox 52",
-          "text": "45ft",
+          "text": "<strong>45ft</strong>",
           "timing": "with",
           "z_index": 4,
           "shape_type": "text_box",
@@ -3205,7 +3406,7 @@
         {
           "sequence": 5,
           "shape_name": "TextBox 50",
-          "text": "450ft",
+          "text": "<strong>450ft</strong>",
           "timing": "with",
           "z_index": 2,
           "shape_type": "text_box",
@@ -3246,7 +3447,7 @@
         {
           "sequence": 7,
           "shape_name": "Text Box 28",
-          "text": "Allegory:  true story with spiritual (symbolic) meaning",
+          "text": "<strong>Allegory:</strong>  true story with <br>spiritual (symbolic) meaning",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
@@ -3257,10 +3458,14 @@
             "height": 56,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 20.0,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
@@ -3275,12 +3480,15 @@
             "width": 16,
             "height": 34,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
           "sequence": 9,
           "shape_name": "Rectangle 73",
-          "text": "Pattern of Salvation:",
+          "text": "<u>Pattern of Salvation:</u>",
           "timing": "with",
           "z_index": 24,
           "shape_type": "text_box",
@@ -3291,9 +3499,13 @@
             "height": 26,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "font_size": 26.7,
+            "underline": true,
             "color": "#000000"
           }
         },
@@ -3319,7 +3531,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 33",
-          "text": "1. Judgment:",
+          "text": "<strong>1. Judgment:</strong>",
           "timing": "click",
           "z_index": 19,
           "shape_type": "text_box",
@@ -3329,6 +3541,9 @@
             "width": 162,
             "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3340,7 +3555,7 @@
         {
           "sequence": 12,
           "shape_name": "Rectangle 29",
-          "text": "Death Sentence",
+          "text": "<strong>Death Sentence</strong>",
           "timing": "click",
           "z_index": 31,
           "shape_type": "rectangle (1)",
@@ -3363,7 +3578,7 @@
         {
           "sequence": 13,
           "shape_name": "Text Box 34",
-          "text": "2. Wrath of God:",
+          "text": "<strong>2. Wrath of God:</strong>",
           "timing": "click",
           "z_index": 20,
           "shape_type": "text_box",
@@ -3373,6 +3588,9 @@
             "width": 199,
             "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3384,7 +3602,7 @@
         {
           "sequence": 14,
           "shape_name": "Rectangle 4",
-          "text": "Flood",
+          "text": "<strong>Flood</strong>",
           "timing": "click",
           "z_index": 30,
           "shape_type": "rectangle (1)",
@@ -3407,7 +3625,7 @@
         {
           "sequence": 15,
           "shape_name": "Text Box 35",
-          "text": "3. Plan of Salvation:",
+          "text": "<strong>3. Plan of Salvation:</strong>",
           "timing": "click",
           "z_index": 21,
           "shape_type": "text_box",
@@ -3417,6 +3635,9 @@
             "width": 240,
             "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3428,7 +3649,7 @@
         {
           "sequence": 16,
           "shape_name": "Text Box 36",
-          "text": "4. Blood:",
+          "text": "<strong>4. Blood:</strong>",
           "timing": "click",
           "z_index": 22,
           "shape_type": "text_box",
@@ -3438,6 +3659,9 @@
             "width": 112,
             "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "v_align": "middle",
@@ -3449,7 +3673,7 @@
         {
           "sequence": 17,
           "shape_name": "Text Box 23",
-          "text": "‘Make an ark, cover inside & out with pitch’",
+          "text": "'Make an ark, cover inside &amp; out with pitch'",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -3460,9 +3684,13 @@
             "height": 36,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
-            "font_size": 26.7
+            "font_size": 26.7,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -3471,28 +3699,9 @@
           }
         },
         {
-          "sequence": 18,
-          "shape_name": "Picture 6",
-          "shape_type": "picture",
-          "image": "image4.png",
-          "timing": "with",
-          "description": "jump",
-          "z_index": 28,
-          "layout": {
-            "x": 923,
-            "y": 22,
-            "width": 16,
-            "height": 13,
-            "rotation": 0.0
-          },
-          "line": {
-            "width": 1
-          }
-        },
-        {
           "sequence": 19,
           "shape_name": "Rectangle 62",
-          "text": "Ark: box, vessel for valuables",
+          "text": "<em>Ark: box, vessel for valuables</em>",
           "timing": "click",
           "z_index": 16,
           "shape_type": "rectangle (1)",
@@ -3503,6 +3712,9 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 26.7,
@@ -3512,7 +3724,7 @@
         {
           "sequence": 20,
           "shape_name": "Rectangle 63",
-          "text": "(n) Pitch: tar, price of life, ransom",
+          "text": "<em>(n) Pitch: tar, price of life, ransom</em>",
           "timing": "with",
           "z_index": 17,
           "shape_type": "rectangle (1)",
@@ -3523,6 +3735,9 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 16.7,
@@ -3532,7 +3747,7 @@
         {
           "sequence": 21,
           "shape_name": "Rectangle 71",
-          "text": "(v) Pitch: cover, make atonement, reconcile",
+          "text": "<em>(v) Pitch: cover, make atonement, reconcile </em>",
           "timing": "with",
           "z_index": 23,
           "shape_type": "rectangle (1)",
@@ -3543,6 +3758,9 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 16.7,
@@ -3552,7 +3770,7 @@
         {
           "sequence": 22,
           "shape_name": "Text Box 26",
-          "text": "Physically, (literally)what is coating the ark?",
+          "text": "<strong>Physically,</strong> <em>(literally)</em><br>what is coating the ark?",
           "timing": "click",
           "z_index": 7,
           "shape_type": "text_box",
@@ -3563,10 +3781,14 @@
             "height": 81,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 30.0,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
@@ -3588,7 +3810,7 @@
         {
           "sequence": 24,
           "shape_name": "Text Box 61",
-          "text": "Spiritually, (symbolic) What is covering the ark?",
+          "text": "<strong>Spiritually, </strong><em>(symbolic)</em><br>What is covering the ark?",
           "timing": "click",
           "z_index": 14,
           "shape_type": "text_box",
@@ -3607,7 +3829,8 @@
           "font": {
             "align": "left",
             "font_size": 30.0,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
@@ -3654,7 +3877,7 @@
         {
           "sequence": 26,
           "shape_name": "Rectangle 32",
-          "text": "Pitch",
+          "text": "<strong>Pitch</strong>",
           "timing": "after",
           "z_index": 33,
           "shape_type": "rectangle (1)",
@@ -3694,7 +3917,7 @@
         {
           "sequence": 28,
           "shape_name": "Rectangle 41",
-          "text": "Hebrews 11:7",
+          "text": "<strong>Hebrews 11:7</strong>",
           "timing": "click",
           "z_index": 35,
           "shape_type": "rectangle (1)",
@@ -3724,7 +3947,7 @@
         {
           "sequence": 29,
           "shape_name": "Rectangle 30",
-          "text": "Ark",
+          "text": "<strong>Ark</strong>",
           "timing": "click",
           "z_index": 32,
           "shape_type": "rectangle (1)",
@@ -3752,7 +3975,7 @@
         {
           "sequence": 30,
           "shape_name": "Text Box 31",
-          "text": "1Peter 3:18-21",
+          "text": "<strong>1Peter 3:18-21</strong>",
           "timing": "click",
           "z_index": 25,
           "shape_type": "text_box",
@@ -3762,6 +3985,9 @@
             "width": 198,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -3777,7 +4003,7 @@
         {
           "sequence": 31,
           "shape_name": "Text Box 37",
-          "text": "Ark & Spiritual Salvation “correspond” ?",
+          "text": "Ark &amp; Spiritual Salvation \"<em><u>correspond</u>\" </em>?",
           "timing": "click",
           "z_index": 9,
           "shape_type": "text_box",
@@ -3788,15 +4014,19 @@
             "height": 26,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 16.7
+            "font_size": 16.7,
+            "wrap": true
           }
         },
         {
           "sequence": 32,
           "shape_name": "Rectangle 27",
-          "text": "“8 persons were brought safely through the water. Corresponding to that,baptism now saves you.”",
+          "text": "<strong>\"8 persons were brought safely through the water. </strong><br><strong>Corresponding to that,</strong><br><strong>baptism now saves you.\"</strong>",
           "timing": "with",
           "z_index": 27,
           "shape_type": "rectangle (1)",
@@ -3806,6 +4036,9 @@
             "width": 279,
             "height": 101,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -3818,7 +4051,7 @@
         {
           "sequence": 33,
           "shape_name": "Text Box 38",
-          "text": "Genesis 7:11",
+          "text": "<strong>Genesis 7:11</strong>",
           "timing": "click",
           "z_index": 10,
           "shape_type": "text_box",
@@ -3828,6 +4061,9 @@
             "width": 180,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -3881,7 +4117,7 @@
         {
           "sequence": 36,
           "shape_name": "Text Box 44",
-          "text": "Water Above",
+          "text": "<strong>Water Above</strong>",
           "timing": "after",
           "z_index": 12,
           "shape_type": "text_box",
@@ -3891,6 +4127,9 @@
             "width": 178,
             "height": 41,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -3902,7 +4141,7 @@
         {
           "sequence": 37,
           "shape_name": "Text Box 45",
-          "text": "Water Below",
+          "text": "<strong>Water Below</strong>",
           "timing": "with",
           "z_index": 36,
           "shape_type": "text_box",
@@ -3912,6 +4151,9 @@
             "width": 177,
             "height": 41,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -3924,7 +4166,7 @@
         {
           "sequence": 38,
           "shape_name": "Text Box 47",
-          "text": "Baptism",
+          "text": "<strong>Baptism</strong>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -3934,6 +4176,9 @@
             "width": 274,
             "height": 69,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -3951,7 +4196,7 @@
         {
           "sequence": 1,
           "shape_name": "Rectangle 7",
-          "text": "Ark",
+          "text": "<strong>Ark</strong>",
           "timing": "click",
           "z_index": 6,
           "shape_type": "rectangle (1)",
@@ -4008,7 +4253,7 @@
         {
           "sequence": 3,
           "shape_name": "Text Box 9",
-          "text": "Water Line",
+          "text": "<strong>Water Line</strong>",
           "timing": "with",
           "delay": 1000,
           "z_index": 15,
@@ -4021,10 +4266,12 @@
             "rotation": 0
           },
           "fill": "#0000FF",
+          "line": {
+            "width": 1
+          },
           "font": {
             "wrap": true,
             "align": "left",
-            "font_name": "Arial",
             "font_size": 26.7,
             "bold": true,
             "color": "#FFFFFF"
@@ -4052,7 +4299,7 @@
         {
           "sequence": 5,
           "shape_name": "Text Box 12",
-          "text": "Death",
+          "text": "<strong>Death</strong>",
           "timing": "after",
           "delay": 500,
           "z_index": 16,
@@ -4064,9 +4311,11 @@
             "height": 88,
             "rotation": 0
           },
+          "line": {
+            "width": 4
+          },
           "font": {
             "align": "center",
-            "font_name": "Arial",
             "font_size": 79.2,
             "bold": true
           }
@@ -4084,12 +4333,15 @@
             "height": 198,
             "rotation": 180.0
           },
-          "fill": "#0000FF"
+          "fill": "#0000FF",
+          "line": {
+            "width": 1
+          }
         },
         {
           "sequence": 7,
           "shape_name": "Text Box 21",
-          "text": "Life",
+          "text": "<strong>Life</strong>",
           "timing": "after",
           "delay": 500,
           "z_index": 14,
@@ -4100,6 +4352,9 @@
             "width": 158,
             "height": 104,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -4122,6 +4377,9 @@
             "width": 338,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -4156,7 +4414,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 10",
-          "text": "Old Self = Sin = Dead",
+          "text": "<strong>Old Self = Sin = Dead</strong>",
           "timing": "with",
           "z_index": 0,
           "shape_type": "text_box",
@@ -4166,6 +4424,9 @@
             "width": 358,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -4197,7 +4458,7 @@
         {
           "sequence": 12,
           "shape_name": "Text Box 13",
-          "text": "Burial",
+          "text": "<strong>Burial</strong>",
           "timing": "with",
           "delay": 1000,
           "z_index": 17,
@@ -4209,6 +4470,9 @@
             "height": 66,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 50.0,
@@ -4219,7 +4483,7 @@
         {
           "sequence": 13,
           "shape_name": "Text Box 17",
-          "text": "Washing away of sinsJohn 13:5Acts 22:16",
+          "text": "Washing away of sins<br>John 13:5<br>Acts 22:16",
           "timing": "click",
           "z_index": 3,
           "shape_type": "text_box",
@@ -4231,9 +4495,13 @@
             "rotation": 0
           },
           "fill": "#F4F4F4",
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
-            "font_size": 21.7
+            "font_size": 21.7,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4244,7 +4512,7 @@
         {
           "sequence": 14,
           "shape_name": "Text Box 16",
-          "text": "& Resurrection",
+          "text": "<strong>&amp; Resurrection</strong>",
           "timing": "click",
           "z_index": 18,
           "shape_type": "text_box",
@@ -4254,6 +4522,9 @@
             "width": 366,
             "height": 66,
             "rotation": 0
+          },
+          "line": {
+            "width": 4
           },
           "font": {
             "align": "left",
@@ -4284,7 +4555,7 @@
         {
           "sequence": 16,
           "shape_name": "Rectangle 33",
-          "text": "Ark = Saved",
+          "text": "<strong>Ark = Saved</strong>",
           "timing": "after",
           "z_index": 9,
           "shape_type": "rectangle (1)",
@@ -4295,6 +4566,9 @@
             "height": 79,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 59.2,
             "bold": true,
@@ -4304,7 +4578,7 @@
         {
           "sequence": 17,
           "shape_name": "Text Box 23",
-          "text": "Baptism = Death, Burial, Resurrection = Free gift of God",
+          "text": "<strong>Baptism = <em>Death, Burial, Resurrection = Free gift of God</em></strong>",
           "timing": "click",
           "z_index": 4,
           "shape_type": "text_box",
@@ -4314,6 +4588,9 @@
             "width": 411,
             "height": 78,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "wrap": true,
@@ -4339,7 +4616,8 @@
           },
           "font": {
             "align": "center",
-            "font_size": 23.3
+            "font_size": 23.3,
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4350,7 +4628,7 @@
         {
           "sequence": 19,
           "shape_name": "Rectangle 33",
-          "text": "= Church",
+          "text": "<strong>= Church</strong>",
           "timing": "click",
           "z_index": 20,
           "shape_type": "rectangle (1)",
@@ -4361,6 +4639,9 @@
             "height": 69,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "font_size": 50.0,
             "bold": true,
@@ -4370,7 +4651,7 @@
         {
           "sequence": 20,
           "shape_name": "Rectangle 33",
-          "text": "(His body)",
+          "text": "<strong>(His body)</strong>",
           "timing": "with",
           "z_index": 21,
           "shape_type": "rectangle (1)",
@@ -4380,6 +4661,9 @@
             "width": 148,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "font_size": 26.7,
@@ -4399,6 +4683,9 @@
             "width": 437,
             "height": 36,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "center",
@@ -4468,7 +4755,7 @@
         {
           "sequence": 2,
           "shape_name": "Text Box 9",
-          "text": "Ark",
+          "text": "<strong>Ark</strong>",
           "timing": "with",
           "delay": 1000,
           "z_index": 10,
@@ -4481,6 +4768,9 @@
             "rotation": 0
           },
           "fill": "#000000",
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 35.0,
@@ -4491,7 +4781,7 @@
         {
           "sequence": 3,
           "shape_name": "Text Box 10",
-          "text": "“Rested”",
+          "text": "<strong>\"Rested\"</strong>",
           "timing": "with",
           "delay": 1000,
           "z_index": 5,
@@ -4503,6 +4793,9 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 26.7,
@@ -4512,7 +4805,7 @@
         {
           "sequence": 4,
           "shape_name": "Text Box 11",
-          "text": "Mountainsof Ararat",
+          "text": "<strong>Mountains</strong><br><strong>of Ararat</strong>",
           "timing": "click",
           "z_index": 6,
           "shape_type": "text_box",
@@ -4523,16 +4816,20 @@
             "height": 72,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 26.7,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
           "sequence": 5,
           "shape_name": "Text Box 12",
-          "text": "“Exalted Mountain”",
+          "text": "<strong>\"Exalted Mountain\"</strong>",
           "timing": "click",
           "z_index": 7,
           "shape_type": "text_box",
@@ -4543,6 +4840,9 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 26.7,
@@ -4552,7 +4852,7 @@
         {
           "sequence": 6,
           "shape_name": "Text Box 13",
-          "text": "Hebrews 12:2Hebrews 12:22-23Psalms 99",
+          "text": "<strong>Hebrews 12:2</strong><br><strong>Hebrews 12:22-23</strong><br><strong>Psalms 99</strong>",
           "timing": "click",
           "z_index": 8,
           "shape_type": "text_box",
@@ -4563,11 +4863,15 @@
             "height": 105,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 26.7,
             "bold": true,
-            "color": "#0000FF"
+            "color": "#0000FF",
+            "wrap": true
           },
           "hyperlink": {
             "type": "customshow",
@@ -4608,7 +4912,7 @@
         {
           "sequence": 8,
           "shape_name": "Text Box 15",
-          "text": "Christ “sat down”",
+          "text": "<strong>Christ </strong><br><strong>\"sat down\"</strong>",
           "timing": "after",
           "z_index": 11,
           "shape_type": "text_box",
@@ -4619,16 +4923,20 @@
             "height": 72,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 26.7,
-            "bold": true
+            "bold": true,
+            "wrap": true
           }
         },
         {
           "sequence": 9,
           "shape_name": "Text Box 14",
-          "text": "Church",
+          "text": "<strong>Church</strong>",
           "timing": "click",
           "z_index": 9,
           "shape_type": "text_box",
@@ -4640,6 +4948,9 @@
             "rotation": 0
           },
           "fill": "#000000",
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "center",
             "font_size": 35.0,
@@ -4650,7 +4961,7 @@
         {
           "sequence": 10,
           "shape_name": "Text Box 16",
-          "text": "Mount Zion",
+          "text": "<strong>Mount Zion</strong>",
           "timing": "click",
           "z_index": 12,
           "shape_type": "text_box",
@@ -4661,6 +4972,9 @@
             "height": 40,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "align": "left",
             "font_size": 26.7,
@@ -4670,7 +4984,7 @@
         {
           "sequence": 11,
           "shape_name": "Text Box 17",
-          "text": "“Exalted Mountain”",
+          "text": "<strong>\"Exalted Mountain\"</strong>",
           "timing": "click",
           "z_index": 13,
           "shape_type": "text_box",
@@ -4680,6 +4994,9 @@
             "width": 266,
             "height": 40,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           },
           "font": {
             "align": "left",
@@ -4692,7 +5009,7 @@
         {
           "shape_name": "Rectangle 6",
           "static": true,
-          "text": "1 But God  remembered Noah and all the beasts and all the cattle that were with him in the ark; and God caused a wind to pass over the earth, and the water subsided. 2 Also the fountains of the deep and the floodgates of the sky were closed, and the rain from the sky was restrained; 3 and the water receded steadily from the earth, and at the end of  one hundred and fifty days the water decreased. 4 In the seventh month, on the seventeenth day of the month, the ark rested upon the mountains of Ararat.",
+          "text": "<sup>1</sup> But God  remembered Noah and all the beasts and all the cattle that were with him in the ark; and God caused a wind to pass over the earth, and the water subsided.<sup> </sup><sup>2</sup><sup> </sup>Also the <strong>fountains of the deep</strong> and the <strong>floodgates of the sky</strong> were closed, and the rain from the sky was restrained; <sup>3</sup> and the water receded steadily from the earth, and at the end of  one hundred and fifty days the water decreased. <br><sup>4</sup> In the seventh month, on the seventeenth day of the month, <strong>the ark rested upon</strong> the mountains of Ararat.",
           "z_index": 0,
           "shape_type": "rectangle (1)",
           "layout": {
@@ -4702,12 +5019,16 @@
             "height": 192,
             "rotation": 0
           },
+          "line": {
+            "width": 1
+          },
           "font": {
             "v_align": "middle",
             "align": "left",
-            "font_size": 21.7,
-            "italic": true
-          }
+            "italic": true,
+            "wrap": true
+          },
+          "is_scripture": true
         },
         {
           "shape_name": "Rectangle 19",
@@ -4760,6 +5081,9 @@
             "width": 16,
             "height": 46,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
@@ -4773,6 +5097,9 @@
             "width": 16,
             "height": 125,
             "rotation": 0
+          },
+          "line": {
+            "width": 1
           }
         },
         {
